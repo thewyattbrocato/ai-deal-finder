@@ -6,7 +6,10 @@ output against this exact table.**
 `buy`, `wait`, and `verify` sound decisive, so this table fixes what each verdict
 promises, the minimum evidence each requires, what forces a downgrade, and when
 to abstain instead. Independent reviewers apply this table without seeing
-implementation internals.
+implementation internals. The Jev judgment-layer binding of this table —
+verdict Choice, eligibility/ranking Scores, condition Nouls, composition order,
+and confidence gates — is specified in `JUDGMENT_ENGINE.md`; this table remains
+the semantic authority and the Decision gate scores output against both.
 
 ## Minimum evidence per verdict
 

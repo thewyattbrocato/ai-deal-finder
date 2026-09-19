@@ -90,3 +90,6 @@ current draft corpus is `FIXTURES.json` (21 cases, IDs `EX-001` … `HIST-002`).
 6. Incomplete landed-cost behavior and fixtures — `LANDED_COST.md` plus `LC-*`
    cases in `FIXTURES.json`.
 7. Gate-by-gate evidence record — `VALIDATION_RECORD.md`.
+8. Judgment engine (Jev TypeSafe System One as specified judgment layer;
+   deterministic policy, arithmetic, provenance, consent, stops, and actions
+   stay in code) — `JUDGMENT_ENGINE.md`. No live integration or API calls.

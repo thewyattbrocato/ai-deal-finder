@@ -13,4 +13,5 @@ validation gates with evidence. No skill or app code lives here.
 - Discovery and substitute bounds: `DISCOVERY.md`.
 - Unknown-cost behavior: `LANDED_COST.md`.
 - Draft fixture corpus (21 cases, needs independent relabeling): `FIXTURES.json`.
+- Judgment engine spec (Jev Choice/Score/Noul binding; no live integration): `JUDGMENT_ENGINE.md`.
 - Gate-by-gate evidence record (all gates not run/blocked): `VALIDATION_RECORD.md`.
