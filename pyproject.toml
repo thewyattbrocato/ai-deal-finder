@@ -1,0 +1,11 @@
+[project]
+name = "ai-deal-finder"
+version = "1.0.0"
+description = "Fail-closed policy runtime for the Deal Finder agent skill"
+requires-python = ">=3.11"
+
+[project.scripts]
+deal-finder = "deal_finder.runtime:main"
+
+[tool.setuptools]
+packages = ["deal_finder"]
