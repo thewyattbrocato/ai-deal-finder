@@ -39,12 +39,18 @@ EVIDENCE_STATES = {
 DECISIVE_EVIDENCE = {"observed-now", "applied-in-anonymous-cart"}
 EXCLUDED_CATEGORIES = {
     "subscription",
+    "subscriptions",
     "financial",
+    "financial products",
     "medical",
-    "controlled-good",
-    "resale-speculation",
+    "medical products",
+    "controlled good",
+    "controlled goods",
+    "resale speculation",
     "negotiation",
 }
+CONSENT_SCOPE = "logged-out anonymous-cart coupon testing; pre-payment totals only"
+CONSENT_EXCLUDES = {"login", "checkout", "payment", "personal data", "account mutation", "inventory reservation"}
 FORBIDDEN_STATE_KEYS = {
     "address",
     "full_address",
@@ -84,6 +90,40 @@ def _require(mapping: dict[str, Any], fields: tuple[str, ...], context: str) -> 
     missing = [field for field in fields if field not in mapping]
     if missing:
         raise DealFinderError(f"{context} missing required fields: {', '.join(missing)}")
+
+
+def _is_absolute_timestamp(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    normalized = value[:-1] + "+00:00" if value.endswith("Z") else value
+    try:
+        parsed = datetime.fromisoformat(normalized)
+    except ValueError:
+        return False
+    return parsed.tzinfo is not None and parsed.utcoffset() is not None
+
+
+def _normalized_category(value: Any) -> str:
+    return str(value).strip().lower().replace("-", " ").replace("_", " ")
+
+
+def _valid_consent_record(consent: dict[str, Any] | None) -> bool:
+    if not isinstance(consent, dict):
+        return False
+    required = ("consent_id", "status", "scope", "excludes", "session_id", "granted_at", "last_changed_at")
+    if any(field not in consent for field in required):
+        return False
+    if consent["status"] != "granted":
+        return False
+    if not all(isinstance(consent[field], str) and consent[field] for field in ("consent_id", "session_id")):
+        return False
+    if consent["scope"] != CONSENT_SCOPE:
+        return False
+    if not isinstance(consent["excludes"], list) or not all(isinstance(item, str) for item in consent["excludes"]):
+        return False
+    if not CONSENT_EXCLUDES.issubset(set(consent["excludes"])):
+        return False
+    return _is_absolute_timestamp(consent["granted_at"]) and _is_absolute_timestamp(consent["last_changed_at"])
 
 
 def _reject_private_data(value: Any, path: str = "state") -> None:
@@ -169,6 +209,8 @@ def _validate_candidate(candidate: dict[str, Any]) -> None:
     )
     if candidate["evidence_state"] not in EVIDENCE_STATES:
         raise DealFinderError(f"candidate {candidate['id']} has an invalid evidence_state")
+    if not _is_absolute_timestamp(candidate["observed_at"]):
+        raise DealFinderError(f"candidate {candidate['id']} observed_at must be an absolute timestamp")
     if candidate["is_substitute"]:
         _require(candidate, ("must_haves_met", "material_differences"), f"candidate {candidate['id']}")
     else:
@@ -335,7 +377,7 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
             }
         return output
 
-    category = str(state["request"]["category"]).lower()
+    category = _normalized_category(state["request"]["category"])
     if category in EXCLUDED_CATEGORIES:
         return result("abstain", f"excluded category: {category}", None, "No ranking was performed.")
 
@@ -374,7 +416,7 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
         return result("verify", "a stop condition is present or uncertain", winner_summary, "Resolve the flagged source or seller condition.")
     if not _noul_supports(judgment, "identity_exact") or not _noul_supports(judgment, "in_stock_win"):
         return result("verify", "identity or stock judgment is missing, negative, or uncertain", winner_summary, "Confirm exact identity and current stock.")
-    if state["request"]["mode"] == "non-browsing" and _noul_forces_verify(judgment, "single_offer_only"):
+    if state["request"]["mode"] == "non-browsing" and (len(eligible) < 2 or _noul_forces_verify(judgment, "single_offer_only")):
         return result("verify", "non-browsing comparison is insufficient", winner_summary, "Compare one other exact offer.")
     if not robust:
         return result("verify", "landed-cost ranges overlap or contain an unbounded unknown", winner_summary, "Confirm the unknown shipping, fee, or tax that could change the winner.")
@@ -392,7 +434,7 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
         if winner["evidence_state"] not in DECISIVE_EVIDENCE:
             return result("verify", "winner lacks decisive current evidence", winner_summary, "Confirm the exact payable total on the merchant page.")
         if winner["evidence_state"] == "applied-in-anonymous-cart":
-            if state["consent"].get("status") != "granted" or not _noul_supports(judgment, "consent_covers_test"):
+            if not _valid_consent_record(state["consent"]) or not _noul_supports(judgment, "consent_covers_test"):
                 return result("verify", "cart-applied evidence lacks a matching consent judgment", winner_summary, "Treat the coupon as unverified unless a consent-linked cart record exists.")
         return result("buy", "exact, robust, current evidence meets the buy minimum", winner_summary, f"Open {winner['source']} and confirm the unchanged payable total before purchasing yourself.")
     if selected == "wait":
@@ -421,8 +463,8 @@ def grant_consent(path: Path, session_id: str, confirmed: bool, at: str | None =
     record = {
         "consent_id": str(uuid.uuid4()),
         "status": "granted",
-        "scope": "logged-out anonymous-cart coupon testing; pre-payment totals only",
-        "excludes": ["login", "checkout", "payment", "personal data", "account mutation", "inventory reservation"],
+        "scope": CONSENT_SCOPE,
+        "excludes": sorted(CONSENT_EXCLUDES),
         "session_id": session_id,
         "granted_at": changed_at,
         "last_changed_at": changed_at,
@@ -454,17 +496,20 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
     )
     _require(run, required, "cart run")
     reasons = []
-    if not consent or consent.get("status") != "granted":
+    if not _valid_consent_record(consent):
         reasons.append("explicit consent is absent or revoked")
-    if not run["browser_tools"]:
+    for field in ("browser_tools", "logged_out", "cleanup_guaranteed", "scarce_inventory"):
+        if not isinstance(run[field], bool):
+            reasons.append(f"{field} must be a JSON boolean")
+    if isinstance(run["browser_tools"], bool) and not run["browser_tools"]:
         reasons.append("browser tools are unavailable")
     if run["merchant_rules"] != "allow":
         reasons.append("merchant rules do not clearly allow testing")
-    if not run["logged_out"]:
+    if isinstance(run["logged_out"], bool) and not run["logged_out"]:
         reasons.append("logged-out state is not guaranteed")
-    if not run["cleanup_guaranteed"]:
+    if isinstance(run["cleanup_guaranteed"], bool) and not run["cleanup_guaranteed"]:
         reasons.append("visible empty-cart and browser-session cleanup cannot be guaranteed")
-    if run["scarce_inventory"]:
+    if isinstance(run["scarce_inventory"], bool) and run["scarce_inventory"]:
         reasons.append("the item may reserve scarce inventory")
     budget = run["attempt_budget"]
     planned = run["attempts_planned"]
@@ -476,7 +521,7 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
     return {
         "allowed": allowed,
         "mode": "anonymous-cart" if allowed else "research-only",
-        "consent_id": consent.get("consent_id") if consent else None,
+        "consent_id": consent.get("consent_id") if isinstance(consent, dict) else None,
         "session_id": run["session_id"],
         "merchant": run["merchant"],
         "attempt_budget": budget,
@@ -488,7 +533,7 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
 def call_jev(state: dict[str, Any]) -> dict[str, Any] | None:
     """Call Jev when configured; outages degrade to None and never to a verdict."""
     validate_state(state)
-    if str(state["request"]["category"]).lower() in EXCLUDED_CATEGORIES:
+    if _normalized_category(state["request"]["category"]) in EXCLUDED_CATEGORIES:
         return None
     key = os.environ.get("TYPESAFE_API_KEY")
     if not key:
