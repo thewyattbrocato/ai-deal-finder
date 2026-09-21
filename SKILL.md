@@ -30,7 +30,7 @@ Produce one defensible purchase decision. Evidence outranks deal volume.
 Coupon research is allowed without cart mutation. Testing in a cart is optional and requires the user's explicit yes.
 
 1. Ask once: "May I test public coupon codes in a logged-out anonymous cart? I will stop before login or checkout, use no personal or payment data, reserve no scarce inventory, and restore an empty cart plus clean up the browser session. You can revoke this at any time."
-2. Only after an actual yes, persist it with `scripts/deal-finder consent grant --file <consent.json> --session <session-id> --confirmed`. Never infer consent or add `--confirmed` without that yes.
+2. Only after an actual yes, persist it with `scripts/deal-finder consent grant --file <consent.json> --session <session-id> --merchant <merchant> --attempt <attempt-id> --confirmed`. Never infer consent or add `--confirmed` without that yes. Each grant covers one merchant and one coupon attempt.
 3. Before every merchant run, create a run JSON and execute `scripts/deal-finder cart-check --consent <consent.json> --run <run.json>`. Proceed only when `allowed: true`.
 4. Use no more than the declared budget (maximum 3 combinations), prioritizing published terms. Stop immediately on login, checkout, personal-data, payment, account, reservation, budget, rule, or cleanup boundaries.
 5. Restore a visibly empty cart, clean the browser session, and record merchant, actions, budget used/declared, stop reason, and observed cleanup. Do not claim knowledge of merchant-side identifiers.

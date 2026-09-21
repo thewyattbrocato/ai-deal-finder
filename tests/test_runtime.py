@@ -1,13 +1,16 @@
+import os
 import tempfile
 import unittest
 from contextlib import redirect_stdout
 from io import StringIO
 from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 from deal_finder.runtime import (
     DealFinderError,
     authorize_cart_test,
     build_jev_request,
+    call_jev,
     evaluate,
     grant_consent,
     revoke_consent,
@@ -99,6 +102,18 @@ def judgment(choice="buy"):
     return {"model": "jev-1.13.0", "answers": answers, "usage": {"input_tokens": 1, "output_tokens": 1}}
 
 
+def granted(merchant="Example Merchant", attempt="attempt-1", session="session-1", at="2026-09-19T12:00:00Z"):
+    with tempfile.TemporaryDirectory() as directory:
+        return grant_consent(
+            Path(directory) / "consent.json",
+            session,
+            confirmed=True,
+            merchant=merchant,
+            attempt=attempt,
+            at=at,
+        )
+
+
 class DecisionTests(unittest.TestCase):
     def test_missing_judgment_fails_closed_to_verify(self):
         result = evaluate(state())
@@ -170,6 +185,30 @@ class DecisionTests(unittest.TestCase):
         with self.assertRaisesRegex(DealFinderError, "lacks cart or checkout proof"):
             evaluate(value, judgment())
 
+    def test_unproven_checkout_credit_does_not_beat_a_higher_cash_price(self):
+        value = state()
+        value["candidates"][0]["item_price"] = "30"
+        value["candidates"][0]["immediate_discount"] = "0"
+        value["candidates"][0]["checkout_credit"] = "20"
+        value["candidates"][0]["tax"] = "0"
+        value["candidates"][1]["item_price"] = "18"
+        value["candidates"][1]["tax"] = "0"
+        result = evaluate(value, judgment())
+        self.assertEqual(result["verdict"], "buy")
+        self.assertEqual(result["winner"]["id"], "C2")
+
+    def test_unproven_checkout_credit_is_disclosed_with_delayed_value(self):
+        value = state()
+        value["candidates"][0]["checkout_credit"] = "5"
+        value["candidates"][0]["delayed_value"] = "4% cash back"
+        result = evaluate(value, judgment())
+        self.assertEqual(result["verdict"], "buy")
+        self.assertEqual(result["winner"]["id"], "C1")
+        self.assertEqual(
+            result["winner"]["delayed_value"],
+            {"delayed_value": "4% cash back", "checkout_credit": "5"},
+        )
+
     def test_adversarial_substitute_is_excluded(self):
         value = state()
         candidate = value["candidates"][0]
@@ -186,6 +225,22 @@ class DecisionTests(unittest.TestCase):
         value["request"]["full_address"] = "not allowed"
         with self.assertRaisesRegex(DealFinderError, "private field"):
             build_jev_request(value)
+
+    def test_private_data_aliases_are_rejected_before_jev_request(self):
+        samples = {
+            "credit_card": "4111111111111111",
+            "credit_card_number": "4111111111111111",
+            "ssn": "123-45-6789",
+            "social_security_number": "123-45-6789",
+            "payment_method": "visa",
+            "shipping_address": "1 Main St",
+        }
+        for key, sample in samples.items():
+            with self.subTest(key=key):
+                value = state()
+                value["request"][key] = sample
+                with self.assertRaisesRegex(DealFinderError, "private field"):
+                    build_jev_request(value)
 
     def test_excluded_category_abstains_without_ranking(self):
         for category in ("medical", "subscriptions", "controlled goods"):
@@ -212,6 +267,60 @@ class DecisionTests(unittest.TestCase):
         with self.assertRaisesRegex(DealFinderError, "absolute timestamp"):
             evaluate(value, judgment())
 
+    def test_named_history_can_wait_without_extra_flag(self):
+        value = state()
+        value["history"] = {
+            "provider": "Example Tracker",
+            "coverage": "Example Widget 2-pack on Example Merchant",
+            "region": "US",
+            "window": "90 days",
+            "recheck_trigger": "Recheck the merchant page before the restock window ends.",
+        }
+        result = evaluate(value, judgment("wait"))
+        self.assertEqual(result["verdict"], "wait")
+        self.assertIn("Recheck the merchant page", result["next_action"])
+
+    def test_cart_applied_buy_requires_consent_merchant_to_match_winner(self):
+        value = state()
+        value["candidates"][0]["evidence_state"] = "applied-in-anonymous-cart"
+        value["consent"] = granted(merchant="Other Merchant")
+        result = evaluate(value, judgment())
+        self.assertEqual(result["verdict"], "verify")
+        self.assertIn("consent", result["reason"])
+
+    def test_cart_applied_buy_with_matching_merchant_consent(self):
+        value = state()
+        value["candidates"][0]["evidence_state"] = "applied-in-anonymous-cart"
+        value["consent"] = granted(merchant="Example Merchant")
+        result = evaluate(value, judgment())
+        self.assertEqual(result["verdict"], "buy")
+
+    def test_malformed_coupon_shape_fails_closed(self):
+        value = state()
+        value["candidates"][0]["immediate_discount"] = "5"
+        value["candidates"][0]["coupon"] = "SAVE10"
+        with self.assertRaisesRegex(DealFinderError, "coupon must be an object"):
+            evaluate(value, judgment())
+
+    def test_malformed_verdict_answer_fails_closed_to_verify(self):
+        response = judgment()
+        response["answers"]["verdict"] = "buy"
+        result = evaluate(state(), response)
+        self.assertEqual(result["verdict"], "verify")
+
+    def test_non_object_judgment_fails_closed_to_verify(self):
+        result = evaluate(state(), ["buy"])
+        self.assertEqual(result["verdict"], "verify")
+
+    def test_non_object_jev_response_degrades_without_verdict(self):
+        response = MagicMock()
+        response.read.return_value = b"[1, 2]"
+        response.__enter__.return_value = response
+        response.__exit__.return_value = False
+        with patch.dict(os.environ, {"TYPESAFE_API_KEY": "test-key"}):
+            with patch("deal_finder.runtime.urllib.request.urlopen", return_value=response):
+                self.assertIsNone(call_jev(state()))
+
     def test_jev_request_contains_choice_scores_and_nouls(self):
         value = state()
         value["candidates"][0]["is_substitute"] = True
@@ -233,6 +342,7 @@ class ConsentTests(unittest.TestCase):
     def run_input(self):
         return {
             "merchant": "Example Merchant",
+            "attempt": "attempt-1",
             "session_id": "session-1",
             "browser_tools": True,
             "merchant_rules": "allow",
@@ -242,6 +352,16 @@ class ConsentTests(unittest.TestCase):
             "attempt_budget": 2,
             "attempts_planned": 1,
         }
+
+    def grant(self, path, session="session-1", merchant="Example Merchant", attempt="attempt-1", **kwargs):
+        return grant_consent(
+            path,
+            session,
+            confirmed=True,
+            merchant=merchant,
+            attempt=attempt,
+            **kwargs,
+        )
 
     def test_absent_consent_is_research_only(self):
         result = authorize_cart_test(None, self.run_input())
@@ -256,7 +376,7 @@ class ConsentTests(unittest.TestCase):
     def test_explicit_consent_allows_only_bounded_anonymous_test(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            consent = grant_consent(path, "session-1", confirmed=True, at="2026-09-19T12:00:00Z")
+            consent = self.grant(path, at="2026-09-19T12:00:00Z")
             result = authorize_cart_test(consent, self.run_input())
         self.assertTrue(result["allowed"])
         self.assertIn("empty-cart", result["required_cleanup_log"])
@@ -264,7 +384,7 @@ class ConsentTests(unittest.TestCase):
     def test_revocation_halts_future_actions(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            grant_consent(path, "session-1", confirmed=True)
+            self.grant(path)
             consent = revoke_consent(path)
             result = authorize_cart_test(consent, self.run_input())
         self.assertFalse(result["allowed"])
@@ -272,15 +392,35 @@ class ConsentTests(unittest.TestCase):
     def test_saved_consent_persists_into_a_later_session(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            consent = grant_consent(path, "original-session", confirmed=True)
+            consent = self.grant(path, session="original-session")
             result = authorize_cart_test(consent, self.run_input())
         self.assertTrue(result["allowed"])
         self.assertEqual(result["session_id"], "session-1")
 
+    def test_consent_for_one_merchant_does_not_authorize_another(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "consent.json"
+            consent = self.grant(path, merchant="Example Merchant")
+            run = self.run_input()
+            run["merchant"] = "Other Store"
+            result = authorize_cart_test(consent, run)
+        self.assertFalse(result["allowed"])
+        self.assertIn("merchant", result["stop_reason"])
+
+    def test_consent_for_one_attempt_does_not_authorize_another(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "consent.json"
+            consent = self.grant(path, attempt="attempt-1")
+            run = self.run_input()
+            run["attempt"] = "attempt-2"
+            result = authorize_cart_test(consent, run)
+        self.assertFalse(result["allowed"])
+        self.assertIn("attempt", result["stop_reason"])
+
     def test_login_or_uncertain_cleanup_forces_research_only(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            consent = grant_consent(path, "session-1", confirmed=True)
+            consent = self.grant(path)
             for field in ("logged_out", "cleanup_guaranteed"):
                 run = self.run_input()
                 run[field] = False
@@ -290,7 +430,7 @@ class ConsentTests(unittest.TestCase):
     def test_ambiguous_merchant_rules_and_scarce_inventory_are_denied(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            consent = grant_consent(path, "session-1", confirmed=True)
+            consent = self.grant(path)
             run = self.run_input()
             run["merchant_rules"] = "ambiguous"
             run["scarce_inventory"] = True
@@ -301,7 +441,7 @@ class ConsentTests(unittest.TestCase):
     def test_cart_run_boolean_strings_are_research_only(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "consent.json"
-            consent = grant_consent(path, "session-1", confirmed=True)
+            consent = self.grant(path)
             for field in ("browser_tools", "logged_out", "cleanup_guaranteed", "scarce_inventory"):
                 run = self.run_input()
                 run[field] = "false"
@@ -309,6 +449,17 @@ class ConsentTests(unittest.TestCase):
                     result = authorize_cart_test(consent, run)
                     self.assertFalse(result["allowed"])
                     self.assertIn("JSON boolean", result["stop_reason"])
+
+    def test_boolean_budget_fields_are_research_only(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "consent.json"
+            consent = self.grant(path)
+            for field in ("attempt_budget", "attempts_planned"):
+                run = self.run_input()
+                run[field] = True
+                with self.subTest(field=field):
+                    result = authorize_cart_test(consent, run)
+                    self.assertFalse(result["allowed"])
 
 
 class CLITests(unittest.TestCase):

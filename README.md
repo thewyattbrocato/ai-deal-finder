@@ -71,16 +71,20 @@ provenance fields plus deterministic cost inputs:
 
 Costs are decimal strings, `null` for unknown, or `{"min":"0","max":"5"}`
 for a bounded range. `delayed_value` is disclosed but never enters ranking.
-`immediate_discount` tied to a coupon is accepted only when coupon status is
-`applied-in-anonymous-cart` or `shopper-confirmed-at-checkout`.
+Unproven `checkout_credit` is disclosed with `delayed_value` and is never
+subtracted from the ranked total. `immediate_discount` tied to a coupon is
+accepted only when coupon status is `applied-in-anonymous-cart` or
+`shopper-confirmed-at-checkout`.
 
 ## Cart authorization
 
-The CLI persists explicit consent, but performs no browser action. `cart-check`
-requires a run JSON naming `merchant`, `session_id`, `browser_tools`,
+The CLI persists explicit consent, but performs no browser action. Consent
+grant records the merchant and coupon attempt the grant covers. `cart-check`
+requires a run JSON naming `merchant`, `attempt`, `session_id`, `browser_tools`,
 `merchant_rules` (`allow` only), `logged_out`, `cleanup_guaranteed`,
-`scarce_inventory`, `attempt_budget` (1-3), and `attempts_planned`. Any missing,
-false, ambiguous, or revoked prerequisite returns `research-only`.
+`scarce_inventory`, `attempt_budget` (1-3), and `attempts_planned`. Consent for
+one merchant or attempt cannot authorize a different merchant's cart test. Any
+missing, false, ambiguous, or revoked prerequisite returns `research-only`.
 
 - Frozen product vision: `VISION.md` (do not edit; SHA-256
   `8ff9483d1c343490d9ab6ee752957ca7ef894853102f101557fed4157b8d8484`).

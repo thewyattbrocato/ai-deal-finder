@@ -51,17 +51,20 @@ EXCLUDED_CATEGORIES = {
 }
 CONSENT_SCOPE = "logged-out anonymous-cart coupon testing; pre-payment totals only"
 CONSENT_EXCLUDES = {"login", "checkout", "payment", "personal data", "account mutation", "inventory reservation"}
-FORBIDDEN_STATE_KEYS = {
+FORBIDDEN_KEY_TOKENS = {
     "address",
-    "full_address",
     "payment",
-    "payment_data",
-    "card_number",
+    "card",
     "credentials",
     "password",
-    "government_id",
-    "browsing_history",
+    "ssn",
 }
+FORBIDDEN_KEY_PHRASES = (
+    "government_id",
+    "social_security",
+    "browsing_history",
+    "credit_card",
+)
 
 
 class DealFinderError(ValueError):
@@ -107,15 +110,35 @@ def _normalized_category(value: Any) -> str:
     return str(value).strip().lower().replace("-", " ").replace("_", " ")
 
 
+def _json_int(value: Any) -> bool:
+    return isinstance(value, int) and not isinstance(value, bool)
+
+
+def _non_empty_str(value: Any) -> bool:
+    return isinstance(value, str) and bool(value)
+
+
 def _valid_consent_record(consent: dict[str, Any] | None) -> bool:
     if not isinstance(consent, dict):
         return False
-    required = ("consent_id", "status", "scope", "excludes", "session_id", "granted_at", "last_changed_at")
+    required = (
+        "consent_id",
+        "status",
+        "scope",
+        "excludes",
+        "session_id",
+        "merchant",
+        "attempt",
+        "granted_at",
+        "last_changed_at",
+    )
     if any(field not in consent for field in required):
         return False
     if consent["status"] != "granted":
         return False
-    if not all(isinstance(consent[field], str) and consent[field] for field in ("consent_id", "session_id")):
+    if not all(
+        _non_empty_str(consent[field]) for field in ("consent_id", "session_id", "merchant", "attempt")
+    ):
         return False
     if consent["scope"] != CONSENT_SCOPE:
         return False
@@ -126,11 +149,17 @@ def _valid_consent_record(consent: dict[str, Any] | None) -> bool:
     return _is_absolute_timestamp(consent["granted_at"]) and _is_absolute_timestamp(consent["last_changed_at"])
 
 
+def _is_forbidden_state_key(key: str) -> bool:
+    normalized = key.lower().replace("-", "_").replace(" ", "_")
+    if any(phrase in normalized for phrase in FORBIDDEN_KEY_PHRASES):
+        return True
+    return any(token in FORBIDDEN_KEY_TOKENS for token in normalized.split("_") if token)
+
+
 def _reject_private_data(value: Any, path: str = "state") -> None:
     if isinstance(value, dict):
         for key, child in value.items():
-            normalized = key.lower().replace("-", "_").replace(" ", "_")
-            if normalized in FORBIDDEN_STATE_KEYS:
+            if _is_forbidden_state_key(str(key)):
                 raise DealFinderError(f"private field is not allowed: {path}.{key}")
             _reject_private_data(child, f"{path}.{key}")
     elif isinstance(value, list):
@@ -161,18 +190,19 @@ def landed_cost(candidate: dict[str, Any]) -> dict[str, Any]:
     )
     price = _decimal(candidate["item_price"], "item_price")
     discount = _decimal(candidate["immediate_discount"], "immediate_discount")
-    credit = _decimal(candidate.get("checkout_credit", 0), "checkout_credit")
-    if discount + credit > price:
-        raise DealFinderError("discount and checkout credit cannot exceed item price")
+    if discount > price:
+        raise DealFinderError("immediate discount cannot exceed item price")
 
     coupon = candidate.get("coupon")
+    if coupon is not None and not isinstance(coupon, dict):
+        raise DealFinderError("coupon must be an object")
     if discount and coupon and coupon.get("status") not in {
         "applied-in-anonymous-cart",
         "shopper-confirmed-at-checkout",
     }:
         raise DealFinderError("immediate coupon discount lacks cart or checkout proof")
 
-    low = price - discount - credit
+    low = price - discount
     high: Decimal | None = low
     unknowns: list[str] = []
     for name in ("shipping", "mandatory_fees", "tax", "required_membership_cost"):
@@ -222,6 +252,12 @@ def validate_state(state: dict[str, Any]) -> None:
     _reject_private_data(state)
     _require(state, ("request", "candidates", "consent", "history"), "state")
     request = state["request"]
+    if not isinstance(request, dict):
+        raise DealFinderError("request must be an object")
+    if not isinstance(state["consent"], dict):
+        raise DealFinderError("consent must be an object")
+    if not isinstance(state["history"], dict):
+        raise DealFinderError("history must be an object")
     _require(
         request,
         ("item", "must_have_attributes", "may_vary", "region", "currency", "mode", "category"),
@@ -232,12 +268,14 @@ def validate_state(state: dict[str, Any]) -> None:
     candidates = state["candidates"]
     if not isinstance(candidates, list):
         raise DealFinderError("candidates must be an array")
-    direct_count = sum(not item.get("is_substitute", False) for item in candidates)
-    substitute_count = sum(bool(item.get("is_substitute", False)) for item in candidates)
+    direct_count = sum(not item.get("is_substitute", False) for item in candidates if isinstance(item, dict))
+    substitute_count = sum(bool(item.get("is_substitute", False)) for item in candidates if isinstance(item, dict))
     if direct_count > 6 or substitute_count > 4:
         raise DealFinderError("candidate bounds exceeded (6 direct, 4 substitutes)")
     ids: set[str] = set()
     for candidate in candidates:
+        if not isinstance(candidate, dict):
+            raise DealFinderError("candidate must be an object")
         _validate_candidate(candidate)
         if candidate["id"] in ids:
             raise DealFinderError(f"duplicate candidate id: {candidate['id']}")
@@ -328,8 +366,13 @@ def _rank(eligible: list[tuple[dict[str, Any], dict[str, Any]]]) -> tuple[dict[s
 
 
 def _answer(judgment: dict[str, Any], question_id: str) -> dict[str, Any] | None:
+    if not isinstance(judgment, dict):
+        return None
     answers = judgment.get("answers", {})
-    return answers.get(question_id)
+    if not isinstance(answers, dict):
+        return None
+    answer = answers.get(question_id)
+    return answer if isinstance(answer, dict) else None
 
 
 def _noul_forces_verify(judgment: dict[str, Any], question_id: str) -> bool:
@@ -363,13 +406,25 @@ def _format_money(value: Decimal | None) -> str:
     return "unknown" if value is None else format(value.quantize(Decimal("0.01")), "f")
 
 
+def _delayed_disclosure(candidate: dict[str, Any]) -> Any:
+    delayed = candidate.get("delayed_value")
+    credit = candidate.get("checkout_credit")
+    if credit is None or credit == 0 or credit == "0":
+        return delayed
+    if delayed is None:
+        return {"checkout_credit": credit}
+    if isinstance(delayed, dict):
+        return {**delayed, "checkout_credit": credit}
+    return {"delayed_value": delayed, "checkout_credit": credit}
+
+
 def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> dict[str, Any]:
     """Compose deterministic rules and an optional Jev response into a verdict."""
     validate_state(state)
 
     def result(verdict: str, reason: str, winner: dict[str, Any] | None, next_action: str) -> dict[str, Any]:
         output = _result(verdict, reason, winner, next_action)
-        if judgment is not None:
+        if isinstance(judgment, dict):
             output["judgment_log"] = {
                 "model": judgment.get("model"),
                 "usage": judgment.get("usage"),
@@ -397,10 +452,10 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
         "observed_at": winner["observed_at"],
         "evidence_state": winner["evidence_state"],
         "material_differences": winner.get("material_differences", []),
-        "delayed_value": winner.get("delayed_value"),
+        "delayed_value": _delayed_disclosure(winner),
     }
 
-    if judgment is None:
+    if judgment is None or not isinstance(judgment, dict):
         return result("verify", "judgment service unavailable or not run", winner_summary, "Confirm the payable total and exact item on the merchant page.")
     if judgment.get("model") != MODEL:
         return result("verify", "judgment model is missing or not the pinned version", winner_summary, "Re-run judgment with jev-1.13.0.")
@@ -434,13 +489,18 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
         if winner["evidence_state"] not in DECISIVE_EVIDENCE:
             return result("verify", "winner lacks decisive current evidence", winner_summary, "Confirm the exact payable total on the merchant page.")
         if winner["evidence_state"] == "applied-in-anonymous-cart":
-            if not _valid_consent_record(state["consent"]) or not _noul_supports(judgment, "consent_covers_test"):
+            consent = state["consent"]
+            if (
+                not _valid_consent_record(consent)
+                or consent["merchant"] != winner["seller"]
+                or not _noul_supports(judgment, "consent_covers_test")
+            ):
                 return result("verify", "cart-applied evidence lacks a matching consent judgment", winner_summary, "Treat the coupon as unverified unless a consent-linked cart record exists.")
         return result("buy", "exact, robust, current evidence meets the buy minimum", winner_summary, f"Open {winner['source']} and confirm the unchanged payable total before purchasing yourself.")
     if selected == "wait":
         history = state["history"]
         needed = ("provider", "coverage", "region", "window", "recheck_trigger")
-        if any(not history.get(field) for field in needed) or not history.get("supports_wait") or not _noul_supports(judgment, "history_supports_wait"):
+        if any(not history.get(field) for field in needed) or not _noul_supports(judgment, "history_supports_wait"):
             return result("verify", "history does not meet the wait minimum", winner_summary, "Recheck with named, scope-matched price history.")
         return result("wait", "named history supports an actionable recheck", winner_summary, str(history["recheck_trigger"]))
     return result("verify", "Jev selected verify", winner_summary, "Confirm the single unresolved fact identified beside the evidence.")
@@ -456,9 +516,21 @@ def _result(verdict: str, reason: str, winner: dict[str, Any] | None, next_actio
     }
 
 
-def grant_consent(path: Path, session_id: str, confirmed: bool, at: str | None = None) -> dict[str, Any]:
+def grant_consent(
+    path: Path,
+    session_id: str,
+    confirmed: bool,
+    *,
+    merchant: str,
+    attempt: str,
+    at: str | None = None,
+) -> dict[str, Any]:
     if not confirmed:
         raise DealFinderError("explicit user confirmation is required; do not infer consent")
+    if not _non_empty_str(merchant):
+        raise DealFinderError("merchant is required for a per-test-run consent record")
+    if not _non_empty_str(attempt):
+        raise DealFinderError("attempt is required for a per-test-run consent record")
     changed_at = at or datetime.now(timezone.utc).isoformat()
     record = {
         "consent_id": str(uuid.uuid4()),
@@ -466,6 +538,8 @@ def grant_consent(path: Path, session_id: str, confirmed: bool, at: str | None =
         "scope": CONSENT_SCOPE,
         "excludes": sorted(CONSENT_EXCLUDES),
         "session_id": session_id,
+        "merchant": merchant,
+        "attempt": attempt,
         "granted_at": changed_at,
         "last_changed_at": changed_at,
     }
@@ -485,6 +559,7 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
     """Authorize, but never perform, one bounded anonymous-cart coupon run."""
     required = (
         "merchant",
+        "attempt",
         "session_id",
         "browser_tools",
         "merchant_rules",
@@ -498,6 +573,11 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
     reasons = []
     if not _valid_consent_record(consent):
         reasons.append("explicit consent is absent or revoked")
+    else:
+        if consent["merchant"] != run["merchant"]:
+            reasons.append("consent does not cover this merchant")
+        if consent["attempt"] != run["attempt"]:
+            reasons.append("consent does not cover this coupon attempt")
     for field in ("browser_tools", "logged_out", "cleanup_guaranteed", "scarce_inventory"):
         if not isinstance(run[field], bool):
             reasons.append(f"{field} must be a JSON boolean")
@@ -513,9 +593,9 @@ def authorize_cart_test(consent: dict[str, Any] | None, run: dict[str, Any]) -> 
         reasons.append("the item may reserve scarce inventory")
     budget = run["attempt_budget"]
     planned = run["attempts_planned"]
-    if not isinstance(budget, int) or not 1 <= budget <= MAX_COUPON_ATTEMPTS:
+    if not _json_int(budget) or not 1 <= budget <= MAX_COUPON_ATTEMPTS:
         reasons.append(f"attempt budget must be between 1 and {MAX_COUPON_ATTEMPTS}")
-    if not isinstance(planned, int) or not isinstance(budget, int) or planned < 1 or planned > budget:
+    if not _json_int(planned) or not _json_int(budget) or planned < 1 or planned > budget:
         reasons.append("planned attempts must fit the declared budget")
     allowed = not reasons
     return {
@@ -548,7 +628,10 @@ def call_jev(state: dict[str, Any]) -> dict[str, Any] | None:
     for attempt in range(3):
         try:
             with urllib.request.urlopen(request, timeout=20) as response:
-                return json.loads(response.read())
+                payload = json.loads(response.read())
+            if not isinstance(payload, dict):
+                return None
+            return payload
         except urllib.error.HTTPError as exc:
             if exc.code == 401:
                 raise DealFinderError("TypeSafe authentication failed; check server-side key configuration") from exc
@@ -638,6 +721,8 @@ def _parser() -> argparse.ArgumentParser:
     grant_parser = consent_subparsers.add_parser("grant")
     grant_parser.add_argument("--file", required=True, type=Path)
     grant_parser.add_argument("--session", required=True)
+    grant_parser.add_argument("--merchant", required=True)
+    grant_parser.add_argument("--attempt", required=True)
     grant_parser.add_argument("--confirmed", action="store_true")
     revoke_parser = consent_subparsers.add_parser("revoke")
     revoke_parser.add_argument("--file", required=True, type=Path)
@@ -675,7 +760,15 @@ def main(argv: list[str] | None = None) -> int:
             _write_json(args.output, build_jev_request(_read_json(args.input)))
             _print_toon({"written": str(args.output), "model": MODEL})
         elif args.command == "consent" and args.consent_command == "grant":
-            _print_toon(grant_consent(args.file, args.session, args.confirmed))
+            _print_toon(
+                grant_consent(
+                    args.file,
+                    args.session,
+                    args.confirmed,
+                    merchant=args.merchant,
+                    attempt=args.attempt,
+                )
+            )
         elif args.command == "consent" and args.consent_command == "revoke":
             _print_toon(revoke_consent(args.file))
         elif args.command == "cart-check":
