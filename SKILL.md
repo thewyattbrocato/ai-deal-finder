@@ -40,6 +40,6 @@ Coupon research is allowed without cart mutation. Testing in a cart is optional 
 
 Lead with the verdict and one next action. Show the winner and at most one decision-changing alternative. For every material claim include source, region, absolute timestamp, and one evidence state: `observed-now`, `applied-in-anonymous-cart`, `retailer-stated`, `third-party-historical`, `user-provided`, `unverified`, `rejected`, or `unknown`.
 
-Rank known amount due today: item price minus immediate proven discount, plus shipping, mandatory fees, known tax, required membership/bundle cost, minus credit actually applied at checkout. Show unknowns or ranges. If ranges overlap or an unknown could flip the winner, return `verify` with exactly one check that would decide it.
+Rank known amount due today per `LANDED_COST.md`: item price minus immediate proven discount, plus shipping, mandatory fees, known tax, and required membership/bundle cost. Disclose delayed value and unproven checkout credit separately; they never enter the ranked total. Show unknowns or ranges. If ranges overlap or an unknown could flip the winner, return `verify` with exactly one check that would decide it.
 
 For `wait`, name the history provider, item/marketplace coverage, region, and window plus an actionable recheck trigger. Never invent a future target or imply monitoring.

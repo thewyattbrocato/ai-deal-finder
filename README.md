@@ -70,11 +70,9 @@ provenance fields plus deterministic cost inputs:
 ```
 
 Costs are decimal strings, `null` for unknown, or `{"min":"0","max":"5"}`
-for a bounded range. `delayed_value` is disclosed but never enters ranking.
-Unproven `checkout_credit` is disclosed with `delayed_value` and is never
-subtracted from the ranked total. `immediate_discount` tied to a coupon is
-accepted only when coupon status is `applied-in-anonymous-cart` or
-`shopper-confirmed-at-checkout`.
+for a bounded range. Ranking follows `LANDED_COST.md`. `immediate_discount`
+tied to a coupon is accepted only when coupon status is
+`applied-in-anonymous-cart` or `shopper-confirmed-at-checkout`.
 
 ## Cart authorization
 

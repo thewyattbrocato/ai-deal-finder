@@ -1,7 +1,7 @@
 # Validation Record (gates vs. evidence)
 
-Status: **no gate has passed. Implementation remains blocked. The Captain's
-conditional build approval is NOT met.**
+Status: **no gate has passed. The Captain's conditional build approval is NOT
+met.**
 
 Rule: no gate may be marked passed from authored fixtures, plans, self-review,
 missing follow-up, or implementation-generated evidence. Unexecuted gates are
@@ -23,4 +23,5 @@ evidence remains.
 ## What would activate build approval
 
 Every row above reads passed with its required evidence attached. Until then,
-work stays in planning and validation; no skill or app implementation begins.
+no gate is passed. Implementation evidence does not satisfy these rows; keyed
+Jev work remains in `KEYED_VALIDATION.md`.
