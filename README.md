@@ -1,7 +1,17 @@
-# AI Deal Finder (planning only)
+# AI Deal Finder (V1)
 
-Implementation is **blocked** until the acceptance work passes the Kun
-validation gates with evidence. No skill or app code lives here.
+Evidence-based deal and coupon discovery skill: one purchase decision backed
+by attributable evidence, landed-cost ranking, explicit-consent
+anonymous-cart-only coupon verification, and research-only fallback.
+
+- Public skill: `SKILL.md`.
+- Deterministic rules engine (stdlib only): `deal_finder/` —
+  `evidence`, `landed_cost`, `consent`, `discovery`, `decision`,
+  `judgment` (rules-only mirror of the Jev judgment layer; no live calls).
+- Tests: `python3 -m unittest discover -s tests` (53 tests, stdlib only).
+- Build assumptions + captain decision batch: `ASSUMPTIONS.md`.
+- Frozen product vision: `VISION.md` (do not edit; SHA-256
+  `8ff9483d1c343490d9ab6ee752957ca7ef894853102f101557fed4157b8d8484`).
 
 - Frozen product vision: `VISION.md` (do not edit; SHA-256
   `8ff9483d1c343490d9ab6ee752957ca7ef894853102f101557fed4157b8d8484`).
