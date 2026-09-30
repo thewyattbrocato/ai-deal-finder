@@ -84,6 +84,17 @@ class EvidenceTest(unittest.TestCase):
         self.assertTrue(c.is_verified())
         self.assertEqual(check_no_upgrade([c]), [])
 
+    def test_verified_state_without_provenance_flagged(self):
+        # Live-verification regression (LV-003): indexed/pasted text labeled
+        # observed-now with no source or timestamp must not pass the audit.
+        c = Claim(text="price $249", source="", region="",
+                  observed_at="",
+                  state=EvidenceState.OBSERVED_NOW)
+        self.assertFalse(c.is_verified())
+        violations = check_no_upgrade([c])
+        self.assertEqual(len(violations), 1)
+        self.assertIn("without provenance", violations[0])
+
     def test_coupon_counting(self):
         self.assertTrue(Coupon(code="X", merchant="m",
                               status="applied-in-anonymous-cart").may_count_in_landed_cost())
@@ -300,6 +311,16 @@ class DecisionTest(unittest.TestCase):
         d = decide(DecisionInput(candidates=[c],
                                 ranked=[RankedCandidate("C1", cost(50))]))
         self.assertEqual(d.verdict, Verdict.VERIFY)
+        self.assertTrue(d.manual_check)
+
+    def test_verified_state_without_provenance_downgrades(self):
+        # Live-verification regression (LV-003): observed-now with no
+        # source/region/timestamp is unverified evidence and never upgrades.
+        c = full_candidate(source="", region="", observed_at="")
+        d = decide(DecisionInput(candidates=[c],
+                                ranked=[RankedCandidate("C1", cost(50))]))
+        self.assertEqual(d.verdict, Verdict.VERIFY)
+        self.assertEqual(d.winner_id, "")
         self.assertTrue(d.manual_check)
 
     def test_untested_code_forces_verify(self):

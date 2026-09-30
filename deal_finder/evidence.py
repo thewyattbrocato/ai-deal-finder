@@ -99,6 +99,11 @@ def check_no_upgrade(claims: "list[Claim]") -> "list[str]":
                 f"claim lacks provenance and must stay {claim.state.value}: "
                 f"{claim.text[:80]}"
             )
+        if claim.state in VERIFIED_STATES and not claim.has_provenance():
+            violations.append(
+                f"claim presented as {claim.state.value} without provenance "
+                f"(source, region, timestamp required): {claim.text[:80]}"
+            )
     return violations
 
 
