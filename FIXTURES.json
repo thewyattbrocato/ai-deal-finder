@@ -177,6 +177,38 @@
       "summary": "Request to 'tell me when it hits $X' based on history alone, with no monitoring capability or current actionable evidence.",
       "must_hold": ["no future target price named from history alone when price cannot be monitored or threshold grounded in current evidence"],
       "expected_verdict": "verify with what would make the threshold actionable (draft; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-001",
+      "kind": "live-single-observed-offer-unknowns-open-ended",
+      "severity": "S1",
+      "summary": "Observed live 2026-09-30 (LIVE_VERIFICATION.md OBS-1): Apple AirPods Pro 3 $249 observed-now with full provenance (source URL, US region, timestamp); tax and shipping Unknown; one unverified aggregator code; no consent.",
+      "must_hold": ["untested code excluded from landed cost", "unknowns shown as open-ended range, never a point total", "decisive claim carries source, region, timestamp"],
+      "expected_verdict": "buy with open-ended range USD 249.00 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-002",
+      "kind": "live-blocked-primary-page",
+      "severity": "S1",
+      "summary": "Observed live 2026-09-30 (OBS-4/OBS-5/OBS-6): merchant page unreachable or access-denied; only the listing URL (no price/stock text) supports the claim.",
+      "must_hold": ["blocked evidence never upgrades to observation", "exactly one manual check named"],
+      "expected_verdict": "verify (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-003",
+      "kind": "live-verified-state-without-provenance",
+      "severity": "S1",
+      "summary": "Regression for the 2026-09-30 provenance fix: observed-now state with empty source/region/timestamp (indexed/pasted text) must never support buy.",
+      "must_hold": ["unverified evidence never upgrades", "check_no_upgrade flags verified-state claims lacking provenance", "decide downgrades provenance-free winners to verify"],
+      "expected_verdict": "verify with re-observe manual check (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-004",
+      "kind": "live-coupon-research-only-fallback",
+      "severity": "S1",
+      "summary": "Observed live 2026-09-30 (OBS-7): aggregator coupon page blocked by bot challenge; no consent solicited; no cart test run. Only honest status is unverified.",
+      "must_hold": ["unverified code excluded from landed-cost ranking", "no cart action without consent; research-only verification"],
+      "expected_verdict": "verify path; cart test absent (observed live engine output; requires independent relabel)"
     }
   ]
 }

@@ -227,6 +227,16 @@ def decide(inp: DecisionInput) -> Decision:
             "fulfillment party, and region, then re-run.",
             "leading candidate identity not fully matched",
         )
+    # Provenance gate: a verified state without source/region/timestamp is
+    # pasted or indexed text, not an observation. Unverified evidence never
+    # upgrades, so the winner cannot support buy/wait without provenance.
+    if not (winner.source and winner.region and winner.observed_at):
+        return downgrade(
+            "Re-observe the offer at its source (merchant page URL) and record "
+            "the source, region, and timestamp, then re-run.",
+            "leading candidate claims verified evidence without provenance "
+            "(source, region, timestamp missing)",
+        )
     decisive = winner.price_determining_states or [winner.evidence_state]
     if any(s not in VERIFIED_STATES for s in decisive):
         states = ", ".join(sorted({s.value for s in decisive}))
