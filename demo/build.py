@@ -83,23 +83,92 @@ def run_lv002():
     return bb, None, decision
 
 
-def run_lv003():
-    """Provenance-free observed-now (indexed text, no URL/timestamp)."""
+TS_ON = "2026-10-01T19:50:21Z"
+TS_GAP = "2026-10-01T19:50:30Z"
+TS_NIKE = "2026-10-01T19:50:41Z"
+TS_APPLE2 = "2026-10-01T19:50:52Z"
+ON_URL = "https://oldnavy.gap.com/browse/product.do?pid=777363182"
+GAP_URL = "https://www.gap.com/browse/product.do?pid=800546212"
+NIKE_URL = "https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002"
+
+
+def run_lv005():
+    """Old Navy sweatpants, retailer-stated code EXTRA excluded."""
     from deal_finder.decision import decide
-    naked = Candidate(
-        id="index-snippet", variant="AirPods Pro 3, white",
+    on = Candidate(
+        id="oldnavy-sweatpants",
+        variant="High-Waisted SoComfy Wide-Leg Sweatpants",
         quantity_terms="1 pair", condition="new", bundle="single",
-        seller="Apple", fulfilled_by="Apple", region="US", in_stock=True,
+        seller="Old Navy", fulfilled_by="Old Navy", region="US",
+        in_stock=True,
         evidence_state=EvidenceState.OBSERVED_NOW,
-        source="", observed_at="",
+        source=ON_URL, observed_at=TS_ON,
         price_determining_states=[EvidenceState.OBSERVED_NOW],
     )
-    cost = LandedCost(item_price=249.0, shipping=0.0, known_tax=20.0)
+    cost = LandedCost(
+        item_price=25.0, shipping=None, known_tax=None,
+        eligibility_condition="free shipping on $50+ for Rewards Members; "
+                              "membership not volunteered",
+    )
     decision = decide(DecisionInput(
-        candidates=[naked], ranked=[RankedCandidate("index-snippet", cost)],
-        mode="browsing",
+        candidates=[on],
+        ranked=[RankedCandidate("oldnavy-sweatpants", cost)],
+        coupons=[Coupon(code="EXTRA", merchant="Old Navy",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
     ))
-    return naked, cost, decision
+    return on, cost, decision
+
+
+def run_lv006():
+    """Gap cardigan, offer text seen but no code — no coupon."""
+    from deal_finder.decision import decide
+    gap = Candidate(
+        id="gap-cardigan",
+        variant="CashSoft Crop Cardigan, Brown and navy blue argyle",
+        quantity_terms="1 cardigan", condition="new", bundle="single",
+        seller="Gap", fulfilled_by="Gap", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=GAP_URL, observed_at=TS_GAP,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(
+        item_price=79.95, shipping=None, known_tax=None,
+        eligibility_condition="free shipping on $50+ for Rewards Members; "
+                              "membership not volunteered",
+    )
+    decision = decide(DecisionInput(
+        candidates=[gap],
+        ranked=[RankedCandidate("gap-cardigan", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return gap, cost, decision
+
+
+def run_lv007():
+    """Nike markdown price; was-price is reference text, never subtracted."""
+    from deal_finder.decision import decide
+    nike = Candidate(
+        id="nike-jordan-og",
+        variant="Air Jordan OG Women's Shoes, Black/White/University Red "
+                "(CW0907-002)",
+        quantity_terms="1 pair", condition="new", bundle="single",
+        seller="Nike", fulfilled_by="Nike", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=NIKE_URL, observed_at=TS_NIKE,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(
+        item_price=87.97, shipping=None, known_tax=None,
+        eligibility_condition="members free shipping on orders $50+; "
+                              "membership not volunteered",
+    )
+    decision = decide(DecisionInput(
+        candidates=[nike],
+        ranked=[RankedCandidate("nike-jordan-og", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return nike, cost, decision
 
 
 OBSERVATIONS = [
@@ -128,6 +197,30 @@ OBSERVATIONS = [
      "2026-09-30T14:09Z",
      "Cloudflare challenge; no code text observed; no consent solicited; no cart test run",
      "coupon stays unverified (research-only)", "badge-warning"),
+    ("OBS-8", ON_URL, TS_ON,
+     "High-Waisted SoComfy Wide-Leg Sweatpants \u2026 $25.00 (was $36.99); "
+     "\u201cExtra 30% Off with Code: EXTRA\u201d on the product page; banner "
+     "\u201cFall Faves Up To 50% Off + Extra 30% Off Purchase \u2026 Code: EXTRA "
+     "\u2026 Exclusions apply\u201d; no cart test (no consent, read-only rule)",
+     "observed-now (item price); code EXTRA retailer-stated, untested",
+     "badge-success"),
+    ("OBS-9", GAP_URL, TS_GAP,
+     "CashSoft Crop Cardigan \u2026 $79.95; site texts \u201c50\u201360% off "
+     "limited-time deals / Select styles\u201d, \u201cExtra 50% off sale\u201d, "
+     "credit-card offer \u201cExtra 25% off your first purchase with your new "
+     "card. Ends 10/3.\u201d No code seen; promos excluded (applicability "
+     "unconfirmed)",
+     "observed-now (item price); no coupon", "badge-success"),
+    ("OBS-10", NIKE_URL, TS_NIKE,
+     "Air Jordan OG Women\u2019s Shoes (CW0907-002) \u2026 $87.97 (was $155, "
+     "43% off); \u201cMembers: Free Shipping on Orders $50+\u201d; "
+     "\u201cYou\u2019ll see our shipping options at checkout.\u201d No code seen",
+     "observed-now ($87.97 ranked; was-price is reference only); no coupon",
+     "badge-success"),
+    ("OBS-11", APPLE_URL, TS_APPLE2,
+     "\u201cAirPods Pro 3 \u2026 $249\u201d with Buy link; coupon/promo/code "
+     "text search over the rendered page: zero hits",
+     "observed-now (item price); no-coupon result stands", "badge-success"),
 ]
 
 VERDICT_BADGE = {
@@ -197,7 +290,9 @@ def verdict_card(run_id, title, candidate, cost, decision, notes,
 def build():
     c1, cost1, d1 = run_lv001()
     c2, _c2cost, d2 = run_lv002()
-    c3, cost3, d3 = run_lv003()
+    c5, cost5, d5 = run_lv005()
+    c6, cost6, d6 = run_lv006()
+    c7, cost7, d7 = run_lv007()
 
     obs_rows = []
     for oid, src, ts, seen, state, badge in OBSERVATIONS:
@@ -226,17 +321,48 @@ def build():
         "LV-002", "Rival primary page blocked (OBS-4 as winner)",
         c2, None, d2,
         notes=["Blocked evidence never upgrades; matches fixture BLK-001."]))
+    # LV-003 (provenance-free "observed-now" safety check) stays in the
+    # test suite (test_verified_state_without_provenance_downgrades) but is
+    # not a product example, so it is intentionally absent from this page.
     body.append(verdict_card(
-        "LV-003", "Provenance-free \u201cobserved-now\u201d (indexed text)",
-        c3, cost3, d3,
-        pre_fix_note="verdict was buy on this exact input before the "
-                     "2026-09-30 provenance fix (recorded repro output).",
+        "LV-005", "Old Navy sweatpants \u2014 retailer-stated code EXTRA "
+                  "excluded (OBS-8)",
+        c5, cost5, d5,
         notes=[
-            "Regression test: test_verified_state_without_provenance_"
-            "downgrades; audit: check_no_upgrade flags verified-state "
-            "claims lacking provenance.",
-            "Fix: deal_finder/decision.py provenance gate + "
-            "deal_finder/evidence.py audit.",
+            "Code 'EXTRA' was really seen on the merchant page "
+            "(product + banner, exclusions noted) with source, region, "
+            "and timestamp \u2014 shown as retailer-stated, never tested "
+            "(no consent, read-only rule), excluded from landed cost.",
+            "CP-002 path: the winner holds without the code, so buy stands "
+            "at USD 25.00 .. open-ended (tax/shipping Unknown, membership "
+            "shipping note kept as eligibility, never assumed).",
+            "Single candidate: ranking robustness is vacuous; flagged for "
+            "review, behaviour matches LC-001 letter.",
+        ]))
+    body.append(verdict_card(
+        "LV-006", "Gap cardigan \u2014 offer text seen, no code, no coupon "
+                  "(OBS-9)",
+        c6, cost6, d6,
+        notes=[
+            "No code was seen on the page, so there is no coupon result: "
+            "the \u201c50\u201360% off / Select styles\u201d and \u201cExtra 50% "
+            "off sale\u201d texts are recorded beside the verdict and "
+            "excluded (applicability to this item unconfirmed).",
+            "The credit-card offer text is recorded as seen and excluded \u2014 "
+            "never a coupon for this item.",
+            "Buy at USD 79.95 .. open-ended (tax/shipping Unknown).",
+        ]))
+    body.append(verdict_card(
+        "LV-007", "Nike markdown \u2014 was-price is reference only (OBS-10)",
+        c7, cost7, d7,
+        notes=[
+            "Ranked item price is the observed $87.97; the \u201cwas $155 / "
+            "43% off\u201d text is quoted as seen, never subtracted \u2014 no "
+            "savings figure fabricated.",
+            "\u201cMembers: Free Shipping on Orders $50+\u201d keeps shipping "
+            "Unknown with the eligibility condition attached (membership "
+            "not volunteered; LC-003).",
+            "No code seen: no-coupon result. Buy at USD 87.97 .. open-ended.",
         ]))
 
     page = """<!DOCTYPE html>
@@ -264,15 +390,17 @@ def build():
     page += esc(ENGINE_VERSION)
     page += """) run over live-observed browser evidence. Every price, verdict, and
 evidence state below is engine output or a recorded observation \u2014 no fabricated deals.</p>
-<p class="text-sm opacity-80">Scenario: \u201cAirPods Pro 3, white, new, 1 pair\u201d, region US,
-browsing mode, no coupon consent, no price history. Read-only anonymous observation only:
+<p class="text-sm opacity-80">Scenarios (region US, browsing mode, no coupon consent, no price history):
+\u201cAirPods Pro 3, white, new, 1 pair\u201d (no public coupon \u2014 correct no-coupon result, rechecked
+2026-10-01); Old Navy sweatpants (retailer-stated code EXTRA, excluded); Gap cardigan (offer text, no code);
+Nike shoes (markdown reference, membership shipping note). Read-only anonymous observation only:
 no login, checkout, payment, personal data, or cart tests. Regenerate with
 <span class="font-mono">python3 demo/build.py</span>; verify with
-<span class="font-mono">python3 -m unittest discover -s tests</span> (55 green).</p>
+<span class="font-mono">python3 -m unittest discover -s tests</span> (59 green).</p>
 </header>
 <section class="stats stats-vertical sm:stats-horizontal shadow mb-6 w-full">
-<div class="stat"><div class="stat-title">Observations</div><div class="stat-value">7</div><div class="stat-desc">2 observed \u00b7 5 blocked/fallback</div></div>
-<div class="stat"><div class="stat-title">Engine runs</div><div class="stat-value">4</div><div class="stat-desc">LV-001 \u2026 LV-004</div></div>
+<div class="stat"><div class="stat-title">Observations</div><div class="stat-value">11</div><div class="stat-desc">6 observed \u00b7 5 blocked/fallback</div></div>
+<div class="stat"><div class="stat-title">Engine runs</div><div class="stat-value">6</div><div class="stat-desc">LV-001, LV-002, LV-004 \u2026 LV-007</div></div>
 <div class="stat"><div class="stat-title">Discrepancies fixed</div><div class="stat-value">1</div><div class="stat-desc">provenance gate, fail-closed</div></div>
 </section>
 <h2 class="text-2xl font-bold mb-3">Observations (source \u00b7 region US \u00b7 timestamp \u00b7 evidence state)</h2>
@@ -297,6 +425,7 @@ honest coupon status is <span class="font-mono">unverified</span>: excluded from
 <h3 class="card-title">Scope notes</h3>
 <ul class="list-disc ml-6 text-sm">
 <li>No gate in VALIDATION_RECORD.md is claimed passed; it stays NOT RUN pending independent review.</li>
+<li>LV-003 (provenance-free \u201cobserved-now\u201d safety check) stays in the test suite and out of this product list: it is indexed text with no source, not a shopping result.</li>
 <li>ASSUMPTIONS.md D1\u2013D6 and frozen VISION.md untouched.</li>
 <li>Follow-ups (not built): stock-unknown representation; single-candidate vacuous robustness;
 live Jev integration; browser cart-test bindings; price monitoring; monetization.</li>
@@ -311,7 +440,8 @@ live Jev integration; browser cart-test bindings; price monitoring; monetization
         f.write(page)
     print("wrote " + out)
     print("LV-001:", d1.verdict.value, "| LV-002:", d2.verdict.value,
-          "| LV-003:", d3.verdict.value)
+          "| LV-005:", d5.verdict.value, "| LV-006:", d6.verdict.value,
+          "| LV-007:", d7.verdict.value)
 
 
 if __name__ == "__main__":

@@ -209,6 +209,30 @@
       "summary": "Observed live 2026-09-30 (OBS-7): aggregator coupon page blocked by bot challenge; no consent solicited; no cart test run. Only honest status is unverified.",
       "must_hold": ["unverified code excluded from landed-cost ranking", "no cart action without consent; research-only verification"],
       "expected_verdict": "verify path; cart test absent (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-005",
+      "kind": "live-retailer-stated-code-excluded",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-8): Old Navy High-Waisted SoComfy Wide-Leg Sweatpants $25.00 observed-now with full provenance; code EXTRA retailer-stated on the merchant page, never cart-tested; shipping/tax Unknown.",
+      "must_hold": ["retailer-stated code excluded from landed cost, named in reasons", "winner holds without the code", "unknowns shown as open-ended range, never a point total"],
+      "expected_verdict": "buy with open-ended range USD 25.00 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-006",
+      "kind": "live-offer-text-no-code",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-9): Gap CashSoft Crop Cardigan $79.95 observed-now with full provenance; site offer texts seen (50-60% off select styles, Extra 50% off sale) but no code; applicability unconfirmed so promos excluded.",
+      "must_hold": ["offer text without a code never becomes a coupon", "no coupon fabricated where none was seen", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 79.95 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-007",
+      "kind": "live-markdown-price-membership-shipping",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-10): Nike Air Jordan OG Women's Shoes $87.97 observed-now with full provenance (was-$155/43%-off is reference text only); members-free-shipping note keeps shipping Unknown with eligibility attached; no code seen.",
+      "must_hold": ["ranked item price is the observed price; was-price never subtracted", "membership-gated shipping stays Unknown with eligibility condition", "no savings figure fabricated"],
+      "expected_verdict": "buy with open-ended range USD 87.97 .. unbounded (observed live engine output; requires independent relabel)"
     }
   ]
 }

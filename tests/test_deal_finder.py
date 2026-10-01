@@ -477,5 +477,66 @@ class JudgmentTest(unittest.TestCase):
             self.assertIn(expected, names)
 
 
+class CouponSliceTest(unittest.TestCase):
+    """Live coupon-slice regression (2026-10-01, OBS-8 … OBS-11).
+
+    Real merchant-page observations: a retailer-stated code must be excluded
+    while the winner can still hold without it (CP-002); offer text without
+    a code never becomes a coupon; membership-gated shipping notes keep
+    shipping Unknown (LC-003); markdown was-prices never enter arithmetic.
+    """
+
+    def test_retailer_stated_code_excluded_while_winner_holds(self):
+        c = full_candidate(
+            cid="oldnavy-sweatpants",
+            variant="High-Waisted SoComfy Wide-Leg Sweatpants",
+            quantity_terms="1 pair",
+            seller="Old Navy", fulfilled_by="Old Navy",
+            source="oldnavy.gap.com/browse/product.do?pid=777363182",
+            observed_at="2026-10-01T19:50:21Z",
+        )
+        d = decide(DecisionInput(
+            candidates=[c],
+            ranked=[RankedCandidate("oldnavy-sweatpants", cost(25.0))],
+            coupons=[Coupon(code="EXTRA", merchant="Old Navy",
+                            status="retailer-stated")]))
+        self.assertEqual(d.verdict, Verdict.BUY)
+        self.assertEqual(d.winner_id, "oldnavy-sweatpants")
+        self.assertTrue(any("EXTRA" in r and "excluded" in r
+                            for r in d.reasons))
+
+    def test_offer_text_without_code_stays_coupon_free(self):
+        c = full_candidate(
+            cid="gap-cardigan",
+            variant="CashSoft Crop Cardigan",
+            quantity_terms="1 cardigan",
+            seller="Gap", fulfilled_by="Gap",
+            source="www.gap.com/browse/product.do?pid=800546212",
+            observed_at="2026-10-01T19:50:30Z",
+        )
+        d = decide(DecisionInput(
+            candidates=[c],
+            ranked=[RankedCandidate("gap-cardigan", cost(79.95))],
+            coupons=[]))
+        self.assertEqual(d.verdict, Verdict.BUY)
+        self.assertFalse(any("code" in r for r in d.reasons))
+        self.assertNotIn("code", format_answer(d).lower())
+
+    def test_membership_shipping_note_stays_unknown(self):
+        c = cost(87.97, shipping=None, known_tax=None,
+                 eligibility_condition="members free shipping on orders "
+                                       "$50+; membership not volunteered")
+        self.assertIn("shipping", c.unknowns())
+        self.assertTrue(any("eligibility" in u for u in c.unknowns()))
+        self.assertEqual(c.known_high(), float("inf"))
+
+    def test_markdown_reference_price_never_subtracted(self):
+        # OBS-10: the ranked item price is the observed $87.97; the
+        # "$155 / 43% off" reference lives outside LandedCost arithmetic.
+        c = cost(87.97, shipping=None, known_tax=None)
+        self.assertEqual(c.known_low(), 87.97)
+        self.assertNotIn("67", c.range_label().replace("87.97", ""))
+
+
 if __name__ == "__main__":
     unittest.main()

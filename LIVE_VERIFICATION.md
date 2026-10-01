@@ -127,3 +127,93 @@ read-only rule.
 Live cases LV-001 … LV-004 appended to `FIXTURES.json` in the existing case
 schema. Their verdicts are observed engine outputs, **not** independent
 labels — the file's reviewer-isolation rule still applies to every case.
+
+---
+
+# Coupon slice (V1, 2026-10-01)
+
+Follow-up slice: real products where a public coupon or promo is actually
+visible on the page, observed read-only without logging in, checking out, or
+testing a cart. Same method and region (US) as above. No gate in
+`VALIDATION_RECORD.md` is claimed passed; `ASSUMPTIONS.md` D1–D6 untouched.
+
+## Observations
+
+| ID | Source | Observed at (UTC) | What was seen | Evidence state |
+| --- | --- | --- | --- | --- |
+| OBS-8 | `https://oldnavy.gap.com/browse/product.do?pid=777363182` | 2026-10-01T19:50:21Z | "High-Waisted SoComfy Wide-Leg Sweatpants … $25.00" (was $36.99) with "Extra 30% Off with Code: EXTRA"; site banner "Fall Faves Up To 50% Off + Extra 30% Off Purchase … Code: EXTRA … Exclusions apply" | observed-now (item price); code EXTRA retailer-stated, untested (CP-002 pattern) |
+| OBS-9 | `https://www.gap.com/browse/product.do?pid=800546212` | 2026-10-01T19:50:30Z | "CashSoft Crop Cardigan … $79.95"; site offer texts "50–60% off limited-time deals / Select styles", "Extra 50% off sale", credit-card offer "Extra 25% off your first purchase with your new card. Ends 10/3." No code seen | observed-now (item price); offer texts retailer-stated, applicability to this item unconfirmed — excluded; no coupon |
+| OBS-10 | `https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002` | 2026-10-01T19:50:41Z | "Air Jordan OG Women's Shoes … $87.97" (was $155, 43% off); "Members: Free Shipping on Orders $50+"; "You'll see our shipping options at checkout." No code seen | observed-now (item price = $87.97; the was-price is reference text, never subtracted); shipping Unknown with membership eligibility note (LC-003 pattern); no coupon |
+| OBS-11 | `https://www.apple.com/airpods-pro/` | 2026-10-01T19:50:52Z | "AirPods Pro 3 … $249" with Buy link; coupon/promo/code text search over rendered page: zero hits | observed-now (item price); no-coupon result stands |
+
+Tax and shipping were not stated for the exact item and cart on any loaded
+page, so both stay `Unknown` — never inferred. Membership-gated free-shipping
+notes (Old Navy, Gap, Nike) keep shipping `Unknown` with the eligibility
+condition attached; membership was not volunteered (LC-003). The Gap
+credit-card offer text is recorded as seen and excluded — it is not a coupon
+for this item and must never decide a verdict.
+
+## Engine runs over observed evidence
+
+### LV-005 — Old Navy sweatpants with retailer-stated code EXTRA
+
+Input: candidate `oldnavy-sweatpants` (identity matched; `observed-now` with
+OBS-8 source, US region, timestamp); landed cost $25.00 item price, shipping
+`Unknown` (eligibility: free shipping on $50+ for Rewards Members; membership
+not volunteered), tax `Unknown` (range `USD 25.00 .. open-ended`); coupon
+`EXTRA` status `retailer-stated` (merchant-published on the page, never
+cart-tested — no consent, read-only rule); no consent record.
+
+Verdict (engine output, quoted):
+
+```text
+Verdict: buy
+Winner: oldnavy-sweatpants
+- code 'EXTRA' is retailer-stated; excluded from landed cost and must not decide the verdict
+- exact identity matched for 'High-Waisted SoComfy Wide-Leg Sweatpants' from Old Navy
+- landed cost known or a still-winning range; decisive claims verified; in stock
+Next action: Buy 'High-Waisted SoComfy Wide-Leg Sweatpants' from Old Navy at the verified landed cost; recheck price/stock at purchase time.
+```
+
+CP-002 second path: the winner holds without the code, so buy stands with the
+code excluded — never counted. Same open-ended-range and single-candidate
+caveats as LV-001.
+
+### LV-006 — Gap cardigan with offer text, no code
+
+Input: candidate `gap-cardigan` ($79.95 observed-now with OBS-9 provenance);
+shipping/tax `Unknown`; no coupons (no code was seen — a product with no
+public coupon stays a no-coupon result); site offer texts recorded beside the
+verdict, excluded from the ranking (applicability to this item unconfirmed).
+
+Verdict: `buy` at range `USD 79.95 .. open-ended`, winner `gap-cardigan`.
+Offer text without a code never becomes a coupon and never enters landed cost.
+
+### LV-007 — Nike markdown price, membership-gated shipping note
+
+Input: candidate `nike-jordan-og` ($87.97 observed-now with OBS-10
+provenance; the "$155 / 43% off" reference is context text — the ranked item
+price is the observed $87.97, no phantom subtraction); shipping/tax
+`Unknown`, eligibility note "members free shipping on orders $50+; membership
+not volunteered"; no coupons.
+
+Verdict: `buy` at range `USD 87.97 .. open-ended`, winner `nike-jordan-og`.
+No savings figure is fabricated: the page's was-price is quoted as seen, not
+computed into the total.
+
+## Discrepancies: none — engine already fail-closed
+
+The runs above needed no engine change: retailer-stated codes are excluded by
+`Coupon.may_count_in_landed_cost()` (fixtures CP-002/CP-003), membership
+notes stay `Unknown` with eligibility attached (LC-003), and reference prices
+never enter `LandedCost` arithmetic. New focused tests pin these behaviors
+(`CouponSliceTest`: retailer-stated code excluded while winner holds;
+offer-text-without-code stays coupon-free; membership shipping stays Unknown;
+markdown reference never subtracted). Suite: 59 tests green
+(`python3 -m unittest discover -s tests`).
+
+## Fixtures (slice)
+
+Live cases LV-005 … LV-007 appended to `FIXTURES.json` in the existing case
+schema. Their verdicts are observed engine outputs, **not** independent
+labels — the file's reviewer-isolation rule still applies to every case.
