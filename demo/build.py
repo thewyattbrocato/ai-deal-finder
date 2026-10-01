@@ -1,10 +1,11 @@
-"""Demo page builder for ai-deal-finder live verification.
+"""Demo page builder: a product screen for the ai-deal-finder coupon slice.
 
 Runs the REAL deal_finder engine (stdlib-only, no network) over the
 live-observed evidence recorded in LIVE_VERIFICATION.md and emits a single
-self-contained demo/index.html. No deals are fabricated: every price,
-verdict, and evidence state on the page is engine output or a recorded
-browser observation.
+self-contained demo/index.html. The page shows the product, the price, the
+decision, and any coupon really seen — no lab labels. No deals are
+fabricated: every price, decision, and coupon on the page is engine output
+or a recorded browser observation.
 
 Regenerate:  python3 demo/build.py   (from the repo root)
 Verify:      python3 -m unittest discover -s tests
@@ -16,36 +17,17 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from deal_finder import __version__ as ENGINE_VERSION  # noqa: E402
 from deal_finder.consent import ConsentRecord  # noqa: E402
-from deal_finder.decision import DecisionInput, format_answer  # noqa: E402
+from deal_finder.decision import DecisionInput  # noqa: E402
 from deal_finder.evidence import Candidate, Coupon, EvidenceState  # noqa: E402
 from deal_finder.landed_cost import LandedCost, RankedCandidate  # noqa: E402
 
 TS_OBS1 = "2026-09-30T14:08:20Z"
-TS_OBS4 = "2026-09-30T14:09:23Z"
-TS_EDU = "2026-09-30T14:09:36Z"
 APPLE_URL = "https://www.apple.com/airpods-pro/"
 
 
 def esc(s):
     return html.escape(str(s), quote=True)
-
-
-def chip(label, value):
-    return (
-        '<span class="badge badge-outline badge-sm mr-1 mb-1">'
-        + esc(label) + ": " + esc(value) + "</span>"
-    )
-
-
-def evidence_chips(source, region, observed_at, state):
-    return (
-        chip("source", source or "(none)")
-        + chip("region", region or "(none)")
-        + chip("timestamp", observed_at or "(none)")
-        + chip("evidence", state)
-    )
 
 
 def run_lv001():
@@ -67,20 +49,6 @@ def run_lv001():
         consent=ConsentRecord(), mode="browsing",
     ))
     return apple, cost, decision
-
-
-def run_lv002():
-    """Rival primary page blocked (OBS-4 Best Buy) as winner."""
-    from deal_finder.decision import decide
-    bb = Candidate(
-        id="bestbuy-listing", variant="AirPods Pro 3, white",
-        quantity_terms="1 pair", condition="new",
-        seller="", fulfilled_by="", region="US", in_stock=True,
-        evidence_state=EvidenceState.UNKNOWN, source="", observed_at="",
-        primary_page_blocked=True,
-    )
-    decision = decide(DecisionInput(candidates=[bb], ranked=[], mode="browsing"))
-    return bb, None, decision
 
 
 TS_ON = "2026-10-01T19:50:21Z"
@@ -171,198 +139,135 @@ def run_lv007():
     return nike, cost, decision
 
 
-OBSERVATIONS = [
-    ("OBS-1", APPLE_URL, TS_OBS1,
-     "\u201cAirPods Pro 3 \u2026 $249\u201d with Buy link, Apple US site",
-     "observed-now (item price)", "badge-success"),
-    ("OBS-2", "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
-     "2026-09-30T14:08Z",
-     "Buy page loads; generic delivery template text only; buy-box price absent from rendered text; no item-specific stock string",
-     "unverified (price/stock on this page)", "badge-warning"),
-    ("OBS-3", "https://www.apple.com/us-edu/shop/buy-airpods/airpods-pro-3",
-     TS_EDU,
-     "Education-gated store loads; no price in rendered text; eligibility not volunteered",
-     "retailer-stated at best; eligibility-gated", "badge-warning"),
-    ("OBS-4", "Best Buy AirPods Pro 3 product URL", TS_OBS4,
-     "chrome-error, ERR_HTTP2_PROTOCOL_ERROR, page unreachable",
-     "primary page blocked", "badge-error"),
-    ("OBS-5", "https://www.sony.com/electronics/headphones/wh-1000xm5",
-     "2026-09-30T14:08Z",
-     "\u201cAccess Denied \u2026 Reference 0.e80a3517.1790777300.b9b3a8\u201d",
-     "primary page blocked", "badge-error"),
-    ("OBS-6", "B&H Photo WH-1000XM5 product page", "2026-09-30T14:08Z",
-     "Cloudflare \u201cPerforming security verification\u201d challenge",
-     "observation blocked", "badge-error"),
-    ("OBS-7", "https://www.retailmenot.com/view/apple.com",
-     "2026-09-30T14:09Z",
-     "Cloudflare challenge; no code text observed; no consent solicited; no cart test run",
-     "coupon stays unverified (research-only)", "badge-warning"),
-    ("OBS-8", ON_URL, TS_ON,
-     "High-Waisted SoComfy Wide-Leg Sweatpants \u2026 $25.00 (was $36.99); "
-     "\u201cExtra 30% Off with Code: EXTRA\u201d on the product page; banner "
-     "\u201cFall Faves Up To 50% Off + Extra 30% Off Purchase \u2026 Code: EXTRA "
-     "\u2026 Exclusions apply\u201d; no cart test (no consent, read-only rule)",
-     "observed-now (item price); code EXTRA retailer-stated, untested",
-     "badge-success"),
-    ("OBS-9", GAP_URL, TS_GAP,
-     "CashSoft Crop Cardigan \u2026 $79.95; site texts \u201c50\u201360% off "
-     "limited-time deals / Select styles\u201d, \u201cExtra 50% off sale\u201d, "
-     "credit-card offer \u201cExtra 25% off your first purchase with your new "
-     "card. Ends 10/3.\u201d No code seen; promos excluded (applicability "
-     "unconfirmed)",
-     "observed-now (item price); no coupon", "badge-success"),
-    ("OBS-10", NIKE_URL, TS_NIKE,
-     "Air Jordan OG Women\u2019s Shoes (CW0907-002) \u2026 $87.97 (was $155, "
-     "43% off); \u201cMembers: Free Shipping on Orders $50+\u201d; "
-     "\u201cYou\u2019ll see our shipping options at checkout.\u201d No code seen",
-     "observed-now ($87.97 ranked; was-price is reference only); no coupon",
-     "badge-success"),
-    ("OBS-11", APPLE_URL, TS_APPLE2,
-     "\u201cAirPods Pro 3 \u2026 $249\u201d with Buy link; coupon/promo/code "
-     "text search over the rendered page: zero hits",
-     "observed-now (item price); no-coupon result stands", "badge-success"),
-]
-
-VERDICT_BADGE = {
-    "buy": "badge-success", "wait": "badge-info",
-    "verify": "badge-warning", "abstain": "badge-error",
+DECISION_BADGE = {
+    "buy": ("badge-success", "Good to buy"),
+    "wait": ("badge-info", "Worth a wait"),
+    "verify": ("badge-warning", "Check first"),
+    "abstain": ("badge-error", "Skipped"),
 }
 
 
-def verdict_card(run_id, title, candidate, cost, decision, notes,
-                 pre_fix_note=None):
-    v = decision.verdict.value
+def coupon_seen_block(code, offer, page_host, region, observed_at, caveat):
+    return (
+        '<div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0">'
+        '<div class="font-bold mb-1">Coupon on this page</div>'
+        '<p class="mb-1"><span class="font-mono font-bold text-lg">'
+        + esc(code) + "</span> \u2014 " + esc(offer) + "</p>"
+        '<p class="text-sm opacity-80">Seen on ' + esc(page_host)
+        + ", " + esc(region) + ", " + esc(observed_at) + ". " + esc(caveat)
+        + "</p></div></div>"
+    )
+
+
+def coupon_none_block(page_host, region, observed_at):
+    return (
+        '<div class="alert mb-3" style="min-width:0"><div style="min-width:0">'
+        '<div class="font-bold mb-1">No coupon on this page</div>'
+        '<p class="text-sm opacity-80">No coupon code was visible when this '
+        "page was checked (" + esc(page_host) + ", " + esc(region) + ", "
+        + esc(observed_at) + ").</p></div></div>"
+    )
+
+
+def product_card(name, detail, price, was_price, decision, coupon_html,
+                 page_url, page_host, region, observed_at, fine_print):
+    badge, label = DECISION_BADGE[decision.verdict.value]
     parts = []
     parts.append('<section class="card bg-base-100 shadow-xl mb-6">')
     parts.append('<div class="card-body" style="min-width:0">')
     parts.append(
-        '<h3 class="card-title flex flex-wrap items-center gap-2">'
-        + esc(run_id) + " \u2014 " + esc(title)
-        + ' <span class="badge ' + VERDICT_BADGE[v] + '">verdict: ' + esc(v)
-        + "</span></h3>"
+        '<div class="flex flex-wrap items-start justify-between gap-3 mb-1" '
+        'style="min-width:0">'
+        "<div style=\"min-width:0\">"
+        '<h2 class="card-title text-2xl">' + esc(name) + "</h2>"
+        '<p class="text-sm opacity-80">' + esc(detail) + "</p>"
+        "</div>"
+        '<div class="text-right" style="min-width:0">'
+        '<div class="text-3xl font-bold">' + esc(price) + "</div>"
     )
-    if decision.winner_id:
-        parts.append("<p>" + chip("winner", decision.winner_id) + "</p>")
-    if cost is not None:
-        parts.append("<p>" + chip("landed-cost range", cost.range_label())
-                     + "</p>")
-    parts.append('<div class="mockup-code text-sm mb-3" '
-                 'style="min-width:0;overflow-x:auto">')
-    for line in format_answer(decision).splitlines():
-        parts.append("<pre data-prefix=\">\" style=\"min-width:0\">"
-                     + esc(line) + "</pre>")
-    parts.append("</div>")
-    if pre_fix_note:
-        parts.append('<div class="alert alert-error mb-3"><div>'
-                     '<span class="font-bold">Pre-fix behaviour (recorded, '
-                     "not generated by current engine):</span> "
-                     + esc(pre_fix_note) + "</div></div>")
-    parts.append('<div class="mb-3"><h4 class="font-bold mb-1">Evidence beside '
-                 "the verdict</h4>")
-    parts.append("<p>" + evidence_chips(candidate.source, candidate.region,
-                                        candidate.observed_at,
-                                        candidate.evidence_state.value)
-                 + "</p>")
-    parts.append("<p>" + chip("variant", candidate.variant)
-                 + chip("seller", candidate.seller or "(unknown)")
-                 + chip("fulfilled_by",
-                        candidate.fulfilled_by or "(unknown)")
-                 + chip("in_stock", candidate.in_stock) + "</p>")
-    if candidate.primary_page_blocked:
-        parts.append("<p>" + chip("primary_page_blocked", "true") + "</p>")
-    parts.append("</div>")
-    if decision.manual_check:
-        parts.append('<div class="alert alert-warning mb-3"><div><span '
-                     'class="font-bold">Manual check:</span> '
+    if was_price:
+        parts.append('<div class="text-sm opacity-70">was ' + esc(was_price)
+                     + " (as marked on the page)</div>")
+    parts.append(
+        '</div></div>'
+        '<p class="mb-3"><span class="badge ' + badge + '">'
+        + esc(label) + "</span></p>"
+    )
+    parts.append(coupon_html)
+    if decision.verdict.value == "verify" and decision.manual_check:
+        parts.append('<div class="alert alert-warning mb-3"><div>'
                      + esc(decision.manual_check) + "</div></div>")
-    if decision.next_action:
-        parts.append('<div class="alert alert-success mb-3"><div><span '
-                     'class="font-bold">Next action:</span> '
-                     + esc(decision.next_action) + "</div></div>")
-    if notes:
-        parts.append('<ul class="list-disc ml-6 text-sm">'
-                     + "".join("<li>" + esc(n) + "</li>" for n in notes)
-                     + "</ul>")
+    parts.append('<ul class="list-disc ml-6 text-sm mb-3">'
+                 + "".join("<li>" + esc(n) + "</li>" for n in fine_print)
+                 + "</ul>")
+    parts.append(
+        '<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">'
+        "Checked: <a class=\"link\" href=\"" + esc(page_url) + "\">"
+        + esc(page_host) + "</a> \u00b7 " + esc(region) + " \u00b7 "
+        + esc(observed_at) + "</p>"
+    )
     parts.append("</div></section>")
     return "\n".join(parts)
 
 
 def build():
     c1, cost1, d1 = run_lv001()
-    c2, _c2cost, d2 = run_lv002()
     c5, cost5, d5 = run_lv005()
     c6, cost6, d6 = run_lv006()
     c7, cost7, d7 = run_lv007()
 
-    obs_rows = []
-    for oid, src, ts, seen, state, badge in OBSERVATIONS:
-        obs_rows.append(
-            "<tr><td class=\"font-mono\">" + esc(oid) + "</td><td style=\"min-width:0;overflow-wrap:anywhere\">"
-            + esc(src) + "</td><td class=\"font-mono text-xs\">" + esc(ts)
-            + "</td><td>" + esc(seen) + '</td><td><span class="badge '
-            + badge + '">' + esc(state) + "</span></td></tr>"
-        )
-
     body = []
-    body.append(verdict_card(
-        "LV-001", "Single Apple direct offer, tax/shipping Unknown",
-        c1, cost1, d1,
-        notes=[
-            "Amount-due range is open-ended: tax and shipping were Unknown "
-            "on every loaded page and never inferred.",
-            "Stock rests on the observed Buy affordance (OBS-1), not an "
-            "item-specific stock string \u2014 see follow-ups.",
-            "The unverified aggregator code was excluded from the ranking, "
-            "not tested (no consent, read-only rule).",
-            "Single candidate: ranking robustness is vacuous (no rival to "
-            "flip with); flagged for review, behaviour matches LC-001 letter.",
+    body.append(product_card(
+        "AirPods Pro 3", "White \u00b7 new \u00b7 1 pair \u00b7 sold by Apple",
+        "$249", None, d1,
+        coupon_none_block("apple.com", "US", TS_APPLE2),
+        APPLE_URL, "apple.com", "US", TS_APPLE2,
+        fine_print=[
+            "Tax and shipping weren't shown for this item \u2014 check the "
+            "total at checkout.",
+            "Recheck the price before paying; store pages change.",
         ]))
-    body.append(verdict_card(
-        "LV-002", "Rival primary page blocked (OBS-4 as winner)",
-        c2, None, d2,
-        notes=["Blocked evidence never upgrades; matches fixture BLK-001."]))
-    # LV-003 (provenance-free "observed-now" safety check) stays in the
-    # test suite (test_verified_state_without_provenance_downgrades) but is
-    # not a product example, so it is intentionally absent from this page.
-    body.append(verdict_card(
-        "LV-005", "Old Navy sweatpants \u2014 retailer-stated code EXTRA "
-                  "excluded (OBS-8)",
-        c5, cost5, d5,
-        notes=[
-            "Code 'EXTRA' was really seen on the merchant page "
-            "(product + banner, exclusions noted) with source, region, "
-            "and timestamp \u2014 shown as retailer-stated, never tested "
-            "(no consent, read-only rule), excluded from landed cost.",
-            "CP-002 path: the winner holds without the code, so buy stands "
-            "at USD 25.00 .. open-ended (tax/shipping Unknown, membership "
-            "shipping note kept as eligibility, never assumed).",
-            "Single candidate: ranking robustness is vacuous; flagged for "
-            "review, behaviour matches LC-001 letter.",
+    body.append(product_card(
+        "High-Waisted SoComfy Wide-Leg Sweatpants",
+        "Old Navy \u00b7 new \u00b7 Product #777363",
+        "$25.00", "$36.99", d5,
+        coupon_seen_block(
+            "EXTRA", "Extra 30% off (exclusions apply).",
+            "oldnavy.gap.com", "US", TS_ON,
+            "The code was seen but never tested, so the $25.00 price "
+            "above does not include it."),
+        ON_URL, "oldnavy.gap.com", "US", TS_ON,
+        fine_print=[
+            "Tax and shipping weren't shown for this item \u2014 check the "
+            "total at checkout.",
+            "Free shipping over $50 needs a Rewards membership, which was "
+            "not signed into during this check.",
         ]))
-    body.append(verdict_card(
-        "LV-006", "Gap cardigan \u2014 offer text seen, no code, no coupon "
-                  "(OBS-9)",
-        c6, cost6, d6,
-        notes=[
-            "No code was seen on the page, so there is no coupon result: "
-            "the \u201c50\u201360% off / Select styles\u201d and \u201cExtra 50% "
-            "off sale\u201d texts are recorded beside the verdict and "
-            "excluded (applicability to this item unconfirmed).",
-            "The credit-card offer text is recorded as seen and excluded \u2014 "
-            "never a coupon for this item.",
-            "Buy at USD 79.95 .. open-ended (tax/shipping Unknown).",
+    body.append(product_card(
+        "CashSoft Crop Cardigan",
+        "Gap \u00b7 Brown and navy blue argyle \u00b7 new \u00b7 Product #800546",
+        "$79.95", None, d6,
+        coupon_none_block("gap.com", "US", TS_GAP),
+        GAP_URL, "gap.com", "US", TS_GAP,
+        fine_print=[
+            "Store signs advertised select-style offers, but none named a "
+            "code for this item \u2014 the $79.95 price stands on its own.",
+            "Tax and shipping weren't shown for this item \u2014 check the "
+            "total at checkout.",
         ]))
-    body.append(verdict_card(
-        "LV-007", "Nike markdown \u2014 was-price is reference only (OBS-10)",
-        c7, cost7, d7,
-        notes=[
-            "Ranked item price is the observed $87.97; the \u201cwas $155 / "
-            "43% off\u201d text is quoted as seen, never subtracted \u2014 no "
-            "savings figure fabricated.",
-            "\u201cMembers: Free Shipping on Orders $50+\u201d keeps shipping "
-            "Unknown with the eligibility condition attached (membership "
-            "not volunteered; LC-003).",
-            "No code seen: no-coupon result. Buy at USD 87.97 .. open-ended.",
+    body.append(product_card(
+        "Air Jordan OG Women's Shoes",
+        "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
+        "$87.97", "$155", d7,
+        coupon_none_block("nike.com", "US", TS_NIKE),
+        NIKE_URL, "nike.com", "US", TS_NIKE,
+        fine_print=[
+            "The marked-down price is the price checked; no extra savings "
+            "math was added.",
+            "Members get free shipping over $50, but no membership was "
+            "signed into during this check \u2014 shipping wasn't shown.",
+            "Tax wasn't shown for this item \u2014 check the total at "
+            "checkout.",
         ]))
 
     page = """<!DOCTYPE html>
@@ -370,7 +275,7 @@ def build():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ai-deal-finder \u2014 live verification demo</title>
+<title>Deal check \u2014 what the store page actually shows</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
@@ -379,56 +284,25 @@ def build():
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  table { display: block; overflow-x: auto; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<h1 class="text-3xl font-bold mb-2">ai-deal-finder \u2014 live verification demo</h1>
-<p class="mb-2">Real <span class="font-mono">deal_finder/</span> engine (v"""
-    page += esc(ENGINE_VERSION)
-    page += """) run over live-observed browser evidence. Every price, verdict, and
-evidence state below is engine output or a recorded observation \u2014 no fabricated deals.</p>
-<p class="text-sm opacity-80">Scenarios (region US, browsing mode, no coupon consent, no price history):
-\u201cAirPods Pro 3, white, new, 1 pair\u201d (no public coupon \u2014 correct no-coupon result, rechecked
-2026-10-01); Old Navy sweatpants (retailer-stated code EXTRA, excluded); Gap cardigan (offer text, no code);
-Nike shoes (markdown reference, membership shipping note). Read-only anonymous observation only:
-no login, checkout, payment, personal data, or cart tests. Regenerate with
-<span class="font-mono">python3 demo/build.py</span>; verify with
-<span class="font-mono">python3 -m unittest discover -s tests</span> (59 green).</p>
+<h1 class="text-3xl font-bold mb-2">Deal check</h1>
+<p class="mb-2">Four products, checked read-only on the store page: the product, the price,
+the decision, and any coupon actually printed on the page. No login, no checkout, no cart test.</p>
+<p class="text-sm opacity-80">Prices change \u2014 recheck at checkout. A coupon appears here only
+when its text was really seen, with the page and time it was seen.</p>
 </header>
-<section class="stats stats-vertical sm:stats-horizontal shadow mb-6 w-full">
-<div class="stat"><div class="stat-title">Observations</div><div class="stat-value">11</div><div class="stat-desc">6 observed \u00b7 5 blocked/fallback</div></div>
-<div class="stat"><div class="stat-title">Engine runs</div><div class="stat-value">6</div><div class="stat-desc">LV-001, LV-002, LV-004 \u2026 LV-007</div></div>
-<div class="stat"><div class="stat-title">Discrepancies fixed</div><div class="stat-value">1</div><div class="stat-desc">provenance gate, fail-closed</div></div>
-</section>
-<h2 class="text-2xl font-bold mb-3">Observations (source \u00b7 region US \u00b7 timestamp \u00b7 evidence state)</h2>
-<table class="table table-zebra w-full mb-8">
-<thead><tr><th>ID</th><th>Source</th><th>Observed (UTC)</th><th>What was seen</th><th>Evidence state</th></tr></thead>
-<tbody>
-"""
-    page += "\n".join(obs_rows)
-    page += """
-</tbody>
-</table>
-<h2 class="text-2xl font-bold mb-3">Verdicts (engine output, evidence beside each claim)</h2>
 """
     page += "\n".join(body)
     page += """<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
-<h3 class="card-title">LV-004 \u2014 coupon research-only fallback (OBS-7, no consent)</h3>
-<p>No code text was observable (aggregator page bot-blocked) and no consent was solicited, so the only
-honest coupon status is <span class="font-mono">unverified</span>: excluded from landed cost
-(shown in LV-001 reasons) and no cart test run. Matches fixtures CP-003 / CS-001. Correct refusal, not failure.</p>
-</div></section>
-<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
-<h3 class="card-title">Scope notes</h3>
+<h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
-<li>No gate in VALIDATION_RECORD.md is claimed passed; it stays NOT RUN pending independent review.</li>
-<li>LV-003 (provenance-free \u201cobserved-now\u201d safety check) stays in the test suite and out of this product list: it is indexed text with no source, not a shopping result.</li>
-<li>ASSUMPTIONS.md D1\u2013D6 and frozen VISION.md untouched.</li>
-<li>Follow-ups (not built): stock-unknown representation; single-candidate vacuous robustness;
-live Jev integration; browser cart-test bindings; price monitoring; monetization.</li>
+<li>Each page was opened anonymously and read \u2014 nothing was added to a bag and no code was tried out.</li>
+<li>Tax and shipping are left out whenever the page doesn't show them for the exact item.</li>
+<li>Apple shows no public coupon: that is the correct result, not a missing one.</li>
 </ul>
 </div></section>
 </div>
@@ -439,9 +313,9 @@ live Jev integration; browser cart-test bindings; price monitoring; monetization
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)
     print("wrote " + out)
-    print("LV-001:", d1.verdict.value, "| LV-002:", d2.verdict.value,
-          "| LV-005:", d5.verdict.value, "| LV-006:", d6.verdict.value,
-          "| LV-007:", d7.verdict.value)
+    print("apple:", d1.verdict.value,
+          "| oldnavy:", d5.verdict.value, "| gap:", d6.verdict.value,
+          "| nike:", d7.verdict.value)
 
 
 if __name__ == "__main__":
