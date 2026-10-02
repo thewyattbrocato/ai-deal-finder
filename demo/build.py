@@ -1,10 +1,11 @@
-"""Demo page builder for ai-deal-finder live verification.
+"""Demo page builder: a product screen for the ai-deal-finder coupon slice.
 
 Runs the REAL deal_finder engine (stdlib-only, no network) over the
 live-observed evidence recorded in LIVE_VERIFICATION.md and emits a single
-self-contained demo/index.html. No deals are fabricated: every price,
-verdict, and evidence state on the page is engine output or a recorded
-browser observation.
+self-contained demo/index.html. The page shows the product, the price, the
+decision, and any coupon really seen — no lab labels. No deals are
+fabricated: every price, decision, and coupon on the page is engine output
+or a recorded browser observation.
 
 Regenerate:  python3 demo/build.py   (from the repo root)
 Verify:      python3 -m unittest discover -s tests
@@ -16,36 +17,17 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from deal_finder import __version__ as ENGINE_VERSION  # noqa: E402
 from deal_finder.consent import ConsentRecord  # noqa: E402
-from deal_finder.decision import DecisionInput, format_answer  # noqa: E402
+from deal_finder.decision import DecisionInput  # noqa: E402
 from deal_finder.evidence import Candidate, Coupon, EvidenceState  # noqa: E402
 from deal_finder.landed_cost import LandedCost, RankedCandidate  # noqa: E402
 
 TS_OBS1 = "2026-09-30T14:08:20Z"
-TS_OBS4 = "2026-09-30T14:09:23Z"
-TS_EDU = "2026-09-30T14:09:36Z"
 APPLE_URL = "https://www.apple.com/airpods-pro/"
 
 
 def esc(s):
     return html.escape(str(s), quote=True)
-
-
-def chip(label, value):
-    return (
-        '<span class="badge badge-outline badge-sm mr-1 mb-1">'
-        + esc(label) + ": " + esc(value) + "</span>"
-    )
-
-
-def evidence_chips(source, region, observed_at, state):
-    return (
-        chip("source", source or "(none)")
-        + chip("region", region or "(none)")
-        + chip("timestamp", observed_at or "(none)")
-        + chip("evidence", state)
-    )
 
 
 def run_lv001():
@@ -69,182 +51,591 @@ def run_lv001():
     return apple, cost, decision
 
 
-def run_lv002():
-    """Rival primary page blocked (OBS-4 Best Buy) as winner."""
-    from deal_finder.decision import decide
-    bb = Candidate(
-        id="bestbuy-listing", variant="AirPods Pro 3, white",
-        quantity_terms="1 pair", condition="new",
-        seller="", fulfilled_by="", region="US", in_stock=True,
-        evidence_state=EvidenceState.UNKNOWN, source="", observed_at="",
-        primary_page_blocked=True,
-    )
-    decision = decide(DecisionInput(candidates=[bb], ranked=[], mode="browsing"))
-    return bb, None, decision
+TS_ON = "2026-10-01T19:50:21Z"
+TS_GAP = "2026-10-01T19:50:30Z"
+TS_NIKE = "2026-10-01T19:50:41Z"
+TS_APPLE2 = "2026-10-01T19:50:52Z"
+ON_URL = "https://oldnavy.gap.com/browse/product.do?pid=777363182"
+GAP_URL = "https://www.gap.com/browse/product.do?pid=800546212"
+NIKE_URL = "https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002"
 
 
-def run_lv003():
-    """Provenance-free observed-now (indexed text, no URL/timestamp)."""
+def run_lv005():
+    """Old Navy sweatpants, retailer-stated code EXTRA excluded."""
     from deal_finder.decision import decide
-    naked = Candidate(
-        id="index-snippet", variant="AirPods Pro 3, white",
+    on = Candidate(
+        id="oldnavy-sweatpants",
+        variant="High-Waisted SoComfy Wide-Leg Sweatpants",
         quantity_terms="1 pair", condition="new", bundle="single",
-        seller="Apple", fulfilled_by="Apple", region="US", in_stock=True,
+        seller="Old Navy", fulfilled_by="Old Navy", region="US",
+        in_stock=True,
         evidence_state=EvidenceState.OBSERVED_NOW,
-        source="", observed_at="",
+        source=ON_URL, observed_at=TS_ON,
         price_determining_states=[EvidenceState.OBSERVED_NOW],
     )
-    cost = LandedCost(item_price=249.0, shipping=0.0, known_tax=20.0)
+    cost = LandedCost(
+        item_price=25.0, shipping=None, known_tax=None,
+        eligibility_condition="free shipping on $50+ for Rewards Members; "
+                              "membership not volunteered",
+    )
     decision = decide(DecisionInput(
-        candidates=[naked], ranked=[RankedCandidate("index-snippet", cost)],
-        mode="browsing",
+        candidates=[on],
+        ranked=[RankedCandidate("oldnavy-sweatpants", cost)],
+        coupons=[Coupon(code="EXTRA", merchant="Old Navy",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
     ))
-    return naked, cost, decision
+    return on, cost, decision
 
 
-OBSERVATIONS = [
-    ("OBS-1", APPLE_URL, TS_OBS1,
-     "\u201cAirPods Pro 3 \u2026 $249\u201d with Buy link, Apple US site",
-     "observed-now (item price)", "badge-success"),
-    ("OBS-2", "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
-     "2026-09-30T14:08Z",
-     "Buy page loads; generic delivery template text only; buy-box price absent from rendered text; no item-specific stock string",
-     "unverified (price/stock on this page)", "badge-warning"),
-    ("OBS-3", "https://www.apple.com/us-edu/shop/buy-airpods/airpods-pro-3",
-     TS_EDU,
-     "Education-gated store loads; no price in rendered text; eligibility not volunteered",
-     "retailer-stated at best; eligibility-gated", "badge-warning"),
-    ("OBS-4", "Best Buy AirPods Pro 3 product URL", TS_OBS4,
-     "chrome-error, ERR_HTTP2_PROTOCOL_ERROR, page unreachable",
-     "primary page blocked", "badge-error"),
-    ("OBS-5", "https://www.sony.com/electronics/headphones/wh-1000xm5",
-     "2026-09-30T14:08Z",
-     "\u201cAccess Denied \u2026 Reference 0.e80a3517.1790777300.b9b3a8\u201d",
-     "primary page blocked", "badge-error"),
-    ("OBS-6", "B&H Photo WH-1000XM5 product page", "2026-09-30T14:08Z",
-     "Cloudflare \u201cPerforming security verification\u201d challenge",
-     "observation blocked", "badge-error"),
-    ("OBS-7", "https://www.retailmenot.com/view/apple.com",
-     "2026-09-30T14:09Z",
-     "Cloudflare challenge; no code text observed; no consent solicited; no cart test run",
-     "coupon stays unverified (research-only)", "badge-warning"),
-]
+def run_lv006():
+    """Gap cardigan, offer text seen but no code — no coupon."""
+    from deal_finder.decision import decide
+    gap = Candidate(
+        id="gap-cardigan",
+        variant="CashSoft Crop Cardigan, Brown and navy blue argyle",
+        quantity_terms="1 cardigan", condition="new", bundle="single",
+        seller="Gap", fulfilled_by="Gap", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=GAP_URL, observed_at=TS_GAP,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(
+        item_price=79.95, shipping=None, known_tax=None,
+        eligibility_condition="free shipping on $50+ for Rewards Members; "
+                              "membership not volunteered",
+    )
+    decision = decide(DecisionInput(
+        candidates=[gap],
+        ranked=[RankedCandidate("gap-cardigan", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return gap, cost, decision
 
-VERDICT_BADGE = {
-    "buy": "badge-success", "wait": "badge-info",
-    "verify": "badge-warning", "abstain": "badge-error",
+
+def run_lv007():
+    """Nike markdown price; was-price is reference text, never subtracted."""
+    from deal_finder.decision import decide
+    nike = Candidate(
+        id="nike-jordan-og",
+        variant="Air Jordan OG Women's Shoes, Black/White/University Red "
+                "(CW0907-002)",
+        quantity_terms="1 pair", condition="new", bundle="single",
+        seller="Nike", fulfilled_by="Nike", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=NIKE_URL, observed_at=TS_NIKE,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(
+        item_price=87.97, shipping=None, known_tax=None,
+        eligibility_condition="members free shipping on orders $50+; "
+                              "membership not volunteered",
+    )
+    decision = decide(DecisionInput(
+        candidates=[nike],
+        ranked=[RankedCandidate("nike-jordan-og", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return nike, cost, decision
+
+
+TS_COF1 = "2026-10-01T23:52:52Z"
+TS_COF2 = "2026-10-01T23:54:08Z"
+TS_COF3 = "2026-10-01T23:55:04Z"
+COF1_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202"
+COF2_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa"
+COF3_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico"
+CAFE20 = ("CAFE20", "20% off coffee (free mug on orders $150+)")
+CAFE20_CAVEAT = ("Seen in the store banner but never tried out, so the price "
+                 "shown does not include it.")
+
+
+def run_cof1():
+    """Super Crema Whole Bean 2.2 lb, $26.99, code CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-super-crema",
+        variant="Super Crema Whole Bean, 2.2 lb",
+        quantity_terms="1x 2.2 lb bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF1_URL, observed_at=TS_COF1,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=26.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-super-crema", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_cof2():
+    """Qualita Rossa Whole Bean 2.2 lb, $24.99, code CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-rossa",
+        variant="Qualita Rossa Whole Bean, 2.2 lb",
+        quantity_terms="1x 2.2 lb bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF2_URL, observed_at=TS_COF2,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=24.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-rossa", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_cof3():
+    """Dolcevita Classico Whole Bean 12 oz, $13.99, CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-classico",
+        variant="Dolcevita Classico Whole Bean, 12 oz",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF3_URL, observed_at=TS_COF3,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=13.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-classico", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_specific_super_crema():
+    """Named-product search: Super Crema 2.2 lb.
+
+    Lavazza direct is the only seller whose page loads (Target, Walmart,
+    and Kroger checks were blocked or unreachable, so those sellers stay
+    unverified and are not counted). One verified candidate: buy.
+    """
+    return run_cof1()
+
+
+TS_HCR = "2026-10-02T15:00:17Z"
+TS_WEL = "2026-10-02T15:01:25Z"
+TS_CCC = "2026-10-02T15:03:57Z"
+HCR_URL = ("https://www.honest.coffee/shop-3Ooj8/p/"
+           "nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr")
+WEL_URL = "https://wellcoffeeroasters.com/products/watershed"
+CCC_URL = ("https://counterculturecoffee.com/collections/coffee/products/"
+           "big-trouble")
+
+
+def run_hcr():
+    """Honest Midnight Axes 12oz, $18.00 one-time, no coupon seen."""
+    from deal_finder.decision import decide
+    hcr = Candidate(
+        id="honest-midnight-axes",
+        variant="Midnight Axes dark roast, 12 oz bag (whole bean on bag)",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Honest Coffee Roasters",
+        fulfilled_by="Honest Coffee Roasters", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=HCR_URL, observed_at=TS_HCR,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=18.0, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[hcr],
+        ranked=[RankedCandidate("honest-midnight-axes", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return hcr, cost, decision
+
+
+def run_wel():
+    """Well Watershed 12oz Whole Bean, $20.50, email offer is not a coupon."""
+    from deal_finder.decision import decide
+    wel = Candidate(
+        id="well-watershed",
+        variant="Watershed light roast, 12 oz bag, Whole Bean",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="The Well Coffee Roasters",
+        fulfilled_by="The Well Coffee Roasters", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=WEL_URL, observed_at=TS_WEL,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=20.5, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[wel],
+        ranked=[RankedCandidate("well-watershed", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return wel, cost, decision
+
+
+def run_ccc():
+    """Counter Culture Big Trouble 12oz, $19.50 one-time, no coupon seen."""
+    from deal_finder.decision import decide
+    ccc = Candidate(
+        id="ccc-big-trouble",
+        variant="Big Trouble medium-dark roast, 12 oz bag "
+                "(whole bean on bag)",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Counter Culture Coffee",
+        fulfilled_by="Counter Culture Coffee", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=CCC_URL, observed_at=TS_CCC,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=19.5, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[ccc],
+        ranked=[RankedCandidate("ccc-big-trouble", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return ccc, cost, decision
+
+
+DECISION_BADGE = {
+    "buy": ("badge-success", "Good to buy"),
+    "wait": ("badge-info", "Worth a wait"),
+    "verify": ("badge-warning", "Check first"),
+    "abstain": ("badge-error", "Skipped"),
 }
 
 
-def verdict_card(run_id, title, candidate, cost, decision, notes,
-                 pre_fix_note=None):
-    v = decision.verdict.value
-    parts = []
-    parts.append('<section class="card bg-base-100 shadow-xl mb-6">')
-    parts.append('<div class="card-body" style="min-width:0">')
-    parts.append(
-        '<h3 class="card-title flex flex-wrap items-center gap-2">'
-        + esc(run_id) + " \u2014 " + esc(title)
-        + ' <span class="badge ' + VERDICT_BADGE[v] + '">verdict: ' + esc(v)
-        + "</span></h3>"
+def coupon_seen_block(code, offer, page_host, region, observed_at, caveat):
+    return (
+        '<div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0">'
+        '<div class="font-bold mb-1">Coupon on this page</div>'
+        '<p class="mb-1"><span class="font-mono font-bold text-lg">'
+        + esc(code) + "</span> \u2014 " + esc(offer) + "</p>"
+        '<p class="text-sm opacity-80">Seen on ' + esc(page_host)
+        + ", " + esc(region) + ", " + esc(observed_at) + ". " + esc(caveat)
+        + "</p></div></div>"
     )
-    if decision.winner_id:
-        parts.append("<p>" + chip("winner", decision.winner_id) + "</p>")
-    if cost is not None:
-        parts.append("<p>" + chip("landed-cost range", cost.range_label())
-                     + "</p>")
-    parts.append('<div class="mockup-code text-sm mb-3" '
-                 'style="min-width:0;overflow-x:auto">')
-    for line in format_answer(decision).splitlines():
-        parts.append("<pre data-prefix=\">\" style=\"min-width:0\">"
-                     + esc(line) + "</pre>")
-    parts.append("</div>")
-    if pre_fix_note:
-        parts.append('<div class="alert alert-error mb-3"><div>'
-                     '<span class="font-bold">Pre-fix behaviour (recorded, '
-                     "not generated by current engine):</span> "
-                     + esc(pre_fix_note) + "</div></div>")
-    parts.append('<div class="mb-3"><h4 class="font-bold mb-1">Evidence beside '
-                 "the verdict</h4>")
-    parts.append("<p>" + evidence_chips(candidate.source, candidate.region,
-                                        candidate.observed_at,
-                                        candidate.evidence_state.value)
-                 + "</p>")
-    parts.append("<p>" + chip("variant", candidate.variant)
-                 + chip("seller", candidate.seller or "(unknown)")
-                 + chip("fulfilled_by",
-                        candidate.fulfilled_by or "(unknown)")
-                 + chip("in_stock", candidate.in_stock) + "</p>")
-    if candidate.primary_page_blocked:
-        parts.append("<p>" + chip("primary_page_blocked", "true") + "</p>")
-    parts.append("</div>")
-    if decision.manual_check:
-        parts.append('<div class="alert alert-warning mb-3"><div><span '
-                     'class="font-bold">Manual check:</span> '
+
+
+def coupon_none_block(page_host, region, observed_at):
+    return (
+        '<div class="alert mb-3" style="min-width:0"><div style="min-width:0">'
+        '<div class="font-bold mb-1">No coupon on this page</div>'
+        '<p class="text-sm opacity-80">No coupon code was visible when this '
+        "page was checked (" + esc(page_host) + ", " + esc(region) + ", "
+        + esc(observed_at) + ").</p></div></div>"
+    )
+
+
+def product_card(item, decision, coupon_html):
+    badge, label = DECISION_BADGE[decision.verdict.value]
+    parts = []
+    parts.append('<section class="card bg-base-100 shadow mb-5 border border-base-200" '
+                 'data-keywords="' + esc(" ".join(item["keywords"]))
+                 + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
+                 + ("yes" if item["coupon"] else "no") + '" data-price="'
+                 + str(item["price_cents"]) + '" data-quality="'
+                 + esc(item["quality"]["tag"] if item["quality"] else "")
+                 + '" data-form="' + esc(item["form"] or "") + '">')
+    parts.append('<div class="card-body" style="min-width:0">')
+    parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
+    if item["image"]:
+        parts.append(
+            '<img src="' + esc(item["image"]) + '" alt="Photo of '
+            + esc(item["name"]) + ' as shown on the store page" '
+            'loading="eager" width="140" height="140" '
+            'style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">'
+        )
+    parts.append('<div style="min-width:0;flex:1 1 16rem">')
+    parts.append('<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">'
+                 + esc(item["kind"]) + " \u00b7 " + esc(item["seller"]) + "</p>")
+    parts.append('<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0">'
+                 '<h3 class="card-title text-xl" style="min-width:0">'
+                 + esc(item["name"]) + "</h3>"
+                 '<div class="text-2xl font-extrabold whitespace-nowrap">'
+                 + esc(item["price_label"]) + "</div></div>")
+    parts.append('<p class="text-sm opacity-80 mb-1">' + esc(item["detail"]) + "</p>")
+    if item["was_label"]:
+        parts.append('<p class="text-sm opacity-70 mb-1">was '
+                     + esc(item["was_label"])
+                     + " (as marked on the page)</p>")
+    if item["quality"] and not item.get("band"):
+        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
+                     + esc(item["quality"]["label"])
+                     + '</span> <span class="opacity-70">\u2014 '
+                     + esc(item["quality"]["basis"]) + "</span></p>")
+    if item.get("band"):
+        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
+                     "Specialty band: "
+                     + "</span>" + esc(item["band"]) + "</p>")
+    parts.append(
+        '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
+        '<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
+        '<span class="text-sm opacity-80">Price verified on the page \u2014 recheck at checkout.</span>'
+        '<a class="btn btn-primary" href="' + esc(item["page_url"])
+        + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
+        + " \u2192</a></div>"
+    )
+    parts.append(coupon_html)
+    if decision.verdict.value == "verify" and decision.manual_check:
+        parts.append('<div class="alert alert-warning mb-3"><div>'
                      + esc(decision.manual_check) + "</div></div>")
-    if decision.next_action:
-        parts.append('<div class="alert alert-success mb-3"><div><span '
-                     'class="font-bold">Next action:</span> '
-                     + esc(decision.next_action) + "</div></div>")
-    if notes:
-        parts.append('<ul class="list-disc ml-6 text-sm">'
-                     + "".join("<li>" + esc(n) + "</li>" for n in notes)
-                     + "</ul>")
-    parts.append("</div></section>")
+    parts.append('<ul class="list-disc ml-6 text-sm mb-2">'
+                 + "".join("<li>" + esc(n) + "</li>" for n in item["fine_print"])
+                 + "</ul>")
+    parts.append(
+        '<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">'
+        "Checked: " + esc(item["page_host"]) + " \u00b7 " + esc(item["region"])
+        + " \u00b7 " + esc(item["observed_at"]) + "</p>"
+    )
+    parts.append("</div></div></div></section>")
     return "\n".join(parts)
 
 
-def build():
-    c1, cost1, d1 = run_lv001()
-    c2, _c2cost, d2 = run_lv002()
-    c3, cost3, d3 = run_lv003()
+def card_for(item):
+    if item["coupon"] is None:
+        coupon_html = coupon_none_block(item["page_host"], item["region"],
+                                        item["observed_at"])
+    else:
+        coupon_html = coupon_seen_block(
+            item["coupon"]["code"], item["coupon"]["offer"],
+            item["page_host"], item["region"], item["observed_at"],
+            item["coupon"]["caveat"])
+    return product_card(item, item["decision"], coupon_html)
 
-    obs_rows = []
-    for oid, src, ts, seen, state, badge in OBSERVATIONS:
-        obs_rows.append(
-            "<tr><td class=\"font-mono\">" + esc(oid) + "</td><td style=\"min-width:0;overflow-wrap:anywhere\">"
-            + esc(src) + "</td><td class=\"font-mono text-xs\">" + esc(ts)
-            + "</td><td>" + esc(seen) + '</td><td><span class="badge '
-            + badge + '">' + esc(state) + "</span></td></tr>"
+
+def comparison_table(ordered_items):
+    """Compact side-by-side comparison: high data-ink, one row per bag."""
+    rows = []
+    for item in ordered_items:
+        if item["coupon"]:
+            coupon_cell = "<strong>" + esc(item["coupon"]["code"]) + "</strong> \u2014 seen, not tested"
+        else:
+            coupon_cell = "None seen"
+        if item["quality"]:
+            quality_cell = esc(item["quality"]["label"])
+        else:
+            quality_cell = "Standard shelf"
+        rows.append(
+            "<tr><td><strong>" + esc(item["name"]) + "</strong><br><span class=\"opacity-70\">"
+            + esc(item["detail"]) + "</span></td><td class=\"whitespace-nowrap text-right\"><strong>"
+            + esc(item["price_label"]) + "</strong></td><td>" + coupon_cell
+            + "</td><td>" + quality_cell + "</td><td><a class=\"link link-primary whitespace-nowrap\" href=\""
+            + esc(item["page_url"]) + "\" target=\"_blank\" rel=\"noopener\">See at "
+            + esc(item["seller"]) + " \u2192</a></td></tr>"
         )
+    return (
+        '<div class="overflow-x-auto mb-6 border border-base-200 rounded-lg bg-base-100" style="min-width:0">'
+        '<table class="table table-sm w-full" style="min-width:34rem">'
+        "<caption class=\"text-left p-3 text-sm opacity-80\">Compare at a glance \u2014 same six bags, shelf price order. Details follow below.</caption>"
+        "<thead><tr><th>Bag</th><th class=\"text-right\">Price</th><th>Coupon</th><th>Quality note</th><th>Buy</th></tr></thead>"
+        "<tbody>" + "".join(rows) + "</tbody></table></div>"
+    )
 
-    body = []
-    body.append(verdict_card(
-        "LV-001", "Single Apple direct offer, tax/shipping Unknown",
-        c1, cost1, d1,
-        notes=[
-            "Amount-due range is open-ended: tax and shipping were Unknown "
-            "on every loaded page and never inferred.",
-            "Stock rests on the observed Buy affordance (OBS-1), not an "
-            "item-specific stock string \u2014 see follow-ups.",
-            "The unverified aggregator code was excluded from the ranking, "
-            "not tested (no consent, read-only rule).",
-            "Single candidate: ranking robustness is vacuous (no rival to "
-            "flip with); flagged for review, behaviour matches LC-001 letter.",
-        ]))
-    body.append(verdict_card(
-        "LV-002", "Rival primary page blocked (OBS-4 as winner)",
-        c2, None, d2,
-        notes=["Blocked evidence never upgrades; matches fixture BLK-001."]))
-    body.append(verdict_card(
-        "LV-003", "Provenance-free \u201cobserved-now\u201d (indexed text)",
-        c3, cost3, d3,
-        pre_fix_note="verdict was buy on this exact input before the "
-                     "2026-09-30 provenance fix (recorded repro output).",
-        notes=[
-            "Regression test: test_verified_state_without_provenance_"
-            "downgrades; audit: check_no_upgrade flags verified-state "
-            "claims lacking provenance.",
-            "Fix: deal_finder/decision.py provenance gate + "
-            "deal_finder/evidence.py audit.",
-        ]))
+
+def item_dict(key, name, detail, seller, kind, image, price_cents,
+              price_label, was_label, decision, coupon, page_url, page_host,
+              region, observed_at, fine_print, keywords, quality=None,
+              form=None, band=None):
+    return {
+        "key": key, "name": name, "detail": detail, "seller": seller,
+        "kind": kind, "image": image,
+        "price_cents": price_cents, "price_label": price_label,
+        "was_label": was_label, "decision": decision, "coupon": coupon,
+        "page_url": page_url, "page_host": page_host, "region": region,
+        "observed_at": observed_at, "fine_print": fine_print,
+        "keywords": keywords, "quality": quality, "form": form,
+        "band": band,
+    }
+
+
+def build():
+    _c1, _cost1, d1 = run_lv001()
+    _c5, _cost5, d5 = run_lv005()
+    _c6, _cost6, d6 = run_lv006()
+    _c7, _cost7, d7 = run_lv007()
+    _cc1, _ccost1, dc1 = run_cof1()
+    _cc2, _ccost2, dc2 = run_cof2()
+    _cc3, _ccost3, dc3 = run_cof3()
+    _hcr, _hcost, dhcr = run_hcr()
+    _wel, _wcost, dwel = run_wel()
+    _ccc, _cccost, dccc = run_ccc()
+    _sp, _spcost, dsp = run_specific_super_crema()
+
+    tax_ship = ("Tax and shipping weren't shown for this item \u2014 check "
+                "the total at checkout.")
+    lavazza_coupon = {
+        "code": CAFE20[0], "offer": CAFE20[1], "caveat": CAFE20_CAVEAT,
+    }
+    items = {
+        "apple": item_dict(
+            "apple", "AirPods Pro 3",
+            "White \u00b7 new \u00b7 1 pair \u00b7 sold by Apple", "Apple",
+            "Tech", "assets/airpods-pro.jpg",
+            24900, "$249", None, d1, None,
+            APPLE_URL, "apple.com", "US", TS_APPLE2,
+            [tax_ship,
+             "Recheck the price before paying; store pages change."],
+            ["airpods", "apple", "earbuds", "headphones"],
+            band="not checked for other products yet."),
+        "oldnavy": item_dict(
+            "oldnavy", "High-Waisted SoComfy Wide-Leg Sweatpants",
+            "Old Navy \u00b7 new \u00b7 Product #777363", "Old Navy",
+            "Clothing", "assets/sweatpants.jpg",
+            2500, "$25.00", "$36.99", d5,
+            {"code": "EXTRA", "offer": "Extra 30% off (exclusions apply).",
+             "caveat": "The code was seen but never tested, so the $25.00 "
+                       "price above does not include it."},
+            ON_URL, "oldnavy.gap.com", "US", TS_ON,
+            [tax_ship,
+             "Free shipping over $50 needs a Rewards membership, which was "
+             "not signed into during this check."],
+            ["sweatpants", "old", "navy", "pants", "fleece"],
+            band="not checked for other products yet."),
+        "gap": item_dict(
+            "gap", "CashSoft Crop Cardigan",
+            "Gap \u00b7 Brown and navy blue argyle \u00b7 new", "Gap",
+            "Clothing", "assets/cardigan.jpg",
+            7995, "$79.95", None, d6, None,
+            GAP_URL, "gap.com", "US", TS_GAP,
+            ["Store signs advertised select-style offers, but none named a "
+             "code for this item \u2014 the $79.95 price stands on its own.",
+             tax_ship],
+            ["cardigan", "gap", "sweater"],
+            band="not checked for other products yet."),
+        "nike": item_dict(
+            "nike", "Air Jordan OG Women's Shoes",
+            "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
+            "Nike", "Shoes", "assets/jordan.jpg", 8797, "$87.97", "$155", d7, None,
+            NIKE_URL, "nike.com", "US", TS_NIKE,
+            ["The marked-down price is the price checked; no extra savings "
+             "math was added.",
+             "Members get free shipping over $50, but no membership was "
+             "signed into during this check \u2014 shipping wasn't shown.",
+             "Tax wasn't shown for this item \u2014 check the total at "
+             "checkout."],
+            ["nike", "jordan", "shoes", "sneakers"],
+            band="not checked for other products yet."),
+        "cof1": item_dict(
+            "cof1", "Super Crema Whole Bean, 2.2 lb bag",
+            "Lavazza \u00b7 medium roast \u00b7 honey, nutty", "Lavazza",
+            "Coffee", "assets/super-crema.png",
+            2699, "$26.99", None, dc1, lavazza_coupon,
+            COF1_URL, "lavazzausa.com", "US", TS_COF1,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "super", "crema", "espresso",
+             "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
+            form="whole-bean"),
+        "cof2": item_dict(
+            "cof2", "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag",
+            "Lavazza \u00b7 medium roast \u00b7 chocolate", "Lavazza",
+            "Coffee", "assets/rossa.png",
+            2499, "$24.99", None, dc2, lavazza_coupon,
+            COF2_URL, "lavazzausa.com", "US", TS_COF2,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "rossa", "qualita", "espresso",
+             "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
+            form="whole-bean"),
+        "cof3": item_dict(
+            "cof3", "Dolcevita Classico Whole Bean, 12 oz bag",
+            "Lavazza \u00b7 filter roast \u00b7 roasted nuts", "Lavazza",
+            "Coffee", "assets/classico.png",
+            1399, "$13.99", None, dc3, lavazza_coupon,
+            COF3_URL, "lavazzausa.com", "US", TS_COF3,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "classico", "dolcevita", "filter",
+             "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
+            form="whole-bean"),
+        "hcr": item_dict(
+            "hcr", "Midnight Axes dark roast, 12 oz bag",
+            "Honest Coffee Roasters \u00b7 Nicaragua single origin \u00b7 "
+            "dark chocolate, bourbon", "Honest Coffee Roasters",
+            "Coffee", "assets/midnight-axes.jpg",
+            1800, "$18.00", None, dhcr, None,
+            HCR_URL, "honest.coffee", "US", TS_HCR,
+            [tax_ship,
+             "No coupon code was visible on this page.",
+             "The bag reads whole-bean coffee; 12 oz one-time purchase."],
+            ["coffee", "beans", "honest", "midnight", "axes", "dark",
+             "roast", "nashville", "franklin", "whole", "bean"],
+            band="In this band: roastery locations plus direct sourcing, stated on honest.coffee; single-origin bag.",
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "roastery in Franklin/Nashville TN plus Alabama + direct "
+                              "sourcing, stated on honest.coffee"},
+            form="whole-bean"),
+        "wel": item_dict(
+            "wel", "Watershed light roast, 12 oz bag, Whole Bean",
+            "The Well Coffee Roasters \u00b7 Guatemala single origin \u00b7 "
+            "orange, almond, chocolate", "The Well Coffee Roasters",
+            "Coffee", "assets/watershed.png",
+            2050, "$20.50", None, dwel, None,
+            WEL_URL, "wellcoffeeroasters.com", "US", TS_WEL,
+            [tax_ship,
+             "No coupon code was visible; the 10%-off signup needs an email "
+             "address, so it stays uncounted.",
+             "Free shipping starts at $75; this bag is below that, and the "
+             "exact shipping wasn't shown."],
+            ["coffee", "beans", "well", "watershed", "light", "nashville",
+             "whole", "bean"],
+            band="In this band: 'Small Batch Roasted in Nashville' plus direct trade, stated on the page.",
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "\u201cSmall Batch Roasted in Nashville\u201d "
+                              "and direct trade, stated on the page"},
+            form="whole-bean"),
+        "ccc": item_dict(
+            "ccc", "Big Trouble medium-dark roast, 12 oz bag",
+            "Counter Culture Coffee \u00b7 caramel, nutty, round \u00b7 "
+            "roasted in Durham, NC", "Counter Culture Coffee",
+            "Coffee", "assets/big-trouble.jpg",
+            1950, "$19.50", None, dccc, None,
+            CCC_URL, "counterculturecoffee.com", "US", TS_CCC,
+            [tax_ship,
+             "No coupon code was visible on this page.",
+             "The bag reads whole-bean coffee; 12 oz one-time purchase. "
+             "Free shipping starts at $30."],
+            ["coffee", "beans", "counter", "culture", "big", "trouble",
+             "durham", "whole", "bean"],
+            band="In this band: roastery training centers plus published transparency reports, stated on counterculturecoffee.com.",
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "roastery with training centers and published "
+                              "transparency reports, stated on "
+                              "counterculturecoffee.com"},
+            form="whole-bean"),
+    }
+
+    open_cards = "\n".join(card_for(items[k])
+                            for k in ("cof3", "hcr", "ccc",
+                                      "wel", "cof2", "cof1"))
+    best_place = card_for(items["cof1"])
+    all_cards = "\n".join(card_for(items[k]) for k in items)
+
+    n_total = len(items)
+    n_coupon = sum(1 for v in items.values() if v["coupon"])
+    cheapest = min(items.values(), key=lambda v: v["price_cents"])
+    compare_order = [items[k] for k in ("cof3", "hcr", "ccc", "wel", "cof2", "cof1")]
+    compare_html = comparison_table(compare_order)
 
     page = """<!DOCTYPE html>
-<html lang="en" data-theme="luxury">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ai-deal-finder \u2014 live verification demo</title>
+<title>Find a deal \u2014 what the store page actually shows</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
@@ -253,65 +644,240 @@ def build():
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  table { display: block; overflow-x: auto; }
+  .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  body { font-size: 1.0625rem; line-height: 1.6; }
+  .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
+  .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
+  .mode-btn, .kind-btn { min-height: 2.5rem; }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<h1 class="text-3xl font-bold mb-2">ai-deal-finder \u2014 live verification demo</h1>
-<p class="mb-2">Real <span class="font-mono">deal_finder/</span> engine (v"""
-    page += esc(ENGINE_VERSION)
-    page += """) run over live-observed browser evidence. Every price, verdict, and
-evidence state below is engine output or a recorded observation \u2014 no fabricated deals.</p>
-<p class="text-sm opacity-80">Scenario: \u201cAirPods Pro 3, white, new, 1 pair\u201d, region US,
-browsing mode, no coupon consent, no price history. Read-only anonymous observation only:
-no login, checkout, payment, personal data, or cart tests. Regenerate with
-<span class="font-mono">python3 demo/build.py</span>; verify with
-<span class="font-mono">python3 -m unittest discover -s tests</span> (55 green).</p>
-</header>
-<section class="stats stats-vertical sm:stats-horizontal shadow mb-6 w-full">
-<div class="stat"><div class="stat-title">Observations</div><div class="stat-value">7</div><div class="stat-desc">2 observed \u00b7 5 blocked/fallback</div></div>
-<div class="stat"><div class="stat-title">Engine runs</div><div class="stat-value">4</div><div class="stat-desc">LV-001 \u2026 LV-004</div></div>
-<div class="stat"><div class="stat-title">Discrepancies fixed</div><div class="stat-value">1</div><div class="stat-desc">provenance gate, fail-closed</div></div>
+<p class="eyebrow mb-1">Deal Finder \u00b7 checked pages only</p>
+<h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
+<p class="mb-4 text-lg">Search checked store pages. Price, decision, and coupon only when really seen.</p>
+<section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
+<div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">"""
+    page += str(n_total)
+    page += """</div><div class="stat-desc">across coffee, clothing, shoes, tech</div></div>
+<div class="stat"><div class="stat-title">With a coupon on the page</div><div class="stat-value">"""
+    page += str(n_coupon)
+    page += """</div><div class="stat-desc">codes really seen, never tested</div></div>
+<div class="stat"><div class="stat-title">Cheapest checked price</div><div class="stat-value">"""
+    page += esc(cheapest["price_label"])
+    page += """</div><div class="stat-desc">"""
+    page += esc(cheapest["name"])
+    page += """</div></div>
 </section>
-<h2 class="text-2xl font-bold mb-3">Observations (source \u00b7 region US \u00b7 timestamp \u00b7 evidence state)</h2>
-<table class="table table-zebra w-full mb-8">
-<thead><tr><th>ID</th><th>Source</th><th>Observed (UTC)</th><th>What was seen</th><th>Evidence state</th></tr></thead>
-<tbody>
+<div class="flex flex-wrap gap-2 mb-3" role="group" aria-label="Search mode">
+<button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
+<button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
+</div>
+<div class="flex gap-2 mb-2" style="min-width:0">
+<label class="input input-bordered input-lg flex items-center gap-2 w-full" style="min-width:0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans" aria-label="Search checked products">
+</label>
+<button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
+</div>
+<div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
+<button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
+<button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
+<button class="btn btn-sm kind-btn" data-kind="Clothing" aria-pressed="false">Clothing</button>
+<button class="btn btn-sm kind-btn" data-kind="Shoes" aria-pressed="false">Shoes</button>
+<button class="btn btn-sm kind-btn" data-kind="Tech" aria-pressed="false">Tech</button>
+<label class="label cursor-pointer gap-2 ml-1"><input id="coupon-only" type="checkbox" class="checkbox checkbox-sm"> <span class="label-text">Coupon on the page</span></label>
+<select id="sort" class="select select-sm select-bordered" aria-label="Sort results">
+<option value="low">Price: low first</option>
+<option value="high">Price: high first</option>
+</select>
+</div>
+<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items actually seen, cheapest first. <span id="result-count" class="font-semibold"></span></p>
+<details class="collapse collapse-arrow bg-base-100 border border-base-300 mb-2">
+<summary class="collapse-title font-semibold">Guide me \u2014 three quick choices (optional, results stay visible)</summary>
+<div class="collapse-content grid gap-3 sm:grid-cols-3" style="min-width:0">
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">What matters most?</span>
+<select id="prefer" class="select select-bordered w-full">
+<option value="any">Just looking around</option>
+<option value="price">Lowest price first</option>
+<option value="specialty">Specialty-roaster quality</option>
+</select></label>
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coffee form?</span>
+<select id="formsel" class="select select-bordered w-full">
+<option value="">Any form</option>
+<option value="whole-bean">Whole bean only</option>
+</select></label>
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coupons?</span>
+<select id="couponsel" class="select select-bordered w-full">
+<option value="all">Show everything</option>
+<option value="yes">Coupon on the page only</option>
+</select></label>
+</div>
+</details>
+<p class="text-xs opacity-70 mb-2">Specialty-roaster quality leads with Honest, The Well, or Counter Culture; the rest follow as cheaper alternatives. Frothy Monkey does not load, so no bag is listed.</p>
+<p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
+</header>
+<section id="open-example" class="mb-8">
+<hr class="section-rule">
+<h2 class="text-2xl font-bold mb-1">Kind of thing \u2014 \u201ccoffee beans\u201d</h2>
+<p class="text-sm opacity-80 mb-4">Six bags, each checked on its own page. Shelf price order.</p>
+COMPARE_TABLE
 """
-    page += "\n".join(obs_rows)
-    page += """
-</tbody>
-</table>
-<h2 class="text-2xl font-bold mb-3">Verdicts (engine output, evidence beside each claim)</h2>
+    page += open_cards
+    page += """</section>
+<section id="exact-example" class="mb-8">
+<hr class="section-rule">
+<h2 class="text-2xl font-bold mb-1">Exact product \u2014 \u201cLavazza Super Crema Whole Bean, 2.2 lb\u201d</h2>
+<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. Three other stores would not load, so they are not counted.</p>
 """
-    page += "\n".join(body)
-    page += """<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
-<h3 class="card-title">LV-004 \u2014 coupon research-only fallback (OBS-7, no consent)</h3>
-<p>No code text was observable (aggregator page bot-blocked) and no consent was solicited, so the only
-honest coupon status is <span class="font-mono">unverified</span>: excluded from landed cost
-(shown in LV-001 reasons) and no cart test run. Matches fixtures CP-003 / CS-001. Correct refusal, not failure.</p>
-</div></section>
+    page += best_place
+    page += """<div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
+Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
+</section>
+<section id="all-checked" class="mb-8">
+<hr class="section-rule">
+<h2 class="text-2xl font-bold mb-4">Everything checked</h2>
+<div id="results">
+"""
+    page += all_cards
+    page += """</div>
+</section>
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
-<h3 class="card-title">Scope notes</h3>
+<h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
-<li>No gate in VALIDATION_RECORD.md is claimed passed; it stays NOT RUN pending independent review.</li>
-<li>ASSUMPTIONS.md D1\u2013D6 and frozen VISION.md untouched.</li>
-<li>Follow-ups (not built): stock-unknown representation; single-candidate vacuous robustness;
-live Jev integration; browser cart-test bindings; price monitoring; monetization.</li>
+<li>Pages opened anonymously \u2014 nothing added to a bag, no code tried out.</li>
+<li>Tax and shipping shown only when the page shows them.</li>
+<li>Coupon shown only when its text was seen, with page and time.</li>
 </ul>
 </div></section>
 </div>
+<script>
+const q = document.getElementById("q");
+const hint = document.getElementById("mode-hint");
+const noMatch = document.getElementById("no-match");
+const openBtn = document.getElementById("mode-open");
+const exactBtn = document.getElementById("mode-exact");
+const results = document.getElementById("results");
+const cards = Array.from(results.querySelectorAll("[data-keywords]"));
+const kindBtns = Array.from(document.querySelectorAll(".kind-btn"));
+const couponOnly = document.getElementById("coupon-only");
+const sortSel = document.getElementById("sort");
+const preferSel = document.getElementById("prefer");
+const formSel = document.getElementById("formsel");
+const couponSel = document.getElementById("couponsel");
+let kind = "";
+let quality = "";
+let form = "";
+function setMode(open) {
+  openBtn.setAttribute("aria-pressed", open ? "true" : "false");
+  exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
+  hint.childNodes[0].textContent = open
+    ? "Kind of thing: similar items actually seen, cheapest first. "
+    : "Exact product: one named item, best place to buy. ";
+  q.value = open ? "coffee beans" : "super crema";
+  filter();
+  document.getElementById(open ? "open-example" : "exact-example").scrollIntoView();
+}
+function filter() {
+  const terms = q.value.toLowerCase().split(/\\s+/).filter(Boolean);
+  let shown = 0;
+  const visible = [];
+  for (const c of cards) {
+    const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
+    const hitText = terms.every(t => hay.includes(t));
+    const hitKind = !kind || c.getAttribute("data-kind") === kind;
+    const wantCoupon = couponOnly.checked || couponSel.value === "yes";
+    const hitCoupon = !wantCoupon || c.getAttribute("data-coupon") === "yes";
+    const hitForm = !form || c.getAttribute("data-form") === form;
+    const hit = hitText && hitKind && hitCoupon && hitForm;
+    c.style.display = hit ? "" : "none";
+    if (hit) { shown++; visible.push(c); }
+  }
+  visible.sort((a, b) => {
+    const pa = parseInt(a.getAttribute("data-price"), 10);
+    const pb = parseInt(b.getAttribute("data-price"), 10);
+    return sortSel.value === "high" ? pb - pa : pa - pb;
+  });
+  for (const c of visible) results.appendChild(c);
+  applyBand(document.getElementById("open-example"));
+  applyBand(results);
+  noMatch.style.display = shown ? "none" : "";
+  const rc = document.getElementById("result-count");
+  if (rc) rc.textContent = shown + " of " + cards.length + " shown.";
+}
+function bandDivider() {
+  const d = document.createElement("div");
+  d.className = "alert mb-4 band-divider";
+  d.innerHTML = "<div><span class='font-bold'>Cheaper alternative \u2014</span> "
+    + "below the quality asked for, shown for price context only. Never the lead result.</div>";
+  return d;
+}
+function applyBand(container) {
+  if (!container) return;
+  const old = container.querySelector(":scope > .band-divider");
+  if (old) old.remove();
+  if (!quality) return;
+  const cards = Array.from(container.querySelectorAll(":scope > [data-quality]"));
+  const vis = c => c.style.display !== "none";
+  const inBand = cards.filter(c => vis(c) && c.getAttribute("data-quality") === quality);
+  const alt = cards.filter(c => vis(c) && c.getAttribute("data-quality") !== quality);
+  const hidden = cards.filter(c => !vis(c));
+  if (!inBand.length || !alt.length) return;
+  const byPrice = (a, b) => parseInt(a.getAttribute("data-price"), 10) - parseInt(b.getAttribute("data-price"), 10);
+  inBand.sort(byPrice);
+  alt.sort(byPrice);
+  for (const c of inBand) container.appendChild(c);
+  container.appendChild(bandDivider());
+  for (const c of alt) container.appendChild(c);
+  for (const c of hidden) container.appendChild(c);
+}
+openBtn.addEventListener("click", () => setMode(true));
+exactBtn.addEventListener("click", () => setMode(false));
+kindBtns.forEach(b => b.addEventListener("click", () => {
+  kind = b.getAttribute("data-kind");
+  kindBtns.forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  filter();
+}));
+couponOnly.addEventListener("change", filter);
+sortSel.addEventListener("change", filter);
+preferSel.addEventListener("change", () => {
+  const v = preferSel.value;
+  quality = v === "specialty" ? "independent-roastery" : "";
+  if (v === "price") { quality = ""; sortSel.value = "low"; }
+  couponSel.value = "all";
+  hint.childNodes[0].textContent = quality
+    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives. "
+    : "Kind of thing: similar items actually seen, cheapest first. ";
+  filter();
+});
+formSel.addEventListener("change", () => { form = formSel.value; filter(); });
+couponSel.addEventListener("change", filter);
+q.addEventListener("input", filter);
+const goBtn = document.getElementById("search-go");
+if (goBtn) goBtn.addEventListener("click", () => { filter(); document.getElementById("results").scrollIntoView(); });
+filter();
+</script>
 </body>
 </html>
 """
+    page = page.replace("COMPARE_TABLE", compare_html)
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)
+    docs = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "docs", "index.html")
+    os.makedirs(os.path.dirname(docs), exist_ok=True)
+    with open(docs, "w", encoding="utf-8") as f:
+        f.write(page)
     print("wrote " + out)
-    print("LV-001:", d1.verdict.value, "| LV-002:", d2.verdict.value,
-          "| LV-003:", d3.verdict.value)
+    print("wrote " + docs)
+    print("apple:", d1.verdict.value,
+          "| oldnavy:", d5.verdict.value, "| gap:", d6.verdict.value,
+          "| nike:", d7.verdict.value,
+          "| cof1:", dc1.verdict.value, "| cof2:", dc2.verdict.value,
+          "| cof3:", dc3.verdict.value, "| specific:", dsp.verdict.value)
 
 
 if __name__ == "__main__":

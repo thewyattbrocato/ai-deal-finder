@@ -209,6 +209,94 @@
       "summary": "Observed live 2026-09-30 (OBS-7): aggregator coupon page blocked by bot challenge; no consent solicited; no cart test run. Only honest status is unverified.",
       "must_hold": ["unverified code excluded from landed-cost ranking", "no cart action without consent; research-only verification"],
       "expected_verdict": "verify path; cart test absent (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-005",
+      "kind": "live-retailer-stated-code-excluded",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-8): Old Navy High-Waisted SoComfy Wide-Leg Sweatpants $25.00 observed-now with full provenance; code EXTRA retailer-stated on the merchant page, never cart-tested; shipping/tax Unknown.",
+      "must_hold": ["retailer-stated code excluded from landed cost, named in reasons", "winner holds without the code", "unknowns shown as open-ended range, never a point total"],
+      "expected_verdict": "buy with open-ended range USD 25.00 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-006",
+      "kind": "live-offer-text-no-code",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-9): Gap CashSoft Crop Cardigan $79.95 observed-now with full provenance; site offer texts seen (50-60% off select styles, Extra 50% off sale) but no code; applicability unconfirmed so promos excluded.",
+      "must_hold": ["offer text without a code never becomes a coupon", "no coupon fabricated where none was seen", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 79.95 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "LV-007",
+      "kind": "live-markdown-price-membership-shipping",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01 (OBS-10): Nike Air Jordan OG Women's Shoes $87.97 observed-now with full provenance (was-$155/43%-off is reference text only); members-free-shipping note keeps shipping Unknown with eligibility attached; no code seen.",
+      "must_hold": ["ranked item price is the observed price; was-price never subtracted", "membership-gated shipping stays Unknown with eligibility condition", "no savings figure fabricated"],
+      "expected_verdict": "buy with open-ended range USD 87.97 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "COF-OPEN",
+      "kind": "live-open-search-per-item-verdicts",
+      "severity": "S1",
+      "summary": "Open search over a kind of thing (coffee beans): each actually-seen item is judged on its own evidence only; shelf-price order is display order, never an interchangeability verdict.",
+      "must_hold": ["no substitute-equivalence claim without a captain-called fit number", "retailer-stated code excluded per item", "unknowns shown as open-ended ranges"],
+      "expected_verdict": "per-item buy with open-ended ranges (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "COF-1",
+      "kind": "live-retailer-stated-code-excluded",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01: Lavazza Super Crema Whole Bean 2.2 lb $26.99 observed-now with full provenance; code CAFE20 retailer-stated in the store banner, never cart-tested; shipping/tax Unknown.",
+      "must_hold": ["retailer-stated code excluded from landed cost, named in reasons", "winner holds without the code"],
+      "expected_verdict": "buy with open-ended range USD 26.99 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "COF-2",
+      "kind": "live-retailer-stated-code-excluded",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01: Lavazza Qualita Rossa Whole Bean 2.2 lb $24.99 observed-now with full provenance; code CAFE20 retailer-stated, untested; shipping/tax Unknown.",
+      "must_hold": ["retailer-stated code excluded from landed cost, named in reasons", "winner holds without the code"],
+      "expected_verdict": "buy with open-ended range USD 24.99 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "COF-3",
+      "kind": "live-retailer-stated-code-excluded",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-01: Lavazza Dolcevita Classico Whole Bean 12 oz $13.99 observed-now with full provenance; code CAFE20 retailer-stated, untested; shipping/tax Unknown.",
+      "must_hold": ["retailer-stated code excluded from landed cost, named in reasons", "winner holds without the code"],
+      "expected_verdict": "buy with open-ended range USD 13.99 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "SP-1",
+      "kind": "live-specific-search-best-place",
+      "severity": "S1",
+      "summary": "Named-product search (Lavazza Super Crema Whole Bean 2.2 lb): Lavazza direct verified $26.99; Target/Walmart/Kroger seller pages blocked, so those sellers stay unverified and uncounted; unseen coupon text stays unverified.",
+      "must_hold": ["blocked sellers never upgrade and are not ranked", "best place is the only verified seller", "no coupon invented where none was seen"],
+      "expected_verdict": "buy Lavazza direct with open-ended range USD 26.99 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "HCR-1",
+      "kind": "live-roaster-no-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: Honest Coffee Roasters Midnight Axes dark roast 12 oz $18.00 one-time observed-now with full provenance (whole-bean on the bag); no coupon code seen; shipping/tax Unknown.",
+      "must_hold": ["no coupon invented where none was seen", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 18.00 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "WEL-1",
+      "kind": "live-email-offer-not-a-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: The Well Coffee Roasters Watershed 12 oz Whole Bean $20.50 observed-now with full provenance; 10%-off email signup seen but no code text (personal data never given); shipping/tax Unknown.",
+      "must_hold": ["email-gated offer without code text is never a coupon", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 20.50 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "CCC-1",
+      "kind": "live-roaster-no-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: Counter Culture Coffee Big Trouble 12 oz $19.50 one-time observed-now with full provenance (whole-bean on the bag, Durham NC roastery); newsletter/footer words are not codes; shipping/tax Unknown.",
+      "must_hold": ["lookalike coupon words verified in context before counting", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 19.50 .. unbounded (observed live engine output; requires independent relabel)"
     }
   ]
 }
