@@ -350,8 +350,53 @@ Frothy Monkey. No fixture change: no new observation.
 
 The quiet default is one list: no stats row, no kind chips, no comparison
 table, and no second copy of the full list. Kind of thing and exact product
-remain the two search modes. The optional guide shows three questions at once (order,
-kind, coupons) that can be changed at any step; the same list narrows, re-orders
-and explains each shown card live from its own checked page, lists what the
-answers hid, and Reset restores everything. A coupon still appears only when
+remain the two search modes. The optional guide asks only the questions that fit the
+results being shown (bag size for coffee, shoe or clothing size for those, how
+you would buy and shipping where a page stated them, order, coupons); the
+same list narrows, re-orders and explains each shown card live from its own
+checked page, lists what the answers hid, and Reset restores everything. A coupon still appears only when
 that product's own page printed it, and the price shown stays the shelf price.
+
+
+---
+
+# Deal conditions read for the smart guide (2026-10-02, display only)
+
+The guide may narrow by size, shipping and subscribe only where a product's
+own page stated them. Read-only, anonymous browser sessions: nothing added to
+a cart, no code tried (one "Subscribe and save" control on a Lavazza page was
+clicked by the read; it opened no price and no checkout). Where a page was
+silent the card says unknown. Nothing is computed from a stated percent or
+threshold; a seen code is never a condition.
+
+Source of record: `demo/terms.py` (`HAND` for the ten hand-checked products;
+`from_evidence` for the stored catalog evidence, which carries variant sizes
+and `shippingDetails` only where the page published them).
+
+| ID | Source | Read at (UTC) | What the page stated |
+| --- | --- | --- | --- |
+| T-LAV-1 | `https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico` | 2026-10-02T22:09Z | 12 oz, $13.99 one-time; "SUBSCRIBE AND SAVE 25%" (no subscribe price shown); "Free delivery on orders over $50" |
+| T-LAV-2 | `https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa` | 2026-10-02T22:09Z | 2.2 lb, $24.99; "SUBSCRIBE AND SAVE 25%" (no price); free delivery over $50 |
+| T-LAV-3 | `https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202` | 2026-10-02T22:09:30Z | 2.2 lb, $26.99; "SUBSCRIBE AND SAVE 25%" (no price); free delivery over $50 |
+| T-HCR | `https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr` | 2026-10-02T22:10:43Z | Sizes 12oz / 2lb / 5lb. One time $18.00 / $38.00 / $95.00; Subscribe sale price $13.50 / $28.50 / $71.25. No shipping text on the page |
+| T-WEL | `https://wellcoffeeroasters.com/products/watershed` | 2026-10-02T22:11Z | Sizes 12oz / 2lb / 5lb (Whole Bean). One-time $20.50 / $51.50 / $119.00; "Subscribe & Save" ("Save up to 10%") $18.45 / $46.35 / $107.10. "Free Shipping On All Orders $75+"; "Shipping calculated at checkout" |
+| T-CCC | `https://counterculturecoffee.com/collections/coffee/products/big-trouble` | 2026-10-02T22:13:21Z | Sizes 12 oz / 24 oz / 5 lb. One-time $19.50 / $37.50 / $101.00; "Subscribe + Save" price $17.50 / $33.66 / $90.65. "Free shipping on $30 & up!" |
+| T-NIKE | `https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002` | 2026-10-02T22:13:55Z | 21 sizes "W 5 / M 3.5" to "W 15.5 / M 14"; W 10.5, W 11.5 and W 12 to W 15.5 not selectable when read. "Members: Free Shipping on Orders $50+"; "You'll see our shipping options at checkout." |
+| T-ON | `https://oldnavy.gap.com/browse/product.do?pid=777363182` | 2026-10-02T22:14:17Z | Sizes XS to 4X; "Free fast shipping on $50+ for Rewards Members" |
+| T-GAP | `https://www.gap.com/browse/product.do?pid=800546212` | 2026-10-02T22:16:01Z | Sizes XXS, XS, S, XL selectable; M, L, XXL not selectable; "Free fast shipping on $50+ for Rewards Members" |
+| T-APPLE | `https://www.apple.com/airpods-pro/` | 2026-10-02T22:14:40Z | "Choose two-hour delivery from an Apple Store, free delivery, or easy pickup options." No size; no subscribe |
+
+Rules the guide applies to these: a size answer keeps only products whose page
+listed that size (and, for shoes and clothing, showed it selectable); the
+"subscribe" answer ranks only by subscribe prices the page printed (a
+percent alone is listed, not ranked); "free shipping" counts only a stated
+free-shipping line whose threshold the price actually paid meets, never a
+membership-only offer, and never a page that said nothing. A different bag
+size is a different purchase, so no "best" is named across sizes. Shelf price
+stays the price on every card.
+
+Not changed here, but noted: today the three Lavazza pages print the banner
+"AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on
+Orders $49+", not CAFE20. The cards' CAFE20 observation is the dated
+2026-10-01 read and is left as recorded; whether to re-observe and replace
+it is a separate decision.
