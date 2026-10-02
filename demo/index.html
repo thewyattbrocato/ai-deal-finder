@@ -14,15 +14,18 @@
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
   .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
   body { font-size: 1.0625rem; line-height: 1.6; }
+  .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
+  .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
+  .mode-btn, .kind-btn { min-height: 2.5rem; }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
+<p class="eyebrow mb-1">Deal Finder · checked pages only</p>
 <h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
-<p class="mb-4 text-lg">Type what you want. Every result below was read straight off the store page —
-the item, the price, where to buy, the decision, and a coupon only when its text was really seen.
-No login, no checkout, no cart test.</p>
+<p class="mb-4 text-lg">Search checked store pages. Price, decision, and coupon only when really seen.</p>
 <section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
 <div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">10</div><div class="stat-desc">across coffee, clothing, shoes, tech</div></div>
 <div class="stat"><div class="stat-title">With a coupon on the page</div><div class="stat-value">4</div><div class="stat-desc">codes really seen, never tested</div></div>
@@ -32,10 +35,13 @@ No login, no checkout, no cart test.</p>
 <button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
 <button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
 </div>
-<label class="input input-bordered input-lg flex items-center gap-2 w-full mb-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
-<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans">
+<div class="flex gap-2 mb-2" style="min-width:0">
+<label class="input input-bordered input-lg flex items-center gap-2 w-full" style="min-width:0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans" aria-label="Search checked products">
 </label>
+<button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
+</div>
 <div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
 <button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
 <button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
@@ -48,7 +54,7 @@ No login, no checkout, no cart test.</p>
 <option value="high">Price: high first</option>
 </select>
 </div>
-<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
+<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items actually seen, cheapest first. <span id="result-count" class="font-semibold"></span></p>
 <details class="collapse collapse-arrow bg-base-100 border border-base-300 mb-2">
 <summary class="collapse-title font-semibold">Guide me — three quick choices (optional, results stay visible)</summary>
 <div class="collapse-content grid gap-3 sm:grid-cols-3" style="min-width:0">
@@ -70,21 +76,21 @@ No login, no checkout, no cart test.</p>
 </select></label>
 </div>
 </details>
-<p class="text-xs opacity-70 mb-2">Quality is your call: “Specialty-roaster quality” leads with bags whose pages state it
-(such as Honest, The Well, or Counter Culture) and moves the rest under a cheaper-alternative note.
-Frothy Monkey roasts in Nashville too, but their shop doesn't load for checking, so no bag is listed.
-No brand is ruled out behind your back.</p>
+<p class="text-xs opacity-70 mb-2">Specialty-roaster quality leads with Honest, The Well, or Counter Culture; the rest follow as cheaper alternatives. Frothy Monkey does not load, so no bag is listed.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches — only the checked pages below exist, and nothing is invented.</p>
 </header>
 <section id="open-example" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-1">Kind of thing — “coffee beans”</h2>
-<p class="text-sm opacity-80 mb-4">Different blends, not interchangeable: each was checked on its own page with its own decision. Ordered by shelf price.</p>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399" data-quality="" data-form="whole-bean">
+<p class="text-sm opacity-80 mb-4">Six bags, each checked on its own page. Shelf price order.</p>
+<div class="overflow-x-auto mb-6 border border-base-200 rounded-lg bg-base-100" style="min-width:0"><table class="table table-sm w-full" style="min-width:34rem"><caption class="text-left p-3 text-sm opacity-80">Compare at a glance — same six bags, shelf price order. Details follow below.</caption><thead><tr><th>Bag</th><th class="text-right">Price</th><th>Coupon</th><th>Quality note</th><th>Buy</th></tr></thead><tbody><tr><td><strong>Dolcevita Classico Whole Bean, 12 oz bag</strong><br><span class="opacity-70">Lavazza · filter roast · roasted nuts</span></td><td class="whitespace-nowrap text-right"><strong>$13.99</strong></td><td><strong>CAFE20</strong> — seen, not tested</td><td>Standard shelf</td><td><a class="link link-primary whitespace-nowrap" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">See at Lavazza →</a></td></tr><tr><td><strong>Midnight Axes dark roast, 12 oz bag</strong><br><span class="opacity-70">Honest Coffee Roasters · Nicaragua single origin · dark chocolate, bourbon</span></td><td class="whitespace-nowrap text-right"><strong>$18.00</strong></td><td>None seen</td><td>Independent roastery</td><td><a class="link link-primary whitespace-nowrap" href="https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr" target="_blank" rel="noopener">See at Honest Coffee Roasters →</a></td></tr><tr><td><strong>Big Trouble medium-dark roast, 12 oz bag</strong><br><span class="opacity-70">Counter Culture Coffee · caramel, nutty, round · roasted in Durham, NC</span></td><td class="whitespace-nowrap text-right"><strong>$19.50</strong></td><td>None seen</td><td>Independent roastery</td><td><a class="link link-primary whitespace-nowrap" href="https://counterculturecoffee.com/collections/coffee/products/big-trouble" target="_blank" rel="noopener">See at Counter Culture Coffee →</a></td></tr><tr><td><strong>Watershed light roast, 12 oz bag, Whole Bean</strong><br><span class="opacity-70">The Well Coffee Roasters · Guatemala single origin · orange, almond, chocolate</span></td><td class="whitespace-nowrap text-right"><strong>$20.50</strong></td><td>None seen</td><td>Independent roastery</td><td><a class="link link-primary whitespace-nowrap" href="https://wellcoffeeroasters.com/products/watershed" target="_blank" rel="noopener">See at The Well Coffee Roasters →</a></td></tr><tr><td><strong>Qualità Rossa Whole Bean, 2.2 lb bag</strong><br><span class="opacity-70">Lavazza · medium roast · chocolate</span></td><td class="whitespace-nowrap text-right"><strong>$24.99</strong></td><td><strong>CAFE20</strong> — seen, not tested</td><td>Standard shelf</td><td><a class="link link-primary whitespace-nowrap" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">See at Lavazza →</a></td></tr><tr><td><strong>Super Crema Whole Bean, 2.2 lb bag</strong><br><span class="opacity-70">Lavazza · medium roast · honey, nutty</span></td><td class="whitespace-nowrap text-right"><strong>$26.99</strong></td><td><strong>CAFE20</strong> — seen, not tested</td><td>Standard shelf</td><td><a class="link link-primary whitespace-nowrap" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">See at Lavazza →</a></td></tr></tbody></table></div>
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/classico.png" alt="Photo of Dolcevita Classico Whole Bean, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · filter roast · roasted nuts</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -92,12 +98,13 @@ No brand is ruled out behind your back.</p>
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:55:04Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans honest midnight axes dark roast nashville franklin whole bean" data-kind="Coffee" data-coupon="no" data-price="1800" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans honest midnight axes dark roast nashville franklin whole bean" data-kind="Coffee" data-coupon="no" data-price="1800" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/midnight-axes.jpg" alt="Photo of Midnight Axes dark roast, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Midnight Axes dark roast, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$18.00</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Honest Coffee Roasters</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Midnight Axes dark roast, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$18.00</div></div>
 <p class="text-sm opacity-80 mb-1">Honest Coffee Roasters · Nicaragua single origin · dark chocolate, bourbon</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: roastery locations plus direct sourcing, stated on honest.coffee; single-origin bag.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr" target="_blank" rel="noopener">See at Honest Coffee Roasters →</a></div>
@@ -105,12 +112,13 @@ No brand is ruled out behind your back.</p>
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>No coupon code was visible on this page.</li><li>The bag reads whole-bean coffee; 12 oz one-time purchase.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: honest.coffee · US · 2026-10-02T15:00:17Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans counter culture big trouble durham whole bean" data-kind="Coffee" data-coupon="no" data-price="1950" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans counter culture big trouble durham whole bean" data-kind="Coffee" data-coupon="no" data-price="1950" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/big-trouble.jpg" alt="Photo of Big Trouble medium-dark roast, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Big Trouble medium-dark roast, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$19.50</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Counter Culture Coffee</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Big Trouble medium-dark roast, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$19.50</div></div>
 <p class="text-sm opacity-80 mb-1">Counter Culture Coffee · caramel, nutty, round · roasted in Durham, NC</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: roastery training centers plus published transparency reports, stated on counterculturecoffee.com.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://counterculturecoffee.com/collections/coffee/products/big-trouble" target="_blank" rel="noopener">See at Counter Culture Coffee →</a></div>
@@ -118,12 +126,13 @@ No brand is ruled out behind your back.</p>
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>No coupon code was visible on this page.</li><li>The bag reads whole-bean coffee; 12 oz one-time purchase. Free shipping starts at $30.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: counterculturecoffee.com · US · 2026-10-02T15:03:57Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans well watershed light nashville whole bean" data-kind="Coffee" data-coupon="no" data-price="2050" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans well watershed light nashville whole bean" data-kind="Coffee" data-coupon="no" data-price="2050" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/watershed.png" alt="Photo of Watershed light roast, 12 oz bag, Whole Bean as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Watershed light roast, 12 oz bag, Whole Bean</h2><div class="text-2xl font-extrabold whitespace-nowrap">$20.50</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · The Well Coffee Roasters</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Watershed light roast, 12 oz bag, Whole Bean</h3><div class="text-2xl font-extrabold whitespace-nowrap">$20.50</div></div>
 <p class="text-sm opacity-80 mb-1">The Well Coffee Roasters · Guatemala single origin · orange, almond, chocolate</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: &#x27;Small Batch Roasted in Nashville&#x27; plus direct trade, stated on the page.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://wellcoffeeroasters.com/products/watershed" target="_blank" rel="noopener">See at The Well Coffee Roasters →</a></div>
@@ -131,12 +140,13 @@ No brand is ruled out behind your back.</p>
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>No coupon code was visible; the 10%-off signup needs an email address, so it stays uncounted.</li><li>Free shipping starts at $75; this bag is below that, and the exact shipping wasn&#x27;t shown.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: wellcoffeeroasters.com · US · 2026-10-02T15:01:25Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499" data-quality="" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/rossa.png" alt="Photo of Qualità Rossa Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · medium roast · chocolate</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -144,12 +154,13 @@ No brand is ruled out behind your back.</p>
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:54:08Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -158,15 +169,16 @@ No brand is ruled out behind your back.</p>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:52:52Z</p>
 </div></div></div></section></section>
 <section id="exact-example" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-1">Exact product — “Lavazza Super Crema Whole Bean, 2.2 lb”</h2>
-<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. The same bag at three other stores
-wouldn't load when checked, so those stores aren't counted — only the page that loaded decides.</p>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
+<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. Three other stores would not load, so they are not counted.</p>
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -177,14 +189,16 @@ wouldn't load when checked, so those stores aren't counted — only the page tha
 Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
 </section>
 <section id="all-checked" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-4">Everything checked</h2>
 <div id="results">
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="airpods apple earbuds headphones" data-kind="Tech" data-coupon="no" data-price="24900" data-quality="" data-form="">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="airpods apple earbuds headphones" data-kind="Tech" data-coupon="no" data-price="24900" data-quality="" data-form="">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/airpods-pro.jpg" alt="Photo of AirPods Pro 3 as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">AirPods Pro 3</h2><div class="text-2xl font-extrabold whitespace-nowrap">$249</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Tech · Apple</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">AirPods Pro 3</h3><div class="text-2xl font-extrabold whitespace-nowrap">$249</div></div>
 <p class="text-sm opacity-80 mb-1">White · new · 1 pair · sold by Apple</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>not checked for other products yet.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.apple.com/airpods-pro/" target="_blank" rel="noopener">See at Apple →</a></div>
@@ -192,12 +206,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Recheck the price before paying; store pages change.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: apple.com · US · 2026-10-01T19:50:52Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="sweatpants old navy pants fleece" data-kind="Clothing" data-coupon="yes" data-price="2500" data-quality="" data-form="">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="sweatpants old navy pants fleece" data-kind="Clothing" data-coupon="yes" data-price="2500" data-quality="" data-form="">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/sweatpants.jpg" alt="Photo of High-Waisted SoComfy Wide-Leg Sweatpants as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">High-Waisted SoComfy Wide-Leg Sweatpants</h2><div class="text-2xl font-extrabold whitespace-nowrap">$25.00</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Clothing · Old Navy</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">High-Waisted SoComfy Wide-Leg Sweatpants</h3><div class="text-2xl font-extrabold whitespace-nowrap">$25.00</div></div>
 <p class="text-sm opacity-80 mb-1">Old Navy · new · Product #777363</p>
 <p class="text-sm opacity-70 mb-1">was $36.99 (as marked on the page)</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>not checked for other products yet.</p>
@@ -206,12 +221,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Free shipping over $50 needs a Rewards membership, which was not signed into during this check.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: oldnavy.gap.com · US · 2026-10-01T19:50:21Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="cardigan gap sweater" data-kind="Clothing" data-coupon="no" data-price="7995" data-quality="" data-form="">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="cardigan gap sweater" data-kind="Clothing" data-coupon="no" data-price="7995" data-quality="" data-form="">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/cardigan.jpg" alt="Photo of CashSoft Crop Cardigan as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">CashSoft Crop Cardigan</h2><div class="text-2xl font-extrabold whitespace-nowrap">$79.95</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Clothing · Gap</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">CashSoft Crop Cardigan</h3><div class="text-2xl font-extrabold whitespace-nowrap">$79.95</div></div>
 <p class="text-sm opacity-80 mb-1">Gap · Brown and navy blue argyle · new</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>not checked for other products yet.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.gap.com/browse/product.do?pid=800546212" target="_blank" rel="noopener">See at Gap →</a></div>
@@ -219,12 +235,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Store signs advertised select-style offers, but none named a code for this item — the $79.95 price stands on its own.</li><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: gap.com · US · 2026-10-01T19:50:30Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="nike jordan shoes sneakers" data-kind="Shoes" data-coupon="no" data-price="8797" data-quality="" data-form="">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="nike jordan shoes sneakers" data-kind="Shoes" data-coupon="no" data-price="8797" data-quality="" data-form="">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/jordan.jpg" alt="Photo of Air Jordan OG Women&#x27;s Shoes as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Air Jordan OG Women&#x27;s Shoes</h2><div class="text-2xl font-extrabold whitespace-nowrap">$87.97</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Shoes · Nike</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Air Jordan OG Women&#x27;s Shoes</h3><div class="text-2xl font-extrabold whitespace-nowrap">$87.97</div></div>
 <p class="text-sm opacity-80 mb-1">Nike · Black/White/University Red · new · 1 pair</p>
 <p class="text-sm opacity-70 mb-1">was $155 (as marked on the page)</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>not checked for other products yet.</p>
@@ -233,12 +250,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>The marked-down price is the price checked; no extra savings math was added.</li><li>Members get free shipping over $50, but no membership was signed into during this check — shipping wasn&#x27;t shown.</li><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: nike.com · US · 2026-10-01T19:50:41Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -246,12 +264,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:52:52Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499" data-quality="" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/rossa.png" alt="Photo of Qualità Rossa Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · medium roast · chocolate</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -259,12 +278,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:54:08Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399" data-quality="" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399" data-quality="" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/classico.png" alt="Photo of Dolcevita Classico Whole Bean, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Lavazza</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
 <p class="text-sm opacity-80 mb-1">Lavazza · filter roast · roasted nuts</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">See at Lavazza →</a></div>
@@ -272,12 +292,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:55:04Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans honest midnight axes dark roast nashville franklin whole bean" data-kind="Coffee" data-coupon="no" data-price="1800" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans honest midnight axes dark roast nashville franklin whole bean" data-kind="Coffee" data-coupon="no" data-price="1800" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/midnight-axes.jpg" alt="Photo of Midnight Axes dark roast, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Midnight Axes dark roast, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$18.00</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Honest Coffee Roasters</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Midnight Axes dark roast, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$18.00</div></div>
 <p class="text-sm opacity-80 mb-1">Honest Coffee Roasters · Nicaragua single origin · dark chocolate, bourbon</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: roastery locations plus direct sourcing, stated on honest.coffee; single-origin bag.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr" target="_blank" rel="noopener">See at Honest Coffee Roasters →</a></div>
@@ -285,12 +306,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>No coupon code was visible on this page.</li><li>The bag reads whole-bean coffee; 12 oz one-time purchase.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: honest.coffee · US · 2026-10-02T15:00:17Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans well watershed light nashville whole bean" data-kind="Coffee" data-coupon="no" data-price="2050" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans well watershed light nashville whole bean" data-kind="Coffee" data-coupon="no" data-price="2050" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/watershed.png" alt="Photo of Watershed light roast, 12 oz bag, Whole Bean as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Watershed light roast, 12 oz bag, Whole Bean</h2><div class="text-2xl font-extrabold whitespace-nowrap">$20.50</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · The Well Coffee Roasters</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Watershed light roast, 12 oz bag, Whole Bean</h3><div class="text-2xl font-extrabold whitespace-nowrap">$20.50</div></div>
 <p class="text-sm opacity-80 mb-1">The Well Coffee Roasters · Guatemala single origin · orange, almond, chocolate</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: &#x27;Small Batch Roasted in Nashville&#x27; plus direct trade, stated on the page.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://wellcoffeeroasters.com/products/watershed" target="_blank" rel="noopener">See at The Well Coffee Roasters →</a></div>
@@ -298,12 +320,13 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>No coupon code was visible; the 10%-off signup needs an email address, so it stays uncounted.</li><li>Free shipping starts at $75; this bag is below that, and the exact shipping wasn&#x27;t shown.</li></ul>
 <p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: wellcoffeeroasters.com · US · 2026-10-02T15:01:25Z</p>
 </div></div></div></section>
-<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans counter culture big trouble durham whole bean" data-kind="Coffee" data-coupon="no" data-price="1950" data-quality="independent-roastery" data-form="whole-bean">
+<section class="card bg-base-100 shadow mb-5 border border-base-200" data-keywords="coffee beans counter culture big trouble durham whole bean" data-kind="Coffee" data-coupon="no" data-price="1950" data-quality="independent-roastery" data-form="whole-bean">
 <div class="card-body" style="min-width:0">
 <div class="flex flex-wrap gap-4" style="min-width:0">
 <img src="assets/big-trouble.jpg" alt="Photo of Big Trouble medium-dark roast, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
 <div style="min-width:0;flex:1 1 16rem">
-<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Big Trouble medium-dark roast, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$19.50</div></div>
+<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">Coffee · Counter Culture Coffee</p>
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h3 class="card-title text-xl" style="min-width:0">Big Trouble medium-dark roast, 12 oz bag</h3><div class="text-2xl font-extrabold whitespace-nowrap">$19.50</div></div>
 <p class="text-sm opacity-80 mb-1">Counter Culture Coffee · caramel, nutty, round · roasted in Durham, NC</p>
 <p class="text-sm mt-1"><span class="font-semibold">Specialty band: </span>In this band: roastery training centers plus published transparency reports, stated on counterculturecoffee.com.</p>
 <div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0"><span class="text-lg font-bold text-success">✓ Good to buy</span><span class="text-sm opacity-80">Price verified on the page — recheck at checkout.</span><a class="btn btn-primary" href="https://counterculturecoffee.com/collections/coffee/products/big-trouble" target="_blank" rel="noopener">See at Counter Culture Coffee →</a></div>
@@ -315,9 +338,9 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
-<li>Each page was opened anonymously and read — nothing was added to a bag and no code was tried out.</li>
-<li>Tax and shipping are left out whenever the page doesn't show them for the exact item.</li>
-<li>A coupon appears only when its text was really seen, with the page and time.</li>
+<li>Pages opened anonymously — nothing added to a bag, no code tried out.</li>
+<li>Tax and shipping shown only when the page shows them.</li>
+<li>Coupon shown only when its text was seen, with page and time.</li>
 </ul>
 </div></section>
 </div>
@@ -341,9 +364,9 @@ let form = "";
 function setMode(open) {
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
-  hint.textContent = open
-    ? "Kind of thing: similar items that were actually seen, cheapest shelf price first."
-    : "Exact product: one named item, best place to buy with coupons seen on the page.";
+  hint.childNodes[0].textContent = open
+    ? "Kind of thing: similar items actually seen, cheapest first. "
+    : "Exact product: one named item, best place to buy. ";
   q.value = open ? "coffee beans" : "super crema";
   filter();
   document.getElementById(open ? "open-example" : "exact-example").scrollIntoView();
@@ -372,6 +395,8 @@ function filter() {
   applyBand(document.getElementById("open-example"));
   applyBand(results);
   noMatch.style.display = shown ? "none" : "";
+  const rc = document.getElementById("result-count");
+  if (rc) rc.textContent = shown + " of " + cards.length + " shown.";
 }
 function bandDivider() {
   const d = document.createElement("div");
@@ -413,14 +438,16 @@ preferSel.addEventListener("change", () => {
   quality = v === "specialty" ? "independent-roastery" : "";
   if (v === "price") { quality = ""; sortSel.value = "low"; }
   couponSel.value = "all";
-  hint.textContent = quality
-    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives, never as the lead."
-    : "Kind of thing: similar items that were actually seen, cheapest shelf price first.";
+  hint.childNodes[0].textContent = quality
+    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives. "
+    : "Kind of thing: similar items actually seen, cheapest first. ";
   filter();
 });
 formSel.addEventListener("change", () => { form = formSel.value; filter(); });
 couponSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
+const goBtn = document.getElementById("search-go");
+if (goBtn) goBtn.addEventListener("click", () => { filter(); document.getElementById("results").scrollIntoView(); });
 filter();
 </script>
 </body>

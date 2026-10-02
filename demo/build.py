@@ -339,7 +339,7 @@ def coupon_none_block(page_host, region, observed_at):
 def product_card(item, decision, coupon_html):
     badge, label = DECISION_BADGE[decision.verdict.value]
     parts = []
-    parts.append('<section class="card bg-base-100 shadow-lg mb-5" '
+    parts.append('<section class="card bg-base-100 shadow mb-5 border border-base-200" '
                  'data-keywords="' + esc(" ".join(item["keywords"]))
                  + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
                  + ("yes" if item["coupon"] else "no") + '" data-price="'
@@ -356,9 +356,11 @@ def product_card(item, decision, coupon_html):
             'style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">'
         )
     parts.append('<div style="min-width:0;flex:1 1 16rem">')
+    parts.append('<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">'
+                 + esc(item["kind"]) + " \u00b7 " + esc(item["seller"]) + "</p>")
     parts.append('<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0">'
-                 '<h2 class="card-title text-xl" style="min-width:0">'
-                 + esc(item["name"]) + "</h2>"
+                 '<h3 class="card-title text-xl" style="min-width:0">'
+                 + esc(item["name"]) + "</h3>"
                  '<div class="text-2xl font-extrabold whitespace-nowrap">'
                  + esc(item["price_label"]) + "</div></div>")
     parts.append('<p class="text-sm opacity-80 mb-1">' + esc(item["detail"]) + "</p>")
@@ -409,6 +411,35 @@ def card_for(item):
             item["page_host"], item["region"], item["observed_at"],
             item["coupon"]["caveat"])
     return product_card(item, item["decision"], coupon_html)
+
+
+def comparison_table(ordered_items):
+    """Compact side-by-side comparison: high data-ink, one row per bag."""
+    rows = []
+    for item in ordered_items:
+        if item["coupon"]:
+            coupon_cell = "<strong>" + esc(item["coupon"]["code"]) + "</strong> \u2014 seen, not tested"
+        else:
+            coupon_cell = "None seen"
+        if item["quality"]:
+            quality_cell = esc(item["quality"]["label"])
+        else:
+            quality_cell = "Standard shelf"
+        rows.append(
+            "<tr><td><strong>" + esc(item["name"]) + "</strong><br><span class=\"opacity-70\">"
+            + esc(item["detail"]) + "</span></td><td class=\"whitespace-nowrap text-right\"><strong>"
+            + esc(item["price_label"]) + "</strong></td><td>" + coupon_cell
+            + "</td><td>" + quality_cell + "</td><td><a class=\"link link-primary whitespace-nowrap\" href=\""
+            + esc(item["page_url"]) + "\" target=\"_blank\" rel=\"noopener\">See at "
+            + esc(item["seller"]) + " \u2192</a></td></tr>"
+        )
+    return (
+        '<div class="overflow-x-auto mb-6 border border-base-200 rounded-lg bg-base-100" style="min-width:0">'
+        '<table class="table table-sm w-full" style="min-width:34rem">'
+        "<caption class=\"text-left p-3 text-sm opacity-80\">Compare at a glance \u2014 same six bags, shelf price order. Details follow below.</caption>"
+        "<thead><tr><th>Bag</th><th class=\"text-right\">Price</th><th>Coupon</th><th>Quality note</th><th>Buy</th></tr></thead>"
+        "<tbody>" + "".join(rows) + "</tbody></table></div>"
+    )
 
 
 def item_dict(key, name, detail, seller, kind, image, price_cents,
@@ -596,6 +627,8 @@ def build():
     n_total = len(items)
     n_coupon = sum(1 for v in items.values() if v["coupon"])
     cheapest = min(items.values(), key=lambda v: v["price_cents"])
+    compare_order = [items[k] for k in ("cof3", "hcr", "ccc", "wel", "cof2", "cof1")]
+    compare_html = comparison_table(compare_order)
 
     page = """<!DOCTYPE html>
 <html lang="en" data-theme="light">
@@ -613,15 +646,18 @@ def build():
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
   .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
   body { font-size: 1.0625rem; line-height: 1.6; }
+  .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
+  .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
+  .mode-btn, .kind-btn { min-height: 2.5rem; }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
+<p class="eyebrow mb-1">Deal Finder \u00b7 checked pages only</p>
 <h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
-<p class="mb-4 text-lg">Type what you want. Every result below was read straight off the store page \u2014
-the item, the price, where to buy, the decision, and a coupon only when its text was really seen.
-No login, no checkout, no cart test.</p>
+<p class="mb-4 text-lg">Search checked store pages. Price, decision, and coupon only when really seen.</p>
 <section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
 <div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">"""
     page += str(n_total)
@@ -639,10 +675,13 @@ No login, no checkout, no cart test.</p>
 <button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
 <button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
 </div>
-<label class="input input-bordered input-lg flex items-center gap-2 w-full mb-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
-<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans">
+<div class="flex gap-2 mb-2" style="min-width:0">
+<label class="input input-bordered input-lg flex items-center gap-2 w-full" style="min-width:0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans" aria-label="Search checked products">
 </label>
+<button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
+</div>
 <div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
 <button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
 <button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
@@ -655,7 +694,7 @@ No login, no checkout, no cart test.</p>
 <option value="high">Price: high first</option>
 </select>
 </div>
-<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
+<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items actually seen, cheapest first. <span id="result-count" class="font-semibold"></span></p>
 <details class="collapse collapse-arrow bg-base-100 border border-base-300 mb-2">
 <summary class="collapse-title font-semibold">Guide me \u2014 three quick choices (optional, results stay visible)</summary>
 <div class="collapse-content grid gap-3 sm:grid-cols-3" style="min-width:0">
@@ -677,28 +716,28 @@ No login, no checkout, no cart test.</p>
 </select></label>
 </div>
 </details>
-<p class="text-xs opacity-70 mb-2">Quality is your call: \u201cSpecialty-roaster quality\u201d leads with bags whose pages state it
-(such as Honest, The Well, or Counter Culture) and moves the rest under a cheaper-alternative note.
-Frothy Monkey roasts in Nashville too, but their shop doesn't load for checking, so no bag is listed.
-No brand is ruled out behind your back.</p>
+<p class="text-xs opacity-70 mb-2">Specialty-roaster quality leads with Honest, The Well, or Counter Culture; the rest follow as cheaper alternatives. Frothy Monkey does not load, so no bag is listed.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
 </header>
 <section id="open-example" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-1">Kind of thing \u2014 \u201ccoffee beans\u201d</h2>
-<p class="text-sm opacity-80 mb-4">Different blends, not interchangeable: each was checked on its own page with its own decision. Ordered by shelf price.</p>
+<p class="text-sm opacity-80 mb-4">Six bags, each checked on its own page. Shelf price order.</p>
+COMPARE_TABLE
 """
     page += open_cards
     page += """</section>
 <section id="exact-example" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-1">Exact product \u2014 \u201cLavazza Super Crema Whole Bean, 2.2 lb\u201d</h2>
-<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. The same bag at three other stores
-wouldn't load when checked, so those stores aren't counted \u2014 only the page that loaded decides.</p>
+<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. Three other stores would not load, so they are not counted.</p>
 """
     page += best_place
     page += """<div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
 Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
 </section>
 <section id="all-checked" class="mb-8">
+<hr class="section-rule">
 <h2 class="text-2xl font-bold mb-4">Everything checked</h2>
 <div id="results">
 """
@@ -708,9 +747,9 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
-<li>Each page was opened anonymously and read \u2014 nothing was added to a bag and no code was tried out.</li>
-<li>Tax and shipping are left out whenever the page doesn't show them for the exact item.</li>
-<li>A coupon appears only when its text was really seen, with the page and time.</li>
+<li>Pages opened anonymously \u2014 nothing added to a bag, no code tried out.</li>
+<li>Tax and shipping shown only when the page shows them.</li>
+<li>Coupon shown only when its text was seen, with page and time.</li>
 </ul>
 </div></section>
 </div>
@@ -734,9 +773,9 @@ let form = "";
 function setMode(open) {
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
-  hint.textContent = open
-    ? "Kind of thing: similar items that were actually seen, cheapest shelf price first."
-    : "Exact product: one named item, best place to buy with coupons seen on the page.";
+  hint.childNodes[0].textContent = open
+    ? "Kind of thing: similar items actually seen, cheapest first. "
+    : "Exact product: one named item, best place to buy. ";
   q.value = open ? "coffee beans" : "super crema";
   filter();
   document.getElementById(open ? "open-example" : "exact-example").scrollIntoView();
@@ -765,6 +804,8 @@ function filter() {
   applyBand(document.getElementById("open-example"));
   applyBand(results);
   noMatch.style.display = shown ? "none" : "";
+  const rc = document.getElementById("result-count");
+  if (rc) rc.textContent = shown + " of " + cards.length + " shown.";
 }
 function bandDivider() {
   const d = document.createElement("div");
@@ -806,19 +847,22 @@ preferSel.addEventListener("change", () => {
   quality = v === "specialty" ? "independent-roastery" : "";
   if (v === "price") { quality = ""; sortSel.value = "low"; }
   couponSel.value = "all";
-  hint.textContent = quality
-    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives, never as the lead."
-    : "Kind of thing: similar items that were actually seen, cheapest shelf price first.";
+  hint.childNodes[0].textContent = quality
+    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives. "
+    : "Kind of thing: similar items actually seen, cheapest first. ";
   filter();
 });
 formSel.addEventListener("change", () => { form = formSel.value; filter(); });
 couponSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
+const goBtn = document.getElementById("search-go");
+if (goBtn) goBtn.addEventListener("click", () => { filter(); document.getElementById("results").scrollIntoView(); });
 filter();
 </script>
 </body>
 </html>
 """
+    page = page.replace("COMPARE_TABLE", compare_html)
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)
