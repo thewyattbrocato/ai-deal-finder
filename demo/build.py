@@ -345,7 +345,13 @@ def product_card(item, decision, coupon_html):
                  + ("yes" if item["coupon"] else "no") + '" data-price="'
                  + str(item["price_cents"]) + '" data-quality="'
                  + esc(item["quality"]["tag"] if item["quality"] else "")
-                 + '" data-form="' + esc(item["form"] or "") + '">')
+                 + '" data-form="' + esc(item["form"] or "")
+                 + '" data-price-label="' + esc(item["price_label"])
+                 + '" data-coupon-code="'
+                 + esc(item["coupon"]["code"] if item["coupon"] else "")
+                 + '" data-quality-basis="'
+                 + esc(item["quality"]["basis"] if item["quality"] else "")
+                 + '">')
     parts.append('<div class="card-body" style="min-width:0">')
     parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
     if item["image"]:
@@ -364,6 +370,7 @@ def product_card(item, decision, coupon_html):
                  '<div class="text-2xl font-extrabold whitespace-nowrap">'
                  + esc(item["price_label"]) + "</div></div>")
     parts.append('<p class="text-sm opacity-80 mb-1">' + esc(item["detail"]) + "</p>")
+    parts.append('<p class="guide-why text-sm mb-1" data-why style="display:none"></p>')
     if item["was_label"]:
         parts.append('<p class="text-sm opacity-70 mb-1">was '
                      + esc(item["was_label"])
@@ -627,6 +634,11 @@ def build():
   .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
   .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
   .mode-btn, .guide-btn { min-height: 2.5rem; }
+  .guide-opt { cursor: pointer; display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0 0.9rem; border: 1px solid currentColor; border-radius: 0.5rem; font-size: 0.9rem; opacity: 0.85; }
+  .guide-opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .guide-opt:has(input:checked) { outline: 2px solid currentColor; font-weight: 700; opacity: 1; }
+  .guide-opt:has(input:focus-visible) { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+  .guide-why { border-left: 3px solid currentColor; padding-left: 0.6rem; }
   a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
 </head>
@@ -649,9 +661,12 @@ def build():
 <button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
 </div>
 <section id="guide" class="border border-base-300 rounded-lg bg-base-100 p-3 mb-3" aria-label="Optional guide" style="min-width:0">
-<p class="text-sm font-semibold mb-1">Guide (optional) — <span id="guide-step"></span></p>
-<p id="guide-q" class="mb-2"></p>
-<div id="guide-opts" class="flex flex-wrap gap-2"></div>
+<div class="flex flex-wrap items-baseline justify-between gap-2 mb-2"><p class="text-sm font-semibold">Guide (optional) — answer any, in any order, and change them anytime</p><button id="guide-reset" class="btn btn-sm guide-btn" type="button">Reset — show everything</button></div>
+<fieldset class="mb-2" style="min-width:0"><legend class="text-sm font-semibold mb-1">What matters most?</legend><div class="flex flex-wrap gap-2"><label class="guide-opt"><input type="radio" name="guide-prefer" value="price" data-guide-key="prefer" checked>Lowest price first</label><label class="guide-opt"><input type="radio" name="guide-prefer" value="specialty" data-guide-key="prefer">Specialty-roaster quality first</label></div><p class="text-xs opacity-70 mt-1">Specialty roasters lead only where the page states small-batch, direct-trade or similar; the other items follow in the same list, still ordered by shelf price.</p></fieldset>
+<fieldset class="mb-2" style="min-width:0"><legend class="text-sm font-semibold mb-1">What kind?</legend><div class="flex flex-wrap gap-2"><label class="guide-opt"><input type="radio" name="guide-form" value="" data-guide-key="form" checked>Anything</label><label class="guide-opt"><input type="radio" name="guide-form" value="any-coffee" data-guide-key="form">Any coffee</label><label class="guide-opt"><input type="radio" name="guide-form" value="whole-bean" data-guide-key="form">Whole bean</label></div></fieldset>
+<fieldset class="mb-2" style="min-width:0"><legend class="text-sm font-semibold mb-1">Which coupons?</legend><div class="flex flex-wrap gap-2"><label class="guide-opt"><input type="radio" name="guide-coupon" value="all" data-guide-key="coupon" checked>Show all</label><label class="guide-opt"><input type="radio" name="guide-coupon" value="yes" data-guide-key="coupon">Only with a printed coupon</label></div><p class="text-xs opacity-70 mt-1">A printed coupon is a code that product's own page showed. It is never tried and never a lower price — prices stay shelf prices.</p></fieldset>
+<p id="guide-status" class="text-sm font-semibold" role="status" aria-live="polite"></p>
+<details id="hidden-by" class="text-sm mt-1" style="display:none"><summary class="cursor-pointer">Hidden by your answers</summary><ul id="hidden-list" class="list-disc ml-6 mt-1"></ul></details>
 </section>
 <p class="text-sm opacity-80 mb-2">""" + coffee_note + """</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches — only the checked pages below exist, and nothing is invented.</p>
@@ -683,42 +698,34 @@ const cards = Array.from(results.querySelectorAll("[data-keywords]"));
 const OPEN_TEXT = "Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out \\u2014 the price shown is the shelf price.";
 const EXACT_TEXT = "Exact product is one named item: the closest name match, with its own page's price and any coupon that page printed.";
 let exact = false;
-const pick = { prefer: "any", form: "", coupon: "all" };
-const STEPS = [
-  { key: "prefer", q: "What matters most?", opts: [
-    ["price", "Lowest price"], ["specialty", "Specialty-roaster quality"]] },
-  { key: "form", q: "Whole bean or any coffee?", opts: [
-    ["whole-bean", "Whole bean"], ["any-coffee", "Any coffee"]] },
-  { key: "coupon", q: "Only products whose page printed a coupon?", opts: [
-    ["yes", "Only with a printed coupon"], ["all", "Show all"]] },
-];
-let step = 0;
-function renderGuide() {
-  const stepEl = document.getElementById("guide-step");
-  const qEl = document.getElementById("guide-q");
-  const box = document.getElementById("guide-opts");
-  box.innerHTML = "";
-  if (step >= STEPS.length) {
-    stepEl.textContent = "done";
-    qEl.textContent = "The list below already reflects your answers.";
-    box.appendChild(guideBtn("Start over", () => { step = 0; pick.prefer = "any"; pick.form = ""; pick.coupon = "all"; renderGuide(); filter(); }));
-    return;
-  }
-  const s = STEPS[step];
-  stepEl.textContent = "question " + (step + 1) + " of " + STEPS.length;
-  qEl.textContent = s.q;
-  for (const [val, label] of s.opts) {
-    box.appendChild(guideBtn(label, () => { pick[s.key] = val; step++; renderGuide(); filter(); }));
-  }
-  box.appendChild(guideBtn("Skip", () => { step++; renderGuide(); }));
+const pick = { prefer: "price", form: "", coupon: "all" };
+const DEFAULTS = { prefer: "price", form: "", coupon: "all" };
+const LABELS = {
+  prefer: { specialty: "Specialty-roaster quality first" },
+  form: { "any-coffee": "Any coffee", "whole-bean": "Whole bean" },
+  coupon: { yes: "Only with a printed coupon" },
+};
+// Search text is read once, before any "why" line is written into a card.
+const hays = new Map(cards.map(c => [c, fold(c.getAttribute("data-keywords") + " " + c.innerText)]));
+const radios = Array.from(document.getElementById("guide").querySelectorAll("[data-guide-key]"));
+const guideStatus = document.getElementById("guide-status");
+const hiddenBy = document.getElementById("hidden-by");
+const hiddenList = document.getElementById("hidden-list");
+function syncRadios() {
+  for (const r of radios) r.checked = pick[r.getAttribute("data-guide-key")] === r.getAttribute("value");
 }
-function guideBtn(label, fn) {
-  const b = document.createElement("button");
-  b.className = "btn btn-sm guide-btn";
-  b.textContent = label;
-  b.addEventListener("click", fn);
-  return b;
+for (const r of radios) {
+  r.addEventListener("change", () => {
+    if (!r.checked) return;
+    pick[r.getAttribute("data-guide-key")] = r.getAttribute("value");
+    filter();
+  });
 }
+document.getElementById("guide-reset").addEventListener("click", () => {
+  Object.assign(pick, DEFAULTS);
+  syncRadios();
+  filter();
+});
 function setMode(open) {
   exact = !open;
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
@@ -738,40 +745,89 @@ function formAllows(c) {
   if (pick.form === "any-coffee") return c.getAttribute("data-kind") === "Coffee";
   return c.getAttribute("data-form") === pick.form;
 }
+function couponAllows(c) {
+  return pick.coupon !== "yes" || c.getAttribute("data-coupon") === "yes";
+}
+function whyHidden(c) {
+  const out = [];
+  if (!couponAllows(c)) out.push("no coupon code was printed on its own page (answer: " + LABELS.coupon.yes + ")");
+  if (!formAllows(c)) {
+    out.push((pick.form === "any-coffee" ? "it is not coffee" : "its page does not mark it whole bean")
+      + " (answer: " + LABELS.form[pick.form] + ")");
+  }
+  return out.join("; ");
+}
+function whyShown(c, rank, total, terms) {
+  const out = [];
+  if (exact) out.push("closest name match to \\u201c" + q.value.trim() + "\\u201d");
+  else if (terms.length) out.push("matches \\u201c" + q.value.trim() + "\\u201d");
+  if (pick.form === "whole-bean") out.push("its page marks it whole bean");
+  if (pick.form === "any-coffee") out.push("it is coffee");
+  if (pick.coupon === "yes") {
+    out.push("its own page printed " + c.getAttribute("data-coupon-code")
+      + " (seen, never tried \\u2014 the price is still the shelf price)");
+  }
+  const basis = c.getAttribute("data-quality-basis");
+  if (pick.prefer === "specialty" && !exact) {
+    out.push(basis ? "listed first: " + basis : "listed after the roasters whose pages state a specialty basis");
+  }
+  if (!exact && total > 1 && pick.prefer === "price") {
+    out.push("shelf price " + c.getAttribute("data-price-label") + ", " + (rank === 1 ? "lowest" : "#" + rank + " by price") + " of " + total + " shown");
+  }
+  return out.join(" \\u00b7 ");
+}
 function filter() {
   const terms = fold(q.value).split(/\\s+/).filter(Boolean);
   const visible = [];
+  const hidden = [];
   for (const c of cards) {
-    const hay = fold(c.getAttribute("data-keywords") + " " + c.innerText);
-    const hit = terms.every(t => hay.includes(t))
-      && (pick.coupon !== "yes" || c.getAttribute("data-coupon") === "yes")
-      && formAllows(c);
+    const hay = hays.get(c);
+    const searched = terms.every(t => hay.includes(t))
+      && (!exact || (terms.length && terms.every(t => fold(c.getAttribute("data-name")).includes(t))));
     c.style.display = "none";
-    if (hit) visible.push(c);
+    if (!searched) continue;
+    if (couponAllows(c) && formAllows(c)) visible.push(c);
+    else hidden.push(c);
   }
   visible.sort(byPrice);
   let shownSet = visible;
   if (exact) {
     // One named item: every term in its name, closest (shortest) name wins.
-    const named = visible.filter(c => {
-      const nm = fold(c.getAttribute("data-name"));
-      return terms.length && terms.every(t => nm.includes(t));
-    });
-    named.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
-    shownSet = named.slice(0, 1);
+    visible.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
+    shownSet = visible.slice(0, 1);
   } else if (pick.prefer === "specialty") {
     const lead = visible.filter(c => c.getAttribute("data-quality") === "independent-roastery");
     shownSet = lead.concat(visible.filter(c => !lead.includes(c)));
   }
-  for (const c of shownSet) { c.style.display = ""; results.appendChild(c); }
+  for (const c of cards) c.querySelectorAll("[data-why]")[0].style.display = "none";
+  shownSet.forEach((c, i) => {
+    c.style.display = "";
+    results.appendChild(c);
+    const why = c.querySelectorAll("[data-why]")[0];
+    why.textContent = "Why it is here: " + whyShown(c, i + 1, shownSet.length, terms) + ".";
+    why.style.display = why.textContent === "Why it is here: ." ? "none" : "";
+  });
   noMatch.style.display = shownSet.length ? "none" : "";
   document.getElementById("result-count").textContent = shownSet.length + " shown.";
+  const active = [];
+  for (const key of ["prefer", "form", "coupon"]) {
+    if (LABELS[key][pick[key]]) active.push(LABELS[key][pick[key]]);
+  }
+  guideStatus.textContent = (active.length ? "Your answers: " + active.join(" \\u00b7 ") + ". " : "No answers set. ")
+    + shownSet.length + " shown, " + hidden.length + " hidden by your answers.";
+  hiddenList.innerHTML = "";
+  for (const c of hidden) {
+    const li = document.createElement("li");
+    li.textContent = c.getAttribute("data-name") + " \\u2014 " + whyHidden(c);
+    hiddenList.appendChild(li);
+  }
+  hiddenBy.style.display = hidden.length ? "" : "none";
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
 q.addEventListener("input", filter);
 document.getElementById("search-go").addEventListener("click", filter);
-renderGuide();
+syncRadios();
 filter();
 </script>
 </body>
