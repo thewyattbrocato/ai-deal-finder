@@ -10,11 +10,7 @@ anonymous-cart-only coupon verification, and research-only fallback.
   `judgment` (rules-only mirror of the Jev judgment layer; no live calls).
 - Tests: `python3 -m unittest discover -s tests` (53 tests, stdlib only).
 - Build assumptions + captain decision batch: `ASSUMPTIONS.md`.
-- Frozen product vision: `VISION.md` (do not edit; SHA-256
-  `8ff9483d1c343490d9ab6ee752957ca7ef894853102f101557fed4157b8d8484`).
-
-- Frozen product vision: `VISION.md` (do not edit; SHA-256
-  `8ff9483d1c343490d9ab6ee752957ca7ef894853102f101557fed4157b8d8484`).
+- Acceptance policy: `VISION.md`.
 - Author-approved baseline: `EVIDENCE.md`.
 - Acceptance contract (reviewer isolation, severity, thresholds): `ACCEPTANCE.md`.
 - Verdict meanings and downgrade rules: `DECISION_TABLE.md`.

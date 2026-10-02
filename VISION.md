@@ -1,24 +1,28 @@
 # Vision
 
 AI Deal Finder exists so that ordinary AI users can make a defensible purchase decision without mistaking plausible deal claims for verified savings.
-It serves a shopper with a specific product or bounded need, and it turns current public evidence or safely pasted evidence into a buy, wait, or verify recommendation.
-It owns exactly one thing: one purchase decision supported by direct-item deals, genuinely comparable substitute deals, and visible evidence.
+It serves a shopper who types a specific product or a kind of thing, and it turns current public evidence or safely pasted evidence into a buy, wait, or verify recommendation.
+It owns exactly one thing: the purchase decision for that search, supported by direct-item deals, genuinely comparable substitute deals, and visible evidence.
+A specific product gets one best place to buy.
+A kind of thing may return several items that each earn buy, with the material differences stated beside each one.
 
 ## Evidence Before Confidence
 
 Every material price, coupon, availability, seller, urgency, and history claim names its source, region, timestamp, and evidence state.
 Evidence states distinguish what was observed now, retailer-stated, third-party historical, supplied by the user, unverified, rejected, or unknown.
 The skill prefers first-party merchant or manufacturer evidence for current terms and uses third-party sources for discovery, history, and cross-checking.
-When a primary page is blocked, indexed merchant text may appear only as an unverified discovery candidate with a manual-check action.
+When a primary page is blocked, that merchant stays in the result as verify with a manual-check action.
+Indexed merchant text may appear only as an unverified discovery candidate.
 The skill never upgrades a discovered code, search result, vendor claim, or user-provided fact into independent verification.
 The skill may compare a redacted private or targeted price supplied by the shopper, but it labels that price as user-provided and never seeks access to reproduce it.
 The skill never describes a seller as safe or a price as guaranteed, best ever, or urgent without scope-matched evidence.
 
 ## Two Bounded Discovery Lanes
 
-Every search checks deals for the requested item and may check a bounded set of substitutes that satisfy the shopper's stated must-have attributes.
-The skill asks which attributes must remain fixed and which may vary before a substitute can compete with the requested item.
-Terms such as local and similar remain shopper-defined, and the skill asks rather than silently choosing a geographic or product interpretation.
+Every search checks deals for the requested item and may check a bounded set of substitutes grounded in evidence that was actually seen.
+A kind of thing shows similar items from that seen evidence without a questionnaire before the first results.
+The result states which attributes differ.
+When a word such as local has no evidence-backed meaning, the result states the interpretation it used.
 The substitute set may grow when evaluation shows that added breadth finds materially better qualifying deals without reducing verification depth or making the answer unmanageable.
 The search may stop before exhausting that bounded set when the evidence already supports a strong winner and further candidates are unlikely to change the verdict.
 Every candidate is matched to its exact variant, quantity, condition, bundle, seller, fulfillment party, and region before comparison.
@@ -29,6 +33,7 @@ Private-label and lookalike products may be compared on documented attributes, b
 
 The recommendation ranks known landed cost and material purchase terms rather than advertised percentage off.
 Known landed cost includes item price, shipping, mandatory fees, and known tax, with every unknown component named.
+A seen item price may support buy while tax, shipping, or fees are unknown, provided each unknown is named beside the price.
 Quantity, size, and unit cost are normalized when they affect comparison.
 Cash back, rebates, points, and gift cards remain separate conditional value and never change the ranked winner unless they reduce the amount due at checkout.
 Subscription-only pricing is excluded from V1 even when the first payment is lower.
@@ -41,6 +46,9 @@ Out-of-stock offers are excluded from recommendations even when their promotiona
 
 ## Verification Stops Before Identity Or Purchase
 
+The public page does not open a cart.
+A cart test happens only in a private session, only after explicit consent, and only in a logged-out cart.
+A code printed on the merchant page may be why a store is the best place to buy, and that code stays retailer-stated until a consented test or a shopper-supplied checkout result says otherwise.
 Public coupon testing is optional and begins only after the user explicitly consents to that test.
 The skill asks for anonymous-cart consent once, saves that decision, and continues to honor it until the user changes or revokes it.
 Testing uses a logged-out anonymous cart and stops before login, checkout, payment, personal data, account mutation, or scarce-inventory reservation.
@@ -56,15 +64,20 @@ Public member pricing may be compared as retailer-stated when the shopper volunt
 The skill never requests a full address, payment data, account credentials, government identifiers, or unrelated browsing history.
 Browsing and non-browsing modes make different promises, and non-browsing output states plainly that live facts were not independently verified.
 One pasted offer can be analyzed in non-browsing mode, but it cannot support a buy or wait verdict without comparative evidence.
-The default answer is concise, text-first, understandable without color or icons, and places caveats beside the claims they qualify.
+The primary answer may be a visual page a person opens in a browser.
+The same facts remain readable as text, and the decision does not depend on color or icons to be understood.
 V1 contains no affiliate links or commission-influenced ranking, and any later monetization must keep ranking independent of commission and disclose material connections beside the recommendation.
 
 ## Scope
 
-AI Deal Finder is not a deal feed, browser extension, continuous tracker, marketplace, seller-certification service, shopping account, rewards program, or checkout agent, and it does not promise comprehensive merchant or country coverage, guaranteed savings, or fraud prevention.
+AI Deal Finder is not an unbounded deal feed, browser extension, continuous tracker, marketplace, seller-certification service, shopping account, rewards program, or checkout agent, and it does not promise comprehensive merchant or country coverage, guaranteed savings, or fraud prevention.
+A public page may show a labeled set of already observed examples.
+A query the shopper types is searched on the live web.
+Those examples are not presented as that query's result unless they were observed for that query.
 It does not handle subscriptions, automated purchasing, negotiation, resale speculation, financial products, medical products, controlled goods, or other high-risk categories, and it does not make legal conclusions about advertising, sellers, or regional consumer rights.
 It does not name a future target price from history alone when it cannot monitor that price or ground the threshold in current actionable evidence.
-Implementation begins only after prospective tasks test exact-item accuracy, substitute comparability, checkout correctness, landed-cost error, unsupported claims, and user correction burden.
+The smallest deterministic engine, tests, and public page may ship before a prospective user study.
+A prospective study of exact-item accuracy, substitute comparability, checkout correctness, landed-cost error, unsupported claims, and user correction burden is required before the product claims that real shoppers can trust the decision.
 
-A change aligns when it improves one evidence-backed purchase decision while preserving exact matching, bounded substitution, landed-cost honesty, explicit consent, privacy, and visible uncertainty.
+A change aligns when it improves an evidence-backed purchase decision, including several qualifying buys for a kind of thing, while preserving exact matching, bounded substitution, named unknowns, explicit consent, privacy, and visible uncertainty.
 A change should be resisted when it increases deal volume, automation, coverage, or revenue by weakening comparability, evidence quality, ranking independence, stop conditions, or user control.
