@@ -198,5 +198,26 @@ class PublicPageTest(unittest.TestCase):
         self.assertIn('id="show-more"', self.page)
 
 
+class ReadmeLiveLinkTest(unittest.TestCase):
+    LIVE = "https://thewyattbrocato.github.io/ai-deal-finder/"
+
+    def setUp(self):
+        with open(os.path.join(ROOT, "README.md"), encoding="utf-8") as fh:
+            self.readme = fh.read()
+
+    def test_live_link_comes_first_and_needs_no_download(self):
+        self.assertEqual(self.readme.index(self.LIVE), self.readme.index("http"))
+        self.assertIn("Nothing to download or install", self.readme)
+        self.assertLess(self.readme.index("Nothing to download"),
+                        self.readme.index("## Use it in four steps"))
+
+    def test_every_readme_image_is_a_file_in_the_repo(self):
+        srcs = re.findall(r'src="([^"]+)"', self.readme)
+        self.assertTrue(srcs)
+        for src in srcs:
+            self.assertFalse(src.startswith("http"), src)
+            self.assertTrue(os.path.isfile(os.path.join(ROOT, src)), src)
+
+
 if __name__ == "__main__":
     unittest.main()
