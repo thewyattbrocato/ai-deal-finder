@@ -366,11 +366,15 @@ def product_card(item, decision, coupon_html):
         parts.append('<p class="text-sm opacity-70 mb-1">was '
                      + esc(item["was_label"])
                      + " (as marked on the page)</p>")
-    if item["quality"]:
+    if item["quality"] and not item.get("band"):
         parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
                      + esc(item["quality"]["label"])
                      + '</span> <span class="opacity-70">\u2014 '
                      + esc(item["quality"]["basis"]) + "</span></p>")
+    if item.get("band"):
+        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
+                     "Specialty band: "
+                     + "</span>" + esc(item["band"]) + "</p>")
     parts.append(
         '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
         '<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
@@ -410,7 +414,7 @@ def card_for(item):
 def item_dict(key, name, detail, seller, kind, image, price_cents,
               price_label, was_label, decision, coupon, page_url, page_host,
               region, observed_at, fine_print, keywords, quality=None,
-              form=None):
+              form=None, band=None):
     return {
         "key": key, "name": name, "detail": detail, "seller": seller,
         "kind": kind, "image": image,
@@ -419,6 +423,7 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
         "page_url": page_url, "page_host": page_host, "region": region,
         "observed_at": observed_at, "fine_print": fine_print,
         "keywords": keywords, "quality": quality, "form": form,
+        "band": band,
     }
 
 
@@ -449,7 +454,8 @@ def build():
             APPLE_URL, "apple.com", "US", TS_APPLE2,
             [tax_ship,
              "Recheck the price before paying; store pages change."],
-            ["airpods", "apple", "earbuds", "headphones"]),
+            ["airpods", "apple", "earbuds", "headphones"],
+            band="not checked for other products yet."),
         "oldnavy": item_dict(
             "oldnavy", "High-Waisted SoComfy Wide-Leg Sweatpants",
             "Old Navy \u00b7 new \u00b7 Product #777363", "Old Navy",
@@ -462,7 +468,8 @@ def build():
             [tax_ship,
              "Free shipping over $50 needs a Rewards membership, which was "
              "not signed into during this check."],
-            ["sweatpants", "old", "navy", "pants", "fleece"]),
+            ["sweatpants", "old", "navy", "pants", "fleece"],
+            band="not checked for other products yet."),
         "gap": item_dict(
             "gap", "CashSoft Crop Cardigan",
             "Gap \u00b7 Brown and navy blue argyle \u00b7 new", "Gap",
@@ -472,7 +479,8 @@ def build():
             ["Store signs advertised select-style offers, but none named a "
              "code for this item \u2014 the $79.95 price stands on its own.",
              tax_ship],
-            ["cardigan", "gap", "sweater"]),
+            ["cardigan", "gap", "sweater"],
+            band="not checked for other products yet."),
         "nike": item_dict(
             "nike", "Air Jordan OG Women's Shoes",
             "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
@@ -484,7 +492,8 @@ def build():
              "signed into during this check \u2014 shipping wasn't shown.",
              "Tax wasn't shown for this item \u2014 check the total at "
              "checkout."],
-            ["nike", "jordan", "shoes", "sneakers"]),
+            ["nike", "jordan", "shoes", "sneakers"],
+            band="not checked for other products yet."),
         "cof1": item_dict(
             "cof1", "Super Crema Whole Bean, 2.2 lb bag",
             "Lavazza \u00b7 medium roast \u00b7 honey, nutty", "Lavazza",
@@ -494,6 +503,7 @@ def build():
             [tax_ship],
             ["coffee", "beans", "lavazza", "super", "crema", "espresso",
              "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
             form="whole-bean"),
         "cof2": item_dict(
             "cof2", "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag",
@@ -504,6 +514,7 @@ def build():
             [tax_ship],
             ["coffee", "beans", "lavazza", "rossa", "qualita", "espresso",
              "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
             form="whole-bean"),
         "cof3": item_dict(
             "cof3", "Dolcevita Classico Whole Bean, 12 oz bag",
@@ -514,6 +525,7 @@ def build():
             [tax_ship],
             ["coffee", "beans", "lavazza", "classico", "dolcevita", "filter",
              "whole", "bean"],
+            band="Not in this band: no small-batch or direct-trade statement seen on the checked pages.",
             form="whole-bean"),
         "hcr": item_dict(
             "hcr", "Midnight Axes dark roast, 12 oz bag",
@@ -527,9 +539,10 @@ def build():
              "The bag reads whole-bean coffee; 12 oz one-time purchase."],
             ["coffee", "beans", "honest", "midnight", "axes", "dark",
              "roast", "nashville", "franklin", "whole", "bean"],
+            band="In this band: roastery locations plus direct sourcing, stated on honest.coffee; single-origin bag.",
             quality={"tag": "independent-roastery",
                      "label": "Independent roastery",
-                     "basis": "roastery in Franklin/Nashville AL + direct "
+                     "basis": "roastery in Franklin/Nashville TN plus Alabama + direct "
                               "sourcing, stated on honest.coffee"},
             form="whole-bean"),
         "wel": item_dict(
@@ -546,6 +559,7 @@ def build():
              "exact shipping wasn't shown."],
             ["coffee", "beans", "well", "watershed", "light", "nashville",
              "whole", "bean"],
+            band="In this band: 'Small Batch Roasted in Nashville' plus direct trade, stated on the page.",
             quality={"tag": "independent-roastery",
                      "label": "Independent roastery",
                      "basis": "\u201cSmall Batch Roasted in Nashville\u201d "
@@ -564,6 +578,7 @@ def build():
              "Free shipping starts at $30."],
             ["coffee", "beans", "counter", "culture", "big", "trouble",
              "durham", "whole", "bean"],
+            band="In this band: roastery training centers plus published transparency reports, stated on counterculturecoffee.com.",
             quality={"tag": "independent-roastery",
                      "label": "Independent roastery",
                      "basis": "roastery with training centers and published "
@@ -648,7 +663,7 @@ No login, no checkout, no cart test.</p>
 <select id="prefer" class="select select-bordered w-full">
 <option value="any">Just looking around</option>
 <option value="price">Lowest price first</option>
-<option value="roastery">Independent roasteries</option>
+<option value="specialty">Specialty-roaster quality</option>
 </select></label>
 <label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coffee form?</span>
 <select id="formsel" class="select select-bordered w-full">
@@ -662,7 +677,10 @@ No login, no checkout, no cart test.</p>
 </select></label>
 </div>
 </details>
-<p class="text-xs opacity-70 mb-2">Quality is your call: \u201cIndependent roasteries\u201d shows only items whose pages say so. No brand is ruled out behind your back.</p>
+<p class="text-xs opacity-70 mb-2">Quality is your call: \u201cSpecialty-roaster quality\u201d leads with bags whose pages state it
+(such as Honest, The Well, or Counter Culture) and moves the rest under a cheaper-alternative note.
+Frothy Monkey roasts in Nashville too, but their shop doesn't load for checking, so no bag is listed.
+No brand is ruled out behind your back.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
 </header>
 <section id="open-example" class="mb-8">
@@ -733,9 +751,8 @@ function filter() {
     const hitKind = !kind || c.getAttribute("data-kind") === kind;
     const wantCoupon = couponOnly.checked || couponSel.value === "yes";
     const hitCoupon = !wantCoupon || c.getAttribute("data-coupon") === "yes";
-    const hitQuality = !quality || c.getAttribute("data-quality") === quality;
     const hitForm = !form || c.getAttribute("data-form") === form;
-    const hit = hitText && hitKind && hitCoupon && hitQuality && hitForm;
+    const hit = hitText && hitKind && hitCoupon && hitForm;
     c.style.display = hit ? "" : "none";
     if (hit) { shown++; visible.push(c); }
   }
@@ -745,7 +762,35 @@ function filter() {
     return sortSel.value === "high" ? pb - pa : pa - pb;
   });
   for (const c of visible) results.appendChild(c);
+  applyBand(document.getElementById("open-example"));
+  applyBand(results);
   noMatch.style.display = shown ? "none" : "";
+}
+function bandDivider() {
+  const d = document.createElement("div");
+  d.className = "alert mb-4 band-divider";
+  d.innerHTML = "<div><span class='font-bold'>Cheaper alternative \u2014</span> "
+    + "below the quality asked for, shown for price context only. Never the lead result.</div>";
+  return d;
+}
+function applyBand(container) {
+  if (!container) return;
+  const old = container.querySelector(":scope > .band-divider");
+  if (old) old.remove();
+  if (!quality) return;
+  const cards = Array.from(container.querySelectorAll(":scope > [data-quality]"));
+  const vis = c => c.style.display !== "none";
+  const inBand = cards.filter(c => vis(c) && c.getAttribute("data-quality") === quality);
+  const alt = cards.filter(c => vis(c) && c.getAttribute("data-quality") !== quality);
+  const hidden = cards.filter(c => !vis(c));
+  if (!inBand.length || !alt.length) return;
+  const byPrice = (a, b) => parseInt(a.getAttribute("data-price"), 10) - parseInt(b.getAttribute("data-price"), 10);
+  inBand.sort(byPrice);
+  alt.sort(byPrice);
+  for (const c of inBand) container.appendChild(c);
+  container.appendChild(bandDivider());
+  for (const c of alt) container.appendChild(c);
+  for (const c of hidden) container.appendChild(c);
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
@@ -758,9 +803,12 @@ couponOnly.addEventListener("change", filter);
 sortSel.addEventListener("change", filter);
 preferSel.addEventListener("change", () => {
   const v = preferSel.value;
-  quality = v === "roastery" ? "independent-roastery" : "";
-  if (v === "price") sortSel.value = "low";
+  quality = v === "specialty" ? "independent-roastery" : "";
+  if (v === "price") { quality = ""; sortSel.value = "low"; }
   couponSel.value = "all";
+  hint.textContent = quality
+    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives, never as the lead."
+    : "Kind of thing: similar items that were actually seen, cheapest shelf price first.";
   filter();
 });
 formSel.addEventListener("change", () => { form = formSel.value; filter(); });

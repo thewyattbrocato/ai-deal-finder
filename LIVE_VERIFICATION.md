@@ -329,3 +329,21 @@ eligibility). Suite: 63 tests green.
 HCR-1, WEL-1, CCC-1 appended to `FIXTURES.json`. Observed engine outputs,
 **not** independent labels. Frothy Monkey gets no case: no product price
 was seen, so there is no product claim to pin.
+
+---
+
+# Quality-band lead rule (2026-10-02, display only)
+
+Captain correction: once a shopper states higher quality, that band leads —
+ranked by deal among in-band items — and cheaper lower-quality items appear
+only under a labeled "Cheaper alternative" note, never as the lead. Lowest
+price is not the winner once quality is stated.
+
+This is display ordering, not an engine verdict: every item keeps its own
+single-candidate decision, no substitute-equivalence claim is made, and the
+engine's substitute machinery (and every D1–D6 number) stays untouched. Each
+coffee card carries its band evidence beside it — page-stated reasons for
+in-band items, an explicit "no small-batch or direct-trade statement seen"
+for Lavazza, "not checked for other products yet" elsewhere. Frothy Monkey
+is named in the questionnaire note with the honest reason no bag is listed
+(shop doesn't load for checking). No fixture change: no new observation.
