@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 232" width="880" height="232" role="img" aria-labelledby="t d">
+  <title id="t">AI Deal Finder</title>
+  <desc id="d">Search checked store pages. Price, decision and coupon only when really seen. Open the live tool.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="880" height="232" fill="#f6f6f9"/>
+  <rect x="0" y="0" width="8" height="232" fill="#422ad5"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="1.6" fill="#55556a">AI DEAL FINDER · CHECKED PAGES ONLY</text>
+  <text x="48" y="108" font-size="44" font-weight="800" fill="#16161d">Find a deal.</text>
+  <text x="48" y="140" font-size="19" fill="#2b2b38">Price, decision and coupon, only when the</text>
+  <text x="48" y="164" font-size="19" fill="#2b2b38">store page really showed it.</text>
+  <rect x="48" y="178" width="214" height="30" rx="6" fill="#422ad5"/>
+  <text x="155" y="199" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Open the live tool  →</text>
+  <g transform="translate(640 50)" fill="none" stroke="#422ad5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="190" height="132" rx="10" fill="#ffffff" stroke="#c9ced8" stroke-width="2"/>
+    <rect x="16" y="18" width="62" height="14" rx="3" fill="#c9ced8" stroke="none"/>
+    <rect x="16" y="42" width="120" height="10" rx="3" fill="#e3e5ec" stroke="none"/>
+    <rect x="16" y="62" width="30" height="20" rx="3" fill="#16161d" stroke="none"/>
+    <rect x="56" y="62" width="110" height="20" rx="4" stroke-dasharray="6 5"/>
+    <path d="M24 108 l9 9 l19 -19" stroke="#422ad5"/>
+    <rect x="66" y="104" width="94" height="10" rx="3" fill="#e3e5ec" stroke="none"/>
+  </g>
+</svg>
