@@ -217,3 +217,57 @@ markdown reference never subtracted). Suite: 59 tests green
 Live cases LV-005 … LV-007 appended to `FIXTURES.json` in the existing case
 schema. Their verdicts are observed engine outputs, **not** independent
 labels — the file's reviewer-isolation rule still applies to every case.
+
+---
+
+# Search screen slice (V1, 2026-10-01, evening UTC)
+
+The demo is now a search, not a report. Two modes over read-only
+observations (region US, no login/checkout/cart): open search over a kind
+of thing, and specific search for one named product with the best place to
+buy. Guardrail honored: no substitute-equivalence claim is made anywhere —
+open-search items are different products judged on their own evidence, never
+crowned interchangeable — so no captain-call number (D1–D6) is picked.
+
+## Observations
+
+| ID | Source | Observed at (UTC) | What was seen | Evidence state |
+| --- | --- | --- | --- | --- |
+| COF-1 | `https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202` | 2026-10-01T23:52:52Z | "Super Crema Whole Bean … $26.99", 2.2 lb, ADD TO CART; banner "COFFEE DAY: 20% OFF COFFEE WITH CODE CAFE20 + FREE MUG ON ORDERS $150+" | observed-now (item price); code CAFE20 retailer-stated, untested |
+| COF-2 | `https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa` | 2026-10-01T23:54:08Z | "Qualità Rossa Whole Bean … $24.99", 2.2 lb, ADD TO CART; same CAFE20 banner | observed-now (item price); code CAFE20 retailer-stated, untested |
+| COF-3 | `https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico` | 2026-10-01T23:55:04Z | "Dolcevita Classico Whole Bean … $13.99", 12 oz, ADD TO CART; same CAFE20 banner | observed-now (item price); code CAFE20 retailer-stated, untested |
+| BLK-T | Target search for the same Super Crema bag | 2026-10-01 ~23:53Z | "Human verification … page currently unavailable" | primary page blocked; seller not counted |
+| BLK-W | Walmart search for the same Super Crema bag | 2026-10-01 ~23:54Z | "Robot or human?" challenge | primary page blocked; seller not counted |
+| BLK-K | Kroger search for the same Super Crema bag | 2026-10-01 ~23:55Z | `ERR_HTTP2_PROTOCOL_ERROR`, unreachable (not diagnosed) | primary page blocked; seller not counted |
+
+Shipping over $50 is free at Lavazza; a single bag's shipping was unstated,
+so shipping stays `Unknown` (no membership involved — a spend threshold, not
+eligibility). Tax `Unknown`. The subscription "25% off deliveries / $5 off
+with 5OFFSUB" text is subscription-gated and was not modeled as a coupon
+for one-time purchase.
+
+## Engine runs
+
+Open search "coffee beans": three single-candidate runs, each `buy` with its
+code excluded (`USD 13.99 / 24.99 / 26.99 .. open-ended`). Displayed cheapest
+shelf price first with "different blends, not interchangeable" — the order
+is shelf-price order, not an equivalence verdict.
+
+Specific search "Lavazza Super Crema Whole Bean, 2.2 lb": Lavazza direct is
+the only verified seller, so it is the best place found (`buy` at
+`USD 26.99 .. open-ended`, CAFE20 excluded). Blocked sellers are listed
+beside the result as not counted — never upgraded, never ranked.
+
+## Discrepancies: none
+
+Fail-closed behavior already held (retailer-stated codes excluded; blocked
+sellers ignored unless they win). New focused tests pin it
+(`SearchSliceTest`: blocked rivals don't flip a verified winner;
+open-search items judged on own evidence). Suite: 61 tests green
+(`python3 -m unittest discover -s tests`).
+
+## Fixtures (search)
+
+Live cases COF-OPEN (per-item open-search pattern), COF-1 … COF-3, and SP-1
+(specific-search best place) appended to `FIXTURES.json`. Observed engine
+outputs, **not** independent labels.

@@ -139,6 +139,96 @@ def run_lv007():
     return nike, cost, decision
 
 
+TS_COF1 = "2026-10-01T23:52:52Z"
+TS_COF2 = "2026-10-01T23:54:08Z"
+TS_COF3 = "2026-10-01T23:55:04Z"
+COF1_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202"
+COF2_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa"
+COF3_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico"
+CAFE20 = ("CAFE20", "20% off coffee (free mug on orders $150+)")
+CAFE20_CAVEAT = ("Seen in the store banner but never tried out, so the price "
+                 "shown does not include it.")
+
+
+def run_cof1():
+    """Super Crema Whole Bean 2.2 lb, $26.99, code CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-super-crema",
+        variant="Super Crema Whole Bean, 2.2 lb",
+        quantity_terms="1x 2.2 lb bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF1_URL, observed_at=TS_COF1,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=26.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-super-crema", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_cof2():
+    """Qualita Rossa Whole Bean 2.2 lb, $24.99, code CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-rossa",
+        variant="Qualita Rossa Whole Bean, 2.2 lb",
+        quantity_terms="1x 2.2 lb bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF2_URL, observed_at=TS_COF2,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=24.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-rossa", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_cof3():
+    """Dolcevita Classico Whole Bean 12 oz, $13.99, CAFE20 seen not tested."""
+    from deal_finder.decision import decide
+    cof = Candidate(
+        id="lavazza-classico",
+        variant="Dolcevita Classico Whole Bean, 12 oz",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Lavazza", fulfilled_by="Lavazza", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=COF3_URL, observed_at=TS_COF3,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=13.99, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[cof],
+        ranked=[RankedCandidate("lavazza-classico", cost)],
+        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                        status="retailer-stated")],
+        consent=ConsentRecord(), mode="browsing",
+    ))
+    return cof, cost, decision
+
+
+def run_specific_super_crema():
+    """Named-product search: Super Crema 2.2 lb.
+
+    Lavazza direct is the only seller whose page loads (Target, Walmart,
+    and Kroger checks were blocked or unreachable, so those sellers stay
+    unverified and are not counted). One verified candidate: buy.
+    """
+    return run_cof1()
+
+
 DECISION_BADGE = {
     "buy": ("badge-success", "Good to buy"),
     "wait": ("badge-info", "Worth a wait"),
@@ -210,72 +300,133 @@ def product_card(name, detail, price, was_price, decision, coupon_html,
     return "\n".join(parts)
 
 
-def build():
-    c1, cost1, d1 = run_lv001()
-    c5, cost5, d5 = run_lv005()
-    c6, cost6, d6 = run_lv006()
-    c7, cost7, d7 = run_lv007()
+def item_dict(key, name, detail, seller, price_cents, price_label,
+              was_label, decision, coupon, page_url, page_host, region,
+              observed_at, fine_print, keywords):
+    return {
+        "key": key, "name": name, "detail": detail, "seller": seller,
+        "price_cents": price_cents, "price_label": price_label,
+        "was_label": was_label, "decision": decision, "coupon": coupon,
+        "page_url": page_url, "page_host": page_host, "region": region,
+        "observed_at": observed_at, "fine_print": fine_print,
+        "keywords": keywords,
+    }
 
-    body = []
-    body.append(product_card(
-        "AirPods Pro 3", "White \u00b7 new \u00b7 1 pair \u00b7 sold by Apple",
-        "$249", None, d1,
-        coupon_none_block("apple.com", "US", TS_APPLE2),
-        APPLE_URL, "apple.com", "US", TS_APPLE2,
-        fine_print=[
-            "Tax and shipping weren't shown for this item \u2014 check the "
-            "total at checkout.",
-            "Recheck the price before paying; store pages change.",
-        ]))
-    body.append(product_card(
-        "High-Waisted SoComfy Wide-Leg Sweatpants",
-        "Old Navy \u00b7 new \u00b7 Product #777363",
-        "$25.00", "$36.99", d5,
-        coupon_seen_block(
-            "EXTRA", "Extra 30% off (exclusions apply).",
-            "oldnavy.gap.com", "US", TS_ON,
-            "The code was seen but never tested, so the $25.00 price "
-            "above does not include it."),
-        ON_URL, "oldnavy.gap.com", "US", TS_ON,
-        fine_print=[
-            "Tax and shipping weren't shown for this item \u2014 check the "
-            "total at checkout.",
-            "Free shipping over $50 needs a Rewards membership, which was "
-            "not signed into during this check.",
-        ]))
-    body.append(product_card(
-        "CashSoft Crop Cardigan",
-        "Gap \u00b7 Brown and navy blue argyle \u00b7 new \u00b7 Product #800546",
-        "$79.95", None, d6,
-        coupon_none_block("gap.com", "US", TS_GAP),
-        GAP_URL, "gap.com", "US", TS_GAP,
-        fine_print=[
-            "Store signs advertised select-style offers, but none named a "
-            "code for this item \u2014 the $79.95 price stands on its own.",
-            "Tax and shipping weren't shown for this item \u2014 check the "
-            "total at checkout.",
-        ]))
-    body.append(product_card(
-        "Air Jordan OG Women's Shoes",
-        "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
-        "$87.97", "$155", d7,
-        coupon_none_block("nike.com", "US", TS_NIKE),
-        NIKE_URL, "nike.com", "US", TS_NIKE,
-        fine_print=[
-            "The marked-down price is the price checked; no extra savings "
-            "math was added.",
-            "Members get free shipping over $50, but no membership was "
-            "signed into during this check \u2014 shipping wasn't shown.",
-            "Tax wasn't shown for this item \u2014 check the total at "
-            "checkout.",
-        ]))
+
+def card_for(item):
+    if item["coupon"] is None:
+        coupon_html = coupon_none_block(item["page_host"], item["region"],
+                                        item["observed_at"])
+    else:
+        coupon_html = coupon_seen_block(
+            item["coupon"]["code"], item["coupon"]["offer"],
+            item["page_host"], item["region"], item["observed_at"],
+            item["coupon"]["caveat"])
+    html_card = product_card(
+        item["name"], item["detail"], item["price_label"],
+        item["was_label"], item["decision"], coupon_html,
+        item["page_url"], item["page_host"], item["region"],
+        item["observed_at"], item["fine_print"])
+    return html_card.replace(
+        '<section class="card',
+        '<section data-keywords="' + esc(" ".join(item["keywords"]))
+        + '" class="card', 1)
+
+
+def build():
+    _c1, _cost1, d1 = run_lv001()
+    _c5, _cost5, d5 = run_lv005()
+    _c6, _cost6, d6 = run_lv006()
+    _c7, _cost7, d7 = run_lv007()
+    _cc1, _ccost1, dc1 = run_cof1()
+    _cc2, _ccost2, dc2 = run_cof2()
+    _cc3, _ccost3, dc3 = run_cof3()
+    _sp, _spcost, dsp = run_specific_super_crema()
+
+    tax_ship = ("Tax and shipping weren't shown for this item \u2014 check "
+                "the total at checkout.")
+    lavazza_coupon = {
+        "code": CAFE20[0], "offer": CAFE20[1], "caveat": CAFE20_CAVEAT,
+    }
+    items = {
+        "apple": item_dict(
+            "apple", "AirPods Pro 3",
+            "White \u00b7 new \u00b7 1 pair \u00b7 sold by Apple", "Apple",
+            24900, "$249", None, d1, None,
+            APPLE_URL, "apple.com", "US", TS_APPLE2,
+            [tax_ship,
+             "Recheck the price before paying; store pages change."],
+            ["airpods", "apple", "earbuds", "headphones"]),
+        "oldnavy": item_dict(
+            "oldnavy", "High-Waisted SoComfy Wide-Leg Sweatpants",
+            "Old Navy \u00b7 new \u00b7 Product #777363", "Old Navy",
+            2500, "$25.00", "$36.99", d5,
+            {"code": "EXTRA", "offer": "Extra 30% off (exclusions apply).",
+             "caveat": "The code was seen but never tested, so the $25.00 "
+                       "price above does not include it."},
+            ON_URL, "oldnavy.gap.com", "US", TS_ON,
+            [tax_ship,
+             "Free shipping over $50 needs a Rewards membership, which was "
+             "not signed into during this check."],
+            ["sweatpants", "old", "navy", "pants", "fleece"]),
+        "gap": item_dict(
+            "gap", "CashSoft Crop Cardigan",
+            "Gap \u00b7 Brown and navy blue argyle \u00b7 new", "Gap",
+            7995, "$79.95", None, d6, None,
+            GAP_URL, "gap.com", "US", TS_GAP,
+            ["Store signs advertised select-style offers, but none named a "
+             "code for this item \u2014 the $79.95 price stands on its own.",
+             tax_ship],
+            ["cardigan", "gap", "sweater"]),
+        "nike": item_dict(
+            "nike", "Air Jordan OG Women's Shoes",
+            "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
+            "Nike", 8797, "$87.97", "$155", d7, None,
+            NIKE_URL, "nike.com", "US", TS_NIKE,
+            ["The marked-down price is the price checked; no extra savings "
+             "math was added.",
+             "Members get free shipping over $50, but no membership was "
+             "signed into during this check \u2014 shipping wasn't shown.",
+             "Tax wasn't shown for this item \u2014 check the total at "
+             "checkout."],
+            ["nike", "jordan", "shoes", "sneakers"]),
+        "cof1": item_dict(
+            "cof1", "Super Crema Whole Bean, 2.2 lb bag",
+            "Lavazza \u00b7 medium roast \u00b7 honey, nutty", "Lavazza",
+            2699, "$26.99", None, dc1, lavazza_coupon,
+            COF1_URL, "lavazzausa.com", "US", TS_COF1,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "super", "crema", "espresso",
+             "whole", "bean"]),
+        "cof2": item_dict(
+            "cof2", "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag",
+            "Lavazza \u00b7 medium roast \u00b7 chocolate", "Lavazza",
+            2499, "$24.99", None, dc2, lavazza_coupon,
+            COF2_URL, "lavazzausa.com", "US", TS_COF2,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "rossa", "qualita", "espresso",
+             "whole", "bean"]),
+        "cof3": item_dict(
+            "cof3", "Dolcevita Classico Whole Bean, 12 oz bag",
+            "Lavazza \u00b7 filter roast \u00b7 roasted nuts", "Lavazza",
+            1399, "$13.99", None, dc3, lavazza_coupon,
+            COF3_URL, "lavazzausa.com", "US", TS_COF3,
+            [tax_ship],
+            ["coffee", "beans", "lavazza", "classico", "dolcevita", "filter",
+             "whole", "bean"]),
+    }
+
+    open_cards = "\n".join(card_for(items[k])
+                            for k in ("cof3", "cof2", "cof1"))
+    best_place = card_for(items["cof1"])
+    all_cards = "\n".join(card_for(items[k]) for k in items)
 
     page = """<!DOCTYPE html>
 <html lang="en" data-theme="luxury">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deal check \u2014 what the store page actually shows</title>
+<title>Find a deal \u2014 what the store page actually shows</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
@@ -284,38 +435,109 @@ def build():
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
+  .mode-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<h1 class="text-3xl font-bold mb-2">Deal check</h1>
-<p class="mb-2">Four products, checked read-only on the store page: the product, the price,
-the decision, and any coupon actually printed on the page. No login, no checkout, no cart test.</p>
-<p class="text-sm opacity-80">Prices change \u2014 recheck at checkout. A coupon appears here only
-when its text was really seen, with the page and time it was seen.</p>
+<h1 class="text-3xl font-bold mb-2">Find a deal</h1>
+<p class="mb-4">Type what you want. Every result below was read straight off the store page \u2014
+the item, the price, where to buy, the decision, and a coupon only when its text was really seen.
+No login, no checkout, no cart test.</p>
+<div class="flex flex-wrap gap-2 mb-3" role="group" aria-label="Search mode">
+<button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
+<button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
+</div>
+<label class="input input-bordered flex items-center gap-2 w-full mb-2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans">
+</label>
+<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
+<p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
 </header>
+<section id="open-example" class="mb-8">
+<h2 class="text-2xl font-bold mb-1">Kind of thing \u2014 \u201ccoffee beans\u201d</h2>
+<p class="text-sm opacity-80 mb-4">Different blends, not interchangeable: each was checked on its own page with its own decision. Ordered by shelf price.</p>
 """
-    page += "\n".join(body)
-    page += """<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
+    page += open_cards
+    page += """</section>
+<section id="exact-example" class="mb-8">
+<h2 class="text-2xl font-bold mb-1">Exact product \u2014 \u201cLavazza Super Crema Whole Bean, 2.2 lb\u201d</h2>
+<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. The same bag at three other stores
+wouldn't load when checked, so those stores aren't counted \u2014 only the page that loaded decides.</p>
+"""
+    page += best_place
+    page += """<div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
+Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
+</section>
+<section id="all-checked" class="mb-8">
+<h2 class="text-2xl font-bold mb-4">Everything checked</h2>
+<div id="results">
+"""
+    page += all_cards
+    page += """</div>
+</section>
+<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
 <li>Each page was opened anonymously and read \u2014 nothing was added to a bag and no code was tried out.</li>
 <li>Tax and shipping are left out whenever the page doesn't show them for the exact item.</li>
-<li>Apple shows no public coupon: that is the correct result, not a missing one.</li>
+<li>A coupon appears only when its text was really seen, with the page and time.</li>
 </ul>
 </div></section>
 </div>
+<script>
+const q = document.getElementById("q");
+const hint = document.getElementById("mode-hint");
+const noMatch = document.getElementById("no-match");
+const openBtn = document.getElementById("mode-open");
+const exactBtn = document.getElementById("mode-exact");
+const cards = Array.from(document.querySelectorAll("#results [data-keywords]"));
+function setMode(open) {
+  openBtn.setAttribute("aria-pressed", open ? "true" : "false");
+  exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
+  hint.textContent = open
+    ? "Kind of thing: similar items that were actually seen, cheapest shelf price first."
+    : "Exact product: one named item, best place to buy with coupons seen on the page.";
+  q.value = open ? "coffee beans" : "super crema";
+  filter();
+  document.getElementById(open ? "open-example" : "exact-example").scrollIntoView();
+}
+function filter() {
+  const terms = q.value.toLowerCase().split(/\\s+/).filter(Boolean);
+  let shown = 0;
+  for (const c of cards) {
+    const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
+    const hit = terms.every(t => hay.includes(t));
+    c.style.display = hit ? "" : "none";
+    if (hit) shown++;
+  }
+  noMatch.style.display = shown ? "none" : "";
+}
+openBtn.addEventListener("click", () => setMode(true));
+exactBtn.addEventListener("click", () => setMode(false));
+q.addEventListener("input", filter);
+filter();
+</script>
 </body>
 </html>
 """
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)
+    docs = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "docs", "index.html")
+    os.makedirs(os.path.dirname(docs), exist_ok=True)
+    with open(docs, "w", encoding="utf-8") as f:
+        f.write(page)
     print("wrote " + out)
+    print("wrote " + docs)
     print("apple:", d1.verdict.value,
           "| oldnavy:", d5.verdict.value, "| gap:", d6.verdict.value,
-          "| nike:", d7.verdict.value)
+          "| nike:", d7.verdict.value,
+          "| cof1:", dc1.verdict.value, "| cof2:", dc2.verdict.value,
+          "| cof3:", dc3.verdict.value, "| specific:", dsp.verdict.value)
 
 
 if __name__ == "__main__":

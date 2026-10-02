@@ -538,5 +538,52 @@ class CouponSliceTest(unittest.TestCase):
         self.assertNotIn("67", c.range_label().replace("87.97", ""))
 
 
+class SearchSliceTest(unittest.TestCase):
+    """Search-screen slice (2026-10-01 coffee observations).
+
+    Open-search items are judged on their own evidence only — no
+    cross-item equivalence claim — and blocked rival sellers are not
+    counted in a named-product search.
+    """
+
+    def test_blocked_rivals_do_not_flip_verified_winner(self):
+        winner = full_candidate(
+            cid="lavazza-super-crema",
+            variant="Super Crema Whole Bean, 2.2 lb",
+            quantity_terms="1x 2.2 lb bag",
+            seller="Lavazza", fulfilled_by="Lavazza",
+            source="lavazzausa.com/en/whole-bean-coffee/super-crema.4202",
+            observed_at="2026-10-01T23:52:52Z",
+        )
+        rivals = [
+            full_candidate(cid="target-listing", primary_page_blocked=True),
+            full_candidate(cid="walmart-listing", primary_page_blocked=True),
+        ]
+        d = decide(DecisionInput(
+            candidates=[winner] + rivals,
+            ranked=[RankedCandidate("lavazza-super-crema", cost(26.99))],
+            coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                            status="retailer-stated")]))
+        self.assertEqual(d.verdict, Verdict.BUY)
+        self.assertEqual(d.winner_id, "lavazza-super-crema")
+
+    def test_open_search_items_judged_on_own_evidence(self):
+        items = [
+            ("lavazza-classico", 13.99),
+            ("lavazza-rossa", 24.99),
+            ("lavazza-super-crema", 26.99),
+        ]
+        for cid, price in items:
+            c = full_candidate(cid=cid, seller="Lavazza",
+                               fulfilled_by="Lavazza")
+            d = decide(DecisionInput(
+                candidates=[c],
+                ranked=[RankedCandidate(cid, cost(price))],
+                coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+                                status="retailer-stated")]))
+            self.assertEqual(d.verdict, Verdict.BUY, cid)
+            self.assertEqual(d.winner_id, cid, cid)
+
+
 if __name__ == "__main__":
     unittest.main()
