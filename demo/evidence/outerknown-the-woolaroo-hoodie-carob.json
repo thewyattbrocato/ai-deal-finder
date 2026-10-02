@@ -1,0 +1,440 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob",
+ "http_status": 200,
+ "id": "outerknown-the-woolaroo-hoodie-carob",
+ "image_file": "outerknown-the-woolaroo-hoodie-carob.jpg",
+ "image_sha256": "5f4e53e86c0e5d53cc3601ce3f0c32cf5d59cb91272b4726a6f93fa0e3e8c10f",
+ "image_source": "http://www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?v=1788302235&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Outerknown"
+   },
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335053",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / XS",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916806328"
+     },
+     "size": "XS",
+     "sku": "3520002-CAO-XX-XS"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335060",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / S",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916839096"
+     },
+     "size": "S",
+     "sku": "3520002-CAO-XX-S"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335077",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / M",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916871864"
+     },
+     "size": "M",
+     "sku": "3520002-CAO-XX-M"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335084",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / L",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916904632"
+     },
+     "size": "L",
+     "sku": "3520002-CAO-XX-L"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335091",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / XL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916937400"
+     },
+     "size": "XL",
+     "sku": "3520002-CAO-XX-XL"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335107",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / XXL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916970168"
+     },
+     "size": "XXL",
+     "sku": "3520002-CAO-XX-XXL"
+    },
+    {
+     "@type": "Product",
+     "color": "Carob",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+     "gtin": "196333335114",
+     "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+     },
+     "name": "The Woolaroo Hoodie:Carob / XXXL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 298.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 298.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527917002936"
+     },
+     "size": "XXXL",
+     "sku": "3520002-CAO-XX-XXXL"
+    }
+   ],
+   "image": [
+    "https://www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/WoolarooHoodieBrownDG.png?crop=center&height=1080&v=1790809054&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_2.jpg?crop=center&height=1080&v=1790800284&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/3520002_The-Woolaroo-Hoodie_Carob_CAO_8809.jpg?crop=center&height=1080&v=1788302229&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/3520002_The-Woolaroo-Hoodie_Carob_CAO_8795.jpg?crop=center&height=1080&v=1788302229&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/3520002_TheWoolarooHoodie_Carob_CAO_1630044_The_Traveler_Straight_Jean_Worn_Indigo_WNK_PDP_1643.jpg?crop=center&height=1080&v=1790798977&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/3520002_TheWoolarooHoodie_Carob_CAO_1630044_The_Traveler_Straight_Jean_Worn_Indigo_WNK_PDP_1639.jpg?crop=center&height=1080&v=1790798979&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0228.jpg?crop=center&height=1080&v=1788302236&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/CAO_SWT.png?crop=center&height=1080&v=1790720788&width=1920"
+   ],
+   "name": "The Woolaroo Hoodie",
+   "productGroupID": "10424766136504",
+   "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob",
+   "variesBy": [
+    "color",
+    "size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335053",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / XS",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916806328"
+   },
+   "size": "XS",
+   "sku": "3520002-CAO-XX-XS"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335060",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / S",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916839096"
+   },
+   "size": "S",
+   "sku": "3520002-CAO-XX-S"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335077",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / M",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916871864"
+   },
+   "size": "M",
+   "sku": "3520002-CAO-XX-M"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335084",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / L",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916904632"
+   },
+   "size": "L",
+   "sku": "3520002-CAO-XX-L"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335091",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / XL",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916937400"
+   },
+   "size": "XL",
+   "sku": "3520002-CAO-XX-XL"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335107",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / XXL",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527916970168"
+   },
+   "size": "XXL",
+   "sku": "3520002-CAO-XX-XXL"
+  },
+  {
+   "@type": "Product",
+   "color": "Carob",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The Woolaroo Hoodie is a unisex garment.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">This hoodie is designed to wrap you in endless comfort and effortless style from the moment you throw it on.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Cozy lined hood in organic cotton and a roomy kangaroo pocket with our signature OK logo.</div>\n<div class=\"ewa-rteLine\"></div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Clean finished internal seams with organic cotton binding.</div>\n</li>\n</ul>",
+   "gtin": "196333335114",
+   "image": "//www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?crop=center&height=1080&v=1788302235&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob#product-group"
+   },
+   "name": "The Woolaroo Hoodie:Carob / XXXL",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 298.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 298.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob?variant=53527917002936"
+   },
+   "size": "XXXL",
+   "sku": "3520002-CAO-XX-XXXL"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:05:11Z",
+ "og_image": "http://www.outerknown.com/cdn/shop/files/1510133_The3520002_The_Woolaro_Hoodie_CAO_0706.jpg?v=1788302235",
+ "page_sha256": "5179d9da3ccfe350ad8f85f0d36858971214aa5a093efb69b600bc9fba287327",
+ "rendered_checked": true,
+ "title": "The Woolaroo Hoodie - Carob | Mens & Women's Wool Jacket | Outerknown",
+ "url": "https://outerknown.com/products/the-woolaroo-hoodie-carob"
+}

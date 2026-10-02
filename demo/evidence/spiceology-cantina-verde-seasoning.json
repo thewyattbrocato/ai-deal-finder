@@ -1,0 +1,51 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://spiceology.com/products/cantina-verde-seasoning",
+ "http_status": 200,
+ "id": "spiceology-cantina-verde-seasoning",
+ "image_file": "spiceology-cantina-verde-seasoning.jpg",
+ "image_sha256": "9ebafc61aeb08e3ccfdd033859c0ef8d0392daffa1687bda05c2566b373ec426",
+ "image_source": "http://spiceology.com/cdn/shop/files/cantina-verde-front.jpg?v=1784069004&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Spiceology"
+   },
+   "description": "Everyone's favorite salsa verde, now in a dry blend that goes on basically anything. With cilantro, lime, green bell pepper, roasted green chile, and garlic and onion, shake this blend over tacos and eggs, whisk it into a marinade, or dust it on popcorn for a late-night cantina kick. Bright, zesty, and slightly spicy, you know (and love) this flavor.",
+   "image": "https://spiceology.com/cdn/shop/files/cantina-verde-front.jpg?v=1784069004&width=3000",
+   "name": "Cantina Verde Seasoning",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "description": "Everyone's favorite salsa verde, now in a dry blend that goes on basically anything. With cilantro, lime, green bell pepper, roasted green chile, and garlic and onion, shake this blend over tacos and eggs, whisk it into a marinade, or dust it on popcorn for a late-night cantina kick. Bright, zesty, and slightly spicy, you know (and love) this flavor.",
+     "image": "https://spiceology.com/cdn/shop/files/cantina-verde-front.jpg?v=1784069004&width=3000",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Cantina Verde Seasoning",
+     "price": "19.99",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Spiceology"
+     },
+     "sku": "11986",
+     "url": "https://spiceology.com/products/cantina-verde-seasoning?variant=46397306667204"
+    }
+   ],
+   "productID": "8651062673604",
+   "sku": "11986",
+   "url": "https://spiceology.com/products/cantina-verde-seasoning"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:02:16Z",
+ "og_image": "http://spiceology.com/cdn/shop/files/cantina-verde-front.jpg?v=1784069004",
+ "page_sha256": "af51142cd35eb110b1f82aa3d2f4ed40bc9c3c1a0477961df1493370f5a41429",
+ "rendered_checked": true,
+ "title": "Cantina Verde Seasoning \u2013 Spiceology",
+ "url": "https://spiceology.com/products/cantina-verde-seasoning"
+}

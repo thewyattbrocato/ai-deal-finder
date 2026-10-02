@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nisolo.com/products/nisolo-gift-card-100",
+ "http_status": 200,
+ "id": "nisolo-nisolo-gift-card-100",
+ "image_file": "nisolo-nisolo-gift-card-100.jpg",
+ "image_sha256": "967061149c067ca0bc8a0c7eaff74d4a420f8724e77763eaadd3538a948e764e",
+ "image_source": "http://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Rise.ai"
+   },
+   "description": "Shopping for someone else but not sure what to give them? Give the gift of choice with a gift card. Gift cards are delivered by email and contain checkout redemption instructions.\u00a0",
+   "image": [
+    "https://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264&width=1920"
+   ],
+   "name": "Nisolo Gift Card - $100",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 100.0,
+     "priceCurrency": "USD",
+     "url": "https://nisolo.com/products/nisolo-gift-card-100?variant=53408702791861"
+    }
+   ],
+   "url": "https://nisolo.com/products/nisolo-gift-card-100"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "1"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rise.ai"
+   },
+   "description": "Shopping for someone else but not sure what to give them? Give the gift of choice with a gift card. Gift cards are delivered by email and contain checkout redemption instructions.\u00a0",
+   "image": [
+    "https://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264&width=480"
+   ],
+   "name": "Nisolo Gift Card - $100",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "100.0",
+    "priceCurrency": "USD",
+    "url": "https://nisolo.com/products/nisolo-gift-card-100?variant=53408702791861"
+   }
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T20:05:32Z",
+ "og_image": "http://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264",
+ "page_sha256": "e7adc318dd81b83e430334a0deb7ba064c0d93bbb21a7a5c1b4eb5261fdd204b",
+ "rendered_checked": true,
+ "title": "Nisolo Gift Card - $100",
+ "url": "https://nisolo.com/products/nisolo-gift-card-100"
+}

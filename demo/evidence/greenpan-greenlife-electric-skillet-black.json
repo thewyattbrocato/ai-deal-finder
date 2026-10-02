@@ -1,0 +1,278 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
+ "http_status": 200,
+ "id": "greenpan-greenlife-electric-skillet-black",
+ "image_file": "greenpan-greenlife-electric-skillet-black.jpg",
+ "image_sha256": "aa88b20dbb574bf2fb1ecb5c2f4a35ef3a69054a1a6631fd3d076e8a8f23f034",
+ "image_source": "http://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_medium.jpg?v=1700266767&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Electrics"
+   },
+   "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "merchantReturnDays": 60,
+    "returnFees": "https://schema.org/FreeReturn",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "url": "https://www.greenpan.us/pages/returns"
+   },
+   "hasVariant": [
+    {
+     "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-blue",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Electrics"
+     },
+     "color": "Blue",
+     "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+     "gtin12": "885837039955",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/NC-CC007884-003-1-1200x1200-bd93c0f_1200x.jpg?v=1710864342"
+     ],
+     "name": "GreenLife Electric Skillet | Blue",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837039955",
+       "image": "https://www.greenpan.us/cdn/shop/files/NC-CC007884-003-1-1200x1200-bd93c0f_1200x.jpg?v=1710864342",
+       "price": 49.99,
+       "priceCurrency": "USD",
+       "sku": "CC007884-003",
+       "url": "https://www.greenpan.us/products/greenlife-electric-skillet-blue?variant=47225795182760"
+      }
+     ],
+     "sku": "CC007884-003",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-blue"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Electrics"
+     },
+     "color": "Turquoise",
+     "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+     "gtin12": "885837023169",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC003725-002_01_71f7b4c6-247a-41ea-9ca2-5312d0f9a393_1200x.jpg?v=1715721491"
+     ],
+     "name": "GreenLife Electric Skillet | Turquoise",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837023169",
+       "image": "https://www.greenpan.us/cdn/shop/files/CC003725-002_01_71f7b4c6-247a-41ea-9ca2-5312d0f9a393_1200x.jpg?v=1715721491",
+       "price": 34.99,
+       "priceCurrency": "USD",
+       "sku": "CC003725-001",
+       "url": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1?variant=48152763793576"
+      }
+     ],
+     "sku": "CC003725-001",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Electrics"
+     },
+     "color": "Pink",
+     "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+     "gtin12": "885837037388",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/NC_CC007283-001-1-1200x1200-bd93c0f_3829cdae-2c37-4b83-81a8-823975924a0e_1200x.jpg?v=1700268588"
+     ],
+     "name": "GreenLife Electric Skillet | Pink",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837037388",
+       "image": "https://www.greenpan.us/cdn/shop/files/NC_CC007283-001-1-1200x1200-bd93c0f_3829cdae-2c37-4b83-81a8-823975924a0e_1200x.jpg?v=1700268588",
+       "price": 34.99,
+       "priceCurrency": "USD",
+       "sku": "CC007283-003",
+       "url": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1?variant=50679241343144"
+      }
+     ],
+     "sku": "CC007283-003",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Electrics"
+     },
+     "color": "Black",
+     "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+     "gtin12": "885837025989",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_2400x.jpg?v=1700266767"
+     ],
+     "name": "GreenLife Electric Skillet | Black",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837025989",
+       "image": "https://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_2400x.jpg?v=1700266767",
+       "price": 34.99,
+       "priceCurrency": "USD",
+       "sku": "CC004777-001",
+       "url": "https://www.greenpan.us/products/greenlife-electric-skillet-black?variant=45734567805096"
+      }
+     ],
+     "sku": "CC004777-001",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-black"
+    }
+   ],
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_2400x.jpg?v=1700266767"
+   ],
+   "name": "GL Electric Skillet",
+   "productGroupID": "gl-electric-skillet",
+   "url": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
+   "variesBy": [
+    "https://schema.org/color"
+   ]
+  },
+  {
+   "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-blue",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Electrics"
+   },
+   "color": "Blue",
+   "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+   "gtin12": "885837039955",
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/NC-CC007884-003-1-1200x1200-bd93c0f_1200x.jpg?v=1710864342"
+   ],
+   "name": "GreenLife Electric Skillet | Blue",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "885837039955",
+     "image": "https://www.greenpan.us/cdn/shop/files/NC-CC007884-003-1-1200x1200-bd93c0f_1200x.jpg?v=1710864342",
+     "price": 49.99,
+     "priceCurrency": "USD",
+     "sku": "CC007884-003",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-blue?variant=47225795182760"
+    }
+   ],
+   "sku": "CC007884-003",
+   "url": "https://www.greenpan.us/products/greenlife-electric-skillet-blue"
+  },
+  {
+   "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Electrics"
+   },
+   "color": "Turquoise",
+   "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+   "gtin12": "885837023169",
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/CC003725-002_01_71f7b4c6-247a-41ea-9ca2-5312d0f9a393_1200x.jpg?v=1715721491"
+   ],
+   "name": "GreenLife Electric Skillet | Turquoise",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "885837023169",
+     "image": "https://www.greenpan.us/cdn/shop/files/CC003725-002_01_71f7b4c6-247a-41ea-9ca2-5312d0f9a393_1200x.jpg?v=1715721491",
+     "price": 34.99,
+     "priceCurrency": "USD",
+     "sku": "CC003725-001",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1?variant=48152763793576"
+    }
+   ],
+   "sku": "CC003725-001",
+   "url": "https://www.greenpan.us/products/greenlife-electric-skillet-turquoise-1"
+  },
+  {
+   "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Electrics"
+   },
+   "color": "Pink",
+   "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+   "gtin12": "885837037388",
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/NC_CC007283-001-1-1200x1200-bd93c0f_3829cdae-2c37-4b83-81a8-823975924a0e_1200x.jpg?v=1700268588"
+   ],
+   "name": "GreenLife Electric Skillet | Pink",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "885837037388",
+     "image": "https://www.greenpan.us/cdn/shop/files/NC_CC007283-001-1-1200x1200-bd93c0f_3829cdae-2c37-4b83-81a8-823975924a0e_1200x.jpg?v=1700268588",
+     "price": 34.99,
+     "priceCurrency": "USD",
+     "sku": "CC007283-003",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1?variant=50679241343144"
+    }
+   ],
+   "sku": "CC007283-003",
+   "url": "https://www.greenpan.us/products/greenlife-electric-skillet-pink-1"
+  },
+  {
+   "@id": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Electrics"
+   },
+   "color": "Black",
+   "description": "Our Healthy Power Skillet brings pan power anywhere with an outlet. Whether you\u2019re in a dorm, the oven makes the kitchen too hot, or you just need an extra burner, this skillet is your do-it-all solution. ",
+   "gtin12": "885837025989",
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_2400x.jpg?v=1700266767"
+   ],
+   "name": "GreenLife Electric Skillet | Black",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "885837025989",
+     "image": "https://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_2400x.jpg?v=1700266767",
+     "price": 34.99,
+     "priceCurrency": "USD",
+     "sku": "CC004777-001",
+     "url": "https://www.greenpan.us/products/greenlife-electric-skillet-black?variant=45734567805096"
+    }
+   ],
+   "sku": "CC004777-001",
+   "url": "https://www.greenpan.us/products/greenlife-electric-skillet-black"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:04:32Z",
+ "og_image": "http://www.greenpan.us/cdn/shop/files/CC004777-001-1_bb9479a2-ddeb-4490-ba35-27fae8a26640_medium.jpg?v=1700266767",
+ "page_sha256": "7a7e6e3ba65c655b52b5df0587c4e4502083d5aeff54010d6ecbe9c745d0ea02",
+ "title": "GreenLife Electric Skillet | Black | GreenPan US",
+ "url": "https://greenpan.us/products/greenlife-electric-skillet-black"
+}

@@ -1,0 +1,80 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cuyana.com/products/deco-mini-hoop-earrings",
+ "http_status": 200,
+ "id": "cuyana-deco-mini-hoop-earrings",
+ "image_file": "cuyana-deco-mini-hoop-earrings.jpg",
+ "image_sha256": "0325eebaf3af571034290e71b2b707da4e46cecc442cc57e7a9ac11d6572dfd6",
+ "image_source": "http://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoMiniHoopEarrings_Gold_6733_01.jpg?v=1789508386&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Care Instructions",
+     "value": "Dimensions H 15 mm x W 4 mm Weight: 4 g per earring Care Keep your jewelry pieces away from water, perfume, make up and other beauty products to prevent premature tarnishing Store your jewelry pieces in their original pouch to prevent exposure to humidity"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "12 Month Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Design",
+     "value": "Striking & Unique: The Deco Mini Earrings bring vintage charm and modern appeal to your jewelry collection. Dress them up or wear it with your daily uniform."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Quality",
+     "value": "Handcrafted in New York City: Handmade by skilled artisans in New York City from 14k gold-plated recycled brass."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Sustainability",
+     "value": "Responsible Production: We use recycled brass to lessen the environmental impact of mining virgin metals, while our NYC-based production helps to reduce our carbon footprint from shipping."
+    }
+   ],
+   "brand": {
+    "name": "Cuyana"
+   },
+   "category": "Jewelry",
+   "description": "These Deco Mini Hoop Earrings bring the bold geometric forms of Art Deco into a modern heirloom.",
+   "gtin12": "840475912893",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoMiniHoopEarrings_Gold_6733_01_1024x.jpg?v=1789508386",
+    "name": "Pair of square-shaped earrings with cutout design.",
+    "url": "https://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoMiniHoopEarrings_Gold_6733_01_1024x.jpg?v=1789508386",
+    "width": "1024"
+   },
+   "material": "14K Gold Plated Brass",
+   "name": "Deco Mini Hoop Earrings",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "name": "Gold / One Size",
+     "price": 178.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-12",
+     "sku": "10063719-710-000",
+     "url": "/products/deco-mini-hoop-earrings?variant=53896277655918"
+    }
+   ],
+   "productId": "840475912893",
+   "sku": "10063719-710-000",
+   "url": "/products/deco-mini-hoop-earrings"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:05:28Z",
+ "og_image": "http://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoMiniHoopEarrings_Gold_6733_01.jpg?v=1789508386",
+ "page_sha256": "20a50d8110937fc32bc7d578efd4e9bfac706d5d9385735d950d1b9b0dfbc3da",
+ "rendered_checked": true,
+ "title": "Deco Mini Hoop Earrings \u2013 Cuyana",
+ "url": "https://cuyana.com/products/deco-mini-hoop-earrings"
+}

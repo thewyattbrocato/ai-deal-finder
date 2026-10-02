@@ -1,0 +1,82 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.beardbrand.com/products/norse-winter-aluminum-free-deodorant",
+ "http_status": 200,
+ "id": "beardbrand-norse-winter-aluminum-free-deodorant",
+ "image_file": "beardbrand-norse-winter-aluminum-free-deodorant.jpg",
+ "image_sha256": "3e00b703d644b7c66304d784aa96042ba8ba20f5dfc984ea44dd4665b8951bdd",
+ "image_source": "https://www.beardbrand.com/cdn/shop/files/UDNW_1200x630.jpg?v=1777311325&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0,
+    "reviewCount": 234
+   },
+   "brand": {
+    "name": "Beardbrand"
+   },
+   "category": "Deodorant",
+   "description": "Norse Winter Utility Deodorant smells\u00a0like December in Scandinavia \u2014 ancient evergreen forests and sacred resins burning in snow-covered wooden halls. Formulated with a funk-blocking powerhouse trio of zinc, mandelic acid, and cleavers extract, Beardbrand Utility Deodorant keeps you smelling fresh all day without skin irritation or stained shirts. You\u2019re just a few sprays away from natural, aluminum-free odor protection. SIZE: 4 fl oz. (1.5x bigger than average natural deodorants).\n\n\n  \n    \n      \n    \n  \n\n  \n    Ingredients can settle. Shake well before using.\n  \n",
+   "gtin12": "850045850562",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://www.beardbrand.com/cdn/shop/files/UDNW_1024x.jpg?v=1777311325",
+    "name": "A bottle of Norse Winter Utility Deodorant with a spray dispenser against a grey background.",
+    "url": "https://www.beardbrand.com/cdn/shop/files/UDNW_1024x.jpg?v=1777311325",
+    "width": "1024"
+   },
+   "name": "Norse Winter Utility Deodorant",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "eligibleRegion": {
+      "@type": "Country",
+      "name": "US"
+     },
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "merchantReturnLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees",
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail"
+     },
+     "name": "Norse Winter",
+     "price": 27.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-12",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "doesNotShip": [
+       {
+        "@type": "Country",
+        "name": "Non-US"
+       }
+      ],
+      "freeShippingThreshold": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "100.00"
+      },
+      "shippingSettingsLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees"
+     },
+     "sku": "3366671",
+     "url": "https://www.beardbrand.com/products/norse-winter-aluminum-free-deodorant?variant=61672222359922"
+    }
+   ],
+   "productId": "850045850562",
+   "sku": "3366671",
+   "url": "https://www.beardbrand.com/products/norse-winter-aluminum-free-deodorant"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-02T20:04:40Z",
+ "og_image": "https://www.beardbrand.com/cdn/shop/files/UDNW_1200x630.jpg?v=1777311325",
+ "page_sha256": "772649ff7e1aee81b71719b3a05ae6a957edf6bd5f375a59a69251aaba4187ec",
+ "rendered_checked": true,
+ "title": "Norse Winter Deodorant | Men's Aluminum-Free Spray Deodorant \u2013 Beardbrand",
+ "url": "https://beardbrand.com/products/norse-winter-aluminum-free-deodorant"
+}

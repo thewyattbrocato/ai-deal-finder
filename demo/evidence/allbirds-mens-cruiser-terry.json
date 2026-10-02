@@ -1,0 +1,753 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.allbirds.com/products/mens-cruiser-terry",
+ "http_status": 200,
+ "id": "allbirds-mens-cruiser-terry",
+ "image_file": "allbirds-mens-cruiser-terry.png",
+ "image_sha256": "ef16a361e5864984b773b069c598fc5af82d8c3d09764694d0438d4fbc438ca0",
+ "image_source": "http://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "#mens-cruiser-terry",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Allbirds"
+   },
+   "description": " ",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=14"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=8"
+     },
+     "size": "8",
+     "sku": "A12374M080"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=8.5"
+     },
+     "size": "8.5",
+     "sku": "A12374M085"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=9"
+     },
+     "size": "9",
+     "sku": "A12374M090"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=9.5"
+     },
+     "size": "9.5",
+     "sku": "A12374M095"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=10"
+     },
+     "size": "10",
+     "sku": "A12374M100"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=10.5"
+     },
+     "size": "10.5",
+     "sku": "A12374M105"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=11"
+     },
+     "size": "11",
+     "sku": "A12374M110"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=11.5"
+     },
+     "size": "11.5",
+     "sku": "A12374M115"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=12"
+     },
+     "size": "12",
+     "sku": "A12374M120"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=12.5"
+     },
+     "size": "12.5",
+     "sku": "A12374M125"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=13"
+     },
+     "size": "13",
+     "sku": "A12374M130"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 13.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=13.5"
+     },
+     "size": "13.5",
+     "sku": "A12374M135"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-terry"
+     },
+     "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 115,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=14"
+     },
+     "size": "14",
+     "sku": "A12374M140"
+    }
+   ],
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "name": "Men's Cruiser Terry",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry"
+   },
+   "productGroupID": "MENS_CRUISER_TERRY",
+   "sku": "MENS_CRUISER_TERRY",
+   "variesBy": [
+    "https://schema.org/size",
+    "https://schema.org/color"
+   ]
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=8"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=8.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=9"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=9.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=10"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=10.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=11"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=11.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=12"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=12.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=13"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=13.5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/mens-cruiser-terry-ochre?size=14"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=8"
+   },
+   "size": "8",
+   "sku": "A12374M080"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=8.5"
+   },
+   "size": "8.5",
+   "sku": "A12374M085"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=9"
+   },
+   "size": "9",
+   "sku": "A12374M090"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=9.5"
+   },
+   "size": "9.5",
+   "sku": "A12374M095"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=10"
+   },
+   "size": "10",
+   "sku": "A12374M100"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=10.5"
+   },
+   "size": "10.5",
+   "sku": "A12374M105"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=11"
+   },
+   "size": "11",
+   "sku": "A12374M110"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=11.5"
+   },
+   "size": "11.5",
+   "sku": "A12374M115"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=12"
+   },
+   "size": "12",
+   "sku": "A12374M120"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=12.5"
+   },
+   "size": "12.5",
+   "sku": "A12374M125"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=13"
+   },
+   "size": "13",
+   "sku": "A12374M130"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 13.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=13.5"
+   },
+   "size": "13.5",
+   "sku": "A12374M135"
+  },
+  {
+   "@type": "Product",
+   "color": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#mens-cruiser-terry"
+   },
+   "name": "Men's Cruiser Terry - Warm White (Warm White Sole) - Size 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 115,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry?size=14"
+   },
+   "size": "14",
+   "sku": "A12374M140"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T19:58:04Z",
+ "og_image": "http://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144",
+ "page_sha256": "45fc6d7aa4969fb12b6a237dd96c2c0febf2acfd3aabea6078babc417c166215",
+ "rendered_checked": true,
+ "title": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+ "url": "https://allbirds.com/products/mens-cruiser-terry"
+}

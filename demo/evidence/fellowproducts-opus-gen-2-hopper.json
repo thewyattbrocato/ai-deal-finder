@@ -1,0 +1,38 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://fellowproducts.com/products/opus-gen-2-hopper",
+ "http_status": 200,
+ "id": "fellowproducts-opus-gen-2-hopper",
+ "image_file": "fellowproducts-opus-gen-2-hopper.jpg",
+ "image_sha256": "62ac9045daae97eafa9afb388d15d37ca699f167b019a746da1a19a1c5a7fbaa",
+ "image_source": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://fellowproducts.com/products/opus-gen-2-hopper",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Fellow"
+   },
+   "name": "Opus Gen 2 Hopper",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 9.95,
+    "priceCurrency": "USD",
+    "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+   },
+   "sku": "1222BA-03",
+   "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T19:59:15Z",
+ "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
+ "page_sha256": "85d0c7e6b8e647939277d276d55f4e93689530352518c9d73c1118b0164274b0",
+ "rendered_checked": true,
+ "title": "Opus Gen 2 Hopper",
+ "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+}

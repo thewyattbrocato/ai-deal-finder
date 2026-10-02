@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean",
+ "http_status": 200,
+ "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-ocea",
+ "image_file": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-ocea.png",
+ "image_sha256": "fbe252aba7d2cad8baf669c38a6e9ecd69bbacf2b98f0a62e1db5addbc5d475d",
+ "image_source": "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Ocean_9fea81b1-5bef-47a5-b30e-52ee7607e5eb.png?v=1790192180&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Peak Design"
+   },
+   "description": "",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Ocean_9fea81b1-5bef-47a5-b30e-52ee7607e5eb.png?v=1790192180"
+   ],
+   "name": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Ocean",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 152.87,
+     "priceCurrency": "USD",
+     "sku": "",
+     "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean?Title=Default+Title"
+    }
+   ],
+   "sku": "",
+   "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:43Z",
+ "og_image": null,
+ "page_sha256": "7e7bde59f32668a28573f0213fd705b3a174499e82321a086c157ac7b93fc89d",
+ "rendered_checked": true,
+ "title": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Ocean | Peak Design Official Site",
+ "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean"
+}

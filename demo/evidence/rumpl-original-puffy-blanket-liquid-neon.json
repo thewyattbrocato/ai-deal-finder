@@ -1,0 +1,112 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon",
+ "http_status": 200,
+ "id": "rumpl-original-puffy-blanket-liquid-neon",
+ "image_file": "rumpl-original-puffy-blanket-liquid-neon.png",
+ "image_sha256": "a8fe1417a806688f821a309f34d46237363f8adab04cc66b5b30ef970f99ec68",
+ "image_source": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734.png?v=1784538010&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": 4655
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "category": "Outdoor Blankets",
+   "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette and number one bestseller. Now in Liquid Neon, featuring a vibrant pink and green liquid neon pool that will make any space pop.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free ...",
+   "hasVariant": [
+    {
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515#variant",
+     "@type": "Product",
+     "gtin12": "810203131919",
+     "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734.png?v=1784538010&width=1200",
+     "name": "Original Puffy Blanket - Liquid Neon - 1-Person",
+     "offers": {
+      "@id": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "url": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515"
+     },
+     "sku": "RU01019381P"
+    }
+   ],
+   "image": [
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734.png?v=1784538010&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335842.jpg?v=1785265331&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335836.jpg?v=1785265268&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335837.jpg?v=1785265208&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335841.jpg?v=1785265148&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335840.jpg?v=1785265089&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335839.jpg?v=1785265030&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1251335838.jpg?v=1785264968&width=1200"
+   ],
+   "name": "Original Puffy Blanket - Liquid Neon",
+   "productGroupID": 15060355318123,
+   "url": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon"
+  },
+  {
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515#variant",
+   "@type": "Product",
+   "gtin12": "810203131919",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734.png?v=1784538010&width=1200",
+   "name": "Original Puffy Blanket - Liquid Neon - 1-Person",
+   "offers": {
+    "@id": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "99.95",
+    "priceCurrency": "USD",
+    "url": "https://www.rumpl.com/products/original-puffy-blanket-liquid-neon?variant=53375264817515"
+   },
+   "sku": "RU01019381P"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/original-puffy-blanket-liquid-neon#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "4655",
+    "ratingValue": "4.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette and number one bestseller. Now in Liquid Neon, featuring a vibrant pink and green liquid neon pool that will make any space pop.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free Cape Clip\u00ae, the Original Puffy Blanket is designed to be enjoyed everywhere from camping and cabins to tailgates and tournaments.",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734_450x450.png?v=1784538010",
+   "mpn": "15060355318123",
+   "name": "Original Puffy Blanket - Liquid Neon",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "99.95",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Rumpl"
+    }
+   },
+   "url": "/products/original-puffy-blanket-liquid-neon"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-02T20:01:47Z",
+ "og_image": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-liquid-neon-ru01019381p-1250013734.png?v=1784538010",
+ "page_sha256": "9bbb5acc586afae543b39d8dac3209c1d66c955e3702f11423ad7814c81e319c",
+ "rendered_checked": true,
+ "title": "Original Puffy Blanket - Liquid Neon | Rumpl Blankets For Everywhere",
+ "url": "https://rumpl.com/products/original-puffy-blanket-liquid-neon"
+}

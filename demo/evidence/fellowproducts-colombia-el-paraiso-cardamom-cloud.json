@@ -1,0 +1,42 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud",
+ "http_status": 200,
+ "id": "fellowproducts-colombia-el-paraiso-cardamom-cloud",
+ "image_file": "fellowproducts-colombia-el-paraiso-cardamom-cloud.png",
+ "image_sha256": "64ad329bd233dad411bf62245cd551529e73e6e7d4c6ec1a074ed848f47bd816",
+ "image_source": "http://fellowproducts.com/cdn/shop/files/10.01.26_drops_AdditionalPDP_Driftaway-CardamomCloud_1.png?v=1790621433&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Driftaway Coffee"
+   },
+   "description": "Grown at Finca El Para\u00edso in Colombia, this Castillo lot showcases the Bermudez family\u2019s signature precision and experimentation in processing.\u00a0After being harvested at peak ripeness, the cherries are ozone-washed before undergoing a 72-hour double anaerobic fermentation, submerged in water with cultures in a milk medium. Once pulped, the coffee undergoes a thermal-shock wash to lock in complexity and sweetness. It\u2019s then dried in a dehumidifier to preserve its delicate aromatics and prevent over-oxidation.The result is a floral, spiced cup with radiant notes of cardamom, pistachio, and butter, all wrapped in a light, soft body.",
+   "image": [
+    "https://fellowproducts.com/cdn/shop/files/10.01.26_drops_AdditionalPDP_Driftaway-CardamomCloud_1.png?v=1790621433&width=2000"
+   ],
+   "name": "Cardamom Cloud",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 24.0,
+    "priceCurrency": "USD",
+    "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud"
+   },
+   "sku": "RT-DBL-8OZ-WB",
+   "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T19:59:07Z",
+ "og_image": "http://fellowproducts.com/cdn/shop/files/10.01.26_drops_AdditionalPDP_Driftaway-CardamomCloud_1.png?v=1790621433",
+ "page_sha256": "b2f592b7c0c94e35e238348d215acd5c8a62f186a6d3db9f5372862142c5da00",
+ "rendered_checked": true,
+ "title": "Cardamom Cloud",
+ "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud"
+}

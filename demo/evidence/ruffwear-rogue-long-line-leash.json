@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://ruffwear.com/products/rogue-long-line-leash",
+ "http_status": 200,
+ "id": "ruffwear-rogue-long-line-leash",
+ "image_file": "ruffwear-rogue-long-line-leash.png",
+ "image_sha256": "6fe0921befd8d607b146ac00ebf03f975d37ef40465eca295c1695052d840147",
+ "image_source": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_882x589.png?v=1781564824&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/rogue-long-line-leash#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "12",
+    "ratingValue": "4.5"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ruff Wear Inc"
+   },
+   "description": "The Rogue\u2122\ufe0f Long Line gives your dog room to roam while keeping them connected. Designed for recall training, loose leash walks, and fieldwork, it provides extra range and independence for dogs in a variety of settings.\nThis 20 ft/6.1 m leash line is built from our lightweight Tubelok\u2122\ufe0f webbing and features a lockable carabiner for a secure, dependable clip. With no handle to snag or tangle, it can be used as a drag line that allows them to move freely while still on a leash.Length: 20 ft (6.1 m)Width: 3/4 in (20mm)\n\u00a0",
+   "image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_450x450.png?v=1781564824",
+   "mpn": "8024194351187",
+   "name": "Rogue\u2122 Long Line",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "34.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ruffwear"
+    }
+   },
+   "url": "/products/rogue-long-line-leash"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-02T19:59:00Z",
+ "og_image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_882x589.png?v=1781564824",
+ "page_sha256": "b8a72ad58fa28fdaae44080824fcf4cf8e61af459ddba2771e29db36b6221d4a",
+ "rendered_checked": true,
+ "title": "Rogue\u2122 Long Line | Ruffwear",
+ "url": "https://ruffwear.com/products/rogue-long-line-leash"
+}

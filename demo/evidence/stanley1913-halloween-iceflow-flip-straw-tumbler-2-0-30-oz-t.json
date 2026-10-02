@@ -1,0 +1,55 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts",
+ "http_status": 200,
+ "id": "stanley1913-halloween-iceflow-flip-straw-tumbler-2-0-30-oz-t",
+ "image_file": "stanley1913-halloween-iceflow-flip-straw-tumbler-2-0-30-oz-t.png",
+ "image_sha256": "b5a4e20db14028a204e7762a9c5354ddf5ccf3315cd117d6fc58d14092282c3a",
+ "image_source": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_IceFlow_Flip_Straw_2.0_Tumbler-30_oz_0.89_L-Black_Stardust-Front.png?v=1789083133&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stanley"
+   },
+   "description": "Every witch has her secrets. The Halloween Collection will keep yours. No questions asked.Welcome to the season of the witch.",
+   "image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_IceFlow_Flip_Straw_2.0_Tumbler-30_oz_0.89_L-Black_Stardust-Front.png?v=1789083133&width=800",
+   "name": "Halloween IceFlow\u00ae  Flip Straw Tumbler 2.0 | 30 OZ",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@id": "https://www.stanley1913.com/apps/returns",
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 30,
+     "returnFees": "https://schema.org/ReturnShippingFees",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "35.00",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2030-12-21",
+    "seller": {
+     "@type": "Organization",
+     "name": "Stanley 1913",
+     "url": "https://www.stanley1913.com"
+    },
+    "url": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts"
+   },
+   "sku": "100000157000",
+   "url": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-02T20:01:15Z",
+ "og_image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_IceFlow_Flip_Straw_2.0_Tumbler-30_oz_0.89_L-Black_Stardust-Front.png?v=1789083133",
+ "page_sha256": "634c221066b494360ccd1408c8fc83dc56d5926c36ab3913d3c50086e83bc71f",
+ "rendered_checked": true,
+ "title": "Halloween IceFlow Flip Straw Tumbler 2.0 | 30oz | Stanley 1913 US",
+ "url": "https://stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts"
+}

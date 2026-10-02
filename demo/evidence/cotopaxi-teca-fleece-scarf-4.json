@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.cotopaxi.com/products/teca-fleece-scarf-4",
+ "http_status": 200,
+ "id": "cotopaxi-teca-fleece-scarf-4",
+ "image_file": "cotopaxi-teca-fleece-scarf-4.png",
+ "image_sha256": "28f3fa66644943e2e06aca2f9ff745953f40891bf8b8408780ca9e6742ba2ddb",
+ "image_source": "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_F_1200x630.png?v=1755875004&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "F24-Semiannual"
+   },
+   "description": "We channeled the coziness and resourcefulness of our bestselling Teca Fleece into a color-blocked scarf that even comes with a handy zippered pocket. ",
+   "image": [
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_F.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_B.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_001.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_002.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_003.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfJam_F.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfJam_B.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfNutmeg_F.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfNutmeg_B.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfNutmeg_001.png?v=1755875004",
+    "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfNutmeg_003.png?v=1755875004"
+   ],
+   "name": "Teca Fleece Scarf",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "18.0",
+    "priceCurrency": "USD",
+    "url": "https://www.cotopaxi.com/products/teca-fleece-scarf-4"
+   },
+   "sku": "TFSC-F25-JAM"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-02T20:01:32Z",
+ "og_image": "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UTecaFleeceScarfDeepSea_F_1200x630.png?v=1755875004",
+ "page_sha256": "f8c02d839c0721b769e6b480c8339c8408df9e1d1836a2be73641afe77aa9781",
+ "rendered_checked": true,
+ "title": "Teca Fleece Scarf \u2013 Cotopaxi",
+ "url": "https://cotopaxi.com/products/teca-fleece-scarf-4"
+}

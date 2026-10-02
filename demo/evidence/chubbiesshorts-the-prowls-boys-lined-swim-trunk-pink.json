@@ -1,0 +1,1153 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink",
+ "http_status": 200,
+ "id": "chubbiesshorts-the-prowls-boys-lined-swim-trunk-pink",
+ "image_file": "chubbiesshorts-the-prowls-boys-lined-swim-trunk-pink.jpg",
+ "image_sha256": "d5c8f05a8ef5dd2cd0392bb0e3cd44d82bc1e5a083a5222b4ee97541ec2b4eba",
+ "image_source": "https://cdn.shopify.com/s/files/1/0077/0432/files/LilProwls_406263-04_SD_02_2adc2ac8-81b3-473d-b28c-4ad95dcfd588.webp?v=1790868619&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.8,
+    "reviewCount": 162,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Chubbies"
+   },
+   "description": "A classic stretch, elastic waistband trunk with built-in mesh boxer brief liner",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0077/0432/files/LilProwls_406263-04_SD_02_2adc2ac8-81b3-473d-b28c-4ad95dcfd588.webp?v=1790868619"
+   ],
+   "name": "The Prowls",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.5,
+     "priceCurrency": "USD",
+     "sku": "428263-051",
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink?Size=XS"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.5,
+     "priceCurrency": "USD",
+     "sku": "428263-052",
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink?Size=S"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.5,
+     "priceCurrency": "USD",
+     "sku": "428263-053",
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink?Size=M"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.5,
+     "priceCurrency": "USD",
+     "sku": "428263-054",
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink?Size=L"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.5,
+     "priceCurrency": "USD",
+     "sku": "428263-055",
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink?Size=XL"
+    }
+   ],
+   "size": "XS",
+   "sku": "428263-051",
+   "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "ProductGroup",
+   "description": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"A classic stretch, elastic waistband trunk with built-in mesh boxer b...",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Blue/Pink Palms",
+     "name": "The Prince of Prints (Boys Lined Classic Swim Trunk- Shorter)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-prince-of-prints-boys-lined-classic-swim-trunk-shorter"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Spot with Flamingos",
+     "name": "The Domingos Are For Flamingos (Boys Lined Classic Swim Trunk- Shorter)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-domingos-are-for-flamingos-boys-lined-classic-swim-trunk-shorter"
+    },
+    {
+     "@type": "Product",
+     "color": "Teal Sharks/Blue Wave Liner ",
+     "name": "The Apex Swimmers (Boys Lined Classic Swim Trunk- Shorter)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-apex-swimmers-boys-lined-classic-swim-trunk-shorter"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Alligator/Pink Triangle Liner",
+     "name": "The Neon Glades (Boys Lined Classic Swim Trunk- Shorter)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 20,
+      "lowPrice": 20,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-neon-glades-boys-lined-classic-swim-trunk-shorter"
+    },
+    {
+     "@type": "Product",
+     "color": "Black Floral ",
+     "name": "The Deep Florals (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-deep-florals-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Tiger Sharks/Orange Liner",
+     "name": "The King of the Seas (Boys Lined Classic Swim Trunk- Shorter)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-king-of-the-seas-boys-lined-classic-swim-trunk-shorter"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue/Pink Palms/Suns",
+     "name": "The Pacific Grids (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-pacific-grids-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink Birds",
+     "name": "The Toucan Do Its (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 20,
+      "lowPrice": 20,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-toucan-do-its-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink Snorkeling Sharks ",
+     "name": "The Great Pink Sharks (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-great-pink-sharks-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Blue",
+     "name": "The Alpine Skies (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-alpine-skies-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Alligator/Flamingo ",
+     "name": "The Swamp & Circumstances (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-swamp-and-circumstances-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Fruit",
+     "name": "The Tropical Bunches (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 30,
+      "lowPrice": 30,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-tropical-bunches-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Dinosaur/Treasure Map ",
+     "name": "The Rex Marks The Spots (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 29,
+      "lowPrice": 29,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-rex-marks-the-spots-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Faded Blue/Dark Purple Palms",
+     "name": "The Indigo Crazies (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 35,
+      "lowPrice": 35,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-indigo-crazies-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Bright Green Turtles",
+     "name": "The Turtally Awesomes (Boys Lined Swim Trunk)- Green",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-turtally-awesomes-boys-lined-swim-trunk-green"
+    },
+    {
+     "@type": "Product",
+     "color": "Hot Pink",
+     "name": "The Avalons (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-avalons-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Orange Floral ",
+     "name": "The Tropic Tangos (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-tropic-tangos-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Floral ",
+     "name": "The Star Spangled Blooms (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 35,
+      "lowPrice": 35,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-star-spangled-blooms-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Teal Geometric",
+     "name": "The En Fuegos (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/OutOfStock",
+      "offerCount": 0,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-en-fuegos-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Coral/Blue Palms",
+     "name": "The Frond Farewells (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-frond-farewells-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Leaf",
+     "name": "The Night Faunas (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/OutOfStock",
+      "offerCount": 0,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-night-faunas-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Dusty Purple Blue Alligator ",
+     "name": "The Rock-a-Crocs (Boys Lined Swim Trunk)- Lighter Blue",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-rock-a-crocs-boys-lined-swim-trunk-lighter-blue"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "name": "The Capes (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-capes-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Teal Pineapples ",
+     "name": "The Citrus Punches (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-citrus-punches-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink Sharks ",
+     "name": "The Pink Apex Swimmers (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 35,
+      "lowPrice": 35,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-pink-apex-swimmers-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink/Blue Gradient Palms/Triangles ",
+     "name": "The Tropic Pops (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-tropic-pops-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Palms ",
+     "name": "The You're Coconuts (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-youre-coconuts-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Jet Ski Dinosaurs",
+     "name": "The Fossil Fuels (Boys Lined Swim Trunk)- Blue",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-fossil-fuels-boys-lined-swim-trunk-blue"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue",
+     "name": "The Prowls (Boys Lined Swim Trunk)- Navy",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-navy"
+    },
+    {
+     "@type": "Product",
+     "color": "Dark Blue Floral Palms",
+     "name": "The Beyond The Palms (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-beyond-the-palms-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Green/Blue Palms/Tigers ",
+     "name": "The Prowls (Boys Lined Swim Trunk)- Green",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-green"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink/Blue Gradient Palms ",
+     "name": "The Polka-Palms (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-polka-palms-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Olive Green Pineapple",
+     "name": "The Nightfruits (Boys Lined Swim Trunk)- Olive",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-nightfruits-boys-lined-swim-trunk-olive"
+    },
+    {
+     "@type": "Product",
+     "color": "Blue Pineapple",
+     "name": "The Everything's Pine (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-everythings-pine-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Palms/Flowers/Mountains",
+     "name": "The Habitual Ritual Icons (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-habitual-ritual-icons-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Purple Sasquatch Icon",
+     "name": "The Squatch Sightings (Boys Lined Swim Trunk)- Purple",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-squatch-sightings-boys-lined-swim-trunk-purple"
+    },
+    {
+     "@type": "Product",
+     "color": "Teal Waves/Jet Ski Dinosaurs",
+     "name": "The Fossil Fuels (Boys Lined Swim Trunk)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-fossil-fuels-boys-lined-swim-trunk"
+    },
+    {
+     "@type": "Product",
+     "color": "Pink Palms/Tigers",
+     "name": "The Prowls (Boys Lined Swim Trunk)- Pink",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 59.5,
+      "lowPrice": 59.5,
+      "offerCount": 5,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink"
+    }
+   ],
+   "name": "Boys Lined Classic Swim Trunk",
+   "productGroupID": "gid://shopify/Collection/285674242121",
+   "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Blue/Pink Palms",
+   "name": "The Prince of Prints (Boys Lined Classic Swim Trunk- Shorter)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-prince-of-prints-boys-lined-classic-swim-trunk-shorter"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Spot with Flamingos",
+   "name": "The Domingos Are For Flamingos (Boys Lined Classic Swim Trunk- Shorter)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-domingos-are-for-flamingos-boys-lined-classic-swim-trunk-shorter"
+  },
+  {
+   "@type": "Product",
+   "color": "Teal Sharks/Blue Wave Liner ",
+   "name": "The Apex Swimmers (Boys Lined Classic Swim Trunk- Shorter)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-apex-swimmers-boys-lined-classic-swim-trunk-shorter"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Alligator/Pink Triangle Liner",
+   "name": "The Neon Glades (Boys Lined Classic Swim Trunk- Shorter)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 20,
+    "lowPrice": 20,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-neon-glades-boys-lined-classic-swim-trunk-shorter"
+  },
+  {
+   "@type": "Product",
+   "color": "Black Floral ",
+   "name": "The Deep Florals (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-deep-florals-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Tiger Sharks/Orange Liner",
+   "name": "The King of the Seas (Boys Lined Classic Swim Trunk- Shorter)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-king-of-the-seas-boys-lined-classic-swim-trunk-shorter"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue/Pink Palms/Suns",
+   "name": "The Pacific Grids (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-pacific-grids-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink Birds",
+   "name": "The Toucan Do Its (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 20,
+    "lowPrice": 20,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-toucan-do-its-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink Snorkeling Sharks ",
+   "name": "The Great Pink Sharks (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-great-pink-sharks-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Blue",
+   "name": "The Alpine Skies (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-alpine-skies-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Alligator/Flamingo ",
+   "name": "The Swamp & Circumstances (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-swamp-and-circumstances-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Fruit",
+   "name": "The Tropical Bunches (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 30,
+    "lowPrice": 30,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-tropical-bunches-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Dinosaur/Treasure Map ",
+   "name": "The Rex Marks The Spots (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 29,
+    "lowPrice": 29,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-rex-marks-the-spots-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Faded Blue/Dark Purple Palms",
+   "name": "The Indigo Crazies (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 35,
+    "lowPrice": 35,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-indigo-crazies-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Bright Green Turtles",
+   "name": "The Turtally Awesomes (Boys Lined Swim Trunk)- Green",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-turtally-awesomes-boys-lined-swim-trunk-green"
+  },
+  {
+   "@type": "Product",
+   "color": "Hot Pink",
+   "name": "The Avalons (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-avalons-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Orange Floral ",
+   "name": "The Tropic Tangos (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-tropic-tangos-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Floral ",
+   "name": "The Star Spangled Blooms (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 35,
+    "lowPrice": 35,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-star-spangled-blooms-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Teal Geometric",
+   "name": "The En Fuegos (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/OutOfStock",
+    "offerCount": 0,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-en-fuegos-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Coral/Blue Palms",
+   "name": "The Frond Farewells (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-frond-farewells-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Leaf",
+   "name": "The Night Faunas (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/OutOfStock",
+    "offerCount": 0,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-night-faunas-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Dusty Purple Blue Alligator ",
+   "name": "The Rock-a-Crocs (Boys Lined Swim Trunk)- Lighter Blue",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-rock-a-crocs-boys-lined-swim-trunk-lighter-blue"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "name": "The Capes (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-capes-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Teal Pineapples ",
+   "name": "The Citrus Punches (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-citrus-punches-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink Sharks ",
+   "name": "The Pink Apex Swimmers (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 35,
+    "lowPrice": 35,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-pink-apex-swimmers-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink/Blue Gradient Palms/Triangles ",
+   "name": "The Tropic Pops (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-tropic-pops-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Palms ",
+   "name": "The You're Coconuts (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-youre-coconuts-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Jet Ski Dinosaurs",
+   "name": "The Fossil Fuels (Boys Lined Swim Trunk)- Blue",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-fossil-fuels-boys-lined-swim-trunk-blue"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue",
+   "name": "The Prowls (Boys Lined Swim Trunk)- Navy",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-navy"
+  },
+  {
+   "@type": "Product",
+   "color": "Dark Blue Floral Palms",
+   "name": "The Beyond The Palms (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-beyond-the-palms-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Green/Blue Palms/Tigers ",
+   "name": "The Prowls (Boys Lined Swim Trunk)- Green",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-green"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink/Blue Gradient Palms ",
+   "name": "The Polka-Palms (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-polka-palms-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Olive Green Pineapple",
+   "name": "The Nightfruits (Boys Lined Swim Trunk)- Olive",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-nightfruits-boys-lined-swim-trunk-olive"
+  },
+  {
+   "@type": "Product",
+   "color": "Blue Pineapple",
+   "name": "The Everything's Pine (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-everythings-pine-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Palms/Flowers/Mountains",
+   "name": "The Habitual Ritual Icons (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-habitual-ritual-icons-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Purple Sasquatch Icon",
+   "name": "The Squatch Sightings (Boys Lined Swim Trunk)- Purple",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-squatch-sightings-boys-lined-swim-trunk-purple"
+  },
+  {
+   "@type": "Product",
+   "color": "Teal Waves/Jet Ski Dinosaurs",
+   "name": "The Fossil Fuels (Boys Lined Swim Trunk)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-fossil-fuels-boys-lined-swim-trunk"
+  },
+  {
+   "@type": "Product",
+   "color": "Pink Palms/Tigers",
+   "name": "The Prowls (Boys Lined Swim Trunk)- Pink",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 59.5,
+    "lowPrice": 59.5,
+    "offerCount": 5,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T19:59:48Z",
+ "og_image": null,
+ "page_sha256": "af3e6765e410563119360715ea2f5aa107ec1862464cffe87817de0ec3715e9e",
+ "rendered_checked": true,
+ "title": "The Prowls",
+ "url": "https://chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink"
+}

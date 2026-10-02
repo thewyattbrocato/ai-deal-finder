@@ -1,0 +1,107 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://gorillagrip.com/products/bath-strips",
+ "http_status": 200,
+ "id": "gorillagrip-bath-strips",
+ "image_file": "gorillagrip-bath-strips.jpg",
+ "image_sha256": "aa76a846d986f4fda2cd17631007b1328137d72aac4bfa8b04426e710eea2fd1",
+ "image_source": "http://gorillagrip.com/cdn/shop/files/GG_BathtubGripStrips_Straight_30pk_Clear_HERO_BOX.jpg?v=1790358753&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Gorilla Grip"
+   },
+   "description": "STRONG TEXTURED GRIP: textured surface helps provide traction underfoot on smooth tub and shower floors: texture is gentle and comfortable against bare feet\n25% MORE COVERAGE THAN MOST: includes 30 pieces per pack for more floor coverage than most comparable brands; with more pieces, you are able to cover more of your tub or shower's floor; bathtub stickers are available in straight, circle, rectangle, and curved styles; shower stickers are compatible with most fiberglass, acrylic, ceramic, vinyl, and steel shower and tub surfaces\nLONG LASTING, SUPERIOR HOLDING POWER: heavy duty, waterproof grip is constructed with 40% stronger adhesive than the leading brands; increased grip helps keep each piece firmly in place over time; shower stickers are tear and temperature resistant up to 140 degrees; crafted with durable BPA free material for added peace of mind in your home\nEASY PEEL AND STICK DESIGN, REMOVES CLEANLY: peel and stick design installs in minutes with included ergonomic applicator; rental friendly design removes cleanly with no residue left behind\nULTRA FAST INSTALLATION: bathtub stickers are ready to use in just 2 hours after application, bathtub grip strips cure in a fraction of the time compared to other brands that can take up to 24 hours",
+   "image": [
+    "https://gorillagrip.com/cdn/shop/files/GG_BathtubGripStrips_Straight_30pk_Clear_HERO_BOX.jpg?v=1790358753&width=1920"
+   ],
+   "name": "Bath Strips",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-ST-Cl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875623228"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/OutOfStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CR-Cl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875655996"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/OutOfStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CV-Cl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875688764"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-ST-LtBl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875721532"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CR-LtBl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875754300"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/OutOfStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CV-LtBl",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875787068"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/OutOfStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-ST-Wh",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875819836"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CR-Wh",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875852604"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "sku": "GG-BathtubGripStrips-30PK-CV-Wh",
+     "url": "https://gorillagrip.com/products/bath-strips?variant=54459875885372"
+    }
+   ],
+   "sku": "GG-BathtubGripStrips-30PK-ST-Cl",
+   "url": "https://gorillagrip.com/products/bath-strips"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:19Z",
+ "og_image": "http://gorillagrip.com/cdn/shop/files/GG_BathtubGripStrips_Straight_30pk_Clear_HERO_BOX.jpg?v=1790358753",
+ "page_sha256": "b5de53a540292baaa5973a6b36622c35722f3f7d132de0725bd93c2e56533ef9",
+ "rendered_checked": true,
+ "title": "Bath Strips \u2013 Gorilla Grip",
+ "url": "https://gorillagrip.com/products/bath-strips"
+}

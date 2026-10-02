@@ -1,0 +1,46 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://thursdayboots.com/products/mens-bomber-jacket-cinnamon-suede",
+ "http_status": 200,
+ "id": "thursdayboots-mens-bomber-jacket-cinnamon-suede",
+ "image_file": "thursdayboots-mens-bomber-jacket-cinnamon-suede.jpg",
+ "image_sha256": "88916a9104fe54c1e74500373ef6bbc7c0ea7dfa87cb4bf93c4195b0a79dfa8a",
+ "image_source": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-Bomber-Cinnamon-050726-1_1200x1200.jpg?v=1790785840&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "0",
+    "reviewCount": "0"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Thursday - Men's Jackets"
+   },
+   "description": "<div class=\"product-features-wrapper\">\n<h2 class=\"description-title\">Product Features</h2>\n<div class=\"product-features-list\">\n<ul>\n<li>Cinnamon Oil Snuff Suede</li>\n<li>Plush Polyester Interior With Leather Trimmings</li>\n<li>Ribbed Elastic Cotton Cuffs, Collar, and Waistband</li>\n<li>Long-Lasting Metal Zipper (Guaranteed for Life)</li>\n<li>Twin Side Pockets With 100% Polyester Lining</li>\n<li>Hidden Internal Breast &amp; Torso Pockets</li>\n<li>Handcrafted With Integrity</li>\n<li>Professional Leather Clean Only</li>\n</ul>\n</div>\n</div>\n<div class=\"product-shipping-info-wrapper\">\n<h2 class=\"description-title\">Shipping Info</h2>\n<ul>\n<li>Free domestic U.S. ground shipping</li>\n<li>Free domestic U.S. returns. <a href=\"/pages/return-policy\">See our full policy</a>\n</li>\n<li>International shipping available</li>\n<li>Expedited shipping options available at checkout</li>\n</ul>\n</div>",
+   "image": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-Bomber-Cinnamon-050726-1_1024x1024.jpg?v=1790785840",
+   "name": "Bomber Jacket | Cinnamon",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 349.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Thursday Boot Company"
+    },
+    "url": "https://https://thursdayboots.com/products/mens-bomber-jacket-cinnamon-suede"
+   },
+   "sku": "CNMBMB-A-S"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T20:05:40Z",
+ "og_image": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-Bomber-Cinnamon-050726-1_1200x1200.jpg?v=1790785840",
+ "page_sha256": "c9687b20c901dcf838f5f9dd807779990f3cfb8e478c8f8bbfd531d2662eff41",
+ "rendered_checked": true,
+ "title": "Men's Bomber Jacket In Cinnamon Suede - Thursday",
+ "url": "https://thursdayboots.com/products/mens-bomber-jacket-cinnamon-suede"
+}

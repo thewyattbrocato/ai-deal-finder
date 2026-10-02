@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage",
+ "http_status": 200,
+ "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-sage",
+ "image_file": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-sage.png",
+ "image_sha256": "85217ca8313415e763a5a129bbc5f493a058a22f96e7b4111a14419315660dba",
+ "image_source": "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Sage.png?v=1790192603&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Peak Design"
+   },
+   "description": "",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Sage.png?v=1790192603"
+   ],
+   "name": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Sage",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 152.87,
+     "priceCurrency": "USD",
+     "sku": "",
+     "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage?Title=Default+Title"
+    }
+   ],
+   "sku": "",
+   "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:39Z",
+ "og_image": null,
+ "page_sha256": "a6932065cde1e6c42a8e0643eecf22f7abb30106a66f6838593ed02dc94d471b",
+ "rendered_checked": true,
+ "title": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Sage | Peak Design Official Site",
+ "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage"
+}

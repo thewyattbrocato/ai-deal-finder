@@ -1,0 +1,41 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://thursdayboots.com/products/mens-highland-wool-sweater-driftwood",
+ "http_status": 200,
+ "id": "thursdayboots-mens-highland-wool-sweater-driftwood",
+ "image_file": "thursdayboots-mens-highland-wool-sweater-driftwood.jpg",
+ "image_sha256": "51d7de9cb48ea900d1d9850c7666ddcd26f3cacad2cdd1794ff7f27382717ac5",
+ "image_source": "https://thursdayboots.com/cdn/shop/files/02-1024x1024-Men-HighlandSweater-Driftwood-070626-Front_1200x1200.jpg?v=1790184222&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Thursday - Men's Shirts"
+   },
+   "description": "<div class=\"product-features-wrapper\">\n<h2 class=\"description-title\">Product Features</h2>\n<div class=\"product-features-list\">\n<ul>\n<li>Chunky 5-Gauge Waffle-Knit Sweater</li>\n<li>100% Superfine Merino Wool For Warmth and Softness</li>\n<li>Washed For Shrinkage Control And Lived-In Feel</li>\n<li>Relaxed Set-In Shoulder for Enhanced Fit &amp; Mobility</li>\n<li>Hand-Linked Collar, Cuffs, and Waistband</li>\n<li>Relaxed Fit In Shoulders And Waist</li>\n<li>Model is 5'10\", 170lbs, Wearing Size M</li>\n<li>Handcrafted With Integrity</li>\n<li>Care: Wash cold with like colors. Hang to dry.</li>\n</ul>\n</div>\n</div>\n<div class=\"product-shipping-info-wrapper\">\n<h2 class=\"description-title\">Shipping Info</h2>\n<ul>\n<li>Free domestic U.S. ground shipping</li>\n<li>Free domestic U.S. returns. <a href=\"/pages/return-policy\">See our full policy</a>\n</li>\n<li>International shipping available</li>\n<li>Expedited shipping options available at checkout</li>\n</ul>\n</div>",
+   "image": "https://thursdayboots.com/cdn/shop/files/02-1024x1024-Men-HighlandSweater-Driftwood-070626-Front_1024x1024.jpg?v=1790184222",
+   "name": "Highland Sweater | Driftwood",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 148.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Thursday Boot Company"
+    },
+    "url": "https://https://thursdayboots.com/products/mens-highland-wool-sweater-driftwood"
+   },
+   "sku": "DFTWFL-A-S"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T20:05:44Z",
+ "og_image": "https://thursdayboots.com/cdn/shop/files/02-1024x1024-Men-HighlandSweater-Driftwood-070626-Front_1200x1200.jpg?v=1790184222",
+ "page_sha256": "7c22752d7a32b3bd173f2c423b8ba0570bec3e61fa1beb3742ab0fa958cc66aa",
+ "rendered_checked": true,
+ "title": "Men's Highland Wool Crewneck Sweater in Driftwood Grey - Thursday",
+ "url": "https://thursdayboots.com/products/mens-highland-wool-sweater-driftwood"
+}

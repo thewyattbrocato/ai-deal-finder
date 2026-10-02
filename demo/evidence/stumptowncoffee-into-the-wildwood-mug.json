@@ -1,0 +1,51 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stumptowncoffee.com/products/into-the-wildwood-mug",
+ "http_status": 200,
+ "id": "stumptowncoffee-into-the-wildwood-mug",
+ "image_file": "stumptowncoffee-into-the-wildwood-mug.png",
+ "image_sha256": "6b2333e35963663260dd154107a12ae3ab5a1415c40770d359afc01a942801e6",
+ "image_source": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Mug_34L_72DPI.png?v=1790104743&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.stumptowncoffee.com/products/into-the-wildwood-mug",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stumptown Coffee"
+   },
+   "description": "This limited-edition WILDWOOD mug may not hold all the answers, but it does hold magical things, like fresh-brewed Stumptown coffee.",
+   "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Mug_34L_72DPI.png?v=1790104743",
+   "mpn": "100766",
+   "name": "Into the WILDWOOD Mug",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Mug_34L_72DPI.png?v=1790104743",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "100766",
+     "price": "32.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Stumptown Coffee"
+     },
+     "sku": "100766",
+     "url": "https://www.stumptowncoffee.com/products/into-the-wildwood-mug/products/into-the-wildwood-mug?variant=56033603223720"
+    }
+   ],
+   "sku": "100766",
+   "url": "https://www.stumptowncoffee.com/products/into-the-wildwood-mug"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T19:58:16Z",
+ "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Mug_34L_72DPI.png?v=1790104743",
+ "page_sha256": "27bb5fe0fe84a5fb9359a8d6418b192b614c2653194c48a4fddf4b0d1fe96183",
+ "rendered_checked": true,
+ "title": "Into the WILDWOOD Mug | Stumptown Coffee Roasters",
+ "url": "https://stumptowncoffee.com/products/into-the-wildwood-mug"
+}

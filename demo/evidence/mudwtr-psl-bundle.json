@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [
+  "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+ ],
+ "final_url": "https://mudwtr.com/products/psl-bundle",
+ "http_status": 200,
+ "id": "mudwtr-psl-bundle",
+ "image_file": "mudwtr-psl-bundle.jpg",
+ "image_sha256": "161f0a2e3ee6a7ab2680ecded36a8c86ef18cbe5fd4434fb6dafacfab7583fd2",
+ "image_source": "http://mudwtr.com/cdn/shop/files/PSL_1_1200x1200.jpg?v=1785358217&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/psl-bundle#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "10",
+    "ratingValue": "4.2"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "MUD\\WTR"
+   },
+   "description": "The only basic thing about this PSL is its ingredients. No syrup. No artificial flavors. No caffeine. Just mushrooms, adaptogens, real pumpkin, spices and a touch of sweetness. 100% organic and designed to keep you grounded this holiday season.",
+   "image": "https://mudwtr.com/cdn/shop/files/PSL_1_450x450.jpg?v=1785358217",
+   "mpn": "8667862007991",
+   "name": "PSL Bundle",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "40.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "MUD\\WTR"
+    }
+   },
+   "url": "/products/psl-bundle"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-02T20:06:41Z",
+ "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_1200x1200.jpg?v=1785358217",
+ "page_sha256": "67c14b859dac109be79d745665e4a078a1d79257ac4c6cf072f4e8756f4bac18",
+ "rendered_checked": true,
+ "title": "PSL Bundle \u2013 MUD\\WTR",
+ "url": "https://mudwtr.com/products/psl-bundle"
+}

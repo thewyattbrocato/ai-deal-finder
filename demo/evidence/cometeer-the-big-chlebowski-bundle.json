@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cometeer.com/products/the-big-chlebowski-bundle",
+ "http_status": 200,
+ "id": "cometeer-the-big-chlebowski-bundle",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Cometeer"
+   },
+   "description": "Picked by Ethan Chlebowski",
+   "image": "https://cometeer.com/cdn/shop/files/curated_bundle_gif.gif?crop=center&height=1024&v=1789073219&width=1024",
+   "name": "The Big Chlebowski Bundle \u2014 Mixed Roast",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "105.00",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Cometeer "
+    },
+    "url": "https://cometeer.com/products/the-big-chlebowski-bundle?variant=67618905162027"
+   },
+   "sku": null
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:17Z",
+ "og_image": "http://cometeer.com/cdn/shop/files/curated_bundle_gif.gif?crop=center&height=480&v=1789073219&width=480",
+ "page_sha256": "7a1d7a8aa77d0237178267bcf1cda67c0fd6c0497c2cda3fb030cbee9eeefd37",
+ "rendered_checked": true,
+ "title": "The Big Chlebowski Bundle \u2013 Cometeer",
+ "url": "https://cometeer.com/products/the-big-chlebowski-bundle"
+}

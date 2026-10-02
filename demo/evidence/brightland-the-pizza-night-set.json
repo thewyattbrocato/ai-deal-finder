@@ -1,0 +1,71 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://brightland.co/products/the-pizza-night-set",
+ "http_status": 200,
+ "id": "brightland-the-pizza-night-set",
+ "image_file": "brightland-the-pizza-night-set.jpg",
+ "image_sha256": "7a6c3e3bd02e02465357e39356dd36c1c1dd5c34837ea0f3af868b15efa56089",
+ "image_source": "http://brightland.co/cdn/shop/files/PizzaNightGiftSet-1150x1400.jpg?v=1762286942&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-pizza-night-set#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "category": "Cooking Oils",
+   "description": "Show your slices how much you care with our hot and herbaceous Pizza Oil, and whip up the perfect side salad in minutes.",
+   "gtin": "850007164874",
+   "image": "https://brightland.co/cdn/shop/files/PizzaNightGiftSet-1150x1400.jpg?v=1762286942&width=1920",
+   "name": "The Pizza Night Gift Set",
+   "offers": {
+    "@id": "/products/the-pizza-night-set?variant=41092141580351#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "98.00",
+    "priceCurrency": "USD",
+    "url": "https://brightland.co/products/the-pizza-night-set?variant=41092141580351"
+   },
+   "sku": "PizzaNight-Set",
+   "url": "https://brightland.co/products/the-pizza-night-set"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-pizza-night-set#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "168",
+    "ratingValue": "4.7"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "description": "Show your slices how much you care with our hot and herbaceous Pizza Oil, and whip up the perfect side salad in minutes.",
+   "image": "https://brightland.co/cdn/shop/files/PizzaNightGiftSet-1150x1400_450x450.jpg?v=1762286942",
+   "mpn": "7556410245183",
+   "name": "The Pizza Night Gift Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "98.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Brightland"
+    }
+   },
+   "url": "/products/the-pizza-night-set"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:03:50Z",
+ "og_image": "http://brightland.co/cdn/shop/files/PizzaNightGiftSet-1150x1400.jpg?v=1762286942&width=2048",
+ "page_sha256": "b5f81b25e5c4d78bd997d763279d0e31dcc3bba66720ab5b6304262329362d26",
+ "rendered_checked": true,
+ "title": "The Pizza Night Gift Set | Brightland",
+ "url": "https://brightland.co/products/the-pizza-night-set"
+}

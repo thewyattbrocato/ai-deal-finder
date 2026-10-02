@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.ekster.com/products/grid-backpack-vip-offer",
+ "http_status": 200,
+ "id": "ekster-grid-backpack-vip-offer",
+ "image_file": "ekster-grid-backpack-vip-offer.png",
+ "image_sha256": "855cda2e47719e46e48d6e5fcdbe3adaa88cadafe2d5cd26a6cdcf3c4113364c",
+ "image_source": "http://www.ekster.com/cdn/shop/files/GRIDBackpack_Anthracite_PDPImage_1.png?v=1776351627&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/grid-backpack-vip-offer#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ekster\u00ae"
+   },
+   "category": "Luggage & Bags",
+   "description": "Experience hassle-free travel, on and off the grid - pack it like a suitcase and carry it like a backpack with 180\u00b0 access. Comfort meets protection with an air-mesh ventilated back panel and recycled water-resistant body fabric.  Attach larger items to the external straps and unlock an ecosystem of convenient add-ons. Own the unknown with the award-winning Grid Backpack.\n",
+   "hasVariant": [
+    {
+     "@id": "/products/grid-backpack-vip-offer?variant=43875375218751#variant",
+     "@type": "Product",
+     "gtin": "8720254216645",
+     "image": "https://www.ekster.com/cdn/shop/files/grid-backpack.png?v=1776351627&width=1920",
+     "name": "GRID Backpack - VIP Offer - Black",
+     "offers": {
+      "@id": "/products/grid-backpack-vip-offer?variant=43875375218751#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/grid-backpack-vip-offer?variant=43875375218751"
+     },
+     "sku": "EKS-BK1-20L-BLK"
+    }
+   ],
+   "name": "GRID Backpack - VIP Offer",
+   "productGroupID": "8358233931839",
+   "url": "https://www.ekster.com/products/grid-backpack-vip-offer"
+  },
+  {
+   "@id": "/products/grid-backpack-vip-offer?variant=43875375218751#variant",
+   "@type": "Product",
+   "gtin": "8720254216645",
+   "image": "https://www.ekster.com/cdn/shop/files/grid-backpack.png?v=1776351627&width=1920",
+   "name": "GRID Backpack - VIP Offer - Black",
+   "offers": {
+    "@id": "/products/grid-backpack-vip-offer?variant=43875375218751#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "127.00",
+    "priceCurrency": "USD",
+    "url": "https://www.ekster.com/products/grid-backpack-vip-offer?variant=43875375218751"
+   },
+   "sku": "EKS-BK1-20L-BLK"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-02T20:05:51Z",
+ "og_image": "http://www.ekster.com/cdn/shop/files/GRIDBackpack_Anthracite_PDPImage_1.png?v=1776351627",
+ "page_sha256": "81e1d5a02acab9d6ffd27e6464ea1644101598d59472b1ba6b85cacce5541ab7",
+ "rendered_checked": true,
+ "title": "GRID Backpack | For on and off the grid - Ekster\u00ae",
+ "url": "https://ekster.com/products/grid-backpack-vip-offer"
+}

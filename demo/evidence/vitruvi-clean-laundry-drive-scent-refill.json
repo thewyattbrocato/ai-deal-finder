@@ -1,0 +1,48 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://vitruvi.com/products/clean-laundry-drive-scent-refill",
+ "http_status": 200,
+ "id": "vitruvi-clean-laundry-drive-scent-refill",
+ "image_file": "vitruvi-clean-laundry-drive-scent-refill.png",
+ "image_sha256": "b2de4bf0086c288a22be8a1bce82d444ac8a8d2d1b2ee04bc375fe1dfe391522",
+ "image_source": "http://vitruvi.com/cdn/shop/files/pdp_drive-refill_clean-laundry_gallery_1.png?v=1790013488&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://vitruvi.com/products/clean-laundry-drive-scent-refill#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Vitruvi"
+   },
+   "description": "<p><span>Clean Laundry is crisp, and refreshingly simple</span>. <meta charset=\"utf-8\"><span>Notes of soft florals evoke the feeling of warm towels and open windows, and the quiet joy of a freshly cleaned space</span>. <meta charset=\"utf-8\">A natural scent free from: Sulfates, Parabens, Formaldehydes, Phthalates.</p>\n<p>Perfect for:\u00a0</p>\n<ul>\n<li>\n<p dir=\"ltr\">Long-weekend road trips\u00a0\u00a0<br></p>\n</li>\n<li>\n<p dir=\"ltr\">Like a fresh bouquet is sitting in the front seat\u00a0</p>\n</li>\n<li>\n<p dir=\"ltr\">Morning errands</p>\n</li>\n</ul>\n<p><i> For use with <a title=\"Drive Air Freshener Vent Clip\" href=\"/products/drive-air-freshener-vent-clip\">Vitruvi Drive Air Freshener Vent Clip\u00a0</a></i></p>",
+   "image": "https:files/pdp_drive-refill_clean-laundry_gallery_1.png",
+   "itemCondition": "http://schema.org/NewCondition",
+   "mpn": "DSR-50037-01",
+   "name": "Clean Laundry Drive Scent Refill",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https:files/pdp_drive-refill_clean-laundry_gallery_1.png",
+     "itemCondition": "http://schema.org/NewCondition",
+     "mpn": "DSR-50037-01",
+     "price": "7.99",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-09-21 15:53:26 -0700",
+     "sku": "DSR-50037-01",
+     "url": "https://vitruvi.com/products/clean-laundry-drive-scent-refill?variant=44875897569460"
+    }
+   ],
+   "sku": "DSR-50037-01",
+   "url": "https://vitruvi.com/products/clean-laundry-drive-scent-refill"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-02T20:04:55Z",
+ "og_image": "http://vitruvi.com/cdn/shop/files/pdp_drive-refill_clean-laundry_gallery_1.png?v=1790013488",
+ "page_sha256": "5ba5af4474aea1b022d9962ddeca3896701fd69feab9088682ae748b584a62eb",
+ "rendered_checked": true,
+ "title": "Clean Laundry Drive Scent Refill \u2013 Vitruvi US",
+ "url": "https://vitruvi.com/products/clean-laundry-drive-scent-refill"
+}

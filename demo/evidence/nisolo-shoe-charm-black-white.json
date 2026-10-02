@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nisolo.com/products/shoe-charm-black-white",
+ "http_status": 200,
+ "id": "nisolo-shoe-charm-black-white",
+ "image_file": "nisolo-shoe-charm-black-white.jpg",
+ "image_sha256": "a7b76d8966a541822f21b6ff899097d7c07d8f5a6cc37b2ccd0915e23a35c9c7",
+ "image_source": "http://nisolo.com/cdn/shop/files/blackandwhite_1.jpg?v=1790275200&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Nisolo"
+   },
+   "description": "Our newest shoe charms have arrived just in time for fall. Slightly larger in scale, these charms offer an effortless way to personalize your favorite huaraches\u2014and even some of our newest boots. Each charm features a sleek hinge clasp that attaches seamlessly, making thoughtful customization easy. From delicate pops of color to polished metallic accents, these versatile charms add a considered finishing touch and transform every pair into a style statement all your own.",
+   "image": [
+    "https://nisolo.com/cdn/shop/files/blackandwhite_1.jpg?v=1790275200&width=1920"
+   ],
+   "name": "Shoe Charm Black/White",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": 840493712475,
+     "price": 28.0,
+     "priceCurrency": "USD",
+     "sku": "AA-00243SW",
+     "url": "https://nisolo.com/products/shoe-charm-black-white?variant=53377097138357"
+    }
+   ],
+   "sku": "AA-00243SW",
+   "url": "https://nisolo.com/products/shoe-charm-black-white"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T20:05:34Z",
+ "og_image": "http://nisolo.com/cdn/shop/files/blackandwhite_1.jpg?v=1790275200",
+ "page_sha256": "7e67012fd13de3abbb8c749c744c3cecbf0f2dc5cb473f06484be7b460c6c568",
+ "rendered_checked": true,
+ "title": "Shoe Charm Black/White \u2013 Nisolo",
+ "url": "https://nisolo.com/products/shoe-charm-black-white"
+}

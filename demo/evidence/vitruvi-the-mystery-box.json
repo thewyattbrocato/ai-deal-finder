@@ -1,0 +1,48 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://vitruvi.com/products/the-mystery-box",
+ "http_status": 200,
+ "id": "vitruvi-the-mystery-box",
+ "image_file": "vitruvi-the-mystery-box.jpg",
+ "image_sha256": "e9c06e0079628bad2803c7e9ff43eaea3a8efd522c35bbc9c3766b7b3fba923a",
+ "image_source": "http://vitruvi.com/cdn/shop/files/page_home_secondary_mysterybox_image_38b7887a-4794-4b4f-8808-85005ff5bba9.jpg?v=1790698056&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://vitruvi.com/products/the-mystery-box#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Vitruvi"
+   },
+   "description": "<p data-end=\"541\" data-start=\"340\">They're back! Our Mystery Box is filled with a surprise selection of our most-loved Vitruvi products. What\u2019s inside? Only one way to find out.</p>\n<p data-end=\"649\" data-start=\"543\">No peeking, no restocks, and no returns\u2014just a final sale box of curated favorites at an unbeatable price.</p>\n<p data-start=\"479\" data-end=\"612\">Quantities are extremely limited, and once they\u2019re gone\u2014they\u2019re gone for good.\u00a0</p>\n<p data-start=\"614\" data-end=\"707\">Whether you're treating yourself or gifting someone special, this box is designed to delight.</p>\n<p data-start=\"614\" data-end=\"707\"><strong>Key Details:</strong></p>\n<ul data-start=\"732\" data-end=\"813\">\n<li data-start=\"732\" data-end=\"745\">\n<p data-start=\"734\" data-end=\"745\">40% Off (<meta charset=\"utf-8\">Value based on Retail Pricing)</p>\n</li>\n<li data-start=\"732\" data-end=\"745\">\n<p data-start=\"734\" data-end=\"745\">Final Sale</p>\n</li>\n<li data-start=\"764\" data-end=\"787\">\n<p data-start=\"766\" data-end=\"787\">Limited Quantity</p>\n</li>\n</ul>",
+   "image": "https:files/page_home_secondary_mysterybox_image_38b7887a-4794-4b4f-8808-85005ff5bba9.jpg",
+   "itemCondition": "http://schema.org/NewCondition",
+   "mpn": "MBX-10001",
+   "name": "The Mystery Box",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https:files/page_home_secondary_mysterybox_image_38b7887a-4794-4b4f-8808-85005ff5bba9.jpg",
+     "itemCondition": "http://schema.org/NewCondition",
+     "mpn": "MBX-10001",
+     "price": "132.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-01 08:34:20 -0700",
+     "sku": "MBX-10001",
+     "url": "https://vitruvi.com/products/the-mystery-box?variant=44059363868852"
+    }
+   ],
+   "sku": "MBX-10001",
+   "url": "https://vitruvi.com/products/the-mystery-box"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-02T20:04:53Z",
+ "og_image": "http://vitruvi.com/cdn/shop/files/page_home_secondary_mysterybox_image_38b7887a-4794-4b4f-8808-85005ff5bba9.jpg?v=1790698056",
+ "page_sha256": "0eadf618f39dea7a2b482fc62a329698a4f92f94a0c180940b5547356f303fa8",
+ "rendered_checked": true,
+ "title": "The Mystery Box \u2013 Vitruvi US",
+ "url": "https://vitruvi.com/products/the-mystery-box"
+}

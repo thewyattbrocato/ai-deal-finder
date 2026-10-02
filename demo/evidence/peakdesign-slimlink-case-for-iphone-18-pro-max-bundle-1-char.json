@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal",
+ "http_status": 200,
+ "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-char",
+ "image_file": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-char.png",
+ "image_sha256": "0f7a1e976f65215982053da02a9431512a88ccea3733627288be61124bff21ef",
+ "image_source": "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Charcoal_e958ee4d-da04-499a-8685-d87a03a2caf0.png?v=1790192165&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Peak Design"
+   },
+   "description": "",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/2986/1172/files/SlimLink_Case_for_iPhone_18_Pro_Max_Bundle_1_Charcoal_e958ee4d-da04-499a-8685-d87a03a2caf0.png?v=1790192165"
+   ],
+   "name": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Charcoal",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 152.87,
+     "priceCurrency": "USD",
+     "sku": "",
+     "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal?Title=Default+Title"
+    }
+   ],
+   "sku": "",
+   "url": "https://www.peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:45Z",
+ "og_image": null,
+ "page_sha256": "d642d27ab258f91d41e3b63ff4ad5a90f7dde94be94325e4bdcf6e03c9a5255e",
+ "rendered_checked": true,
+ "title": "SlimLink Case for iPhone 18 Pro Max + Bundle 1 | Charcoal | Peak Design Official Site",
+ "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal"
+}

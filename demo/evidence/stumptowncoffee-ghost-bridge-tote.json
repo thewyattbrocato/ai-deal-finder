@@ -1,0 +1,51 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote",
+ "http_status": 200,
+ "id": "stumptowncoffee-ghost-bridge-tote",
+ "image_file": "stumptowncoffee-ghost-bridge-tote.png",
+ "image_sha256": "11d4c276f2fd0c6be7f72641158abaf42ecb9faa46e4c15debdf0112ae85e4a5",
+ "image_source": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.stumptowncoffee.com/products/ghost-bridge-tote",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stumptown Coffee"
+   },
+   "description": "This limited-edition WILDWOOD tote is your trusty companion, the holder of your secrets, the carry-all for any adventure where magic and coffee reign supreme.",
+   "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+   "mpn": "100767",
+   "name": "Ghost Bridge Tote",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "100767",
+     "price": "25.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Stumptown Coffee"
+     },
+     "sku": "100767",
+     "url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote/products/ghost-bridge-tote?variant=56033620525224"
+    }
+   ],
+   "sku": "100767",
+   "url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T19:58:21Z",
+ "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+ "page_sha256": "7771b15950ad346e66926e198a98d10d8c0fa6be9ea52b926921043d0a9f38e5",
+ "rendered_checked": true,
+ "title": "Ghost Bridge Tote | Stumptown Coffee Roasters",
+ "url": "https://stumptowncoffee.com/products/ghost-bridge-tote"
+}

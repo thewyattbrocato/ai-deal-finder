@@ -1,0 +1,94 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://drinkolipop.com/products/pomegranate-sparkle",
+ "http_status": 200,
+ "id": "drinkolipop-pomegranate-sparkle",
+ "image_file": "drinkolipop-pomegranate-sparkle.png",
+ "image_sha256": "092d8547afa58bc00da8deee4e86e54ab0db5304a7619873a0ec5f787577d937",
+ "image_source": "http://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset_1200x1200.webp?v=1789390717&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/pomegranate-sparkle#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "OLIPOP"
+   },
+   "category": "Soda",
+   "description": "Pomegranate Sparkle is a juicy blend of pomegranate, sweet quince, and tangy passion fruit, with a crisp sparkle. Smooth, sweet-tart, and just fancy enough to light up any holiday table.",
+   "hasVariant": [
+    {
+     "@id": "/products/pomegranate-sparkle?variant=62871023616159#variant",
+     "@type": "Product",
+     "image": "https://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset.webp?v=1789390717&width=1920",
+     "name": "Pomegranate Sparkle - 1 Can",
+     "offers": {
+      "@id": "/products/pomegranate-sparkle?variant=62871023616159#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "35.99",
+      "priceCurrency": "USD",
+      "url": "https://drinkolipop.com/products/pomegranate-sparkle?variant=62871023616159"
+     }
+    },
+    {
+     "@id": "/products/pomegranate-sparkle?variant=62865580589215#variant",
+     "@type": "Product",
+     "gtin": "810196870000",
+     "image": "https://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset.webp?v=1789390717&width=1920",
+     "name": "Pomegranate Sparkle - 12 Pack",
+     "offers": {
+      "@id": "/products/pomegranate-sparkle?variant=62865580589215#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "35.99",
+      "priceCurrency": "USD",
+      "url": "https://drinkolipop.com/products/pomegranate-sparkle?variant=62865580589215"
+     },
+     "sku": "OP-PS-12-A"
+    }
+   ],
+   "name": "Pomegranate Sparkle",
+   "productGroupID": "10934531719327",
+   "url": "https://drinkolipop.com/products/pomegranate-sparkle"
+  },
+  {
+   "@id": "/products/pomegranate-sparkle?variant=62871023616159#variant",
+   "@type": "Product",
+   "image": "https://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset.webp?v=1789390717&width=1920",
+   "name": "Pomegranate Sparkle - 1 Can",
+   "offers": {
+    "@id": "/products/pomegranate-sparkle?variant=62871023616159#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "35.99",
+    "priceCurrency": "USD",
+    "url": "https://drinkolipop.com/products/pomegranate-sparkle?variant=62871023616159"
+   }
+  },
+  {
+   "@id": "/products/pomegranate-sparkle?variant=62865580589215#variant",
+   "@type": "Product",
+   "gtin": "810196870000",
+   "image": "https://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset.webp?v=1789390717&width=1920",
+   "name": "Pomegranate Sparkle - 12 Pack",
+   "offers": {
+    "@id": "/products/pomegranate-sparkle?variant=62865580589215#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "35.99",
+    "priceCurrency": "USD",
+    "url": "https://drinkolipop.com/products/pomegranate-sparkle?variant=62865580589215"
+   },
+   "sku": "OP-PS-12-A"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-02T20:04:04Z",
+ "og_image": "http://drinkolipop.com/cdn/shop/files/pomegranate-sparkle-6g-olipop_gallery-image_single-can_new_asset_1200x1200.webp?v=1789390717",
+ "page_sha256": "88973bad48b6c3a94892868b1e2a85e8b473e7088ce7a556d1a96842db32eff1",
+ "rendered_checked": true,
+ "title": "Pomegranate Sparkle Prebiotic Soda 6g Fiber | OLIPOP",
+ "url": "https://drinkolipop.com/products/pomegranate-sparkle"
+}

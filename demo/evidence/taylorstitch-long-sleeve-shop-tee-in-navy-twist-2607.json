@@ -1,0 +1,3352 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607",
+ "http_status": 200,
+ "id": "taylorstitch-long-sleeve-shop-tee-in-navy-twist-2607",
+ "image_file": "taylorstitch-long-sleeve-shop-tee-in-navy-twist-2607.jpg",
+ "image_sha256": "8d7e8452f441c3eb3522e16682174ffef01ee2bd30533e516dadf6f1f3d8abb0",
+ "image_source": "http://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@id": "https://www.taylorstitch.com/collections/the-long-sleeve-shop-tee",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 5
+   },
+   "brand": "Taylor Stitch",
+   "description": "A hefty, purpose-built long-sleeve tee, crafted to endure.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748420173"
+     },
+     "size": "XS - 36",
+     "sku": "2607LSSTNT36"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748452941"
+     },
+     "size": "S - 38",
+     "sku": "2607LSSTNT38"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748485709"
+     },
+     "size": "M - 40",
+     "sku": "2607LSSTNT40"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748518477"
+     },
+     "size": "L - 42",
+     "sku": "2607LSSTNT42"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748551245"
+     },
+     "size": "XL - 44",
+     "sku": "2607LSSTNT44"
+    },
+    {
+     "@type": "Product",
+     "color": "Navy Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+     "name": "The Long Sleeve Shop Tee in Navy Twist (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748584013"
+     },
+     "size": "XXL - 46",
+     "sku": "2607LSSTNT46"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099621965"
+     },
+     "size": "XS - 36",
+     "sku": "2511LSSTAT36"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099654733"
+     },
+     "size": "S - 38",
+     "sku": "2511LSSTAT38"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099687501"
+     },
+     "size": "M - 40",
+     "sku": "2511LSSTAT40"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099720269"
+     },
+     "size": "L - 42",
+     "sku": "2511LSSTAT42"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099753037"
+     },
+     "size": "XL - 44",
+     "sku": "2511LSSTAT44"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+     "name": "The Long Sleeve Shop Tee in Army Twist (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099785805"
+     },
+     "size": "XXL - 46",
+     "sku": "2511LSSTAT46"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099425357"
+     },
+     "size": "XS - 36",
+     "sku": "2511LSSTCT36"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099458125"
+     },
+     "size": "S - 38",
+     "sku": "2511LSSTCT38"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099490893"
+     },
+     "size": "M - 40",
+     "sku": "2511LSSTCT40"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099523661"
+     },
+     "size": "L - 42",
+     "sku": "2511LSSTCT42"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099556429"
+     },
+     "size": "XL - 44",
+     "sku": "2511LSSTCT44"
+    },
+    {
+     "@type": "Product",
+     "color": "Coal Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+     "name": "The Long Sleeve Shop Tee in Coal Twist (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099589197"
+     },
+     "size": "XXL - 46",
+     "sku": "2511LSSTCT46"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099818573"
+     },
+     "size": "XS - 36",
+     "sku": "2511LSSTOT36"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099851341"
+     },
+     "size": "S - 38",
+     "sku": "2511LSSTOT38"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099884109"
+     },
+     "size": "M - 40",
+     "sku": "2511LSSTOT40"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099916877"
+     },
+     "size": "L - 42",
+     "sku": "2511LSSTOT42"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099949645"
+     },
+     "size": "XL - 44",
+     "sku": "2511LSSTOT44"
+    },
+    {
+     "@type": "Product",
+     "color": "Oat Twist",
+     "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+     "name": "The Long Sleeve Shop Tee in Oat Twist (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099982413"
+     },
+     "size": "XXL - 46",
+     "sku": "2511LSSTOT46"
+    }
+   ],
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee",
+   "productGroupID": "296168095821",
+   "url": "https://www.taylorstitch.com/collections/the-long-sleeve-shop-tee",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (XS - 36)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748420173"
+   },
+   "size": "XS - 36",
+   "sku": "2607LSSTNT36"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (S - 38)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748452941"
+   },
+   "size": "S - 38",
+   "sku": "2607LSSTNT38"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (M - 40)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748485709"
+   },
+   "size": "M - 40",
+   "sku": "2607LSSTNT40"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (L - 42)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748518477"
+   },
+   "size": "L - 42",
+   "sku": "2607LSSTNT42"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (XL - 44)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748551245"
+   },
+   "size": "XL - 44",
+   "sku": "2607LSSTNT44"
+  },
+  {
+   "@type": "Product",
+   "color": "Navy Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880",
+   "name": "The Long Sleeve Shop Tee in Navy Twist (XXL - 46)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607?variant=42522748584013"
+   },
+   "size": "XXL - 46",
+   "sku": "2607LSSTNT46"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (XS - 36)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099621965"
+   },
+   "size": "XS - 36",
+   "sku": "2511LSSTAT36"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (S - 38)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099654733"
+   },
+   "size": "S - 38",
+   "sku": "2511LSSTAT38"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (M - 40)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099687501"
+   },
+   "size": "M - 40",
+   "sku": "2511LSSTAT40"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (L - 42)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099720269"
+   },
+   "size": "L - 42",
+   "sku": "2511LSSTAT42"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (XL - 44)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099753037"
+   },
+   "size": "XL - 44",
+   "sku": "2511LSSTAT44"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+   "name": "The Long Sleeve Shop Tee in Army Twist (XXL - 46)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511?variant=41674099785805"
+   },
+   "size": "XXL - 46",
+   "sku": "2511LSSTAT46"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (XS - 36)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099425357"
+   },
+   "size": "XS - 36",
+   "sku": "2511LSSTCT36"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (S - 38)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099458125"
+   },
+   "size": "S - 38",
+   "sku": "2511LSSTCT38"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (M - 40)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099490893"
+   },
+   "size": "M - 40",
+   "sku": "2511LSSTCT40"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (L - 42)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099523661"
+   },
+   "size": "L - 42",
+   "sku": "2511LSSTCT42"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (XL - 44)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099556429"
+   },
+   "size": "XL - 44",
+   "sku": "2511LSSTCT44"
+  },
+  {
+   "@type": "Product",
+   "color": "Coal Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-coal-twist.jpg?v=1790618929",
+   "name": "The Long Sleeve Shop Tee in Coal Twist (XXL - 46)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-coal-twist-2511?variant=41674099589197"
+   },
+   "size": "XXL - 46",
+   "sku": "2511LSSTCT46"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (XS - 36)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099818573"
+   },
+   "size": "XS - 36",
+   "sku": "2511LSSTOT36"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (S - 38)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099851341"
+   },
+   "size": "S - 38",
+   "sku": "2511LSSTOT38"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (M - 40)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099884109"
+   },
+   "size": "M - 40",
+   "sku": "2511LSSTOT40"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (L - 42)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099916877"
+   },
+   "size": "L - 42",
+   "sku": "2511LSSTOT42"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (XL - 44)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099949645"
+   },
+   "size": "XL - 44",
+   "sku": "2511LSSTOT44"
+  },
+  {
+   "@type": "Product",
+   "color": "Oat Twist",
+   "description": "A workhorse through and through, The Long Sleeve Shop Tee is built from heavyweight organic cotton jersey that\u2019s soft, substantial, and looks sharp on and...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/long-sleeve-shop-tee-in-oat-twist.jpg?v=1790618951",
+   "name": "The Long Sleeve Shop Tee in Oat Twist (XXL - 46)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-oat-twist-2511?variant=41674099982413"
+   },
+   "size": "XXL - 46",
+   "sku": "2511LSSTOT46"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:00:52Z",
+ "og_image": "http://www.taylorstitch.com/cdn/shop/files/Q326_Long_Sleeve_Shop_Tee_in_Navy_Twist_PDP_001.jpg?v=1790713880&width=1600",
+ "page_sha256": "fa405a94b9a16d320335e69b75cead3da4a567233bf98c82a010d85e6069e8f8",
+ "rendered_checked": true,
+ "title": "The Long Sleeve Shop Tee in Navy Twist | Taylor Stitch",
+ "url": "https://taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607"
+}

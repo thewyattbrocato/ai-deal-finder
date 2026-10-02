@@ -1,0 +1,863 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609",
+ "http_status": 200,
+ "id": "taylorstitch-eastmoor-cardigan-in-oatmeal-wool-2609",
+ "image_file": "taylorstitch-eastmoor-cardigan-in-oatmeal-wool-2609.jpg",
+ "image_sha256": "442b2de1dc45b12f16711b4ede546206ae93f955bba7fff54fd9f26482a2be0c",
+ "image_source": "http://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@id": "https://www.taylorstitch.com/collections/the-eastmoor-cardigan",
+   "@type": "ProductGroup",
+   "brand": "Taylor Stitch",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585192013"
+     },
+     "size": "XS - 36",
+     "sku": "2609ECOW36"
+    },
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585224781"
+     },
+     "size": "S - 38",
+     "sku": "2609ECOW38"
+    },
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585257549"
+     },
+     "size": "M - 40",
+     "sku": "2609ECOW40"
+    },
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585290317"
+     },
+     "size": "L - 42",
+     "sku": "2609ECOW42"
+    },
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585323085"
+     },
+     "size": "XL - 44",
+     "sku": "2609ECOW44"
+    },
+    {
+     "@type": "Product",
+     "color": "Oatmeal Wool",
+     "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+     "name": "The Eastmoor Cardigan in Oatmeal Wool (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 198.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585355853"
+     },
+     "size": "XXL - 46",
+     "sku": "2609ECOW46"
+    }
+   ],
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan",
+   "productGroupID": "295669989453",
+   "url": "https://www.taylorstitch.com/collections/the-eastmoor-cardigan",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (XS - 36)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585192013"
+   },
+   "size": "XS - 36",
+   "sku": "2609ECOW36"
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (S - 38)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585224781"
+   },
+   "size": "S - 38",
+   "sku": "2609ECOW38"
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (M - 40)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585257549"
+   },
+   "size": "M - 40",
+   "sku": "2609ECOW40"
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (L - 42)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585290317"
+   },
+   "size": "L - 42",
+   "sku": "2609ECOW42"
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (XL - 44)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585323085"
+   },
+   "size": "XL - 44",
+   "sku": "2609ECOW44"
+  },
+  {
+   "@type": "Product",
+   "color": "Oatmeal Wool",
+   "description": "Crafted from exceptionally soft, mid-weight wool, the Eastmoor Cardigan features a classic V-neck silhouette that\u2019s easy to wear in any setting. Textured ...",
+   "image": "https://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457",
+   "name": "The Eastmoor Cardigan in Oatmeal Wool (XXL - 46)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 21,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicyCountry": "US",
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 198.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Taylor Stitch"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "businessDays": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday"
+       ]
+      },
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 1,
+       "minValue": 0,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 4,
+       "minValue": 2,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": 0
+     },
+     "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+    },
+    "url": "https://www.taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609?variant=42507585355853"
+   },
+   "size": "XXL - 46",
+   "sku": "2609ECOW46"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:00:57Z",
+ "og_image": "http://www.taylorstitch.com/cdn/shop/files/eastmoor-cardigan-in-oatmeal-wool-2609_001.jpg?v=1790611457&width=1600",
+ "page_sha256": "7981c4a43c4da4ff18683f0ab57fd0a1fb0f97023c5fa489b9688ed2b9de8800",
+ "rendered_checked": true,
+ "title": "The Eastmoor Cardigan in Oatmeal Wool | Taylor Stitch",
+ "url": "https://taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609"
+}

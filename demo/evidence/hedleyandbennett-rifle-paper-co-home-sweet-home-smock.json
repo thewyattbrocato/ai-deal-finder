@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock",
+ "http_status": 200,
+ "id": "hedleyandbennett-rifle-paper-co-home-sweet-home-smock",
+ "image_error": "unknown url type: '%5Bobject%20Object%5D'",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Hedley & Bennett"
+   },
+   "image": "https://cdn.shopify.com/s/files/1/0187/0608/files/Rifle-Paper-Co-Home-Sweet-Home-Smock_00046-Square1.jpg?v=1790880037",
+   "name": "Rifle Paper Co Home Sweet Home Smock",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "129.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Hedley & Bennett"
+    },
+    "url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock"
+   }
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:04:16Z",
+ "og_image": "[object Object]",
+ "page_sha256": "947950ce8b55f6812f36c78767242bf60ec32b95e65a65257d1b2771ed5c54a2",
+ "rendered_checked": true,
+ "title": "Smock Florals - Rifle Paper Co. Home Sweet Home | Hedley & Bennett",
+ "url": "https://hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock"
+}

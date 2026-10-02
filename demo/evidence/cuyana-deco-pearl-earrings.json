@@ -1,0 +1,80 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cuyana.com/products/deco-pearl-earrings",
+ "http_status": 200,
+ "id": "cuyana-deco-pearl-earrings",
+ "image_file": "cuyana-deco-pearl-earrings.jpg",
+ "image_sha256": "f315ad3ec52971905e03936f92eaac57d96acb8bfddcb1412a9f8c27912e7882",
+ "image_source": "http://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoPearlEarrings_Gold_6741.jpg?v=1789503342&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Care Instructions",
+     "value": "Dimensions H 22 mm x W 12 mm Weight: 5 g per earring Care Keep your jewelry pieces away from water, perfume, make up and other beauty products to prevent premature tarnishing Store your jewelry pieces in their original pouch to prevent exposure to humidity"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "12 Month Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Design",
+     "value": "Striking & Unique: The Deco Pearl Earrings bring vintage charm and modern appeal to your jewelry collection. Dress them up or wear it with your daily uniform."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Quality",
+     "value": "Handcrafted in New York City: Handmade by skilled artisans in New York City from 14k gold-plated recycled brass and freshwater pearls."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Sustainability",
+     "value": "Responsible Production: We use recycled brass to lessen the environmental impact of mining virgin metals, while our NYC-based production helps to reduce our carbon footprint from shipping."
+    }
+   ],
+   "brand": {
+    "name": "Cuyana"
+   },
+   "category": "Jewelry",
+   "description": "These Deco Pearl Earrings bring the bold geometric forms of Art Deco into a modern heirloom. The freshwater pearls bring an elegant and timeless look.",
+   "gtin12": "840475912909",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoPearlEarrings_Gold_6741_1024x.jpg?v=1789503342",
+    "name": "Geometric drop earrings with pearl accents",
+    "url": "https://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoPearlEarrings_Gold_6741_1024x.jpg?v=1789503342",
+    "width": "1024"
+   },
+   "material": "14K Gold Plated Brass",
+   "name": "Deco Pearl Earrings",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "name": "Gold / One Size",
+     "price": 198.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-12",
+     "sku": "10063720-710-000",
+     "url": "/products/deco-pearl-earrings?variant=53896277688686"
+    }
+   ],
+   "productId": "840475912909",
+   "sku": "10063720-710-000",
+   "url": "/products/deco-pearl-earrings"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:05:26Z",
+ "og_image": "http://cuyana.com/cdn/shop/files/PDP_2000x2500_FA26_DecoPearlEarrings_Gold_6741.jpg?v=1789503342",
+ "page_sha256": "e49c8ea0d96a8e27925a77bb4835727dbf10cee71e486848f89a45ffece105e6",
+ "rendered_checked": true,
+ "title": "Deco Pearl Earrings \u2013 Cuyana",
+ "url": "https://cuyana.com/products/deco-pearl-earrings"
+}

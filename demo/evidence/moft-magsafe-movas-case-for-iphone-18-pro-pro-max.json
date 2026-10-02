@@ -1,0 +1,46 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.moft.com/products/magsafe-movas-case-for-iphone-18-pro-pro-max",
+ "http_status": 200,
+ "id": "moft-magsafe-movas-case-for-iphone-18-pro-pro-max",
+ "image_file": "moft-magsafe-movas-case-for-iphone-18-pro-pro-max.png",
+ "image_sha256": "f3f61a078d7f83f37eb1cdf70953d7bbbb2f3c7bd83d59b87675ab1e270d5c9c",
+ "image_source": "http://www.moft.com/cdn/shop/files/Snap_Case_for_i18_Pro_Max_63325560.png?v=1789060268&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "MD020"
+   },
+   "description": "Special Offers:Get $10 OFF \u2014 Buy 1 iPhone 18 Pro/Pro Max case + any Tripod Stand / Wallet, Wallet Stand, Watch Band, or Lanyard Get $10 OFF \u2014 Buy any 2 iPhone 18 Pro/Pro Max cases",
+   "image": [
+    "https://www.moft.com/cdn/shop/files/Snap_Case_for_i18_Pro_Max_63325560.png?v=1789060268&width=1000"
+   ],
+   "mpn": "",
+   "name": "Snap Case MOVAS\u2122 for iPhone 18 Series - MagSafe Compatible",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "mpn": "",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-02",
+    "sku": "MD020-1-i18pm-BBPL",
+    "url": "https://www.moft.com/products/magsafe-movas-case-for-iphone-18-pro-pro-max"
+   },
+   "productID": "7747459874903",
+   "sku": "MD020-1-i18pm-BBPL",
+   "url": "https://www.moft.com/products/magsafe-movas-case-for-iphone-18-pro-pro-max"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T20:06:07Z",
+ "og_image": "http://www.moft.com/cdn/shop/files/Snap_Case_for_i18_Pro_Max_63325560.png?v=1789060268",
+ "page_sha256": "487e42d80ff2ad84cabe01012828dc3dec5c79509f66656ef50588030011fcd9",
+ "rendered_checked": true,
+ "title": "Snap Case MOVAS\u2122 for iPhone 18 Series - MagSafe Compatible \u2013 MOFT",
+ "url": "https://moft.us/products/magsafe-movas-case-for-iphone-18-pro-pro-max"
+}

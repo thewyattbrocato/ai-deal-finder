@@ -1,0 +1,40 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle",
+ "http_status": 200,
+ "id": "drinkolipop-caramel-apple-crisp-apple-bundle",
+ "image_file": "drinkolipop-caramel-apple-crisp-apple-bundle.png",
+ "image_sha256": "7e4b52cd4ced8a6b2bfe672bf36287d67586dcc942f16e01e9c381630319c271",
+ "image_source": "http://drinkolipop.com/cdn/shop/files/PLP-V3_1200x1200.png?v=1790962058&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/caramel-apple-crisp-apple-bundle#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "OLIPOP"
+   },
+   "category": "",
+   "description": "",
+   "image": "https://drinkolipop.com/cdn/shop/files/PLP-V3.png?v=1790962058&width=1920",
+   "name": "Caramel Apple + Crisp Apple Bundle",
+   "offers": {
+    "@id": "/products/caramel-apple-crisp-apple-bundle?variant=62857637134495#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "53.98",
+    "priceCurrency": "USD",
+    "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle?variant=62857637134495"
+   },
+   "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-02T20:04:01Z",
+ "og_image": "http://drinkolipop.com/cdn/shop/files/PLP-V3_1200x1200.png?v=1790962058",
+ "page_sha256": "756b72c8341b0f4faafd46d1af58c48a2d3d883c4db11d30ec79d635061e30f9",
+ "rendered_checked": true,
+ "title": "Caramel Apple + Crisp Apple Bundle \u2013 OLIPOP",
+ "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
+}

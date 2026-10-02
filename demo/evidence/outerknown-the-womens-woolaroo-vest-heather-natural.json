@@ -1,0 +1,384 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural",
+ "http_status": 200,
+ "id": "outerknown-the-womens-woolaroo-vest-heather-natural",
+ "image_file": "outerknown-the-womens-woolaroo-vest-heather-natural.jpg",
+ "image_sha256": "bcd430a9649491a603514e63a61cad3f1eebcd058723cbeeebf54793ffe87244",
+ "image_source": "http://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?v=1790793299&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Outerknown"
+   },
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333660",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / XS",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527910940856"
+     },
+     "size": "XS",
+     "sku": "2520013-HTN-XX-XS"
+    },
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333677",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / S",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527910973624"
+     },
+     "size": "S",
+     "sku": "2520013-HTN-XX-S"
+    },
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333684",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / M",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911006392"
+     },
+     "size": "M",
+     "sku": "2520013-HTN-XX-M"
+    },
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333691",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / L",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911039160"
+     },
+     "size": "L",
+     "sku": "2520013-HTN-XX-L"
+    },
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333707",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / XL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911071928"
+     },
+     "size": "XL",
+     "sku": "2520013-HTN-XX-XL"
+    },
+    {
+     "@type": "Product",
+     "color": "Heather Natural",
+     "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+     "gtin": "196333333714",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+     },
+     "name": "The Women's Woolaroo Vest:Heather Natural / XXL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 248.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 248.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911104696"
+     },
+     "size": "XXL",
+     "sku": "2520013-HTN-XX-XXL"
+    }
+   ],
+   "image": [
+    "https://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_38.jpg?crop=center&height=1080&v=1790793299&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_39.jpg?crop=center&height=1080&v=1790793300&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/2520013_The-Women-s-Woolaroo-Vest_Heather-Natural_HTN_11224.jpg?crop=center&height=1080&v=1788302105&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/2520013_The-Women-s-Woolaroo-Vest_Heather-Natural_HTN_11262.jpg?crop=center&height=1080&v=1788302105&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/2520013_The_Womens_Woolaroo_Vest_HTN_0146.jpg?crop=center&height=1080&v=1788302133&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/2520013_The_Womens_Woolaroo_Vest_HTN_0148.jpg?crop=center&height=1080&v=1788302133&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/2520013_The_Womens_Woolaroo_Vest_HTN_0124.jpg?crop=center&height=1080&v=1788302133&width=1920",
+    "https://www.outerknown.com/cdn/shop/files/HTN_SWT_woolaroo.png?crop=center&height=1080&v=1789503782&width=1920"
+   ],
+   "name": "The Women's Woolaroo Vest",
+   "productGroupID": "10424765350072",
+   "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural",
+   "variesBy": [
+    "color",
+    "size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333660",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / XS",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527910940856"
+   },
+   "size": "XS",
+   "sku": "2520013-HTN-XX-XS"
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333677",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / S",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527910973624"
+   },
+   "size": "S",
+   "sku": "2520013-HTN-XX-S"
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333684",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / M",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911006392"
+   },
+   "size": "M",
+   "sku": "2520013-HTN-XX-M"
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333691",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / L",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911039160"
+   },
+   "size": "L",
+   "sku": "2520013-HTN-XX-L"
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333707",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / XL",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911071928"
+   },
+   "size": "XL",
+   "sku": "2520013-HTN-XX-XL"
+  },
+  {
+   "@type": "Product",
+   "color": "Heather Natural",
+   "description": "<div class=\"ewa-rteLine\">Wool fleece hits different. Not plastic. Unlike traditional fleece made from plastic, this hoodie is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Perfect layered over a lightweight sweater or denim shirt, we took the Woolaroo\u2019s renowned natural softness and warmth and created this Woolaroo Vest with the same slightly oversized fit and design lines of our best-selling Woolaroo Cocoon Jacket.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</li>\n</ul>\n</div>",
+   "gtin": "196333333714",
+   "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?crop=center&height=1080&v=1790793299&width=1920",
+   "isVariantOf": {
+    "@id": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural#product-group"
+   },
+   "name": "The Women's Woolaroo Vest:Heather Natural / XXL",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 248.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 248.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural?variant=53527911104696"
+   },
+   "size": "XXL",
+   "sku": "2520013-HTN-XX-XXL"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:05:21Z",
+ "og_image": "http://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_48.jpg?v=1790793299",
+ "page_sha256": "ee5da5a8281eef6a34c268a1a45cca8198ad8709cc1a08983d44cb4acee37258",
+ "rendered_checked": true,
+ "title": "The Women's Woolaroo Vest - Heather Natural | Women's Wool Jacket | Outerknown",
+ "url": "https://outerknown.com/products/the-womens-woolaroo-vest-heather-natural"
+}

@@ -1,0 +1,972 @@
+[
+ {
+  "id": "allbirds-womens-allbirds-flip-flop-dusty-pink",
+  "url": "https://allbirds.com/products/womens-allbirds-flip-flop-dusty-pink",
+  "kind": "Shoes"
+ },
+ {
+  "id": "allbirds-mens-canvas-runner-nz",
+  "url": "https://allbirds.com/products/mens-canvas-runner-nz",
+  "kind": "Shoes"
+ },
+ {
+  "id": "allbirds-womens-canvas-runner-nz",
+  "url": "https://allbirds.com/products/womens-canvas-runner-nz",
+  "kind": "Shoes"
+ },
+ {
+  "id": "allbirds-mens-cruiser-terry",
+  "url": "https://allbirds.com/products/mens-cruiser-terry",
+  "kind": "Shoes"
+ },
+ {
+  "id": "allbirds-mens-cruiser-slip-on-natural-black",
+  "url": "https://allbirds.com/products/mens-cruiser-slip-on-natural-black",
+  "kind": "Shoes"
+ },
+ {
+  "id": "allbirds-mens-cruiser-canvas-burnt-olive",
+  "url": "https://allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+  "kind": "Shoes"
+ },
+ {
+  "id": "stumptowncoffee-crows-call-patch",
+  "url": "https://stumptowncoffee.com/products/crows-call-patch",
+  "kind": "Coffee"
+ },
+ {
+  "id": "stumptowncoffee-wildwood-trail-pack",
+  "url": "https://stumptowncoffee.com/products/wildwood-trail-pack",
+  "kind": "Coffee"
+ },
+ {
+  "id": "stumptowncoffee-into-the-wildwood-mug",
+  "url": "https://stumptowncoffee.com/products/into-the-wildwood-mug",
+  "kind": "Coffee"
+ },
+ {
+  "id": "stumptowncoffee-wilderness-field-notes",
+  "url": "https://stumptowncoffee.com/products/wilderness-field-notes",
+  "kind": "Coffee"
+ },
+ {
+  "id": "stumptowncoffee-ghost-bridge-tote",
+  "url": "https://stumptowncoffee.com/products/ghost-bridge-tote",
+  "kind": "Coffee"
+ },
+ {
+  "id": "stumptowncoffee-wildwood-sticker-crow",
+  "url": "https://stumptowncoffee.com/products/wildwood-sticker-crow",
+  "kind": "Coffee"
+ },
+ {
+  "id": "intelligentsia-5-pack-house-instant-coffee",
+  "url": "https://intelligentsia.com/products/5-pack-house-instant-coffee",
+  "kind": "Coffee"
+ },
+ {
+  "id": "intelligentsia-seasons-best-bundle-2",
+  "url": "https://intelligentsia.com/products/seasons-best-bundle-2",
+  "kind": "Coffee"
+ },
+ {
+  "id": "intelligentsia-black-cat-espresso-capsules",
+  "url": "https://intelligentsia.com/products/black-cat-espresso-capsules",
+  "kind": "Coffee"
+ },
+ {
+  "id": "intelligentsia-honduras-la-tortuga-batian-7oz",
+  "url": "https://intelligentsia.com/products/honduras-la-tortuga-batian-7oz",
+  "kind": "Coffee"
+ },
+ {
+  "id": "intelligentsia-ethiopia-gesha-village-oma-natural",
+  "url": "https://intelligentsia.com/products/ethiopia-gesha-village-oma-natural",
+  "kind": "Coffee"
+ },
+ {
+  "id": "brooklinen-super-plush-hand-towels-last-call",
+  "url": "https://brooklinen.com/products/super-plush-hand-towels-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "brooklinen-terry-bucket-hat-last-call",
+  "url": "https://brooklinen.com/products/terry-bucket-hat-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "brooklinen-surfside-stripe-terry-tote-last-call",
+  "url": "https://brooklinen.com/products/surfside-stripe-terry-tote-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "brooklinen-parkside-beach-blanket-last-call",
+  "url": "https://brooklinen.com/products/parkside-beach-blanket-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "brooklinen-cotton-shorty-robe-last-call",
+  "url": "https://brooklinen.com/products/cotton-shorty-robe-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "brooklinen-super-plush-shorty-robe-last-call",
+  "url": "https://brooklinen.com/products/super-plush-shorty-robe-last-call",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-whipstitch-throw-light-grey",
+  "url": "https://parachutehome.com/products/whipstitch-throw-light-grey",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-whipstitch-throw-java",
+  "url": "https://parachutehome.com/products/whipstitch-throw-java",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-organic-rib-knit-throw-tobacco",
+  "url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-lodge-throw-merlot-and-charcoal",
+  "url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-lodge-throw-warm-grey-and-ink",
+  "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink",
+  "kind": "Home"
+ },
+ {
+  "id": "parachutehome-lodge-throw-toast-and-marigold",
+  "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold",
+  "kind": "Home"
+ },
+ {
+  "id": "ruffwear-webbing-remix-cactus-tug-toy",
+  "url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy",
+  "kind": "Pets"
+ },
+ {
+  "id": "ruffwear-webbing-remix-soft-flying-disc",
+  "url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc",
+  "kind": "Pets"
+ },
+ {
+  "id": "ruffwear-powder-hound-jacket",
+  "url": "https://ruffwear.com/products/powder-hound-jacket",
+  "kind": "Pets"
+ },
+ {
+  "id": "ruffwear-rogue-long-line-leash",
+  "url": "https://ruffwear.com/products/rogue-long-line-leash",
+  "kind": "Pets"
+ },
+ {
+  "id": "ruffwear-swamp-cooler-harness",
+  "url": "https://ruffwear.com/products/swamp-cooler-harness",
+  "kind": "Pets"
+ },
+ {
+  "id": "ruffwear-mt-everrest-insulated-dog-cot-cover",
+  "url": "https://ruffwear.com/products/mt-everrest-insulated-dog-cot-cover",
+  "kind": "Pets"
+ },
+ {
+  "id": "fellowproducts-colombia-el-paraiso-cardamom-cloud",
+  "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "fellowproducts-colombia-juan-puerta-mango",
+  "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "fellowproducts-opus-gen-2-cleaning-brush",
+  "url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "fellowproducts-opus-gen-2-catch-cup",
+  "url": "https://fellowproducts.com/products/opus-gen-2-catch-cup",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "fellowproducts-opus-gen-2-hopper",
+  "url": "https://fellowproducts.com/products/opus-gen-2-hopper",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "fellowproducts-opus-gen-2-standard-outer-burr",
+  "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "gorillagrip-bath-strips",
+  "url": "https://gorillagrip.com/products/bath-strips",
+  "kind": "Tech"
+ },
+ {
+  "id": "gorillagrip-pizza-cutter",
+  "url": "https://gorillagrip.com/products/pizza-cutter",
+  "kind": "Tech"
+ },
+ {
+  "id": "gorillagrip-home-genie-ironing-board-cover",
+  "url": "https://gorillagrip.com/products/home-genie-ironing-board-cover",
+  "kind": "Tech"
+ },
+ {
+  "id": "gorillagrip-bento-box",
+  "url": "https://gorillagrip.com/products/bento-box",
+  "kind": "Tech"
+ },
+ {
+  "id": "gorillagrip-removable-hooks",
+  "url": "https://gorillagrip.com/products/removable-hooks",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-everyday-case-for-pixel-8-everyday-case-redwood",
+  "url": "https://peakdesign.com/products/everyday-case-for-pixel-8-everyday-case-redwood",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-everyday-case-for-pixel-8-pro-everyday-case-redwo",
+  "url": "https://peakdesign.com/products/everyday-case-for-pixel-8-pro-everyday-case-redwood",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-sage",
+  "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-sage",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-redw",
+  "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-redwood-clarino",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-ocea",
+  "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-ocean",
+  "kind": "Tech"
+ },
+ {
+  "id": "peakdesign-slimlink-case-for-iphone-18-pro-max-bundle-1-char",
+  "url": "https://peakdesign.com/products/slimlink-case-for-iphone-18-pro-max-bundle-1-charcoal",
+  "kind": "Tech"
+ },
+ {
+  "id": "chubbiesshorts-the-prowls-boys-lined-swim-trunk-pink",
+  "url": "https://chubbiesshorts.com/products/the-prowls-boys-lined-swim-trunk-pink",
+  "kind": "Clothing"
+ },
+ {
+  "id": "chubbiesshorts-the-groovy-with-it-patriots-polo",
+  "url": "https://chubbiesshorts.com/products/the-groovy-with-it-patriots-polo",
+  "kind": "Clothing"
+ },
+ {
+  "id": "chubbiesshorts-the-groovy-with-it-buccaneers-polo",
+  "url": "https://chubbiesshorts.com/products/the-groovy-with-it-buccaneers-polo",
+  "kind": "Clothing"
+ },
+ {
+  "id": "chubbiesshorts-the-groovy-with-it-seahawks-polo",
+  "url": "https://chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo",
+  "kind": "Clothing"
+ },
+ {
+  "id": "chubbiesshorts-the-groovy-with-it-49ers-polo",
+  "url": "https://chubbiesshorts.com/products/the-groovy-with-it-49ers-polo",
+  "kind": "Clothing"
+ },
+ {
+  "id": "chubbiesshorts-the-groovy-with-it-eagles-polo",
+  "url": "https://chubbiesshorts.com/products/the-groovy-with-it-eagles-polo",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-division-shirt-in-black-cherry-2610",
+  "url": "https://taylorstitch.com/products/division-shirt-in-black-cherry-2610",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-long-sleeve-shop-tee-in-navy-twist-2607",
+  "url": "https://taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-camden-pant-in-rinsed-indigo-sashiko-2608",
+  "url": "https://taylorstitch.com/products/camden-pant-in-rinsed-indigo-sashiko-2608",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-camden-pant-in-washed-indigo-roped-denim-2609",
+  "url": "https://taylorstitch.com/products/camden-pant-in-washed-indigo-roped-denim-2609",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-eastmoor-cardigan-in-oatmeal-wool-2609",
+  "url": "https://taylorstitch.com/products/eastmoor-cardigan-in-oatmeal-wool-2609",
+  "kind": "Clothing"
+ },
+ {
+  "id": "taylorstitch-armor-quarter-zip-in-heather-grey-cotton-hemp-2",
+  "url": "https://taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-floral-heritage-crew-meteorite-black-hazelnut",
+  "url": "https://tentree.com/products/floral-heritage-crew-meteorite-black-hazelnut",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-floral-heritage-crew-harbour-grey-heather-meteorite",
+  "url": "https://tentree.com/products/floral-heritage-crew-harbour-grey-heather-meteorite-black",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-floral-heritage-crew-blue-horizon-meteorite-black",
+  "url": "https://tentree.com/products/floral-heritage-crew-blue-horizon-meteorite-black",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-tentree-original-heritage-altitude-hat-pine-green-me",
+  "url": "https://tentree.com/products/tentree-original-heritage-altitude-hat-pine-green-meteorite-black",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-tentree-original-heritage-altitude-hat-meteorite-bla",
+  "url": "https://tentree.com/products/tentree-original-heritage-altitude-hat-meteorite-black-meteorite-black",
+  "kind": "Clothing"
+ },
+ {
+  "id": "tentree-tentree-original-heritage-altitude-hat-cider-meteori",
+  "url": "https://tentree.com/products/tentree-original-heritage-altitude-hat-cider-meteorite-black",
+  "kind": "Clothing"
+ },
+ {
+  "id": "stanley1913-stanley-x-togethxr-quencher-h2-0-flowstate-tumbl",
+  "url": "https://stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate\u2122-tumbler-30-oz",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-40-oz",
+  "url": "https://stanley1913.com/products/halloween-quencher-h2-0-flowstate-tumbler-40-oz-tts",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "stanley1913-halloween-iceflow-flip-straw-tumbler-2-0-30-oz-t",
+  "url": "https://stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "stanley1913-halloween-quencher-protour-flip-straw-tumbler-40",
+  "url": "https://stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "stanley1913-halloween-quencher-protour-flip-straw-tumbler-30",
+  "url": "https://stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-30-oz-tts",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-30-oz",
+  "url": "https://stanley1913.com/products/halloween-quencher\u00ae-h2-0-flowstate\u2122-tumbler-30-oz-tts",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "sodastream-sodastream-diet-mtn-dew-drink-mix-old",
+  "url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "sodastream-bubly-drops-tropical-thrill-variety-3-pack",
+  "url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "sodastream-bubly-drops-original-variety-6-pack",
+  "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "sodastream-bubly-squeeze-tropical-punch-3pk",
+  "url": "https://sodastream.com/products/bubly-squeeze-tropical-punch-3pk",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "sodastream-bubly-squeeze-peach-mango-3pk",
+  "url": "https://sodastream.com/products/bubly-squeeze-peach-mango-3pk",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "cotopaxi-teca-fleece-headband",
+  "url": "https://cotopaxi.com/products/teca-fleece-headband",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "cotopaxi-teca-fleece-scarf-4",
+  "url": "https://cotopaxi.com/products/teca-fleece-scarf-4",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "cotopaxi-fuego-down-pant-mens",
+  "url": "https://cotopaxi.com/products/fuego-down-pant-mens",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "cotopaxi-sombra-sun-hoodie-mens-6",
+  "url": "https://cotopaxi.com/products/sombra-sun-hoodie-mens-6",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "cotopaxi-zen-garden-tech-5-panel-hat-1",
+  "url": "https://cotopaxi.com/products/zen-garden-tech-5-panel-hat-1",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "cotopaxi-vintage-trucker-hat-3",
+  "url": "https://cotopaxi.com/products/vintage-trucker-hat-3",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "rumpl-original-puffy-blanket-out-of-sight",
+  "url": "https://rumpl.com/products/original-puffy-blanket-out-of-sight",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "rumpl-original-puffy-blanket-gianna-andrews-tidal-reflection",
+  "url": "https://rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "rumpl-original-puffy-blanket-liquid-neon",
+  "url": "https://rumpl.com/products/original-puffy-blanket-liquid-neon",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "rumpl-original-puffy-blanket-mountain-green",
+  "url": "https://rumpl.com/products/original-puffy-blanket-mountain-green",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "rumpl-original-puffy-blanket-midnight-mountain-peak",
+  "url": "https://rumpl.com/products/original-puffy-blanket-midnight-mountain-peak",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "tuftandneedle-snooz-go-travel-white-noise-machine",
+  "url": "https://tuftandneedle.com/products/snooz-go-travel-white-noise-machine",
+  "kind": "Home"
+ },
+ {
+  "id": "tuftandneedle-snooz-pro-white-noise-machine-midnight",
+  "url": "https://tuftandneedle.com/products/snooz-pro-white-noise-machine-midnight",
+  "kind": "Home"
+ },
+ {
+  "id": "tuftandneedle-snooz-pro-white-noise-machine-white",
+  "url": "https://tuftandneedle.com/products/snooz-pro-white-noise-machine-white",
+  "kind": "Home"
+ },
+ {
+  "id": "tuftandneedle-white-noise-machine",
+  "url": "https://tuftandneedle.com/products/white-noise-machine",
+  "kind": "Home"
+ },
+ {
+  "id": "teaforte-gourmet-tea-mariposa-collection-presentation-box-15",
+  "url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060",
+  "kind": "Tea"
+ },
+ {
+  "id": "teaforte-tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+  "url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+  "kind": "Tea"
+ },
+ {
+  "id": "teaforte-tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bun",
+  "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle",
+  "kind": "Tea"
+ },
+ {
+  "id": "teaforte-tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+  "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+  "kind": "Tea"
+ },
+ {
+  "id": "teaforte-tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+  "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+  "kind": "Tea"
+ },
+ {
+  "id": "teaforte-tea-gifts-warming-joy-herbal-presentation-box-duo-2",
+  "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle",
+  "kind": "Tea"
+ },
+ {
+  "id": "spiceology-new-mexico-smoked-paprika",
+  "url": "https://spiceology.com/products/new-mexico-smoked-paprika",
+  "kind": "Pantry"
+ },
+ {
+  "id": "spiceology-cantina-verde-seasoning",
+  "url": "https://spiceology.com/products/cantina-verde-seasoning",
+  "kind": "Pantry"
+ },
+ {
+  "id": "spiceology-cajun-caesar-seasoning",
+  "url": "https://spiceology.com/products/cajun-caesar-seasoning",
+  "kind": "Pantry"
+ },
+ {
+  "id": "spiceology-korean-bbq-glaze",
+  "url": "https://spiceology.com/products/korean-bbq-glaze",
+  "kind": "Pantry"
+ },
+ {
+  "id": "spiceology-derek-wolf-complete-cowboy-collection",
+  "url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection",
+  "kind": "Pantry"
+ },
+ {
+  "id": "spiceology-derek-wolf-cowboy-campfire-seasoning",
+  "url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning",
+  "kind": "Pantry"
+ },
+ {
+  "id": "brightland-the-pizza-night-set",
+  "url": "https://brightland.co/products/the-pizza-night-set",
+  "kind": "Pantry"
+ },
+ {
+  "id": "brightland-the-fall-flavor-duo",
+  "url": "https://brightland.co/products/the-fall-flavor-duo",
+  "kind": "Pantry"
+ },
+ {
+  "id": "brightland-the-essentials-set",
+  "url": "https://brightland.co/products/the-essentials-set",
+  "kind": "Pantry"
+ },
+ {
+  "id": "brightland-mini-parasol",
+  "url": "https://brightland.co/products/mini-parasol",
+  "kind": "Pantry"
+ },
+ {
+  "id": "drinkolipop-classic-soda-variety-pack-bw-test-product-6g-fib",
+  "url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber",
+  "kind": "Drinks"
+ },
+ {
+  "id": "drinkolipop-caramel-apple-crisp-apple-bundle",
+  "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle",
+  "kind": "Drinks"
+ },
+ {
+  "id": "drinkolipop-pomegranate-sparkle",
+  "url": "https://drinkolipop.com/products/pomegranate-sparkle",
+  "kind": "Drinks"
+ },
+ {
+  "id": "graza-hot-n-sweet-olive-oil-potato-chips",
+  "url": "https://graza.co/products/hot-n-sweet-olive-oil-potato-chips",
+  "kind": "Pantry"
+ },
+ {
+  "id": "graza-zesty-caesar-olive-oil-potato-chips",
+  "url": "https://graza.co/products/zesty-caesar-olive-oil-potato-chips",
+  "kind": "Pantry"
+ },
+ {
+  "id": "graza-sea-salt-vinegar-olive-oil-potato-chips",
+  "url": "https://graza.co/products/sea-salt-vinegar-olive-oil-potato-chips",
+  "kind": "Pantry"
+ },
+ {
+  "id": "graza-potato-chips",
+  "url": "https://graza.co/products/potato-chips",
+  "kind": "Pantry"
+ },
+ {
+  "id": "hedleyandbennett-rifle-paper-co-home-sweet-home-smock",
+  "url": "https://hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "hedleyandbennett-rifle-paper-co-home-sweet-home-essential-ap",
+  "url": "https://hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "hedleyandbennett-jessica-natvig-x-h-b-essential-apron",
+  "url": "https://hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "hedleyandbennett-rick-morty-x-h-b-essential-apron",
+  "url": "https://hedleyandbennett.com/products/rick-morty-x-h-b-essential-apron",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "greenpan-valencia-pro-stainless-steel-uncoated-9-piece-cookw",
+  "url": "https://greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "greenpan-jewel-pro-ceramic-nonstick-11-piece-cookware-set-ta",
+  "url": "https://greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "greenpan-reserve-pro-ceramic-nonstick-14-piece-cookware-set",
+  "url": "https://greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "greenpan-greenlife-electric-skillet-black",
+  "url": "https://greenpan.us/products/greenlife-electric-skillet-black",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "beardbrand-fox-hunt-mens-cologne",
+  "url": "https://beardbrand.com/products/fox-hunt-mens-cologne",
+  "kind": "Grooming"
+ },
+ {
+  "id": "beardbrand-norse-winter-sea-salt-spray",
+  "url": "https://beardbrand.com/products/norse-winter-sea-salt-spray",
+  "kind": "Grooming"
+ },
+ {
+  "id": "beardbrand-short-game-mens-cologne",
+  "url": "https://beardbrand.com/products/short-game-mens-cologne",
+  "kind": "Grooming"
+ },
+ {
+  "id": "beardbrand-norse-winter-aluminum-free-deodorant",
+  "url": "https://beardbrand.com/products/norse-winter-aluminum-free-deodorant",
+  "kind": "Grooming"
+ },
+ {
+  "id": "ugmonk-analog-today-cards-3-pack",
+  "url": "https://ugmonk.com/products/analog-today-cards-3-pack",
+  "kind": "Office"
+ },
+ {
+  "id": "ugmonk-discbound-journal-bundle-standard-6x-8-5-journal",
+  "url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal",
+  "kind": "Office"
+ },
+ {
+  "id": "ugmonk-discbound-heirloom-journal-bundle-black-leather-stand",
+  "url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5",
+  "kind": "Office"
+ },
+ {
+  "id": "ugmonk-discbound-journal-archive",
+  "url": "https://ugmonk.com/products/discbound-journal-archive",
+  "kind": "Office"
+ },
+ {
+  "id": "vitruvi-sweet-dreams-bundle",
+  "url": "https://vitruvi.com/products/sweet-dreams-bundle",
+  "kind": "Wellness"
+ },
+ {
+  "id": "vitruvi-air-waterless-diffuser-starter-kit-lavender",
+  "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender",
+  "kind": "Wellness"
+ },
+ {
+  "id": "vitruvi-the-mystery-box",
+  "url": "https://vitruvi.com/products/the-mystery-box",
+  "kind": "Wellness"
+ },
+ {
+  "id": "vitruvi-clean-laundry-drive-scent-refill",
+  "url": "https://vitruvi.com/products/clean-laundry-drive-scent-refill",
+  "kind": "Wellness"
+ },
+ {
+  "id": "kettleandfire-thai-coconut-curry-chicken-bone-broth-16-9-oz",
+  "url": "https://kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz",
+  "kind": "Pantry"
+ },
+ {
+  "id": "kettleandfire-lemon-thyme-chicken-bone-broth-16-9oz-1",
+  "url": "https://kettleandfire.com/products/lemon-thyme-chicken-bone-broth-16-9oz-1",
+  "kind": "Pantry"
+ },
+ {
+  "id": "kettleandfire-miso-ginger-beef-bone-broth-16-9oz",
+  "url": "https://kettleandfire.com/products/miso-ginger-beef-bone-broth-16-9oz",
+  "kind": "Pantry"
+ },
+ {
+  "id": "kettleandfire-reduced-sodium-chicken-bone-broth-32oz",
+  "url": "https://kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz",
+  "kind": "Pantry"
+ },
+ {
+  "id": "bokksu-artisan-coffee-pairing",
+  "url": "https://bokksu.com/products/artisan-coffee-pairing",
+  "kind": "Pantry"
+ },
+ {
+  "id": "bokksu-washi-box",
+  "url": "https://bokksu.com/products/washi-box",
+  "kind": "Pantry"
+ },
+ {
+  "id": "bokksu-gift-wrap",
+  "url": "https://bokksu.com/products/gift-wrap",
+  "kind": "Pantry"
+ },
+ {
+  "id": "bokksu-gift-bokksu-snack-box-copy-1",
+  "url": "https://bokksu.com/products/gift-bokksu-snack-box-copy-1",
+  "kind": "Pantry"
+ },
+ {
+  "id": "outerknown-the-woolaroo-hoodie-carob",
+  "url": "https://outerknown.com/products/the-woolaroo-hoodie-carob",
+  "kind": "Clothing"
+ },
+ {
+  "id": "outerknown-the-woolaroo-shirt-jacket-alpine-hunter-check",
+  "url": "https://outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check",
+  "kind": "Clothing"
+ },
+ {
+  "id": "outerknown-the-woolaroo-cocoon-jacket-wild-mushroom",
+  "url": "https://outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom",
+  "kind": "Clothing"
+ },
+ {
+  "id": "outerknown-the-womens-woolaroo-vest-heather-natural",
+  "url": "https://outerknown.com/products/the-womens-woolaroo-vest-heather-natural",
+  "kind": "Clothing"
+ },
+ {
+  "id": "cuyana-deco-bracelet-7-5-inch",
+  "url": "https://cuyana.com/products/deco-bracelet-7-5-inch",
+  "kind": "Clothing"
+ },
+ {
+  "id": "cuyana-deco-bracelet-7-inch",
+  "url": "https://cuyana.com/products/deco-bracelet-7-inch",
+  "kind": "Clothing"
+ },
+ {
+  "id": "cuyana-deco-pearl-earrings",
+  "url": "https://cuyana.com/products/deco-pearl-earrings",
+  "kind": "Clothing"
+ },
+ {
+  "id": "cuyana-deco-mini-hoop-earrings",
+  "url": "https://cuyana.com/products/deco-mini-hoop-earrings",
+  "kind": "Clothing"
+ },
+ {
+  "id": "nisolo-shoe-charm-fish-blue",
+  "url": "https://nisolo.com/products/shoe-charm-fish-blue",
+  "kind": "Shoes"
+ },
+ {
+  "id": "nisolo-nisolo-gift-card-100",
+  "url": "https://nisolo.com/products/nisolo-gift-card-100",
+  "kind": "Shoes"
+ },
+ {
+  "id": "nisolo-shoe-charm-black-white",
+  "url": "https://nisolo.com/products/shoe-charm-black-white",
+  "kind": "Shoes"
+ },
+ {
+  "id": "nisolo-shoe-charm-terracotta-gold",
+  "url": "https://nisolo.com/products/shoe-charm-terracotta-gold",
+  "kind": "Shoes"
+ },
+ {
+  "id": "thursdayboots-mens-mechanic-point-collar-jacket-army-green",
+  "url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green",
+  "kind": "Shoes"
+ },
+ {
+  "id": "thursdayboots-mens-bomber-jacket-cinnamon-suede",
+  "url": "https://thursdayboots.com/products/mens-bomber-jacket-cinnamon-suede",
+  "kind": "Shoes"
+ },
+ {
+  "id": "thursdayboots-mens-racer-leather-jacket-java-brown",
+  "url": "https://thursdayboots.com/products/mens-racer-leather-jacket-java-brown",
+  "kind": "Shoes"
+ },
+ {
+  "id": "thursdayboots-mens-highland-wool-sweater-driftwood",
+  "url": "https://thursdayboots.com/products/mens-highland-wool-sweater-driftwood",
+  "kind": "Shoes"
+ },
+ {
+  "id": "ridgewallet-wallet-power-bank-keycase-kintsugi-navy-dark-har",
+  "url": "https://ridgewallet.com/products/wallet-power-bank-keycase-kintsugi-navy-dark-harbor-kintsugi-navy",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ridgewallet-daily-survival-kit-kintsugi-black",
+  "url": "https://ridgewallet.com/products/daily-survival-kit-kintsugi-black",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ridgewallet-everyday-folder-kintsugi-black",
+  "url": "https://ridgewallet.com/products/everyday-folder-kintsugi-black",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ridgewallet-kintsugi-inverse-keycase",
+  "url": "https://ridgewallet.com/products/kintsugi-inverse-keycase",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ekster-grid-backpack-vip-offer",
+  "url": "https://ekster.com/products/grid-backpack-vip-offer",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ekster-ekster-wallet-pro",
+  "url": "https://ekster.com/products/ekster-wallet-pro",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ekster-cardholder-pro-bundle",
+  "url": "https://ekster.com/products/cardholder-pro-bundle",
+  "kind": "Accessories"
+ },
+ {
+  "id": "ekster-ekster-x-dore-rose-travel-bundle",
+  "url": "https://ekster.com/products/ekster-x-dore-rose-travel-bundle",
+  "kind": "Accessories"
+ },
+ {
+  "id": "moft-snap-fold-magsafe-compatible",
+  "url": "https://moft.us/products/snap-fold-magsafe-compatible",
+  "kind": "Tech"
+ },
+ {
+  "id": "moft-dynamic-folio-for-iphone-duo",
+  "url": "https://moft.us/products/dynamic-folio-for-iphone-duo",
+  "kind": "Tech"
+ },
+ {
+  "id": "moft-frame-case-magsafe-compatible-for-iphone-18-pro-pro-max",
+  "url": "https://moft.us/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max",
+  "kind": "Tech"
+ },
+ {
+  "id": "moft-magsafe-movas-case-for-iphone-18-pro-pro-max",
+  "url": "https://moft.us/products/magsafe-movas-case-for-iphone-18-pro-pro-max",
+  "kind": "Tech"
+ },
+ {
+  "id": "publicgoods-better-together-membership",
+  "url": "https://publicgoods.com/products/better-together-membership",
+  "kind": "Personal care"
+ },
+ {
+  "id": "publicgoods-silicone-travel-bottles-refill-kit",
+  "url": "https://publicgoods.com/products/silicone-travel-bottles-refill-kit",
+  "kind": "Personal care"
+ },
+ {
+  "id": "publicgoods-cleaning-refill-set-3-month-supply",
+  "url": "https://publicgoods.com/products/cleaning-refill-set-3-month-supply",
+  "kind": "Personal care"
+ },
+ {
+  "id": "publicgoods-home-essentials-set",
+  "url": "https://publicgoods.com/products/home-essentials-set",
+  "kind": "Personal care"
+ },
+ {
+  "id": "cometeer-the-big-chlebowski-bundle",
+  "url": "https://cometeer.com/products/the-big-chlebowski-bundle",
+  "kind": "Coffee"
+ },
+ {
+  "id": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde",
+  "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde",
+  "kind": "Coffee"
+ },
+ {
+  "id": "cometeer-first-person-after-hours-decaf",
+  "url": "https://cometeer.com/products/first-person-after-hours-decaf",
+  "kind": "Coffee"
+ },
+ {
+  "id": "counterculturecoffee-finca-el-puente-honey",
+  "url": "https://counterculturecoffee.com/products/finca-el-puente-honey",
+  "kind": "Coffee"
+ },
+ {
+  "id": "counterculturecoffee-the-bambino",
+  "url": "https://counterculturecoffee.com/products/the-bambino\u2122",
+  "kind": "Coffee"
+ },
+ {
+  "id": "counterculturecoffee-baratza-classic-grinder",
+  "url": "https://counterculturecoffee.com/products/baratza-classic-grinder",
+  "kind": "Coffee"
+ },
+ {
+  "id": "onyxcoffeelab-2026-advent-calendar",
+  "url": "https://onyxcoffeelab.com/products/2026-advent-calendar",
+  "kind": "Coffee"
+ },
+ {
+  "id": "onyxcoffeelab-baristas-choice",
+  "url": "https://onyxcoffeelab.com/products/baristas-choice",
+  "kind": "Coffee"
+ },
+ {
+  "id": "onyxcoffeelab-8oz-gaeastar-cups-case-pack",
+  "url": "https://onyxcoffeelab.com/products/8oz-gaeastar-cups-case-pack",
+  "kind": "Coffee"
+ },
+ {
+  "id": "sightglasscoffee-sibarist-cone",
+  "url": "https://sightglasscoffee.com/products/sibarist-cone",
+  "kind": "Coffee"
+ },
+ {
+  "id": "sightglasscoffee-thw-sweet-spot-medium-roast-coffee-gift-set",
+  "url": "https://sightglasscoffee.com/products/thw-sweet-spot-medium-roast-coffee-gift-set",
+  "kind": "Coffee"
+ },
+ {
+  "id": "sightglasscoffee-harvest-moon-fall-gift-set",
+  "url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set",
+  "kind": "Coffee"
+ },
+ {
+  "id": "mudwtr-psl-bag",
+  "url": "https://mudwtr.com/products/psl-bag",
+  "kind": "Drinks"
+ },
+ {
+  "id": "mudwtr-psl-bundle",
+  "url": "https://mudwtr.com/products/psl-bundle",
+  "kind": "Drinks"
+ },
+ {
+  "id": "mudwtr-coffee-tin-psl-1",
+  "url": "https://mudwtr.com/products/coffee-tin-psl-1",
+  "kind": "Drinks"
+ }
+]
