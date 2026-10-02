@@ -8,7 +8,7 @@ anonymous-cart-only coupon verification, and research-only fallback.
 - Deterministic rules engine (stdlib only): `deal_finder/` —
   `evidence`, `landed_cost`, `consent`, `discovery`, `decision`,
   `judgment` (rules-only mirror of the Jev judgment layer; no live calls).
-- Tests: `python3 -m unittest discover -s tests` (53 tests, stdlib only).
+- Tests: `python3 -m unittest discover -s tests` (stdlib only).
 - Build assumptions + captain decision batch: `ASSUMPTIONS.md`.
 - Acceptance policy: `VISION.md`.
 - Author-approved baseline: `EVIDENCE.md`.

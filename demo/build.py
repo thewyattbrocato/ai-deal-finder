@@ -341,7 +341,7 @@ def product_card(item, decision, coupon_html):
     parts = []
     parts.append('<section class="card bg-base-100 shadow mb-5 border border-base-200" '
                  'data-keywords="' + esc(" ".join(item["keywords"]))
-                 + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
+                 + '" data-name="' + esc(item["name"]) + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
                  + ("yes" if item["coupon"] else "no") + '" data-price="'
                  + str(item["price_cents"]) + '" data-quality="'
                  + esc(item["quality"]["tag"] if item["quality"] else "")
@@ -411,35 +411,6 @@ def card_for(item):
             item["page_host"], item["region"], item["observed_at"],
             item["coupon"]["caveat"])
     return product_card(item, item["decision"], coupon_html)
-
-
-def comparison_table(ordered_items):
-    """Compact side-by-side comparison: high data-ink, one row per bag."""
-    rows = []
-    for item in ordered_items:
-        if item["coupon"]:
-            coupon_cell = "<strong>" + esc(item["coupon"]["code"]) + "</strong> \u2014 seen, not tested"
-        else:
-            coupon_cell = "None seen"
-        if item["quality"]:
-            quality_cell = esc(item["quality"]["label"])
-        else:
-            quality_cell = "Standard shelf"
-        rows.append(
-            "<tr><td><strong>" + esc(item["name"]) + "</strong><br><span class=\"opacity-70\">"
-            + esc(item["detail"]) + "</span></td><td class=\"whitespace-nowrap text-right\"><strong>"
-            + esc(item["price_label"]) + "</strong></td><td>" + coupon_cell
-            + "</td><td>" + quality_cell + "</td><td><a class=\"link link-primary whitespace-nowrap\" href=\""
-            + esc(item["page_url"]) + "\" target=\"_blank\" rel=\"noopener\">See at "
-            + esc(item["seller"]) + " \u2192</a></td></tr>"
-        )
-    return (
-        '<div class="overflow-x-auto mb-6 border border-base-200 rounded-lg bg-base-100" style="min-width:0">'
-        '<table class="table table-sm w-full" style="min-width:34rem">'
-        "<caption class=\"text-left p-3 text-sm opacity-80\">Compare at a glance \u2014 same six bags, shelf price order. Details follow below.</caption>"
-        "<thead><tr><th>Bag</th><th class=\"text-right\">Price</th><th>Coupon</th><th>Quality note</th><th>Buy</th></tr></thead>"
-        "<tbody>" + "".join(rows) + "</tbody></table></div>"
-    )
 
 
 def item_dict(key, name, detail, seller, kind, image, price_cents,
@@ -618,24 +589,31 @@ def build():
             form="whole-bean"),
     }
 
-    open_cards = "\n".join(card_for(items[k])
-                            for k in ("cof3", "hcr", "ccc",
-                                      "wel", "cof2", "cof1"))
-    best_place = card_for(items["cof1"])
     all_cards = "\n".join(card_for(items[k]) for k in items)
+    coffee = [items[k] for k in ("cof3", "cof2", "cof1", "hcr", "wel", "ccc")]
+    with_c = [v for v in coffee if v["coupon"]]
+    without_c = [v for v in coffee if not v["coupon"]]
 
-    n_total = len(items)
-    n_coupon = sum(1 for v in items.values() if v["coupon"])
-    cheapest = min(items.values(), key=lambda v: v["price_cents"])
-    compare_order = [items[k] for k in ("cof3", "hcr", "ccc", "wel", "cof2", "cof1")]
-    compare_html = comparison_table(compare_order)
+    def short(v):
+        return v["name"].split(" Whole Bean")[0].split(" dark roast")[0] \
+            .split(" light roast")[0].split(" medium-dark")[0]
+
+    def join(names):
+        return ", ".join(names[:-1]) + " and " + names[-1]
+
+    coffee_note = (
+        "Coffee note: " + join([short(v) for v in with_c])
+        + " showed the code " + esc(with_c[0]["coupon"]["code"])
+        + " on their own pages; " + join([v["seller"] for v in without_c])
+        + " did not. No code was tried, so every price here is the shelf price."
+    )
 
     page = """<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Find a deal \u2014 what the store page actually shows</title>
+<title>Find a deal — what the store page actually shows</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
@@ -644,101 +622,42 @@ def build():
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  .mode-btn[aria-pressed="true"], .guide-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
   body { font-size: 1.0625rem; line-height: 1.6; }
   .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
   .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
-  .mode-btn, .kind-btn { min-height: 2.5rem; }
+  .mode-btn, .guide-btn { min-height: 2.5rem; }
   a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<p class="eyebrow mb-1">Deal Finder \u00b7 checked pages only</p>
+<p class="eyebrow mb-1">Deal Finder · checked pages only</p>
 <h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
 <p class="mb-4 text-lg">Search checked store pages. Price, decision, and coupon only when really seen.</p>
-<section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
-<div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">"""
-    page += str(n_total)
-    page += """</div><div class="stat-desc">across coffee, clothing, shoes, tech</div></div>
-<div class="stat"><div class="stat-title">With a coupon on the page</div><div class="stat-value">"""
-    page += str(n_coupon)
-    page += """</div><div class="stat-desc">codes really seen, never tested</div></div>
-<div class="stat"><div class="stat-title">Cheapest checked price</div><div class="stat-value">"""
-    page += esc(cheapest["price_label"])
-    page += """</div><div class="stat-desc">"""
-    page += esc(cheapest["name"])
-    page += """</div></div>
-</section>
-<div class="flex flex-wrap gap-2 mb-3" role="group" aria-label="Search mode">
+<div class="flex flex-wrap gap-2 mb-2" role="group" aria-label="Search mode">
 <button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
 <button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
 </div>
-<div class="flex gap-2 mb-2" style="min-width:0">
+<p id="mode-hint" class="text-sm opacity-80 mb-3"><span id="mode-text">Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out — the price shown is the shelf price.</span> <span id="result-count" class="font-semibold"></span></p>
+<div class="flex gap-2 mb-3" style="min-width:0">
 <label class="input input-bordered input-lg flex items-center gap-2 w-full" style="min-width:0">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
 <input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans" aria-label="Search checked products">
 </label>
 <button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
 </div>
-<div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
-<button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
-<button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
-<button class="btn btn-sm kind-btn" data-kind="Clothing" aria-pressed="false">Clothing</button>
-<button class="btn btn-sm kind-btn" data-kind="Shoes" aria-pressed="false">Shoes</button>
-<button class="btn btn-sm kind-btn" data-kind="Tech" aria-pressed="false">Tech</button>
-<label class="label cursor-pointer gap-2 ml-1"><input id="coupon-only" type="checkbox" class="checkbox checkbox-sm"> <span class="label-text">Coupon on the page</span></label>
-<select id="sort" class="select select-sm select-bordered" aria-label="Sort results">
-<option value="low">Price: low first</option>
-<option value="high">Price: high first</option>
-</select>
-</div>
-<p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items actually seen, cheapest first. <span id="result-count" class="font-semibold"></span></p>
-<details class="collapse collapse-arrow bg-base-100 border border-base-300 mb-2">
-<summary class="collapse-title font-semibold">Guide me \u2014 three quick choices (optional, results stay visible)</summary>
-<div class="collapse-content grid gap-3 sm:grid-cols-3" style="min-width:0">
-<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">What matters most?</span>
-<select id="prefer" class="select select-bordered w-full">
-<option value="any">Just looking around</option>
-<option value="price">Lowest price first</option>
-<option value="specialty">Specialty-roaster quality</option>
-</select></label>
-<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coffee form?</span>
-<select id="formsel" class="select select-bordered w-full">
-<option value="">Any form</option>
-<option value="whole-bean">Whole bean only</option>
-</select></label>
-<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coupons?</span>
-<select id="couponsel" class="select select-bordered w-full">
-<option value="all">Show everything</option>
-<option value="yes">Coupon on the page only</option>
-</select></label>
-</div>
-</details>
-<p class="text-xs opacity-70 mb-2">Specialty-roaster quality leads with Honest, The Well, or Counter Culture; the rest follow as cheaper alternatives. Frothy Monkey does not load, so no bag is listed.</p>
-<p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
-</header>
-<section id="open-example" class="mb-8">
-<hr class="section-rule">
-<h2 class="text-2xl font-bold mb-1">Kind of thing \u2014 \u201ccoffee beans\u201d</h2>
-<p class="text-sm opacity-80 mb-4">Six bags, each checked on its own page. Shelf price order.</p>
-COMPARE_TABLE
-"""
-    page += open_cards
-    page += """</section>
-<section id="exact-example" class="mb-8">
-<hr class="section-rule">
-<h2 class="text-2xl font-bold mb-1">Exact product \u2014 \u201cLavazza Super Crema Whole Bean, 2.2 lb\u201d</h2>
-<p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. Three other stores would not load, so they are not counted.</p>
-"""
-    page += best_place
-    page += """<div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
-Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
+<section id="guide" class="border border-base-300 rounded-lg bg-base-100 p-3 mb-3" aria-label="Optional guide" style="min-width:0">
+<p class="text-sm font-semibold mb-1">Guide (optional) — <span id="guide-step"></span></p>
+<p id="guide-q" class="mb-2"></p>
+<div id="guide-opts" class="flex flex-wrap gap-2"></div>
 </section>
+<p class="text-sm opacity-80 mb-2">""" + coffee_note + """</p>
+<p id="no-match" class="alert mb-4" style="display:none">Nothing here matches — only the checked pages below exist, and nothing is invented.</p>
+</header>
 <section id="all-checked" class="mb-8">
 <hr class="section-rule">
-<h2 class="text-2xl font-bold mb-4">Everything checked</h2>
 <div id="results">
 """
     page += all_cards
@@ -747,7 +666,7 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
 <ul class="list-disc ml-6 text-sm">
-<li>Pages opened anonymously \u2014 nothing added to a bag, no code tried out.</li>
+<li>Pages opened anonymously — nothing added to a bag, no code tried out.</li>
 <li>Tax and shipping shown only when the page shows them.</li>
 <li>Coupon shown only when its text was seen, with page and time.</li>
 </ul>
@@ -755,114 +674,109 @@ Target, Walmart, and Kroger pages were blocked or unreachable at check time, so 
 </div>
 <script>
 const q = document.getElementById("q");
-const hint = document.getElementById("mode-hint");
+const modeText = document.getElementById("mode-text");
 const noMatch = document.getElementById("no-match");
 const openBtn = document.getElementById("mode-open");
 const exactBtn = document.getElementById("mode-exact");
 const results = document.getElementById("results");
 const cards = Array.from(results.querySelectorAll("[data-keywords]"));
-const kindBtns = Array.from(document.querySelectorAll(".kind-btn"));
-const couponOnly = document.getElementById("coupon-only");
-const sortSel = document.getElementById("sort");
-const preferSel = document.getElementById("prefer");
-const formSel = document.getElementById("formsel");
-const couponSel = document.getElementById("couponsel");
-let kind = "";
-let quality = "";
-let form = "";
+const OPEN_TEXT = "Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out \\u2014 the price shown is the shelf price.";
+const EXACT_TEXT = "Exact product is one named item: the closest name match, with its own page's price and any coupon that page printed.";
+let exact = false;
+const pick = { prefer: "any", form: "", coupon: "all" };
+const STEPS = [
+  { key: "prefer", q: "What matters most?", opts: [
+    ["price", "Lowest price"], ["specialty", "Specialty-roaster quality"]] },
+  { key: "form", q: "Whole bean or any coffee?", opts: [
+    ["whole-bean", "Whole bean"], ["any-coffee", "Any coffee"]] },
+  { key: "coupon", q: "Only products whose page printed a coupon?", opts: [
+    ["yes", "Only with a printed coupon"], ["all", "Show all"]] },
+];
+let step = 0;
+function renderGuide() {
+  const stepEl = document.getElementById("guide-step");
+  const qEl = document.getElementById("guide-q");
+  const box = document.getElementById("guide-opts");
+  box.innerHTML = "";
+  if (step >= STEPS.length) {
+    stepEl.textContent = "done";
+    qEl.textContent = "The list below already reflects your answers.";
+    box.appendChild(guideBtn("Start over", () => { step = 0; pick.prefer = "any"; pick.form = ""; pick.coupon = "all"; renderGuide(); filter(); }));
+    return;
+  }
+  const s = STEPS[step];
+  stepEl.textContent = "question " + (step + 1) + " of " + STEPS.length;
+  qEl.textContent = s.q;
+  for (const [val, label] of s.opts) {
+    box.appendChild(guideBtn(label, () => { pick[s.key] = val; step++; renderGuide(); filter(); }));
+  }
+  box.appendChild(guideBtn("Skip", () => { step++; renderGuide(); }));
+}
+function guideBtn(label, fn) {
+  const b = document.createElement("button");
+  b.className = "btn btn-sm guide-btn";
+  b.textContent = label;
+  b.addEventListener("click", fn);
+  return b;
+}
 function setMode(open) {
+  exact = !open;
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
-  hint.childNodes[0].textContent = open
-    ? "Kind of thing: similar items actually seen, cheapest first. "
-    : "Exact product: one named item, best place to buy. ";
+  modeText.textContent = open ? OPEN_TEXT : EXACT_TEXT;
   q.value = open ? "coffee beans" : "super crema";
   filter();
-  document.getElementById(open ? "open-example" : "exact-example").scrollIntoView();
+}
+function byPrice(a, b) {
+  return parseInt(a.getAttribute("data-price"), 10) - parseInt(b.getAttribute("data-price"), 10);
+}
+function fold(s) {
+  return s.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "");
+}
+function formAllows(c) {
+  if (!pick.form) return true;
+  if (pick.form === "any-coffee") return c.getAttribute("data-kind") === "Coffee";
+  return c.getAttribute("data-form") === pick.form;
 }
 function filter() {
-  const terms = q.value.toLowerCase().split(/\\s+/).filter(Boolean);
-  let shown = 0;
+  const terms = fold(q.value).split(/\\s+/).filter(Boolean);
   const visible = [];
   for (const c of cards) {
-    const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
-    const hitText = terms.every(t => hay.includes(t));
-    const hitKind = !kind || c.getAttribute("data-kind") === kind;
-    const wantCoupon = couponOnly.checked || couponSel.value === "yes";
-    const hitCoupon = !wantCoupon || c.getAttribute("data-coupon") === "yes";
-    const hitForm = !form || c.getAttribute("data-form") === form;
-    const hit = hitText && hitKind && hitCoupon && hitForm;
-    c.style.display = hit ? "" : "none";
-    if (hit) { shown++; visible.push(c); }
+    const hay = fold(c.getAttribute("data-keywords") + " " + c.innerText);
+    const hit = terms.every(t => hay.includes(t))
+      && (pick.coupon !== "yes" || c.getAttribute("data-coupon") === "yes")
+      && formAllows(c);
+    c.style.display = "none";
+    if (hit) visible.push(c);
   }
-  visible.sort((a, b) => {
-    const pa = parseInt(a.getAttribute("data-price"), 10);
-    const pb = parseInt(b.getAttribute("data-price"), 10);
-    return sortSel.value === "high" ? pb - pa : pa - pb;
-  });
-  for (const c of visible) results.appendChild(c);
-  applyBand(document.getElementById("open-example"));
-  applyBand(results);
-  noMatch.style.display = shown ? "none" : "";
-  const rc = document.getElementById("result-count");
-  if (rc) rc.textContent = shown + " of " + cards.length + " shown.";
-}
-function bandDivider() {
-  const d = document.createElement("div");
-  d.className = "alert mb-4 band-divider";
-  d.innerHTML = "<div><span class='font-bold'>Cheaper alternative \u2014</span> "
-    + "below the quality asked for, shown for price context only. Never the lead result.</div>";
-  return d;
-}
-function applyBand(container) {
-  if (!container) return;
-  const old = container.querySelector(":scope > .band-divider");
-  if (old) old.remove();
-  if (!quality) return;
-  const cards = Array.from(container.querySelectorAll(":scope > [data-quality]"));
-  const vis = c => c.style.display !== "none";
-  const inBand = cards.filter(c => vis(c) && c.getAttribute("data-quality") === quality);
-  const alt = cards.filter(c => vis(c) && c.getAttribute("data-quality") !== quality);
-  const hidden = cards.filter(c => !vis(c));
-  if (!inBand.length || !alt.length) return;
-  const byPrice = (a, b) => parseInt(a.getAttribute("data-price"), 10) - parseInt(b.getAttribute("data-price"), 10);
-  inBand.sort(byPrice);
-  alt.sort(byPrice);
-  for (const c of inBand) container.appendChild(c);
-  container.appendChild(bandDivider());
-  for (const c of alt) container.appendChild(c);
-  for (const c of hidden) container.appendChild(c);
+  visible.sort(byPrice);
+  let shownSet = visible;
+  if (exact) {
+    // One named item: every term in its name, closest (shortest) name wins.
+    const named = visible.filter(c => {
+      const nm = fold(c.getAttribute("data-name"));
+      return terms.length && terms.every(t => nm.includes(t));
+    });
+    named.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
+    shownSet = named.slice(0, 1);
+  } else if (pick.prefer === "specialty") {
+    const lead = visible.filter(c => c.getAttribute("data-quality") === "independent-roastery");
+    shownSet = lead.concat(visible.filter(c => !lead.includes(c)));
+  }
+  for (const c of shownSet) { c.style.display = ""; results.appendChild(c); }
+  noMatch.style.display = shownSet.length ? "none" : "";
+  document.getElementById("result-count").textContent = shownSet.length + " shown.";
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
-kindBtns.forEach(b => b.addEventListener("click", () => {
-  kind = b.getAttribute("data-kind");
-  kindBtns.forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
-  filter();
-}));
-couponOnly.addEventListener("change", filter);
-sortSel.addEventListener("change", filter);
-preferSel.addEventListener("change", () => {
-  const v = preferSel.value;
-  quality = v === "specialty" ? "independent-roastery" : "";
-  if (v === "price") { quality = ""; sortSel.value = "low"; }
-  couponSel.value = "all";
-  hint.childNodes[0].textContent = quality
-    ? "Specialty-roaster quality leads; cheaper bags follow as alternatives. "
-    : "Kind of thing: similar items actually seen, cheapest first. ";
-  filter();
-});
-formSel.addEventListener("change", () => { form = formSel.value; filter(); });
-couponSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
-const goBtn = document.getElementById("search-go");
-if (goBtn) goBtn.addEventListener("click", () => { filter(); document.getElementById("results").scrollIntoView(); });
+document.getElementById("search-go").addEventListener("click", filter);
+renderGuide();
 filter();
 </script>
 </body>
 </html>
 """
-    page = page.replace("COMPARE_TABLE", compare_html)
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)

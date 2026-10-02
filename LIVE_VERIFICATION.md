@@ -249,14 +249,14 @@ for one-time purchase.
 ## Engine runs
 
 Open search "coffee beans": three single-candidate runs, each `buy` with its
-code excluded (`USD 13.99 / 24.99 / 26.99 .. open-ended`). Displayed cheapest
-shelf price first with "different blends, not interchangeable" — the order
-is shelf-price order, not an equivalence verdict.
+code excluded (`USD 13.99 / 24.99 / 26.99 .. open-ended`). The list is
+shelf-price order, not an equivalence verdict.
 
 Specific search "Lavazza Super Crema Whole Bean, 2.2 lb": Lavazza direct is
 the only verified seller, so it is the best place found (`buy` at
-`USD 26.99 .. open-ended`, CAFE20 excluded). Blocked sellers are listed
-beside the result as not counted — never upgraded, never ranked.
+`USD 26.99 .. open-ended`, CAFE20 excluded). Blocked sellers stay not
+counted — never upgraded, never ranked — and the page does not list those
+checks on the result.
 
 ## Discrepancies: none
 
@@ -335,15 +335,21 @@ was seen, so there is no product claim to pin.
 # Quality-band lead rule (2026-10-02, display only)
 
 Captain correction: once a shopper states higher quality, that band leads —
-ranked by deal among in-band items — and cheaper lower-quality items appear
-only under a labeled "Cheaper alternative" note, never as the lead. Lowest
-price is not the winner once quality is stated.
+ranked by deal among in-band items — and cheaper lower-quality items follow
+in the same list. They are not the lead. Lowest price is not the winner once
+quality is stated.
 
 This is display ordering, not an engine verdict: every item keeps its own
 single-candidate decision, no substitute-equivalence claim is made, and the
 engine's substitute machinery (and every D1–D6 number) stays untouched. Each
 coffee card carries its band evidence beside it — page-stated reasons for
 in-band items, an explicit "no small-batch or direct-trade statement seen"
-for Lavazza, "not checked for other products yet" elsewhere. Frothy Monkey
-is named in the questionnaire note with the honest reason no bag is listed
-(shop doesn't load for checking). No fixture change: no new observation.
+for Lavazza, "not checked for other products yet" elsewhere. The quiet page
+does not insert a Cheaper alternative divider. The guide does not name
+Frothy Monkey. No fixture change: no new observation.
+
+The quiet default is one list: no stats row, no kind chips, no comparison
+table, and no second copy of the full list. Kind of thing and exact product
+remain the two search modes. The optional guide asks one question at a time,
+with Skip, while that list stays visible. A coupon still appears only when
+that product's own page printed it, and the price shown stays the shelf price.
