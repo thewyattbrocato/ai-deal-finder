@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.peakdesign.com/products/slimlink-case-for-pixel?Phone=Pixel+8+Pro&Case+Style=SlimLink+Case&Color=Redwood",
+ "http_status": 200,
+ "id": "peakdesign-everyday-case-for-pixel-8-pro-everyday-case-redwo",
+ "image_file": "peakdesign-everyday-case-for-pixel-8-pro-everyday-case-redwo.jpg",
+ "image_sha256": "504f86e25c1fbd9ba9e513e6f50d05bb9072126eb7f4170d7e30b95361875358",
+ "image_source": "https://cdn.shopify.com/s/files/1/2986/1172/files/02-LIGHTBOX-Case-Pixel8-Pro-Redwood-01.jpg?v=1762275765&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.peakdesign.com/products/slimlink-case-for-pixel#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Peak Design"
+   },
+   "description": "",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/2986/1172/files/02-LIGHTBOX-Case-Pixel8-Pro-Redwood-01.jpg?v=1762275765"
+   ],
+   "name": "SlimLink Case for Pixel",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 59.95,
+     "priceCurrency": "USD",
+     "sku": "",
+     "url": "https://www.peakdesign.com/products/slimlink-case-for-pixel?Phone=Pixel+8+Pro&Case+Style=SlimLink+Case&Color=Redwood&Title=Default+Title"
+    }
+   ],
+   "sku": "M-MC-BN-RD-1",
+   "url": "https://www.peakdesign.com/products/slimlink-case-for-pixel?Phone=Pixel+8+Pro&Case+Style=SlimLink+Case&Color=Redwood"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:36Z",
+ "og_image": null,
+ "page_sha256": "718f3d48411f63f3c34d87e01ef4fb24bd79538c098072d1a7c0782d160d70c3",
+ "rendered_checked": true,
+ "title": "SlimLink Case for Pixel | Peak Design Official Site",
+ "url": "https://peakdesign.com/products/everyday-case-for-pixel-8-pro-everyday-case-redwood"
+}

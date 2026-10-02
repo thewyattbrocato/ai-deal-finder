@@ -1,0 +1,43 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz",
+ "http_status": 200,
+ "id": "kettleandfire-reduced-sodium-chicken-bone-broth-32oz",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://www.kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Kettle & Fire"
+   },
+   "description": "<p><span style=\"font-size: 0.875rem;\">Full flavor, less sodium. We didn\u2019t lower our standards, just sodium. Savor every sip (or spoonful) of slow-simmered, organic chicken bones for delicious daily nutrition.</span><b><br></b><br></p>",
+   "image": "https://www.kettleandfire.com/cdn/shop/files/Untitleddesign_2_e4da75eb-427f-47a5-b5ce-ea4e1c069ef5_1024x1024.png?v=1779433474",
+   "mpn": "851702007947",
+   "name": "4 Pack: Reduced Sodium Chicken Bone Broth - 32oz",
+   "sku": "4PACKRSCHKN32"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://www.kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Kettle & Fire"
+   },
+   "description": "<p><span style=\"font-size: 0.875rem;\">Full flavor, less sodium. We didn\u2019t lower our standards, just sodium. Savor every sip (or spoonful) of slow-simmered, organic chicken bones for delicious daily nutrition.</span><b><br></b><br></p>",
+   "image": "https://www.kettleandfire.com/cdn/shop/files/Untitleddesign_2_e4da75eb-427f-47a5-b5ce-ea4e1c069ef5_1024x1024.png?v=1779433474",
+   "mpn": "851702007947",
+   "name": "4 Pack: Reduced Sodium Chicken Bone Broth - 32oz",
+   "sku": "4PACKRSCHKN32"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:05:02Z",
+ "og_image": "http://www.kettleandfire.com/cdn/shop/files/042126_RSChicken_32_2_0f392998-39d7-489c-9a21-6f31049fa681_600x600.png?v=1784564276",
+ "page_sha256": "09f0e894932e47374cf09af3a3de2fdbec9e5cd4c95817135cd00200e401f9fb",
+ "title": "Chicken Bone Broth [Organic Bones | Reduced Sodium] \u2013 Kettle & Fire",
+ "url": "https://kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz"
+}

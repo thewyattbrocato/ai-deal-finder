@@ -1,0 +1,114 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections",
+ "http_status": 200,
+ "id": "rumpl-original-puffy-blanket-gianna-andrews-tidal-reflection",
+ "image_file": "rumpl-original-puffy-blanket-gianna-andrews-tidal-reflection.png",
+ "image_sha256": "2c06d61f4b5027d0ff6a69ec3f301adc1c7f779298e8dce56f6fbdec6f85586b",
+ "image_source": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613.png?v=1787825290&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": 4655
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "category": "Outdoor Blankets",
+   "description": "Inspired by the raw beauty of PNW waters and glowing coastal twilights, Tidal Reflections captures the rhythmic, restorative motion of the ocean. RAD artist Gianna Andrews transforms this blanke(et) canvas with her signature whimsical style, flowing line work, and vivid palette. Explore more of her work and follow her creative journey at @giannaandrewsart.Learn more about the collab here &gt;Made for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, ...",
+   "hasVariant": [
+    {
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499#variant",
+     "@type": "Product",
+     "gtin12": "810203130684",
+     "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613.png?v=1787825290&width=1200",
+     "name": "Original Puffy Blanket - Gianna Andrews - Tidal Reflections - 1-Person",
+     "offers": {
+      "@id": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "129.95",
+      "priceCurrency": "USD",
+      "url": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499"
+     },
+     "sku": "RU01014361P"
+    }
+   ],
+   "image": [
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613.png?v=1787825290&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950612.jpg?v=1787825228&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950611.jpg?v=1787825167&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-flare-ru01014341p-1251335834.jpg?v=1785264788&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950609.jpg?v=1787825109&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950608.jpg?v=1787825051&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950607.jpg?v=1787824988&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255968111.jpg?v=1787832489&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255968109.jpg?v=1787832431&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255968108.jpg?v=1787832369&width=1200"
+   ],
+   "name": "Original Puffy Blanket - Gianna Andrews - Tidal Reflections",
+   "productGroupID": 15060355744107,
+   "url": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections"
+  },
+  {
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499#variant",
+   "@type": "Product",
+   "gtin12": "810203130684",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613.png?v=1787825290&width=1200",
+   "name": "Original Puffy Blanket - Gianna Andrews - Tidal Reflections - 1-Person",
+   "offers": {
+    "@id": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "129.95",
+    "priceCurrency": "USD",
+    "url": "https://www.rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections?variant=53375265243499"
+   },
+   "sku": "RU01014361P"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/original-puffy-blanket-gianna-andrews-tidal-reflections#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "4655",
+    "ratingValue": "4.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "description": "Inspired by the raw beauty of PNW waters and glowing coastal twilights, Tidal Reflections captures the rhythmic, restorative motion of the ocean. RAD artist Gianna Andrews transforms this blanke(et) canvas with her signature whimsical style, flowing line work, and vivid palette. Explore more of her work and follow her creative journey at @giannaandrewsart.Learn more about the collab here &gt;Made for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free Cape Clip\u00ae, the Original Puffy Blanket is designed to be enjoyed everywhere from camping and cabins to tailgates and tournaments.",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613_450x450.png?v=1787825290",
+   "mpn": "15060355744107",
+   "name": "Original Puffy Blanket - Gianna Andrews - Tidal Reflections",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "129.95",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Rumpl"
+    }
+   },
+   "url": "/products/original-puffy-blanket-gianna-andrews-tidal-reflections"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-02T20:01:45Z",
+ "og_image": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-gianna-andrews-tidal-reflections-ru01014361p-1255950613.png?v=1787825290",
+ "page_sha256": "b15cd8fb739bfd12f9450b07391f294c825696bfecb256e5b76878c6d12e5f48",
+ "rendered_checked": true,
+ "title": "Original Puffy Blanket - Tidal Reflections | Rumpl x Gianna Andrews",
+ "url": "https://rumpl.com/products/original-puffy-blanket-gianna-andrews-tidal-reflections"
+}

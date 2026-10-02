@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack",
+ "http_status": 200,
+ "id": "sodastream-bubly-drops-tropical-thrill-variety-3-pack",
+ "image_file": "sodastream-bubly-drops-tropical-thrill-variety-3-pack.png",
+ "image_sha256": "cdc06061e9fbaccc6b6caa21aee449a1983f1cf70d68b68249ab636d71cf281c",
+ "image_source": "http://sodastream.com/cdn/shop/products/US_bubly_multi_3pack_3_1024x1024_2954bd3f-6322-407d-b18c-98b0c08c9200.png?v=1666093279&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "ratingCount": "32",
+    "ratingValue": "4.4",
+    "worstRating": "1"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Sodastream"
+   },
+   "description": "Buy the bubly drops \u2122 Tropical Thrill Variety 3-Pack. Includes grapefruit, lime and mango fruit flavors for your sparkling water. No calories. No sweeteners.",
+   "gtin": "810055450480",
+   "image": "https://sodastream.com/cdn/shop/products/US_bubly_multi_3pack_3_1024x1024_2954bd3f-6322-407d-b18c-98b0c08c9200_large.png?v=1666093279",
+   "mpn": "1102777011",
+   "name": "Sodastream bubly drops\u00ae Tropical Thrill Variety Natural Flavor Essence 3 Pack 40ml - final sale",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "9.0",
+    "priceCurrency": "USD",
+    "url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack"
+   },
+   "sku": "1102777011"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:01:24Z",
+ "og_image": "http://sodastream.com/cdn/shop/products/US_bubly_multi_3pack_3_1024x1024_2954bd3f-6322-407d-b18c-98b0c08c9200.png?v=1666093279&width=1200",
+ "page_sha256": "fca3b42ee6ed8849248d7f29f27f7bd4e3b87341070f0f3f694bb153906e1998",
+ "rendered_checked": true,
+ "title": "SodaStream bubly drops \u2122 Tropical Thrill Variety 3-Pack",
+ "url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack"
+}

@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
+ "http_status": 200,
+ "id": "sodastream-bubly-drops-original-variety-6-pack",
+ "image_file": "sodastream-bubly-drops-original-variety-6-pack.jpg",
+ "image_sha256": "57bc5a0d79f0dea0bd30fea7f344ba695e6b0aa5712a838fdd32c981a446d374",
+ "image_source": "http://sodastream.com/cdn/shop/files/Bubly_Variety_6_Pack-sh2.jpg?v=1757946581&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "ratingCount": "348",
+    "ratingValue": "4.6",
+    "worstRating": "1"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Sodastream"
+   },
+   "description": "Buy the bubly drops \u2122 Original Variety 6-Pack flavors on SodaStream. Make your own fruit flavored sparkling water at home. No calories. No sweeteners.",
+   "gtin": "810055450404",
+   "image": "https://sodastream.com/cdn/shop/files/Bubly_Variety_Pack_MHRI_transparent_large.png?v=1757269800",
+   "mpn": "1102774011",
+   "name": "Sodastream bubly drops\u00ae Tropical Original Variety Natural Flavor Essence 6 Pack 40ml - final sale",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "15.0",
+    "priceCurrency": "USD",
+    "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
+   },
+   "sku": "1102774011"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:01:26Z",
+ "og_image": "http://sodastream.com/cdn/shop/files/Bubly_Variety_6_Pack-sh2.jpg?v=1757946581&width=1200",
+ "page_sha256": "8f5dda0eb3acf3e507d107ee369c7523133ce95590be2d4b8a846b980463febe",
+ "rendered_checked": true,
+ "title": "SodaStream bubly drops \u2122 Original Variety 6-Pack Flavors",
+ "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
+}

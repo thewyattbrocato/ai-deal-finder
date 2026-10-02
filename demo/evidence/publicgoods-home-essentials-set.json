@@ -1,0 +1,95 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.publicgoods.com/products/home-essentials-set",
+ "http_status": 200,
+ "id": "publicgoods-home-essentials-set",
+ "image_file": "publicgoods-home-essentials-set.jpg",
+ "image_sha256": "5328b188f85ac5065960f4708842da39295e8e2cc41bedeb590e8f7f7c2977c4",
+ "image_source": "http://www.publicgoods.com/cdn/shop/files/home_essentials_set_2645c0f6-8e6d-4592-9ac1-aa9b56ac5238.jpg?v=1785341867&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/home-essentials-set#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "341",
+    "ratingValue": "4.7"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Public Goods"
+   },
+   "description": "A home essentials set assembled to support the care of the kitchen, bath, laundry, and surrounding spaces. The collection brings together plant-based cleaning formulas, personal care staples, tree free paper goods, and laundry supplies designed to maintain a well-kept home.\n\u00a0\nSet includes one 16oz Mandarin Basil Dish Soap, one 24oz Surface Cleaner, 12 Scrubber Sponges, one 12oz Hand Soap, one 12oz Body Wash, one 12oz Shampoo, one 12oz Conditioner, 24 rolls of Tree Free Toiler Paper, 6 rolls of Tree Free Paper Towels, 100 Laundry Detergent Pods and 80 Dishwasher Detergent Pods.",
+   "image": "https://www.publicgoods.com/cdn/shop/files/home_essentials_set_2645c0f6-8e6d-4592-9ac1-aa9b56ac5238_450x450.jpg?v=1785341867",
+   "mpn": "9214896504970",
+   "name": "Home Essentials Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "208.95",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Public Goods"
+    }
+   },
+   "url": "/products/home-essentials-set"
+  },
+  {
+   "@id": "https://www.publicgoods.com/products/home-essentials-set#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Public Goods"
+   },
+   "description": "A home essentials set assembled to support the care of the kitchen, bath, laundry, and surrounding spaces. The collection brings together plant-based cleaning formulas, personal care staples, tree free paper goods, and laundry supplies designed to maintain a well-kept home.\u00a0Set includes one 16oz Mandarin Basil Dish Soap, one 24oz Surface Cleaner, 12 Scrubber Sponges, one 12oz Hand Soap, one 12oz Body Wash, one 12oz Shampoo, one 12oz Conditioner, 24 rolls of Tree Free Toiler Paper, 6 rolls of Tree Free Paper Towels, 100 Laundry Detergent Pods and 80 Dishwasher Detergent Pods.",
+   "gtin": "810152230596",
+   "image": [
+    "https://www.publicgoods.com/cdn/shop/files/home_essentials_set_2645c0f6-8e6d-4592-9ac1-aa9b56ac5238.jpg?v=1785341867&width=1400",
+    "https://www.publicgoods.com/cdn/shop/files/home_set.jpg?v=1785341873&width=1400"
+   ],
+   "name": "Home Essentials Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@id": "https://www.publicgoods.com/#returns"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "208.95",
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": "208.95",
+      "priceCurrency": "USD"
+     },
+     {
+      "@type": "UnitPriceSpecification",
+      "price": "167.16",
+      "priceCurrency": "USD",
+      "priceType": "https://schema.org/SalePrice",
+      "validForMemberTier": {
+       "@id": "https://www.publicgoods.com/membership#member-tier"
+      }
+     }
+    ],
+    "priceValidUntil": "2026-12-31",
+    "shippingDetails": {
+     "@id": "https://www.publicgoods.com/#shipping"
+    },
+    "url": "https://www.publicgoods.com/products/home-essentials-set"
+   },
+   "sku": "000-000-010-011",
+   "url": "https://www.publicgoods.com/products/home-essentials-set"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-02T20:06:14Z",
+ "og_image": "http://www.publicgoods.com/cdn/shop/files/home_essentials_set_2645c0f6-8e6d-4592-9ac1-aa9b56ac5238.jpg?v=1785341867",
+ "page_sha256": "c70440bb7be948d9f672c250b1b6771b7efc72983f64792afbedcaf5820ba049",
+ "rendered_checked": true,
+ "title": "Home Essentials Set \u2013 Public Goods",
+ "url": "https://publicgoods.com/products/home-essentials-set"
+}

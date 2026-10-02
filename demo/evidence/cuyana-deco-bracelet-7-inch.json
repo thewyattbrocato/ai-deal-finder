@@ -1,0 +1,80 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cuyana.com/products/deco-bracelet-7-inch",
+ "http_status": 200,
+ "id": "cuyana-deco-bracelet-7-inch",
+ "image_file": "cuyana-deco-bracelet-7-inch.jpg",
+ "image_sha256": "61bd1b7c1a49247c49863157f006276a2ea0f3d5960d914e803e6452fddff559",
+ "image_source": "http://cuyana.com/cdn/shop/files/PLP_2000x2500_FA26_DecoBracelet_Gold_6756_2dba1ef8-082e-467f-906a-8a71f54d3cb9.jpg?v=1789505502&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Care Instructions",
+     "value": "Dimensions Length: 7 in. Width: 0.5 in. Weight: 36 g Care Keep your jewelry pieces away from water, perfume, make up and other beauty products to prevent premature tarnishing Store your jewelry pieces in their original pouch to prevent exposure to humidity"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "12 Month Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Design",
+     "value": "Striking & Unique: The Deco Bracelet brings vintage charm and modern appeal to your jewelry collection. Dress it up or wear it with your daily uniform. Finished with a clasp closure for security."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Quality",
+     "value": "Handcrafted in New York City: Handmade by skilled artisans in New York City from 14k gold-plated recycled brass."
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Sustainability",
+     "value": "Responsible Production: We use recycled brass to lessen the environmental impact of mining virgin metals, while our NYC-based production helps to reduce our carbon footprint from shipping."
+    }
+   ],
+   "brand": {
+    "name": "Cuyana"
+   },
+   "category": "Jewelry",
+   "description": "Crafted from vintage pieces and thoughtfully reimagined to give them new life, this bracelet brings the bold geometric forms of Art Deco into a modern heirloom. Finished in 14k gold-plated brass with a clasp closure.",
+   "gtin12": "840475912886",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://cuyana.com/cdn/shop/files/PLP_2000x2500_FA26_DecoBracelet_Gold_6756_2dba1ef8-082e-467f-906a-8a71f54d3cb9_1024x.jpg?v=1789505502",
+    "name": "Link bracelet with rectangular chain design",
+    "url": "https://cuyana.com/cdn/shop/files/PLP_2000x2500_FA26_DecoBracelet_Gold_6756_2dba1ef8-082e-467f-906a-8a71f54d3cb9_1024x.jpg?v=1789505502",
+    "width": "1024"
+   },
+   "material": "14K Gold Plated Brass",
+   "name": "Deco Bracelet 7-inch",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "name": "Gold / One Size",
+     "price": 198.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-12",
+     "sku": "10063523-710-000",
+     "url": "/products/deco-bracelet-7-inch?variant=53896277623150"
+    }
+   ],
+   "productId": "840475912886",
+   "sku": "10063523-710-000",
+   "url": "/products/deco-bracelet-7-inch"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T20:05:24Z",
+ "og_image": "http://cuyana.com/cdn/shop/files/PLP_2000x2500_FA26_DecoBracelet_Gold_6756_2dba1ef8-082e-467f-906a-8a71f54d3cb9.jpg?v=1789505502",
+ "page_sha256": "94a3375256d00c1dc57b8ad8717d918e10a9b6291286e82e63aebcd7d10edfba",
+ "rendered_checked": true,
+ "title": "Deco Bracelet 7-inch \u2013 Cuyana",
+ "url": "https://cuyana.com/products/deco-bracelet-7-inch"
+}

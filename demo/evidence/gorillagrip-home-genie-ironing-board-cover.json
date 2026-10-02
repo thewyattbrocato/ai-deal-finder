@@ -1,0 +1,43 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://gorillagrip.com/products/home-genie-ironing-board-cover",
+ "http_status": 200,
+ "id": "gorillagrip-home-genie-ironing-board-cover",
+ "image_file": "gorillagrip-home-genie-ironing-board-cover.jpg",
+ "image_sha256": "d44fb933c4937ab4612fb3a613a827c8b0a2342f838fe9a7493927fa880b6bb5",
+ "image_source": "http://gorillagrip.com/cdn/shop/files/HG_IroningBoardCover_Blue_HERO.jpg?v=1783365547&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Gorilla Grip"
+   },
+   "description": "Iron More Quickly: make ironing faster and easier than ever before; cover is designed with an innovative silicone coating which reflects heat and does not absorb it; this coating helps make ironing more effective to give you perfect and wrinkle free clothes in no time\nResists Scorching and Staining: no more scorched or burned ironing board covers; the thick and durable silicone coated material is made to resist scorching and staining up to 400 degrees, even after many uses; use on heat safe surfaces\nStays In Place: cover features a nose pocket, hook and loop fasteners and elastic edges to help keep it in place and prevent shifting while ironing; includes not one but two hook and loop fastener straps on the underside and strong elasticized edges around the entire border\nExtra Thick Padding: thick padded cover provides a barrier and extra layer of protection between your clothes and the board; helping to prevent the mesh from the board transferring onto your clothing\nSecure Fit on Most Standard Boards: cover measures 15 inches by 54 inches, making it a perfect fit for all standard sized ironing boards; the elasticized edges and hook and loop fasteners make installation extremely easy; please note that the ironing board is not included with the cover",
+   "image": [
+    "https://gorillagrip.com/cdn/shop/files/HG_IroningBoardCover_Blue_HERO.jpg?v=1783365547&width=1920"
+   ],
+   "name": "Ironing Board Cover",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.99,
+     "priceCurrency": "USD",
+     "sku": "HG-IroningBoardCover-15x54-Blue",
+     "url": "https://gorillagrip.com/products/home-genie-ironing-board-cover?variant=52627407864124"
+    }
+   ],
+   "sku": "HG-IroningBoardCover-15x54-Blue",
+   "url": "https://gorillagrip.com/products/home-genie-ironing-board-cover"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-02T19:59:22Z",
+ "og_image": "http://gorillagrip.com/cdn/shop/files/HG_IroningBoardCover_Blue_HERO.jpg?v=1783365547",
+ "page_sha256": "968ef9926ca6b110d16382ceba019723717168df59fe6c9273dd50861ee75a2f",
+ "rendered_checked": true,
+ "title": "Ironing Board Cover \u2013 Gorilla Grip",
+ "url": "https://gorillagrip.com/products/home-genie-ironing-board-cover"
+}

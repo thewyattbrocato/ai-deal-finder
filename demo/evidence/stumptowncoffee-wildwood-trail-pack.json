@@ -1,0 +1,51 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stumptowncoffee.com/products/wildwood-trail-pack",
+ "http_status": 200,
+ "id": "stumptowncoffee-wildwood-trail-pack",
+ "image_file": "stumptowncoffee-wildwood-trail-pack.png",
+ "image_sha256": "07093f16d5126e3005f8aabdb0cf9f350c406a0993762daef16394e8679ac678",
+ "image_source": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_HipPack1_72DPI.png?v=1790104710&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.stumptowncoffee.com/products/wildwood-trail-pack",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stumptown Coffee"
+   },
+   "description": "The crows of WILDWOOD are clever, calculating, and definitely up to something. Dare to wear this limited-edition patch boldly\u2014but prepare to answer questions about where your loyalties lie.",
+   "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_HipPack1_72DPI.png?v=1790104710",
+   "mpn": "100765",
+   "name": "WILDWOOD Trail Pack",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_HipPack1_72DPI.png?v=1790104710",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "100765",
+     "price": "38.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Stumptown Coffee"
+     },
+     "sku": "100765",
+     "url": "https://www.stumptowncoffee.com/products/wildwood-trail-pack/products/wildwood-trail-pack?variant=56033604632744"
+    }
+   ],
+   "sku": "100765",
+   "url": "https://www.stumptowncoffee.com/products/wildwood-trail-pack"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T19:58:14Z",
+ "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_HipPack1_72DPI.png?v=1790104710",
+ "page_sha256": "5aeae87c1fac47738dcf5449d405f9611c65446c2643a5dd7d6d33739a7f6731",
+ "rendered_checked": true,
+ "title": "WILDWOOD Trail Pack | Stumptown Coffee Roasters",
+ "url": "https://stumptowncoffee.com/products/wildwood-trail-pack"
+}

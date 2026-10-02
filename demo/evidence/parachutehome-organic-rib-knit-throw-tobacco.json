@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco",
+ "http_status": 200,
+ "id": "parachutehome-organic-rib-knit-throw-tobacco",
+ "image_file": "parachutehome-organic-rib-knit-throw-tobacco.jpg",
+ "image_sha256": "073cb0d5049c5546db770b320924da5bced0326888c2bd1debf640f3f024696d",
+ "image_source": "http://parachutehome.com/cdn/shop/files/organic-rib-knit-throw_tobacco_main_1276.jpg?v=1790105517&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/organic-rib-knit-throw-tobacco#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Parachute Home"
+   },
+   "category": "Pillowcases & Shams",
+   "description": "This soft, stretchy throw is the instant update you\u2019ll reach for on repeat. Made of sustainable organic cotton in a cozy rib knit. Toss on the bed for afternoon naps, or over a sofa or chair in the living room.",
+   "hasVariant": [
+    {
+     "@id": "/products/organic-rib-knit-throw-tobacco?variant=39754608312581#variant",
+     "@type": "Product",
+     "gtin": "810210546027",
+     "image": "https://parachutehome.com/cdn/shop/files/organic-rib-knit-throw_tobacco_main_1276.jpg?v=1790105517&width=1920",
+     "name": "Organic Rib Knit Throw (Tobacco) - One Size / Tobacco",
+     "offers": {
+      "@id": "/products/organic-rib-knit-throw-tobacco?variant=39754608312581#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "99.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco?variant=39754608312581"
+     },
+     "sku": "THWOKNTBCONE"
+    }
+   ],
+   "name": "Organic Rib Knit Throw (Tobacco)",
+   "productGroupID": "6702757445893",
+   "url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco"
+  },
+  {
+   "@id": "/products/organic-rib-knit-throw-tobacco?variant=39754608312581#variant",
+   "@type": "Product",
+   "gtin": "810210546027",
+   "image": "https://parachutehome.com/cdn/shop/files/organic-rib-knit-throw_tobacco_main_1276.jpg?v=1790105517&width=1920",
+   "name": "Organic Rib Knit Throw (Tobacco) - One Size / Tobacco",
+   "offers": {
+    "@id": "/products/organic-rib-knit-throw-tobacco?variant=39754608312581#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "99.00",
+    "priceCurrency": "USD",
+    "url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco?variant=39754608312581"
+   },
+   "sku": "THWOKNTBCONE"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-02T19:58:47Z",
+ "og_image": "http://parachutehome.com/cdn/shop/files/organic-rib-knit-throw_tobacco_main_1276.jpg?v=1790105517",
+ "page_sha256": "34ce9141afbffbab6bca7fc7fc6ca68b3e4631b9ce09be03121e000627788b18",
+ "rendered_checked": true,
+ "title": "Organic Rib Knit Throw (Tobacco) \u2013 Parachute Home",
+ "url": "https://parachutehome.com/products/organic-rib-knit-throw-tobacco"
+}

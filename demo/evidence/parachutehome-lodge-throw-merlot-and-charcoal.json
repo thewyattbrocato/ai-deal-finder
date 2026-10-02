@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal",
+ "http_status": 200,
+ "id": "parachutehome-lodge-throw-merlot-and-charcoal",
+ "image_file": "parachutehome-lodge-throw-merlot-and-charcoal.jpg",
+ "image_sha256": "4a3a8d866acb2820dd784bf7702a39e7caa29d560895f3dc34e59864919c91df",
+ "image_source": "http://parachutehome.com/cdn/shop/files/lodge-throw_merlot-and-charcoal_main_1315.jpg?v=1790104258&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/lodge-throw-merlot-and-charcoal#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Parachute Home"
+   },
+   "category": "Blankets",
+   "description": "Go big on plaid. An oversized check gives the classic cabin pattern a more modern point of view, with rich contrasting shades and long fringe for a relaxed finish. Woven from superfine alpaca, it delivers exceptional softness and wonderful warmth without the weight. The lodge look, no cabin required.\n\u00a0",
+   "hasVariant": [
+    {
+     "@id": "/products/lodge-throw-merlot-and-charcoal?variant=39754608247045#variant",
+     "@type": "Product",
+     "gtin": "810210549790",
+     "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_merlot-and-charcoal_main_1315.jpg?v=1790104258&width=1920",
+     "name": "Lodge Throw (Merlot and Charcoal) - One Size / Merlot and Charcoal",
+     "offers": {
+      "@id": "/products/lodge-throw-merlot-and-charcoal?variant=39754608247045#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "279.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal?variant=39754608247045"
+     },
+     "sku": "THWLODMAGONE"
+    }
+   ],
+   "name": "Lodge Throw (Merlot and Charcoal)",
+   "productGroupID": "6702757413125",
+   "url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal"
+  },
+  {
+   "@id": "/products/lodge-throw-merlot-and-charcoal?variant=39754608247045#variant",
+   "@type": "Product",
+   "gtin": "810210549790",
+   "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_merlot-and-charcoal_main_1315.jpg?v=1790104258&width=1920",
+   "name": "Lodge Throw (Merlot and Charcoal) - One Size / Merlot and Charcoal",
+   "offers": {
+    "@id": "/products/lodge-throw-merlot-and-charcoal?variant=39754608247045#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "279.00",
+    "priceCurrency": "USD",
+    "url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal?variant=39754608247045"
+   },
+   "sku": "THWLODMAGONE"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-02T19:58:49Z",
+ "og_image": "http://parachutehome.com/cdn/shop/files/lodge-throw_merlot-and-charcoal_main_1315.jpg?v=1790104258",
+ "page_sha256": "a17a58ab7684eaded6a6ef6a84c906706744f9ff879d2e9cd97d6059527a5b38",
+ "rendered_checked": true,
+ "title": "Lodge Throw (Merlot and Charcoal) \u2013 Parachute Home",
+ "url": "https://parachutehome.com/products/lodge-throw-merlot-and-charcoal"
+}

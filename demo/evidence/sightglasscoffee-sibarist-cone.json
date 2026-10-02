@@ -1,0 +1,65 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://sightglasscoffee.com/products/sibarist-cone",
+ "http_status": 200,
+ "id": "sightglasscoffee-sibarist-cone",
+ "image_file": "sightglasscoffee-sibarist-cone.jpg",
+ "image_sha256": "61a4aaf98387189a1b1a8881cf6cc540b777bd3eeadeedeab175c1bec504cc8e",
+ "image_source": "http://sightglasscoffee.com/cdn/shop/files/1-B3CONE.jpg?v=1790811029&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/sibarist-cone#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Specialty Filter for V60 BrewersCONE is a V60 coffee filter developed with SIBARIST's FAST or B3 Specialty Coffee Filter Technology, designed to enhance extraction and flavor clarity.FAST delivers faster, even drawdowns for clean, silky cups, opening up new possibilities for recipes and grind sizes. B3 promotes uniform extraction, consistent turbulence, and sweetness, while its thickness and low porosity prevent bypass and enhance clarity.\nCompatibility:- S: 1-2 cups. V60 filter holders (01).- M: 2-4 cups. V60 filter holders (02).- L: Chemex Classic. V60 filter holders (03), by folding the filter at 90\u00ba.",
+   "image": "https://sightglasscoffee.com/cdn/shop/files/1-B3CONE_450x450.jpg?v=1790811029",
+   "mpn": "10245425135808",
+   "name": "Sibarist Cone",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "0.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Sightglass Coffee"
+    }
+   },
+   "url": "/products/sibarist-cone"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Specialty Filter for V60 BrewersCONE is a V60 coffee filter developed with SIBARIST's FAST or B3 Specialty Coffee Filter Technology, designed to enhance extraction and flavor clarity.FAST delivers faster, even drawdowns for clean, silky cups, opening up new possibilities for recipes and grind sizes. B3 promotes uniform extraction, consistent turbulence, and sweetness, while its thickness and low porosity prevent bypass and enhance clarity.\nCompatibility:- S: 1-2 cups. V60 filter holders (01).- M: 2-4 cups. V60 filter holders (02).- L: Chemex Classic. V60 filter holders (03), by folding the filter at 90\u00ba.",
+   "image": [
+    "https://sightglasscoffee.com/cdn/shop/files/1-B3CONE.jpg?v=1790811029&width=1920"
+   ],
+   "name": "Sibarist Cone",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 0.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "url": "https://sightglasscoffee.com/products/sibarist-cone?variant=50382960197824"
+    }
+   ],
+   "url": "https://sightglasscoffee.com/products/sibarist-cone"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:33Z",
+ "og_image": "http://sightglasscoffee.com/cdn/shop/files/1-B3CONE.jpg?v=1790811029",
+ "page_sha256": "8034202a1003ade9f05414010ea7e3fa0e552911321f58d78a2c85243c20b44b",
+ "title": "Sibarist Cone \u2013 Sightglass Coffee",
+ "url": "https://sightglasscoffee.com/products/sibarist-cone"
+}

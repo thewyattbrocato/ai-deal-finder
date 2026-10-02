@@ -1,0 +1,71 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set",
+ "http_status": 200,
+ "id": "sightglasscoffee-harvest-moon-fall-gift-set",
+ "image_file": "sightglasscoffee-harvest-moon-fall-gift-set.png",
+ "image_sha256": "7a240c26f17a5cf69205f41848ecb653a80a724fe16e915a9e8d13ff4c23aba8",
+ "image_source": "http://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Harvest-Moon-Gift-Set-opt.png?v=1785899934&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/harvest-moon-fall-gift-set#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "389",
+    "ratingValue": "4.8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Autumnal Equinox is named\u00a0for the celestial shift from summer to autumn, marked by nearly equal amounts of daylight and darkness across all latitudes, our Autumnal Equinox blend is crafted from a 50/50 composition of washed and natural processed coffees.\nOwl's Howl is our flagship espresso blend. Owl's Howl delivers consistent balance and depth, crafted from seasonal coffees sourced for optimal freshness. It\u2019s the coffee we use in all our espresso beverages at Sightglass cafes, trusted daily for its structure and reliability.\nGrizzly Peak is a first for Sightglass, our inaugural Regenerative Organic Certified\u00ae coffee. ROC goes beyond organic: it's a standard built around restoring soil health, supporting biodiversity, and treating farming as a system that gives back more than it takes. We're proud to offer it, and prouder still of what it represents for the future of how coffee is grown.",
+   "image": "https://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Harvest-Moon-Gift-Set-opt_450x450.png?v=1785899934",
+   "mpn": "8665857589440",
+   "name": "Harvest Moon Gift Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "58.2",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Sightglass Coffee"
+    }
+   },
+   "url": "/products/harvest-moon-fall-gift-set"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Autumnal Equinox is named\u00a0for the celestial shift from summer to autumn, marked by nearly equal amounts of daylight and darkness across all latitudes, our Autumnal Equinox blend is crafted from a 50/50 composition of washed and natural processed coffees.\nOwl's Howl is our flagship espresso blend. Owl's Howl delivers consistent balance and depth, crafted from seasonal coffees sourced for optimal freshness. It\u2019s the coffee we use in all our espresso beverages at Sightglass cafes, trusted daily for its structure and reliability.\nGrizzly Peak is a first for Sightglass, our inaugural Regenerative Organic Certified\u00ae coffee. ROC goes beyond organic: it's a standard built around restoring soil health, supporting biodiversity, and treating farming as a system that gives back more than it takes. We're proud to offer it, and prouder still of what it represents for the future of how coffee is grown.",
+   "image": [
+    "https://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Harvest-Moon-Gift-Set-opt.png?v=1785899934&width=1920"
+   ],
+   "name": "Harvest Moon Gift Set",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 58.2,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set?variant=48716330139840"
+    }
+   ],
+   "url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:37Z",
+ "og_image": "http://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Harvest-Moon-Gift-Set-opt.png?v=1785899934",
+ "page_sha256": "ce6a2764fe069a2f954085a644526bb68341af333760ba9b0454ced33124f20e",
+ "rendered_checked": true,
+ "title": "Fall Coffee Gift Set | Sightglass Coffee",
+ "url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set"
+}

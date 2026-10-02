@@ -378,8 +378,10 @@ class QuietPageTest(unittest.TestCase):
              "Show all", "Only with a printed coupon"])
         self.assertEqual(load["buttons"], [
             "Kind of thing", "Exact product", "Search",
-            "Reset \u2014 show everything"])
+            "Reset \u2014 show everything", "Show more matches"])
         self.assertGreater(len(load["visible"]), 0)
+        self.assertLessEqual(len(load["visible"]), 12)
+        self.assertGreaterEqual(len(load["all"]), 100)
         self.assertTrue(all(card["kind"] == "Coffee" for card in load["visible"]))
         self.assertTrue(any(card["coupon"] == "yes" for card in load["visible"]))
         self.assertTrue(any(card["coupon"] == "no" for card in load["visible"]))
@@ -387,30 +389,30 @@ class QuietPageTest(unittest.TestCase):
         self.assertIn("similar checked products", load["mode"])
         self.assertIn("only when that product's own page printed it", load["mode"])
         self.assertIn("the price shown is the shelf price", load["mode"])
-        self.assertEqual(load["status"], "No answers set. %d shown, 0 hidden by your answers."
-                         % len(load["visible"]))
+        self.assertRegex(load["status"],
+                         r"^No answers set\. \d+ match, 0 hidden by your answers\.$")
         self.assertFalse(load["hiddenShown"])
 
     def test_form_answers_narrow_and_can_be_changed_back(self):
         any_coffee = self.driven["anyCoffee"]
         coffee = [card for card in any_coffee["all"] if card["kind"] == "Coffee"]
-        self.assertEqual(
-            sorted(names(any_coffee)), sorted(card["name"] for card in coffee))
+        self.assertEqual(len(any_coffee["visible"]), min(12, len(coffee)))
+        self.assertTrue(set(names(any_coffee)) <= {c["name"] for c in coffee})
         self.assertNotIn("AirPods Pro 3", names(any_coffee))
         self.assertEqual(any_coffee["noMatch"], "none")
 
         whole = self.driven["wholeBean"]
         beans = [card for card in whole["all"] if card["form"] == "whole-bean"]
-        self.assertEqual(
-            sorted(names(whole)), sorted(card["name"] for card in beans))
+        self.assertEqual(len(whole["visible"]), min(12, len(beans)))
+        self.assertTrue(set(names(whole)) <= {c["name"] for c in beans})
         self.assertNotIn("AirPods Pro 3", names(whole))
         self.assertTrue(whole["hiddenShown"])
-        self.assertTrue(any("AirPods Pro 3" in h and "Whole bean" in h
-                            for h in whole["hiddenItems"]))
+        self.assertTrue(any("Whole bean" in h for h in whole["hiddenItems"]))
+        self.assertLessEqual(len(whole["hiddenItems"]), 13)
 
         back = self.driven["wholeBeanThenAnything"]
-        self.assertEqual(len(back["visible"]), len(back["all"]))
-        self.assertIn("AirPods Pro 3", names(back))
+        self.assertEqual(len(back["visible"]), 12)
+        self.assertTrue(any(c["kind"] != "Coffee" for c in back["visible"]))
         self.assertFalse(back["hiddenShown"])
 
     def test_every_shown_card_says_why_and_only_from_page_facts(self):
@@ -457,7 +459,7 @@ class QuietPageTest(unittest.TestCase):
         self.assertTrue(all(card["form"] == "whole-bean" for card in changed["visible"]))
 
         reset = self.driven["resetAfterCombined"]
-        self.assertEqual(len(reset["visible"]), len(reset["all"]))
+        self.assertEqual(len(reset["visible"]), 12)
         self.assertEqual(
             [(r["key"], r["value"]) for r in reset["radios"] if r["checked"]],
             [("prefer", "price"), ("form", ""), ("coupon", "all")])
@@ -506,7 +508,7 @@ class QuietPageTest(unittest.TestCase):
 
     def test_kind_search_still_sorts_specialty_and_price(self):
         specialty = self.driven["specialty"]
-        self.assertIn("AirPods Pro 3", names(specialty))
+        self.assertEqual(len(specialty["visible"]), 12)
         seen_other = False
         seen_roaster = False
         for card in specialty["visible"]:

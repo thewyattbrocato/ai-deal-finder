@@ -1,0 +1,41 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde",
+ "http_status": 200,
+ "id": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde",
+ "image_file": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde.png",
+ "image_sha256": "e53eaabd24709881f682e0e75752f0fbd9405a84f60b0f0ac13d22ddca46c966",
+ "image_source": "http://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=480&v=1790782690&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Go Get Em Tiger"
+   },
+   "description": "With notes of brownie, black forest cake, and cherry.",
+   "image": "https://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=1024&v=1790782690&width=1024",
+   "name": "Decaf Placer De La Tarde \u2014 8ct",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "26.24",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Cometeer "
+    },
+    "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde?variant=45518069596459"
+   },
+   "sku": "PP8PGGDP"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:19Z",
+ "og_image": "http://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=480&v=1790782690&width=480",
+ "page_sha256": "d5befe826a76e666435fbadd289bc3644ae3e29bf13184314d33a5c7715c1694",
+ "rendered_checked": true,
+ "title": "Decaf Placer De La Tarde \u2013 Cometeer",
+ "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde"
+}

@@ -1,0 +1,70 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://brightland.co/products/mini-parasol",
+ "http_status": 200,
+ "id": "brightland-mini-parasol",
+ "image_file": "brightland-mini-parasol.jpg",
+ "image_sha256": "32bfaadca5ce5289cd3beae5e8d02c1c1a68228f5541b526cbf378c9f3d50710",
+ "image_source": "http://brightland.co/cdn/shop/products/4d-Brightland_r1_01C_0186_2.jpg?v=1762198834&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/mini-parasol#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "category": "Vinegar",
+   "description": "",
+   "image": "https://brightland.co/cdn/shop/products/4d-Brightland_r1_01C_0186_2.jpg?v=1762198834&width=1920",
+   "name": "Mini Parasol - Champagne Vinegar",
+   "offers": {
+    "@id": "/products/mini-parasol?variant=33148434874431#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "15.00",
+    "priceCurrency": "USD",
+    "url": "https://brightland.co/products/mini-parasol?variant=33148434874431"
+   },
+   "sku": "MINPARASOL-100ML",
+   "url": "https://brightland.co/products/mini-parasol"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/mini-parasol#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "185",
+    "ratingValue": "4.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "description": "",
+   "image": "https://brightland.co/cdn/shop/products/4d-Brightland_r1_01C_0186_2_450x450.jpg?v=1762198834",
+   "mpn": "4817578328127",
+   "name": "Mini Parasol - Champagne Vinegar",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "15.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Brightland"
+    }
+   },
+   "url": "/products/mini-parasol"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:03:56Z",
+ "og_image": "http://brightland.co/cdn/shop/products/4d-Brightland_r1_01C_0186_2.jpg?v=1762198834&width=2048",
+ "page_sha256": "59c455dc5b4752bf84422449adb451f33c46ac4d0c24e25898dc391245199f1b",
+ "rendered_checked": true,
+ "title": "Mini Parasol - Champagne Vinegar",
+ "url": "https://brightland.co/products/mini-parasol"
+}

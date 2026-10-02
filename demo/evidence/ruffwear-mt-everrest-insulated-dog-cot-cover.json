@@ -1,0 +1,42 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://ruffwear.com/products/mt-everrest-insulated-dog-cot-cover",
+ "http_status": 200,
+ "id": "ruffwear-mt-everrest-insulated-dog-cot-cover",
+ "image_file": "ruffwear-mt-everrest-insulated-dog-cot-cover.png",
+ "image_sha256": "e30776b36b5fe00f60e570dd3439010b7ba46362a84928742925b3fa59fb3448",
+ "image_source": "https://ruffwear.com/cdn/shop/files/CompressedPNG-1073_Mt.EverRest-Insulated-Dog-Cot-Cover_Deep-Jungle_Main_STUDIO_882x589.png?v=1756236685&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/mt-everrest-insulated-dog-cot-cover#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ruff Wear Inc"
+   },
+   "description": "Elevated dog beds naturally promote airflow beneath the sleeping surface, helping regulate your dog\u2019s temperature while they rest. When it\u2019s time for added warmth or cushioning, the Mt. EverRest\u2122 Dog Cot Cover provides a perfect solution. This insulated cover acts as a skirt to enclose the space beneath the cot and block cold drafts. Great for all seasons, the reversible cover features a soft microsuede sleeping surface on one side and a lightweight, durable nylon ripstop on the other side.\u00a0\nForget the hassle of trying to keep blankets in place, this insulated cot cover is a seamless fit and easy to install or remove.\nPair with the Mt. EverRest\u2122 Dog Cot (sold separately).\nDimensions: 30 in x 38 in x\u00a0 8 in (76 cm x 96 cm x 20 cm)",
+   "image": "https://ruffwear.com/cdn/shop/files/CompressedPNG-1073_Mt.EverRest-Insulated-Dog-Cot-Cover_Deep-Jungle_Main_STUDIO_450x450.png?v=1756236685",
+   "mpn": "7669892284499",
+   "name": "Mt. EverRest\u2122 Insulated Dog Cot Cover",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "79.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ruffwear"
+    }
+   },
+   "url": "/products/mt-everrest-insulated-dog-cot-cover"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-02T19:59:04Z",
+ "og_image": "https://ruffwear.com/cdn/shop/files/CompressedPNG-1073_Mt.EverRest-Insulated-Dog-Cot-Cover_Deep-Jungle_Main_STUDIO_882x589.png?v=1756236685",
+ "page_sha256": "29a60857f107d7d99a3b9384b8f477246e9f5dcb499de20c01d7ec4539821de3",
+ "rendered_checked": true,
+ "title": "Mt. EverRest\u2122 Insulated Dog Cot Cover | Ruffwear",
+ "url": "https://ruffwear.com/products/mt-everrest-insulated-dog-cot-cover"
+}

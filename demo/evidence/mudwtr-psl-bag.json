@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [
+  "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+ ],
+ "final_url": "https://mudwtr.com/products/psl-bag",
+ "http_status": 200,
+ "id": "mudwtr-psl-bag",
+ "image_file": "mudwtr-psl-bag.jpg",
+ "image_sha256": "161f0a2e3ee6a7ab2680ecded36a8c86ef18cbe5fd4434fb6dafacfab7583fd2",
+ "image_source": "http://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_1200x1200.jpg?v=1785358242&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/psl-bag#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "14",
+    "ratingValue": "3.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "MUD\\WTR"
+   },
+   "description": "",
+   "image": "https://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_450x450.jpg?v=1785358242",
+   "mpn": "8667862466743",
+   "name": "PSL Bag",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "20.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "MUD\\WTR"
+    }
+   },
+   "url": "/products/psl-bag"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-02T20:06:39Z",
+ "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_1200x1200.jpg?v=1785358242",
+ "page_sha256": "cc7a1c2828f27895db0bc0f349c788e673ecb9e9567b419c7b3fff0f7e9991f3",
+ "rendered_checked": true,
+ "title": "PSL Bag \u2013 MUD\\WTR",
+ "url": "https://mudwtr.com/products/psl-bag"
+}

@@ -1,0 +1,65 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://brightland.co/products/the-essentials-set",
+ "http_status": 200,
+ "id": "brightland-the-essentials-set",
+ "image_file": "brightland-the-essentials-set.jpg",
+ "image_sha256": "20dbc38c57bd494a0c6b37cdabdd1da7d6a4b2e87630258b2f57961d219a9559",
+ "image_source": "http://brightland.co/cdn/shop/files/TheEssentialsGiftSet-1150x1400-2_c9a47c8f-64e0-45b3-9ae5-9192ba56d4cb.jpg?v=1776697263&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-essentials-set#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "category": "Food Gift Baskets",
+   "description": "Just the essentials: This set includes our premium, 100% cold-pressed Alive and Awake extra virgin olive oils plus two fan favorite fruit-infused vinegars, each crafted for peak-season flavor and freshness from California family farms.\u00a0\nEach set comes complete with two brushed gold stainless-steel spouts, for a $144 value.",
+   "image": "https://brightland.co/cdn/shop/files/TheEssentialsGiftSet-1150x1400-2_c9a47c8f-64e0-45b3-9ae5-9192ba56d4cb.jpg?v=1776697263&width=1920",
+   "name": "The Essentials Set",
+   "offers": {
+    "@id": "/products/the-essentials-set?variant=43036722462783#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "130.00",
+    "priceCurrency": "USD",
+    "url": "https://brightland.co/products/the-essentials-set?variant=43036722462783"
+   },
+   "sku": "ESSENTIAL-GIFTSET",
+   "url": "https://brightland.co/products/the-essentials-set"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-essentials-set#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightland"
+   },
+   "description": "Just the essentials: This set includes our premium, 100% cold-pressed Alive and Awake extra virgin olive oils plus two fan favorite fruit-infused vinegars, each crafted for peak-season flavor and freshness from California family farms.\u00a0\nEach set comes complete with two brushed gold stainless-steel spouts, for a $144 value.",
+   "image": "https://brightland.co/cdn/shop/files/TheEssentialsGiftSet-1150x1400-2_c9a47c8f-64e0-45b3-9ae5-9192ba56d4cb_450x450.jpg?v=1776697263",
+   "mpn": "8113982832703",
+   "name": "The Essentials Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "130.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Brightland"
+    }
+   },
+   "url": "/products/the-essentials-set"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:03:54Z",
+ "og_image": "http://brightland.co/cdn/shop/files/TheEssentialsGiftSet-1150x1400-2_c9a47c8f-64e0-45b3-9ae5-9192ba56d4cb.jpg?v=1776697263&width=2048",
+ "page_sha256": "21d3836d9b5605ce45a12a1a6c87ef670a28d3a2db0e1567c0710f0b41239667",
+ "rendered_checked": true,
+ "title": "The Essentials Olive Oil and Vinegar Set | Brightland",
+ "url": "https://brightland.co/products/the-essentials-set"
+}

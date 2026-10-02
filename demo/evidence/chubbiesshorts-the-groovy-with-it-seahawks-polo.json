@@ -1,0 +1,561 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo",
+ "http_status": 200,
+ "id": "chubbiesshorts-the-groovy-with-it-seahawks-polo",
+ "image_file": "chubbiesshorts-the-groovy-with-it-seahawks-polo.jpg",
+ "image_sha256": "006513a4fa4e490ffc76205d317d5946c1656d41f2e32af085bc5dc54b084d71",
+ "image_source": "https://cdn.shopify.com/s/files/1/0077/0432/files/TheGroovyWithItSeahawksPolo_582266-28_SD_2.webp?v=1790868384&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.9,
+    "reviewCount": 2064,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Chubbies"
+   },
+   "description": "A breathable, moisture-wicking polo with extreme stretch & technical features",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0077/0432/files/TheGroovyWithItSeahawksPolo_582266-28_SD_2.webp?v=1790868384"
+   ],
+   "name": "The Groovy With It Seahawks",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-281",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=XS"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-282",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=S"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-283",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=M"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-284",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=L"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-285",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=XL"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-286",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=XXL"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "price": 69.5,
+     "priceCurrency": "USD",
+     "sku": "582266-287",
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo?Size=XXXL"
+    }
+   ],
+   "size": "XS",
+   "sku": "582266-281",
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "ProductGroup",
+   "description": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"A breathable, moisture-wicking polo with extreme stretch & technical ...",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "San Francisco 49ers",
+     "name": "The Groovy With It 49ers (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-49ers-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "New England Patriots",
+     "name": "The Groovy With It Patriots (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-patriots-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Tampa Bay Buccaneers",
+     "name": "The Groovy With It Buccaneers (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-buccaneers-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Seattle Seahawks",
+     "name": "The Groovy With It Seahawks (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Philadelphia Eagles",
+     "name": "The Groovy With It Eagles (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-eagles-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Green Bay Packers",
+     "name": "The Groovy With It Packers (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-packers-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Miami Dolphins",
+     "name": "The Groovy With It Dolphins (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-dolphins-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Indianapolis Colts",
+     "name": "The Groovy With It Colts (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-colts-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Kansas City Chiefs",
+     "name": "The Groovy With It Chiefs (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-chiefs-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Pittsburgh Steelers",
+     "name": "The Groovy With It Steelers (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-steelers-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Minnesota Vikings",
+     "name": "The Groovy With It Vikings (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-vikings-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Detroit Lions",
+     "name": "The Groovy With It Lions (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-lions-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Dallas Cowboys",
+     "name": "The Groovy With It Cowboys (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-cowboys-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Cleveland Browns",
+     "name": "The Groovy With It Browns (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-browns-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Chicago Bears",
+     "name": "The Groovy With It Bears (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-bears-polo"
+    },
+    {
+     "@type": "Product",
+     "color": "Buffalo Bills",
+     "name": "The Groovy With It Bills (Polo)",
+     "offers": {
+      "@type": "AggregateOffer",
+      "availability": "https://schema.org/InStock",
+      "highPrice": 69.5,
+      "lowPrice": 69.5,
+      "offerCount": 7,
+      "priceCurrency": "USD"
+     },
+     "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-bills-polo"
+    }
+   ],
+   "name": "NFL Performance Polo",
+   "productGroupID": "gid://shopify/Collection/672569491529",
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "San Francisco 49ers",
+   "name": "The Groovy With It 49ers (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-49ers-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "New England Patriots",
+   "name": "The Groovy With It Patriots (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-patriots-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Tampa Bay Buccaneers",
+   "name": "The Groovy With It Buccaneers (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-buccaneers-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Seattle Seahawks",
+   "name": "The Groovy With It Seahawks (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Philadelphia Eagles",
+   "name": "The Groovy With It Eagles (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-eagles-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Green Bay Packers",
+   "name": "The Groovy With It Packers (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-packers-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Miami Dolphins",
+   "name": "The Groovy With It Dolphins (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-dolphins-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Indianapolis Colts",
+   "name": "The Groovy With It Colts (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-colts-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Kansas City Chiefs",
+   "name": "The Groovy With It Chiefs (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-chiefs-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Pittsburgh Steelers",
+   "name": "The Groovy With It Steelers (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-steelers-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Minnesota Vikings",
+   "name": "The Groovy With It Vikings (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-vikings-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Detroit Lions",
+   "name": "The Groovy With It Lions (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-lions-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Dallas Cowboys",
+   "name": "The Groovy With It Cowboys (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-cowboys-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Cleveland Browns",
+   "name": "The Groovy With It Browns (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-browns-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Chicago Bears",
+   "name": "The Groovy With It Bears (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-bears-polo"
+  },
+  {
+   "@type": "Product",
+   "color": "Buffalo Bills",
+   "name": "The Groovy With It Bills (Polo)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "highPrice": 69.5,
+    "lowPrice": 69.5,
+    "offerCount": 7,
+    "priceCurrency": "USD"
+   },
+   "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-bills-polo"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-02T19:59:56Z",
+ "og_image": null,
+ "page_sha256": "f279979d7b10d142951324f32192e214bcb107efcff5aa50fbd52c1d4da84feb",
+ "rendered_checked": true,
+ "title": "The Groovy With It Seahawks",
+ "url": "https://chubbiesshorts.com/products/the-groovy-with-it-seahawks-polo"
+}

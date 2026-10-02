@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://bokksu.com/products/washi-box",
+ "http_status": 200,
+ "id": "bokksu-washi-box",
+ "image_file": "bokksu-washi-box.jpg",
+ "image_sha256": "9621ac982c252c1adbfb45013e568e5156206be7b570c4ad8735ad30d9908b21",
+ "image_source": "http://bokksu.com/cdn/shop/files/SNB_2511_HolidayGWP_HeroBanner_710x730_Overhead_02_d208511e-0860-48e4-9f84-9cc2dc30889f.jpg?v=1770136547&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "brand": "Bokksu Snack Box",
+   "category": "",
+   "description": "Upgrade to an elegant keepsake box wrapped in handcrafted washi paper ($40 value)",
+   "image": {
+    "@type": "ImageObject",
+    "height": 1024,
+    "image": "https://bokksu.com/cdn/shop/files/SNB_2511_HolidayGWP_HeroBanner_710x730_Overhead_02_d208511e-0860-48e4-9f84-9cc2dc30889f_1024x1024.jpg?v=1770136547",
+    "name": "Japanese Washi Box",
+    "url": "https://bokksu.com/cdn/shop/files/SNB_2511_HolidayGWP_HeroBanner_710x730_Overhead_02_d208511e-0860-48e4-9f84-9cc2dc30889f_1024x1024.jpg?v=1770136547",
+    "width": 1024
+   },
+   "mpn": "764499719",
+   "name": "Japanese Washi Box",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 20.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-12",
+     "sku": "WASHI-BOX",
+     "url": "https://bokksu.com/products/washi-box?variant=43472486301782"
+    }
+   ],
+   "productId": "764499719",
+   "sku": "WASHI-BOX",
+   "url": "https://bokksu.com/products/washi-box"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:05:05Z",
+ "og_image": "http://bokksu.com/cdn/shop/files/SNB_2511_HolidayGWP_HeroBanner_710x730_Overhead_02_d208511e-0860-48e4-9f84-9cc2dc30889f.jpg?v=1770136547",
+ "page_sha256": "20a0e13865182dab89e68374f083a0f16f98a138cbae2153d52eb8707825702f",
+ "rendered_checked": true,
+ "title": "Japanese Washi Box",
+ "url": "https://bokksu.com/products/washi-box"
+}

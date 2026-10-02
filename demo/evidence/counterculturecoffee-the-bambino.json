@@ -1,0 +1,43 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2",
+ "http_status": 200,
+ "id": "counterculturecoffee-the-bambino",
+ "image_file": "counterculturecoffee-the-bambino.jpg",
+ "image_sha256": "8fe71fef2859c0c665af9a9f899896fc9c99b0db0b971c2197fda238b2e54915",
+ "image_source": "http://counterculturecoffee.com/cdn/shop/files/Breville_Bambino.jpg?v=1787758001&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Breville"
+   },
+   "description": "The faster way to professional results at home. Like professional machines, the Bambino can deliver third-wave specialty coffee. This is made possible by the 4-key formula. Delivering barista quality performance using a 54mm portafilter with 18 grams of coffee for full flavor and a powerful steam wand to create microfoam required for latte art. With a proprietary ThermoJet heating system, the machine is ready to start in 3 seconds.\u00a0\nSpecial Offer! Buy one Bambino and get the first order free on a Blend Box subscription using code: Probarista (must add both to cart)",
+   "image": [
+    "https://counterculturecoffee.com/cdn/shop/files/Breville_Bambino_3709x.jpg?v=1787758001"
+   ],
+   "name": "The Breville Bambino\u2122",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 299.95,
+     "priceCurrency": "USD",
+     "sku": "BES450BSS1BUS1",
+     "url": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2?variant=43327660392525"
+    }
+   ],
+   "url": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:25Z",
+ "og_image": "http://counterculturecoffee.com/cdn/shop/files/Breville_Bambino.jpg?v=1787758001",
+ "page_sha256": "7cbfac692d93f9e61e7f979155eeaf5eb286b0d8fb80c8b232cbe5f11e467c1d",
+ "rendered_checked": true,
+ "title": "The Breville Bambino\u2122 \u2013 Counter Culture Coffee",
+ "url": "https://counterculturecoffee.com/products/the-bambino\u2122"
+}

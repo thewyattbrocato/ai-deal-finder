@@ -13,14 +13,18 @@ Verify:      python3 -m unittest discover -s tests
 
 import html
 import os
+import re
+import shutil
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from deal_finder.consent import ConsentRecord  # noqa: E402
 from deal_finder.decision import DecisionInput  # noqa: E402
 from deal_finder.evidence import Candidate, Coupon, EvidenceState  # noqa: E402
 from deal_finder.landed_cost import LandedCost, RankedCandidate  # noqa: E402
+import catalog  # noqa: E402  (demo/catalog.py: stored evidence -> observations)
 
 TS_OBS1 = "2026-09-30T14:08:20Z"
 APPLE_URL = "https://www.apple.com/airpods-pro/"
@@ -436,6 +440,95 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
     }
 
 
+KIND_WORDS = {
+    "Shoes": ["shoes", "sneakers", "footwear"],
+    "Clothing": ["clothing", "clothes", "apparel", "wear"],
+    "Home": ["home", "bedding"],
+    "Pets": ["pets", "pet", "dog"],
+    "Kitchen": ["kitchen", "cooking"],
+    "Outdoors": ["outdoors", "outdoor", "camping", "hiking"],
+    "Tea": ["tea", "drink"],
+    "Pantry": ["pantry", "food", "cooking"],
+    "Drinks": ["drinks", "drink", "beverage"],
+    "Coffee": ["coffee", "beans"],
+    "Tech": ["tech", "phone", "gadget", "electronics"],
+    "Accessories": ["accessories", "wallet", "bag"],
+    "Grooming": ["grooming", "beard", "care"],
+    "Personal care": ["personal", "care", "bath"],
+    "Wellness": ["wellness", "scent"],
+    "Office": ["office", "desk"],
+}
+PAGE_CAVEAT = ("Seen on the page but never tried out, so the price shown "
+               "does not include it.")
+CATALOG_FINE_PRINT = [
+    "Tax and shipping weren't shown for this item \u2014 check the total at "
+    "checkout.",
+    "Recheck the price before paying; store pages change.",
+]
+
+
+def run_catalog_observation(obs):
+    """One stored observation -> engine decision (same fail-closed path)."""
+    from deal_finder.decision import decide
+    cand = Candidate(
+        id=obs["id"], variant=obs["name"], quantity_terms="1 item",
+        condition="new", bundle="single",
+        seller=obs["brand"] or obs["page_host"],
+        fulfilled_by=obs["brand"] or obs["page_host"], region="US",
+        in_stock=True, evidence_state=EvidenceState.OBSERVED_NOW,
+        source=obs["page_url"], observed_at=obs["observed_at"],
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=obs["price"], shipping=None, known_tax=None)
+    coupons = []
+    if obs["coupon"]:
+        coupons.append(Coupon(code=obs["coupon"]["code"],
+                              merchant=obs["brand"] or obs["page_host"],
+                              status="retailer-stated"))
+    return decide(DecisionInput(
+        candidates=[cand], ranked=[RankedCandidate(obs["id"], cost)],
+        coupons=coupons, consent=ConsentRecord(), mode="browsing"))
+
+
+def catalog_item(obs):
+    seller = obs["brand"] or obs["page_host"]
+    words = set(re.findall(r"[a-z0-9]+", (obs["name"] + " " + seller).lower()))
+    words.update(KIND_WORDS.get(obs["kind"], [obs["kind"].lower()]))
+    words.add(obs["kind"].lower())
+    cents = int(round(obs["price"] * 100))
+    label = "$%d" % obs["price"] if cents % 100 == 0 else "$%.2f" % obs["price"]
+    coupon = None
+    if obs["coupon"]:
+        coupon = {"code": obs["coupon"]["code"],
+                  "offer": "\u201c" + obs["coupon"]["text"] + "\u201d",
+                  "caveat": PAGE_CAVEAT}
+    return item_dict(
+        obs["id"], obs["name"], seller + " \u00b7 new", seller, obs["kind"],
+        ("assets/" + obs["image"]) if obs["image"] else None,
+        cents, label, None, run_catalog_observation(obs), coupon,
+        obs["page_url"], obs["page_host"], "US", obs["observed_at"],
+        list(CATALOG_FINE_PRINT), sorted(words))
+
+
+def catalog_items(hand_items):
+    """Stored evidence -> items, minus products already shown by hand."""
+    seen = {(i["page_host"], i["page_url"].rstrip("/").rsplit("/", 1)[-1])
+            for i in hand_items.values()}
+    obs_ok, _excluded = catalog.load_catalog()
+    names = {i["name"] for i in hand_items.values()}
+    out = {}
+    for o in obs_ok:
+        key = (o["page_host"], o["page_url"].rstrip("/").rsplit("/", 1)[-1])
+        if key in seen:
+            continue
+        if o["name"] in names:
+            continue  # exact search needs one card per name
+        seen.add(key)
+        names.add(o["name"])
+        out[o["id"]] = catalog_item(o)
+    return out
+
+
 def build():
     _c1, _cost1, d1 = run_lv001()
     _c5, _cost5, d5 = run_lv005()
@@ -596,8 +689,9 @@ def build():
             form="whole-bean"),
     }
 
-    all_cards = "\n".join(card_for(items[k]) for k in items)
     coffee = [items[k] for k in ("cof3", "cof2", "cof1", "hcr", "wel", "ccc")]
+    items.update(catalog_items(items))
+    all_cards = "\n".join(card_for(items[k]) for k in items)
     with_c = [v for v in coffee if v["coupon"]]
     without_c = [v for v in coffee if not v["coupon"]]
 
@@ -677,6 +771,7 @@ def build():
 """
     page += all_cards
     page += """</div>
+<div class="text-center mt-2"><button id="show-more" class="btn" style="display:none">Show more matches</button></div>
 </section>
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
@@ -697,6 +792,9 @@ const results = document.getElementById("results");
 const cards = Array.from(results.querySelectorAll("[data-keywords]"));
 const OPEN_TEXT = "Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out \\u2014 the price shown is the shelf price.";
 const EXACT_TEXT = "Exact product is one named item: the closest name match, with its own page's price and any coupon that page printed.";
+const PAGE = 12;
+let limit = PAGE;
+const moreBtn = document.getElementById("show-more");
 let exact = false;
 const pick = { prefer: "price", form: "", coupon: "all" };
 const DEFAULTS = { prefer: "price", form: "", coupon: "all" };
@@ -718,16 +816,19 @@ for (const r of radios) {
   r.addEventListener("change", () => {
     if (!r.checked) return;
     pick[r.getAttribute("data-guide-key")] = r.getAttribute("value");
+    limit = PAGE;
     filter();
   });
 }
 document.getElementById("guide-reset").addEventListener("click", () => {
   Object.assign(pick, DEFAULTS);
+  limit = PAGE;
   syncRadios();
   filter();
 });
 function setMode(open) {
   exact = !open;
+  limit = PAGE;
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
   modeText.textContent = open ? OPEN_TEXT : EXACT_TEXT;
@@ -800,6 +901,8 @@ function filter() {
     shownSet = lead.concat(visible.filter(c => !lead.includes(c)));
   }
   for (const c of cards) c.querySelectorAll("[data-why]")[0].style.display = "none";
+  const total = shownSet.length;
+  if (!exact) shownSet = shownSet.slice(0, limit);
   shownSet.forEach((c, i) => {
     c.style.display = "";
     results.appendChild(c);
@@ -808,24 +911,31 @@ function filter() {
     why.style.display = why.textContent === "Why it is here: ." ? "none" : "";
   });
   noMatch.style.display = shownSet.length ? "none" : "";
-  document.getElementById("result-count").textContent = shownSet.length + " shown.";
+  moreBtn.style.display = total > shownSet.length ? "" : "none";
+  document.getElementById("result-count").textContent = shownSet.length + " of " + total + " matches shown (" + cards.length + " products checked).";
   const active = [];
   for (const key of ["prefer", "form", "coupon"]) {
     if (LABELS[key][pick[key]]) active.push(LABELS[key][pick[key]]);
   }
   guideStatus.textContent = (active.length ? "Your answers: " + active.join(" \\u00b7 ") + ". " : "No answers set. ")
-    + shownSet.length + " shown, " + hidden.length + " hidden by your answers.";
+    + total + " match, " + hidden.length + " hidden by your answers.";
   hiddenList.innerHTML = "";
-  for (const c of hidden) {
+  for (const c of hidden.slice(0, PAGE)) {
     const li = document.createElement("li");
     li.textContent = c.getAttribute("data-name") + " \\u2014 " + whyHidden(c);
     hiddenList.appendChild(li);
+  }
+  if (hidden.length > PAGE) {
+    const more = document.createElement("li");
+    more.textContent = "and " + (hidden.length - PAGE) + " more";
+    hiddenList.appendChild(more);
   }
   hiddenBy.style.display = hidden.length ? "" : "none";
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
-q.addEventListener("input", filter);
+q.addEventListener("input", () => { limit = PAGE; filter(); });
+moreBtn.addEventListener("click", () => { limit += PAGE; filter(); });
 document.getElementById("search-go").addEventListener("click", filter);
 syncRadios();
 filter();
@@ -839,6 +949,11 @@ filter();
     docs = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                          "docs", "index.html")
     os.makedirs(os.path.dirname(docs), exist_ok=True)
+    src_assets = os.path.join(os.path.dirname(out), "assets")
+    dst_assets = os.path.join(os.path.dirname(docs), "assets")
+    os.makedirs(dst_assets, exist_ok=True)
+    for fn in os.listdir(src_assets):
+        shutil.copy2(os.path.join(src_assets, fn), os.path.join(dst_assets, fn))
     with open(docs, "w", encoding="utf-8") as f:
         f.write(page)
     print("wrote " + out)

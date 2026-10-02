@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://ruffwear.com/products/swamp-cooler-harness",
+ "http_status": 200,
+ "id": "ruffwear-swamp-cooler-harness",
+ "image_file": "ruffwear-swamp-cooler-harness.png",
+ "image_sha256": "f0959416cb4b5efd8ca56b76f67a2940cbc895edbc05831e5680a93133417753",
+ "image_source": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-30781_Swamp-Cooler-Harness_Biolumin-Blue_3-4_left-STUDIO_882x589.png?v=1775146639&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/swamp-cooler-harness#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "333",
+    "ratingValue": "4.7"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ruff Wear Inc"
+   },
+   "description": "The Swamp Cooler\u2122 Harness is a trail-ready, all-in-one cooling solution for dogs exploring in hot conditions, now with a third leash attachment point on the chest. Integrated directly into our three-strap harness platform, it leverages our Swamp Cooler\u2122 technology to pull body surface heat away through evaporative cooling. Dial in a secure and comfortable fit with six adjustment points, lift and assist with the quick-grab handle, and stay connected with three leash connection points as you head out together on your next summer endeavor.\u00a0\u00a0\nHow does Swamp Cooler\u2122 Tech work? Learn more here about how that refreshing, just-stepped-out-of-a-lake feeling known as evaporative cooling helps keep your dog cool. Check out the Swamp Cooler\u2122 Collection.",
+   "image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-30781_Swamp-Cooler-Harness_Biolumin-Blue_3-4_left-STUDIO_450x450.png?v=1775146639",
+   "mpn": "7882450501715",
+   "name": "Swamp Cooler\u2122 Harness",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "84.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ruffwear"
+    }
+   },
+   "url": "/products/swamp-cooler-harness"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-02T19:59:02Z",
+ "og_image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-30781_Swamp-Cooler-Harness_Biolumin-Blue_3-4_left-STUDIO_882x589.png?v=1775146639",
+ "page_sha256": "f6cc88fa7022c55c682305bd864866b8085437154346b578907898819bd66227",
+ "rendered_checked": true,
+ "title": "Swamp Cooler\u2122 Harness | Ruffwear",
+ "url": "https://ruffwear.com/products/swamp-cooler-harness"
+}

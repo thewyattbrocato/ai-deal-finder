@@ -1,0 +1,597 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink",
+ "http_status": 200,
+ "id": "allbirds-womens-allbirds-flip-flop-dusty-pink",
+ "image_file": "allbirds-womens-allbirds-flip-flop-dusty-pink.png",
+ "image_sha256": "55c9df481f726912f9c21b1571abd754f690c0d3bdd6b5f73e7213691f6e2b8b",
+ "image_source": "http://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "#womens-allbirds-flip-flop",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Allbirds"
+   },
+   "description": "Sun on your feet. Comfort underneath. Light, easy, and made for warm weather, these flip flops bring everyday comfort to sunny days, beach walks, and everything in between. Just slip them on and go.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=5"
+     },
+     "size": "5",
+     "sku": "A12513W050"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=6"
+     },
+     "size": "6",
+     "sku": "A12513W060"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=7"
+     },
+     "size": "7",
+     "sku": "A12513W070"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=8"
+     },
+     "size": "8",
+     "sku": "A12513W080"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=9"
+     },
+     "size": "9",
+     "sku": "A12513W090"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=10"
+     },
+     "size": "10",
+     "sku": "A12513W100"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Allbirds Flip Flop - Dusty Pink",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-allbirds-flip-flop"
+     },
+     "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=11"
+     },
+     "size": "11",
+     "sku": "A12513W110"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=6"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=7"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=6"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=7"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=6"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=7"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=6"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=7"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=11"
+    }
+   ],
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "name": "Women's Allbirds Flip Flop",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink"
+   },
+   "productGroupID": "WOMENS_ALLBIRDS_FLIP_FLOP",
+   "sku": "WOMENS_ALLBIRDS_FLIP_FLOP",
+   "variesBy": [
+    "https://schema.org/size",
+    "https://schema.org/color"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=5"
+   },
+   "size": "5",
+   "sku": "A12513W050"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=6"
+   },
+   "size": "6",
+   "sku": "A12513W060"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=7"
+   },
+   "size": "7",
+   "sku": "A12513W070"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=8"
+   },
+   "size": "8",
+   "sku": "A12513W080"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=9"
+   },
+   "size": "9",
+   "sku": "A12513W090"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=10"
+   },
+   "size": "10",
+   "sku": "A12513W100"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Allbirds Flip Flop - Dusty Pink",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-allbirds-flip-flop"
+   },
+   "name": "Women's Allbirds Flip Flop - Dusty Pink - Size 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 25,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-dusty-pink?size=11"
+   },
+   "size": "11",
+   "sku": "A12513W110"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=6"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=7"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=8"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=9"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=10"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-mid-yellow?size=11"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=6"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=7"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=8"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=9"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=10"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-natural-black?size=11"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=6"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=7"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=8"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=9"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=10"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop?size=11"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=5"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=6"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=7"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=8"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=9"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=10"
+  },
+  {
+   "@type": "Product",
+   "url": "https://www.allbirds.com/products/womens-allbirds-flip-flop-anthracite?size=11"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T19:57:55Z",
+ "og_image": "http://www.allbirds.com/cdn/shop/files/A12513_26Q2_Allbirds-Flip-Flop-Dusty-Pink_PDP_LEFT.png?v=1774646345",
+ "page_sha256": "8e7abc5377d8a3d8b5762b6a89c35c98e8366202f72a96d6c72060bf7a9def39",
+ "rendered_checked": true,
+ "title": "Women's Allbirds Flip Flop - Comfortable & Eco-Friendly Summer Sandals | Allbirds",
+ "url": "https://allbirds.com/products/womens-allbirds-flip-flop-dusty-pink"
+}

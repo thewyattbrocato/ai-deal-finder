@@ -1,0 +1,41 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://cometeer.com/products/first-person-after-hours-decaf",
+ "http_status": 200,
+ "id": "cometeer-first-person-after-hours-decaf",
+ "image_file": "cometeer-first-person-after-hours-decaf.png",
+ "image_sha256": "5bac4adc5248a71aafcea37fb4430d06747ba4bc4e883b66985b2ea1f4f72dd5",
+ "image_source": "http://cometeer.com/cdn/shop/files/10507337302315_hero.png?crop=center&height=480&v=1790782697&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Cometeer"
+   },
+   "description": "Sweet and easy-drinking Costa Rican decaf with a bright, fruity lift, with notes of cherry lime, melon, and brown sugar.",
+   "image": "https://cometeer.com/cdn/shop/files/10507337302315_hero.png?crop=center&height=1024&v=1790782697&width=1024",
+   "name": "After Hours Decaf \u2014 8ct",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.27",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Cometeer "
+    },
+    "url": "https://cometeer.com/products/first-person-after-hours-decaf?variant=54925215727915"
+   },
+   "sku": "PP8PFPAH"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:21Z",
+ "og_image": "http://cometeer.com/cdn/shop/files/10507337302315_hero.png?crop=center&height=480&v=1790782697&width=480",
+ "page_sha256": "0fcc8b5044c1b25e0c4a3fdcdeaa197481e3ea3328ac9814d41ac4a4cca4a34f",
+ "rendered_checked": true,
+ "title": "After Hours Decaf \u2013 Cometeer",
+ "url": "https://cometeer.com/products/first-person-after-hours-decaf"
+}

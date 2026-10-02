@@ -1,0 +1,46 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green",
+ "http_status": 200,
+ "id": "thursdayboots-mens-mechanic-point-collar-jacket-army-green",
+ "image_file": "thursdayboots-mens-mechanic-point-collar-jacket-army-green.jpg",
+ "image_sha256": "2cdb8757331dfc748e62e3f3a69d8c979eb48771d027466baa714a7213e93a75",
+ "image_source": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-MechanicJacket-ArmyGreen-082526-1_1200x1200.jpg?v=1790786482&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "",
+    "reviewCount": ""
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Thursday - Men's Jackets"
+   },
+   "description": "<div class=\"product-features-wrapper\">\n<h2 class=\"description-title\">Product Features</h2>\n<div class=\"product-features-list\">\n<ul>\n<li>10oz 4-Way Stretch Twill</li>\n<li>Garment Dyed For Lived-In Look &amp; Feel</li>\n<li>Midweight Jacket, Perfect for Layering</li>\n<li>Durable YKK\u00ae Zippers</li>\n<li>Twin Side Pockets With Plush Cotton Lining</li>\n<li>Cotton-Viscose Sleeve Lining To Prevent Bunching</li>\n<li>98% Cotton 2% Elastane</li>\n<li>Handcrafted With Integrity In Portugal</li>\n</ul>\n</div>\n</div>\n<div class=\"product-shipping-info-wrapper\">\n<h2 class=\"description-title\">Shipping Info</h2>\n<ul>\n<li>Free domestic U.S. ground shipping</li>\n<li>Free domestic U.S. returns. <a href=\"/pages/return-policy\">See our full policy</a>\n</li>\n<li>International shipping available</li>\n<li>Expedited shipping options available at checkout</li>\n</ul>\n</div>\n<style type=\"text/css\"><!--\ntd {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}\n--></style>",
+   "image": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-MechanicJacket-ArmyGreen-082526-1_1024x1024.jpg?v=1790786482",
+   "name": "Mechanic Jacket | Army Green",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 199.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Thursday Boot Company"
+    },
+    "url": "https://https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green"
+   },
+   "sku": "GRNMKN-A-S"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T20:05:38Z",
+ "og_image": "https://thursdayboots.com/cdn/shop/files/01-1024x1024-Men-MechanicJacket-ArmyGreen-082526-1_1200x1200.jpg?v=1790786482",
+ "page_sha256": "2209ccc2d440ee7660a3019af6225015ebadb4f7008460ad25c6e7da730a7e1c",
+ "rendered_checked": true,
+ "title": "Men's Mechanic Jacket In Army Green Twill - Thursday",
+ "url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green"
+}

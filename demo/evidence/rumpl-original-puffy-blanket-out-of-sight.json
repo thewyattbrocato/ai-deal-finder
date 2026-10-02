@@ -1,0 +1,112 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight",
+ "http_status": 200,
+ "id": "rumpl-original-puffy-blanket-out-of-sight",
+ "image_file": "rumpl-original-puffy-blanket-out-of-sight.png",
+ "image_sha256": "071307c093aadfec7ad5319f7a4bc1f72713cb8baa854a832684fb0533e6ec31",
+ "image_source": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628.png?v=1788293050&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": 4655
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "category": "Outdoor Blankets",
+   "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Out of Sight, featuring waves of black-and-white ink art rolling across an electric green fade, packed with hidden eyes, twisting trees, and psychedelic forest details.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner...",
+   "hasVariant": [
+    {
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963#variant",
+     "@type": "Product",
+     "gtin12": "810203130714",
+     "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628.png?v=1788293050&width=1200",
+     "name": "Original Puffy Blanket - Out Of Sight - 1-Person",
+     "offers": {
+      "@id": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "url": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963"
+     },
+     "sku": "RU01013221P"
+    }
+   ],
+   "image": [
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628.png?v=1788293050&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335814.jpg?v=1785263050&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703627.jpg?v=1788292992&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335809.jpg?v=1785262932&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335813.jpg?v=1785262868&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335812.jpg?v=1785262810&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335811.jpg?v=1785262751&width=1200",
+    "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1251335810.jpg?v=1785262691&width=1200"
+   ],
+   "name": "Original Puffy Blanket - Out Of Sight",
+   "productGroupID": 15060355678571,
+   "url": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight"
+  },
+  {
+   "@id": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963#variant",
+   "@type": "Product",
+   "gtin12": "810203130714",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628.png?v=1788293050&width=1200",
+   "name": "Original Puffy Blanket - Out Of Sight - 1-Person",
+   "offers": {
+    "@id": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "99.95",
+    "priceCurrency": "USD",
+    "url": "https://www.rumpl.com/products/original-puffy-blanket-out-of-sight?variant=53375265177963"
+   },
+   "sku": "RU01013221P"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/original-puffy-blanket-out-of-sight#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "4655",
+    "ratingValue": "4.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Rumpl"
+   },
+   "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Out of Sight, featuring waves of black-and-white ink art rolling across an electric green fade, packed with hidden eyes, twisting trees, and psychedelic forest details.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free Cape Clip\u00ae, the Original Puffy Blanket is designed to be enjoyed everywhere from camping and cabins to tailgates and tournaments.",
+   "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628_450x450.png?v=1788293050",
+   "mpn": "15060355678571",
+   "name": "Original Puffy Blanket - Out Of Sight",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "99.95",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Rumpl"
+    }
+   },
+   "url": "/products/original-puffy-blanket-out-of-sight"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-02T20:01:43Z",
+ "og_image": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-out-of-sight-ru01013221p-1256703628.png?v=1788293050",
+ "page_sha256": "46b7c57b09734dea5538707c9a10c49b5cb792ee88ec3fab4562807e46720c68",
+ "rendered_checked": true,
+ "title": "Original Puffy Blanket - Out Of Sight | Rumpl Blankets For Everywhere",
+ "url": "https://rumpl.com/products/original-puffy-blanket-out-of-sight"
+}

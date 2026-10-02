@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.hedleyandbennett.com/products/rick-morty-x-h-b-essential-apron",
+ "http_status": 200,
+ "id": "hedleyandbennett-rick-morty-x-h-b-essential-apron",
+ "image_error": "unknown url type: '%5Bobject%20Object%5D'",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Hedley & Bennett"
+   },
+   "image": "https://cdn.shopify.com/s/files/1/0187/0608/files/Rick-_-Morty-Essential-Apron_00008-Square1.jpg?v=1790787434",
+   "name": "Rick and Morty x H&B Essential Apron",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "120.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Hedley & Bennett"
+    },
+    "url": "https://www.hedleyandbennett.com/products/rick-morty-x-h-b-essential-apron"
+   }
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:04:24Z",
+ "og_image": "[object Object]",
+ "page_sha256": "4e9d1bb115b2feb8da1e7c8ca35c0ab199aabc40dc6eecdb43eae52f1dc53f38",
+ "rendered_checked": true,
+ "title": "Essential Apron Collabs - Rick and Morty | Hedley & Bennett",
+ "url": "https://hedleyandbennett.com/products/rick-morty-x-h-b-essential-apron"
+}

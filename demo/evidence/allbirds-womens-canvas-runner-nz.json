@@ -1,0 +1,649 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.allbirds.com/products/womens-canvas-runner-nz",
+ "http_status": 200,
+ "id": "allbirds-womens-canvas-runner-nz",
+ "image_file": "allbirds-womens-canvas-runner-nz.png",
+ "image_sha256": "cf9755a433331e03945d6a3b2984d330dc6bddc9a1b02056ee0eafeb05f1922c",
+ "image_source": "http://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "#womens-canvas-runner-nz",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Allbirds"
+   },
+   "description": " ",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=5"
+     },
+     "size": "5",
+     "sku": "A12500W050"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=5.5"
+     },
+     "size": "5.5",
+     "sku": "A12500W055"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=6"
+     },
+     "size": "6",
+     "sku": "A12500W060"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=6.5"
+     },
+     "size": "6.5",
+     "sku": "A12500W065"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=7"
+     },
+     "size": "7",
+     "sku": "A12500W070"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=7.5"
+     },
+     "size": "7.5",
+     "sku": "A12500W075"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=8"
+     },
+     "size": "8",
+     "sku": "A12500W080"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=8.5"
+     },
+     "size": "8.5",
+     "sku": "A12500W085"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=9"
+     },
+     "size": "9",
+     "sku": "A12500W090"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=9.5"
+     },
+     "size": "9.5",
+     "sku": "A12500W095"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=10"
+     },
+     "size": "10",
+     "sku": "A12500W100"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=10.5"
+     },
+     "size": "10.5",
+     "sku": "A12500W105"
+    },
+    {
+     "@type": "Product",
+     "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#womens-canvas-runner-nz"
+     },
+     "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=11"
+     },
+     "size": "11",
+     "sku": "A12500W110"
+    }
+   ],
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "name": "Women's Canvas Runner NZ",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz"
+   },
+   "productGroupID": "WOMENS_RUNNER_NZ_CANVAS",
+   "sku": "WOMENS_RUNNER_NZ_CANVAS",
+   "variesBy": [
+    "https://schema.org/size",
+    "https://schema.org/color"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=5"
+   },
+   "size": "5",
+   "sku": "A12500W050"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=5.5"
+   },
+   "size": "5.5",
+   "sku": "A12500W055"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=6"
+   },
+   "size": "6",
+   "sku": "A12500W060"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=6.5"
+   },
+   "size": "6.5",
+   "sku": "A12500W065"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=7"
+   },
+   "size": "7",
+   "sku": "A12500W070"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=7.5"
+   },
+   "size": "7.5",
+   "sku": "A12500W075"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=8"
+   },
+   "size": "8",
+   "sku": "A12500W080"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=8.5"
+   },
+   "size": "8.5",
+   "sku": "A12500W085"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=9"
+   },
+   "size": "9",
+   "sku": "A12500W090"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=9.5"
+   },
+   "size": "9.5",
+   "sku": "A12500W095"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=10"
+   },
+   "size": "10",
+   "sku": "A12500W100"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=10.5"
+   },
+   "size": "10.5",
+   "sku": "A12500W105"
+  },
+  {
+   "@type": "Product",
+   "color": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+   "image": [
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=300",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=600",
+    "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=900"
+   ],
+   "isVariantOf": {
+    "@id": "#womens-canvas-runner-nz"
+   },
+   "name": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 100,
+    "priceCurrency": "USD",
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz?size=11"
+   },
+   "size": "11",
+   "sku": "A12500W110"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-02T19:58:01Z",
+ "og_image": "http://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676",
+ "page_sha256": "0866fdd333c99520673b6df0eb08be33b2461721fcaadb5f8597f6930b031199",
+ "rendered_checked": true,
+ "title": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+ "url": "https://allbirds.com/products/womens-canvas-runner-nz"
+}

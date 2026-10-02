@@ -1,0 +1,94 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle",
+ "http_status": 200,
+ "id": "ekster-ekster-x-dore-rose-travel-bundle",
+ "image_file": "ekster-ekster-x-dore-rose-travel-bundle.png",
+ "image_sha256": "e54274d9690b7418c4cdd9920f37d1a84a9f284c7a35a63d429ac7c50d2d67d3",
+ "image_source": "http://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Onyx_infograph_01_No_Logo_19465aa3-adf3-4ff4-8c6a-2a3e9f769fb5.png?v=1784803696&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/ekster-x-dore-rose-travel-bundle#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ekster\u00ae"
+   },
+   "category": "Wallets",
+   "description": "This travel bundle pairs a leather passport wallet with a slim tracker card and a 23-momme mulberry silk sleep mask, designed in collaboration between Ekster and Dore &amp; Rose.\nThe passport tracker syncs with Apple Find My\u00ae, so you can pull up its exact location from your iPhone\u00ae. The silk mask blocks 100% of light and is treated with silver ions that are 99.7% effective against bacteria.",
+   "hasVariant": [
+    {
+     "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Onyx_infograph_01.png?v=1784734159&width=1920",
+     "name": "Ekster x Dore & Rose <br> Travel Bundle - Onyx",
+     "offers": {
+      "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983"
+     },
+     "sku": "EK-BUN-PSH-BLK-MSK-APL"
+    },
+    {
+     "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Riviera_infograph_01.png?v=1784735509&width=1920",
+     "name": "Ekster x Dore & Rose <br> Travel Bundle - Riviera",
+     "offers": {
+      "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751"
+     },
+     "sku": "EK-BUN-PSH-BLU-MSK-APL"
+    }
+   ],
+   "name": "Ekster x Dore & Rose <br> Travel Bundle",
+   "productGroupID": "8246412214335",
+   "url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle"
+  },
+  {
+   "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983#variant",
+   "@type": "Product",
+   "image": "https://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Onyx_infograph_01.png?v=1784734159&width=1920",
+   "name": "Ekster x Dore & Rose <br> Travel Bundle - Onyx",
+   "offers": {
+    "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "129.00",
+    "priceCurrency": "USD",
+    "url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle?variant=43501619281983"
+   },
+   "sku": "EK-BUN-PSH-BLK-MSK-APL"
+  },
+  {
+   "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751#variant",
+   "@type": "Product",
+   "image": "https://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Riviera_infograph_01.png?v=1784735509&width=1920",
+   "name": "Ekster x Dore & Rose <br> Travel Bundle - Riviera",
+   "offers": {
+    "@id": "/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "129.00",
+    "priceCurrency": "USD",
+    "url": "https://www.ekster.com/products/ekster-x-dore-rose-travel-bundle?variant=43501619314751"
+   },
+   "sku": "EK-BUN-PSH-BLU-MSK-APL"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-02T20:05:58Z",
+ "og_image": "http://www.ekster.com/cdn/shop/files/D_R_Bundle_-_Onyx_infograph_01_No_Logo_19465aa3-adf3-4ff4-8c6a-2a3e9f769fb5.png?v=1784803696",
+ "page_sha256": "6529801ee21fc8de6d8bae33889f31359251ebee5af90b91664fd8b5d286176e",
+ "rendered_checked": true,
+ "title": "Ekster x Dore & Rose Travel Bundle | Wallet + Sleep Mask | Ekster\u00ae",
+ "url": "https://ekster.com/products/ekster-x-dore-rose-travel-bundle"
+}

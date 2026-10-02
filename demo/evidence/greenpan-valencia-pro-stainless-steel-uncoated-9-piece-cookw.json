@@ -1,0 +1,54 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set",
+ "http_status": 200,
+ "id": "greenpan-valencia-pro-stainless-steel-uncoated-9-piece-cookw",
+ "image_file": "greenpan-valencia-pro-stainless-steel-uncoated-9-piece-cookw.jpg",
+ "image_sha256": "99a88f0649ce6c1c37fccdaac01df31832c2387371eea376f0eb59e9a7648c58",
+ "image_source": "http://www.greenpan.us/cdn/shop/files/CC010953-001_1_medium.jpg?v=1790708164&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Valencia Pro Stainless Steel"
+   },
+   "description": "This stainless steel set brings professional-grade performance and restaurant-quality results right to your kitchen. Crafted from tri-ply stainless steel with a fast-heating aluminum core, each piece delivers precision, power, and durability you can rely on.",
+   "gtin12": "885837058338",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "merchantReturnDays": 60,
+    "returnFees": "https://schema.org/FreeReturn",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "url": "https://www.greenpan.us/pages/returns"
+   },
+   "image": [
+    "https://www.greenpan.us/cdn/shop/files/CC010953-001_1_2400x.jpg?v=1790708164"
+   ],
+   "name": "Valencia Pro Stainless Steel Uncoated 9-Piece Cookware Set",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "885837058338",
+     "price": 299.99,
+     "priceCurrency": "USD",
+     "sku": "CC010953-001",
+     "url": "https://www.greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set?variant=67579662434472"
+    }
+   ],
+   "sku": "CC010953-001",
+   "url": "https://www.greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-02T20:04:25Z",
+ "og_image": "http://www.greenpan.us/cdn/shop/files/CC010953-001_1_medium.jpg?v=1790708164",
+ "page_sha256": "d066987f5cb707a993e85f803fce4e0ed78daeacaec517d607b0d73d90feb57e",
+ "rendered_checked": true,
+ "title": "Valencia Pro Stainless Steel Uncoated 9-Piece Cookware Set | GreenPan US",
+ "url": "https://greenpan.us/products/valencia-pro-stainless-steel-uncoated-9-piece-cookware-set"
+}

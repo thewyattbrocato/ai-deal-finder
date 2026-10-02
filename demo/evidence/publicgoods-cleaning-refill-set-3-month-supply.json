@@ -1,0 +1,94 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.publicgoods.com/products/cleaning-refill-set-3-month-supply",
+ "http_status": 200,
+ "id": "publicgoods-cleaning-refill-set-3-month-supply",
+ "image_file": "publicgoods-cleaning-refill-set-3-month-supply.jpg",
+ "image_sha256": "1aa69d16a71a3188bf558109cf76011cbe6d271c2874af219aa7beb348445390",
+ "image_source": "http://www.publicgoods.com/cdn/shop/files/cleaning_3_mo_supply.jpg?v=1786416644&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/cleaning-refill-set-3-month-supply#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "58",
+    "ratingValue": "4.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Public Goods"
+   },
+   "description": "A cleaning set assembled to keep essential household products stocked for up to three months. The collection brings together multi-packs designed for ongoing use, helping maintain regular cleaning routines with less frequent replenishment. Practical and efficient, it supports a well-kept home with reliable supplies on hand.\n\u00a0\nSet includes three 34 fl oz Mandarin Basil Dish Soap, three 34 fl oz Hand Soap, 100 count Laundry Detergent Pods, and two 80 count Dishwasher Detergent Pod packs (160 pods total).",
+   "image": "https://www.publicgoods.com/cdn/shop/files/cleaning_3_mo_supply_450x450.jpg?v=1786416644",
+   "mpn": "9246601412746",
+   "name": "Cleaning Refill Set (3 Month Supply)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "187.95",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Public Goods"
+    }
+   },
+   "url": "/products/cleaning-refill-set-3-month-supply"
+  },
+  {
+   "@id": "https://www.publicgoods.com/products/cleaning-refill-set-3-month-supply#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Public Goods"
+   },
+   "description": "A cleaning set assembled to keep essential household products stocked for up to three months. The collection brings together multi-packs designed for ongoing use, helping maintain regular cleaning routines with less frequent replenishment. Practical and efficient, it supports a well-kept home with reliable supplies on hand.\u00a0Set includes three 34 fl oz Mandarin Basil Dish Soap, three 34 fl oz Hand Soap, 100 count Laundry Detergent Pods, and two 80 count Dishwasher Detergent Pod packs (160 pods total).",
+   "gtin": "810049442231",
+   "image": [
+    "https://www.publicgoods.com/cdn/shop/files/cleaning_3_mo_supply.jpg?v=1786416644&width=1400"
+   ],
+   "name": "Cleaning Refill Set (3 Month Supply)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@id": "https://www.publicgoods.com/#returns"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "187.95",
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": "187.95",
+      "priceCurrency": "USD"
+     },
+     {
+      "@type": "UnitPriceSpecification",
+      "price": "150.36",
+      "priceCurrency": "USD",
+      "priceType": "https://schema.org/SalePrice",
+      "validForMemberTier": {
+       "@id": "https://www.publicgoods.com/membership#member-tier"
+      }
+     }
+    ],
+    "priceValidUntil": "2026-12-31",
+    "shippingDetails": {
+     "@id": "https://www.publicgoods.com/#shipping"
+    },
+    "url": "https://www.publicgoods.com/products/cleaning-refill-set-3-month-supply"
+   },
+   "sku": "020-000-047-011",
+   "url": "https://www.publicgoods.com/products/cleaning-refill-set-3-month-supply"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-02T20:06:12Z",
+ "og_image": "http://www.publicgoods.com/cdn/shop/files/cleaning_3_mo_supply.jpg?v=1786416644",
+ "page_sha256": "3ac0106a9cca068df565d2f603ba82f53a3d23bf0263af098b427d76b12883bf",
+ "rendered_checked": true,
+ "title": "Cleaning Refill Set (3 Month Supply) \u2013 Public Goods",
+ "url": "https://publicgoods.com/products/cleaning-refill-set-3-month-supply"
+}

@@ -1,0 +1,170 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips",
+ "http_status": 200,
+ "id": "graza-hot-n-sweet-olive-oil-potato-chips",
+ "image_file": "graza-hot-n-sweet-olive-oil-potato-chips.jpg",
+ "image_sha256": "3060c4e4c52fab81127b753a639d891c1d7ec5dced2bfd2101cac8a0ebb065d9",
+ "image_source": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Graza"
+   },
+   "description": "",
+   "image": [
+    "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1000",
+    "https://www.graza.co/cdn/shop/files/IMAGE_1_Hot-n-Sweet.jpg?v=1778611670&width=1000",
+    "https://www.graza.co/cdn/shop/files/IMAGE2_Hot-n-Sweet.jpg?v=1778483485&width=1000",
+    "https://www.graza.co/cdn/shop/files/IMAGE3_Hot-n-Sweet.jpg?v=1778483484&width=1000",
+    "https://www.graza.co/cdn/shop/files/IMAGE4_Hot-n-Sweet.jpg?v=1778483487&width=1000",
+    "https://www.graza.co/cdn/shop/files/IMAGE5_Hot-n-Sweet.jpg?v=1778483484&width=1000"
+   ],
+   "name": "Hot 'n Sweet Olive Oil Potato Chips",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "5.99",
+    "priceCurrency": "USD",
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+     }
+    },
+    "url": "/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips#json-ld-for-seo",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Graza"
+   },
+   "description": "",
+   "hasVariant": [
+    {
+     "@id": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Apparel & Accessories"
+     ],
+     "description": "",
+     "gtin": "850062393370",
+     "gtin12": "850062393370",
+     "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+     "inProductGroupWithID": "9350044090582",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "850062393370",
+     "name": "Hot 'n Sweet Olive Oil Potato Chips",
+     "offers": [
+      {
+       "@id": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "850062393370",
+       "gtin12": "850062393370",
+       "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "850062393370",
+       "name": "Hot 'n Sweet Olive Oil Potato Chips",
+       "price": "5.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-12-31",
+       "seller": {
+        "@type": "Organization",
+        "name": "Graza"
+       },
+       "sku": "CHP-HS55",
+       "url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998",
+       "validFrom": "2026-10-01"
+      }
+     ],
+     "sku": "CHP-HS55",
+     "url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    }
+   ],
+   "image": [
+    "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+    "https://www.graza.co/cdn/shop/files/IMAGE_1_Hot-n-Sweet.jpg?v=1778611670&width=1296",
+    "https://www.graza.co/cdn/shop/files/IMAGE2_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+    "https://www.graza.co/cdn/shop/files/IMAGE3_Hot-n-Sweet.jpg?v=1778483484&width=1296",
+    "https://www.graza.co/cdn/shop/files/IMAGE4_Hot-n-Sweet.jpg?v=1778483487&width=1296",
+    "https://www.graza.co/cdn/shop/files/IMAGE5_Hot-n-Sweet.jpg?v=1778483484&width=1296"
+   ],
+   "name": "Hot 'n Sweet Olive Oil Potato Chips",
+   "productGroupID": "9350044090582",
+   "productID": "CHP-HS55",
+   "url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips"
+  },
+  {
+   "@id": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Apparel & Accessories"
+   ],
+   "description": "",
+   "gtin": "850062393370",
+   "gtin12": "850062393370",
+   "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+   "inProductGroupWithID": "9350044090582",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "850062393370",
+   "name": "Hot 'n Sweet Olive Oil Potato Chips",
+   "offers": [
+    {
+     "@id": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "850062393370",
+     "gtin12": "850062393370",
+     "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485&width=1296",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "850062393370",
+     "name": "Hot 'n Sweet Olive Oil Potato Chips",
+     "price": "5.99",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-12-31",
+     "seller": {
+      "@type": "Organization",
+      "name": "Graza"
+     },
+     "sku": "CHP-HS55",
+     "url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998",
+     "validFrom": "2026-10-01"
+    }
+   ],
+   "sku": "CHP-HS55",
+   "url": "https://www.graza.co/products/hot-n-sweet-olive-oil-potato-chips?variant=48239480438998",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-02T20:04:06Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Hot-n-Sweet.jpg?v=1778483485",
+ "page_sha256": "5862686079bd7176dfccc0e99e0e36084c3f8a6ecc8671c21a858c7aa7f31c72",
+ "rendered_checked": true,
+ "title": "Hot 'n Sweet Olive Oil Potato Chips | Graza",
+ "url": "https://graza.co/products/hot-n-sweet-olive-oil-potato-chips"
+}

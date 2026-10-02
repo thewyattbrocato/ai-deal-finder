@@ -1,0 +1,48 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle",
+ "http_status": 200,
+ "id": "teaforte-tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bun",
+ "image_file": "teaforte-tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bun.jpg",
+ "image_sha256": "fe0149a41deea696f55fef1a2897e87c7a9608197a3b9e24a572ad75ed1c3829",
+ "image_source": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCH_Duo_8d2646a2-3496-49a9-91cd-7cda1b022b02.jpg?v=1790085353&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Tea Forte"
+   },
+   "description": "NEW GIFT BUNDLE The perfect holiday gift for herbal tea drinkers! Our limited edition Warming Joy Herbal Tea Chest features our largest holiday herbal tea collection of 40 festive pyramid infusers, each one wrapped in their holiday best. The open lid reveals a detailed tasting menu offering 20 different herbal teas, almost all of which are caffeine-free, inviting the discovery of new favorites. Perfect for the holiday table or gifting to your most treasured herbal tea lover.\nNote: Three herbal blends in this collection contain trace amounts of naturally-occurring caffeine: Belgian Mint and Chocolate Fondue (cocoa husk); and Purify (yerba mat\u00e9). All other blends are naturally caffeine-free.\nThe Warming Joy Herbal Tea Chest Duo Gift Bundle is a $176 value and includes:\n\nTwo\u00a0Warming Joy Herbal Tea Chests of 40 herbal pyramid tea infusers each\n\nEach pyramid infuser steeps 8-12 ounces of tea\nEach box measures 8.4L x 7.9D x 3.4H\"\nPlease note: Pyramid infusers are not microwave-safe\n\nAll teas in this bundle are Kosher Certified",
+   "image": [
+    "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCH_Duo_8d2646a2-3496-49a9-91cd-7cda1b022b02.jpg?v=1790085353&width=1400"
+   ],
+   "mainEntityOfPage": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle",
+   "name": "Warming Joy Herbal Tea Chest Duo",
+   "offers": [
+    {
+     "@id": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle?variant=48939109286077#offer",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 158.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@id": "https://teaforte.com/#organization"
+     },
+     "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle?variant=48939109286077"
+    }
+   ],
+   "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-02T20:02:05Z",
+ "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCH_Duo_8d2646a2-3496-49a9-91cd-7cda1b022b02.jpg?v=1790085353",
+ "page_sha256": "e89e9f75ea875a86976fb4ea80faf12b52bd69eeefb2a0336c723b183ab9cd5a",
+ "rendered_checked": true,
+ "title": "Warming Joy Herbal Tea Chest Duo | Gift Bundle",
+ "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-tea-chest-duo-2026-bundle"
+}

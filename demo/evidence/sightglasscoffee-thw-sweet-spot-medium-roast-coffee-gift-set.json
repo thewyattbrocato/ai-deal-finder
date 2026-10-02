@@ -1,0 +1,71 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://sightglasscoffee.com/products/thw-sweet-spot-medium-roast-coffee-gift-set",
+ "http_status": 200,
+ "id": "sightglasscoffee-thw-sweet-spot-medium-roast-coffee-gift-set",
+ "image_file": "sightglasscoffee-thw-sweet-spot-medium-roast-coffee-gift-set.png",
+ "image_sha256": "149f4120537d59927c0b0f0992a64bda1227b1060841a23fd224d508d296424b",
+ "image_source": "http://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Sweet-Spot-Gift-Set-opt.png?v=1785978386&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/thw-sweet-spot-medium-roast-coffee-gift-set#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "251",
+    "ratingValue": "4.8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Not every great cup pushes to an extreme. Sometimes the most rewarding coffees are the ones that feel just right: layered enough to be interesting, approachable enough to reach for every morning. This set brings together three of our favorite mediums, each with its own origin story and distinct character. Please note: gift sets are whole bean only with no substitutions.\nAutumnal Equinox is named for the celestial shift from summer to autumn. Marked by nearly equal amounts of daylight and darkness across all latitudes, our Autumnal Equinox blend is crafted from a 50/50 composition of washed and natural processed coffees.\nGrizzly Peak is the newest addition to our lineup and our first Regenerative Organic Certified\u00ae coffee, sourced from the collective work of 200 producers at the La Prosperidad de Chirinos Cooperative in Cajamarca, Peru. Medium-bodied and immediately likable, with notes of Pear, Cara Cara Orange, and Hazelnut.\nBlueboon has been on our menu longer than almost anything else, and for good reason. This blend pulls slightly lighter than a traditional medium, with a delicate floral finish that makes it equally at home as a pour over or a Saturday morning drip. Notes of Milk Chocolate, Mandarin, and Honeysuckle.",
+   "image": "https://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Sweet-Spot-Gift-Set-opt_450x450.png?v=1785978386",
+   "mpn": "8563906969792",
+   "name": "The Sweet Spot Gift Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "58.2",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Sightglass Coffee"
+    }
+   },
+   "url": "/products/thw-sweet-spot-medium-roast-coffee-gift-set"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Sightglass Coffee"
+   },
+   "description": "Not every great cup pushes to an extreme. Sometimes the most rewarding coffees are the ones that feel just right: layered enough to be interesting, approachable enough to reach for every morning. This set brings together three of our favorite mediums, each with its own origin story and distinct character. Please note: gift sets are whole bean only with no substitutions.\nAutumnal Equinox is named for the celestial shift from summer to autumn. Marked by nearly equal amounts of daylight and darkness across all latitudes, our Autumnal Equinox blend is crafted from a 50/50 composition of washed and natural processed coffees.\nGrizzly Peak is the newest addition to our lineup and our first Regenerative Organic Certified\u00ae coffee, sourced from the collective work of 200 producers at the La Prosperidad de Chirinos Cooperative in Cajamarca, Peru. Medium-bodied and immediately likable, with notes of Pear, Cara Cara Orange, and Hazelnut.\nBlueboon has been on our menu longer than almost anything else, and for good reason. This blend pulls slightly lighter than a traditional medium, with a delicate floral finish that makes it equally at home as a pour over or a Saturday morning drip. Notes of Milk Chocolate, Mandarin, and Honeysuckle.",
+   "image": [
+    "https://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Sweet-Spot-Gift-Set-opt.png?v=1785978386&width=1920"
+   ],
+   "name": "The Sweet Spot Gift Set",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 58.2,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "url": "https://sightglasscoffee.com/products/thw-sweet-spot-medium-roast-coffee-gift-set?variant=48213080735936"
+    }
+   ],
+   "url": "https://sightglasscoffee.com/products/thw-sweet-spot-medium-roast-coffee-gift-set"
+  }
+ ],
+ "kind": "Coffee",
+ "observed_at": "2026-10-02T20:06:35Z",
+ "og_image": "http://sightglasscoffee.com/cdn/shop/files/2026-Sightglass-August-Sweet-Spot-Gift-Set-opt.png?v=1785978386",
+ "page_sha256": "ac08ae7bb3f01ef84947634d7fc8a7c16ab5f20a2a8b00a340c9a8e5c11711fd",
+ "rendered_checked": true,
+ "title": "The Sweet Spot Coffee Gift Set | Sightglass Coffee",
+ "url": "https://sightglasscoffee.com/products/thw-sweet-spot-medium-roast-coffee-gift-set"
+}
