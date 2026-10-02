@@ -662,7 +662,6 @@ def build():
 """
     page += all_cards
     page += """</div>
-<p id="exact-note" class="text-sm opacity-80" style="display:none">Other stores for the exact bag (Target, Walmart, Kroger) were blocked or unreachable at check time, so no price from them is shown.</p>
 </section>
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
@@ -677,7 +676,6 @@ def build():
 const q = document.getElementById("q");
 const modeText = document.getElementById("mode-text");
 const noMatch = document.getElementById("no-match");
-const exactNote = document.getElementById("exact-note");
 const openBtn = document.getElementById("mode-open");
 const exactBtn = document.getElementById("mode-exact");
 const results = document.getElementById("results");
@@ -690,7 +688,7 @@ const STEPS = [
   { key: "prefer", q: "What matters most?", opts: [
     ["price", "Lowest price"], ["specialty", "Specialty-roaster quality"]] },
   { key: "form", q: "Whole bean or any coffee?", opts: [
-    ["whole-bean", "Whole bean"], ["", "Any coffee"]] },
+    ["whole-bean", "Whole bean"], ["any-coffee", "Any coffee"]] },
   { key: "coupon", q: "Only products whose page printed a coupon?", opts: [
     ["yes", "Only with a printed coupon"], ["all", "Show all"]] },
 ];
@@ -732,14 +730,22 @@ function setMode(open) {
 function byPrice(a, b) {
   return parseInt(a.getAttribute("data-price"), 10) - parseInt(b.getAttribute("data-price"), 10);
 }
+function fold(s) {
+  return s.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "");
+}
+function formAllows(c) {
+  if (!pick.form) return true;
+  if (pick.form === "any-coffee") return c.getAttribute("data-kind") === "Coffee";
+  return c.getAttribute("data-form") === pick.form;
+}
 function filter() {
-  const terms = q.value.toLowerCase().split(/\\s+/).filter(Boolean);
+  const terms = fold(q.value).split(/\\s+/).filter(Boolean);
   const visible = [];
   for (const c of cards) {
-    const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
+    const hay = fold(c.getAttribute("data-keywords") + " " + c.innerText);
     const hit = terms.every(t => hay.includes(t))
       && (pick.coupon !== "yes" || c.getAttribute("data-coupon") === "yes")
-      && (!pick.form || c.getAttribute("data-form") === pick.form);
+      && formAllows(c);
     c.style.display = "none";
     if (hit) visible.push(c);
   }
@@ -748,7 +754,7 @@ function filter() {
   if (exact) {
     // One named item: every term in its name, closest (shortest) name wins.
     const named = visible.filter(c => {
-      const nm = c.getAttribute("data-name").toLowerCase();
+      const nm = fold(c.getAttribute("data-name"));
       return terms.length && terms.every(t => nm.includes(t));
     });
     named.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
@@ -759,7 +765,6 @@ function filter() {
   }
   for (const c of shownSet) { c.style.display = ""; results.appendChild(c); }
   noMatch.style.display = shownSet.length ? "none" : "";
-  exactNote.style.display = exact && shownSet.length ? "" : "none";
   document.getElementById("result-count").textContent = shownSet.length + " shown.";
 }
 openBtn.addEventListener("click", () => setMode(true));
