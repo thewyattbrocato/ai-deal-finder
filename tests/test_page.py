@@ -1,4 +1,4 @@
-"""Quiet public page: guide, two-search explanation, coffee note.
+"""Quiet public page: interactive guide, two-search explanation, coffee note.
 
 Checks the generated demo/index.html and its GitHub Pages copy
 docs/index.html. Offline; no invented products, prices, or coupons.
@@ -192,10 +192,22 @@ function snap(document) {
     if (el.tag === "button") buttons.push(collect(el).trim());
     if (el.tag === "table") tables += 1;
   });
-  const opts = document.getElementById("guide-opts");
+  const radios = [];
+  walk(document._root, el => {
+    if (el.tag === "input" && el.attrs["data-guide-key"]) {
+      radios.push({
+        key: el.attrs["data-guide-key"], value: el.attrs.value, checked: !!el.checked,
+        label: collect(el.parent).trim(),
+      });
+    }
+  });
+  const hiddenItems = document.getElementById("hidden-list").children.map(li => collect(li).trim());
   return {
-    question: collect(document.getElementById("guide-q")).trim(),
-    options: opts.children.filter(c => c.tag === "button").map(b => collect(b).trim()),
+    status: collect(document.getElementById("guide-status")).trim(),
+    radios: radios,
+    hiddenItems: hiddenItems,
+    hiddenShown: document.getElementById("hidden-by").style.display !== "none",
+    whys: cards.filter(c => c.style.display !== "none").map(c => collect(c.querySelectorAll("[data-why]")[0]).trim()),
     visible: cards.filter(c => c.style.display !== "none").map(card),
     all: cards.map(card),
     mode: collect(document.getElementById("mode-text")).trim(),
@@ -221,11 +233,14 @@ function setQuery(document, value) {
   q.value = value;
   q.dispatch("input");
 }
-function clickOption(document, label) {
-  const opts = document.getElementById("guide-opts").children.filter(c => c.tag === "button");
-  const b = opts.find(c => collect(c).trim() === label);
-  if (!b) throw new Error("missing option " + label + " among " + opts.map(c => collect(c).trim()).join("|"));
-  b.dispatch("click");
+function answer(document, key, value) {
+  let found = null;
+  walk(document._root, el => {
+    if (el.tag === "input" && el.attrs["data-guide-key"] === key && el.attrs.value === value) found = el;
+  });
+  if (!found) throw new Error("missing answer " + key + "=" + value);
+  found.checked = true;
+  found.dispatch("change");
 }
 function clickId(document, id) {
   const el = document.getElementById(id);
@@ -234,87 +249,47 @@ function clickId(document, id) {
 }
 
 const out = {};
-{
-  const document = boot();
-  out.load = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Skip");
-  clickOption(document, "Any coffee");
-  out.anyCoffee = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Skip");
-  clickOption(document, "Whole bean");
-  out.wholeBean = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Skip");
-  clickOption(document, "Skip");
-  setQuery(document, "");
-  out.skipForm = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Skip");
-  clickOption(document, "Whole bean");
-  clickOption(document, "Skip");
-  setQuery(document, "");
-  out.skipKeepsWholeBean = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Specialty-roaster quality");
-  out.specialty = snap(document);
-}
-{
-  const document = boot();
-  setQuery(document, "");
-  clickOption(document, "Skip");
-  clickOption(document, "Skip");
-  clickOption(document, "Only with a printed coupon");
-  out.couponOnly = snap(document);
-}
-{
-  const document = boot();
-  clickId(document, "mode-exact");
-  setQuery(document, "qualita rossa");
-  out.exactQualita = snap(document);
-}
-{
-  const document = boot();
-  clickId(document, "mode-exact");
-  setQuery(document, "qualità rossa");
-  out.exactAccent = snap(document);
-}
-{
-  const document = boot();
-  clickId(document, "mode-exact");
-  setQuery(document, "super crema");
-  out.exactSuper = snap(document);
-}
-{
-  const document = boot();
-  clickId(document, "mode-exact");
-  setQuery(document, "midnight axes");
-  out.exactMidnight = snap(document);
-}
-{
-  const document = boot();
-  clickId(document, "mode-exact");
-  setQuery(document, "airpods pro");
-  clickOption(document, "Skip");
-  clickOption(document, "Any coffee");
-  out.exactAirpodsAnyCoffee = snap(document);
-}
+function fresh(fn) { const document = boot(); fn(document); return snap(document); }
+out.load = fresh(() => {});
+out.anyCoffee = fresh(d => { setQuery(d, ""); answer(d, "form", "any-coffee"); });
+out.wholeBean = fresh(d => { setQuery(d, ""); answer(d, "form", "whole-bean"); });
+out.wholeBeanThenAnything = fresh(d => {
+  setQuery(d, ""); answer(d, "form", "whole-bean"); answer(d, "form", "");
+});
+out.specialty = fresh(d => { setQuery(d, ""); answer(d, "prefer", "specialty"); });
+out.specialtyThenPrice = fresh(d => {
+  setQuery(d, ""); answer(d, "prefer", "specialty"); answer(d, "prefer", "price");
+});
+out.couponOnly = fresh(d => { setQuery(d, ""); answer(d, "coupon", "yes"); });
+out.combined = fresh(d => {
+  setQuery(d, "");
+  answer(d, "form", "whole-bean"); answer(d, "coupon", "yes"); answer(d, "prefer", "specialty");
+});
+out.combinedChanged = fresh(d => {
+  setQuery(d, "");
+  answer(d, "form", "whole-bean"); answer(d, "coupon", "yes"); answer(d, "prefer", "specialty");
+  answer(d, "coupon", "all");
+});
+out.resetAfterCombined = fresh(d => {
+  setQuery(d, "");
+  answer(d, "form", "whole-bean"); answer(d, "coupon", "yes"); answer(d, "prefer", "specialty");
+  clickId(d, "guide-reset");
+});
+out.noSearchBoth = fresh(d => { setQuery(d, ""); });
+out.exactQualita = fresh(d => { clickId(d, "mode-exact"); setQuery(d, "qualita rossa"); });
+out.exactAccent = fresh(d => { clickId(d, "mode-exact"); setQuery(d, "qualit\u00e0 rossa"); });
+out.exactSuper = fresh(d => { clickId(d, "mode-exact"); setQuery(d, "super crema"); });
+out.exactMidnight = fresh(d => { clickId(d, "mode-exact"); setQuery(d, "midnight axes"); });
+out.exactAirpodsAnyCoffee = fresh(d => {
+  clickId(d, "mode-exact"); setQuery(d, "airpods pro"); answer(d, "form", "any-coffee");
+});
+out.exactAirpodsThenReset = fresh(d => {
+  clickId(d, "mode-exact"); setQuery(d, "airpods pro"); answer(d, "form", "any-coffee");
+  clickId(d, "guide-reset");
+});
+out.exactCouponOnly = fresh(d => {
+  clickId(d, "mode-exact"); setQuery(d, "midnight axes"); answer(d, "coupon", "yes");
+});
 {
   const document = boot();
   clickId(document, "mode-exact");
@@ -387,47 +362,125 @@ class QuietPageTest(unittest.TestCase):
         self.assertTrue(names_found)
         self.assertEqual(len(names_found), len(set(names_found)))
 
-    def test_guide_asks_one_question_while_list_stays(self):
+    def test_guide_shows_every_question_labelled_and_list_stays(self):
         load = self.driven["load"]
-        self.assertEqual(load["question"], "What matters most?")
-        self.assertEqual(load["options"], [
-            "Lowest price", "Specialty-roaster quality", "Skip"])
         self.assertFalse(load["resultsInGuide"])
+        self.assertEqual(
+            [(r["key"], r["value"], r["checked"]) for r in load["radios"]],
+            [("prefer", "price", True), ("prefer", "specialty", False),
+             ("form", "", True), ("form", "any-coffee", False),
+             ("form", "whole-bean", False),
+             ("coupon", "all", True), ("coupon", "yes", False)])
+        self.assertEqual(
+            [r["label"] for r in load["radios"]],
+            ["Lowest price first", "Specialty-roaster quality first",
+             "Anything", "Any coffee", "Whole bean",
+             "Show all", "Only with a printed coupon"])
+        self.assertEqual(load["buttons"], [
+            "Kind of thing", "Exact product", "Search",
+            "Reset \u2014 show everything"])
         self.assertGreater(len(load["visible"]), 0)
         self.assertTrue(all(card["kind"] == "Coffee" for card in load["visible"]))
         self.assertTrue(any(card["coupon"] == "yes" for card in load["visible"]))
         self.assertTrue(any(card["coupon"] == "no" for card in load["visible"]))
         self.assertEqual(load["tables"], 0)
-        self.assertEqual(load["buttons"], [
-            "Kind of thing", "Exact product", "Search",
-            "Lowest price", "Specialty-roaster quality", "Skip"])
         self.assertIn("similar checked products", load["mode"])
         self.assertIn("only when that product's own page printed it", load["mode"])
         self.assertIn("the price shown is the shelf price", load["mode"])
+        self.assertEqual(load["status"], "No answers set. %d shown, 0 hidden by your answers."
+                         % len(load["visible"]))
+        self.assertFalse(load["hiddenShown"])
 
-    def test_any_coffee_keeps_coffee_and_skip_keeps_the_previous_pick(self):
+    def test_form_answers_narrow_and_can_be_changed_back(self):
         any_coffee = self.driven["anyCoffee"]
         coffee = [card for card in any_coffee["all"] if card["kind"] == "Coffee"]
         self.assertEqual(
-            sorted(names(any_coffee)),
-            sorted(card["name"] for card in coffee))
+            sorted(names(any_coffee)), sorted(card["name"] for card in coffee))
         self.assertNotIn("AirPods Pro 3", names(any_coffee))
         self.assertEqual(any_coffee["noMatch"], "none")
 
         whole = self.driven["wholeBean"]
         beans = [card for card in whole["all"] if card["form"] == "whole-bean"]
         self.assertEqual(
-            sorted(names(whole)),
-            sorted(card["name"] for card in beans))
+            sorted(names(whole)), sorted(card["name"] for card in beans))
         self.assertNotIn("AirPods Pro 3", names(whole))
+        self.assertTrue(whole["hiddenShown"])
+        self.assertTrue(any("AirPods Pro 3" in h and "Whole bean" in h
+                            for h in whole["hiddenItems"]))
 
-        skipped = self.driven["skipForm"]
-        self.assertIn("AirPods Pro 3", names(skipped))
-        self.assertEqual(len(skipped["visible"]), len(skipped["all"]))
+        back = self.driven["wholeBeanThenAnything"]
+        self.assertEqual(len(back["visible"]), len(back["all"]))
+        self.assertIn("AirPods Pro 3", names(back))
+        self.assertFalse(back["hiddenShown"])
 
-        kept = self.driven["skipKeepsWholeBean"]
-        self.assertEqual(sorted(names(kept)), sorted(names(whole)))
-        self.assertNotIn("AirPods Pro 3", names(kept))
+    def test_every_shown_card_says_why_and_only_from_page_facts(self):
+        for key in ("load", "wholeBean", "couponOnly", "combined", "specialty"):
+            snap = self.driven[key]
+            self.assertEqual(len(snap["whys"]), len(snap["visible"]), key)
+            for why in snap["whys"]:
+                self.assertTrue(why.startswith("Why it is here: "), key)
+        by_name = dict(zip(names(self.driven["couponOnly"]),
+                           self.driven["couponOnly"]["whys"]))
+        self.assertIn("its own page printed CAFE20", by_name[
+            "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag"])
+        self.assertIn("never tried", by_name["Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag"])
+        self.assertIn("the price is still the shelf price",
+                      by_name["Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag"])
+        for why in self.driven["couponOnly"]["whys"]:
+            self.assertNotIn("save", why.lower())
+            self.assertNotIn("off", why.lower().split())
+        for card, why in zip(self.driven["specialty"]["visible"],
+                             self.driven["specialty"]["whys"]):
+            if card["quality"] == "independent-roastery":
+                self.assertIn("listed first", why)
+            else:
+                self.assertIn("listed after", why)
+        cheapest = self.driven["load"]["whys"][0]
+        self.assertIn("lowest of", cheapest)
+        self.assertNotIn("Target, Walmart, Kroger", cheapest)
+
+    def test_answers_combine_react_live_and_reset_restores_everything(self):
+        combined = self.driven["combined"]
+        for card in combined["visible"]:
+            self.assertEqual(card["form"], "whole-bean")
+            self.assertEqual(card["coupon"], "yes")
+        self.assertTrue(combined["visible"])
+        self.assertTrue(combined["hiddenShown"])
+        self.assertIn("Your answers:", combined["status"])
+        self.assertIn("Whole bean", combined["status"])
+        self.assertIn("Only with a printed coupon", combined["status"])
+        self.assertIn("Specialty-roaster quality first", combined["status"])
+
+        changed = self.driven["combinedChanged"]
+        self.assertGreater(len(changed["visible"]), len(combined["visible"]))
+        self.assertNotIn("Only with a printed coupon", changed["status"])
+        self.assertTrue(all(card["form"] == "whole-bean" for card in changed["visible"]))
+
+        reset = self.driven["resetAfterCombined"]
+        self.assertEqual(len(reset["visible"]), len(reset["all"]))
+        self.assertEqual(
+            [(r["key"], r["value"]) for r in reset["radios"] if r["checked"]],
+            [("prefer", "price"), ("form", ""), ("coupon", "all")])
+        self.assertFalse(reset["hiddenShown"])
+        self.assertEqual(reset["hiddenItems"], [])
+        self.assertTrue(reset["status"].startswith("No answers set."))
+
+    def test_guide_never_shows_a_coupon_the_page_did_not_print(self):
+        coupons = self.driven["couponOnly"]
+        self.assertTrue(coupons["visible"])
+        self.assertTrue(all(card["coupon"] == "yes" for card in coupons["visible"]))
+        self.assertNotIn("AirPods Pro 3", names(coupons))
+        self.assertNotIn("Midnight Axes", " ".join(names(coupons)))
+        self.assertTrue(any("Midnight Axes" in h and "no coupon code" in h
+                            for h in coupons["hiddenItems"]))
+        for key, snap in self.driven.items():
+            self.assertFalse(snap["blockedClaim"], key)
+            for why in snap["whys"]:
+                if "CAFE20" in why or "EXTRA" in why:
+                    self.assertIn("printed", why, key)
+        exact = self.driven["exactCouponOnly"]
+        self.assertEqual(exact["visible"], [])
+        self.assertEqual(exact["noMatch"], "")
 
     def test_exact_search_is_one_named_item(self):
         for key in ("exactQualita", "exactAccent"):
@@ -447,8 +500,11 @@ class QuietPageTest(unittest.TestCase):
         self.assertEqual(names(self.driven["exactAirpods"]), ["AirPods Pro 3"])
         self.assertEqual(self.driven["exactAirpodsAnyCoffee"]["visible"], [])
         self.assertEqual(self.driven["exactAirpodsAnyCoffee"]["noMatch"], "")
+        self.assertTrue(any("AirPods Pro 3" in h
+                            for h in self.driven["exactAirpodsAnyCoffee"]["hiddenItems"]))
+        self.assertEqual(names(self.driven["exactAirpodsThenReset"]), ["AirPods Pro 3"])
 
-    def test_kind_search_still_sorts_specialty_and_coupon(self):
+    def test_kind_search_still_sorts_specialty_and_price(self):
         specialty = self.driven["specialty"]
         self.assertIn("AirPods Pro 3", names(specialty))
         seen_other = False
@@ -460,15 +516,22 @@ class QuietPageTest(unittest.TestCase):
             else:
                 seen_other = True
         self.assertTrue(seen_roaster)
-        coupons = self.driven["couponOnly"]
-        self.assertTrue(coupons["visible"])
-        self.assertTrue(all(card["coupon"] == "yes" for card in coupons["visible"]))
-        self.assertNotIn("AirPods Pro 3", names(coupons))
-        self.assertTrue(any(card["kind"] == "Coffee" for card in coupons["visible"]))
+        price_again = self.driven["specialtyThenPrice"]
+        prices = [card["name"] for card in price_again["visible"]]
+        self.assertEqual(prices, names(self.driven["noSearchBoth"]))
         kind = self.driven["backToKind"]
         self.assertIn("similar checked products", kind["mode"])
         self.assertTrue(all(card["kind"] == "Coffee" for card in kind["visible"]))
         self.assertGreater(len(kind["visible"]), 1)
+
+    def test_guide_text_makes_no_savings_or_retailer_claims(self):
+        guide = re.search(r'<section id="guide".*?</section>', self.page, re.S).group(0)
+        text = re.sub(r"<[^>]+>", " ", guide).lower()
+        for banned in ("save", "savings", "cheaper", "discount", "target",
+                       "walmart", "kroger", "best deal"):
+            self.assertNotIn(banned, text)
+        self.assertIn("never a lower price", text)
+        self.assertIn("shelf price", text)
 
 
 if __name__ == "__main__":

@@ -350,6 +350,8 @@ Frothy Monkey. No fixture change: no new observation.
 
 The quiet default is one list: no stats row, no kind chips, no comparison
 table, and no second copy of the full list. Kind of thing and exact product
-remain the two search modes. The optional guide asks one question at a time,
-with Skip, while that list stays visible. A coupon still appears only when
+remain the two search modes. The optional guide shows three questions at once (order,
+kind, coupons) that can be changed at any step; the same list narrows, re-orders
+and explains each shown card live from its own checked page, lists what the
+answers hid, and Reset restores everything. A coupon still appears only when
 that product's own page printed it, and the price shown stays the shelf price.
