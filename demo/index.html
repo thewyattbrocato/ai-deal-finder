@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="luxury">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,129 +12,191 @@
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  .mode-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  body { font-size: 1.0625rem; line-height: 1.6; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<h1 class="text-3xl font-bold mb-2">Find a deal</h1>
-<p class="mb-4">Type what you want. Every result below was read straight off the store page —
+<h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
+<p class="mb-4 text-lg">Type what you want. Every result below was read straight off the store page —
 the item, the price, where to buy, the decision, and a coupon only when its text was really seen.
 No login, no checkout, no cart test.</p>
+<section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
+<div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">7</div><div class="stat-desc">across coffee, clothing, shoes, tech</div></div>
+<div class="stat"><div class="stat-title">With a coupon on the page</div><div class="stat-value">4</div><div class="stat-desc">codes really seen, never tested</div></div>
+<div class="stat"><div class="stat-title">Cheapest checked price</div><div class="stat-value">$13.99</div><div class="stat-desc">Dolcevita Classico Whole Bean, 12 oz bag</div></div>
+</section>
 <div class="flex flex-wrap gap-2 mb-3" role="group" aria-label="Search mode">
 <button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
 <button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
 </div>
-<label class="input input-bordered flex items-center gap-2 w-full mb-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<label class="input input-bordered input-lg flex items-center gap-2 w-full mb-2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
 <input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans">
 </label>
+<div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
+<button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
+<button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
+<button class="btn btn-sm kind-btn" data-kind="Clothing" aria-pressed="false">Clothing</button>
+<button class="btn btn-sm kind-btn" data-kind="Shoes" aria-pressed="false">Shoes</button>
+<button class="btn btn-sm kind-btn" data-kind="Tech" aria-pressed="false">Tech</button>
+<label class="label cursor-pointer gap-2 ml-1"><input id="coupon-only" type="checkbox" class="checkbox checkbox-sm"> <span class="label-text">Coupon on the page</span></label>
+<select id="sort" class="select select-sm select-bordered" aria-label="Sort results">
+<option value="low">Price: low first</option>
+<option value="high">Price: high first</option>
+</select>
+</div>
 <p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches — only the checked pages below exist, and nothing is invented.</p>
 </header>
 <section id="open-example" class="mb-8">
 <h2 class="text-2xl font-bold mb-1">Kind of thing — “coffee beans”</h2>
 <p class="text-sm opacity-80 mb-4">Different blends, not interchangeable: each was checked on its own page with its own decision. Ordered by shelf price.</p>
-<section data-keywords="coffee beans lavazza classico dolcevita filter whole bean" class="card bg-base-100 shadow-xl mb-6">
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Dolcevita Classico Whole Bean, 12 oz bag</h2><p class="text-sm opacity-80">Lavazza · filter roast · roasted nuts</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$13.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/classico.png" alt="Photo of Dolcevita Classico Whole Bean, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · filter roast · roasted nuts</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:55:04Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico">lavazzausa.com</a> · US · 2026-10-01T23:55:04Z</p>
-</div></section>
-<section data-keywords="coffee beans lavazza rossa qualita espresso whole bean" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:55:04Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Qualità Rossa Whole Bean, 2.2 lb bag</h2><p class="text-sm opacity-80">Lavazza · medium roast · chocolate</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$24.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/rossa.png" alt="Photo of Qualità Rossa Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · medium roast · chocolate</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:54:08Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa">lavazzausa.com</a> · US · 2026-10-01T23:54:08Z</p>
-</div></section>
-<section data-keywords="coffee beans lavazza super crema espresso whole bean" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:54:08Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Super Crema Whole Bean, 2.2 lb bag</h2><p class="text-sm opacity-80">Lavazza · medium roast · honey, nutty</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$26.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:52:52Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202">lavazzausa.com</a> · US · 2026-10-01T23:52:52Z</p>
-</div></section></section>
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:52:52Z</p>
+</div></div></div></section></section>
 <section id="exact-example" class="mb-8">
 <h2 class="text-2xl font-bold mb-1">Exact product — “Lavazza Super Crema Whole Bean, 2.2 lb”</h2>
 <p class="text-sm opacity-80 mb-4">Best place found: Lavazza direct. The same bag at three other stores
 wouldn't load when checked, so those stores aren't counted — only the page that loaded decides.</p>
-<section data-keywords="coffee beans lavazza super crema espresso whole bean" class="card bg-base-100 shadow-xl mb-6">
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Super Crema Whole Bean, 2.2 lb bag</h2><p class="text-sm opacity-80">Lavazza · medium roast · honey, nutty</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$26.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:52:52Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202">lavazzausa.com</a> · US · 2026-10-01T23:52:52Z</p>
-</div></section><div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:52:52Z</p>
+</div></div></div></section><div class="alert mb-6"><div><span class="font-bold">Not counted:</span>
 Target, Walmart, and Kroger pages were blocked or unreachable at check time, so no price from them is shown.</div></div>
 </section>
 <section id="all-checked" class="mb-8">
 <h2 class="text-2xl font-bold mb-4">Everything checked</h2>
 <div id="results">
-<section data-keywords="airpods apple earbuds headphones" class="card bg-base-100 shadow-xl mb-6">
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="airpods apple earbuds headphones" data-kind="Tech" data-coupon="no" data-price="24900">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">AirPods Pro 3</h2><p class="text-sm opacity-80">White · new · 1 pair · sold by Apple</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$249</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/airpods-pro.jpg" alt="Photo of AirPods Pro 3 as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">AirPods Pro 3</h2><div class="text-2xl font-extrabold whitespace-nowrap">$249</div></div>
+<p class="text-sm opacity-80 mb-1">White · new · 1 pair · sold by Apple</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.apple.com/airpods-pro/" target="_blank" rel="noopener">Buy at Apple</a></p>
 <div class="alert mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">No coupon on this page</div><p class="text-sm opacity-80">No coupon code was visible when this page was checked (apple.com, US, 2026-10-01T19:50:52Z).</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Recheck the price before paying; store pages change.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.apple.com/airpods-pro/">apple.com</a> · US · 2026-10-01T19:50:52Z</p>
-</div></section>
-<section data-keywords="sweatpants old navy pants fleece" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Recheck the price before paying; store pages change.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: apple.com · US · 2026-10-01T19:50:52Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="sweatpants old navy pants fleece" data-kind="Clothing" data-coupon="yes" data-price="2500">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">High-Waisted SoComfy Wide-Leg Sweatpants</h2><p class="text-sm opacity-80">Old Navy · new · Product #777363</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$25.00</div>
-<div class="text-sm opacity-70">was $36.99 (as marked on the page)</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/sweatpants.jpg" alt="Photo of High-Waisted SoComfy Wide-Leg Sweatpants as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">High-Waisted SoComfy Wide-Leg Sweatpants</h2><div class="text-2xl font-extrabold whitespace-nowrap">$25.00</div></div>
+<p class="text-sm opacity-80 mb-1">Old Navy · new · Product #777363</p>
+<p class="text-sm opacity-70 mb-1">was $36.99 (as marked on the page)</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://oldnavy.gap.com/browse/product.do?pid=777363182" target="_blank" rel="noopener">Buy at Old Navy</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">EXTRA</span> — Extra 30% off (exclusions apply).</p><p class="text-sm opacity-80">Seen on oldnavy.gap.com, US, 2026-10-01T19:50:21Z. The code was seen but never tested, so the $25.00 price above does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Free shipping over $50 needs a Rewards membership, which was not signed into during this check.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://oldnavy.gap.com/browse/product.do?pid=777363182">oldnavy.gap.com</a> · US · 2026-10-01T19:50:21Z</p>
-</div></section>
-<section data-keywords="cardigan gap sweater" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li><li>Free shipping over $50 needs a Rewards membership, which was not signed into during this check.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: oldnavy.gap.com · US · 2026-10-01T19:50:21Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="cardigan gap sweater" data-kind="Clothing" data-coupon="no" data-price="7995">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">CashSoft Crop Cardigan</h2><p class="text-sm opacity-80">Gap · Brown and navy blue argyle · new</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$79.95</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/cardigan.jpg" alt="Photo of CashSoft Crop Cardigan as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">CashSoft Crop Cardigan</h2><div class="text-2xl font-extrabold whitespace-nowrap">$79.95</div></div>
+<p class="text-sm opacity-80 mb-1">Gap · Brown and navy blue argyle · new</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.gap.com/browse/product.do?pid=800546212" target="_blank" rel="noopener">Buy at Gap</a></p>
 <div class="alert mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">No coupon on this page</div><p class="text-sm opacity-80">No coupon code was visible when this page was checked (gap.com, US, 2026-10-01T19:50:30Z).</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Store signs advertised select-style offers, but none named a code for this item — the $79.95 price stands on its own.</li><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.gap.com/browse/product.do?pid=800546212">gap.com</a> · US · 2026-10-01T19:50:30Z</p>
-</div></section>
-<section data-keywords="nike jordan shoes sneakers" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Store signs advertised select-style offers, but none named a code for this item — the $79.95 price stands on its own.</li><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: gap.com · US · 2026-10-01T19:50:30Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="nike jordan shoes sneakers" data-kind="Shoes" data-coupon="no" data-price="8797">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Air Jordan OG Women&#x27;s Shoes</h2><p class="text-sm opacity-80">Nike · Black/White/University Red · new · 1 pair</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$87.97</div>
-<div class="text-sm opacity-70">was $155 (as marked on the page)</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/jordan.jpg" alt="Photo of Air Jordan OG Women&#x27;s Shoes as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Air Jordan OG Women&#x27;s Shoes</h2><div class="text-2xl font-extrabold whitespace-nowrap">$87.97</div></div>
+<p class="text-sm opacity-80 mb-1">Nike · Black/White/University Red · new · 1 pair</p>
+<p class="text-sm opacity-70 mb-1">was $155 (as marked on the page)</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002" target="_blank" rel="noopener">Buy at Nike</a></p>
 <div class="alert mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">No coupon on this page</div><p class="text-sm opacity-80">No coupon code was visible when this page was checked (nike.com, US, 2026-10-01T19:50:41Z).</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>The marked-down price is the price checked; no extra savings math was added.</li><li>Members get free shipping over $50, but no membership was signed into during this check — shipping wasn&#x27;t shown.</li><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002">nike.com</a> · US · 2026-10-01T19:50:41Z</p>
-</div></section>
-<section data-keywords="coffee beans lavazza super crema espresso whole bean" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>The marked-down price is the price checked; no extra savings math was added.</li><li>Members get free shipping over $50, but no membership was signed into during this check — shipping wasn&#x27;t shown.</li><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: nike.com · US · 2026-10-01T19:50:41Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza super crema espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2699">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Super Crema Whole Bean, 2.2 lb bag</h2><p class="text-sm opacity-80">Lavazza · medium roast · honey, nutty</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$26.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/super-crema.png" alt="Photo of Super Crema Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Super Crema Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$26.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · medium roast · honey, nutty</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:52:52Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202">lavazzausa.com</a> · US · 2026-10-01T23:52:52Z</p>
-</div></section>
-<section data-keywords="coffee beans lavazza rossa qualita espresso whole bean" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:52:52Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza rossa qualita espresso whole bean" data-kind="Coffee" data-coupon="yes" data-price="2499">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Qualità Rossa Whole Bean, 2.2 lb bag</h2><p class="text-sm opacity-80">Lavazza · medium roast · chocolate</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$24.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/rossa.png" alt="Photo of Qualità Rossa Whole Bean, 2.2 lb bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Qualità Rossa Whole Bean, 2.2 lb bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$24.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · medium roast · chocolate</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:54:08Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa">lavazzausa.com</a> · US · 2026-10-01T23:54:08Z</p>
-</div></section>
-<section data-keywords="coffee beans lavazza classico dolcevita filter whole bean" class="card bg-base-100 shadow-xl mb-6">
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:54:08Z</p>
+</div></div></div></section>
+<section class="card bg-base-100 shadow-lg mb-5" data-keywords="coffee beans lavazza classico dolcevita filter whole bean" data-kind="Coffee" data-coupon="yes" data-price="1399">
 <div class="card-body" style="min-width:0">
-<div class="flex flex-wrap items-start justify-between gap-3 mb-1" style="min-width:0"><div style="min-width:0"><h2 class="card-title text-2xl">Dolcevita Classico Whole Bean, 12 oz bag</h2><p class="text-sm opacity-80">Lavazza · filter roast · roasted nuts</p></div><div class="text-right" style="min-width:0"><div class="text-3xl font-bold">$13.99</div>
-</div></div><p class="mb-3"><span class="badge badge-success">Good to buy</span></p>
+<div class="flex flex-wrap gap-4" style="min-width:0">
+<img src="assets/classico.png" alt="Photo of Dolcevita Classico Whole Bean, 12 oz bag as shown on the store page" loading="eager" width="140" height="140" style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">
+<div style="min-width:0;flex:1 1 16rem">
+<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0"><h2 class="card-title text-xl" style="min-width:0">Dolcevita Classico Whole Bean, 12 oz bag</h2><div class="text-2xl font-extrabold whitespace-nowrap">$13.99</div></div>
+<p class="text-sm opacity-80 mb-1">Lavazza · filter roast · roasted nuts</p>
+<p class="flex flex-wrap items-center gap-2 my-2"><span class="badge badge-success badge-lg">Good to buy</span><a class="btn btn-primary btn-sm" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">Buy at Lavazza</a></p>
 <div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0"><div class="font-bold mb-1">Coupon on this page</div><p class="mb-1"><span class="font-mono font-bold text-lg">CAFE20</span> — 20% off coffee (free mug on orders $150+)</p><p class="text-sm opacity-80">Seen on lavazzausa.com, US, 2026-10-01T23:55:04Z. Seen in the store banner but never tried out, so the price shown does not include it.</p></div></div>
-<ul class="list-disc ml-6 text-sm mb-3"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
-<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: <a class="link" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico">lavazzausa.com</a> · US · 2026-10-01T23:55:04Z</p>
-</div></section></div>
+<ul class="list-disc ml-6 text-sm mb-2"><li>Tax and shipping weren&#x27;t shown for this item — check the total at checkout.</li></ul>
+<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">Checked: lavazzausa.com · US · 2026-10-01T23:55:04Z</p>
+</div></div></div></section></div>
 </section>
 <section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
 <h3 class="card-title text-base">How these were checked</h3>
@@ -151,7 +213,12 @@ const hint = document.getElementById("mode-hint");
 const noMatch = document.getElementById("no-match");
 const openBtn = document.getElementById("mode-open");
 const exactBtn = document.getElementById("mode-exact");
-const cards = Array.from(document.querySelectorAll("#results [data-keywords]"));
+const results = document.getElementById("results");
+const cards = Array.from(results.querySelectorAll("[data-keywords]"));
+const kindBtns = Array.from(document.querySelectorAll(".kind-btn"));
+const couponOnly = document.getElementById("coupon-only");
+const sortSel = document.getElementById("sort");
+let kind = "";
 function setMode(open) {
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
@@ -165,16 +232,33 @@ function setMode(open) {
 function filter() {
   const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
   let shown = 0;
+  const visible = [];
   for (const c of cards) {
     const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
-    const hit = terms.every(t => hay.includes(t));
+    const hitText = terms.every(t => hay.includes(t));
+    const hitKind = !kind || c.getAttribute("data-kind") === kind;
+    const hitCoupon = !couponOnly.checked || c.getAttribute("data-coupon") === "yes";
+    const hit = hitText && hitKind && hitCoupon;
     c.style.display = hit ? "" : "none";
-    if (hit) shown++;
+    if (hit) { shown++; visible.push(c); }
   }
+  visible.sort((a, b) => {
+    const pa = parseInt(a.getAttribute("data-price"), 10);
+    const pb = parseInt(b.getAttribute("data-price"), 10);
+    return sortSel.value === "high" ? pb - pa : pa - pb;
+  });
+  for (const c of visible) results.appendChild(c);
   noMatch.style.display = shown ? "none" : "";
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
+kindBtns.forEach(b => b.addEventListener("click", () => {
+  kind = b.getAttribute("data-kind");
+  kindBtns.forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  filter();
+}));
+couponOnly.addEventListener("change", filter);
+sortSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
 filter();
 </script>

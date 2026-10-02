@@ -271,3 +271,19 @@ open-search items judged on own evidence). Suite: 61 tests green
 Live cases COF-OPEN (per-item open-search pattern), COF-1 … COF-3, and SP-1
 (specific-search best place) appended to `FIXTURES.json`. Observed engine
 outputs, **not** independent labels.
+
+---
+
+# Readability + photos pass (2026-10-02)
+
+Captain feedback: light theme, real product photos, visible variety,
+shopper filters, and a small scan-friendly dashboard — display only, no
+engine change, no new product.
+
+Product photos (`docs/assets/`, mirrored in `demo/assets/` so both copies
+render) are files of images actually seen rendered in the read-only
+browser sessions above: Apple hero shot, Old Navy and Gap gallery main
+views, Nike PDP hero (captured from the rendered page element after the
+CDN served curl an "IMAGE UNAVAILABLE" placeholder — that file was deleted,
+never used), and the three Lavazza PDP hero banners with product-name alt
+text. No image invented. Suite still 61 green.

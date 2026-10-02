@@ -259,58 +259,55 @@ def coupon_none_block(page_host, region, observed_at):
     )
 
 
-def product_card(name, detail, price, was_price, decision, coupon_html,
-                 page_url, page_host, region, observed_at, fine_print):
+def product_card(item, decision, coupon_html):
     badge, label = DECISION_BADGE[decision.verdict.value]
     parts = []
-    parts.append('<section class="card bg-base-100 shadow-xl mb-6">')
+    parts.append('<section class="card bg-base-100 shadow-lg mb-5" '
+                 'data-keywords="' + esc(" ".join(item["keywords"]))
+                 + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
+                 + ("yes" if item["coupon"] else "no") + '" data-price="'
+                 + str(item["price_cents"]) + '">')
     parts.append('<div class="card-body" style="min-width:0">')
+    parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
+    if item["image"]:
+        parts.append(
+            '<img src="' + esc(item["image"]) + '" alt="Photo of '
+            + esc(item["name"]) + ' as shown on the store page" '
+            'loading="eager" width="140" height="140" '
+            'style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">'
+        )
+    parts.append('<div style="min-width:0;flex:1 1 16rem">')
+    parts.append('<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0">'
+                 '<h2 class="card-title text-xl" style="min-width:0">'
+                 + esc(item["name"]) + "</h2>"
+                 '<div class="text-2xl font-extrabold whitespace-nowrap">'
+                 + esc(item["price_label"]) + "</div></div>")
+    parts.append('<p class="text-sm opacity-80 mb-1">' + esc(item["detail"]) + "</p>")
+    if item["was_label"]:
+        parts.append('<p class="text-sm opacity-70 mb-1">was '
+                     + esc(item["was_label"])
+                     + " (as marked on the page)</p>")
     parts.append(
-        '<div class="flex flex-wrap items-start justify-between gap-3 mb-1" '
-        'style="min-width:0">'
-        "<div style=\"min-width:0\">"
-        '<h2 class="card-title text-2xl">' + esc(name) + "</h2>"
-        '<p class="text-sm opacity-80">' + esc(detail) + "</p>"
-        "</div>"
-        '<div class="text-right" style="min-width:0">'
-        '<div class="text-3xl font-bold">' + esc(price) + "</div>"
-    )
-    if was_price:
-        parts.append('<div class="text-sm opacity-70">was ' + esc(was_price)
-                     + " (as marked on the page)</div>")
-    parts.append(
-        '</div></div>'
-        '<p class="mb-3"><span class="badge ' + badge + '">'
-        + esc(label) + "</span></p>"
+        '<p class="flex flex-wrap items-center gap-2 my-2">'
+        '<span class="badge ' + badge + ' badge-lg">' + esc(label) + "</span>"
+        '<a class="btn btn-primary btn-sm" href="' + esc(item["page_url"])
+        + '" target="_blank" rel="noopener">Buy at ' + esc(item["seller"])
+        + "</a></p>"
     )
     parts.append(coupon_html)
     if decision.verdict.value == "verify" and decision.manual_check:
         parts.append('<div class="alert alert-warning mb-3"><div>'
                      + esc(decision.manual_check) + "</div></div>")
-    parts.append('<ul class="list-disc ml-6 text-sm mb-3">'
-                 + "".join("<li>" + esc(n) + "</li>" for n in fine_print)
+    parts.append('<ul class="list-disc ml-6 text-sm mb-2">'
+                 + "".join("<li>" + esc(n) + "</li>" for n in item["fine_print"])
                  + "</ul>")
     parts.append(
         '<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">'
-        "Checked: <a class=\"link\" href=\"" + esc(page_url) + "\">"
-        + esc(page_host) + "</a> \u00b7 " + esc(region) + " \u00b7 "
-        + esc(observed_at) + "</p>"
+        "Checked: " + esc(item["page_host"]) + " \u00b7 " + esc(item["region"])
+        + " \u00b7 " + esc(item["observed_at"]) + "</p>"
     )
-    parts.append("</div></section>")
+    parts.append("</div></div></div></section>")
     return "\n".join(parts)
-
-
-def item_dict(key, name, detail, seller, price_cents, price_label,
-              was_label, decision, coupon, page_url, page_host, region,
-              observed_at, fine_print, keywords):
-    return {
-        "key": key, "name": name, "detail": detail, "seller": seller,
-        "price_cents": price_cents, "price_label": price_label,
-        "was_label": was_label, "decision": decision, "coupon": coupon,
-        "page_url": page_url, "page_host": page_host, "region": region,
-        "observed_at": observed_at, "fine_print": fine_print,
-        "keywords": keywords,
-    }
 
 
 def card_for(item):
@@ -322,15 +319,21 @@ def card_for(item):
             item["coupon"]["code"], item["coupon"]["offer"],
             item["page_host"], item["region"], item["observed_at"],
             item["coupon"]["caveat"])
-    html_card = product_card(
-        item["name"], item["detail"], item["price_label"],
-        item["was_label"], item["decision"], coupon_html,
-        item["page_url"], item["page_host"], item["region"],
-        item["observed_at"], item["fine_print"])
-    return html_card.replace(
-        '<section class="card',
-        '<section data-keywords="' + esc(" ".join(item["keywords"]))
-        + '" class="card', 1)
+    return product_card(item, item["decision"], coupon_html)
+
+
+def item_dict(key, name, detail, seller, kind, image, price_cents,
+              price_label, was_label, decision, coupon, page_url, page_host,
+              region, observed_at, fine_print, keywords):
+    return {
+        "key": key, "name": name, "detail": detail, "seller": seller,
+        "kind": kind, "image": image,
+        "price_cents": price_cents, "price_label": price_label,
+        "was_label": was_label, "decision": decision, "coupon": coupon,
+        "page_url": page_url, "page_host": page_host, "region": region,
+        "observed_at": observed_at, "fine_print": fine_print,
+        "keywords": keywords,
+    }
 
 
 def build():
@@ -352,6 +355,7 @@ def build():
         "apple": item_dict(
             "apple", "AirPods Pro 3",
             "White \u00b7 new \u00b7 1 pair \u00b7 sold by Apple", "Apple",
+            "Tech", "assets/airpods-pro.jpg",
             24900, "$249", None, d1, None,
             APPLE_URL, "apple.com", "US", TS_APPLE2,
             [tax_ship,
@@ -360,6 +364,7 @@ def build():
         "oldnavy": item_dict(
             "oldnavy", "High-Waisted SoComfy Wide-Leg Sweatpants",
             "Old Navy \u00b7 new \u00b7 Product #777363", "Old Navy",
+            "Clothing", "assets/sweatpants.jpg",
             2500, "$25.00", "$36.99", d5,
             {"code": "EXTRA", "offer": "Extra 30% off (exclusions apply).",
              "caveat": "The code was seen but never tested, so the $25.00 "
@@ -372,6 +377,7 @@ def build():
         "gap": item_dict(
             "gap", "CashSoft Crop Cardigan",
             "Gap \u00b7 Brown and navy blue argyle \u00b7 new", "Gap",
+            "Clothing", "assets/cardigan.jpg",
             7995, "$79.95", None, d6, None,
             GAP_URL, "gap.com", "US", TS_GAP,
             ["Store signs advertised select-style offers, but none named a "
@@ -381,7 +387,7 @@ def build():
         "nike": item_dict(
             "nike", "Air Jordan OG Women's Shoes",
             "Nike \u00b7 Black/White/University Red \u00b7 new \u00b7 1 pair",
-            "Nike", 8797, "$87.97", "$155", d7, None,
+            "Nike", "Shoes", "assets/jordan.jpg", 8797, "$87.97", "$155", d7, None,
             NIKE_URL, "nike.com", "US", TS_NIKE,
             ["The marked-down price is the price checked; no extra savings "
              "math was added.",
@@ -393,6 +399,7 @@ def build():
         "cof1": item_dict(
             "cof1", "Super Crema Whole Bean, 2.2 lb bag",
             "Lavazza \u00b7 medium roast \u00b7 honey, nutty", "Lavazza",
+            "Coffee", "assets/super-crema.png",
             2699, "$26.99", None, dc1, lavazza_coupon,
             COF1_URL, "lavazzausa.com", "US", TS_COF1,
             [tax_ship],
@@ -401,6 +408,7 @@ def build():
         "cof2": item_dict(
             "cof2", "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag",
             "Lavazza \u00b7 medium roast \u00b7 chocolate", "Lavazza",
+            "Coffee", "assets/rossa.png",
             2499, "$24.99", None, dc2, lavazza_coupon,
             COF2_URL, "lavazzausa.com", "US", TS_COF2,
             [tax_ship],
@@ -409,6 +417,7 @@ def build():
         "cof3": item_dict(
             "cof3", "Dolcevita Classico Whole Bean, 12 oz bag",
             "Lavazza \u00b7 filter roast \u00b7 roasted nuts", "Lavazza",
+            "Coffee", "assets/classico.png",
             1399, "$13.99", None, dc3, lavazza_coupon,
             COF3_URL, "lavazzausa.com", "US", TS_COF3,
             [tax_ship],
@@ -421,8 +430,12 @@ def build():
     best_place = card_for(items["cof1"])
     all_cards = "\n".join(card_for(items[k]) for k in items)
 
+    n_total = len(items)
+    n_coupon = sum(1 for v in items.values() if v["coupon"])
+    cheapest = min(items.values(), key=lambda v: v["price_cents"])
+
     page = """<!DOCTYPE html>
-<html lang="en" data-theme="luxury">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -435,24 +448,50 @@ def build():
   :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
   :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
   .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  .mode-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  .mode-btn[aria-pressed="true"], .kind-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
+  body { font-size: 1.0625rem; line-height: 1.6; }
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="mb-6">
-<h1 class="text-3xl font-bold mb-2">Find a deal</h1>
-<p class="mb-4">Type what you want. Every result below was read straight off the store page \u2014
+<h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
+<p class="mb-4 text-lg">Type what you want. Every result below was read straight off the store page \u2014
 the item, the price, where to buy, the decision, and a coupon only when its text was really seen.
 No login, no checkout, no cart test.</p>
+<section class="stats stats-vertical sm:stats-horizontal shadow mb-4 w-full bg-base-100" aria-label="At a glance">
+<div class="stat"><div class="stat-title">Products checked</div><div class="stat-value">"""
+    page += str(n_total)
+    page += """</div><div class="stat-desc">across coffee, clothing, shoes, tech</div></div>
+<div class="stat"><div class="stat-title">With a coupon on the page</div><div class="stat-value">"""
+    page += str(n_coupon)
+    page += """</div><div class="stat-desc">codes really seen, never tested</div></div>
+<div class="stat"><div class="stat-title">Cheapest checked price</div><div class="stat-value">"""
+    page += esc(cheapest["price_label"])
+    page += """</div><div class="stat-desc">"""
+    page += esc(cheapest["name"])
+    page += """</div></div>
+</section>
 <div class="flex flex-wrap gap-2 mb-3" role="group" aria-label="Search mode">
 <button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
 <button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
 </div>
-<label class="input input-bordered flex items-center gap-2 w-full mb-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
+<label class="input input-bordered input-lg flex items-center gap-2 w-full mb-2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
 <input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans">
 </label>
+<div class="flex flex-wrap items-center gap-2 mb-2" role="group" aria-label="Narrow by kind">
+<button class="btn btn-sm kind-btn" data-kind="" aria-pressed="true">Everything</button>
+<button class="btn btn-sm kind-btn" data-kind="Coffee" aria-pressed="false">Coffee</button>
+<button class="btn btn-sm kind-btn" data-kind="Clothing" aria-pressed="false">Clothing</button>
+<button class="btn btn-sm kind-btn" data-kind="Shoes" aria-pressed="false">Shoes</button>
+<button class="btn btn-sm kind-btn" data-kind="Tech" aria-pressed="false">Tech</button>
+<label class="label cursor-pointer gap-2 ml-1"><input id="coupon-only" type="checkbox" class="checkbox checkbox-sm"> <span class="label-text">Coupon on the page</span></label>
+<select id="sort" class="select select-sm select-bordered" aria-label="Sort results">
+<option value="low">Price: low first</option>
+<option value="high">Price: high first</option>
+</select>
+</div>
 <p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
 </header>
@@ -493,7 +532,12 @@ const hint = document.getElementById("mode-hint");
 const noMatch = document.getElementById("no-match");
 const openBtn = document.getElementById("mode-open");
 const exactBtn = document.getElementById("mode-exact");
-const cards = Array.from(document.querySelectorAll("#results [data-keywords]"));
+const results = document.getElementById("results");
+const cards = Array.from(results.querySelectorAll("[data-keywords]"));
+const kindBtns = Array.from(document.querySelectorAll(".kind-btn"));
+const couponOnly = document.getElementById("coupon-only");
+const sortSel = document.getElementById("sort");
+let kind = "";
 function setMode(open) {
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
@@ -507,16 +551,33 @@ function setMode(open) {
 function filter() {
   const terms = q.value.toLowerCase().split(/\\s+/).filter(Boolean);
   let shown = 0;
+  const visible = [];
   for (const c of cards) {
     const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
-    const hit = terms.every(t => hay.includes(t));
+    const hitText = terms.every(t => hay.includes(t));
+    const hitKind = !kind || c.getAttribute("data-kind") === kind;
+    const hitCoupon = !couponOnly.checked || c.getAttribute("data-coupon") === "yes";
+    const hit = hitText && hitKind && hitCoupon;
     c.style.display = hit ? "" : "none";
-    if (hit) shown++;
+    if (hit) { shown++; visible.push(c); }
   }
+  visible.sort((a, b) => {
+    const pa = parseInt(a.getAttribute("data-price"), 10);
+    const pb = parseInt(b.getAttribute("data-price"), 10);
+    return sortSel.value === "high" ? pb - pa : pa - pb;
+  });
+  for (const c of visible) results.appendChild(c);
   noMatch.style.display = shown ? "none" : "";
 }
 openBtn.addEventListener("click", () => setMode(true));
 exactBtn.addEventListener("click", () => setMode(false));
+kindBtns.forEach(b => b.addEventListener("click", () => {
+  kind = b.getAttribute("data-kind");
+  kindBtns.forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  filter();
+}));
+couponOnly.addEventListener("change", filter);
+sortSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
 filter();
 </script>
