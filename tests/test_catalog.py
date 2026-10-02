@@ -179,6 +179,19 @@ class PublicPageTest(unittest.TestCase):
             self.assertTrue(os.path.exists(os.path.join(ROOT, "docs", src)), src)
             self.assertTrue(os.path.exists(os.path.join(ROOT, "demo", src)), src)
 
+    def test_every_coupon_on_the_page_is_stored_evidence_or_hand_checked(self):
+        stored = {o["coupon"]["code"] for o in OBS if o["coupon"]}
+        on_page = set(re.findall(r'data-coupon-code="([^"]+)"', self.page))
+        hand_checked = on_page - stored
+        # codes the page shows beyond stored catalog evidence must be hand-checked ones
+        for code in hand_checked:
+            self.assertIn(code, open(os.path.join(ROOT, "demo", "build.py"),
+                                     encoding="utf-8").read(), code)
+        # every stored catalog coupon is shown, and none gains a lower price
+        self.assertTrue(stored <= on_page)
+        self.assertEqual(self.page.count('data-coupon="yes"'),
+                         len(re.findall(r'data-coupon-code="[^"]+"', self.page)))
+
     def test_search_never_dumps_the_catalog(self):
         self.assertIn("const PAGE = 12;", self.page)
         self.assertIn('id="show-more"', self.page)
