@@ -184,9 +184,10 @@ class PublicPageTest(unittest.TestCase):
         on_page = set(re.findall(r'data-coupon-code="([^"]+)"', self.page))
         hand_checked = on_page - stored
         # codes the page shows beyond stored catalog evidence must be hand-checked ones
+        with open(os.path.join(ROOT, "demo", "build.py"), encoding="utf-8") as f:
+            build_src = f.read()
         for code in hand_checked:
-            self.assertIn(code, open(os.path.join(ROOT, "demo", "build.py"),
-                                     encoding="utf-8").read(), code)
+            self.assertRegex(build_src, r'Coupon\(code="%s"' % re.escape(code))
         # every stored catalog coupon is shown, and none gains a lower price
         self.assertTrue(stored <= on_page)
         self.assertEqual(self.page.count('data-coupon="yes"'),
