@@ -6,7 +6,8 @@
 
 ### **[Open the live tool: thewyattbrocato.github.io/ai-deal-finder →](https://thewyattbrocato.github.io/ai-deal-finder/)**
 
-Nothing to download or install. It runs in your browser.
+Nothing to download or install. It runs in your browser. The page loads its
+styling from a CDN, so you need an internet connection.
 
 Deal Finder searches a set of store product pages that were opened and read
 ahead of time. For each product it shows the shelf price, a plain decision, and
