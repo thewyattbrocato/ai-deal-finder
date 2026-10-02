@@ -1,7 +1,8 @@
 # Judgment Engine (Jev TypeSafe System One)
 
-Status: **specification draft for Captain review. No integration built, no API
-called, no credentials exist. All gates remain unpassed.**
+Status: **specification draft for Captain review.** An executable binding lives
+in `deal_finder/runtime.py`. Local tests do not call the API. All gates remain
+unpassed. Key-dependent validation is in `KEYED_VALIDATION.md`.
 
 Jev (TypeSafe's System One model) is the judgment engine for semantic decisions:
 which verdict the evidence supports, how comparable a substitute is, how strong a
@@ -39,14 +40,15 @@ Jev supplies semantic judgments over assembled evidence. Code owns:
 {
   "request": {"item": "...", "must_have_attributes": ["..."], "may_vary": ["..."],
     "region": "...", "currency": "...", "deadline": "...",
-    "volunteered_eligibility": "...", "mode": "browsing | non-browsing"},
+    "volunteered_eligibility": "...", "mode": "browsing | non-browsing",
+    "category": "..."},
   "candidates": [{"id": "C1", "variant": "...", "seller": "...", "fulfilled_by": "...",
     "condition": "...", "quantity_terms": "...", "evidence_state": "observed-now | applied-in-anonymous-cart | retailer-stated | third-party-historical | user-provided | unverified | rejected | unknown",
     "source": "...", "observed_at": "...", "region": "...",
     "landed_cost": {"known_amount": "...", "unknowns": ["tax"], "range": "..."},
     "coupon": {"status": "...", "test": "..."}, "flags": ["..."]}],
   "consent": {"status": "granted | revoked | absent", "scope": "anonymous-cart coupon test only",
-    "merchant": "...", "attempt_budget": "used/of"},
+    "merchant": "...", "attempt": "..."},
   "history": {"provider": "...", "coverage": "...", "window": "...", "note": "..."}
 }
 ```
@@ -169,9 +171,9 @@ means similar yes/no probability, never medium intensity.
 - Privacy: Jev is not trained on customer requests/responses per the Models page;
   zero-retention terms are enterprise-only (see Legal page) — a later compliance
   decision, not this contract.
-- No credentials are requested, recorded, or needed for this planning PR. At
-  implementation time the project needs exactly one server-side API key; nothing
-  else (no OAuth scopes, no per-user keys in V1).
+- Live calls need exactly one server-side `TYPESAFE_API_KEY`; nothing else
+  (no OAuth scopes, no per-user keys in V1). Local tests do not require it.
+  See `KEYED_VALIDATION.md`.
 
 ## Fixture coverage map
 

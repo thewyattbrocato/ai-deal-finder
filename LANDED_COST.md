@@ -12,7 +12,8 @@ ranking, not decorate it.
 
 - Known landed cost = item price − immediate discount + shipping + mandatory
   fees + known tax + required membership/bundle cost − credit actually applied
-  at checkout. Nothing else enters the ranked number.
+  at checkout. Nothing else enters the ranked number. Unproven
+  `checkout_credit` is disclosed with delayed value and is never subtracted.
 - Tax is a known value or an explicit `Unknown`. Never infer a precise total
   from city or postal code alone when the merchant has not calculated it.
 - Shipping is a known value, a range, or `Unknown`. A full address is never

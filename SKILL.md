@@ -1,105 +1,45 @@
 ---
-name: ai-deal-finder
-description: Evidence-based deal and coupon discovery for one purchase decision. Use when a shopper names a specific product or bounded need and wants a buy, wait, or verify recommendation grounded in attributable evidence, with landed-cost ranking, explicit-consent anonymous-cart coupon testing, and research-only fallback.
+name: deal-finder
+description: Find and compare a requested product and bounded substitutes using attributable current evidence, honest landed costs, and optional consent-gated anonymous-cart coupon checks. Use for one buy, wait, verify, or abstain purchase decision; not for checkout, account access, subscriptions, or continuous tracking.
 ---
 
-# AI Deal Finder
+# Deal Finder
 
-Help one shopper make one defensible purchase decision. Never fabricate
-discounts, coupon validity, savings, urgency, seller safety, or price history.
-Fail closed: when the evidence does not support `buy` or `wait`, say `verify`
-with exactly one manual check that would change the decision.
+Produce one defensible purchase decision. Evidence outranks deal volume.
 
-## 1. Intake (ask before searching)
+## Hard boundaries
 
-Record in the shopper's own terms, never assumed:
+- Never log in, enter checkout, submit payment or personal data, mutate an account, reserve scarce inventory, negotiate, or buy anything.
+- Never request a full address, credentials, payment data, government identifiers, or unrelated browsing history.
+- Never claim a seller is safe or a price is guaranteed, best ever, or urgent without scope-matched evidence.
+- Never count an untested coupon, delayed cash back, rebate, points, or gift card as money due today.
+- V1 has no affiliate links. State that ranking is independent of commission.
+- For subscriptions, financial or medical products, controlled goods, resale speculation, or negotiation, abstain without ranking.
 
-- Exact item: variant, quantity/size, condition, bundle.
-- Must-have attributes (fixed) vs. what may vary. Ask what words like
-  "local" or "similar" mean to them.
-- Region, currency, deadline, acceptable condition.
-- Volunteered eligibility only (member, student, first-order). Never request
-  a full address, payment data, account credentials, government IDs, or
-  unrelated browsing history. A postal code only when materially needed for
-  shipping/tax/local availability — and only if volunteered.
+## Workflow
 
-## 2. Discovery (bounded)
+1. Ask for the exact item or bounded need, region/currency, deadline, acceptable condition, and which attributes must stay fixed versus may vary. Ask what "local" or "similar" means rather than assuming.
+2. Search at most 6 exact-item offers and 4 substitutes. Prefer fewer. A substitute qualifies only when every must-have is documented; state material differences beside savings and never imply lookalike equivalence.
+3. Record each candidate's exact variant, quantity, condition, bundle, seller, fulfillment party, region, availability, source URL, absolute observation time, and evidence state.
+4. Prefer merchant/manufacturer pages for current terms. Use third-party sources for discovery, history, and cross-checking. Blocked-page indexed text remains `unverified` and requires a manual check.
+5. Assemble input using `README.md`'s schema and run `scripts/deal-finder evaluate <input.json>`. Without Jev, the runtime intentionally returns `verify`. With a server-side `TYPESAFE_API_KEY`, use `--live-jev`; never expose or log the key. A saved Jev response can be supplied with `--judgment`.
+6. Present `buy`, `wait`, `verify`, or `abstain` exactly as defined in `DECISION_TABLE.md`. Put each caveat beside the claim it limits. In non-browsing mode, say live facts were not independently verified; one pasted offer cannot support buy or wait.
 
-- At most **6 requested-item candidates** and **4 substitute candidates**.
-  Fewer is preferred.
-- Match every candidate to exact variant, quantity, condition, bundle,
-  seller, fulfillment party, and region before comparison. Normalize
-  quantity/size/unit cost when it affects comparison.
-- A substitute appears only when it meets **every** must-have, with material
-  differences stated beside its savings. Reject cheaper candidates that
-  violate a must-have (price must not win by changing the product).
-  Private-label/lookalike gaps in manufacturer, durability, or performance
-  stay explicit — never imply equivalence (`verify` at best).
-- You may stop early only when the leader wins on known landed cost under
-  every stated unknown, its evidence meets the `buy` minimum, and every
-  skipped candidate is recorded as dominated.
+## Coupon testing
 
-## 3. Landed cost (rank this, not headline discounts)
+Coupon research is allowed without cart mutation. Testing in a cart is optional and requires the user's explicit yes.
 
-Known landed cost = item price − immediate discount + shipping + mandatory
-fees + known tax + required membership/bundle cost − credit actually applied
-at checkout. Tax or shipping that cannot be known stays `Unknown` — never
-inferred. When unknown spans overlap so the ranking could flip, show the
-range overlap and downgrade to `verify`. Cash back, rebates, points, and gift
-cards are separate conditional value. Subscription-only pricing is excluded.
-Out-of-stock offers are excluded even with verified prices. Marketplace
-offers stay eligible with seller, fulfillment, return, warranty, and
-condition differences visible beside the price — never call a seller "safe".
+1. Ask once: "May I test public coupon codes in a logged-out anonymous cart? I will stop before login or checkout, use no personal or payment data, reserve no scarce inventory, and restore an empty cart plus clean up the browser session. You can revoke this at any time."
+2. Only after an actual yes, persist it with `scripts/deal-finder consent grant --file <consent.json> --session <session-id> --merchant <merchant> --attempt <attempt-id> --confirmed`. Never infer consent or add `--confirmed` without that yes. Each grant covers one merchant and one coupon attempt.
+3. Before every merchant run, create a run JSON and execute `scripts/deal-finder cart-check --consent <consent.json> --run <run.json>`. Proceed only when `allowed: true`.
+4. Use no more than the declared budget (maximum 3 combinations), prioritizing published terms. Stop immediately on login, checkout, personal-data, payment, account, reservation, budget, rule, or cleanup boundaries.
+5. Restore a visibly empty cart, clean the browser session, and record merchant, actions, budget used/declared, stop reason, and observed cleanup. Do not claim knowledge of merchant-side identifiers.
+6. Revoke immediately on request with `scripts/deal-finder consent revoke --file <consent.json>`. Any denial or uncertainty means research-only verification.
 
-## 4. Verification (consent-gated)
+## Output contract
 
-- Coupon testing is **optional** and starts only after explicit consent to
-  anonymous-cart testing. Record scope (anonymous-cart only), timestamp,
-  session, merchant, and attempt budget (default max 3 combinations,
-  terms-supported first).
-- Test logged-out, stop before login, checkout, payment, personal data,
-  account mutation, or scarce-inventory reservation. Restore the visibly
-  empty cart and clean the browser session afterward.
-- When consent, tools, merchant rules, budget, or cleanup stop you, fall
-  back to research-only claims — that is correct behavior, not failure.
-- A code counts in landed cost only if cart-tested or shopper-confirmed at
-  checkout. Retailer-stated codes stay retailer-stated; aggregator-only codes
-  stay unverified; failed codes are rejected with the observed reason.
+Lead with the verdict and one next action. Show the winner and at most one decision-changing alternative. For every material claim include source, region, absolute timestamp, and one evidence state: `observed-now`, `applied-in-anonymous-cart`, `retailer-stated`, `third-party-historical`, `user-provided`, `unverified`, `rejected`, or `unknown`.
 
-## 5. Verdict
+Rank known amount due today per `LANDED_COST.md`: item price minus immediate proven discount, plus shipping, mandatory fees, known tax, and required membership/bundle cost. Disclose delayed value and unproven checkout credit separately; they never enter the ranked total. Show unknowns or ranges. If ranges overlap or an unknown could flip the winner, return `verify` with exactly one check that would decide it.
 
-- `buy`: exact identity matched; landed cost known or a still-winning range;
-  decisive claims observed-now or applied-in-cart at a stated timestamp; in
-  stock; no unresolved flags; name one next action.
-- `wait`: same identity matching, plus a named history reason (provider,
-  coverage, region, window) with an actionable recheck trigger. Never name a
-  future target price from history alone. This skill does not monitor prices.
-- `verify` (default): minimums not met. Name exactly one manual check.
-  Never smuggle a recommendation ("looks good, just double-check" is a
-  `buy` claim and needs `buy` evidence).
-- `abstain`: out-of-scope requests (subscriptions, financial/medical/
-  controlled goods, resale speculation, negotiation), unresolvable identity,
-  or unmeetable stops. State what was refused and why; offer no ranking.
-
-## 6. Answer format (concise, text-first)
-
-Every material claim carries source, region, timestamp, and evidence state.
-Place caveats beside the claims they qualify. Never use "safe",
-"guaranteed", "best ever", urgency, or tracker-window-as-market-price
-language without scope-matched evidence. No affiliate links; ranking is
-independent of any commission.
-
-```
-Verdict: buy | wait | verify | abstain
-Winner: <id> (unless verify/abstain)
-- <reason, each with its evidence>
-Manual check: <exactly one, for verify>
-Next action: <for buy/wait>
-```
-
-## Deterministic engine
-
-The `deal_finder/` Python package (stdlib only) implements this contract as
-importable, tested rules: `evidence`, `landed_cost`, `consent`, `discovery`,
-`decision`, `judgment` (rules-only mirror of the Jev judgment layer; no live
-calls). Run `python3 -m unittest discover -s tests` before relying on it.
+For `wait`, name the history provider, item/marketplace coverage, region, and window plus an actionable recheck trigger. Never invent a future target or imply monitoring.

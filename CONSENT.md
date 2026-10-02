@@ -18,8 +18,9 @@ stop.
 - **Revocation:** the user can revoke at any time in plain language; revocation
   takes effect immediately and is recorded; past actions keep their original
   consent reference, future actions stop.
-- **Merchant:** each merchant and each coupon attempt is traceable to the consent
-  (consent is per-test-run, cited per action, not a silent global flag).
+- **Merchant and attempt:** the stored record binds one merchant and one coupon
+  attempt for that test run; each action cites that record, not a silent global
+  flag.
 
 ## Attempt budget and stopping
 
