@@ -585,5 +585,36 @@ class SearchSliceTest(unittest.TestCase):
             self.assertEqual(d.winner_id, cid, cid)
 
 
+class RoasterSliceTest(unittest.TestCase):
+    """Roaster-coverage slice (2026-10-02 observations).
+
+    Email-gated signup offers are not coupons, and free-shipping spend
+    thresholds keep shipping Unknown without inventing eligibility.
+    """
+
+    def test_email_gated_offer_is_not_a_coupon(self):
+        c = full_candidate(
+            cid="well-watershed",
+            variant="Watershed light roast, 12 oz bag, Whole Bean",
+            quantity_terms="1x 12 oz bag",
+            seller="The Well Coffee Roasters",
+            fulfilled_by="The Well Coffee Roasters",
+            source="wellcoffeeroasters.com/products/watershed",
+            observed_at="2026-10-02T15:01:25Z",
+        )
+        d = decide(DecisionInput(
+            candidates=[c],
+            ranked=[RankedCandidate("well-watershed", cost(20.5))],
+            coupons=[]))
+        self.assertEqual(d.verdict, Verdict.BUY)
+        self.assertNotIn("code", format_answer(d).lower())
+
+    def test_spend_threshold_shipping_stays_unknown(self):
+        c = cost(19.5, shipping=None, known_tax=None)
+        self.assertIn("shipping", c.unknowns())
+        self.assertFalse(any("eligibility" in u for u in c.unknowns()))
+        self.assertEqual(c.known_high(), float("inf"))
+
+
 if __name__ == "__main__":
     unittest.main()

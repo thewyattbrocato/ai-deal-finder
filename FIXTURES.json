@@ -273,6 +273,30 @@
       "summary": "Named-product search (Lavazza Super Crema Whole Bean 2.2 lb): Lavazza direct verified $26.99; Target/Walmart/Kroger seller pages blocked, so those sellers stay unverified and uncounted; unseen coupon text stays unverified.",
       "must_hold": ["blocked sellers never upgrade and are not ranked", "best place is the only verified seller", "no coupon invented where none was seen"],
       "expected_verdict": "buy Lavazza direct with open-ended range USD 26.99 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "HCR-1",
+      "kind": "live-roaster-no-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: Honest Coffee Roasters Midnight Axes dark roast 12 oz $18.00 one-time observed-now with full provenance (whole-bean on the bag); no coupon code seen; shipping/tax Unknown.",
+      "must_hold": ["no coupon invented where none was seen", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 18.00 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "WEL-1",
+      "kind": "live-email-offer-not-a-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: The Well Coffee Roasters Watershed 12 oz Whole Bean $20.50 observed-now with full provenance; 10%-off email signup seen but no code text (personal data never given); shipping/tax Unknown.",
+      "must_hold": ["email-gated offer without code text is never a coupon", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 20.50 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "CCC-1",
+      "kind": "live-roaster-no-coupon",
+      "severity": "S1",
+      "summary": "Observed live 2026-10-02: Counter Culture Coffee Big Trouble 12 oz $19.50 one-time observed-now with full provenance (whole-bean on the bag, Durham NC roastery); newsletter/footer words are not codes; shipping/tax Unknown.",
+      "must_hold": ["lookalike coupon words verified in context before counting", "unknowns shown as open-ended range"],
+      "expected_verdict": "buy with open-ended range USD 19.50 .. unbounded (observed live engine output; requires independent relabel)"
     }
   ]
 }

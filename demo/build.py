@@ -229,6 +229,83 @@ def run_specific_super_crema():
     return run_cof1()
 
 
+TS_HCR = "2026-10-02T15:00:17Z"
+TS_WEL = "2026-10-02T15:01:25Z"
+TS_CCC = "2026-10-02T15:03:57Z"
+HCR_URL = ("https://www.honest.coffee/shop-3Ooj8/p/"
+           "nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr")
+WEL_URL = "https://wellcoffeeroasters.com/products/watershed"
+CCC_URL = ("https://counterculturecoffee.com/collections/coffee/products/"
+           "big-trouble")
+
+
+def run_hcr():
+    """Honest Midnight Axes 12oz, $18.00 one-time, no coupon seen."""
+    from deal_finder.decision import decide
+    hcr = Candidate(
+        id="honest-midnight-axes",
+        variant="Midnight Axes dark roast, 12 oz bag (whole bean on bag)",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Honest Coffee Roasters",
+        fulfilled_by="Honest Coffee Roasters", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=HCR_URL, observed_at=TS_HCR,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=18.0, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[hcr],
+        ranked=[RankedCandidate("honest-midnight-axes", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return hcr, cost, decision
+
+
+def run_wel():
+    """Well Watershed 12oz Whole Bean, $20.50, email offer is not a coupon."""
+    from deal_finder.decision import decide
+    wel = Candidate(
+        id="well-watershed",
+        variant="Watershed light roast, 12 oz bag, Whole Bean",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="The Well Coffee Roasters",
+        fulfilled_by="The Well Coffee Roasters", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=WEL_URL, observed_at=TS_WEL,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=20.5, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[wel],
+        ranked=[RankedCandidate("well-watershed", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return wel, cost, decision
+
+
+def run_ccc():
+    """Counter Culture Big Trouble 12oz, $19.50 one-time, no coupon seen."""
+    from deal_finder.decision import decide
+    ccc = Candidate(
+        id="ccc-big-trouble",
+        variant="Big Trouble medium-dark roast, 12 oz bag "
+                "(whole bean on bag)",
+        quantity_terms="1x 12 oz bag", condition="new", bundle="single",
+        seller="Counter Culture Coffee",
+        fulfilled_by="Counter Culture Coffee", region="US", in_stock=True,
+        evidence_state=EvidenceState.OBSERVED_NOW,
+        source=CCC_URL, observed_at=TS_CCC,
+        price_determining_states=[EvidenceState.OBSERVED_NOW],
+    )
+    cost = LandedCost(item_price=19.5, shipping=None, known_tax=None)
+    decision = decide(DecisionInput(
+        candidates=[ccc],
+        ranked=[RankedCandidate("ccc-big-trouble", cost)],
+        coupons=[], consent=ConsentRecord(), mode="browsing",
+    ))
+    return ccc, cost, decision
+
+
 DECISION_BADGE = {
     "buy": ("badge-success", "Good to buy"),
     "wait": ("badge-info", "Worth a wait"),
@@ -266,7 +343,9 @@ def product_card(item, decision, coupon_html):
                  'data-keywords="' + esc(" ".join(item["keywords"]))
                  + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
                  + ("yes" if item["coupon"] else "no") + '" data-price="'
-                 + str(item["price_cents"]) + '">')
+                 + str(item["price_cents"]) + '" data-quality="'
+                 + esc(item["quality"]["tag"] if item["quality"] else "")
+                 + '" data-form="' + esc(item["form"] or "") + '">')
     parts.append('<div class="card-body" style="min-width:0">')
     parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
     if item["image"]:
@@ -287,12 +366,18 @@ def product_card(item, decision, coupon_html):
         parts.append('<p class="text-sm opacity-70 mb-1">was '
                      + esc(item["was_label"])
                      + " (as marked on the page)</p>")
+    if item["quality"]:
+        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
+                     + esc(item["quality"]["label"])
+                     + '</span> <span class="opacity-70">\u2014 '
+                     + esc(item["quality"]["basis"]) + "</span></p>")
     parts.append(
-        '<p class="flex flex-wrap items-center gap-2 my-2">'
-        '<span class="badge ' + badge + ' badge-lg">' + esc(label) + "</span>"
-        '<a class="btn btn-primary btn-sm" href="' + esc(item["page_url"])
-        + '" target="_blank" rel="noopener">Buy at ' + esc(item["seller"])
-        + "</a></p>"
+        '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
+        '<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
+        '<span class="text-sm opacity-80">Price verified on the page \u2014 recheck at checkout.</span>'
+        '<a class="btn btn-primary" href="' + esc(item["page_url"])
+        + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
+        + " \u2192</a></div>"
     )
     parts.append(coupon_html)
     if decision.verdict.value == "verify" and decision.manual_check:
@@ -324,7 +409,8 @@ def card_for(item):
 
 def item_dict(key, name, detail, seller, kind, image, price_cents,
               price_label, was_label, decision, coupon, page_url, page_host,
-              region, observed_at, fine_print, keywords):
+              region, observed_at, fine_print, keywords, quality=None,
+              form=None):
     return {
         "key": key, "name": name, "detail": detail, "seller": seller,
         "kind": kind, "image": image,
@@ -332,7 +418,7 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
         "was_label": was_label, "decision": decision, "coupon": coupon,
         "page_url": page_url, "page_host": page_host, "region": region,
         "observed_at": observed_at, "fine_print": fine_print,
-        "keywords": keywords,
+        "keywords": keywords, "quality": quality, "form": form,
     }
 
 
@@ -344,6 +430,9 @@ def build():
     _cc1, _ccost1, dc1 = run_cof1()
     _cc2, _ccost2, dc2 = run_cof2()
     _cc3, _ccost3, dc3 = run_cof3()
+    _hcr, _hcost, dhcr = run_hcr()
+    _wel, _wcost, dwel = run_wel()
+    _ccc, _cccost, dccc = run_ccc()
     _sp, _spcost, dsp = run_specific_super_crema()
 
     tax_ship = ("Tax and shipping weren't shown for this item \u2014 check "
@@ -404,7 +493,8 @@ def build():
             COF1_URL, "lavazzausa.com", "US", TS_COF1,
             [tax_ship],
             ["coffee", "beans", "lavazza", "super", "crema", "espresso",
-             "whole", "bean"]),
+             "whole", "bean"],
+            form="whole-bean"),
         "cof2": item_dict(
             "cof2", "Qualit\u00e0 Rossa Whole Bean, 2.2 lb bag",
             "Lavazza \u00b7 medium roast \u00b7 chocolate", "Lavazza",
@@ -413,7 +503,8 @@ def build():
             COF2_URL, "lavazzausa.com", "US", TS_COF2,
             [tax_ship],
             ["coffee", "beans", "lavazza", "rossa", "qualita", "espresso",
-             "whole", "bean"]),
+             "whole", "bean"],
+            form="whole-bean"),
         "cof3": item_dict(
             "cof3", "Dolcevita Classico Whole Bean, 12 oz bag",
             "Lavazza \u00b7 filter roast \u00b7 roasted nuts", "Lavazza",
@@ -422,11 +513,68 @@ def build():
             COF3_URL, "lavazzausa.com", "US", TS_COF3,
             [tax_ship],
             ["coffee", "beans", "lavazza", "classico", "dolcevita", "filter",
-             "whole", "bean"]),
+             "whole", "bean"],
+            form="whole-bean"),
+        "hcr": item_dict(
+            "hcr", "Midnight Axes dark roast, 12 oz bag",
+            "Honest Coffee Roasters \u00b7 Nicaragua single origin \u00b7 "
+            "dark chocolate, bourbon", "Honest Coffee Roasters",
+            "Coffee", "assets/midnight-axes.jpg",
+            1800, "$18.00", None, dhcr, None,
+            HCR_URL, "honest.coffee", "US", TS_HCR,
+            [tax_ship,
+             "No coupon code was visible on this page.",
+             "The bag reads whole-bean coffee; 12 oz one-time purchase."],
+            ["coffee", "beans", "honest", "midnight", "axes", "dark",
+             "roast", "nashville", "franklin", "whole", "bean"],
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "roastery in Franklin/Nashville AL + direct "
+                              "sourcing, stated on honest.coffee"},
+            form="whole-bean"),
+        "wel": item_dict(
+            "wel", "Watershed light roast, 12 oz bag, Whole Bean",
+            "The Well Coffee Roasters \u00b7 Guatemala single origin \u00b7 "
+            "orange, almond, chocolate", "The Well Coffee Roasters",
+            "Coffee", "assets/watershed.png",
+            2050, "$20.50", None, dwel, None,
+            WEL_URL, "wellcoffeeroasters.com", "US", TS_WEL,
+            [tax_ship,
+             "No coupon code was visible; the 10%-off signup needs an email "
+             "address, so it stays uncounted.",
+             "Free shipping starts at $75; this bag is below that, and the "
+             "exact shipping wasn't shown."],
+            ["coffee", "beans", "well", "watershed", "light", "nashville",
+             "whole", "bean"],
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "\u201cSmall Batch Roasted in Nashville\u201d "
+                              "and direct trade, stated on the page"},
+            form="whole-bean"),
+        "ccc": item_dict(
+            "ccc", "Big Trouble medium-dark roast, 12 oz bag",
+            "Counter Culture Coffee \u00b7 caramel, nutty, round \u00b7 "
+            "roasted in Durham, NC", "Counter Culture Coffee",
+            "Coffee", "assets/big-trouble.jpg",
+            1950, "$19.50", None, dccc, None,
+            CCC_URL, "counterculturecoffee.com", "US", TS_CCC,
+            [tax_ship,
+             "No coupon code was visible on this page.",
+             "The bag reads whole-bean coffee; 12 oz one-time purchase. "
+             "Free shipping starts at $30."],
+            ["coffee", "beans", "counter", "culture", "big", "trouble",
+             "durham", "whole", "bean"],
+            quality={"tag": "independent-roastery",
+                     "label": "Independent roastery",
+                     "basis": "roastery with training centers and published "
+                              "transparency reports, stated on "
+                              "counterculturecoffee.com"},
+            form="whole-bean"),
     }
 
     open_cards = "\n".join(card_for(items[k])
-                            for k in ("cof3", "cof2", "cof1"))
+                            for k in ("cof3", "hcr", "ccc",
+                                      "wel", "cof2", "cof1"))
     best_place = card_for(items["cof1"])
     all_cards = "\n".join(card_for(items[k]) for k in items)
 
@@ -493,6 +641,28 @@ No login, no checkout, no cart test.</p>
 </select>
 </div>
 <p id="mode-hint" class="text-sm opacity-80 mb-2">Kind of thing: similar items that were actually seen, cheapest shelf price first.</p>
+<details class="collapse collapse-arrow bg-base-100 border border-base-300 mb-2">
+<summary class="collapse-title font-semibold">Guide me \u2014 three quick choices (optional, results stay visible)</summary>
+<div class="collapse-content grid gap-3 sm:grid-cols-3" style="min-width:0">
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">What matters most?</span>
+<select id="prefer" class="select select-bordered w-full">
+<option value="any">Just looking around</option>
+<option value="price">Lowest price first</option>
+<option value="roastery">Independent roasteries</option>
+</select></label>
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coffee form?</span>
+<select id="formsel" class="select select-bordered w-full">
+<option value="">Any form</option>
+<option value="whole-bean">Whole bean only</option>
+</select></label>
+<label class="form-control" style="min-width:0"><span class="label-text font-semibold mb-1">Coupons?</span>
+<select id="couponsel" class="select select-bordered w-full">
+<option value="all">Show everything</option>
+<option value="yes">Coupon on the page only</option>
+</select></label>
+</div>
+</details>
+<p class="text-xs opacity-70 mb-2">Quality is your call: \u201cIndependent roasteries\u201d shows only items whose pages say so. No brand is ruled out behind your back.</p>
 <p id="no-match" class="alert mb-4" style="display:none">Nothing here matches \u2014 only the checked pages below exist, and nothing is invented.</p>
 </header>
 <section id="open-example" class="mb-8">
@@ -537,7 +707,12 @@ const cards = Array.from(results.querySelectorAll("[data-keywords]"));
 const kindBtns = Array.from(document.querySelectorAll(".kind-btn"));
 const couponOnly = document.getElementById("coupon-only");
 const sortSel = document.getElementById("sort");
+const preferSel = document.getElementById("prefer");
+const formSel = document.getElementById("formsel");
+const couponSel = document.getElementById("couponsel");
 let kind = "";
+let quality = "";
+let form = "";
 function setMode(open) {
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
@@ -556,8 +731,11 @@ function filter() {
     const hay = (c.getAttribute("data-keywords") + " " + c.innerText).toLowerCase();
     const hitText = terms.every(t => hay.includes(t));
     const hitKind = !kind || c.getAttribute("data-kind") === kind;
-    const hitCoupon = !couponOnly.checked || c.getAttribute("data-coupon") === "yes";
-    const hit = hitText && hitKind && hitCoupon;
+    const wantCoupon = couponOnly.checked || couponSel.value === "yes";
+    const hitCoupon = !wantCoupon || c.getAttribute("data-coupon") === "yes";
+    const hitQuality = !quality || c.getAttribute("data-quality") === quality;
+    const hitForm = !form || c.getAttribute("data-form") === form;
+    const hit = hitText && hitKind && hitCoupon && hitQuality && hitForm;
     c.style.display = hit ? "" : "none";
     if (hit) { shown++; visible.push(c); }
   }
@@ -578,6 +756,15 @@ kindBtns.forEach(b => b.addEventListener("click", () => {
 }));
 couponOnly.addEventListener("change", filter);
 sortSel.addEventListener("change", filter);
+preferSel.addEventListener("change", () => {
+  const v = preferSel.value;
+  quality = v === "roastery" ? "independent-roastery" : "";
+  if (v === "price") sortSel.value = "low";
+  couponSel.value = "all";
+  filter();
+});
+formSel.addEventListener("change", () => { form = formSel.value; filter(); });
+couponSel.addEventListener("change", filter);
 q.addEventListener("input", filter);
 filter();
 </script>

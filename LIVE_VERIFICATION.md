@@ -287,3 +287,45 @@ views, Nike PDP hero (captured from the rendered page element after the
 CDN served curl an "IMAGE UNAVAILABLE" placeholder — that file was deleted,
 never used), and the three Lavazza PDP hero banners with product-name alt
 text. No image invented. Suite still 61 green.
+
+---
+
+# Roaster-coverage slice (2026-10-02)
+
+More than one coffee, beyond one brand and one city — and a shopper-stated
+quality preference instead of any hard-coded brand dislike. Each item keeps
+its own verdict; quality tags quote page-stated facts only.
+
+## Observations
+
+| ID | Source | Observed at (UTC) | What was seen | Evidence state |
+| --- | --- | --- | --- | --- |
+| HCR-1 | `https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr` | 2026-10-02T15:00:17Z | "Midnight Axes … $18.00" one-time, 12 oz selected, Add To Cart; bag reads whole-bean coffee, single origin; roastery in Franklin/Nashville AL + direct sourcing on honest.coffee | observed-now (item price); no coupon seen |
+| WEL-1 | `https://wellcoffeeroasters.com/products/watershed` | 2026-10-02T15:01:25Z | "Watershed … $20.50", 12 oz, Whole Bean selected, Add to cart; "Small Batch Roasted in Nashville"; email-gated 10%-off signup (no code text — personal data never given) | observed-now (item price); email offer is not a coupon |
+| CCC-1 | `https://counterculturecoffee.com/collections/coffee/products/big-trouble` | 2026-10-02T15:03:57Z | "Big Trouble … $19.50" one-time, 12 oz selected, ADD TO CART; bag reads whole-bean coffee; Durham NC roastery with training centers + transparency reports | observed-now (item price); no coupon seen ("promotions" newsletter + "Code of Business" footer are not codes) |
+| FROTHY | `https://frothymonkey.com/shopcoffee/` etc. | 2026-10-02 | Brand pages observed ("Local Coffee Roasted in Nashville", eight TN/AL neighborhoods) but the shop list never renders read-only | no product price seen — not a product result |
+
+Shipping: Honest unstated; Well "calculated at checkout" with a $75+ free
+line; Counter Culture free $30+ line — all stay `Unknown` (spend
+thresholds, not eligibility). Tax `Unknown`. Subscribe options ($13.50
+Honest, "Save $2" CCC) are subscription-gated and never modeled as
+one-time coupons.
+
+## Engine runs
+
+Three single-candidate runs, each `buy` with open-ended ranges
+(`USD 18.00 / 20.50 / 19.50 .. open-ended`), no coupons. The questionnaire's
+quality preference only filters by page-stated tags the shopper picks — it
+never upgrades, ranks, or rules out a brand by itself.
+
+## Discrepancies: none
+
+New focused tests pin the slice (`RoasterSliceTest`: email-gated offers
+are not coupons; spend thresholds keep shipping Unknown without invented
+eligibility). Suite: 63 tests green.
+
+## Fixtures (roasters)
+
+HCR-1, WEL-1, CCC-1 appended to `FIXTURES.json`. Observed engine outputs,
+**not** independent labels. Frothy Monkey gets no case: no product price
+was seen, so there is no product claim to pin.
