@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 392" width="880" height="392" role="img" aria-labelledby="t d">
+  <title id="t">How a coupon is kept apart from the shelf price</title>
+  <desc id="d">Diagram with placeholder names. A product's own page may print a coupon code. The tool lists the code beside the shelf price and marks it seen, never tried. The ranked price stays the shelf price. If the page printed no code, the result says no coupon on this page.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #16161d; }
+    .h { font-size: 20px; font-weight: 800; }
+    .lab { font-size: 14px; font-weight: 700; letter-spacing: 1.2px; fill: #55556a; }
+    .body { font-size: 16px; fill: #16161d; }
+    .mut { font-size: 15px; fill: #3f3f4e; }
+    .note { font-size: 14px; fill: #55556a; }
+    .card { fill: #ffffff; stroke: #c9ced8; stroke-width: 1.5; }
+    .arrow { fill: none; stroke: #422ad5; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="880" height="392" fill="#f6f6f9"/>
+
+  <!-- step 1: the product's own page -->
+  <g transform="translate(24 24)">
+    <text x="0" y="14" class="lab">1 · THE PRODUCT'S OWN PAGE</text>
+    <rect class="card" x="0" y="30" width="250" height="248" rx="10"/>
+    <text x="18" y="62" class="h">Product A</text>
+    <text x="18" y="86" class="mut">Shown on the page:</text>
+    <rect x="18" y="100" width="214" height="46" rx="8" fill="#16161d"/>
+    <text x="34" y="129" class="body" style="fill:#ffffff;font-weight:700">Shelf price</text>
+    <rect x="18" y="162" width="214" height="46" rx="8" fill="#ffffff" stroke="#422ad5" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="34" y="191" class="body" style="font-weight:700">A printed code</text>
+    <text x="18" y="238" class="mut">(a banner or note, if any)</text>
+  </g>
+
+  <path class="arrow" d="M290 160 h42 m-9 -9 l9 9 l-9 9"/>
+
+  <!-- step 2: what the tool does -->
+  <g transform="translate(350 24)">
+    <text x="0" y="14" class="lab">2 · WHAT THE TOOL SHOWS</text>
+    <rect class="card" x="0" y="30" width="250" height="248" rx="10"/>
+    <text x="18" y="62" class="h">Product A</text>
+    <text x="18" y="86" class="mut">Price used to rank:</text>
+    <rect x="18" y="100" width="214" height="46" rx="8" fill="#16161d"/>
+    <text x="34" y="129" class="body" style="fill:#ffffff;font-weight:700">Shelf price</text>
+    <text x="18" y="176" class="mut">Coupon on this page:</text>
+    <rect x="18" y="188" width="214" height="46" rx="8" fill="#ffffff" stroke="#422ad5" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="34" y="217" class="body" style="font-weight:700">code · seen, not tried</text>
+    <text x="18" y="254" class="note">with the page and time it was seen</text>
+  </g>
+
+  <!-- rules -->
+  <g transform="translate(640 24)">
+    <text x="0" y="14" class="lab">THE RULES</text>
+    <text x="0" y="54" class="body" style="font-weight:700">A code is listed only if</text>
+    <text x="0" y="76" class="body" style="font-weight:700">that page printed it.</text>
+    <text x="0" y="118" class="body" style="font-weight:700">A seen code is never</text>
+    <text x="0" y="140" class="body" style="font-weight:700">a lower price.</text>
+    <text x="0" y="182" class="body" style="font-weight:700">No code on the page:</text>
+    <text x="0" y="204" class="body" style="font-weight:700">"No coupon on this page".</text>
+    <text x="0" y="246" class="mut">Nothing is added to a bag,</text>
+    <text x="0" y="266" class="mut">and no code is tried.</text>
+  </g>
+
+  <text x="24" y="360" class="note">Diagram: placeholder name, no real product, price or coupon.</text>
+</svg>
