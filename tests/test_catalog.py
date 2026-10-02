@@ -211,6 +211,12 @@ class ReadmeLiveLinkTest(unittest.TestCase):
         self.assertLess(self.readme.index("Nothing to download"),
                         self.readme.index("## Use it in four steps"))
 
+    def test_readme_admits_the_page_needs_internet_while_the_page_uses_a_cdn(self):
+        with open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8") as fh:
+            page = fh.read()
+        if re.search(r'<script[^>]+src="https://', page):
+            self.assertIn("internet connection", " ".join(self.readme.split()))
+
     def test_every_readme_image_is_a_file_in_the_repo(self):
         srcs = re.findall(r'src="([^"]+)"', self.readme)
         self.assertTrue(srcs)
