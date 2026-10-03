@@ -7069,7 +7069,9 @@ function create(P) {
   /* ---- two-word versus one-word spellings of a real catalog word ----
    * "sweat pants" is the catalog's "sweatpants" when that word exists, and "sweatpants"
    * is "sweat pants" when the catalog has no such word but has both parts. Only real
-   * catalog words are ever joined or split; nothing else changes. */
+   * catalog words are ever joined or split; nothing else changes. The joined or split
+   * reading never replaces what was typed: a query lists the products of the typed words
+   * read as they are AND of the joined or split reading (see match). */
   function known(w) { return !!byStem[stem(w)]; }
   function tokenize(q) {
     var ts = tokens(q), out = [], i, j;
@@ -7113,9 +7115,31 @@ function create(P) {
     }
     return (resCache[key] = { t: t, mode: mode, set: set });
   }
-  function resolveAll(q) {
-    var ts = tokenize(q);
+  function resolveWords(ts) {
     return ts.map(function (t, i) { return resolve(t, i === ts.length - 1); });
+  }
+  function resolveAll(q) { return resolveWords(tokenize(q)); }
+  // Every typed word that is two catalog words run together ("12oz" for "12 oz"), split in two.
+  function splitAll(ts) {
+    var out = [], changed = false;
+    ts.forEach(function (w) {
+      var j, done = false;
+      for (j = 2; w.length >= 4 && j <= w.length - 2; j++) {
+        if (known(w.slice(0, j)) && known(w.slice(j))) { out.push(w.slice(0, j), w.slice(j)); done = true; changed = true; break; }
+      }
+      if (!done) out.push(w);
+    });
+    return changed ? out : null;
+  }
+  // The readings of a query: the joined or split one, then the words exactly as typed, then every
+  // word that is two catalog words run together split in two; each only when it differs from the others.
+  function readings(q) {
+    var lit = tokens(q), out = [tokenize(q)], seen = {}, sp = splitAll(lit);
+    seen[out[0].join(" ")] = true;
+    [lit, sp].forEach(function (r) {
+      if (r && !seen[r.join(" ")]) { seen[r.join(" ")] = true; out.push(r); }
+    });
+    return out;
   }
   function wordList(res) { return Object.keys(res.set).sort(); }
 
@@ -7140,8 +7164,8 @@ function create(P) {
   }
   // Every typed word must hit, and every typed price must be the product's stored shelf price.
   // Nothing typed: every product, unscored.
-  function match(q) {
-    var rs = resolveAll(q), prices = pricesIn(q), out = [];
+  function matchWith(rs, prices) {
+    var out = [];
     P.forEach(function (p, idx) {
       var s = 0, ok = true, nameAll = true;
       for (var pi = 0; pi < prices.length; pi++) {
@@ -7157,7 +7181,25 @@ function create(P) {
       }
       if (ok) out.push({ i: idx, s: s + (rs.length && nameAll ? 5 : 0) });
     });
-    return { res: rs, rows: out };
+    return out;
+  }
+  // The products of every reading (a product keeps its best score): a joined or split
+  // reading can add products, never take one away.
+  function match(q) {
+    var prices = pricesIn(q), best = Object.create(null), out = [], res = [], seen = {};
+    readings(q).forEach(function (ts, ri) {
+      var rs = resolveWords(ts), rows = matchWith(rs, prices);
+      if (ri && !rows.length) return;   // a reading nothing matches adds neither products nor notes
+      rows.forEach(function (r) {
+        if (best[r.i] === undefined || r.s > best[r.i]) best[r.i] = r.s;
+      });
+      rs.forEach(function (r) {
+        var k = r.t + "|" + r.mode;
+        if (!seen[k]) { seen[k] = true; res.push(r); }
+      });
+    });
+    P.forEach(function (p, idx) { if (best[idx] !== undefined) out.push({ i: idx, s: best[idx] }); });
+    return { res: res, rows: out };
   }
 
   /* ---- the one predicate: 1 listed, 0 not listed, -1 the page does not say ---- */
@@ -7539,7 +7581,7 @@ function showSuggestions() {
   sgActive = -1;
   if (!sgItems.length) { hideSugg(); return; }
   clear(sugg);
-  var last = "", titles = { kind: "Kinds", store: "Stores", product: "Products" }, res = E.resolve(q.value);
+  var last = "", titles = { kind: "Kinds", store: "Stores", product: "Products" }, res = E.match(q.value).res;
   sgItems.forEach(function (it, i) {
     if (it.type !== last) { sugg.appendChild(h("p", { class: "sg-h", role: "presentation", text: titles[it.type] })); last = it.type; }
     var label = h("span", { class: "t" });

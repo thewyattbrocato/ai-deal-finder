@@ -143,7 +143,7 @@ function showSuggestions() {
   sgActive = -1;
   if (!sgItems.length) { hideSugg(); return; }
   clear(sugg);
-  var last = "", titles = { kind: "Kinds", store: "Stores", product: "Products" }, res = E.resolve(q.value);
+  var last = "", titles = { kind: "Kinds", store: "Stores", product: "Products" }, res = E.match(q.value).res;
   sgItems.forEach(function (it, i) {
     if (it.type !== last) { sugg.appendChild(h("p", { class: "sg-h", role: "presentation", text: titles[it.type] })); last = it.type; }
     var label = h("span", { class: "t" });
