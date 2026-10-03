@@ -116,7 +116,7 @@ function renderStart() {
   $("range").textContent = "Store pages read " + dates[0] + (dates[0] !== dates[dates.length - 1] ? " to " + dates[dates.length - 1] : "")
     + " · " + P.length + " products, " + Object.keys(E.stores).length + " stores.";
 }
-function pickKind(k) { S.kind = k; S.q = ""; q.value = ""; limit = PAGE; commit(false); q.focus(); }
+function pickKind(k) { S.kind = k; S.q = ""; q.value = ""; limit = PAGE; commit(false); focusBox(); }
 $("morebtn").addEventListener("click", function () {
   var m = $("morekinds"), open = m.style.display === "none";
   show(m, open);
@@ -220,12 +220,32 @@ document.addEventListener("keydown", function (e) {
 
 // ---- chips
 function findAttr(root, attr, value) {
-  var hits = root.querySelectorAll("[" + attr + "]").filter(function (n) { return n.getAttribute(attr) === value; });
-  return hits[0] || null;
+  var all = root.querySelectorAll("[" + attr + "]");  // a NodeList: no filter()
+  for (var i = 0; i < all.length; i++) if (all[i].getAttribute(attr) === value) return all[i];
+  return null;
+}
+function shownEl(n) {
+  for (; n; n = n.parentNode) if (n.style && n.style.display === "none") return false;
+  return true;
+}
+// Where focus goes when the control that had it is redrawn away: the count line above the list.
+// It takes focus without raising a phone keyboard and is read out as the new result count.
+function focusResults() {
+  var c = $("count");
+  if (c.focus) c.focus({ preventScroll: true });
+}
+// After a change the shopper made with a pointer: type at once on a desktop; on a phone, do not raise the keyboard over the list.
+function focusBox() {
+  if (window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches) q.focus(); else focusResults();
 }
 function focusChip(key) {
   var n = findAttr(document, "data-chip", key);
-  if (n && n.focus) n.focus();
+  if (!n || !shownEl(n)) {
+    // a picked size closes its list and a picked kind moves to "Showing": follow the choice
+    if (/^size:/.test(key)) n = findAttr(document, "data-chip", "size");
+    else if (/^kind:/.test(key)) n = findAttr(document, "data-remove", "kind");
+  }
+  if (n && shownEl(n) && n.focus) n.focus(); else focusResults();
 }
 function chip(label, n, pressed, key, onClick) {
   var b = h("button", { type: "button", class: "chip", "aria-pressed": pressed ? "true" : "false", "data-chip": key,
@@ -260,12 +280,12 @@ function renderActive() {
   var ul = h("ul", { class: "chiprow", "aria-labelledby": "lbl-active" }, [h("li", {}, [h("span", { class: "rowlabel", id: "lbl-active", text: "Showing" })])]);
   a.forEach(function (c) {
     var b = h("button", { type: "button", class: "chip active", "data-remove": c[0], "aria-label": "Remove: " + c[1] }, [text(c[1] + " "), h("span", { "aria-hidden": "true", text: "×" })]);
-    b.addEventListener("click", function () { c[2](); limit = PAGE; commit(false); q.focus(); });
+    b.addEventListener("click", function () { c[2](); limit = PAGE; commit(false); focusBox(); });
     ul.appendChild(h("li", {}, [b]));
   });
   if (a.length > 1) {
     var all = h("button", { type: "button", class: "linkbtn", "data-clearall": "1", text: "Clear all" });
-    all.addEventListener("click", function () { S = E.blank(); q.value = ""; limit = PAGE; commit(false); q.focus(); });
+    all.addEventListener("click", function () { S = E.blank(); q.value = ""; limit = PAGE; commit(false); focusBox(); });
     ul.appendChild(h("li", {}, [all]));
   }
   box.appendChild(ul);
@@ -313,7 +333,7 @@ function renderEmpty(cur) {
   var chipsOn = !!(S.size || S.ship || S.sub || S.coupon || S.kind || S.store);
   function btn(label, sub, fn, attrs) {
     var b = h("button", Object.assign({ type: "button", class: "chip" }, attrs || {}), [text(label)].concat(sub ? [text(" "), h("span", { class: "n", text: sub })] : []));
-    b.addEventListener("click", function () { fn(); limit = PAGE; commit(false); });
+    b.addEventListener("click", function () { fn(); limit = PAGE; commit(false); focusResults(); });
     return h("li", {}, [b]);
   }
   if (S.q && cur.m.rows.length && chipsOn) {
@@ -445,7 +465,7 @@ function drawCard(r, res) {
   } else show(line, false);
   markName(c, p, res);
 }
-$("show-more").addEventListener("click", function () { limit += PAGE; render(); });
+$("show-more").addEventListener("click", function () { limit += PAGE; render(); if (!shownEl($("show-more"))) focusResults(); });
 
 // ---- boot
 renderStart();

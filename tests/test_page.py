@@ -77,6 +77,16 @@ class ShopperWordsTest(unittest.TestCase):
         for q in ("t-shirt", "t shirt", "tshirts"):
             self.assertEqual(self.rows(q), tee, q)
 
+    def test_two_word_and_one_word_spellings_of_a_catalog_word_find_the_same_product(self):
+        one = self.rows("sweatpants")
+        self.assertEqual(one, ["High-Waisted SoComfy Wide-Leg Sweatpants"])
+        for q in ("sweat pants", "sweat-pants", "sweat pant", "sweatpant"):
+            self.assertEqual(self.rows(q), one, q)
+        # a split spelling of a word the catalog has, never a made-up join: unrelated words stay unmatched
+        self.assertEqual(self.rows("pan cake"), [])
+        self.assertEqual(self.rows("olive oil"), self.rows("oliveoil"))
+        self.assertEqual(len(self.rows("olive oil")), 4)
+
     def test_dog_never_lists_cat_products(self):
         dogs, cats = self.rows("dog"), self.rows("cat")
         self.assertTrue(dogs and cats)
@@ -111,7 +121,7 @@ class SearchFirstTest(unittest.TestCase):
     def test_the_box_is_first_and_empty_with_focus_on_desktop(self):
         load = self.d["load"]
         self.assertEqual(load["q"], "")
-        self.assertEqual(load["focus"], {"id": "q", "chip": None, "isQ": True})
+        self.assertEqual(load["focus"], {"id": "q", "chip": None, "remove": None, "isQ": True})
         self.assertTrue(load["startShown"])
         self.assertFalse(load["areaShown"])
         self.assertNotIn("coffee beans", load["pageText"])
@@ -890,3 +900,42 @@ class PrintedWindowParserTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FocusWalkTest(unittest.TestCase):
+    """Defects found walking the live page in a real browser: a NodeList has no
+    filter(), so every chip click threw after drawing, and focus fell to the
+    page body; a phone's keyboard was raised over the list by taps."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.d = drive(os.path.join(ROOT, "demo", "index.html"))
+
+    def focus(self, key):
+        return self.d[key]["focus"]
+
+    def test_picking_a_kind_chip_moves_focus_to_its_remove_chip_not_the_body(self):
+        self.assertEqual(self.focus("focusAfterKind")["remove"], "kind")
+
+    def test_picking_a_size_returns_focus_to_the_size_button(self):
+        self.assertEqual(self.focus("focusAfterSize")["chip"], "size")
+
+    def test_escape_in_the_size_list_returns_focus_to_the_size_button(self):
+        self.assertEqual(self.focus("focusAfterEscape")["chip"], "size")
+
+    def test_desktop_tile_and_remove_keep_focus_in_the_box_for_typing(self):
+        self.assertTrue(self.focus("focusTileDesktop")["isQ"])
+        self.assertTrue(self.focus("focusRemoveDesktop")["isQ"])
+
+    def test_phone_tile_and_remove_do_not_raise_the_keyboard(self):
+        for k in ("focusTilePhone", "focusRemovePhone"):
+            self.assertFalse(self.focus(k)["isQ"], k)
+            self.assertEqual(self.focus(k)["id"], "count", k)
+
+    def test_buttons_that_disappear_hand_focus_to_the_count_line(self):
+        self.assertEqual(self.focus("focusEmptyKind")["id"], "count")
+        self.assertEqual(self.focus("focusShowMore")["id"], "count")
+        self.assertIn('id="count" aria-live="polite" role="status" tabindex="-1"', read("demo", "index.html"))
+
+    def test_refine_summary_keeps_a_gap_before_the_number_of_choices_on(self):
+        self.assertRegex(read("demo", "page.css"), r"\.refine>summary\{[^}]*gap:")

@@ -38,6 +38,7 @@ El.prototype.addEventListener = function (type, fn) {
 };
 let ACTIVE = null;
 El.prototype.focus = function () { ACTIVE = this; };
+Object.defineProperty(El.prototype, "parentNode", { get() { return this.parent; } });
 // Clicks and keys bubble up through the parents to the document, as in a browser.
 let DOC = null;
 El.prototype.dispatch = function (type, ev) {
@@ -62,7 +63,10 @@ El.prototype.querySelectorAll = function (sel) {
   walk(this, el => {
     if (el !== this && Object.prototype.hasOwnProperty.call(el.attrs, m[1])) out.push(el);
   });
-  return out;
+  // a real NodeList has length, indexes and forEach, and no map/filter: the page must not use them
+  const list = { length: out.length, forEach: (fn) => out.forEach(fn) };
+  out.forEach((el, i) => { list[i] = el; });
+  return list;
 };
 function collect(el) {
   let s = "";
@@ -303,18 +307,18 @@ function snap(page) {
     empty: $(page, "empty").style.display === "none" ? null : {
       text: visibleText($(page, "empty")).replace(/\s+/g, " ").trim(),
       buttons: buttons($(page, "empty")).map(b => collect(b).trim()),
-      near: $(page, "empty").querySelectorAll("[data-near]").map(n => ({ name: n.attrs["data-near"], text: collect(n).replace(/\s+/g, " ").trim(),
+      near: Array.from($(page, "empty").querySelectorAll("[data-near]")).map(n => ({ name: n.attrs["data-near"], text: collect(n).replace(/\s+/g, " ").trim(),
         href: n.querySelectorAll("[href]")[0].attrs.href })),
     },
     coffeeNote: $(page, "coffee-note").style.display,
     sortShown: $(page, "sortbox").style.display !== "none",
     showMore: $(page, "show-more").style.display === "none" ? null : collect($(page, "show-more")).trim(),
     sugg: { shown: $(page, "sugg").style.display !== "none", items: sg, expanded: q.attrs["aria-expanded"], active: q.attrs["aria-activedescendant"] || "" },
-    focus: ACTIVE ? { id: ACTIVE.attrs.id || null, chip: ACTIVE.attrs["data-chip"] || null, isQ: ACTIVE === q } : null,
+    focus: ACTIVE ? { id: ACTIVE.attrs.id || null, chip: ACTIVE.attrs["data-chip"] || null, remove: ACTIVE.attrs["data-remove"] || null, isQ: ACTIVE === q } : null,
     main: main.map(cardInfo),
     unkCards: unk.map(cardInfo),
-    all: !page.full ? undefined : $(page, "results").querySelectorAll("[data-i]").map(cardInfo),
-    windows: !page.full ? undefined : $(page, "results").querySelectorAll("[data-i]").filter(c => c.attrs["data-coupon"] === "yes").map(c => ({
+    all: !page.full ? undefined : Array.from($(page, "results").querySelectorAll("[data-i]")).map(cardInfo),
+    windows: !page.full ? undefined : Array.from($(page, "results").querySelectorAll("[data-i]")).filter(c => c.attrs["data-coupon"] === "yes").map(c => ({
       name: c.attrs["data-name"],
       code: c.attrs["data-coupon-code"],
       state: c.attrs["data-window-state"],
@@ -325,7 +329,7 @@ function snap(page) {
       price: textOf(c, "data-price-text"),
       priceLabel: c.attrs["data-price-label"],
       couponLine: textOf(c, "data-coupon-line"),
-      conditions: c.querySelectorAll("[data-conditions-row]").map(r => collect(r).trim()),
+      conditions: Array.from(c.querySelectorAll("[data-conditions-row]")).map(r => collect(r).trim()),
       windowStart: c.querySelectorAll("[data-window-row]")[0].attrs["data-window-start"] || null,
     })),
   };
@@ -395,6 +399,16 @@ out.chipCounts.shoesMin = chipsFor("shoes", p => clickChip(p, "ship:min"));
 out.chipCounts.clothingCoupon = chipsFor("clothing", p => clickChip(p, "coupon:true"));
 
 // chips as a shopper uses them
+// where keyboard focus lands after a control is redrawn away (real browsers: a NodeList has no filter())
+out.focusAfterKind = fresh(p => { type(p, "coffee"); clickChip(p, "kind:Coffee"); });
+out.focusAfterSize = fresh(p => { type(p, "coffee"); clickChip(p, "size"); clickChip(p, "size:2 lb"); });
+out.focusAfterEscape = fresh(p => { type(p, "coffee"); clickChip(p, "size"); p.document.dispatch("keydown", { key: "Escape" }); });
+out.focusTileDesktop = fresh(p => clickText(p, $(p, "tiles"), "Kitchen"));
+out.focusTilePhone = fresh(p => clickText(p, $(p, "tiles"), "Kitchen"), { pointer: "coarse", wide: false });
+out.focusRemovePhone = fresh(p => { type(p, "coffee"); clickChip(p, "kind:Coffee"); byAttr(p, "data-remove", "kind").dispatch("click"); }, { pointer: "coarse", wide: false });
+out.focusRemoveDesktop = fresh(p => { type(p, "coffee"); clickChip(p, "kind:Coffee"); byAttr(p, "data-remove", "kind").dispatch("click"); });
+out.focusEmptyKind = fresh(p => { type(p, "zzyzx"); byAttr(p, "data-kind", "Kitchen").dispatch("click"); });
+out.focusShowMore = fresh(p => { clickId(p, "browseall"); while ($(p, "show-more").style.display !== "none") clickId(p, "show-more"); });
 out.coffee = fresh(p => type(p, "coffee"));
 out.coffeeSub = fresh(p => { type(p, "coffee"); clickChip(p, "sub:true"); });
 out.coffeeSubShown = fresh(p => { type(p, "coffee"); clickChip(p, "sub:true"); clickText(p, $(p, "unk"), "Show them"); });

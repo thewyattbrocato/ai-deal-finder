@@ -73,10 +73,11 @@ noscript p{margin:16px 0;padding:12px 16px;border:1px solid var(--line-strong);b
 .chiprow+.chiprow{margin-top:8px}
 .chiprow>li>.rowlabel{display:inline-block;min-width:4.5rem}
 .refine{margin-top:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:0 14px}
-.refine>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700}
+.refine>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:.35em;font-weight:700}
 .refine[open]>summary{border-bottom:1px solid var(--line)}
 .refine>div{padding:10px 0 12px}
 #active{margin-top:14px}
+#count:focus{outline:none}
 .pop{position:relative}
 .popbody{position:absolute;z-index:15;left:0;top:calc(100% + 6px);background:var(--surface);border:1px solid var(--line-strong);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.16);padding:10px;width:min(22rem,calc(100vw - 32px));max-height:20rem;overflow:auto}
 .popbody .grid{display:flex;flex-wrap:wrap;gap:8px}
@@ -200,7 +201,7 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div id="active"></div>
 <details id="refine" class="refine"><summary>Refine results<span id="refine-count"></span></summary><div id="bar"></div></details>
 <div class="statusline">
-<h2 id="count" aria-live="polite" role="status"></h2>
+<h2 id="count" aria-live="polite" role="status" tabindex="-1"></h2>
 <div class="sortbox" id="sortbox"><label for="sort">Sort</label>
 <select id="sort"><option value="rel">Best word match</option><option value="lo">Price, low to high</option><option value="hi">Price, high to low</option></select>
 </div>
@@ -5235,6 +5236,26 @@ function create(P) {
   var storeWords = {};
   Object.keys(stores).forEach(function (m) { storeWords[m] = words(m); });
 
+  /* ---- two-word versus one-word spellings of a real catalog word ----
+   * "sweat pants" is the catalog's "sweatpants" when that word exists, and "sweatpants"
+   * is "sweat pants" when the catalog has no such word but has both parts. Only real
+   * catalog words are ever joined or split; nothing else changes. */
+  function known(w) { return !!byStem[stem(w)]; }
+  function tokenize(q) {
+    var ts = tokens(q), out = [], i, j;
+    for (i = 0; i < ts.length; i++) {
+      if (i + 1 < ts.length && known(ts[i] + ts[i + 1])) { out.push(ts[i] + ts[i + 1]); i++; continue; }
+      var w = ts[i], last = i === ts.length - 1, done = false;
+      if (w.length >= 6 && !known(w) && !(last && vocabList.some(function (v) { return v.indexOf(w) === 0; }))) {
+        for (j = 3; j <= w.length - 3; j++) {
+          if (known(w.slice(0, j)) && known(w.slice(j))) { out.push(w.slice(0, j), w.slice(j)); done = true; break; }
+        }
+      }
+      if (!done) out.push(w);
+    }
+    return out;
+  }
+
   /* ---- one typed word -> the catalog words it means ---- */
   var resCache = {};
   function resolve(t, last) {
@@ -5263,7 +5284,7 @@ function create(P) {
     return (resCache[key] = { t: t, mode: mode, set: set });
   }
   function resolveAll(q) {
-    var ts = tokens(q);
+    var ts = tokenize(q);
     return ts.map(function (t, i) { return resolve(t, i === ts.length - 1); });
   }
   function wordList(res) { return Object.keys(res.set).sort(); }
@@ -5421,7 +5442,7 @@ function create(P) {
 
   /* ---- nothing listed: the closest real products, and which word each matched ---- */
   function nearest(q) {
-    var ts = tokens(q), rs = resolveAll(q), out = [];
+    var ts = tokenize(q), rs = resolveAll(q), out = [];
     if (ts.length === 1 && rs[0].mode === "none" && ts[0].length >= 5) {
       var head = ts[0].slice(0, 4), set = Object.create(null), any = false;
       vocabList.forEach(function (w) { if (w.indexOf(head) === 0) { set[w] = true; any = true; } });
@@ -5452,7 +5473,7 @@ function create(P) {
 
   /* ---- suggestions while typing ---- */
   function suggest(st) {
-    var ts = tokens(st.q), items = [];
+    var ts = tokenize(st.q), items = [];
     if (!ts.length) return items;
     var rs = resolveAll(st.q), lastRes = rs[rs.length - 1];
     kindNames.filter(function (k) {
@@ -5529,7 +5550,7 @@ function create(P) {
     resolve: resolveAll, wordList: wordList, match: match, judge: judge, list: list, count: count,
     chips: chips, silentOn: silentOn, notes: notes, nearest: nearest, suggest: suggest, marks: marks,
     shown: shown, hasIntent: hasIntent, blank: blank, encode: encode, decode: decode,
-    tokens: tokens,
+    tokens: tokenize,
   };
 }
 
@@ -5655,7 +5676,7 @@ function renderStart() {
   $("range").textContent = "Store pages read " + dates[0] + (dates[0] !== dates[dates.length - 1] ? " to " + dates[dates.length - 1] : "")
     + " · " + P.length + " products, " + Object.keys(E.stores).length + " stores.";
 }
-function pickKind(k) { S.kind = k; S.q = ""; q.value = ""; limit = PAGE; commit(false); q.focus(); }
+function pickKind(k) { S.kind = k; S.q = ""; q.value = ""; limit = PAGE; commit(false); focusBox(); }
 $("morebtn").addEventListener("click", function () {
   var m = $("morekinds"), open = m.style.display === "none";
   show(m, open);
@@ -5759,12 +5780,32 @@ document.addEventListener("keydown", function (e) {
 
 // ---- chips
 function findAttr(root, attr, value) {
-  var hits = root.querySelectorAll("[" + attr + "]").filter(function (n) { return n.getAttribute(attr) === value; });
-  return hits[0] || null;
+  var all = root.querySelectorAll("[" + attr + "]");  // a NodeList: no filter()
+  for (var i = 0; i < all.length; i++) if (all[i].getAttribute(attr) === value) return all[i];
+  return null;
+}
+function shownEl(n) {
+  for (; n; n = n.parentNode) if (n.style && n.style.display === "none") return false;
+  return true;
+}
+// Where focus goes when the control that had it is redrawn away: the count line above the list.
+// It takes focus without raising a phone keyboard and is read out as the new result count.
+function focusResults() {
+  var c = $("count");
+  if (c.focus) c.focus({ preventScroll: true });
+}
+// After a change the shopper made with a pointer: type at once on a desktop; on a phone, do not raise the keyboard over the list.
+function focusBox() {
+  if (window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches) q.focus(); else focusResults();
 }
 function focusChip(key) {
   var n = findAttr(document, "data-chip", key);
-  if (n && n.focus) n.focus();
+  if (!n || !shownEl(n)) {
+    // a picked size closes its list and a picked kind moves to "Showing": follow the choice
+    if (/^size:/.test(key)) n = findAttr(document, "data-chip", "size");
+    else if (/^kind:/.test(key)) n = findAttr(document, "data-remove", "kind");
+  }
+  if (n && shownEl(n) && n.focus) n.focus(); else focusResults();
 }
 function chip(label, n, pressed, key, onClick) {
   var b = h("button", { type: "button", class: "chip", "aria-pressed": pressed ? "true" : "false", "data-chip": key,
@@ -5799,12 +5840,12 @@ function renderActive() {
   var ul = h("ul", { class: "chiprow", "aria-labelledby": "lbl-active" }, [h("li", {}, [h("span", { class: "rowlabel", id: "lbl-active", text: "Showing" })])]);
   a.forEach(function (c) {
     var b = h("button", { type: "button", class: "chip active", "data-remove": c[0], "aria-label": "Remove: " + c[1] }, [text(c[1] + " "), h("span", { "aria-hidden": "true", text: "×" })]);
-    b.addEventListener("click", function () { c[2](); limit = PAGE; commit(false); q.focus(); });
+    b.addEventListener("click", function () { c[2](); limit = PAGE; commit(false); focusBox(); });
     ul.appendChild(h("li", {}, [b]));
   });
   if (a.length > 1) {
     var all = h("button", { type: "button", class: "linkbtn", "data-clearall": "1", text: "Clear all" });
-    all.addEventListener("click", function () { S = E.blank(); q.value = ""; limit = PAGE; commit(false); q.focus(); });
+    all.addEventListener("click", function () { S = E.blank(); q.value = ""; limit = PAGE; commit(false); focusBox(); });
     ul.appendChild(h("li", {}, [all]));
   }
   box.appendChild(ul);
@@ -5852,7 +5893,7 @@ function renderEmpty(cur) {
   var chipsOn = !!(S.size || S.ship || S.sub || S.coupon || S.kind || S.store);
   function btn(label, sub, fn, attrs) {
     var b = h("button", Object.assign({ type: "button", class: "chip" }, attrs || {}), [text(label)].concat(sub ? [text(" "), h("span", { class: "n", text: sub })] : []));
-    b.addEventListener("click", function () { fn(); limit = PAGE; commit(false); });
+    b.addEventListener("click", function () { fn(); limit = PAGE; commit(false); focusResults(); });
     return h("li", {}, [b]);
   }
   if (S.q && cur.m.rows.length && chipsOn) {
@@ -5984,7 +6025,7 @@ function drawCard(r, res) {
   } else show(line, false);
   markName(c, p, res);
 }
-$("show-more").addEventListener("click", function () { limit += PAGE; render(); });
+$("show-more").addEventListener("click", function () { limit += PAGE; render(); if (!shownEl($("show-more"))) focusResults(); });
 
 // ---- boot
 renderStart();
