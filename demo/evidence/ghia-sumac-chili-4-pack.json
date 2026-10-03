@@ -1,0 +1,156 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:39Z",
+  "ship": [
+   "Free Shipping On Orders $60+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription",
+   "Subscribe & Save 15%",
+   "ginger and original still are my favorites but i love to get a pack of these in my subscription bc variety is the spice of life and these are also spicy :)",
+   "Manage Subscription"
+  ],
+  "url": "https://drinkghia.com/products/sumac-chili-4-pack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkghia.com/products/sumac-chili-4-pack",
+ "http_status": 200,
+ "id": "ghia-sumac-chili-4-pack",
+ "image_file": "ghia-sumac-chili-4-pack.jpg",
+ "image_sha256": "63e2c21385267b92977a0a9b009727accc0994044de1862f9b24666f685aacd0",
+ "image_source": "http://drinkghia.com/cdn/shop/files/Ghia_Sumac_Single.jpg?v=1761196887&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/sumac-chili-4-pack#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "5",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ghia"
+   },
+   "description": "",
+   "image": "https://drinkghia.com/cdn/shop/files/Ghia_Sumac_Single_450x450.jpg?v=1761196887",
+   "mpn": "8507215970538",
+   "name": "Sumac & Chili",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "20.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ghia"
+    }
+   },
+   "url": "/products/sumac-chili-4-pack"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.6,
+    "reviewCount": 5,
+    "worstRating": 1
+   },
+   "name": "Sumac & Chili",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Lori W."
+     },
+     "datePublished": "2026-02-20T06:18:29.072Z",
+     "name": "Ahh, so good!",
+     "reviewBody": "This was my first time ordering the spritz drinks, so I got a 4-pack bundle. This was one of my favorites. I like the heat on the back end. ",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Henry G."
+     },
+     "datePublished": "2026-02-03T21:27:53.998Z",
+     "name": "spicy and delicious",
+     "reviewBody": "ginger and original still are my favorites but i love to get a pack of these in my subscription bc variety is the spice of life and these are also spicy :)",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 3,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Samuel A."
+     },
+     "datePublished": "2025-10-06T18:28:33.061Z",
+     "name": "Best flavor, hands down",
+     "reviewBody": "This is by far the best of the canned Ghias. Love the spicy flavor and lower sugar content. Wish I could get this one at Whole Foods!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Deidre"
+     },
+     "datePublished": "2026-01-03T05:18:01.000Z",
+     "name": "5 Stars",
+     "reviewBody": "My favorite flavor",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Stephen"
+     },
+     "datePublished": "2025-07-05T18:53:41.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Omgggg, this flavour is CRAZY DELICIOUS. Wow.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:28:16Z",
+ "og_image": "http://drinkghia.com/cdn/shop/files/Ghia_Sumac_Single.jpg?v=1761196887",
+ "page_sha256": "0a8e2238edc25d9daf0321ea32fa6b056a2bcb0484f5da8fe729e69770f607b4",
+ "rendered_checked": true,
+ "title": "Ghia | Sumac & Chili",
+ "url": "https://drinkghia.com/products/sumac-chili-4-pack"
+}

@@ -404,6 +404,8 @@ if __name__ == "__main__":
                   {k: len(v) for k, v in got.items()}, flush=True)
     elif len(sys.argv) == 2 and sys.argv[1] == "render-pass":
         for fn in sorted(os.listdir(EVIDENCE_DIR)):
+            if not fn.endswith(".json"):
+                continue
             ev_id = fn[:-5]
             ev = json.load(open(os.path.join(EVIDENCE_DIR, fn)))
             if ev.get("rendered_checked") or extract(ev)[0] != "ok":

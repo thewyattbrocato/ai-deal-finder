@@ -1,0 +1,123 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:17Z",
+  "ship": [
+   "Free Shipping On Orders $60+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription",
+   "Subscribe & Save 15%",
+   "Manage Subscription"
+  ],
+  "url": "https://drinkghia.com/products/ghia-ginger-4-pack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkghia.com/products/ghia-ginger-4-pack",
+ "http_status": 200,
+ "id": "ghia-ghia-ginger-4-pack",
+ "image_file": "ghia-ghia-ginger-4-pack.jpg",
+ "image_sha256": "f73bccf1cd8008642dc39e86e8c633df575ab2c16fdeb77aa29212a90cac01b8",
+ "image_source": "http://drinkghia.com/cdn/shop/files/Ghia_Ginger_Single.jpg?v=1761196929&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/ghia-ginger-4-pack#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "3",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ghia"
+   },
+   "description": "",
+   "image": "https://drinkghia.com/cdn/shop/files/Ghia_Ginger_Single_450x450.jpg?v=1761196929",
+   "mpn": "8507215872234",
+   "name": "Ghia-Ginger",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "20.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ghia"
+    }
+   },
+   "url": "/products/ghia-ginger-4-pack"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "worstRating": 1
+   },
+   "name": "Ghia-Ginger",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "joanne h."
+     },
+     "datePublished": "2026-02-23T00:29:09.245Z",
+     "name": "Tasty and helps digestion",
+     "reviewBody": "So refreshing and  the ginger helps with digestion.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Mary P."
+     },
+     "datePublished": "2025-12-06T20:34:35.500Z",
+     "name": "Love this ",
+     "reviewBody": "Ghia's spritzes are delicious. All of the flavors are delicious and they give you that fix when you're in the mood for a cocktail but don't want the booze. Highly recommend! ",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Stephen"
+     },
+     "datePublished": "2025-07-02T22:32:30.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Subtle but good",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:28:18Z",
+ "og_image": "http://drinkghia.com/cdn/shop/files/Ghia_Ginger_Single.jpg?v=1761196929",
+ "page_sha256": "ee74b837e9d58681b628cebc38f907c622e918d613f8eade8495566d6094fe4a",
+ "rendered_checked": true,
+ "title": "Ghia-Ginger",
+ "url": "https://drinkghia.com/products/ghia-ginger-4-pack"
+}

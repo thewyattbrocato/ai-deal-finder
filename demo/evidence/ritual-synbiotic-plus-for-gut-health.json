@@ -1,0 +1,145 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:41Z",
+  "ship": [
+   "30-day money-back guarantee. Free shipping.",
+   "Buy once \u2014 $61.36 + $10.99 Shipping",
+   "What purchase and delivery options does Ritual offer?",
+   "International Shipping",
+   "Shipping to"
+  ],
+  "size": [
+   "Serving Size:"
+  ],
+  "sub": [
+   "Buy More, Save More: New subscribers save 20% on 1 item\u2014up to 30% when you bundle 3+ different items",
+   "When You Subscribe, You Join the Club.",
+   "Subscribe",
+   "By clicking \u2018Subscribe\u2019, I acknowledge I have read and agree to the Terms and Privacy Policy, including to receive marketing emails from Ritual."
+  ],
+  "url": "https://ritual.com/products/synbiotic-plus-for-gut-health"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ritual.com/products/synbiotic-plus-for-gut-health",
+ "http_status": 200,
+ "id": "ritual-synbiotic-plus-for-gut-health",
+ "image_file": "ritual-synbiotic-plus-for-gut-health.jpg",
+ "image_sha256": "38a778daa03eae4a0121a6dc12790ed68b00816ceb294154fd2129d5ea3a25a7",
+ "image_source": "http://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/synbiotic-plus-for-gut-health#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "category": "Digestive Supplements",
+   "description": "3-in-1 clinically-studied prebiotics, probiotics and postbiotic to support a balanced gut microbiome.*",
+   "hasVariant": [
+    {
+     "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157041246#variant",
+     "@type": "Product",
+     "gtin": "850031975248",
+     "image": "https://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121&width=1920",
+     "name": "Synbiotic+ - 30 servings",
+     "offers": {
+      "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157041246#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "61.36",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/synbiotic-plus-for-gut-health?variant=43187157041246"
+     },
+     "sku": "SYNBMT0MUS"
+    },
+    {
+     "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157074014#variant",
+     "@type": "Product",
+     "image": "https://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121&width=1920",
+     "name": "Synbiotic+ - 90 servings",
+     "offers": {
+      "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157074014#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "61.36",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/synbiotic-plus-for-gut-health?variant=43187157074014"
+     },
+     "sku": "SYNBMT0MUS_90"
+    }
+   ],
+   "name": "Synbiotic+",
+   "productGroupID": "7482572669022",
+   "url": "https://ritual.com/products/synbiotic-plus-for-gut-health"
+  },
+  {
+   "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157041246#variant",
+   "@type": "Product",
+   "gtin": "850031975248",
+   "image": "https://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121&width=1920",
+   "name": "Synbiotic+ - 30 servings",
+   "offers": {
+    "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157041246#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/synbiotic-plus-for-gut-health?variant=43187157041246"
+   },
+   "sku": "SYNBMT0MUS"
+  },
+  {
+   "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157074014#variant",
+   "@type": "Product",
+   "image": "https://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121&width=1920",
+   "name": "Synbiotic+ - 90 servings",
+   "offers": {
+    "@id": "/products/synbiotic-plus-for-gut-health?variant=43187157074014#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/synbiotic-plus-for-gut-health?variant=43187157074014"
+   },
+   "sku": "SYNBMT0MUS_90"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/synbiotic-plus-for-gut-health#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "288",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "description": "3-in-1 clinically-studied prebiotics, probiotics and postbiotic to support a balanced gut microbiome.*",
+   "image": "https://ritual.com/cdn/shop/files/PDP-SYN-Bottle_450x450.jpg?v=1770263121",
+   "mpn": "7482572669022",
+   "name": "Synbiotic+",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ritual"
+    }
+   },
+   "url": "/products/synbiotic-plus-for-gut-health"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:27:00Z",
+ "og_image": "http://ritual.com/cdn/shop/files/PDP-SYN-Bottle.jpg?v=1770263121",
+ "page_sha256": "82740bfb4043cefcad21aac3f86d9cd7e48654c7f3570fe2c931c36a95f5f204",
+ "rendered_checked": true,
+ "title": "Gut Health Supplement*: Synbiotic+\u00ae | Ritual",
+ "url": "https://ritual.com/products/synbiotic-plus-for-gut-health"
+}

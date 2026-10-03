@@ -1,0 +1,70 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:09Z",
+  "ship": [
+   "Free standard shipping on orders over $60: Shop Now",
+   "Shipping & Returns",
+   "Free Shipping",
+   "You are $60.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE:",
+   "Size:",
+   "SIZE"
+  ],
+  "sub": [
+   "Subscribe to Our Newsletter"
+  ],
+  "url": "https://www.rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets",
+ "http_status": 200,
+ "id": "rishi-organic-vanilla-mint-black-tea-blend-teabag-sachets",
+ "image_file": "rishi-organic-vanilla-mint-black-tea-blend-teabag-sachets.jpg",
+ "image_sha256": "cf4e44c9664b3deb7b522171e17c2d93ee0dcb597374d5226cac02233fc490ab",
+ "image_source": "http://www.rishi-tea.com/cdn/shop/files/Rishi_SeasonalEditionSachet_VanillaMint_toned.jpg?v=1758240571&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "16",
+    "ratingValue": "4.4"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Rishi Tea &amp; Botanicals"
+   },
+   "description": "A winter wonderland in a cup. Two decadent black teas combine with bold peppermint, warm vanilla, sweet licorice, bittersweet cocoa and roasted dandelion for a soothing and invigorating treat.",
+   "gtin12": 741391980846,
+   "image": "https://www.rishi-tea.com/cdn/shop/files/Rishi_SeasonalEditionSachet_VanillaMint_toned_grande.jpg?v=1758240571",
+   "name": "Vanilla Mint",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "A winter wonderland in a cup. Two decadent black teas combine with bold peppermint, warm vanilla, sweet licorice, bittersweet cocoa and roasted dandelion for a soothing and invigorating treat.",
+    "gtin12": 741391980846,
+    "image": "https://www.rishi-tea.com/cdn/shop/files/Rishi_SeasonalEditionSachet_VanillaMint_toned_grande.jpg?v=1758240571",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Vanilla Mint - 10 Count",
+    "price": "10.00",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "OVNMINRTTB-RB",
+    "url": "https://www.rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets?variant=50450383372538"
+   },
+   "productID": "8864806142202",
+   "sku": "OVNMINRTTB-RB",
+   "url": "https://www.rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:27:22Z",
+ "og_image": "http://www.rishi-tea.com/cdn/shop/files/Rishi_SeasonalEditionSachet_VanillaMint_toned.jpg?v=1758240571",
+ "page_sha256": "8e1416911c2beb418908552a73f7723c6b2f92972efc8bdf9e154f56e958d497",
+ "rendered_checked": true,
+ "title": "Vanilla Mint | Organic Tea Sachets | Rishi Tea",
+ "url": "https://rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets"
+}

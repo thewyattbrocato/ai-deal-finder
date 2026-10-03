@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:04Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscription"
+  ],
+  "url": "https://drinkspindrift.com/products/ginger-lime-mule"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkspindrift.com/products/ginger-lime-mule",
+ "http_status": 200,
+ "id": "spindrift-ginger-lime-mule",
+ "image_file": "spindrift-ginger-lime-mule.png",
+ "image_sha256": "e1460b9622c2735fb37cdce2f18164386ee6cc8f93155dc9cc94cbb5256facd6",
+ "image_source": "http://drinkspindrift.com/cdn/shop/files/spindrift-can-hero-ginger-lime-mule-2026.png?v=1767710824&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://drinkspindrift.com/products/ginger-lime-mule#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Spindrift",
+    "url": "https://drinkspindrift.com"
+   },
+   "description": "<p>Inspired by a classic mule cocktail of spicy ginger beer &amp; fresh lime - this time sans vodka - Ginger Lime Mule joins our sparkling mocktail line with bright, zesty lime and zingy, aromatic ginger from Peru.</p>",
+   "image": [
+    "https://drinkspindrift.com/cdn/shop/files/spindrift-can-hero-ginger-lime-mule-2026_1024x1024.png?v=1767710824"
+   ],
+   "name": "Ginger Lime Mule",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 26.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Spindrift"
+    },
+    "url": "https://drinkspindrift.com/products/ginger-lime-mule?variant=42785803763779"
+   },
+   "sku": "0-4108-0030"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:47Z",
+ "og_image": "http://drinkspindrift.com/cdn/shop/files/spindrift-can-hero-ginger-lime-mule-2026.png?v=1767710824",
+ "page_sha256": "4f3c16021f4b10df2ab0bf8cc6bcdc7e5e411111f60934030646ebd8c665f1da",
+ "rendered_checked": true,
+ "title": "Ginger Lime Mule Sparkling Water | Spindrift",
+ "url": "https://drinkspindrift.com/products/ginger-lime-mule"
+}

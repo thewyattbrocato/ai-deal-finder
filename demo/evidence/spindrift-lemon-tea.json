@@ -1,0 +1,56 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:11Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscription"
+  ],
+  "url": "https://drinkspindrift.com/products/lemon-tea"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkspindrift.com/products/lemon-tea",
+ "http_status": 200,
+ "id": "spindrift-lemon-tea",
+ "image_file": "spindrift-lemon-tea.jpg",
+ "image_sha256": "1a2cf0f2ce4268ee5404ed306109ea8f49ada33c058408835087b4dc76e4ffd2",
+ "image_source": "http://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_LBT.jpg?v=1767903756&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://drinkspindrift.com/products/lemon-tea#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Spindrift",
+    "url": "https://drinkspindrift.com"
+   },
+   "description": "<p><meta charset=\"utf-8\"><span>Taste the difference of real squeezed fruit in iced tea. Spindrift\u00ae Lemon Tea is real brewed black tea with real squeezed fruit. It's slightly sweet, non-carbonated, and endlessly drinkable. We believe the best things come from nature. That's why we brought together two of our favorites: brewed iced tea and real squeezed fruit, picked at the peak of its flavor. Balanced and slightly sweet for a refreshing beverage you'll want to drink any time.</span></p>",
+   "image": [
+    "https://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_LBT_1024x1024.jpg?v=1767903756"
+   ],
+   "mpn": "00850079079021",
+   "name": "Lemon Tea",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Spindrift"
+    },
+    "url": "https://drinkspindrift.com/products/lemon-tea?variant=42872279400515"
+   },
+   "sku": "0-8406-1001"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:46Z",
+ "og_image": "http://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_LBT.jpg?v=1767903756",
+ "page_sha256": "60991d0eafc210b784386f0285dacd9ba52c89a2229d9dc95843d1fd111600b7",
+ "rendered_checked": true,
+ "title": "Lemon Tea | Spindrift\u00ae Tea",
+ "url": "https://drinkspindrift.com/products/lemon-tea"
+}

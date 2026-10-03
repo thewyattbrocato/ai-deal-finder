@@ -1,0 +1,77 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:38:07Z",
+  "ship": [
+   "Free Shipping on Orders Over $59",
+   "Fast Shipping",
+   "shipping over $49.",
+   "You are $59.00 away from FREE SHIPPING"
+  ],
+  "size": [],
+  "sub": [
+   "Save 15% when you subscribe",
+   "Learn About Subscriptions"
+  ],
+  "url": "https://www.olly.com/products/sleep-mochi-bites"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.olly.com/products/sleep-mochi-bites",
+ "http_status": 200,
+ "id": "olly-sleep-mochi-bites",
+ "image_file": "olly-sleep-mochi-bites.png",
+ "image_sha256": "1a9cad997319dcc03368d95efbfef0b0f5308367313e0c400cca26da7a8d2eab",
+ "image_source": "https://www.olly.com/cdn/shop/files/b81eece910b3b1be209101088984bdc8797411b4_grande.png?v=1784736203&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.olly.com/products/sleep-mochi-bites",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.7,
+    "reviewCount": 13,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Organization",
+    "name": "OLLY"
+   },
+   "description": "A new way to hit the hay. These chewy Japanese-inspired bites are just the thing to help lull you to sleep so you can wake up feeling refreshed.*Meet Mochi, the first of their kind premium supplement for better ZzZzs.*\u2020 These dreamy bites have only 1 g of sugar per 2 bites and are gluten free, drug free, certified vegan and formulated with naturally-sourced sweeteners and no synthetic colors\u2014created without compromise.60 mochi bitesStarfruit Slumber flavored with other natural flavorsA blend of Melatonin, Magnesium &amp; Chamomile Extract",
+   "gtin12": "840160203497",
+   "image": "https://www.olly.com/cdn/shop/files/b81eece910b3b1be209101088984bdc8797411b4_grande.png?v=1784736203",
+   "name": "Sleep Mochi Bites",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "description": "A new way to hit the hay. These chewy Japanese-inspired bites are just the thing to help lull you to sleep so you can wake up feeling refreshed.*Meet Mochi, the first of their kind premium supplement for better ZzZzs.*\u2020 These dreamy bites have only 1 g of sugar per 2 bites and are gluten free, drug free, certified vegan and formulated with naturally-sourced sweeteners and no synthetic colors\u2014created without compromise.60 mochi bitesStarfruit Slumber flavored with other natural flavorsA blend of Melatonin, Magnesium &amp; Chamomile Extract",
+    "gtin12": "840160203497",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 30,
+     "merchantReturnLink": "https://help.olly.com/hc/en-us/articles/360035072232-What-is-the-return-policy",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+    },
+    "image": "https://www.olly.com/cdn/shop/files/b81eece910b3b1be209101088984bdc8797411b4_2000x.png?v=1784736203",
+    "itemCondition": "https://schema.org/NewCondition",
+    "name": "Sleep Mochi Bites",
+    "price": "17.99",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "700616",
+    "url": "https://www.olly.com/products/sleep-mochi-bites?variant=41611225858123"
+   },
+   "productID": "7403502239819",
+   "sku": "700616",
+   "url": "https://www.olly.com/products/sleep-mochi-bites"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:36Z",
+ "og_image": "https://www.olly.com/cdn/shop/files/b81eece910b3b1be209101088984bdc8797411b4_grande.png?v=1784736203",
+ "page_sha256": "4d1609617be3a802c805d37278d22390d027e202ec8e6b8b409f11ed720a4dbe",
+ "rendered_checked": true,
+ "title": "Sleep Mochi Bites \u2013 OLLY PBC",
+ "url": "https://olly.com/products/sleep-mochi-bites"
+}

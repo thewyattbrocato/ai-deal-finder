@@ -1,0 +1,54 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:57Z",
+  "ship": [],
+  "size": [],
+  "sub": [],
+  "url": "https://drinkspindrift.com/products/cranberry-punch"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkspindrift.com/products/cranberry-punch",
+ "http_status": 200,
+ "id": "spindrift-cranberry-punch",
+ "image_file": "spindrift-cranberry-punch.jpg",
+ "image_sha256": "06d2798e7f0c365800f1b3fb98b97e61fe488726a31b20dc6267d049547c4738",
+ "image_source": "http://drinkspindrift.com/cdn/shop/files/spindrift-sparkling-product-cranberry-punch.jpg?v=1755716593&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://drinkspindrift.com/products/cranberry-punch#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Spindrift",
+    "url": "https://drinkspindrift.com"
+   },
+   "description": "<p><meta charset=\"utf-8\"><span><meta charset=\"utf-8\">Serve up Cranberry Punch this season - no punch bowl necessary. The recipe is inspired by a classic festive punch with a trio of ripe, juicy winter citrus from California and tart, flavorful cranberries grown in the Pacific Northwest. <meta charset=\"utf-8\">Your version of the holiday spirit with every sip.\u00a0</span></p>",
+   "image": [
+    "https://drinkspindrift.com/cdn/shop/files/spindrift-sparkling-product-cranberry-punch_1024x1024.jpg?v=1755716593"
+   ],
+   "mpn": "850017142664",
+   "name": "Cranberry Punch",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 26.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Spindrift"
+    },
+    "url": "https://drinkspindrift.com/products/cranberry-punch?variant=42472773681219"
+   },
+   "sku": "0-4108-0027"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:50Z",
+ "og_image": "http://drinkspindrift.com/cdn/shop/files/spindrift-sparkling-product-cranberry-punch.jpg?v=1755716593",
+ "page_sha256": "f0ade0e2a8d7c8232614ec69eededef5983b34ff4c3a0418dcafabb70c5c6759",
+ "rendered_checked": true,
+ "title": "Cranberry Punch \u2013 Spindrift Market",
+ "url": "https://drinkspindrift.com/products/cranberry-punch"
+}

@@ -1,0 +1,62 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:03Z",
+  "ship": [
+   "Free shipping for orders over $30"
+  ],
+  "size": [],
+  "sub": [
+   "Unlock 5% off sitewide by signing up for any subscription",
+   "SUBSCRIBE",
+   "About Subscriptions"
+  ],
+  "url": "https://www.harrys.com/en/products/harrys-original-on-the-go-bundle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.harrys.com/en/products/harrys-original-on-the-go-bundle",
+ "http_status": 200,
+ "id": "harrys-harrys-original-on-the-go-bundle",
+ "image_file": "harrys-harrys-original-on-the-go-bundle.jpg",
+ "image_sha256": "4f31f10ef98c3a39963a1600315c98361d69e0f9f2833c2c360d62502e9415e5",
+ "image_source": "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/Harry_s-Original-On-the-Go-Bundle_01_d3438f98-7d5f-421b-8bf6-e38bd6732eef.jpg?v=1783535614&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2,
+    "reviewCount": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Harry's US"
+   },
+   "category": "Shave Sets",
+   "description": "Harry\u2019s Original razor in Ember features an ergonomic, no-slip grip designed for optimal control. Weighted core and textured grip feel good in the hand,...",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/Harry_s-Original-On-the-Go-Bundle_01_d3438f98-7d5f-421b-8bf6-e38bd6732eef.jpg?v=1783535614"
+   ],
+   "name": "Harry's Original On the Go Bundle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 19,
+     "priceCurrency": "USD",
+     "sku": "9150244801",
+     "url": "https://www.harrys.com/en/products/harrys-original-on-the-go-bundle?Title=Default+Title"
+    }
+   ],
+   "sku": "9150244801",
+   "url": "https://www.harrys.com/en/products/harrys-original-on-the-go-bundle"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T21:27:11Z",
+ "og_image": null,
+ "page_sha256": "18a9df6d69778aa81b8e0152cc4dc6530619cbf889b442d5401c706c037eec2f",
+ "rendered_checked": true,
+ "title": "Harry's Original On the Go Bundle | Harry's",
+ "url": "https://harrys.com/products/harrys-original-on-the-go-bundle"
+}

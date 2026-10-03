@@ -1,0 +1,65 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:47Z",
+  "ship": [
+   "Free shipping for orders over $30"
+  ],
+  "size": [],
+  "sub": [
+   "Unlock 5% off sitewide by signing up for any subscription",
+   "Subscribe & Unlock 5% off every order",
+   "Score 15% off when you subscribe to 3 or more items.",
+   "SUBSCRIBE",
+   "About Subscriptions"
+  ],
+  "url": "https://www.harrys.com/en/products/beard-and-face-wash"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.harrys.com/en/products/beard-and-face-wash",
+ "http_status": 200,
+ "id": "harrys-beard-and-face-wash",
+ "image_file": "harrys-beard-and-face-wash.jpg",
+ "image_sha256": "7a04e8431e793346f347b516640dd0b0f34db80476bad733a087310880f83f6f",
+ "image_source": "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/US_website_beard_wash_01.jpg?v=1753285318&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 88
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Harry's US"
+   },
+   "category": "Facial hair care",
+   "description": "Gently cleanses facial hair and exfoliates skin Non-drying and non-stripping formula, leaving hair and skin feeling clean Lightly scented with subtle, n...",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/US_website_beard_wash_01.jpg?v=1753285318"
+   ],
+   "name": "Beard & Face Wash 5.1oz",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "810075080797",
+     "price": 14,
+     "priceCurrency": "USD",
+     "sku": "9050053001",
+     "url": "https://www.harrys.com/en/products/beard-and-face-wash?Title=Default+Title"
+    }
+   ],
+   "sku": "9050053001",
+   "url": "https://www.harrys.com/en/products/beard-and-face-wash"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T21:27:04Z",
+ "og_image": null,
+ "page_sha256": "e539adfe81d6c153b6582061078c7cb64967b79f8d11f6e6b0f93e5d7d989c7a",
+ "rendered_checked": true,
+ "title": "Beard & Face Wash 5.1oz | Harry's",
+ "url": "https://harrys.com/products/beard-and-face-wash"
+}

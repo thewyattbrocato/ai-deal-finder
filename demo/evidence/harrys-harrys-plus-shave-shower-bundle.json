@@ -1,0 +1,57 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:11Z",
+  "ship": [
+   "Free shipping for orders over $30"
+  ],
+  "size": [],
+  "sub": [
+   "Unlock 5% off sitewide by signing up for any subscription",
+   "SUBSCRIBE",
+   "About Subscriptions"
+  ],
+  "url": "https://www.harrys.com/en/products/harrys-plus-shave-shower-bundle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.harrys.com/en/products/harrys-plus-shave-shower-bundle",
+ "http_status": 200,
+ "id": "harrys-harrys-plus-shave-shower-bundle",
+ "image_file": "harrys-harrys-plus-shave-shower-bundle.jpg",
+ "image_sha256": "c6ac2163ddab00a51447db4e083e4c2e0186e4f6ec498af6e1b2f8ef7f92957a",
+ "image_source": "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/Shave-and-Shower-Bundle_01.jpg?v=1781104857&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Harry's US"
+   },
+   "category": "Shave Sets",
+   "description": "Harry\u2019s Plus razor in Onyx features a premium, weighty metal handle with a matte finish and a sophisticated soft rubber grip. 4 German-engineered 5-blad...",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/Shave-and-Shower-Bundle_01.jpg?v=1781104857"
+   ],
+   "name": "Harry's Plus Shave & Shower Bundle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 30,
+     "priceCurrency": "USD",
+     "sku": "9150246301",
+     "url": "https://www.harrys.com/en/products/harrys-plus-shave-shower-bundle?Title=Default+Title"
+    }
+   ],
+   "sku": "9150246301",
+   "url": "https://www.harrys.com/en/products/harrys-plus-shave-shower-bundle"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T21:28:31Z",
+ "og_image": null,
+ "page_sha256": "6f65bb52b13271a092ccbcecd0952b468962ab2db0ea3b2be1b8a54332e40763",
+ "rendered_checked": true,
+ "title": "Harry's Plus Shave & Shower Bundle | Harry's",
+ "url": "https://harrys.com/products/harrys-plus-shave-shower-bundle"
+}

@@ -1,0 +1,1400 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:32Z",
+  "ship": [
+   "Free Shipping on Orders Over $50",
+   "Fast delivery"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil",
+ "http_status": 200,
+ "id": "leuchtturm-drehgriffel-nr-2-pencil",
+ "image_file": "leuchtturm-drehgriffel-nr-2-pencil.jpg",
+ "image_sha256": "c65f5a4bb7f0f9f38fbaf790611da19175907af35b6560cfe03cd3da59db23e9",
+ "image_source": "http://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/drehgriffel-nr-2-pencil#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Mechanical Pencils",
+   "description": "The Drehgriffel Nr. 2 \u2014 a mechanical pencil with a twist mechanism and an internal reservoir for spare leads.\u2022 0.7 mm graphite lead, HB\u2022 Refillable\u2022 Length: 5.1 in.\nShop Refills &gt;",
+   "hasVariant": [
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#variant",
+     "@type": "Product",
+     "gtin": "4004117616204",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Black",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347363573"
+     },
+     "sku": "366187"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#variant",
+     "@type": "Product",
+     "gtin": "4004117633874",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1pXdPlm3dSFOHDjbDBq2MrY2dwwwY4vNj_b9b6995d-a89c-4854-8735-3ff10c19f1a6.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lilac",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347756789"
+     },
+     "sku": "368267"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#variant",
+     "@type": "Product",
+     "gtin": "4004117661594",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/18TTJbPZFCwwsOKH_2uIzn23PpevJco7o_384ab5f4-c7a3-4203-afe8-572050b5636b.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Dusty Rose",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347953397"
+     },
+     "sku": "372221"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1nl8_I3VZUQwyONOu1rVtTCFewHuW-Mp2.jpg?v=1779222673&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Port Red",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48203654430965"
+     },
+     "sku": "366189"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#variant",
+     "@type": "Product",
+     "gtin": "4004117644191",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1dxNNa7aRGTDFWTqfbbn5hx_F00GC2MM0_06dfabb1-e247-493b-b561-d8bf8203aec7.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lobster",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347855093"
+     },
+     "sku": "369816"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#variant",
+     "@type": "Product",
+     "gtin": "4004117644184",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1NnYdUvG8msGk1Iid2rGFDtnvR9fp1vHx_ce223ac8-1684-4057-b99e-74459b173795.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Apricot",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347822325"
+     },
+     "sku": "369815"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#variant",
+     "@type": "Product",
+     "gtin": "4004117674594",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1mEb-tK0uRM8BXxBeCoohIpldsFkIW3-Q_e4590561-d3d3-4b6d-88e4-5c3a45b031d7.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Cherry",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348084469"
+     },
+     "sku": "374013"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#variant",
+     "@type": "Product",
+     "gtin": "4004117674600",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1FJrOMWRRsybBAIA8APf8GhwDAgZ_EphN_032e7fae-3ce3-40b1-af22-8e7558f03c0b.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Pumpkin",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348117237"
+     },
+     "sku": "374014"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#variant",
+     "@type": "Product",
+     "gtin": "4004117616242",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1ahmfdvmeeJ4zmH0J-5JHQ1CwvBg2bWJ2_e9a65ee3-c590-4b56-b230-59dfcd2b885a.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Rising Sun",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347461877"
+     },
+     "sku": "366191"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#variant",
+     "@type": "Product",
+     "gtin": "4004117674617",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1s92XoZdRoWoQBNfAWHk11Xk237Xc6SQp_169430d9-7831-43f8-a950-f121634a45e9.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sunflower",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348150005"
+     },
+     "sku": "374015"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#variant",
+     "@type": "Product",
+     "gtin": "4004117633867",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1zrwdKGnjHMxCV7KNus4AuptQqdrb7Qua.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lemon",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347724021"
+     },
+     "sku": "368266"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#variant",
+     "@type": "Product",
+     "gtin": "4004117661617",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1sXwbs6il5t8N24hMKMP0kzIs7AYjwsUY_dc045f88-29ff-4c81-be7f-c8d5b79e8b48.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spring Leaf",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348018933"
+     },
+     "sku": "372223"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#variant",
+     "@type": "Product",
+     "gtin": "4004117616259",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1DArDH2wQO-R--pTLBvyfnZiyqjbjfmF9_522b3e6c-6153-41b0-a387-214d7ffd9901.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sage",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347494645"
+     },
+     "sku": "366192"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#variant",
+     "@type": "Product",
+     "gtin": "4004117633881",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/14uOCSx2k0s4A3qy_i__8GXqFstS5poY3_14e45dd9-6beb-4f54-8176-23eab9e3d4c0.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Olive",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347789557"
+     },
+     "sku": "368268"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#variant",
+     "@type": "Product",
+     "gtin": "4004117626234",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1e2xq4NdUehOkW4FSfZ-80Z9uw-kTrzC7_6ac5fb0b-68d5-49cf-bc55-096483d5f975.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Mint Green",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347691253"
+     },
+     "sku": "367285"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#variant",
+     "@type": "Product",
+     "gtin": "4004117661600",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1JWlIcA5r4KJvahfIllmjTgBhBWlpwsd.jpg?v=1779222673&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Deep Sea",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347986165"
+     },
+     "sku": "372222"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#variant",
+     "@type": "Product",
+     "gtin": "4004117644207",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1d0r58Q4wAO1C3NoaIxsyXKveHSpgejoN_5ee246ce-40b2-4331-8c36-71bc96f57f93.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sky",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347887861"
+     },
+     "sku": "369817"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#variant",
+     "@type": "Product",
+     "gtin": "4004117616280",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1WN5oZ-4wGl2AIw3zBz8ShI14nGvAI-2G_0d624619-31fb-4c8b-ba0d-80c03f29daf9.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Stone Blue",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347560181"
+     },
+     "sku": "366195"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#variant",
+     "@type": "Product",
+     "gtin": "4004117674624",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1btMjXxQE_wcPAPLb-mJJ1UpXC8mTd0OE_892b4aa6-1c7b-4f9f-a7d5-827ecab0244f.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Indigo",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348182773"
+     },
+     "sku": "374016"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#variant",
+     "@type": "Product",
+     "gtin": "4004117644214",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1U0e6zBeBXZ69uwgk6hgiq4ZFb4cqzJ32_20b3e866-d647-48e9-9098-ccd55b1ec711.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Ink",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347920629"
+     },
+     "sku": "369818"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#variant",
+     "@type": "Product",
+     "gtin": "4004117661624",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1YbB31OSU6_4dQ9tJ3oZjxk1-cvzGTA5w_21433445-5025-410a-af8d-0026949b627f.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spice Brown",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348051701"
+     },
+     "sku": "372224"
+    }
+   ],
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil",
+   "productGroupID": "9691873444085",
+   "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#variant",
+   "@type": "Product",
+   "gtin": "4004117616204",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Black",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347363573"
+   },
+   "sku": "366187"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#variant",
+   "@type": "Product",
+   "gtin": "4004117633874",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1pXdPlm3dSFOHDjbDBq2MrY2dwwwY4vNj_b9b6995d-a89c-4854-8735-3ff10c19f1a6.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lilac",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347756789"
+   },
+   "sku": "368267"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#variant",
+   "@type": "Product",
+   "gtin": "4004117661594",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/18TTJbPZFCwwsOKH_2uIzn23PpevJco7o_384ab5f4-c7a3-4203-afe8-572050b5636b.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Dusty Rose",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347953397"
+   },
+   "sku": "372221"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1nl8_I3VZUQwyONOu1rVtTCFewHuW-Mp2.jpg?v=1779222673&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Port Red",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48203654430965"
+   },
+   "sku": "366189"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#variant",
+   "@type": "Product",
+   "gtin": "4004117644191",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1dxNNa7aRGTDFWTqfbbn5hx_F00GC2MM0_06dfabb1-e247-493b-b561-d8bf8203aec7.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lobster",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347855093"
+   },
+   "sku": "369816"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#variant",
+   "@type": "Product",
+   "gtin": "4004117644184",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1NnYdUvG8msGk1Iid2rGFDtnvR9fp1vHx_ce223ac8-1684-4057-b99e-74459b173795.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Apricot",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347822325"
+   },
+   "sku": "369815"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#variant",
+   "@type": "Product",
+   "gtin": "4004117674594",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1mEb-tK0uRM8BXxBeCoohIpldsFkIW3-Q_e4590561-d3d3-4b6d-88e4-5c3a45b031d7.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Cherry",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348084469"
+   },
+   "sku": "374013"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#variant",
+   "@type": "Product",
+   "gtin": "4004117674600",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1FJrOMWRRsybBAIA8APf8GhwDAgZ_EphN_032e7fae-3ce3-40b1-af22-8e7558f03c0b.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Pumpkin",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348117237"
+   },
+   "sku": "374014"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#variant",
+   "@type": "Product",
+   "gtin": "4004117616242",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1ahmfdvmeeJ4zmH0J-5JHQ1CwvBg2bWJ2_e9a65ee3-c590-4b56-b230-59dfcd2b885a.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Rising Sun",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347461877"
+   },
+   "sku": "366191"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#variant",
+   "@type": "Product",
+   "gtin": "4004117674617",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1s92XoZdRoWoQBNfAWHk11Xk237Xc6SQp_169430d9-7831-43f8-a950-f121634a45e9.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sunflower",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348150005"
+   },
+   "sku": "374015"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#variant",
+   "@type": "Product",
+   "gtin": "4004117633867",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1zrwdKGnjHMxCV7KNus4AuptQqdrb7Qua.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lemon",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347724021"
+   },
+   "sku": "368266"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#variant",
+   "@type": "Product",
+   "gtin": "4004117661617",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1sXwbs6il5t8N24hMKMP0kzIs7AYjwsUY_dc045f88-29ff-4c81-be7f-c8d5b79e8b48.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spring Leaf",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348018933"
+   },
+   "sku": "372223"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#variant",
+   "@type": "Product",
+   "gtin": "4004117616259",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1DArDH2wQO-R--pTLBvyfnZiyqjbjfmF9_522b3e6c-6153-41b0-a387-214d7ffd9901.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sage",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347494645"
+   },
+   "sku": "366192"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#variant",
+   "@type": "Product",
+   "gtin": "4004117633881",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/14uOCSx2k0s4A3qy_i__8GXqFstS5poY3_14e45dd9-6beb-4f54-8176-23eab9e3d4c0.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Olive",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347789557"
+   },
+   "sku": "368268"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#variant",
+   "@type": "Product",
+   "gtin": "4004117626234",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1e2xq4NdUehOkW4FSfZ-80Z9uw-kTrzC7_6ac5fb0b-68d5-49cf-bc55-096483d5f975.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Mint Green",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347691253"
+   },
+   "sku": "367285"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#variant",
+   "@type": "Product",
+   "gtin": "4004117661600",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1JWlIcA5r4KJvahfIllmjTgBhBWlpwsd.jpg?v=1779222673&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Deep Sea",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347986165"
+   },
+   "sku": "372222"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#variant",
+   "@type": "Product",
+   "gtin": "4004117644207",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1d0r58Q4wAO1C3NoaIxsyXKveHSpgejoN_5ee246ce-40b2-4331-8c36-71bc96f57f93.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sky",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347887861"
+   },
+   "sku": "369817"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#variant",
+   "@type": "Product",
+   "gtin": "4004117616280",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1WN5oZ-4wGl2AIw3zBz8ShI14nGvAI-2G_0d624619-31fb-4c8b-ba0d-80c03f29daf9.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Stone Blue",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347560181"
+   },
+   "sku": "366195"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#variant",
+   "@type": "Product",
+   "gtin": "4004117674624",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1btMjXxQE_wcPAPLb-mJJ1UpXC8mTd0OE_892b4aa6-1c7b-4f9f-a7d5-827ecab0244f.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Indigo",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348182773"
+   },
+   "sku": "374016"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#variant",
+   "@type": "Product",
+   "gtin": "4004117644214",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1U0e6zBeBXZ69uwgk6hgiq4ZFb4cqzJ32_20b3e866-d647-48e9-9098-ccd55b1ec711.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Ink",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347920629"
+   },
+   "sku": "369818"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#variant",
+   "@type": "Product",
+   "gtin": "4004117661624",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1YbB31OSU6_4dQ9tJ3oZjxk1-cvzGTA5w_21433445-5025-410a-af8d-0026949b627f.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spice Brown",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348051701"
+   },
+   "sku": "372224"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/drehgriffel-nr-2-pencil#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Mechanical Pencils",
+   "description": "The Drehgriffel Nr. 2 \u2014 a mechanical pencil with a twist mechanism and an internal reservoir for spare leads.\u2022 0.7 mm graphite lead, HB\u2022 Refillable\u2022 Length: 5.1 in.\nShop Refills &gt;",
+   "hasVariant": [
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#variant",
+     "@type": "Product",
+     "gtin": "4004117616204",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Black",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347363573"
+     },
+     "sku": "366187"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#variant",
+     "@type": "Product",
+     "gtin": "4004117633874",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1pXdPlm3dSFOHDjbDBq2MrY2dwwwY4vNj_b9b6995d-a89c-4854-8735-3ff10c19f1a6.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lilac",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347756789"
+     },
+     "sku": "368267"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#variant",
+     "@type": "Product",
+     "gtin": "4004117661594",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/18TTJbPZFCwwsOKH_2uIzn23PpevJco7o_384ab5f4-c7a3-4203-afe8-572050b5636b.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Dusty Rose",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347953397"
+     },
+     "sku": "372221"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1nl8_I3VZUQwyONOu1rVtTCFewHuW-Mp2.jpg?v=1779222673&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Port Red",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48203654430965"
+     },
+     "sku": "366189"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#variant",
+     "@type": "Product",
+     "gtin": "4004117644191",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1dxNNa7aRGTDFWTqfbbn5hx_F00GC2MM0_06dfabb1-e247-493b-b561-d8bf8203aec7.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lobster",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347855093"
+     },
+     "sku": "369816"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#variant",
+     "@type": "Product",
+     "gtin": "4004117644184",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1NnYdUvG8msGk1Iid2rGFDtnvR9fp1vHx_ce223ac8-1684-4057-b99e-74459b173795.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Apricot",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347822325"
+     },
+     "sku": "369815"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#variant",
+     "@type": "Product",
+     "gtin": "4004117674594",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1mEb-tK0uRM8BXxBeCoohIpldsFkIW3-Q_e4590561-d3d3-4b6d-88e4-5c3a45b031d7.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Cherry",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348084469"
+     },
+     "sku": "374013"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#variant",
+     "@type": "Product",
+     "gtin": "4004117674600",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1FJrOMWRRsybBAIA8APf8GhwDAgZ_EphN_032e7fae-3ce3-40b1-af22-8e7558f03c0b.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Pumpkin",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348117237"
+     },
+     "sku": "374014"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#variant",
+     "@type": "Product",
+     "gtin": "4004117616242",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1ahmfdvmeeJ4zmH0J-5JHQ1CwvBg2bWJ2_e9a65ee3-c590-4b56-b230-59dfcd2b885a.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Rising Sun",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347461877"
+     },
+     "sku": "366191"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#variant",
+     "@type": "Product",
+     "gtin": "4004117674617",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1s92XoZdRoWoQBNfAWHk11Xk237Xc6SQp_169430d9-7831-43f8-a950-f121634a45e9.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sunflower",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348150005"
+     },
+     "sku": "374015"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#variant",
+     "@type": "Product",
+     "gtin": "4004117633867",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1zrwdKGnjHMxCV7KNus4AuptQqdrb7Qua.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lemon",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347724021"
+     },
+     "sku": "368266"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#variant",
+     "@type": "Product",
+     "gtin": "4004117661617",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1sXwbs6il5t8N24hMKMP0kzIs7AYjwsUY_dc045f88-29ff-4c81-be7f-c8d5b79e8b48.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spring Leaf",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348018933"
+     },
+     "sku": "372223"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#variant",
+     "@type": "Product",
+     "gtin": "4004117616259",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1DArDH2wQO-R--pTLBvyfnZiyqjbjfmF9_522b3e6c-6153-41b0-a387-214d7ffd9901.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sage",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347494645"
+     },
+     "sku": "366192"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#variant",
+     "@type": "Product",
+     "gtin": "4004117633881",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/14uOCSx2k0s4A3qy_i__8GXqFstS5poY3_14e45dd9-6beb-4f54-8176-23eab9e3d4c0.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Olive",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347789557"
+     },
+     "sku": "368268"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#variant",
+     "@type": "Product",
+     "gtin": "4004117626234",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1e2xq4NdUehOkW4FSfZ-80Z9uw-kTrzC7_6ac5fb0b-68d5-49cf-bc55-096483d5f975.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Mint Green",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347691253"
+     },
+     "sku": "367285"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#variant",
+     "@type": "Product",
+     "gtin": "4004117661600",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1JWlIcA5r4KJvahfIllmjTgBhBWlpwsd.jpg?v=1779222673&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Deep Sea",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347986165"
+     },
+     "sku": "372222"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#variant",
+     "@type": "Product",
+     "gtin": "4004117644207",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1d0r58Q4wAO1C3NoaIxsyXKveHSpgejoN_5ee246ce-40b2-4331-8c36-71bc96f57f93.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sky",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347887861"
+     },
+     "sku": "369817"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#variant",
+     "@type": "Product",
+     "gtin": "4004117616280",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1WN5oZ-4wGl2AIw3zBz8ShI14nGvAI-2G_0d624619-31fb-4c8b-ba0d-80c03f29daf9.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Stone Blue",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347560181"
+     },
+     "sku": "366195"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#variant",
+     "@type": "Product",
+     "gtin": "4004117674624",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1btMjXxQE_wcPAPLb-mJJ1UpXC8mTd0OE_892b4aa6-1c7b-4f9f-a7d5-827ecab0244f.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Indigo",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348182773"
+     },
+     "sku": "374016"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#variant",
+     "@type": "Product",
+     "gtin": "4004117644214",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1U0e6zBeBXZ69uwgk6hgiq4ZFb4cqzJ32_20b3e866-d647-48e9-9098-ccd55b1ec711.jpg?v=1779814594&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Ink",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347920629"
+     },
+     "sku": "369818"
+    },
+    {
+     "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#variant",
+     "@type": "Product",
+     "gtin": "4004117661624",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/1YbB31OSU6_4dQ9tJ3oZjxk1-cvzGTA5w_21433445-5025-410a-af8d-0026949b627f.jpg?v=1779814595&width=1920",
+     "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spice Brown",
+     "offers": {
+      "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "34.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348051701"
+     },
+     "sku": "372224"
+    }
+   ],
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil",
+   "productGroupID": "9691873444085",
+   "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#variant",
+   "@type": "Product",
+   "gtin": "4004117616204",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Black",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347363573#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347363573"
+   },
+   "sku": "366187"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#variant",
+   "@type": "Product",
+   "gtin": "4004117633874",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1pXdPlm3dSFOHDjbDBq2MrY2dwwwY4vNj_b9b6995d-a89c-4854-8735-3ff10c19f1a6.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lilac",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347756789#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347756789"
+   },
+   "sku": "368267"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#variant",
+   "@type": "Product",
+   "gtin": "4004117661594",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/18TTJbPZFCwwsOKH_2uIzn23PpevJco7o_384ab5f4-c7a3-4203-afe8-572050b5636b.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Dusty Rose",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347953397#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347953397"
+   },
+   "sku": "372221"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1nl8_I3VZUQwyONOu1rVtTCFewHuW-Mp2.jpg?v=1779222673&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Port Red",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48203654430965#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48203654430965"
+   },
+   "sku": "366189"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#variant",
+   "@type": "Product",
+   "gtin": "4004117644191",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1dxNNa7aRGTDFWTqfbbn5hx_F00GC2MM0_06dfabb1-e247-493b-b561-d8bf8203aec7.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lobster",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347855093#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347855093"
+   },
+   "sku": "369816"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#variant",
+   "@type": "Product",
+   "gtin": "4004117644184",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1NnYdUvG8msGk1Iid2rGFDtnvR9fp1vHx_ce223ac8-1684-4057-b99e-74459b173795.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Apricot",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347822325#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347822325"
+   },
+   "sku": "369815"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#variant",
+   "@type": "Product",
+   "gtin": "4004117674594",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1mEb-tK0uRM8BXxBeCoohIpldsFkIW3-Q_e4590561-d3d3-4b6d-88e4-5c3a45b031d7.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Cherry",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348084469#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348084469"
+   },
+   "sku": "374013"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#variant",
+   "@type": "Product",
+   "gtin": "4004117674600",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1FJrOMWRRsybBAIA8APf8GhwDAgZ_EphN_032e7fae-3ce3-40b1-af22-8e7558f03c0b.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Pumpkin",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348117237#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348117237"
+   },
+   "sku": "374014"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#variant",
+   "@type": "Product",
+   "gtin": "4004117616242",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1ahmfdvmeeJ4zmH0J-5JHQ1CwvBg2bWJ2_e9a65ee3-c590-4b56-b230-59dfcd2b885a.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Rising Sun",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347461877#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347461877"
+   },
+   "sku": "366191"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#variant",
+   "@type": "Product",
+   "gtin": "4004117674617",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1s92XoZdRoWoQBNfAWHk11Xk237Xc6SQp_169430d9-7831-43f8-a950-f121634a45e9.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sunflower",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348150005#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348150005"
+   },
+   "sku": "374015"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#variant",
+   "@type": "Product",
+   "gtin": "4004117633867",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1zrwdKGnjHMxCV7KNus4AuptQqdrb7Qua.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Lemon",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347724021#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347724021"
+   },
+   "sku": "368266"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#variant",
+   "@type": "Product",
+   "gtin": "4004117661617",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1sXwbs6il5t8N24hMKMP0kzIs7AYjwsUY_dc045f88-29ff-4c81-be7f-c8d5b79e8b48.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spring Leaf",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348018933#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348018933"
+   },
+   "sku": "372223"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#variant",
+   "@type": "Product",
+   "gtin": "4004117616259",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1DArDH2wQO-R--pTLBvyfnZiyqjbjfmF9_522b3e6c-6153-41b0-a387-214d7ffd9901.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sage",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347494645#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347494645"
+   },
+   "sku": "366192"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#variant",
+   "@type": "Product",
+   "gtin": "4004117633881",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/14uOCSx2k0s4A3qy_i__8GXqFstS5poY3_14e45dd9-6beb-4f54-8176-23eab9e3d4c0.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Olive",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347789557#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347789557"
+   },
+   "sku": "368268"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#variant",
+   "@type": "Product",
+   "gtin": "4004117626234",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1e2xq4NdUehOkW4FSfZ-80Z9uw-kTrzC7_6ac5fb0b-68d5-49cf-bc55-096483d5f975.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Mint Green",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347691253#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347691253"
+   },
+   "sku": "367285"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#variant",
+   "@type": "Product",
+   "gtin": "4004117661600",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1JWlIcA5r4KJvahfIllmjTgBhBWlpwsd.jpg?v=1779222673&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Deep Sea",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347986165#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347986165"
+   },
+   "sku": "372222"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#variant",
+   "@type": "Product",
+   "gtin": "4004117644207",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1d0r58Q4wAO1C3NoaIxsyXKveHSpgejoN_5ee246ce-40b2-4331-8c36-71bc96f57f93.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Sky",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347887861#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347887861"
+   },
+   "sku": "369817"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#variant",
+   "@type": "Product",
+   "gtin": "4004117616280",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1WN5oZ-4wGl2AIw3zBz8ShI14nGvAI-2G_0d624619-31fb-4c8b-ba0d-80c03f29daf9.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Stone Blue",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347560181#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347560181"
+   },
+   "sku": "366195"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#variant",
+   "@type": "Product",
+   "gtin": "4004117674624",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1btMjXxQE_wcPAPLb-mJJ1UpXC8mTd0OE_892b4aa6-1c7b-4f9f-a7d5-827ecab0244f.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Indigo",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348182773#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348182773"
+   },
+   "sku": "374016"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#variant",
+   "@type": "Product",
+   "gtin": "4004117644214",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1U0e6zBeBXZ69uwgk6hgiq4ZFb4cqzJ32_20b3e866-d647-48e9-9098-ccd55b1ec711.jpg?v=1779814594&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Ink",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196347920629#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196347920629"
+   },
+   "sku": "369818"
+  },
+  {
+   "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#variant",
+   "@type": "Product",
+   "gtin": "4004117661624",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/1YbB31OSU6_4dQ9tJ3oZjxk1-cvzGTA5w_21433445-5025-410a-af8d-0026949b627f.jpg?v=1779814595&width=1920",
+   "name": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil - Spice Brown",
+   "offers": {
+    "@id": "/products/drehgriffel-nr-2-pencil?variant=48196348051701#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "34.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/drehgriffel-nr-2-pencil?variant=48196348051701"
+   },
+   "sku": "372224"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T21:27:18Z",
+ "og_image": "http://www.leuchtturm1917.us/cdn/shop/files/1oO91Gtf7WWmhWXlk1834fe-UUcEqGcZN_ae067997-470a-4b6a-9556-85ff228168a1.jpg?v=1779814595",
+ "page_sha256": "8b607d5f409cd1d2be6071296f9ae379dca4929957f6040f0c95c7a1457fb15f",
+ "rendered_checked": true,
+ "title": "Drehgriffel Nr. 2, Twist Stylus Mechanical Pencil \u2013 Leuchtturm1917.us",
+ "url": "https://leuchtturm1917.us/products/drehgriffel-nr-2-pencil"
+}

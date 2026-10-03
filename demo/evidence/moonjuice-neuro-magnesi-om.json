@@ -1,0 +1,111 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:58Z",
+  "ship": [
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS",
+   "You are $65.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "Upgrade to Subscription and Save 30%",
+   "At $4.64 a serving (or $3.39 if have a subscription), I have really high expectations for this.",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS"
+  ],
+  "url": "https://moonjuice.com/products/neuro-magnesi-om"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://moonjuice.com/products/neuro-magnesi-om",
+ "http_status": 200,
+ "id": "moonjuice-neuro-magnesi-om",
+ "image_file": "moonjuice-neuro-magnesi-om.png",
+ "image_sha256": "15d382ce81389e5cbc1d4eb6968c022fcff2e2b81e95b9cad97c28be2edaaf4f",
+ "image_source": "http://moonjuice.com/cdn/shop/files/Ecom-Neuro_Matcha_Mag.png?v=1779567262&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/neuro-magnesi-om#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Moon Juice"
+   },
+   "category": "Minerals",
+   "description": "\nFuel your flow state. Feel your genius.\u00a0\u00a0\n\n\nNeuro\u00a0Magnesi-Om is a magnesium-mushroom\u00a0bev\u00a0for instant focus + long-term brain care. Magnesium L-threonate\u00a0crosses the blood-brain barrier more effectively than other forms of magnesium and supports short-term memory, executive function, synaptic plasticity, and cognitive ability during\u00a0aging.*\u00a0Organic lion's mane is known to be\u00a0neuroprotective and supports mental stamina and\u00a0alertness.*\u00a0The perfect ratio of caffeine + L-theanine promotes focused attention during demanding cognitive\u00a0tasks.*\u00a0\n",
+   "hasVariant": [
+    {
+     "@id": "/products/neuro-magnesi-om?variant=44076827115603#variant",
+     "@type": "Product",
+     "image": "https://moonjuice.com/cdn/shop/files/Ecom-Neuro_Leomn_Mag_Shadow_copy.png?v=1779567335&width=1920",
+     "name": "Neuro Magnesi-Om\u00ae - Lemon",
+     "offers": {
+      "@id": "/products/neuro-magnesi-om?variant=44076827115603#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "74.00",
+      "priceCurrency": "USD",
+      "url": "https://moonjuice.com/products/neuro-magnesi-om?variant=44076827115603"
+     },
+     "sku": "PT10023"
+    },
+    {
+     "@id": "/products/neuro-magnesi-om?variant=44076827082835#variant",
+     "@type": "Product",
+     "image": "https://moonjuice.com/cdn/shop/files/Ecom-Neuro_Matcha_Mag.png?v=1779567262&width=1920",
+     "name": "Neuro Magnesi-Om\u00ae - Matcha",
+     "offers": {
+      "@id": "/products/neuro-magnesi-om?variant=44076827082835#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "74.00",
+      "priceCurrency": "USD",
+      "url": "https://moonjuice.com/products/neuro-magnesi-om?variant=44076827082835"
+     },
+     "sku": "PT10022"
+    }
+   ],
+   "name": "Neuro Magnesi-Om\u00ae",
+   "productGroupID": "7657701048403",
+   "url": "https://moonjuice.com/products/neuro-magnesi-om"
+  },
+  {
+   "@id": "/products/neuro-magnesi-om?variant=44076827115603#variant",
+   "@type": "Product",
+   "image": "https://moonjuice.com/cdn/shop/files/Ecom-Neuro_Leomn_Mag_Shadow_copy.png?v=1779567335&width=1920",
+   "name": "Neuro Magnesi-Om\u00ae - Lemon",
+   "offers": {
+    "@id": "/products/neuro-magnesi-om?variant=44076827115603#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "74.00",
+    "priceCurrency": "USD",
+    "url": "https://moonjuice.com/products/neuro-magnesi-om?variant=44076827115603"
+   },
+   "sku": "PT10023"
+  },
+  {
+   "@id": "/products/neuro-magnesi-om?variant=44076827082835#variant",
+   "@type": "Product",
+   "image": "https://moonjuice.com/cdn/shop/files/Ecom-Neuro_Matcha_Mag.png?v=1779567262&width=1920",
+   "name": "Neuro Magnesi-Om\u00ae - Matcha",
+   "offers": {
+    "@id": "/products/neuro-magnesi-om?variant=44076827082835#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "74.00",
+    "priceCurrency": "USD",
+    "url": "https://moonjuice.com/products/neuro-magnesi-om?variant=44076827082835"
+   },
+   "sku": "PT10022"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:46Z",
+ "og_image": "http://moonjuice.com/cdn/shop/files/Ecom-Neuro_Matcha_Mag.png?v=1779567262",
+ "page_sha256": "6f8a771bc99c021fd338463ec6f7248fb49261be810bd8f056bfbee47e17a953",
+ "rendered_checked": true,
+ "title": "Neuro Magnesi-Om\u00ae \u2013 Moon Juice",
+ "url": "https://moonjuice.com/products/neuro-magnesi-om"
+}

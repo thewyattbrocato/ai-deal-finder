@@ -1,0 +1,83 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:22Z",
+  "ship": [
+   "FREE US SHIPPING ON ORDERS ABOVE $59",
+   "Highly rated by customers for: Tea Flavor, Product Quality, Shipping Reliability",
+   "shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Manage Subscriptions"
+  ],
+  "url": "https://www.vahdam.com/products/citrus-ginger-herbal-tea-tisane"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.vahdam.com/products/citrus-ginger-herbal-tea-tisane",
+ "http_status": 200,
+ "id": "vahdam-citrus-ginger-herbal-tea-tisane",
+ "image_file": "vahdam-citrus-ginger-herbal-tea-tisane.jpg",
+ "image_sha256": "17f655bab5da8ad6b90869b1e6c38ebb4ae41fe8ccaa526bd843328cb542d652",
+ "image_source": "http://www.vahdam.com/cdn/shop/files/Citrus-Ginger_589a282c-f67a-4ffb-aab0-7779cca1ebb3.jpg?v=1726479352&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/citrus-ginger-herbal-tea-tisane#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "category": "Tea & Infusions",
+   "description": "A mollifying tisane of pure ginger goodness enhanced with the citrusy lightness of orange and mint, offering a refreshing experience.",
+   "gtin": "LF01000127-HT",
+   "image": "https://www.vahdam.com/cdn/shop/files/Citrus-Ginger_589a282c-f67a-4ffb-aab0-7779cca1ebb3.jpg?v=1726479352&width=1920",
+   "name": "Citrus Ginger Herbal Tea Tisane, 3.53 oz",
+   "offers": {
+    "@id": "/products/citrus-ginger-herbal-tea-tisane?variant=39455542607915#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "7.99",
+    "priceCurrency": "USD",
+    "url": "https://www.vahdam.com/products/citrus-ginger-herbal-tea-tisane?variant=39455542607915"
+   },
+   "sku": "VX-NLC8-H6QV",
+   "url": "https://www.vahdam.com/products/citrus-ginger-herbal-tea-tisane"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.64",
+    "reviewCount": "238"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "description": "A mollifying tisane of pure ginger goodness enhanced with the citrusy lightness of orange and mint, offering a refreshing experience.",
+   "image": [
+    "https://www.vahdam.com/cdn/shop/files/Citrus-Ginger_589a282c-f67a-4ffb-aab0-7779cca1ebb3.jpg?v=1726479352&width=480"
+   ],
+   "name": "Citrus Ginger Herbal Tea Tisane, 3.53 oz",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "7.99",
+    "priceCurrency": "USD",
+    "sku": "VX-NLC8-H6QV",
+    "url": "https://www.vahdam.com/products/citrus-ginger-herbal-tea-tisane?variant=39455542607915"
+   },
+   "sku": "VX-NLC8-H6QV"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:28:28Z",
+ "og_image": "http://www.vahdam.com/cdn/shop/files/Citrus-Ginger_589a282c-f67a-4ffb-aab0-7779cca1ebb3.jpg?v=1726479352&width=2048",
+ "page_sha256": "2e7b92ad1de8b53e6270e27110a6f3e4c240d86c349710d3d8c216c0b4839f9a",
+ "rendered_checked": true,
+ "title": "Citrus Ginger Herbal Tea Tisane, 3.53 Oz | Loose Leaf Tea | VAHDAM\u00ae",
+ "url": "https://vahdam.com/products/citrus-ginger-herbal-tea-tisane"
+}

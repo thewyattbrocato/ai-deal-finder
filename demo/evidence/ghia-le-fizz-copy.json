@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:25Z",
+  "ship": [
+   "Free Shipping On Orders $60+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription",
+   "Manage Subscription"
+  ],
+  "url": "https://drinkghia.com/products/le-fizz-copy"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkghia.com/products/le-fizz-copy",
+ "http_status": 200,
+ "id": "ghia-le-fizz-copy",
+ "image_file": "ghia-le-fizz-copy.jpg",
+ "image_sha256": "6861d9ca4c9e93712bdc33abd01a5e1558dad18406bc20d3dd0965671e3c27ac",
+ "image_source": "http://drinkghia.com/cdn/shop/files/LeFizz_New_Duo.jpg?v=1766884670&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/le-fizz-copy#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ghia"
+   },
+   "description": "It's kind of a sweet story: orange blossom meets strawberry. Juicy main character energy. Tangity-tang and a dry finish. Mixed with bubbles, oui-oui.A touch sweet, refreshingly tart, dry, and zesty.",
+   "image": "https://drinkghia.com/cdn/shop/files/LeFizz_New_Duo_450x450.jpg?v=1766884670",
+   "mpn": "8578846621930",
+   "name": "Le Fizz",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "40.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ghia"
+    }
+   },
+   "url": "/products/le-fizz-copy"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:39Z",
+ "og_image": "http://drinkghia.com/cdn/shop/files/LeFizz_New_Duo.jpg?v=1766884670",
+ "page_sha256": "b37481dfbe42c91688f35cfa60e1ed8550be88c36996cd2e31276c679a3e020d",
+ "rendered_checked": true,
+ "title": "Ghia Non-Alcoholic Ap\u00e9ritifs | Le Fizz",
+ "url": "https://drinkghia.com/products/le-fizz-copy"
+}
