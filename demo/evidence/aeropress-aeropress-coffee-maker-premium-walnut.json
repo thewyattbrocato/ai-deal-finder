@@ -1,0 +1,103 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:27:55Z",
+  "ship": [
+   "Free Shipping over $55*",
+   "Free shipping over $55 | Easy Returns",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscriptions"
+  ],
+  "url": "https://aeropress.com/products/aeropress-coffee-maker-premium-walnut"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://aeropress.com/products/aeropress-coffee-maker-premium-walnut",
+ "http_status": 200,
+ "id": "aeropress-aeropress-coffee-maker-premium-walnut",
+ "image_file": "aeropress-aeropress-coffee-maker-premium-walnut.jpg",
+ "image_sha256": "1fecff5f5c86c49553a2bed020b038d3e1cc671f60a5d7634e74022e054a098a",
+ "image_source": "http://aeropress.com/cdn/shop/files/AP_2026_Web-PDP_Walnut-Brewer_01_1200x1200.jpg?v=1790034277&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "AeroPress"
+   },
+   "category": "Coffee Maker",
+   "description": "What is AeroPress Premium Walnut?\nOur iconic 3 in 1 brewer, reimagined for an uncompromising coffee experience. Hand-crafted double wall borosilicate glass chamber enhances heat retention and durability, while precisely engineered solid clear-grade walnut, stainless steel, and aluminum components add strength and style for a brew experience as smooth and refined as the taste of our signature brew.\nWhat Sets AeroPress Apart?\nPart French press, part pour-over, part espresso\u2014AeroPress combines the best of all three coffee brewing methods in one simple device for a faster cup (under 2 minutes) with low bitterness, no grit, and more delicious coffee bean flavor.\n\n\nFull-bodied like a French press\n\n\nSmooth like a Pour-Over\n\n\nRich like Espresso\n\n\nLoved worldwide for our award-winning signature brew and endless espresso-style recipes and boasting over 75,000 five-star reviews in more than 70 countries, AeroPress just might make the best cup of coffee you'll ever taste.\n\u00a0",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "description": "Returns accepted within 30 days of delivery on unused AeroPress items; customer pays return shipping.",
+    "inStoreReturnsOffered": false,
+    "merchantReturnDays": 30,
+    "name": "30-day returns (global)",
+    "returnFees": "https://schema.org/ReturnShippingFees",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyUrl": "/policies/return-policy"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "name": "",
+    "url": "https://aeropress.com/cdn/shop/files/AP_2026_Web-PDP_Walnut-Brewer_01_1024x.jpg?v=1790034277",
+    "width": "1024"
+   },
+   "name": "AeroPress Coffee Maker - Premium Walnut",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "description": "Returns accepted within 30 days of delivery on unopened items, and on opened but unused items. Customer pays return shipping.",
+      "inStoreReturnsOffered": false,
+      "merchantReturnDays": 30,
+      "name": "30-day returns (U.S.)",
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "returnPolicyUrl": "/policies/return-policy"
+     },
+     "name": "Default Title",
+     "price": 249.95,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "description": "Free standard shipping within the contiguous U.S. on orders over $55 (before taxes and discounts).",
+      "name": "Free Shipping Offer (U.S.)",
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US",
+       "name": "United States"
+      },
+      "shippingLabel": "Free shipping on U.S. orders over $55",
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "0"
+      }
+     },
+     "sku": "PRWAL01",
+     "url": "/products/aeropress-coffee-maker-premium-walnut?variant=51183048294643"
+    }
+   ],
+   "sku": "PRWAL01",
+   "url": "/products/aeropress-coffee-maker-premium-walnut"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:21Z",
+ "og_image": "http://aeropress.com/cdn/shop/files/AP_2026_Web-PDP_Walnut-Brewer_01_1200x1200.jpg?v=1790034277",
+ "page_sha256": "c621a0a2cc62b0871da80aff61a0fd993961acf1a21d723d51b703cbfe57e5ef",
+ "rendered_checked": true,
+ "title": "AeroPress Premium Walnut Coffee Maker | Glass, Metal & Walnut Coffee Maker",
+ "url": "https://aeropress.com/products/aeropress-coffee-maker-premium-walnut"
+}

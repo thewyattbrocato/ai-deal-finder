@@ -351,7 +351,7 @@ out.loadWithHash = fresh(null, { hash: "#q=cofee&ship=min" });
 out.typed = {};
 for (const w of ["c", "co", "cof", "coff", "coffe", "coffee", "cofee", "bean", "beanie", "beani", "espresso", "espreso",
   "old nav", "old navy", "old navy sweatpants", "sneaker", "sneakers", "shoes", "clothing", "tea", "airpods", "dog",
-  "zzyzx", "espresso machine", "qualità rossa", "super crema", "nike", "bambino", "midnight"]) {
+  "zzyzx", "espresso laptop", "qualità rossa", "super crema", "nike", "bambino", "midnight"]) {
   out.typed[w] = fresh(p => type(p, w));
 }
 out.sweatpantsLetters = [];
@@ -450,7 +450,7 @@ out.deepNoFitUnk = fresh(null, { hash: "#q=coffee&sub=1&kind=Tea" });
 out.deepNoFitDrop = fresh(p => { clickText(p, $(p, "empty"), "Drop"); }, { hash: "#q=hoodie&size=ZZ" });
 out.price = {};
 for (const w of ["$25", "$25.00", "25 dollars", "under $20", "$20 coffee", "$0.07"]) out.price[w] = fresh(p => type(p, w));
-out.priceSort = fresh(p => { type(p, "under $20"); clickText(p, $(p, "empty"), "Browse all 281, lowest"); });
+out.priceSort = fresh(p => { type(p, "under $20"); clickText(p, $(p, "empty"), "Browse all 335, lowest"); });
 out.emptySearchKind = fresh(p => { type(p, "zzyzx"); clickText(p, $(p, "empty"), "Kitchen"); });
 out.emptySearchBrowse = fresh(p => { type(p, "zzyzx"); clickText(p, $(p, "empty"), "Browse all"); });
 out.emptySearchClear = fresh(p => { type(p, "zzyzx"); clickText(p, $(p, "empty"), "Clear search"); });

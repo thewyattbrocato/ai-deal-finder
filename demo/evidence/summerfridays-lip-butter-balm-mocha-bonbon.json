@@ -1,0 +1,89 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:12Z",
+  "ship": [
+   "FREE SHIPPING ON U.S. ORDERS $35+ Learn More"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscriptions"
+  ],
+  "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon",
+ "http_status": 200,
+ "id": "summerfridays-lip-butter-balm-mocha-bonbon",
+ "image_file": "summerfridays-lip-butter-balm-mocha-bonbon.jpg",
+ "image_sha256": "e0576e683d50458d56c12cea98ade4beabf811b8d4dabe827fa9983eecf5d9e4",
+ "image_source": "http://summerfridays.com/cdn/shop/files/Main-LBB-Mocha-Bon-Bon.jpg?crop=center&height=1024&v=1788469667&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/lip-butter-balm-mocha-bonbon#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Summer Fridays"
+   },
+   "category": "Lip Balms",
+   "description": "Our silky vegan lip balm hydrates and softens dry lips with a touch of sheer neutral beige and golden shimmer. Butter up for instant moisture and shine\u2014and a hint of mocha flavor.\n#1 Lip Brand*\n*Source: YipitData Brand-level ranking, US $ sales of Prestige brands, Jan-Dec 2025.Excluded from promotions and discounts.\n",
+   "hasVariant": [
+    {
+     "@id": "/products/lip-butter-balm-mocha-bonbon?variant=43714117828685#variant",
+     "@type": "Product",
+     "gtin": "850075952625",
+     "image": "https://summerfridays.com/cdn/shop/files/Main-LBB-Mocha-Bon-Bon.jpg?v=1788469667&width=1920",
+     "name": "Lip Butter Balm Mocha Bonbon - Mocha Bonbon",
+     "offers": {
+      "@id": "/products/lip-butter-balm-mocha-bonbon?variant=43714117828685#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon?variant=43714117828685"
+     },
+     "sku": "S048-14-0000"
+    }
+   ],
+   "name": "Lip Butter Balm Mocha Bonbon",
+   "productGroupID": "7958353870925",
+   "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon"
+  },
+  {
+   "@id": "/products/lip-butter-balm-mocha-bonbon?variant=43714117828685#variant",
+   "@type": "Product",
+   "gtin": "850075952625",
+   "image": "https://summerfridays.com/cdn/shop/files/Main-LBB-Mocha-Bon-Bon.jpg?v=1788469667&width=1920",
+   "name": "Lip Butter Balm Mocha Bonbon - Mocha Bonbon",
+   "offers": {
+    "@id": "/products/lip-butter-balm-mocha-bonbon?variant=43714117828685#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon?variant=43714117828685"
+   },
+   "sku": "S048-14-0000"
+  },
+  {
+   "@context": "https://schema.org/",
+   "@id": "/products/lip-butter-balm-mocha-bonbon#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "2"
+   },
+   "name": "Lip Butter Balm Mocha Bonbon"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T22:18:31Z",
+ "og_image": "http://summerfridays.com/cdn/shop/files/Main-LBB-Mocha-Bon-Bon.jpg?crop=center&height=1024&v=1788469667&width=1024",
+ "page_sha256": "6afc2589c49e953bc785931915b0e82acbb5e158bdececdc29fdb3645d1c834f",
+ "rendered_checked": true,
+ "title": "Lip Butter Balm, Mocha Bonbon | Summer Fridays",
+ "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon"
+}

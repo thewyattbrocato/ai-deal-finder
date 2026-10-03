@@ -1,0 +1,65 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:14Z",
+  "ship": [
+   "Free Ground Shipping on Brewers & Grinders | Orders Ship Next Business Day",
+   "shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://us.moccamaster.com/products/kb"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://us.moccamaster.com/products/kb",
+ "http_status": 200,
+ "id": "moccamaster-kb",
+ "image_file": "moccamaster-kb.png",
+ "image_sha256": "d2afc7095932445f9cc196c0cdcd612daeda49cc7104f488087e84b4857708ab",
+ "image_source": "http://us.moccamaster.com/cdn/shop/products/MoccaMaster_Set_59691_KB_BrushedSilver_3521-02-186755_600x.png?v=1683911826&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.69",
+    "reviewCount": "77"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Moccamaster USA"
+   },
+   "description": "<p>The manual-adjust stop on the KB\u2019s brew basket allows you to control the brewing speed or stop it entirely as it flows into the carafe. This brewer is a good option for those who like to be more hands-on with their coffee brewing process and don\u2019t consistently brew a full carafe every day. All glass carafe brewers feature a hotplate with an independent heating element that holds your coffee at the perfect temperature.</p>\n<!-- split -->\n<div class=\"specs-wrapper\">\n<p>Weight: 6.10 lbs</p>\n<p>Dimensions: 14.00\" H x 12.75\" W x 6.50\" D</p>\n<p>Volts: 120 V</p>\n<p>Watts: 1475 W</p>\n<p>Volume: 1.25 L / 40 oz / 10 cups</p>\n<p>Power Switch: Auto-Off at 100 minutes</p>\n<p>Brew Basket Style: Manual-adjust drip-stop</p>\n<p>Body Style: Rectangular</p>\n<p>Material: Metal / BPA, BPS, BPF, and phthalate-free plastic</p>\n<p>Warranty: 5 years</p>\n<p>Certifications: ECBC certified and SCA approved to meet and exceed the golden cup standard</p>\n<p>All Moccamaster coffee brewers are handmade at the Technivorm factory in the Netherlands.</p>\n<p>We build our coffee brewers to last. Replacement parts are available for all models, and our on-site Service Technicians will repair any Moccamaster for the life of the brewer. With proper care and maintenance, this should be the last coffee brewer you ever need to buy.</p>\n</div>",
+   "image": "https://us.moccamaster.com/cdn/shop/products/MoccaMaster_Set_59691_KB_BrushedSilver_3521-02-186755_1024x1024.png?v=1683911826",
+   "mpn": "8712072596917",
+   "name": "Moccamaster KB",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 339.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Moccamaster USA"
+    },
+    "url": "https://us.moccamaster.com/products/kb?variant=40200139374755"
+   },
+   "review": {
+    "@type": "Review",
+    "reviewRating": {
+     "@type": "Rating",
+     "ratingValue": "4.69"
+    }
+   },
+   "sku": "59691"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:19Z",
+ "og_image": "http://us.moccamaster.com/cdn/shop/products/MoccaMaster_Set_59691_KB_BrushedSilver_3521-02-186755_600x.png?v=1683911826",
+ "page_sha256": "23e3f6e17ccf62092d8d898e77822a33869ad5452f565580195deea97a2450fc",
+ "rendered_checked": true,
+ "title": "Moccamaster KB Manual Drip-Stop Coffee Brewer - Moccamaster USA",
+ "url": "https://us.moccamaster.com/products/kb"
+}

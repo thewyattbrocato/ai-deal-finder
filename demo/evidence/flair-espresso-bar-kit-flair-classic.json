@@ -1,0 +1,49 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:40Z",
+  "ship": [
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic",
+ "http_status": 200,
+ "id": "flair-espresso-bar-kit-flair-classic",
+ "image_file": "flair-espresso-bar-kit-flair-classic.jpg",
+ "image_sha256": "204cd738c71a81a15d94d20114a2fcd79888b6da2f44d804cf5078c01782f372",
+ "image_source": "http://flairespresso.com/cdn/shop/files/Classic_Full_Espresso_Bar_slanted_kettle_shopify.jpg?crop=center&height=1200&v=1788372229&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/espresso-bar-kit-flair-classic#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Flair Espresso"
+   },
+   "category": "Espresso Machines",
+   "description": "The\u00a0Flair Classic is the original Flair Espresso Maker that creates cafe-quality espresso with a direct lever system. Featuring two portafilters, one for beginners and one for advanced home baristas, the Classic allows for full control over all brew variables, with a pressure gauge, small footprint and all metal frame.\nThe Flair Kettle is an electric gooseneck kettle with digital control and a WARM function for multiple extractions, back to back. Select any brew temperature to ensure precise extraction control, at a fraction of the price of other models.\nThe Flair eWizard Electric Milk Steamer is a standalone milk steaming wand that features a a cool-touch wand, fast heat-up and two nozzles for beginners and expert latte artists. The eWizard utilizes a unique pressure management system, coupled with an integrated pressure gauge, to ensure perfect steaming pressure and safe use. Only available for 110v systems.\nThe Flair Brew Scale is a precision digital scale that measures with 0.1g precision to ensure consistent dosing and yields. It features three different weighing modes, a sleek LCD screen and fits under all Flair Espresso Makers.",
+   "image": "https://flairespresso.com/cdn/shop/files/Classic_Full_Espresso_Bar_slanted_kettle_shopify.jpg?v=1788372229&width=1920",
+   "name": "Espresso Bar Kit: Flair Classic",
+   "offers": {
+    "@id": "/products/espresso-bar-kit-flair-classic?variant=52244192166190#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "552.00",
+    "priceCurrency": "USD",
+    "url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic?variant=52244192166190"
+   },
+   "url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:28Z",
+ "og_image": "http://flairespresso.com/cdn/shop/files/Classic_Full_Espresso_Bar_slanted_kettle_shopify.jpg?crop=center&height=1200&v=1788372229&width=1200",
+ "page_sha256": "6ce20b0e3bad42050f01b2bec9c2116bc82195e0cfd47feb46adab957d6d74c2",
+ "rendered_checked": true,
+ "title": "Espresso Bar Kit | Flair Classic | Flair Espresso",
+ "url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic"
+}

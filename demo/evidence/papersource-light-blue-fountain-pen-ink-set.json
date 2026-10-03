@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:38Z",
+  "ship": [
+   "Free Standard Shipping $60+ \u2192",
+   "Shipping Information"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to newsletter",
+   "Submit your email address to receive Paper Source offers & updates. You can view our Privacy Policy here. Unsubscribe from our emails at any time."
+  ],
+  "url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186",
+ "http_status": 200,
+ "id": "papersource-light-blue-fountain-pen-ink-set",
+ "image_file": "papersource-light-blue-fountain-pen-ink-set.jpg",
+ "image_sha256": "844818009693a1d60fe717ccd174725a135991cd168ace92376795c6a96e2ab1",
+ "image_source": "http://www.papersource.com/cdn/shop/files/0818351007186_p0.jpg?v=1790977051&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/light-blue-fountain-pen-ink-set-0818351007186#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ferris Wheel Press"
+   },
+   "category": "Pens",
+   "description": "Bring colour and character to the page with the Ferris Wheel Press Masque Fountain Pen &amp; Ink Charger Set, created exclusively for Barnes &amp; Noble. This light blue resin fountain pen pairs polished brass details with a contoured engraved brass grip, giving the pen a balanced, comfortable feel in hand.    A smooth-writing No. 6 steel nib with 24K gold plating delivers a controlled 0.55mm medium line, while the precision-engineered cap seal helps maintain a generous ink flow. A standard international converter makes filling from bottled ink simple, while the interchangeable nib housing lets the Masque grow with your writing style.    Three 10ml ink pots complete the set: warm mid-grey Leadcast Letters, midnight blue Stroke of Midnight with red sheen and mixed metallic shimmer, and blue-green Edwards Gardens with red sheen and gold shimmer. Together, these three shades bring understated neutrals, dramatic colour, and luminous detail to the page.\"",
+   "gtin": "0818351007186",
+   "image": "https://www.papersource.com/cdn/shop/files/0818351007186_p0.jpg?v=1790977051&width=1920",
+   "name": "Light Blue Fountain Pen & Ink Set",
+   "offers": {
+    "@id": "/products/light-blue-fountain-pen-ink-set-0818351007186?variant=67626607247670#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.95",
+    "priceCurrency": "USD",
+    "url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186?variant=67626607247670"
+   },
+   "sku": "0818351007186",
+   "url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T22:21:26Z",
+ "og_image": "http://www.papersource.com/cdn/shop/files/0818351007186_p0.jpg?v=1790977051&width=2048",
+ "page_sha256": "8411a8896c572702a4106c217793cc6d3438e23663cf3ee41283825aece97403",
+ "rendered_checked": true,
+ "title": "Light Blue Fountain Pen & Ink Set | Paper Source",
+ "url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186"
+}

@@ -1,0 +1,142 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:28:29Z",
+  "ship": [
+   "Free Shipping on Lower 48 Orders $99+",
+   "Shipping",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [
+   "Archer & Olive Subscriptions",
+   "Quarterly Subscription Box",
+   "Kit Box Subscription",
+   "Exclusive themed kits filled with surprises to fuel your creativity, only for subscribers.",
+   "Subscription Box",
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10",
+ "http_status": 200,
+ "id": "archerandolive-quiet-corners-calliograph-pens",
+ "image_file": "archerandolive-quiet-corners-calliograph-pens.jpg",
+ "image_sha256": "d23288b90bc5b36f4f1d9cd8e7b309c319976c1ccf7a50a57f309dec421d0ed9",
+ "image_source": "http://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-3.jpg?v=1783370427&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10#product_sp_schemaplus",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Tags",
+     "value": [
+      "Calliograph",
+      "discount_eligible",
+      "Fall 2026",
+      "New",
+      "Quiet Corners Accessories"
+     ]
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "Archer and Olive",
+    "url": "https://www.archerandolive.com/collections/vendors?q=Archer%20and%20Olive"
+   },
+   "description": "A storybook collection made for lettering lovers, the Quiet Corners Calligraph Pen Set blends rich, autumnal hues with effortless control. Each pen features a flexible brush tip that glides smoothly, allowing you to create delicate upstrokes and bold, expressive downstrokes with ease\u2014perfect for modern calligraphy, journaling, and decorative accents.\nThe palette offers a coordinated range of warm, vintage gray, pink, rust, brown and maroon tones inspired by the Quiet Corners collection that layer beautifully and look stunning on the page.The water-based, archival-quality ink delivers smooth, consistent color with minimal ghosting on high-quality paper.\nThoughtfully designed for comfort and precision, these dual-labeled pens make it easy to grab the right shade while you create. Whether you're practicing lettering, embellishing spreads, or adding seasonal details, this set brings a touch of warmth to every page you write.\nFeatures You'll Love\n\n\nSet of 10 dual-tip calligraphy pens with flexible brush nibs\n\nCoordinated Quiet Corners palette: rust, olive, antique gold, and burgundy tones\n\nWater-based, non-toxic archival-quality ink with minimal ghosting\n\nDual-labeled caps for quick, easy color identification\n\nIdeal for modern calligraphy, journaling, and decorative lettering\n\nLayers beautifully for shading and blending effects\n",
+   "gtin12": "810208872077",
+   "image": [
+    "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-3.jpg?v=1783370427&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersAccessories-2.jpg?v=1783370427&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersAccessories-3.jpg?v=1783370427&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-1.jpg?v=1783370427&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-2.jpg?v=1783370427&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Archer_Olive_Quiet_Corners_Styled_2-10.jpg?v=1783694418&width=1200"
+   ],
+   "itemCondition": "https://schema.org/NewCondition",
+   "mainEntityOfPage": {
+    "@id": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10#webpage_sp_schemaplus",
+    "@type": "WebPage",
+    "sdDatePublished": "2026-08-12T09:00:23Z",
+    "sdPublisher": {
+     "@context": "https://schema.org",
+     "@id": "https://schemaplus.io",
+     "@type": "Organization",
+     "name": "SchemaPlus App",
+     "url": "https://schemaplus.io"
+    }
+   },
+   "mpn": "810208872077",
+   "name": "Quiet Corners Calliograph Pens |  Set of 10",
+   "offers": {
+    "@id": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "inventoryLevel": {
+     "@type": "QuantitativeValue",
+     "value": "25"
+    },
+    "price": 37.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 37.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "priceValidUntil": "2030-12-21",
+    "seller": {
+     "@id": "https://www.archerandolive.com#organization_sp_schemaplus",
+     "@type": "Organization",
+     "name": "Archer and Olive"
+    },
+    "shippingDetails": [],
+    "validFrom": "2026-08-12T09:00:23-0500"
+   },
+   "productID": "9144440651931",
+   "sku": "CL316",
+   "url": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitCode": "LBR",
+    "value": "0.35"
+   }
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/quiet-corners-calliograph-pens-set-of-10#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Archer and Olive"
+   },
+   "category": "Pens",
+   "description": "A storybook collection made for lettering lovers, the Quiet Corners Calligraph Pen Set blends rich, autumnal hues with effortless control. Each pen features a flexible brush tip that glides smoothly, allowing you to create delicate upstrokes and bold, expressive downstrokes with ease\u2014perfect for modern calligraphy, journaling, and decorative accents.\nThe palette offers a coordinated range of warm, vintage gray, pink, rust, brown and maroon tones inspired by the Quiet Corners collection that layer beautifully and look stunning on the page.The water-based, archival-quality ink delivers smooth, consistent color with minimal ghosting on high-quality paper.\nThoughtfully designed for comfort and precision, these dual-labeled pens make it easy to grab the right shade while you create. Whether you're practicing lettering, embellishing spreads, or adding seasonal details, this set brings a touch of warmth to every page you write.\nFeatures You'll Love\n\n\nSet of 10 dual-tip calligraphy pens with flexible brush nibs\n\nCoordinated Quiet Corners palette: rust, olive, antique gold, and burgundy tones\n\nWater-based, non-toxic archival-quality ink with minimal ghosting\n\nDual-labeled caps for quick, easy color identification\n\nIdeal for modern calligraphy, journaling, and decorative lettering\n\nLayers beautifully for shading and blending effects\n",
+   "gtin": "810208872077",
+   "image": "https://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-3.jpg?v=1783370427&width=1920",
+   "name": "Quiet Corners Calliograph Pens |  Set of 10",
+   "offers": {
+    "@id": "/products/quiet-corners-calliograph-pens-set-of-10?variant=48923966636187#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.00",
+    "priceCurrency": "USD",
+    "url": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10?variant=48923966636187"
+   },
+   "sku": "CL316",
+   "url": "https://www.archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T22:21:34Z",
+ "og_image": "http://www.archerandolive.com/cdn/shop/files/Archer_OliveQuietCornersPens-3.jpg?v=1783370427",
+ "page_sha256": "aa03960d0468fe038824df3192ad37067b3ea50dccf17ae03c6e55698f717fa5",
+ "rendered_checked": true,
+ "title": "Quiet Corners Calligraph Pens | Set of 10 Brush Lettering Pens \u2013 Archer and Olive",
+ "url": "https://archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10"
+}

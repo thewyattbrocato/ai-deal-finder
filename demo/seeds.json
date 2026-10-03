@@ -351,7 +351,7 @@
  },
  {
   "id": "stanley1913-stanley-x-togethxr-quencher-h2-0-flowstate-tumbl",
-  "url": "https://stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate™-tumbler-30-oz",
+  "url": "https://stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate\u2122-tumbler-30-oz",
   "kind": "Outdoors"
  },
  {
@@ -376,7 +376,7 @@
  },
  {
   "id": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-30-oz",
-  "url": "https://stanley1913.com/products/halloween-quencher®-h2-0-flowstate™-tumbler-30-oz-tts",
+  "url": "https://stanley1913.com/products/halloween-quencher\u00ae-h2-0-flowstate\u2122-tumbler-30-oz-tts",
   "kind": "Outdoors"
  },
  {
@@ -916,7 +916,7 @@
  },
  {
   "id": "counterculturecoffee-the-bambino",
-  "url": "https://counterculturecoffee.com/products/the-bambino™",
+  "url": "https://counterculturecoffee.com/products/the-bambino\u2122",
   "kind": "Kitchen"
  },
  {
@@ -1373,5 +1373,275 @@
   "id": "harrys-harrys-plus-shave-shower-bundle",
   "url": "https://harrys.com/products/harrys-plus-shave-shower-bundle",
   "kind": "Grooming"
+ },
+ {
+  "id": "moccamaster-moccamaster-kbgt-midnight",
+  "url": "https://us.moccamaster.com/products/moccamaster-kbgt-midnight",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "moccamaster-moccamaster-kbgv-coffee-maker-sorbet",
+  "url": "https://us.moccamaster.com/products/moccamaster-kbgv-coffee-maker-sorbet",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "moccamaster-kb",
+  "url": "https://us.moccamaster.com/products/kb",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "aeropress-aeropress-coffee-maker-premium-walnut",
+  "url": "https://aeropress.com/products/aeropress-coffee-maker-premium-walnut",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "aeropress-aeropress-manual-coffee-grinder",
+  "url": "https://aeropress.com/products/aeropress-manual-coffee-grinder",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "aeropress-aeropress-steel-coffee-press-stainless-limited-edition",
+  "url": "https://aeropress.com/products/aeropress-steel-coffee-press-stainless-limited-edition",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "flair-the-flair-classic",
+  "url": "https://flairespresso.com/products/the-flair-classic",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "flair-espresso-bar-kit-flair-classic",
+  "url": "https://flairespresso.com/products/espresso-bar-kit-flair-classic",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "flair-the-royal-grinder",
+  "url": "https://flairespresso.com/products/the-royal-grinder",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "wacaco-picopresso",
+  "url": "https://wacaco.com/products/picopresso",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "wacaco-minipresso-gr2",
+  "url": "https://wacaco.com/products/minipresso-gr2",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "ember-ember-travel-mug-2",
+  "url": "https://ember.com/products/ember-travel-mug-2",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "ember-ember-cold-tumbler",
+  "url": "https://ember.com/products/ember-cold-tumbler",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "primalpetfoods-canine-freeze-dried-nuggets-pork",
+  "url": "https://primalpetfoods.com/products/canine-freeze-dried-nuggets-pork",
+  "kind": "Pets"
+ },
+ {
+  "id": "primalpetfoods-freeze-dried-raw-nuggets-dog-food-duck-recipe",
+  "url": "https://primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe",
+  "kind": "Pets"
+ },
+ {
+  "id": "primalpetfoods-feline-freeze-dried-nuggets-venison",
+  "url": "https://primalpetfoods.com/products/feline-freeze-dried-nuggets-venison",
+  "kind": "Pets"
+ },
+ {
+  "id": "primalpetfoods-feline-freeze-dried-nuggets-rabbit",
+  "url": "https://primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit",
+  "kind": "Pets"
+ },
+ {
+  "id": "boysmells-herbaceous-classic-candle-9oz",
+  "url": "https://boysmells.com/products/herbaceous-classic-candle-9oz",
+  "kind": "Home"
+ },
+ {
+  "id": "boysmells-hard-wood-classic-candle-9oz",
+  "url": "https://boysmells.com/products/hard-wood-classic-candle-9oz",
+  "kind": "Home"
+ },
+ {
+  "id": "boysmells-big-apple-perfume-50ml",
+  "url": "https://boysmells.com/products/big-apple-perfume-50ml",
+  "kind": "Personal care"
+ },
+ {
+  "id": "boysmells-les-perfume-50ml",
+  "url": "https://boysmells.com/products/les-perfume-50ml",
+  "kind": "Personal care"
+ },
+ {
+  "id": "pfcandleco-celestial-smoky-cinnamon-standard-candle",
+  "url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle",
+  "kind": "Home"
+ },
+ {
+  "id": "pfcandleco-celestial-teakwood-tobacco-standard-candle",
+  "url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle",
+  "kind": "Home"
+ },
+ {
+  "id": "knockaround-sunburst-stratocaster-fort-knocks",
+  "url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks",
+  "kind": "Accessories"
+ },
+ {
+  "id": "knockaround-dogfish-head-torrey-pines",
+  "url": "https://knockaround.com/products/dogfish-head-torrey-pines",
+  "kind": "Accessories"
+ },
+ {
+  "id": "knockaround-wm-phoenix-fast-lanes-sport",
+  "url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport",
+  "kind": "Accessories"
+ },
+ {
+  "id": "goodr-what-lurks-in-the-shadows",
+  "url": "https://goodr.com/products/what-lurks-in-the-shadows",
+  "kind": "Accessories"
+ },
+ {
+  "id": "goodr-bean-there-run-that",
+  "url": "https://goodr.com/products/bean-there-run-that",
+  "kind": "Accessories"
+ },
+ {
+  "id": "costafarms-anthurium-hookeri-dark-medium",
+  "url": "https://costafarms.com/products/anthurium-hookeri-dark-medium",
+  "kind": "Home"
+ },
+ {
+  "id": "costafarms-brasil-philodendron-medium",
+  "url": "https://costafarms.com/products/brasil-philodendron-medium",
+  "kind": "Home"
+ },
+ {
+  "id": "costafarms-large-pachira-parent",
+  "url": "https://costafarms.com/products/large-pachira-parent",
+  "kind": "Home"
+ },
+ {
+  "id": "eaglecreek-global-travel-adapter-micro",
+  "url": "https://eaglecreek.com/products/global-travel-adapter-micro",
+  "kind": "Accessories"
+ },
+ {
+  "id": "eaglecreek-pack-it-dry-cube-m",
+  "url": "https://eaglecreek.com/products/pack-it-dry-cube-m",
+  "kind": "Accessories"
+ },
+ {
+  "id": "eaglecreek-cargo-hauler-tote-65l",
+  "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l",
+  "kind": "Accessories"
+ },
+ {
+  "id": "timex-easy-reader-25mm-expansion-band-watch-t2h371",
+  "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371",
+  "kind": "Accessories"
+ },
+ {
+  "id": "timex-timex-digital-33mm-resin-strap-watch-tw5m61400",
+  "url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400",
+  "kind": "Accessories"
+ },
+ {
+  "id": "timex-timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900",
+  "url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900",
+  "kind": "Accessories"
+ },
+ {
+  "id": "summerfridays-lip-butter-balm-sugar-plum",
+  "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum",
+  "kind": "Personal care"
+ },
+ {
+  "id": "summerfridays-lip-butter-balm-mocha-bonbon",
+  "url": "https://summerfridays.com/products/lip-butter-balm-mocha-bonbon",
+  "kind": "Personal care"
+ },
+ {
+  "id": "pioneerworks-chelsea-girls",
+  "url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles",
+  "kind": "Books"
+ },
+ {
+  "id": "pioneerworks-club-med",
+  "url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic",
+  "kind": "Books"
+ },
+ {
+  "id": "pioneerworks-it-will-come-back-to-you",
+  "url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez",
+  "kind": "Books"
+ },
+ {
+  "id": "pioneerworks-all-day-all-night",
+  "url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night",
+  "kind": "Books"
+ },
+ {
+  "id": "papersource-light-blue-fountain-pen-ink-set",
+  "url": "https://www.papersource.com/products/light-blue-fountain-pen-ink-set-0818351007186",
+  "kind": "Office"
+ },
+ {
+  "id": "papersource-manuscript-fountain-pen-classic",
+  "url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009",
+  "kind": "Office"
+ },
+ {
+  "id": "papersource-quiet-moments-guided-sketchbook",
+  "url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865",
+  "kind": "Office"
+ },
+ {
+  "id": "archerandolive-b6-softcover-notebooks-set-of-3",
+  "url": "https://archerandolive.com/products/b6-softcover-notebooks-set-of-3",
+  "kind": "Office"
+ },
+ {
+  "id": "archerandolive-quiet-corners-calliograph-pens",
+  "url": "https://archerandolive.com/products/quiet-corners-calliograph-pens-set-of-10",
+  "kind": "Office"
+ },
+ {
+  "id": "miir-shogo-ota-20oz-wide-mouth-bottle",
+  "url": "https://miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "miir-shogo-ota-16oz-tumbler",
+  "url": "https://miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "miir-moka-mug-coffee-kit",
+  "url": "https://miir.com/products/moka-mug-coffee-kit",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "manduka-endura-fitness-mat-10mm",
+  "url": "https://manduka.com/products/endura-fitness-mat-10mm",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "manduka-ratio-relaxation-mat",
+  "url": "https://manduka.com/products/ratio-wool-relaxation-mat",
+  "kind": "Outdoors"
+ },
+ {
+  "id": "manduka-essential-cotton-yoga-blanket",
+  "url": "https://manduka.com/products/essential-cotton-yoga-blanket",
+  "kind": "Outdoors"
  }
 ]

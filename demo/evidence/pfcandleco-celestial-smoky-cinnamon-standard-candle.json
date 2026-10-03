@@ -1,0 +1,84 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:00Z",
+  "ship": [
+   "$7 SHIPPING* OR FREE ON ORDERS $80+ | LEARN MORE",
+   "Free Shipping on orders over $80",
+   "Shipping + Returns",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle",
+ "http_status": 200,
+ "id": "pfcandleco-celestial-smoky-cinnamon-standard-candle",
+ "image_file": "pfcandleco-celestial-smoky-cinnamon-standard-candle.jpg",
+ "image_sha256": "019ab97eb5f4d01a1038a6f7f8358cf2da51fb339c51bbb2b69b3eb68d8046af",
+ "image_source": "http://pfcandleco.com/cdn/shop/files/SmokyCinnamonCelestialEcomm-2.jpg?v=1785953769&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Size",
+     "value": "7.2 oz"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Material",
+     "value": "Smoky grey glass jar"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Dimensions",
+     "value": "2.9\u201dW x 3.5\u201dH"
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://pfcandleco.com/cdn/shop/files/logo_updated_2025.svg?v=1743537426&width=600"
+    },
+    "name": "P.F. Candle Co."
+   },
+   "description": "Last released in 2024! Bitter orange, cassia bark, and patchouli. Smells like cinnamon brooms in the doorway, late-night bonfires under the full moon, and a twist of bright citrus.\nFrom our limited edition Celestial Collection, poured into smoky grey glass jars with black lids and labels adorned with metallic motifs.\u00a0\nTOP\nbitter orange, mandarin, green leaves\nMID\nnutmeg, cardamom seed\nBASE\ncassia bark, patchouli, cade, incense",
+   "image": [
+    "https://pfcandleco.com/cdn/shop/files/SmokyCinnamonCelestialEcomm-2.jpg?v=1785953769&width=3800",
+    "https://pfcandleco.com/cdn/shop/files/smokycinnamonSCcelestiallifestyle_3800px.jpg?v=1788290364&width=3800",
+    "https://pfcandleco.com/cdn/shop/files/CelestialSmokyCinnamon_SC.jpg?v=1787253739&width=3000"
+   ],
+   "name": "Celestial Smoky Cinnamon \u2013 Standard Candle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "P. F. Candle Co.",
+      "url": "https://pfcandleco.com"
+     },
+     "sku": "XC34",
+     "url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle?variant=55096668488052"
+    }
+   ],
+   "sku": "XC34",
+   "url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:17:52Z",
+ "og_image": "http://pfcandleco.com/cdn/shop/files/SmokyCinnamonCelestialEcomm-2.jpg?v=1785953769",
+ "page_sha256": "ca84dbd9587346f84af5e9bb7544e74c7917b4ef6f167fdd20980f21088315fb",
+ "rendered_checked": true,
+ "title": "P.F. Candle Co. Celestial Smoky Cinnamon Standard Candle \u2013 P. F. Candle Co.",
+ "url": "https://pfcandleco.com/products/celestial-smoky-cinnamon-standard-candle"
+}

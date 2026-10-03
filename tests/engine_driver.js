@@ -91,7 +91,7 @@ out.membersExist = cat.filter(p => p.sh && p.sh.members).length;
 out.suggest = {};
 ["cof", "old nav", "bambino", "shoe"].forEach(q => { out.suggest[q] = E.suggest(st({ q: q })).map(x => [x.type, x.label, x.sub]); });
 out.nearest = {};
-["espresso machine", "zzyzx coffee", "espressoo"].forEach(q => { out.nearest[q] = E.nearest(q).map(r => [cat[r.i].n, r.hit, r.miss]); });
+["espresso laptop", "zzyzx coffee", "espressoo"].forEach(q => { out.nearest[q] = E.nearest(q).map(r => [cat[r.i].n, r.hit, r.miss]); });
 out.hash = {};
 ["q=coffee&sub=1&ship=min&size=2%20lb&kind=Coffee&store=Lavazza&coupon=1&sort=lo&all=1", "kind=Nope&ship=weird&q=tea&sort=zzz", "q=%E0%A4%A", "", "#q=a%26b"].forEach(h => {
   const s = E.decode(h);

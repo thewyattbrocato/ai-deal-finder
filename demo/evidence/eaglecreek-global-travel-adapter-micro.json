@@ -1,0 +1,68 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:06Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $99+",
+   "Free Shipping On Orders $99+",
+   "Shipping",
+   "You are $99.00 away from FREE SHIPPING*"
+  ],
+  "size": [
+   "Size: Micro"
+  ],
+  "sub": [
+   "Subscribe To Our Emails",
+   "SUBSCRIBE"
+  ],
+  "url": "https://eaglecreek.com/products/global-travel-adapter-micro"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://eaglecreek.com/products/global-travel-adapter-micro",
+ "http_status": 200,
+ "id": "eaglecreek-global-travel-adapter-micro",
+ "image_file": "eaglecreek-global-travel-adapter-micro.jpg",
+ "image_sha256": "86bdf23e008efd73fb9656a322dde65f2811f80769ab75f9f5f299da57b416bf",
+ "image_source": "http://eaglecreek.com/cdn/shop/files/EC010518_128_a-f6f6f6.jpg?v=1762203074&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Accessories"
+   },
+   "description": "When packing light is non-negotiable, the Global Travel Adapter Micro is the critical piece of gear you need, without the bulk. Built for 2-pole ungrounded devices (like your phone, tablet, or camera charger), this adapter is compatible with the four main global plug types (A, C, I, G), ensuring your essentials stay powered from the US to the UK to Australia and beyond. Designed in Switzerland for rock-solid reliability, the Micro Adapter features a dependable integrated 2.5A fuse for quick, reliable charging for small electronics like phones and earbuds.\nInput plugs for Euro, Australia/China, UK, USA/Japan. Does not convert voltage.",
+   "image": [
+    "https://eaglecreek.com/cdn/shop/files/EC010518_128_a-f6f6f6.jpg?v=1762203074&width=1200"
+   ],
+   "name": "Global Travel Adapter Micro",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "810174991789",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "White",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Eagle Creek",
+      "url": "https://eaglecreek.com/"
+     },
+     "sku": "EC010518128",
+     "url": "https://eaglecreek.com/products/global-travel-adapter-micro?variant=44799178834057"
+    }
+   ],
+   "sku": "EC010518128",
+   "url": "https://eaglecreek.com/products/global-travel-adapter-micro"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:08Z",
+ "og_image": "http://eaglecreek.com/cdn/shop/files/EC010518_128_a-f6f6f6.jpg?v=1762203074",
+ "page_sha256": "bb2fd40d050cabeea0b569ec523232380dde405e886b9797f898472a9d31eb87",
+ "rendered_checked": true,
+ "title": "Global Travel Adapter Micro | Eagle Creek",
+ "url": "https://eaglecreek.com/products/global-travel-adapter-micro"
+}

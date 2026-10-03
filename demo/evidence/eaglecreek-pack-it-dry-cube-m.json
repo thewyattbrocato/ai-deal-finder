@@ -1,0 +1,100 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:14Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $99+",
+   "Free Shipping On Orders $99+",
+   "Shipping",
+   "You are $99.00 away from FREE SHIPPING*"
+  ],
+  "size": [
+   "Size: M"
+  ],
+  "sub": [
+   "Subscribe To Our Emails",
+   "SUBSCRIBE"
+  ],
+  "url": "https://eaglecreek.com/products/pack-it-dry-cube-m"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://eaglecreek.com/products/pack-it-dry-cube-m",
+ "http_status": 200,
+ "id": "eaglecreek-pack-it-dry-cube-m",
+ "image_file": "eaglecreek-pack-it-dry-cube-m.jpg",
+ "image_sha256": "f9c77161706bfc76bf3ff24f42640b3a2202b8820176a9c562c5e914b81a3cf5",
+ "image_source": "http://eaglecreek.com/cdn/shop/files/EC040305_013_d.jpg?v=1747427349&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Pack-It Organization"
+   },
+   "description": "Featuring welded seams and waterproof 100% recycled TPU polyester, the Pack-It\u00ae Dry Packing Cube shields contents against daylong rain or an errant beverage container. It\u2019s equally good at isolating wet, messy gear: Sandy travel towels, snow-soaked gloves, and leak-prone bottles can travel inside to keep the rest of your stuff dry and clean. Heavy-duty lash points let you secure it to a backpack or duffel where it delivers waterproof protection in all soggy situations except fully underwater dunkings.\n\u00a0",
+   "image": [
+    "https://eaglecreek.com/cdn/shop/files/EC040305_013_d.jpg?v=1747427349&width=1200"
+   ],
+   "name": "Pack-It\u00ae Dry Packing Cube M",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "810101611193",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Graphite",
+     "price": 55.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Eagle Creek",
+      "url": "https://eaglecreek.com/"
+     },
+     "sku": "EC040305013",
+     "url": "https://eaglecreek.com/products/pack-it-dry-cube-m?variant=41337111314569"
+    }
+   ],
+   "sku": "EC040305013",
+   "url": "https://eaglecreek.com/products/pack-it-dry-cube-m"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "1"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Pack-It Organization"
+   },
+   "description": "Featuring welded seams and waterproof 100% recycled TPU polyester, the Pack-It\u00ae Dry Packing Cube shields contents against daylong rain or an errant beverage container. It\u2019s equally good at isolating wet, messy gear: Sandy travel towels, snow-soaked gloves, and leak-prone bottles can travel inside to keep the rest of your stuff dry and clean. Heavy-duty lash points let you secure it to a backpack or duffel where it delivers waterproof protection in all soggy situations except fully underwater dunkings.\n\u00a0",
+   "image": [
+    "https://eaglecreek.com/cdn/shop/files/EC040305_013_d.jpg?v=1747427349&width=480"
+   ],
+   "name": "Pack-It\u00ae Dry Packing Cube M",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "55.0",
+    "priceCurrency": "USD",
+    "sku": "EC040305013",
+    "url": "https://eaglecreek.com/products/pack-it-dry-cube-m?variant=41337111314569"
+   },
+   "sku": "EC040305013"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:10Z",
+ "og_image": "http://eaglecreek.com/cdn/shop/files/EC040305_013_d.jpg?v=1747427349",
+ "page_sha256": "4297a2b5e6114019fe464d3680d0ebefedcd8a175f8d0593db08e252f5309374",
+ "rendered_checked": true,
+ "title": "PACK-IT\u00ae Dry Packing Cube M | Eagle Creek",
+ "url": "https://eaglecreek.com/products/pack-it-dry-cube-m"
+}

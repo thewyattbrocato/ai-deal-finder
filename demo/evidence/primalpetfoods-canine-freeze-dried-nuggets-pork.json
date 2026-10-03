@@ -1,0 +1,117 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:42Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $50",
+   "Free shipping on orders over $50",
+   "SHIPPING POLICY"
+  ],
+  "size": [
+   "SELECT SIZE",
+   "Available Sizes: 5.5 oz, 14 oz"
+  ],
+  "sub": [
+   "USE HELLO20 FOR 20% OFF 1ST SUBSCRIBE & SAVE ORDER",
+   "Save an additional 20% on your first subscription order with discount code: HELLO20",
+   "Subscribe & Save",
+   "Subscribe"
+  ],
+  "url": "https://www.primalpetfoods.com/products/canine-freeze-dried-nuggets-pork"
+ },
+ "coupon_snippets": [
+  "nts and Nutritional Information --> Select Size 14oz Variant sold out or unavailable $2.86/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $39.99 Subscribe & Save Popular $39.99 Select frequency Every 4 weeks Every week Every 2 weeks Every 3 weeks Every 6 weeks Every 8",
+  "PE PORK RECIPE RABBIT RECIPE TURKEY & SARDINE RECIPE VENISON RECIPE SELECT SIZE 14oz $2.86/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $39.99 Subscribe & Save 5% Popular $39.99 $37.99 QUANTITY Decrease quantity for Freeze-Dried Raw Nuggets Dog Food - Pork Recipe Inc"
+ ],
+ "final_url": "https://www.primalpetfoods.com/products/canine-freeze-dried-nuggets-pork",
+ "http_status": 200,
+ "id": "primalpetfoods-canine-freeze-dried-nuggets-pork",
+ "image_file": "primalpetfoods-canine-freeze-dried-nuggets-pork.png",
+ "image_sha256": "0df2326dd75cc1cbaf6e0101fa2a89042229d25c3e727863ddb54c37afe79ed2",
+ "image_source": "http://www.primalpetfoods.com/cdn/shop/files/24-PRIMAL-2012-TilesCarousel-1011__FDR_Nuggets_Dog_Pork_14oz_1120-1_F.png?v=1730961560&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/canine-freeze-dried-nuggets-pork#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "5",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "description": "Crate-free pork raised without antibiotics, steroids, or added hormones\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nBacked by peer reviewed research to be highly digestible and support a healthier gut compared to foods cooked at high heat\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/24-PRIMAL-2012-TilesCarousel-1011__FDR_Nuggets_Dog_Pork_14oz_1120-1_F_450x450.png?v=1730961560",
+   "mpn": "9767475986",
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Pork Recipe",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Primal Pet Foods"
+    }
+   },
+   "url": "/products/canine-freeze-dried-nuggets-pork"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/canine-freeze-dried-nuggets-pork#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "category": "Dog Food",
+   "description": "\nCrate-free pork raised without antibiotics, steroids, or added hormones\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nBacked by peer reviewed research to be highly digestible and support a healthier gut compared to foods cooked at high heat\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "hasVariant": [
+    {
+     "@id": "/products/canine-freeze-dried-nuggets-pork?variant=43919479406819#variant",
+     "@type": "Product",
+     "gtin": "895135000595",
+     "image": "https://www.primalpetfoods.com/cdn/shop/files/24-PRIMAL-2012-TilesCarousel-1011__FDR_Nuggets_Dog_Pork_14oz_1120-1_F.png?v=1730961560&width=1920",
+     "name": "Freeze-Dried Raw Nuggets Dog Food - Pork Recipe - 14oz",
+     "offers": {
+      "@id": "/products/canine-freeze-dried-nuggets-pork?variant=43919479406819#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.primalpetfoods.com/products/canine-freeze-dried-nuggets-pork?variant=43919479406819"
+     },
+     "sku": "CPKF14-FD/4"
+    }
+   ],
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Pork Recipe",
+   "productGroupID": "9767475986",
+   "url": "https://www.primalpetfoods.com/products/canine-freeze-dried-nuggets-pork"
+  },
+  {
+   "@id": "/products/canine-freeze-dried-nuggets-pork?variant=43919479406819#variant",
+   "@type": "Product",
+   "gtin": "895135000595",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/24-PRIMAL-2012-TilesCarousel-1011__FDR_Nuggets_Dog_Pork_14oz_1120-1_F.png?v=1730961560&width=1920",
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Pork Recipe - 14oz",
+   "offers": {
+    "@id": "/products/canine-freeze-dried-nuggets-pork?variant=43919479406819#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.primalpetfoods.com/products/canine-freeze-dried-nuggets-pork?variant=43919479406819"
+   },
+   "sku": "CPKF14-FD/4"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T22:17:38Z",
+ "og_image": "http://www.primalpetfoods.com/cdn/shop/files/24-PRIMAL-2012-TilesCarousel-1011__FDR_Nuggets_Dog_Pork_14oz_1120-1_F.png?v=1730961560",
+ "page_sha256": "8b02d054bdc72621f4587ea09be0eec150651351411f72583b924fee850d0bb0",
+ "rendered_checked": true,
+ "title": "Freeze-Dried Raw Nuggets Dog Food \u2013 Pork Recipe \u2013 Primal Pet Foods",
+ "url": "https://primalpetfoods.com/products/canine-freeze-dried-nuggets-pork"
+}

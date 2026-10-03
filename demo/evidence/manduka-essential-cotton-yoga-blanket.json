@@ -1,0 +1,92 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:24Z",
+  "ship": [
+   "Free Economy Shipping on Orders Over $140.",
+   "Free economy shipping on orders $140+",
+   "Extra large mats will have additional shipping charges.",
+   "Shipping",
+   "You are $140.00 away from FREE SHIPPING."
+  ],
+  "size": [
+   "Size:"
+  ],
+  "sub": [],
+  "url": "https://www.manduka.com/products/essential-cotton-yoga-blanket"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.manduka.com/products/essential-cotton-yoga-blanket",
+ "http_status": 200,
+ "id": "manduka-essential-cotton-yoga-blanket",
+ "image_file": "manduka-essential-cotton-yoga-blanket.jpg",
+ "image_sha256": "baf742a95347407bcbec23d72b8293b5f58c9fb2c0064949ddd87abbfdf433e6",
+ "image_source": "http://www.manduka.com/cdn/shop/files/4G103AN90-Props-ESSENTIAL-COTTON-BLANKET-NATURAL-01_45e4b4b0-2fa7-45d9-9a7a-65c6dc250a03.jpg?v=1768516484&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Manduka"
+   },
+   "description": "The Essential Yoga Cotton Blanket is a foundational yoga prop designed to support a wide range of practices, from restorative poses and seated meditation to added cushioning and warmth during longer holds.\nIts substantial weight and generous size allow it to be folded, rolled, or layered to provide lift, padding, or insulation where needed. The cotton-rich blend offers a soft, breathable feel that stays comfortable against the skin, making it well-suited for everyday practice across seasons.\nHand-loomed in India using recycled fibers.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "Color": "Natural",
+     "Size": "One Size",
+     "gtin12": "840104827864",
+     "image": "https://www.manduka.com/cdn/shop/files/4G103AN90-Props-ESSENTIAL-COTTON-BLANKET-NATURAL-01_45e4b4b0-2fa7-45d9-9a7a-65c6dc250a03.jpg?v=1768516484&width=871",
+     "name": "One Size / Natural",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "88.00",
+      "priceCurrency": "USD",
+      "url": "https://www.manduka.com/products/essential-cotton-yoga-blanket?variant=41187926245434"
+     },
+     "sku": "4G103AN90"
+    }
+   ],
+   "image": [
+    "https://www.manduka.com/cdn/shop/files/4G103AN90-Props-ESSENTIAL-COTTON-BLANKET-NATURAL-01_45e4b4b0-2fa7-45d9-9a7a-65c6dc250a03.jpg?v=1768516484&width=871"
+   ],
+   "name": "Essential Cotton Yoga Blanket",
+   "productGroupID": 7496520204346,
+   "sku": "4G103AN90",
+   "url": "https://www.manduka.com/products/essential-cotton-yoga-blanket",
+   "variesBy": [
+    "https://schema.org/Size",
+    "https://schema.org/Color"
+   ]
+  },
+  {
+   "@type": "Product",
+   "Color": "Natural",
+   "Size": "One Size",
+   "gtin12": "840104827864",
+   "image": "https://www.manduka.com/cdn/shop/files/4G103AN90-Props-ESSENTIAL-COTTON-BLANKET-NATURAL-01_45e4b4b0-2fa7-45d9-9a7a-65c6dc250a03.jpg?v=1768516484&width=871",
+   "name": "One Size / Natural",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "88.00",
+    "priceCurrency": "USD",
+    "url": "https://www.manduka.com/products/essential-cotton-yoga-blanket?variant=41187926245434"
+   },
+   "sku": "4G103AN90"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T22:59:56Z",
+ "og_image": "http://www.manduka.com/cdn/shop/files/4G103AN90-Props-ESSENTIAL-COTTON-BLANKET-NATURAL-01_45e4b4b0-2fa7-45d9-9a7a-65c6dc250a03.jpg?v=1768516484",
+ "page_sha256": "bc7d3760f8d28474b3a2f716f97be15223d87de917294356470bc3727008c2d0",
+ "rendered_checked": true,
+ "title": "Essential Cotton Yoga Blanket | Manduka",
+ "url": "https://manduka.com/products/essential-cotton-yoga-blanket"
+}

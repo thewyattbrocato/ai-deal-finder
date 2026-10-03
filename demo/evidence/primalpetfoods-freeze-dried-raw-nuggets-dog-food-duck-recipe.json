@@ -1,0 +1,117 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:04Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $50",
+   "Free shipping on orders over $50",
+   "SHIPPING POLICY"
+  ],
+  "size": [
+   "SELECT SIZE",
+   "Available Sizes: 5.5 oz, 14 oz"
+  ],
+  "sub": [
+   "USE HELLO20 FOR 20% OFF 1ST SUBSCRIBE & SAVE ORDER",
+   "Save an additional 20% on your first subscription order with discount code: HELLO20",
+   "Subscribe & Save",
+   "Subscribe"
+  ],
+  "url": "https://www.primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe"
+ },
+ "coupon_snippets": [
+  "nts and Nutritional Information --> Select Size 14oz Variant sold out or unavailable $3.57/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $49.99 Subscribe & Save Popular $49.99 Select frequency Every 4 weeks Every week Every 2 weeks Every 3 weeks Every 6 weeks Every 8",
+  "PE PORK RECIPE RABBIT RECIPE TURKEY & SARDINE RECIPE VENISON RECIPE SELECT SIZE 14oz $3.57/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $49.99 Subscribe & Save 5% Popular $49.99 $47.49 QUANTITY Decrease quantity for Freeze-Dried Raw Nuggets Dog Food - Duck Recipe Inc"
+ ],
+ "final_url": "https://www.primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe",
+ "http_status": 200,
+ "id": "primalpetfoods-freeze-dried-raw-nuggets-dog-food-duck-recipe",
+ "image_file": "primalpetfoods-freeze-dried-raw-nuggets-dog-food-duck-recipe.png",
+ "image_sha256": "c67f07ceefa5fed1a91f41622e1164cfab40e595240acd098b8a1df20eb46ae3",
+ "image_source": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Dog_DuckTurkeyFish_14oz_1118-1_Frnt_V2.png?v=1752077184&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "4",
+    "ratingValue": "2.3"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "description": "Cage-free duck raised without antibiotics, steroids, or added hormones\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nBacked by peer reviewed research to be highly digestible and support a healthier gut compared to foods cooked at high heat\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Dog_DuckTurkeyFish_14oz_1118-1_Frnt_V2_450x450.png?v=1752077184",
+   "mpn": "8901020254435",
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Duck Recipe",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Primal Pet Foods"
+    }
+   },
+   "url": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "category": "Dog Food",
+   "description": "\nCage-free duck raised without antibiotics, steroids, or added hormones\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nBacked by peer reviewed research to be highly digestible and support a healthier gut compared to foods cooked at high heat\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "hasVariant": [
+    {
+     "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507#variant",
+     "@type": "Product",
+     "gtin": "895135000021",
+     "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Dog_DuckTurkeyFish_14oz_1118-1_Frnt_V2.png?v=1752077184&width=1920",
+     "name": "Freeze-Dried Raw Nuggets Dog Food - Duck Recipe - 14oz",
+     "offers": {
+      "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507"
+     },
+     "sku": "CDTKF14-FD/4"
+    }
+   ],
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Duck Recipe",
+   "productGroupID": "8901020254435",
+   "url": "https://www.primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe"
+  },
+  {
+   "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507#variant",
+   "@type": "Product",
+   "gtin": "895135000021",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Dog_DuckTurkeyFish_14oz_1118-1_Frnt_V2.png?v=1752077184&width=1920",
+   "name": "Freeze-Dried Raw Nuggets Dog Food - Duck Recipe - 14oz",
+   "offers": {
+    "@id": "/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "url": "https://www.primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe?variant=46748695265507"
+   },
+   "sku": "CDTKF14-FD/4"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T22:17:40Z",
+ "og_image": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Dog_DuckTurkeyFish_14oz_1118-1_Frnt_V2.png?v=1752077184",
+ "page_sha256": "d6512e1bba9907a058ec810e96199f81a7d480d1b1f645876beddc213f8679b6",
+ "rendered_checked": true,
+ "title": "Freeze-Dried Raw Nuggets Dog Food \u2013 Duck Recipe \u2013 Primal Pet Foods",
+ "url": "https://primalpetfoods.com/products/freeze-dried-raw-nuggets-dog-food-duck-recipe"
+}

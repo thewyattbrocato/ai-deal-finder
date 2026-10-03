@@ -1,0 +1,117 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:50Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $50",
+   "Free shipping on orders over $50",
+   "SHIPPING POLICY"
+  ],
+  "size": [
+   "SELECT SIZE",
+   "Available Sizes: 5.5 oz, 14 oz"
+  ],
+  "sub": [
+   "USE HELLO20 FOR 20% OFF 1ST SUBSCRIBE & SAVE ORDER",
+   "Save an additional 20% on your first subscription order with discount code: HELLO20",
+   "Subscribe & Save",
+   "Subscribe"
+  ],
+  "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit"
+ },
+ "coupon_snippets": [
+  "nts and Nutritional Information --> Select Size 14oz Variant sold out or unavailable $3.93/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $54.99 Subscribe & Save Popular $54.99 Select frequency Every 4 weeks Every week Every 2 weeks Every 3 weeks Every 6 weeks Every 8",
+  "ALMON RECIPE PORK RECIPE RABBIT RECIPE TURKEY RECIPE VENISON RECIPE SELECT SIZE 14oz $3.93/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $54.99 Subscribe & Save 5% Popular $54.99 $52.24 QUANTITY Decrease quantity for Freeze-Dried Raw Nuggets Cat Food - Rabbit Recipe I"
+ ],
+ "final_url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit",
+ "http_status": 200,
+ "id": "primalpetfoods-feline-freeze-dried-nuggets-rabbit",
+ "image_file": "primalpetfoods-feline-freeze-dried-nuggets-rabbit.png",
+ "image_sha256": "a137add012c40d1e091a10e18400d80c384d673aa6b498ae7704876b7a4d00ab",
+ "image_source": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Rabbit_5oz_1141-2_Frnt.png?v=1730961684&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/feline-freeze-dried-nuggets-rabbit#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "11",
+    "ratingValue": "3.9"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "description": "Farm-raised rabbit - antibiotic free and raised without steroids or added hormones\n\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nEasy to serve - simply portion, crumble and hydrate\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Rabbit_5oz_1141-2_Frnt_450x450.png?v=1730961684",
+   "mpn": "10315516690",
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Rabbit Recipe",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "54.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Primal Pet Foods"
+    }
+   },
+   "url": "/products/feline-freeze-dried-nuggets-rabbit"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/feline-freeze-dried-nuggets-rabbit#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "category": "Nuggets Cat",
+   "description": "\nFarm-raised rabbit - antibiotic free and raised without steroids or added hormones\n\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nEasy to serve - simply portion, crumble and hydrate\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "hasVariant": [
+    {
+     "@id": "/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483#variant",
+     "@type": "Product",
+     "gtin": "854496006257",
+     "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Rabbit_5oz_1141-2_Frnt.png?v=1730961684&width=1920",
+     "name": "Freeze-Dried Raw Nuggets Cat Food - Rabbit Recipe - 14oz",
+     "offers": {
+      "@id": "/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "54.99",
+      "priceCurrency": "USD",
+      "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483"
+     },
+     "sku": "FRF14-FD/4"
+    }
+   ],
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Rabbit Recipe",
+   "productGroupID": "10315516690",
+   "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit"
+  },
+  {
+   "@id": "/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483#variant",
+   "@type": "Product",
+   "gtin": "854496006257",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Rabbit_5oz_1141-2_Frnt.png?v=1730961684&width=1920",
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Rabbit Recipe - 14oz",
+   "offers": {
+    "@id": "/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "54.99",
+    "priceCurrency": "USD",
+    "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit?variant=43920618848483"
+   },
+   "sku": "FRF14-FD/4"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T22:17:44Z",
+ "og_image": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Rabbit_5oz_1141-2_Frnt.png?v=1730961684",
+ "page_sha256": "a91280c16f1a3d12eecd39d7c07135b744a381182aabace82f2b6d02d74e1f7d",
+ "rendered_checked": true,
+ "title": "Freeze-Dried Raw Cat Food Nuggets \u2013 Rabbit Recipe \u2013 Primal Pet Foods",
+ "url": "https://primalpetfoods.com/products/feline-freeze-dried-nuggets-rabbit"
+}

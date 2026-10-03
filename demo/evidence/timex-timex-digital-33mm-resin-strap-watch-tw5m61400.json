@@ -1,0 +1,57 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:38Z",
+  "ship": [
+   "Free ground shipping on orders $400+",
+   "Free standard shipping everyday",
+   "Delivery, Returns & Warranty"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400",
+ "http_status": 200,
+ "id": "timex-timex-digital-33mm-resin-strap-watch-tw5m61400",
+ "image_file": "timex-timex-digital-33mm-resin-strap-watch-tw5m61400.png",
+ "image_sha256": "9440ddb6a5efad5ed122b4e467e75631ed451aff147e0cfa7df1341ca08bd455",
+ "image_source": "http://timex.com/cdn/shop/files/TW5M61400_cda8d14e-8ecf-41c7-80c9-2bf3c8e61096.png?v=1757592954&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "TIMEX"
+   },
+   "description": "Elevate your wrist game with the Timex Digital 33mm Resin Strap Watch. Learn more about its features, here at Timex!",
+   "image": [
+    "https://timex.com/cdn/shop/files/TW5M61400_cda8d14e-8ecf-41c7-80c9-2bf3c8e61096.png?v=1757592954&width=1000"
+   ],
+   "name": "Timex Digital 33mm Resin Strap Watch",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "itemCondition": "NewCondition",
+     "price": "27.0",
+     "priceCurrency": "USD",
+     "sku": "TW5M614009J",
+     "url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400?variant=41797666046035"
+    }
+   ],
+   "sku": "TW5M614009J",
+   "url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:16Z",
+ "og_image": "http://timex.com/cdn/shop/files/TW5M61400_cda8d14e-8ecf-41c7-80c9-2bf3c8e61096.png?v=1757592954",
+ "page_sha256": "aa1fc16132ce344612d651c97754976e229ed2d48ff8bb7f8bddfbf153636fee",
+ "rendered_checked": true,
+ "title": "Timex Digital 33mm Resin Strap Watch - TW5M61400 | Timex US",
+ "url": "https://timex.com/products/timex-digital-33mm-resin-strap-watch-tw5m61400"
+}

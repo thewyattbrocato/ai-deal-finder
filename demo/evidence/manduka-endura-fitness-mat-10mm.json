@@ -1,0 +1,87 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:16Z",
+  "ship": [
+   "Free Economy Shipping on Orders Over $140.",
+   "Free economy shipping on orders $140+",
+   "Extra large mats will have additional shipping charges.",
+   "Shipping",
+   "You are $140.00 away from FREE SHIPPING."
+  ],
+  "size": [
+   "Size:"
+  ],
+  "sub": [],
+  "url": "https://www.manduka.com/products/endura-fitness-mat-10mm"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.manduka.com/products/endura-fitness-mat-10mm",
+ "http_status": 200,
+ "id": "manduka-endura-fitness-mat-10mm",
+ "image_file": "manduka-endura-fitness-mat-10mm.jpg",
+ "image_sha256": "a3e27873ed5a1fc2a4788033c4e052ce51e39c916c1685e91a30b0a2baed2936",
+ "image_source": "http://www.manduka.com/cdn/shop/files/ENDURA-10MM-71-BLACK_01.jpg?v=1776802708&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Manduka"
+   },
+   "description": "The ENDURA Fitness Mat is a commercial-grade fitness mat designed for hotel gyms and high-traffic spaces. A 10mm cushion provides comfortable support for training, stretching, and floorwork, helping reduce pressure on joints during repeated use. It delivers the trusted durability of the Manduka PRO\u00ae with a closed-cell surface that resists moisture and wipes clean easily, while reinforced construction stands up to shoes and daily wear.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "Color": "Black",
+     "Size": "71\" (180cm)",
+     "gtin12": "840104835081",
+     "image": "https://www.manduka.com/cdn/shop/files/ENDURA-10MM-71-BLACK_01.jpg?v=1776802708&width=871",
+     "name": "Black / 71\" (180cm)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "160.00",
+      "priceCurrency": "USD",
+      "url": "https://www.manduka.com/products/endura-fitness-mat-10mm?variant=41364266385466"
+     },
+     "sku": "1E1011010"
+    }
+   ],
+   "image": [
+    "https://www.manduka.com/cdn/shop/files/ENDURA-10MM-71-BLACK_01.jpg?v=1776802708&width=871"
+   ],
+   "name": "ENDURA Fitness Mat 10mm",
+   "productGroupID": 7530836459578,
+   "sku": "1E1011010",
+   "url": "https://www.manduka.com/products/endura-fitness-mat-10mm",
+   "variesBy": [
+    "https://schema.org/Color",
+    "https://schema.org/Size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "Color": "Black",
+   "Size": "71\" (180cm)",
+   "gtin12": "840104835081",
+   "image": "https://www.manduka.com/cdn/shop/files/ENDURA-10MM-71-BLACK_01.jpg?v=1776802708&width=871",
+   "name": "Black / 71\" (180cm)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "160.00",
+    "priceCurrency": "USD",
+    "url": "https://www.manduka.com/products/endura-fitness-mat-10mm?variant=41364266385466"
+   },
+   "sku": "1E1011010"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T22:59:52Z",
+ "og_image": "http://www.manduka.com/cdn/shop/files/ENDURA-10MM-71-BLACK_01.jpg?v=1776802708",
+ "page_sha256": "02606f82459d55ef63411f7e31ad98b774bb9e9796586c3477e4d044a389e823",
+ "rendered_checked": true,
+ "title": "Manduka Endura Fitness Mat 10mm",
+ "url": "https://manduka.com/products/endura-fitness-mat-10mm"
+}

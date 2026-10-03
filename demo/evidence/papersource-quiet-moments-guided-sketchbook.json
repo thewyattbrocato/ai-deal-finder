@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:52Z",
+  "ship": [
+   "Free Standard Shipping $60+ \u2192",
+   "Shipping Information"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to newsletter",
+   "Submit your email address to receive Paper Source offers & updates. You can view our Privacy Policy here. Unsubscribe from our emails at any time."
+  ],
+  "url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865",
+ "http_status": 200,
+ "id": "papersource-quiet-moments-guided-sketchbook",
+ "image_file": "papersource-quiet-moments-guided-sketchbook.jpg",
+ "image_sha256": "30d5c31c26d47d6be70b293d508ae5b405ea63c49ad4e40cb9306ad953d42be0",
+ "image_source": "http://www.papersource.com/cdn/shop/files/9781797236865_p0.jpg?v=1789041330&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/quiet-moments-a-guided-sketchbook-9781797236865#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Chronicle Books"
+   },
+   "category": "",
+   "description": "Engage mindfully and creatively with everyday wonders with this guided sketchbook as your daily companion.Whether you\u2019re a beginner or a seasoned artist, this is your reminder to pause and celebrate the beauty in the world around you. The prompts in this sketchbook will help you establish a regular creative ritual that uncovers the extraordinary in the everyday. From a tiny insect to a vase of flowers on your kitchen table to the lines of an urban landscape, anything can become the subject of your next drawing. Watercolor and ink illustrations throughout offer inspiration and banish the fear of the blank page.\u00a0In this interactive art journal, sketching is not just about making art but about being fully present and unlocking the transformative potential of self\u0097expression.FOSTER A CREATIVE HABIT: As a full\u0097time artist and busy mother of four, Kate Lewis has established a habit of observing and sketching one simple thing every morning\u2014a tree she passed on her walk or the cup of tea on the kitchen windowsill. With this guided sketchbook, she helps anyone adopt this habit, whether you aspire to improve your drawing skills or simply want to feel more grounded and calm. UNCOVER JOY AND INSPIRATION EVERYWHERE: With its combination of everyday sketching and bite\u0097sized meditative practice, this prompted journal makes it easy to find artistic inspiration and see your surroundings with new eyes. GIFT FOR CREATIVES AND MINDFULNESS ENTHUSIASTS: This beautifully packaged sketchbook, with prompts and small illustrations throughout, makes the perfect gift for people who aspire to be more creative, more mindful, or both.Perfect for: \n Artists of any skill level \n Visual journalers \n Meditators and mindfulness enthusiasts \n Anyone looking to build a new positive habit into their daily routine \n Gift for creative family and friends, art students, and recent graduates \n Fans of The Artist's Way Morning Pages Journal, Walk and Wonder, One Drawing A Day, and other creative guided journals \n",
+   "gtin": "9781797236865",
+   "image": "https://www.papersource.com/cdn/shop/files/9781797236865_p0.jpg?v=1789041330&width=1920",
+   "name": "Quiet Moments: A Guided Sketchbook",
+   "offers": {
+    "@id": "/products/quiet-moments-a-guided-sketchbook-9781797236865?variant=54539469717814#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "16.95",
+    "priceCurrency": "USD",
+    "url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865?variant=54539469717814"
+   },
+   "sku": "9781797236865",
+   "url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T22:21:29Z",
+ "og_image": "http://www.papersource.com/cdn/shop/files/9781797236865_p0.jpg?v=1789041330&width=2048",
+ "page_sha256": "bb7252160e0e0375754cefc9e0c327efd8b5706382e779616a9af93c1b07704b",
+ "rendered_checked": true,
+ "title": "Quiet Moments: A Guided Sketchbook | Paper Source",
+ "url": "https://www.papersource.com/products/quiet-moments-a-guided-sketchbook-9781797236865"
+}

@@ -1,0 +1,143 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:35:03Z",
+  "ship": [
+   "Read our Shipping Policy and our Return & Refund Policy before purchasing our products.",
+   "FREE DELIVERY AVAILABLE",
+   "WORLDWIDE SHIPPING",
+   "SHIPPING & RETURN POLICY"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE TO OUR NEWSLETTER",
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.wacaco.com/products/picopresso"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.wacaco.com/products/picopresso",
+ "http_status": 200,
+ "id": "wacaco-picopresso",
+ "image_file": "wacaco-picopresso.png",
+ "image_sha256": "76f802eed3acc531cdba454d86f852def484846cb2e70462c3a51be4c634e259",
+ "image_source": "https://www.wacaco.com/cdn/shop/products/Picopresso-308-PNG-LD_58cced72-f01b-46de-a2d3-c874f0e41819.png?v=1678885971&width=420",
+ "json_ld": [
+  {
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "description": "Stamped.io Product Reviews Addon",
+    "ratingValue": "4.70677731673582",
+    "reviewCount": "723"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Wacaco"
+   },
+   "description": "DESCRIPTIONPicopresso is the most compact and pro-oriented of our portable espresso machines. This specialty coffee espresso machine features a naked portafilter so that users will see delicious creamy espresso flowing directly from a standard 52mm 18 grams stainless steel filter basket during the brewing process. With the Picopresso, there are no shortcuts. Each homebrewer must master the art of manual espresso making by dialing in the correct grind size, tamping, and perfecting pulling technique \u2013 their reward; is an authentic cafe-quality espresso that will rival any expensive high-end machine.NOTICE:\u00a0Picopresso does not heat up water.Read our Shipping Policy and our Return &amp; Refund Policy before purchasing our products.VIDEO ",
+   "gtin13": "4897066230764",
+   "image": "https://www.wacaco.com/cdn/shop/files/Picopresso-306-PNG-LD.png?v=1785804489",
+   "mpn": "4897066230764",
+   "name": "PICOPRESSO",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin13": "4897066230764",
+     "hasMerchantReturnPolicy": [
+      {
+       "@id": "#return-policy-0"
+      }
+     ],
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": "129.90",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-02",
+     "seller": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+      "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+      "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+      "name": "Wacaco"
+     },
+     "shippingDetails": [
+      {
+       "@id": "#shipping-details-0"
+      },
+      {
+       "@id": "#shipping-details-1"
+      },
+      {
+       "@id": "#shipping-details-2"
+      },
+      {
+       "@id": "#shipping-details-3"
+      },
+      {
+       "@id": "#shipping-details-4"
+      },
+      {
+       "@id": "#shipping-details-5"
+      },
+      {
+       "@id": "#shipping-details-6"
+      },
+      {
+       "@id": "#shipping-details-7"
+      },
+      {
+       "@id": "#shipping-details-8"
+      },
+      {
+       "@id": "#shipping-details-9"
+      },
+      {
+       "@id": "#shipping-details-10"
+      },
+      {
+       "@id": "#shipping-details-11"
+      },
+      {
+       "@id": "#shipping-details-12"
+      },
+      {
+       "@id": "#shipping-details-13"
+      },
+      {
+       "@id": "#shipping-details-14"
+      },
+      {
+       "@id": "#shipping-details-15"
+      },
+      {
+       "@id": "#shipping-details-16"
+      },
+      {
+       "@id": "#shipping-details-17"
+      },
+      {
+       "@id": "#shipping-details-18"
+      },
+      {
+       "@id": "#shipping-details-19"
+      }
+     ],
+     "sku": "102005.00002",
+     "url": "https://www.wacaco.com/products/picopresso?variant=54406905167945",
+     "validFrom": "2021-06-05"
+    }
+   ],
+   "productId": "4897066230764",
+   "url": "https://www.wacaco.com/products/picopresso",
+   "weight": "1.5kg"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:31Z",
+ "og_image": "https://www.wacaco.com/cdn/shop/products/Picopresso-308-PNG-LD_58cced72-f01b-46de-a2d3-c874f0e41819.png?v=1678885971",
+ "page_sha256": "3e4a23b49a0afd719ddbfb12781fd7fc76905751ec63ca908ed1c782b4c83581",
+ "rendered_checked": true,
+ "title": "Wacaco | Picopresso | Pro-level Portable Espresso Machine",
+ "url": "https://wacaco.com/products/picopresso"
+}

@@ -1,0 +1,53 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:21Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter."
+  ],
+  "url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles",
+ "http_status": 200,
+ "id": "pioneerworks-chelsea-girls",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Pioneer Works"
+   },
+   "category": "",
+   "description": "",
+   "gtin13": 9780062394668,
+   "name": "Chelsea Girls by Eileen Myles",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin13": 9780062394668,
+     "name": "Default Title",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "EILEEN",
+     "url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles?variant=40776168603706"
+    }
+   ],
+   "productId": "9780062394668",
+   "sku": "EILEEN",
+   "url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles"
+  }
+ ],
+ "kind": "Books",
+ "observed_at": "2026-10-03T22:21:19Z",
+ "og_image": null,
+ "page_sha256": "f48d4e19df6e2764b89c70a7f744c39bbc87338e8079cc8a1bcf033c2de16435",
+ "rendered_checked": true,
+ "title": "Chelsea Girls by Eileen Myles \u2013 Pioneer Works",
+ "url": "https://store.pioneerworks.org/products/chelsea-girls-by-eileen-myles"
+}

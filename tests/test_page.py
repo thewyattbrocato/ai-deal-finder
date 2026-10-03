@@ -149,8 +149,8 @@ class SearchFirstTest(unittest.TestCase):
     def test_the_first_screen_offers_kinds_and_how_to_read_it(self):
         start = self.d["load"]["startText"]
         self.assertIn("Or start with a kind", start)
-        self.assertIn("Kitchen27 products", start)
-        self.assertIn("Browse all 281 checked products", start)
+        self.assertIn("Kitchen42 products", start)
+        self.assertIn("Browse all 335 checked products", start)
         self.assertIn("never guessed", start)
 
     # ---- 2. results as the first characters are typed -------------------------
@@ -165,13 +165,13 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(counts[-1], 1)                 # "sweatpants" finds the Old Navy pair
         for s in self.d["sweatpantsLetters"][1:]:
             self.assertTrue(s["areaShown"])
-        self.assertEqual(t["cof"]["count"], "25 checked products for “cof”")
-        self.assertEqual(t["coffee"]["count"], "25 checked products for “coffee”")
+        self.assertEqual(t["cof"]["count"], "32 checked products for “cof”")
+        self.assertEqual(t["coffee"]["count"], "32 checked products for “coffee”")
         self.assertEqual(t["old nav"]["count"], "1 checked product for “old nav”")
 
     def test_whole_words_only_bean_does_not_find_beanie(self):
         q = self.eng["queries"]
-        self.assertEqual(len(q["bean"]["rows"]), 11)
+        self.assertEqual(len(q["bean"]["rows"]), 12)   # incl. goodr "Bean There, Run That"
         self.assertFalse([n for n in q["bean"]["rows"] if "Beanie" in n])
         self.assertEqual(q["beanie"]["rows"], ["Wild at Heart Beanie"])
         # a word still being typed may be the start of a word, until it is a whole word
@@ -193,7 +193,7 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(names(t["cofee"]["main"]), names(t["coffee"]["main"]))
         self.assertEqual(t["coffee"]["notes"], [])
         self.assertEqual(t["cof"]["notes"], [])          # a start of a word is not a typo
-        self.assertEqual(len(t["espreso"]["main"]), 3)
+        self.assertEqual(len(t["espreso"]["main"]), 8)
         self.assertIn("espresso", t["espreso"]["notes"][0])
 
     def test_a_word_nothing_is_near_is_not_corrected_to_something_else(self):
@@ -210,13 +210,13 @@ class SearchFirstTest(unittest.TestCase):
                                                     "counterculturecoffee-the-bambino.json")))
         rows = self.eng["queries"]["espresso"]["rows"]
         self.assertIn("The Breville Bambino™", rows)
-        self.assertEqual(len(rows), 3)
+        self.assertEqual(len(rows), 8)       # the Bambino, two roasts, Flair, Wacaco (see test_coverage_q2)
         self.assertEqual(names(self.d["typed"]["espresso"]["main"]), rows)
         self.assertIn("The Breville Bambino™", names(self.d["typed"]["bambino"]["main"]))
 
     def test_ranking_is_relevance_not_cheapest_first(self):
         main = self.d["typed"]["coffee"]["main"]
-        self.assertEqual(main[0]["name"], "Coffee Tin + PSL")      # the word is in its name
+        self.assertIn("coffee", main[0]["name"].lower())           # the word is in its name
         prices = [int(self.cents(c["priceLabel"])) for c in main]
         self.assertNotEqual(prices, sorted(prices))
         lo = [self.cents(c["priceLabel"]) for c in self.d["sortLo"]["main"]]
@@ -302,7 +302,7 @@ class SearchFirstTest(unittest.TestCase):
 
     def test_full_detail_stays_on_the_same_card_one_tap_away(self):
         cards = page_cards(self.page)
-        self.assertEqual(len(cards), 281)
+        self.assertEqual(len(cards), 335)
         for c in cards:
             body = c[c.index('<details class="more">'):]
             self.assertIn("<summary>Full details: savings, coupon window, what to confirm, terms</summary>", body)
@@ -355,7 +355,7 @@ class SearchFirstTest(unittest.TestCase):
     def test_chips_appear_only_after_there_are_results(self):
         self.assertEqual(self.d["load"]["chips"], [])
         self.assertFalse(self.d["load"]["refineShown"])
-        for q in ("zzyzx", "espresso machine"):
+        for q in ("zzyzx", "espresso laptop"):
             self.assertFalse(self.d["typed"][q]["refineShown"], q)
         coffee = self.d["coffee"]
         self.assertTrue(coffee["refineShown"])
@@ -390,12 +390,12 @@ class SearchFirstTest(unittest.TestCase):
             self.assertTrue(u["noSilentListed"], u)
             self.assertTrue(u["disjoint"], u)
         s = self.d["coffeeSub"]
-        self.assertIn("13 more products don’t state a subscribe option on the page, so they aren’t counted above.", s["unk"])
+        self.assertIn("20 more products don’t state a subscribe option on the page, so they aren’t counted above.", s["unk"])
         self.assertEqual(len(s["main"]), 12)
         self.assertEqual(s["unkCards"], [])
         shown = self.d["coffeeSubShown"]
         self.assertTrue(shown["unkOpen"])
-        self.assertEqual(len(shown["unkCards"]), 13)
+        self.assertEqual(len(shown["unkCards"]), 20)
         for c in shown["unkCards"]:
             self.assertIn("Subscribe: not stated — unknown", c["facts"])
         self.assertIn("Hide them", shown["unk"])
@@ -410,7 +410,7 @@ class SearchFirstTest(unittest.TestCase):
             self.assertIn("2 lb bag", c["sizeLine"])
             self.assertEqual(c["shelf"], c["price"] + " for the 2 lb bag, as printed on the page")
             self.assertNotRegex(c["shelf"], r"(?i)code|coupon|off\b|save")
-        self.assertIn("19 more products don’t state size on the page", two["unk"])
+        self.assertIn("26 more products don’t state size on the page", two["unk"])
         back = self.d["coffeeSizeBack"]
         for c in back["main"]:
             self.assertEqual(c["price"], c["priceLabel"])
@@ -434,26 +434,26 @@ class SearchFirstTest(unittest.TestCase):
 
     def test_opening_a_kind_or_everything_keeps_nothing_blocking(self):
         self.assertEqual(self.d["tile"]["active"][0]["label"][:12], "Remove: Kind")
-        self.assertEqual(self.d["browseAll"]["count"], "281 checked products")
+        self.assertEqual(self.d["browseAll"]["count"], "335 checked products")
         self.assertEqual(len(self.d["browseAll"]["main"]), 24)
-        self.assertEqual(self.d["browseAll"]["showMore"], "Show 24 more (257 left)")
+        self.assertEqual(self.d["browseAll"]["showMore"], "Show 24 more (311 left)")
         self.assertEqual(self.d["afterKind"]["count"], "11 checked products for “coffee”")
-        self.assertEqual(self.d["removeKind"]["count"], "25 checked products for “coffee”")
+        self.assertEqual(self.d["removeKind"]["count"], "32 checked products for “coffee”")
 
     # ---- 5. empty state, URL state ---------------------------------------------
 
     def test_empty_state_says_what_was_searched_and_offers_real_closest_products(self):
-        e = self.d["typed"]["espresso machine"]["empty"]
-        self.assertIn("No checked product matches “espresso machine”", e["text"])
-        self.assertIn("for all of: “espresso”, “machine”", e["text"])
+        e = self.d["typed"]["espresso laptop"]["empty"]
+        self.assertIn("No checked product matches “espresso laptop”", e["text"])
+        self.assertIn("for all of: “espresso”, “laptop”", e["text"])
         self.assertIn("Nothing is shown that doesn’t match, and nothing is guessed.", e["text"])
         near = e["near"]
         self.assertEqual(len(near), 3)
-        self.assertIn("The Breville Bambino™", [n["name"] for n in near])
+        self.assertIn("Flair Classic", [n["name"] for n in near])    # a real espresso maker, closest first
         for n in near:
-            self.assertIn("Matches “espresso” · doesn’t match “machine”", n["text"])
+            self.assertIn("Matches “espresso” · doesn’t match “laptop”", n["text"])
             self.assertTrue(n["href"].startswith("https://"))
-        for b in ("Kitchen 27", "Browse all 281", "Clear search"):
+        for b in ("Kitchen 42", "Browse all 335", "Clear search"):
             self.assertTrue([x for x in e["buttons"] if x.startswith(b)], b)
         z = self.d["typed"]["zzyzx"]["empty"]
         self.assertEqual(z["near"], [])
@@ -490,7 +490,7 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(fwd["hash"], "#q=coffee&sub=1&coupon=1")
         self.assertEqual(h["back1"]["hash"], "#q=coffee&sub=1")
         self.assertEqual([a["key"] for a in h["back1"]["active"]], ["sub"])
-        self.assertEqual(h["back2"]["count"], "25 checked products for “coffee”")
+        self.assertEqual(h["back2"]["count"], "32 checked products for “coffee”")
         self.assertEqual(h["back2"]["q"], "coffee")
         self.assertTrue(h["back3"]["startShown"])
         self.assertEqual(h["back3"]["q"], "")
@@ -500,7 +500,7 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(refreshed["count"].split(" ")[0], str(len(refreshed["main"])) if len(refreshed["main"]) < 24 else "24")
         r = self.d["hashRestore"]
         self.assertEqual(r["#kind=Shoes"]["count"], "7 checked products")
-        self.assertEqual(r["#all=1"]["count"], "281 checked products")
+        self.assertEqual(r["#all=1"]["count"], "335 checked products")
         lo = [self.cents(c["priceLabel"]) for c in r["#q=coffee&sort=lo"]["main"]]
         self.assertEqual(lo, sorted(lo))
         self.assertEqual(r["#q=coffee&size=2%20lb"]["count"], "2 checked products for “coffee”")
@@ -963,7 +963,7 @@ class PageFixesR2Test(unittest.TestCase):
 
     # 1. no endorsement badge, the same neutral wording on every card
     def test_every_card_carries_the_same_neutral_price_wording_and_no_badge(self):
-        self.assertEqual(len(self.cards), 281)
+        self.assertEqual(len(self.cards), 335)
         for c in self.cards:
             self.assertIn("Price read from the store page", c)
             self.assertIn("Not compared with other stores.", c)
@@ -1069,7 +1069,7 @@ class PageFixesR2Test(unittest.TestCase):
         for q in ("$25", "$25.00", "25 dollars"):
             d = self.d["price"][q]
             self.assertTrue(d["main"], q)
-            self.assertEqual(d["count"].split(" ")[0], "7", q)
+            self.assertEqual(d["count"].split(" ")[0], "8", q)
             for c in d["main"]:
                 self.assertIn(c["priceLabel"], ("$25", "$25.00"), c)
         self.assertNotIn("PowerBug", " ".join(names(self.d["price"]["$25"]["main"])))
@@ -1079,8 +1079,8 @@ class PageFixesR2Test(unittest.TestCase):
             e = self.d["price"][q]["empty"]
             self.assertIn("Search matches words and an exact shelf price", e["text"])
             self.assertIn("sort by price", e["text"])
-            self.assertTrue([b for b in e["buttons"] if b.startswith("Browse all 281, lowest price first")])
+            self.assertTrue([b for b in e["buttons"] if b.startswith("Browse all 335, lowest price first")])
         self.assertEqual(self.d["priceSort"]["hash"], "#sort=lo&all=1")
-        self.assertEqual(self.d["priceSort"]["count"], "281 checked products")
+        self.assertEqual(self.d["priceSort"]["count"], "335 checked products")
         # an ordinary word query gets no price note
         self.assertNotIn("exact shelf price", self.d["typed"]["zzyzx"]["empty"]["text"])

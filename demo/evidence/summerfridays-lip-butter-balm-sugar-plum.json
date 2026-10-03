@@ -1,0 +1,89 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:19Z",
+  "ship": [
+   "FREE SHIPPING ON U.S. ORDERS $35+ Learn More"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscriptions"
+  ],
+  "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum",
+ "http_status": 200,
+ "id": "summerfridays-lip-butter-balm-sugar-plum",
+ "image_file": "summerfridays-lip-butter-balm-sugar-plum.jpg",
+ "image_sha256": "657d6abcfe513581d98ca826892123e09571c7e0681d89a7da183d54662675ba",
+ "image_source": "http://summerfridays.com/cdn/shop/files/Main-LBB-Sugar-Plum.jpg?crop=center&height=1024&v=1788469817&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/lip-butter-balm-sugar-plum#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Summer Fridays"
+   },
+   "category": "Lip Balms",
+   "description": "Our silky vegan lip balm hydrates and softens dry lips with a touch of sheer plum. Butter up for instant moisture and shine\u2014and a hint of sugar plum sweetness.\n#1 Lip Brand*\n*Source: YipitData Brand-level ranking, US $ sales of Prestige brands, Jan-Dec 2025.Excluded from promotions and discounts.\n",
+   "hasVariant": [
+    {
+     "@id": "/products/lip-butter-balm-sugar-plum?variant=43713687683149#variant",
+     "@type": "Product",
+     "gtin": "850075952601",
+     "image": "https://summerfridays.com/cdn/shop/files/Main-LBB-Sugar-Plum.jpg?v=1788469817&width=1920",
+     "name": "Lip Butter Balm Sugar Plum - Sugar Plum",
+     "offers": {
+      "@id": "/products/lip-butter-balm-sugar-plum?variant=43713687683149#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum?variant=43713687683149"
+     },
+     "sku": "S048-19-0000"
+    }
+   ],
+   "name": "Lip Butter Balm Sugar Plum",
+   "productGroupID": "7958113910861",
+   "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum"
+  },
+  {
+   "@id": "/products/lip-butter-balm-sugar-plum?variant=43713687683149#variant",
+   "@type": "Product",
+   "gtin": "850075952601",
+   "image": "https://summerfridays.com/cdn/shop/files/Main-LBB-Sugar-Plum.jpg?v=1788469817&width=1920",
+   "name": "Lip Butter Balm Sugar Plum - Sugar Plum",
+   "offers": {
+    "@id": "/products/lip-butter-balm-sugar-plum?variant=43713687683149#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum?variant=43713687683149"
+   },
+   "sku": "S048-19-0000"
+  },
+  {
+   "@context": "https://schema.org/",
+   "@id": "/products/lip-butter-balm-sugar-plum#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "2"
+   },
+   "name": "Lip Butter Balm Sugar Plum"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T22:18:29Z",
+ "og_image": "http://summerfridays.com/cdn/shop/files/Main-LBB-Sugar-Plum.jpg?crop=center&height=1024&v=1788469817&width=1024",
+ "page_sha256": "6a0c333c9f024fa0bccd44385a9290a07a143de02b6bfeb462205a33af988fd7",
+ "rendered_checked": true,
+ "title": "Lip Butter Balm, Sugar Plum | Summer Fridays",
+ "url": "https://summerfridays.com/products/lip-butter-balm-sugar-plum"
+}

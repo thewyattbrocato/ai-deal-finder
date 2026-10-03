@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:46Z",
+  "ship": [
+   "Free Standard Shipping $60+ \u2192",
+   "Shipping Information"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to newsletter",
+   "Submit your email address to receive Paper Source offers & updates. You can view our Privacy Policy here. Unsubscribe from our emails at any time."
+  ],
+  "url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009",
+ "http_status": 200,
+ "id": "papersource-manuscript-fountain-pen-classic",
+ "image_file": "papersource-manuscript-fountain-pen-classic.jpg",
+ "image_sha256": "143b077f0bc0fe2671dee1503bff788a07f956e9e4074c5fe30b03ed95005bf0",
+ "image_source": "http://www.papersource.com/cdn/shop/files/5020180199009_p0.jpg?v=1790699606&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ma nuscript Pen Company Limited"
+   },
+   "category": "",
+   "description": "Manuscript's fountain pen series offers the opportunity to create a wide range of nib widths for Manuscript's trusted Classic Fountain Pen Series. The Classic pen here comes in a convenient little pouch, with medium polished nib and ink cartridge in the pen barrel. This product offers all the quality of Manuscript's trusted writing nibs but with an accessible price point. Classic pen sections with varied widths are sold seperately. Designed and made in Britain by Manuscript Pen Company Ltd, global calligraphy specialists since 1856. Featuring Plastic Free Packaging for a sustainable future, utilising 100% recyclable board.WARNING: CHOKING HAZARD, small parts. Not suitable for children under 3 years.CAUTION: FUNCTIONAL SHARP POINT.Contains nib Section.CONFORMS TO: ASTM D-4236/BS EN ISO 9001:2005",
+   "gtin": "5020180199009",
+   "image": "https://www.papersource.com/cdn/shop/files/5020180199009_p0.jpg?v=1790699606&width=1920",
+   "name": "Manuscript Fountain Pen Classic in Pillow Pack",
+   "offers": {
+    "@id": "/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009?variant=67609254789430#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "7.50",
+    "priceCurrency": "USD",
+    "url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009?variant=67609254789430"
+   },
+   "sku": "5020180199009",
+   "url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T22:21:28Z",
+ "og_image": "http://www.papersource.com/cdn/shop/files/5020180199009_p0.jpg?v=1790699606&width=2048",
+ "page_sha256": "a338a8c9616c8a3b8a65b3546639c3566fb3c062bfbe73448ef09bc491dd3b47",
+ "rendered_checked": true,
+ "title": "Manuscript Fountain Pen Classic in Pillow Pack | Paper Source",
+ "url": "https://www.papersource.com/products/manuscript-fountain-pen-classic-in-pillow-pack-5020180199009"
+}

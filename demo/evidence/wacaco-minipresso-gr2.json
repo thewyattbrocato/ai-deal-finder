@@ -1,0 +1,630 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:56Z",
+  "ship": [
+   "Please read our Shipping Policy as well as our Return & Refund Policy prior to purchasing our products.",
+   "WORLDWIDE SHIPPING",
+   "SHIPPING & RETURN POLICY",
+   "FREE DELIVERY AVAILABLE"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE TO OUR NEWSLETTER",
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.wacaco.com/products/minipresso-gr2"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.wacaco.com/products/minipresso-gr2",
+ "http_status": 200,
+ "id": "wacaco-minipresso-gr2",
+ "image_file": "wacaco-minipresso-gr2.png",
+ "image_sha256": "e85ee663efed07e5cef4b0729f61e03de4708509dc2c1e09e0339cc3d4afcf94",
+ "image_source": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_102_PNG_LD.png?v=1785804612&width=420",
+ "json_ld": [
+  {
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "description": "Stamped.io Product Reviews Addon",
+    "ratingValue": "4.68181818181818",
+    "reviewCount": "88"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Wacaco"
+   },
+   "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+   "gtin13": "4897066230955",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Gray Olive",
+     "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+     "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_102_PNG_LD.png?v=1785804612",
+     "name": "MINIPRESSO GR2 - Gray Olive",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "gtin13": "4897066230955",
+      "hasMerchantReturnPolicy": [
+       {
+        "@id": "#return-policy-0"
+       }
+      ],
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "54.90",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-01-02",
+      "seller": {
+       "@context": "https://schema.org",
+       "@type": "Organization",
+       "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+       "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "name": "Wacaco"
+      },
+      "shippingDetails": [
+       {
+        "@id": "#shipping-details-0"
+       },
+       {
+        "@id": "#shipping-details-1"
+       },
+       {
+        "@id": "#shipping-details-2"
+       },
+       {
+        "@id": "#shipping-details-3"
+       },
+       {
+        "@id": "#shipping-details-4"
+       },
+       {
+        "@id": "#shipping-details-5"
+       },
+       {
+        "@id": "#shipping-details-6"
+       },
+       {
+        "@id": "#shipping-details-7"
+       },
+       {
+        "@id": "#shipping-details-8"
+       },
+       {
+        "@id": "#shipping-details-9"
+       },
+       {
+        "@id": "#shipping-details-10"
+       },
+       {
+        "@id": "#shipping-details-11"
+       },
+       {
+        "@id": "#shipping-details-12"
+       },
+       {
+        "@id": "#shipping-details-13"
+       },
+       {
+        "@id": "#shipping-details-14"
+       },
+       {
+        "@id": "#shipping-details-15"
+       },
+       {
+        "@id": "#shipping-details-16"
+       },
+       {
+        "@id": "#shipping-details-17"
+       },
+       {
+        "@id": "#shipping-details-18"
+       },
+       {
+        "@id": "#shipping-details-19"
+       }
+      ],
+      "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850398793",
+      "validFrom": "2024-05-09"
+     },
+     "sku": "102001.00014",
+     "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850398793"
+    },
+    {
+     "@type": "Product",
+     "color": "Copper Clay",
+     "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+     "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_201_PNG_LD.png?v=1785804612",
+     "name": "MINIPRESSO GR2 - Copper Clay",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "gtin13": "4897066231167",
+      "hasMerchantReturnPolicy": [
+       {
+        "@id": "#return-policy-0"
+       }
+      ],
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "54.90",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-01-02",
+      "seller": {
+       "@context": "https://schema.org",
+       "@type": "Organization",
+       "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+       "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "name": "Wacaco"
+      },
+      "shippingDetails": [
+       {
+        "@id": "#shipping-details-0"
+       },
+       {
+        "@id": "#shipping-details-1"
+       },
+       {
+        "@id": "#shipping-details-2"
+       },
+       {
+        "@id": "#shipping-details-3"
+       },
+       {
+        "@id": "#shipping-details-4"
+       },
+       {
+        "@id": "#shipping-details-5"
+       },
+       {
+        "@id": "#shipping-details-6"
+       },
+       {
+        "@id": "#shipping-details-7"
+       },
+       {
+        "@id": "#shipping-details-8"
+       },
+       {
+        "@id": "#shipping-details-9"
+       },
+       {
+        "@id": "#shipping-details-10"
+       },
+       {
+        "@id": "#shipping-details-11"
+       },
+       {
+        "@id": "#shipping-details-12"
+       },
+       {
+        "@id": "#shipping-details-13"
+       },
+       {
+        "@id": "#shipping-details-14"
+       },
+       {
+        "@id": "#shipping-details-15"
+       },
+       {
+        "@id": "#shipping-details-16"
+       },
+       {
+        "@id": "#shipping-details-17"
+       },
+       {
+        "@id": "#shipping-details-18"
+       },
+       {
+        "@id": "#shipping-details-19"
+       }
+      ],
+      "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850431561",
+      "validFrom": "2024-05-09"
+     },
+     "sku": "102001.00019",
+     "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850431561"
+    },
+    {
+     "@type": "Product",
+     "color": "Golden Ochre",
+     "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+     "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_GoldenOchre_301b_PNG_LD_4350e217-6118-481d-b2d4-cee6c64dfd05.png?v=1785804612",
+     "name": "MINIPRESSO GR2 - Golden Ochre",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "gtin13": "4897066231174",
+      "hasMerchantReturnPolicy": [
+       {
+        "@id": "#return-policy-0"
+       }
+      ],
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "54.90",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-01-02",
+      "seller": {
+       "@context": "https://schema.org",
+       "@type": "Organization",
+       "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+       "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+       "name": "Wacaco"
+      },
+      "shippingDetails": [
+       {
+        "@id": "#shipping-details-0"
+       },
+       {
+        "@id": "#shipping-details-1"
+       },
+       {
+        "@id": "#shipping-details-2"
+       },
+       {
+        "@id": "#shipping-details-3"
+       },
+       {
+        "@id": "#shipping-details-4"
+       },
+       {
+        "@id": "#shipping-details-5"
+       },
+       {
+        "@id": "#shipping-details-6"
+       },
+       {
+        "@id": "#shipping-details-7"
+       },
+       {
+        "@id": "#shipping-details-8"
+       },
+       {
+        "@id": "#shipping-details-9"
+       },
+       {
+        "@id": "#shipping-details-10"
+       },
+       {
+        "@id": "#shipping-details-11"
+       },
+       {
+        "@id": "#shipping-details-12"
+       },
+       {
+        "@id": "#shipping-details-13"
+       },
+       {
+        "@id": "#shipping-details-14"
+       },
+       {
+        "@id": "#shipping-details-15"
+       },
+       {
+        "@id": "#shipping-details-16"
+       },
+       {
+        "@id": "#shipping-details-17"
+       },
+       {
+        "@id": "#shipping-details-18"
+       },
+       {
+        "@id": "#shipping-details-19"
+       }
+      ],
+      "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55671074226249",
+      "validFrom": "2024-05-09"
+     },
+     "sku": "102001.00020",
+     "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55671074226249"
+    }
+   ],
+   "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_102_PNG_LD.png?v=1785804612",
+   "mpn": "4897066230955",
+   "name": "MINIPRESSO GR2",
+   "productGroupID": "7172576936009",
+   "productId": "4897066230955",
+   "url": "https://www.wacaco.com/products/minipresso-gr2",
+   "variesBy": [
+    "https://schema.org/color"
+   ],
+   "weight": "0.5kg"
+  },
+  {
+   "@type": "Product",
+   "color": "Gray Olive",
+   "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+   "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_102_PNG_LD.png?v=1785804612",
+   "name": "MINIPRESSO GR2 - Gray Olive",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "gtin13": "4897066230955",
+    "hasMerchantReturnPolicy": [
+     {
+      "@id": "#return-policy-0"
+     }
+    ],
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "54.90",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-01-02",
+    "seller": {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+     "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "name": "Wacaco"
+    },
+    "shippingDetails": [
+     {
+      "@id": "#shipping-details-0"
+     },
+     {
+      "@id": "#shipping-details-1"
+     },
+     {
+      "@id": "#shipping-details-2"
+     },
+     {
+      "@id": "#shipping-details-3"
+     },
+     {
+      "@id": "#shipping-details-4"
+     },
+     {
+      "@id": "#shipping-details-5"
+     },
+     {
+      "@id": "#shipping-details-6"
+     },
+     {
+      "@id": "#shipping-details-7"
+     },
+     {
+      "@id": "#shipping-details-8"
+     },
+     {
+      "@id": "#shipping-details-9"
+     },
+     {
+      "@id": "#shipping-details-10"
+     },
+     {
+      "@id": "#shipping-details-11"
+     },
+     {
+      "@id": "#shipping-details-12"
+     },
+     {
+      "@id": "#shipping-details-13"
+     },
+     {
+      "@id": "#shipping-details-14"
+     },
+     {
+      "@id": "#shipping-details-15"
+     },
+     {
+      "@id": "#shipping-details-16"
+     },
+     {
+      "@id": "#shipping-details-17"
+     },
+     {
+      "@id": "#shipping-details-18"
+     },
+     {
+      "@id": "#shipping-details-19"
+     }
+    ],
+    "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850398793",
+    "validFrom": "2024-05-09"
+   },
+   "sku": "102001.00014",
+   "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850398793"
+  },
+  {
+   "@type": "Product",
+   "color": "Copper Clay",
+   "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+   "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_201_PNG_LD.png?v=1785804612",
+   "name": "MINIPRESSO GR2 - Copper Clay",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "gtin13": "4897066231167",
+    "hasMerchantReturnPolicy": [
+     {
+      "@id": "#return-policy-0"
+     }
+    ],
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "54.90",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-01-02",
+    "seller": {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+     "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "name": "Wacaco"
+    },
+    "shippingDetails": [
+     {
+      "@id": "#shipping-details-0"
+     },
+     {
+      "@id": "#shipping-details-1"
+     },
+     {
+      "@id": "#shipping-details-2"
+     },
+     {
+      "@id": "#shipping-details-3"
+     },
+     {
+      "@id": "#shipping-details-4"
+     },
+     {
+      "@id": "#shipping-details-5"
+     },
+     {
+      "@id": "#shipping-details-6"
+     },
+     {
+      "@id": "#shipping-details-7"
+     },
+     {
+      "@id": "#shipping-details-8"
+     },
+     {
+      "@id": "#shipping-details-9"
+     },
+     {
+      "@id": "#shipping-details-10"
+     },
+     {
+      "@id": "#shipping-details-11"
+     },
+     {
+      "@id": "#shipping-details-12"
+     },
+     {
+      "@id": "#shipping-details-13"
+     },
+     {
+      "@id": "#shipping-details-14"
+     },
+     {
+      "@id": "#shipping-details-15"
+     },
+     {
+      "@id": "#shipping-details-16"
+     },
+     {
+      "@id": "#shipping-details-17"
+     },
+     {
+      "@id": "#shipping-details-18"
+     },
+     {
+      "@id": "#shipping-details-19"
+     }
+    ],
+    "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850431561",
+    "validFrom": "2024-05-09"
+   },
+   "sku": "102001.00019",
+   "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55621850431561"
+  },
+  {
+   "@type": "Product",
+   "color": "Golden Ochre",
+   "description": "DESCRIPTIONMinipresso GR2, the next evolution of the Minipresso GR. With a smaller and lighter form factor, it continues to deliver exceptional in-cup espresso quality. We have significantly improved the renowned Minipresso in two crucial areas: sustainability and user experience.Experience the ultimate coffee customization with our innovative new design featuring a built-in adjustable basket. Discover the freedom to select between 8 or 12g of pre-ground coffee, allowing you to explore and effortlessly achieve your perfect espresso strength. Elevating convenience to new heights, the Minipresso GR2 includes additional accessories, such as a dosing funnel and a drip tray, ensuring a seamless brewing experience. Unleash your coffee creativity and enjoy unparalleled convenience with the Minipresso GR2.The Minipresso GR2 is not only more compact but also incorporates eco-friendly measures. We have prioritized sustainability by reducing plastic material usage and incorporating biobased materials in some parts. Furthermore, all texts and logos are now integrated into the parts, saving energy and resources.KEY FEATURES:Freshly ground or pre-ground coffee compatibleAdjustable basket capacity, 8-12g of coffee groundsPressurized portafilters - Produces a beautiful espresso with a thick layer of cremaFun to brew\u00a0- Consistent rich, and flavorful espressoEasy to use - Quick to cleanHand powered - No electricity, no battery requiredEco-friendly -\u00a0Partially made of wheat-base polymersExtr...",
+   "image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_GoldenOchre_301b_PNG_LD_4350e217-6118-481d-b2d4-cee6c64dfd05.png?v=1785804612",
+   "name": "MINIPRESSO GR2 - Golden Ochre",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "gtin13": "4897066231174",
+    "hasMerchantReturnPolicy": [
+     {
+      "@id": "#return-policy-0"
+     }
+    ],
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "54.90",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-01-02",
+    "seller": {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "description": "Prepare delicious espressos and amazing coffees, anytime, anywhere with Wacaco&#39;s portable espresso machines and travel coffee makers.",
+     "image": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "logo": "https://cdn.shopify.com/s/files/1/0732/0067/files/Logo.png?v=1695528428",
+     "name": "Wacaco"
+    },
+    "shippingDetails": [
+     {
+      "@id": "#shipping-details-0"
+     },
+     {
+      "@id": "#shipping-details-1"
+     },
+     {
+      "@id": "#shipping-details-2"
+     },
+     {
+      "@id": "#shipping-details-3"
+     },
+     {
+      "@id": "#shipping-details-4"
+     },
+     {
+      "@id": "#shipping-details-5"
+     },
+     {
+      "@id": "#shipping-details-6"
+     },
+     {
+      "@id": "#shipping-details-7"
+     },
+     {
+      "@id": "#shipping-details-8"
+     },
+     {
+      "@id": "#shipping-details-9"
+     },
+     {
+      "@id": "#shipping-details-10"
+     },
+     {
+      "@id": "#shipping-details-11"
+     },
+     {
+      "@id": "#shipping-details-12"
+     },
+     {
+      "@id": "#shipping-details-13"
+     },
+     {
+      "@id": "#shipping-details-14"
+     },
+     {
+      "@id": "#shipping-details-15"
+     },
+     {
+      "@id": "#shipping-details-16"
+     },
+     {
+      "@id": "#shipping-details-17"
+     },
+     {
+      "@id": "#shipping-details-18"
+     },
+     {
+      "@id": "#shipping-details-19"
+     }
+    ],
+    "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55671074226249",
+    "validFrom": "2024-05-09"
+   },
+   "sku": "102001.00020",
+   "url": "https://www.wacaco.com/products/minipresso-gr2?variant=55671074226249"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:33Z",
+ "og_image": "https://www.wacaco.com/cdn/shop/files/Wacaco_Minipresso_GR2_102_PNG_LD.png?v=1785804612",
+ "page_sha256": "50fe510ab1bd96ff4b5d86c176fc7a5e0d5e2daa05a5aa5570943218a4f5732c",
+ "rendered_checked": true,
+ "title": "Wacaco | Minipresso GR2 | Smallest Portable Espresso Maker",
+ "url": "https://wacaco.com/products/minipresso-gr2"
+}

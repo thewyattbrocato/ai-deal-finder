@@ -1,0 +1,78 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:24Z",
+  "ship": [
+   "Shipping calculated at checkout.",
+   "SHIPPING AT CHECKOUT"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE"
+  ],
+  "url": "https://ember.com/products/ember-cold-tumbler"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ember.com/products/ember-cold-tumbler",
+ "http_status": 200,
+ "id": "ember-ember-cold-tumbler",
+ "image_file": "ember-ember-cold-tumbler.png",
+ "image_sha256": "c320a93aaafe90ad0dbd020d583bdabb0b90f55ff2b2b3379dea711f484d7611",
+ "image_source": "https://ember.com/cdn/shop/files/miysis_CT116T16AM_ember_Hero_Full_Gray_BG_v1-01.png?v=1762439750&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/ember-cold-tumbler#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ember"
+   },
+   "category": "Tumblers",
+   "description": "The all-new glass Ember Cold Tumbler was designed with iced coffee lovers in mind. For a long-lasting iced experience, it combines premium materials with on-the-go conveniences. The Cold Tumbler is crafted with temperature-resistant, double-wall insulated glass, keeping drinks cool and minimizing condensation. Its high-quality borosilicate glass makes it durable and easy to clean, all while preserving the pure taste of your drinks. With its innovative 2-way lid design and subtle aesthetics, the Cold Tumbler makes sipping cold coffee, tea, and even water what it should be \u2013 effortlessly chill.",
+   "hasVariant": [
+    {
+     "@id": "/products/ember-cold-tumbler?variant=45037522190521#variant",
+     "@type": "Product",
+     "gtin": "810011402867",
+     "image": "https://ember.com/cdn/shop/files/miysis_CT116T16AM_ember_Hero_Full_Gray_BG_v1-01.png?v=1762439750&width=1920",
+     "name": "Ember Cold Tumbler - Sandstone / 16 oz",
+     "offers": {
+      "@id": "/products/ember-cold-tumbler?variant=45037522190521#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "29.99",
+      "priceCurrency": "USD",
+      "url": "https://ember.com/products/ember-cold-tumbler?variant=45037522190521"
+     },
+     "sku": "CT116T16GL"
+    }
+   ],
+   "name": "Ember Cold Tumbler",
+   "productGroupID": "8106564124857",
+   "url": "https://ember.com/products/ember-cold-tumbler"
+  },
+  {
+   "@id": "/products/ember-cold-tumbler?variant=45037522190521#variant",
+   "@type": "Product",
+   "gtin": "810011402867",
+   "image": "https://ember.com/cdn/shop/files/miysis_CT116T16AM_ember_Hero_Full_Gray_BG_v1-01.png?v=1762439750&width=1920",
+   "name": "Ember Cold Tumbler - Sandstone / 16 oz",
+   "offers": {
+    "@id": "/products/ember-cold-tumbler?variant=45037522190521#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "url": "https://ember.com/products/ember-cold-tumbler?variant=45037522190521"
+   },
+   "sku": "CT116T16GL"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:36Z",
+ "og_image": "https://ember.com/cdn/shop/files/miysis_CT116T16AM_ember_Hero_Full_Gray_BG_v1-01.png?v=1762439750&width=1200",
+ "page_sha256": "10053e6fb4bfcbf5e2184b8d7a8a3bf33773994e395de749d7cea4cf3d1e098f",
+ "rendered_checked": true,
+ "title": "Ember Cold Tumbler 16 oz| Glass Cold Vessel | Ember\u00ae",
+ "url": "https://ember.com/products/ember-cold-tumbler"
+}

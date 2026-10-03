@@ -1,0 +1,108 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:55Z",
+  "ship": [
+   "Free U.S. Shipping",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://flairespresso.com/products/the-royal-grinder"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://flairespresso.com/products/the-royal-grinder",
+ "http_status": 200,
+ "id": "flair-the-royal-grinder",
+ "image_file": "flair-the-royal-grinder.jpg",
+ "image_sha256": "245979181a1d695bf46fa85ea80be648d03385430abe44aaa81037677e6bd3c7",
+ "image_source": "http://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo_black_optimized-1024x1024.jpg?crop=center&height=1200&v=1778159773&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-royal-grinder#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Flair Espresso"
+   },
+   "category": "Coffee Grinders",
+   "description": "The Royal Grinder is an espresso-capable manual burr grinder featuring hardened steel 36mm conical steel burrs. Made with precision and consistency in mind, it features 72 steps of .02mm and is the perfect pair for any coffee brewing method.",
+   "hasVariant": [
+    {
+     "@id": "/products/the-royal-grinder?variant=52030164074798#variant",
+     "@type": "Product",
+     "gtin": "860006241216",
+     "image": "https://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo_black_optimized-1024x1024.jpg?v=1778159773&width=1920",
+     "name": "The Royal Grinder - Black",
+     "offers": {
+      "@id": "/products/the-royal-grinder?variant=52030164074798#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "159.00",
+      "priceCurrency": "USD",
+      "url": "https://flairespresso.com/products/the-royal-grinder?variant=52030164074798"
+     },
+     "sku": "0G118263B"
+    },
+    {
+     "@id": "/products/the-royal-grinder?variant=52030164107566#variant",
+     "@type": "Product",
+     "gtin": "608816121271",
+     "image": "https://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo.jpg?v=1783016210&width=1920",
+     "name": "The Royal Grinder - Silver",
+     "offers": {
+      "@id": "/products/the-royal-grinder?variant=52030164107566#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "159.00",
+      "priceCurrency": "USD",
+      "url": "https://flairespresso.com/products/the-royal-grinder?variant=52030164107566"
+     },
+     "sku": "0G241216N"
+    }
+   ],
+   "name": "The Royal Grinder",
+   "productGroupID": "10521435898158",
+   "url": "https://flairespresso.com/products/the-royal-grinder"
+  },
+  {
+   "@id": "/products/the-royal-grinder?variant=52030164074798#variant",
+   "@type": "Product",
+   "gtin": "860006241216",
+   "image": "https://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo_black_optimized-1024x1024.jpg?v=1778159773&width=1920",
+   "name": "The Royal Grinder - Black",
+   "offers": {
+    "@id": "/products/the-royal-grinder?variant=52030164074798#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "159.00",
+    "priceCurrency": "USD",
+    "url": "https://flairespresso.com/products/the-royal-grinder?variant=52030164074798"
+   },
+   "sku": "0G118263B"
+  },
+  {
+   "@id": "/products/the-royal-grinder?variant=52030164107566#variant",
+   "@type": "Product",
+   "gtin": "608816121271",
+   "image": "https://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo.jpg?v=1783016210&width=1920",
+   "name": "The Royal Grinder - Silver",
+   "offers": {
+    "@id": "/products/the-royal-grinder?variant=52030164107566#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "159.00",
+    "priceCurrency": "USD",
+    "url": "https://flairespresso.com/products/the-royal-grinder?variant=52030164107566"
+   },
+   "sku": "0G241216N"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:30Z",
+ "og_image": "http://flairespresso.com/cdn/shop/files/royal_grinder_2021_square_woo_black_optimized-1024x1024.jpg?crop=center&height=1200&v=1778159773&width=1200",
+ "page_sha256": "5d1f27dca226014ba7b1e92894fccb7531efd75847b71d15dd73fe3a01372a69",
+ "rendered_checked": true,
+ "title": "The Royal Grinder | Espresso Burr Grinder | Flair Espresso",
+ "url": "https://flairespresso.com/products/the-royal-grinder"
+}
