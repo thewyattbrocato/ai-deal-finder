@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.glossier.com/products/the-glossier-icons",
+ "http_status": 200,
+ "id": "glossier-the-glossier-icons",
+ "image_file": "glossier-the-glossier-icons.png",
+ "image_sha256": "99c5e950a0f535da0d67022226d86b8e3c02ef9f9bf1465d599c4d5673bb5483",
+ "image_source": "http://www.glossier.com/cdn/shop/files/glossier-the-glossier-icons-carousel-01_6591b3e2-4bc4-4f80-bfd8-a821163caeba.png?v=1784305216&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Glossier"
+   },
+   "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+   "name": "The Glossier Icons",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "itemCondition": "http://schema.org/NewCondition",
+    "price": "65",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Glossier"
+    }
+   }
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T14:50:49Z",
+ "og_image": "http://www.glossier.com/cdn/shop/files/glossier-the-glossier-icons-carousel-01_6591b3e2-4bc4-4f80-bfd8-a821163caeba.png?v=1784305216",
+ "page_sha256": "1f6acada9158dae706e43f9e226418536a6bed26dfd8f017c62513aeefcbe223",
+ "rendered_checked": true,
+ "title": "The Glossier Icons",
+ "url": "https://www.glossier.com/products/the-glossier-icons"
+}

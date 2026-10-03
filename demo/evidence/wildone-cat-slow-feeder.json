@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://wildone.com/products/cat-slow-feeder",
+ "http_status": 200,
+ "id": "wildone-cat-slow-feeder",
+ "image_file": "wildone-cat-slow-feeder.jpg",
+ "image_sha256": "208942b5d26f27fcea9d43e6b68d78e41ac39c8db999341511d0c8ce43e89c1b",
+ "image_source": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777054690&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 1,
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Wild One"
+   },
+   "description": "Promote healthier eating habits with this silicone cat slow feeder. Designed with ridges and valleys to encourage slower eating, it supports better digestion and weight management. Made from BPA-free, dishwasher-safe silicone with a strong suction base to keep it securely in place during meals.",
+   "image": [
+    "https://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_UFO_PDP_01_4x5_Web.jpg?v=1777054690&width=1920"
+   ],
+   "name": "Cat Slow Feeder",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": 850067252764,
+     "price": 12.0,
+     "priceCurrency": "USD",
+     "sku": "WO-SLF-CT-UFO",
+     "url": "https://wildone.com/products/cat-slow-feeder?variant=45163409539267"
+    }
+   ],
+   "sku": "WO-SLF-CT-UFO",
+   "url": "https://wildone.com/products/cat-slow-feeder"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T14:51:47Z",
+ "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777054690",
+ "page_sha256": "e3493bc1715e01622c2666b73736cab495699a756b67217f9db115f59ba6ef9c",
+ "rendered_checked": true,
+ "title": "Cat Slow Feeder \u2013 Wild One",
+ "url": "https://www.wildone.com/products/cat-slow-feeder"
+}

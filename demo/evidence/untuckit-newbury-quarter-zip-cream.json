@@ -1,0 +1,582 @@
+{
+ "coupon_snippets": [
+  "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
+ ],
+ "final_url": "https://www.untuckit.com/products/newbury-quarter-zip-cream",
+ "http_status": 200,
+ "id": "untuckit-newbury-quarter-zip-cream",
+ "image_file": "untuckit-newbury-quarter-zip-cream.jpg",
+ "image_sha256": "b55dbd196bc64a4fd32bb30f26f0e0350b70c99ed5ef78a7ed79abb786b206ae",
+ "image_source": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1_grande.jpg?v=1789487145&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream#json-ld-for-seo",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "UNTUCKit"
+   },
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "hasVariant": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405668064",
+     "gtin12": "193405668064",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668064",
+     "name": "Cotton Quarter-Zip Sweater Small / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405668064",
+       "gtin12": "193405668064",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405668064",
+       "name": "Cotton Quarter-Zip Sweater Small / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegSM",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegSM",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405668040",
+     "gtin12": "193405668040",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668040",
+     "name": "Cotton Quarter-Zip Sweater Medium / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405668040",
+       "gtin12": "193405668040",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405668040",
+       "name": "Cotton Quarter-Zip Sweater Medium / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegMD",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegMD",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405668026",
+     "gtin12": "193405668026",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668026",
+     "name": "Cotton Quarter-Zip Sweater Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405668026",
+       "gtin12": "193405668026",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405668026",
+       "name": "Cotton Quarter-Zip Sweater Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegLG",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegLG",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405668002",
+     "gtin12": "193405668002",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668002",
+     "name": "Cotton Quarter-Zip Sweater X-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405668002",
+       "gtin12": "193405668002",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405668002",
+       "name": "Cotton Quarter-Zip Sweater X-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegXL",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405623124",
+     "gtin12": "193405623124",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405623124",
+     "name": "Cotton Quarter-Zip Sweater XX-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405623124",
+       "gtin12": "193405623124",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405623124",
+       "name": "Cotton Quarter-Zip Sweater XX-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegXXL",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegXXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+     "gtin": "193405623100",
+     "gtin12": "193405623100",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "inProductGroupWithID": "7828464926798",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405623100",
+     "name": "Cotton Quarter-Zip Sweater XXX-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405623100",
+       "gtin12": "193405623100",
+       "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405623100",
+       "name": "Cotton Quarter-Zip Sweater XXX-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42029WhiRegXXXL",
+       "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42029WhiRegXXXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    }
+   ],
+   "image": [
+    "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-2.jpg?v=1789487158&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-3.jpg?v=1789487158&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-4.jpg?v=1789487158&width=1667"
+   ],
+   "name": "Cotton Quarter-Zip Sweater",
+   "productGroupID": "7828464926798",
+   "productID": "42029WhiRegSM",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream"
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405668064",
+   "gtin12": "193405668064",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405668064",
+   "name": "Cotton Quarter-Zip Sweater Small / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405668064",
+     "gtin12": "193405668064",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668064",
+     "name": "Cotton Quarter-Zip Sweater Small / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegSM",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegSM",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259665486",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405668040",
+   "gtin12": "193405668040",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405668040",
+   "name": "Cotton Quarter-Zip Sweater Medium / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405668040",
+     "gtin12": "193405668040",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668040",
+     "name": "Cotton Quarter-Zip Sweater Medium / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegMD",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegMD",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259698254",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405668026",
+   "gtin12": "193405668026",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405668026",
+   "name": "Cotton Quarter-Zip Sweater Large / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405668026",
+     "gtin12": "193405668026",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668026",
+     "name": "Cotton Quarter-Zip Sweater Large / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegLG",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegLG",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259731022",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405668002",
+   "gtin12": "193405668002",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405668002",
+   "name": "Cotton Quarter-Zip Sweater X-Large / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405668002",
+     "gtin12": "193405668002",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405668002",
+     "name": "Cotton Quarter-Zip Sweater X-Large / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegXL",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259763790",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405623124",
+   "gtin12": "193405623124",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405623124",
+   "name": "Cotton Quarter-Zip Sweater XX-Large / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405623124",
+     "gtin12": "193405623124",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405623124",
+     "name": "Cotton Quarter-Zip Sweater XX-Large / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegXXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegXXL",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259796558",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Cool weather in the forecast? Layer up in style with this comfortable, polished quarter-zip sweater to feel warm and look sharp this season. It's 100% natural cotton with an irresistible waffle-weave texture and a subtle contrast detail around the collar, and you won't want to take it off.\n\nIt has the perfect weight for autumn weather and easily layers over your favorite untucked shirt\u2014or under a jacket when the day turns chilly. Pair it with our Traveler Tech Pants for an effortless look this season.\n\nFEATURES\n\n\u25cf Quarter-zip\n\u25cf SKU #42029WHI\n\nFABRICS\n\n\u25cf 100% Cotton\n\u25cf Imported",
+   "gtin": "193405623100",
+   "gtin12": "193405623100",
+   "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+   "inProductGroupWithID": "7828464926798",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405623100",
+   "name": "Cotton Quarter-Zip Sweater XXX-Large / Regular Fit / White",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405623100",
+     "gtin12": "193405623100",
+     "image": "https://www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1.jpg?v=1789487145&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405623100",
+     "name": "Cotton Quarter-Zip Sweater XXX-Large / Regular Fit / White",
+     "price": "128.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42029WhiRegXXXL",
+     "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42029WhiRegXXXL",
+   "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream?variant=43445259829326",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T14:51:31Z",
+ "og_image": "//www.untuckit.com/cdn/shop/files/NEWBURY-QUARTER-ZIP-UNTUCKIT-42029Whi-CREAM-1_grande.jpg?v=1789487145",
+ "page_sha256": "249a437294af377a70894099207630f34404a5a795627e57dec4d1fdc20652ec",
+ "rendered_checked": true,
+ "title": "Cotton Quarter-Zip Sweater Cream | UNTUCKit",
+ "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream"
+}

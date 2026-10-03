@@ -1,0 +1,67 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange",
+ "http_status": 200,
+ "id": "nomadgoods-garmin-sport-band-22mm-mesa-orange",
+ "image_file": "nomadgoods-garmin-sport-band-22mm-mesa-orange.jpg",
+ "image_sha256": "a9e85d44a43c5e4de03985c728d8cc1fa47d17d602da20eac1cb650a40a5e56a",
+ "image_source": "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_A.jpg?v=1790193607&width=420&height=630",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Nomad Goods"
+   },
+   "color": "Mesa Orange",
+   "description": "Sport Band for 22mm Garmin watches. Made from FKM with aluminum hardware. Features a slim profile, pin and tuck clasp, and waterproof construction. Color: Mesa Orange.",
+   "gtin12": "810226520769",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_A.jpg?v=1790193607",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_B.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_C.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_D.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_E.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_F.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_G.jpg?v=1790193606",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_H.jpg?v=1790193606"
+   ],
+   "material": "FKM",
+   "model": "Sport Band",
+   "mpn": "894000119F9F",
+   "name": "Sport Band",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "price": 69,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Nomad"
+     },
+     "sku": "894000119F9F",
+     "url": "https://nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange?Title=Default+Title"
+    }
+   ],
+   "sku": "894000119F9F",
+   "url": "https://nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T14:52:04Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/810226520769_A.jpg?v=1790193607&width=1280&height=630",
+ "page_sha256": "1203a699565703680641567d458f71b5f09b36beff3efe018cf825edc9cafffe",
+ "rendered_checked": true,
+ "title": "Sport Band - Garmin - Mesa Orange | NOMAD",
+ "url": "https://www.nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange"
+}

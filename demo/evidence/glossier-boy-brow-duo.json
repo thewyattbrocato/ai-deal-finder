@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.glossier.com/products/boy-brow-duo",
+ "http_status": 200,
+ "id": "glossier-boy-brow-duo",
+ "image_file": "glossier-boy-brow-duo.png",
+ "image_sha256": "3f856da95762c29bbbba7b10c721a9fa6be0f7f1336e80bc7f835e1dcd4d578f",
+ "image_source": "http://www.glossier.com/cdn/shop/files/glossier-boy-brow-duo-set-carousel-01.png?v=1782217779&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Glossier"
+   },
+   "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+   "name": "Boy Brow Duo",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "itemCondition": "http://schema.org/NewCondition",
+    "price": "37",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Glossier"
+    }
+   }
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T14:50:59Z",
+ "og_image": "http://www.glossier.com/cdn/shop/files/glossier-boy-brow-duo-set-carousel-01.png?v=1782217779",
+ "page_sha256": "7f83ccb8faa691efbbbc242ae1f315918b381371c0ed3b62ad77cc745affe358",
+ "rendered_checked": true,
+ "title": "Boy Brow Duo \u2013 Glossier",
+ "url": "https://www.glossier.com/products/boy-brow-duo"
+}

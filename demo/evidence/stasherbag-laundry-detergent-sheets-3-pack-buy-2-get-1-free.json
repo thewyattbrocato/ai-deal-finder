@@ -1,0 +1,42 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stasherbag.com/products/laundry-detergent-sheets-3-pack-buy-2-get-1-free",
+ "http_status": 200,
+ "id": "stasherbag-laundry-detergent-sheets-3-pack-buy-2-get-1-free",
+ "image_file": "stasherbag-laundry-detergent-sheets-3-pack-buy-2-get-1-free.png",
+ "image_sha256": "a340fc274630bb2059479249b46d0f55c07a9c6712fd1aeddab32de4781e9528",
+ "image_source": "http://www.stasherbag.com/cdn/shop/files/ChatGPTImageAug17_2026_12_14_44PM_1.png?v=1786994232&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Stasher"
+   },
+   "description": "Stock up and save with our Laundry Detergent Sheets 3-Pack \u2014 Buy 2, Get 1 Free. Each compact, pre-measured sheet delivers a powerful clean without the spills, measuring, or bulky plastic detergent jugs. With up to 90 loads total, this bundle makes it easy to keep laundry day simple while getting one full pack on us.\nSPECS\n3 Packs (15 whole sheets, 30 half loads)Up to 90 Loads\u00a0\n\n\nBuy 2, Get 1 Free: Three full packs for the price of two \u2014 our best value for stocking up.\n\nPre-Measured Sheets: Dissolve quickly and completely in hot or cold water for\u00a0ultimate convenience.\nPowerful Clean &amp; Pure Formula: Effectively tackles everyday dirt and stubborn\u00a0stains. Free from fragrances, dyes, phosphates, and parabens \u2013 gentle on skin and\u00a0clothes.\nMess-Free Convenience: Say goodbye to sticky spills, heavy jugs, and wasteful\u00a0measuring. Compact &amp; lightweight, easy to store and travel with.\nHE &amp; Standard Washer Safe: Compatible with all washing machine types, ensuring\u00a0versatile use.\n\nPlastic-Free Laundry: Replaces bulky plastic detergent jugs, making a tangible\u00a0impact on waste\n\n",
+   "image": [
+    "https://www.stasherbag.com/cdn/shop/files/ChatGPTImageAug17_2026_12_14_44PM_1.png?v=1786994232&width=1920"
+   ],
+   "name": "Laundry Detergent Sheets 3-Pack (Buy 2, Get 1 Free)",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 17.98,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-04",
+     "url": "https://www.stasherbag.com/products/laundry-detergent-sheets-3-pack-buy-2-get-1-free?variant=45864318992563"
+    }
+   ],
+   "url": "https://www.stasherbag.com/products/laundry-detergent-sheets-3-pack-buy-2-get-1-free"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T14:52:18Z",
+ "og_image": "http://www.stasherbag.com/cdn/shop/files/ChatGPTImageAug17_2026_12_14_44PM_1.png?v=1786994232",
+ "page_sha256": "29b221f998269b362f4aa8eb19a53c115b2c1648f6a694901f750a8bbcafba35",
+ "rendered_checked": true,
+ "title": "Laundry Detergent Sheets 3-Pack (Buy 2, Get 1 Free) \u2013 Stasher",
+ "url": "https://www.stasherbag.com/products/laundry-detergent-sheets-3-pack-buy-2-get-1-free"
+}

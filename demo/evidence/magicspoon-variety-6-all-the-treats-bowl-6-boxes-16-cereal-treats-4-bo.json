@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://magicspoon.com/products/variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-boxes",
+ "http_status": 200,
+ "id": "magicspoon-variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-bo",
+ "image_file": "magicspoon-variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-bo.png",
+ "image_sha256": "dd4bdc286cedcd5b51252d471d3c1e2d609bb825abe8297a033554b956c1a557",
+ "image_source": "https://magicspoon.com/cdn/shop/files/MS_T_BIG_BUNDLE_WITH_SC_-_3_2048x2048.png?v=1790952087&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-boxes#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "3586",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Magic Spoon"
+   },
+   "description": "",
+   "image": "https://magicspoon.com/cdn/shop/files/MS_T_BIG_BUNDLE_WITH_SC_-_3_450x450.png?v=1790952087",
+   "mpn": "7305008906302",
+   "name": "ULTIMATE MAGIC MIX  - 16 CEREAL TREATS (4 BOXES) + 6 BOXES OF CEREAL + 1 BOWL SET - TTS",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "100.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Magic Spoon"
+    }
+   },
+   "url": "/products/variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-boxes"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T14:49:57Z",
+ "og_image": "//magicspoon.com/cdn/shop/files/MS_T_BIG_BUNDLE_WITH_SC_-_3_2048x2048.png?v=1790952087",
+ "page_sha256": "af03247a605ca37251d5b106d19198f54d856bef551dc248ba30ee51a07907ed",
+ "rendered_checked": true,
+ "title": "Ultimate Magic Mix Bundle | Cereal & Cereal Treats Pack | Magic Spoon",
+ "url": "https://magicspoon.com/products/variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-boxes"
+}

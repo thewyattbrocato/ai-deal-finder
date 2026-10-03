@@ -1,0 +1,39 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.glossier.com/products/in-a-new-york-minute",
+ "http_status": 200,
+ "id": "glossier-in-a-new-york-minute",
+ "image_file": "glossier-in-a-new-york-minute.png",
+ "image_sha256": "c8f9759373580197de7e51c4a813fd99f469e57fa58c13eeadc4a0452e1210ad",
+ "image_source": "http://www.glossier.com/cdn/shop/files/glossier-newyorkminute--set-carousel-updated.png?v=1788374006&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Glossier"
+   },
+   "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+   "name": "In A New York Minute Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "itemCondition": "http://schema.org/NewCondition",
+    "price": "70",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Glossier"
+    }
+   }
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T14:50:56Z",
+ "og_image": "http://www.glossier.com/cdn/shop/files/glossier-newyorkminute--set-carousel-updated.png?v=1788374006",
+ "page_sha256": "b041c9ec64f7104d4bda7c459e6a75fbad89009b93ec407935636f971287da86",
+ "rendered_checked": true,
+ "title": "In A New York Minute Set \u2013 Glossier",
+ "url": "https://www.glossier.com/products/in-a-new-york-minute"
+}

@@ -1,0 +1,1032 @@
+{
+ "coupon_snippets": [
+  "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
+ ],
+ "final_url": "https://www.untuckit.com/products/valois",
+ "http_status": 200,
+ "id": "untuckit-valois",
+ "image_file": "untuckit-valois.jpg",
+ "image_sha256": "8edcbb5bb5e914149265fbcfbd2d388ac03b54653d7e635fa712046ed67e78fc",
+ "image_source": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1_grande.jpg?v=1771537694&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.untuckit.com/products/valois#json-ld-for-seo",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "UNTUCKit"
+   },
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "hasVariant": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444813987918#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405647779",
+     "gtin12": "193405647779",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647779",
+     "name": "Vintage Wash Valois Shirt Small / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444813987918#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405647779",
+       "gtin12": "193405647779",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405647779",
+       "name": "Vintage Wash Valois Shirt Small / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegSM",
+       "url": "https://www.untuckit.com/products/valois?variant=43444813987918",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegSM",
+     "url": "https://www.untuckit.com/products/valois?variant=43444813987918",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814020686#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405950190",
+     "gtin12": "193405950190",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950190",
+     "name": "Vintage Wash Valois Shirt Small / Slim Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814020686#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405950190",
+       "gtin12": "193405950190",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405950190",
+       "name": "Vintage Wash Valois Shirt Small / Slim Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluSlmSM",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814020686",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluSlmSM",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814020686",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814053454#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405647755",
+     "gtin12": "193405647755",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647755",
+     "name": "Vintage Wash Valois Shirt Medium / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814053454#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405647755",
+       "gtin12": "193405647755",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405647755",
+       "name": "Vintage Wash Valois Shirt Medium / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegMD",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814053454",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegMD",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814053454",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814086222#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405673242",
+     "gtin12": "193405673242",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405673242",
+     "name": "Vintage Wash Valois Shirt Medium / Slim Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814086222#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405673242",
+       "gtin12": "193405673242",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405673242",
+       "name": "Vintage Wash Valois Shirt Medium / Slim Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluSlmMD",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814086222",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluSlmMD",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814086222",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 3.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814118990#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405647731",
+     "gtin12": "193405647731",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647731",
+     "name": "Vintage Wash Valois Shirt Large / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814118990#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405647731",
+       "gtin12": "193405647731",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405647731",
+       "name": "Vintage Wash Valois Shirt Large / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegLG",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814118990",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegLG",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814118990",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814151758#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405610667",
+     "gtin12": "193405610667",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405610667",
+     "name": "Vintage Wash Valois Shirt Large / Slim Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814151758#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405610667",
+       "gtin12": "193405610667",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405610667",
+       "name": "Vintage Wash Valois Shirt Large / Slim Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluSlmLG",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814151758",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluSlmLG",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814151758",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 4.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814184526#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405647717",
+     "gtin12": "193405647717",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647717",
+     "name": "Vintage Wash Valois Shirt X-Large / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814184526#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405647717",
+       "gtin12": "193405647717",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405647717",
+       "name": "Vintage Wash Valois Shirt X-Large / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegXL",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814184526",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814184526",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814217294#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405610643",
+     "gtin12": "193405610643",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405610643",
+     "name": "Vintage Wash Valois Shirt X-Large / Slim Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814217294#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405610643",
+       "gtin12": "193405610643",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405610643",
+       "name": "Vintage Wash Valois Shirt X-Large / Slim Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluSlmXL",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814217294",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluSlmXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814217294",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 5.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814250062#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405950237",
+     "gtin12": "193405950237",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950237",
+     "name": "Vintage Wash Valois Shirt XX-Large / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814250062#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405950237",
+       "gtin12": "193405950237",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405950237",
+       "name": "Vintage Wash Valois Shirt XX-Large / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegXXL",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814250062",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814250062",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814282830#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405557160",
+     "gtin12": "193405557160",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405557160",
+     "name": "Vintage Wash Valois Shirt XX-Large / Slim Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814282830#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405557160",
+       "gtin12": "193405557160",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405557160",
+       "name": "Vintage Wash Valois Shirt XX-Large / Slim Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluSlmXXL",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814282830",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluSlmXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814282830",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 6.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814315598#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405950213",
+     "gtin12": "193405950213",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "inProductGroupWithID": "7828359381070",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950213",
+     "name": "Vintage Wash Valois Shirt XXX-Large / Regular Fit / Blue",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/valois?variant=43444814315598#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405950213",
+       "gtin12": "193405950213",
+       "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405950213",
+       "name": "Vintage Wash Valois Shirt XXX-Large / Regular Fit / Blue",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42283BluRegXXXL",
+       "url": "https://www.untuckit.com/products/valois?variant=43444814315598",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42283BluRegXXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814315598",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    }
+   ],
+   "image": [
+    "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-2.jpg?v=1771537694&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-3.jpg?v=1771537694&width=1667",
+    "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-4.jpg?v=1771537694&width=1667"
+   ],
+   "name": "Vintage Wash Valois Shirt",
+   "productGroupID": "7828359381070",
+   "productID": "42283BluRegSM",
+   "url": "https://www.untuckit.com/products/valois"
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444813987918#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405647779",
+   "gtin12": "193405647779",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405647779",
+   "name": "Vintage Wash Valois Shirt Small / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444813987918#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405647779",
+     "gtin12": "193405647779",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647779",
+     "name": "Vintage Wash Valois Shirt Small / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegSM",
+     "url": "https://www.untuckit.com/products/valois?variant=43444813987918",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegSM",
+   "url": "https://www.untuckit.com/products/valois?variant=43444813987918",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814020686#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405950190",
+   "gtin12": "193405950190",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405950190",
+   "name": "Vintage Wash Valois Shirt Small / Slim Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814020686#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405950190",
+     "gtin12": "193405950190",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950190",
+     "name": "Vintage Wash Valois Shirt Small / Slim Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluSlmSM",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814020686",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluSlmSM",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814020686",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814053454#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405647755",
+   "gtin12": "193405647755",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405647755",
+   "name": "Vintage Wash Valois Shirt Medium / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814053454#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405647755",
+     "gtin12": "193405647755",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647755",
+     "name": "Vintage Wash Valois Shirt Medium / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegMD",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814053454",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegMD",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814053454",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814086222#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405673242",
+   "gtin12": "193405673242",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405673242",
+   "name": "Vintage Wash Valois Shirt Medium / Slim Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814086222#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405673242",
+     "gtin12": "193405673242",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405673242",
+     "name": "Vintage Wash Valois Shirt Medium / Slim Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluSlmMD",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814086222",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluSlmMD",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814086222",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 3.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814118990#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405647731",
+   "gtin12": "193405647731",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405647731",
+   "name": "Vintage Wash Valois Shirt Large / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814118990#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405647731",
+     "gtin12": "193405647731",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647731",
+     "name": "Vintage Wash Valois Shirt Large / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegLG",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814118990",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegLG",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814118990",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814151758#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405610667",
+   "gtin12": "193405610667",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405610667",
+   "name": "Vintage Wash Valois Shirt Large / Slim Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814151758#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405610667",
+     "gtin12": "193405610667",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405610667",
+     "name": "Vintage Wash Valois Shirt Large / Slim Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluSlmLG",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814151758",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluSlmLG",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814151758",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 4.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814184526#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405647717",
+   "gtin12": "193405647717",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405647717",
+   "name": "Vintage Wash Valois Shirt X-Large / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814184526#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405647717",
+     "gtin12": "193405647717",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405647717",
+     "name": "Vintage Wash Valois Shirt X-Large / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814184526",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegXL",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814184526",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814217294#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405610643",
+   "gtin12": "193405610643",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405610643",
+   "name": "Vintage Wash Valois Shirt X-Large / Slim Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814217294#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405610643",
+     "gtin12": "193405610643",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405610643",
+     "name": "Vintage Wash Valois Shirt X-Large / Slim Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluSlmXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814217294",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluSlmXL",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814217294",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 5.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814250062#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405950237",
+   "gtin12": "193405950237",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405950237",
+   "name": "Vintage Wash Valois Shirt XX-Large / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814250062#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405950237",
+     "gtin12": "193405950237",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950237",
+     "name": "Vintage Wash Valois Shirt XX-Large / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814250062",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegXXL",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814250062",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814282830#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405557160",
+   "gtin12": "193405557160",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405557160",
+   "name": "Vintage Wash Valois Shirt XX-Large / Slim Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814282830#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405557160",
+     "gtin12": "193405557160",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405557160",
+     "name": "Vintage Wash Valois Shirt XX-Large / Slim Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluSlmXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814282830",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluSlmXXL",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814282830",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 6.0
+   }
+  },
+  {
+   "@id": "https://www.untuckit.com/products/valois?variant=43444814315598#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. We started with slub cotton with a naturally rich feel, then gave it a special treatment that breaks down fibers for a soft feel from the very first wear. This all-cotton shirt has a laid-back check pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Navy signature sail\n \u2022 SKU #42283Blu\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+   "gtin": "193405950213",
+   "gtin12": "193405950213",
+   "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+   "inProductGroupWithID": "7828359381070",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "193405950213",
+   "name": "Vintage Wash Valois Shirt XXX-Large / Regular Fit / Blue",
+   "offers": [
+    {
+     "@id": "https://www.untuckit.com/products/valois?variant=43444814315598#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "193405950213",
+     "gtin12": "193405950213",
+     "image": "https://www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1.jpg?v=1771537694&width=1667",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405950213",
+     "name": "Vintage Wash Valois Shirt XXX-Large / Regular Fit / Blue",
+     "price": "99.5",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "UNTUCKit"
+     },
+     "sku": "42283BluRegXXXL",
+     "url": "https://www.untuckit.com/products/valois?variant=43444814315598",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "42283BluRegXXXL",
+   "url": "https://www.untuckit.com/products/valois?variant=43444814315598",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 1.0
+   }
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T14:51:37Z",
+ "og_image": "//www.untuckit.com/cdn/shop/files/VALOIS-UNTUCKIT-42283Blu-VINTAGE-WASH-NAVY-1_grande.jpg?v=1771537694",
+ "page_sha256": "f5bec32e8a141338ddb0c483294529c677ae5a81f19d3d1ef92e70314abd64d8",
+ "rendered_checked": true,
+ "title": "Vintage Wash Valois Shirt Tonal Blue Plaid | UNTUCKit",
+ "url": "https://www.untuckit.com/products/valois"
+}
