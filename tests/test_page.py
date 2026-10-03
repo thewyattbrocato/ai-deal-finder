@@ -232,6 +232,7 @@ function snap(document) {
   const first = (c, a) => c.querySelectorAll(a)[0];
   return {
     status: collect(document.getElementById("guide-status")).trim(),
+    coffeeNote: document.getElementById("coffee-note").style.display,
     guideText: visibleText(document.getElementById("guide")),
     legends: legends,
     controls: controls,
@@ -330,7 +331,7 @@ function clickId(document, id) {
 
 const out = {};
 function fresh(fn) { const document = boot(); fn(document); return snap(document); }
-out.load = fresh(() => {});
+out.load = fresh(d => { if (process.env.PAGE_QUERY) setQuery(d, process.env.PAGE_QUERY); });
 if (process.env.ONLY_LOAD) { process.stdout.write(JSON.stringify(out)); process.exit(0); }
 out.allProducts = fresh(d => { setQuery(d, ""); });
 out.anyCoffee = fresh(d => { setQuery(d, ""); answer(d, "form", "any-coffee"); });
@@ -453,10 +454,12 @@ def read(*parts):
         return f.read()
 
 
-def drive(page_path, now=None, only_load=False):
-    env = dict(os.environ, TZ="UTC")  # the page reads the browser's local date
+def drive(page_path, now=None, only_load=False, tz="UTC", query=None):
+    env = dict(os.environ, TZ=tz)  # the browser's own zone must not decide a printed window
     if now:
         env["PAGE_NOW"] = now
+    if query:
+        env["PAGE_QUERY"] = query
     if only_load:
         env["ONLY_LOAD"] = "1"
     with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as handle:
@@ -548,7 +551,7 @@ class QuietPageTest(unittest.TestCase):
     def test_guide_asks_only_what_the_results_fit(self):
         d = self.driven
         self.assertEqual(d["load"]["legends"], [
-            "Coffee bag size", "Which coupons?", "Shipping", "What kind?",
+            "Coffee bag size", "Shipping", "Which coupons?", "What kind?",
             "How you would buy", "What matters most?"])
         self.assertEqual(d["shoes"]["legends"], ["Shoe size", "Shipping"])
         self.assertEqual(d["clothing"]["legends"],
@@ -558,7 +561,7 @@ class QuietPageTest(unittest.TestCase):
         self.assertIn("Nothing to narrow", d["tea"]["guideText"])
         shoe = [c for c in d["shoes"]["controls"] if c["key"] == "shoe_size"][0]
         self.assertEqual(shoe["tag"], "select")
-        self.assertEqual(shoe["options"][0], "Any size (15)")
+        self.assertEqual(shoe["options"][0], "Any size (14)")
         self.assertIn("W 8 / M 6.5 (1)", shoe["options"])
         self.assertIn("8 (2)", shoe["options"])
         for key in ("load", "tea", "airpods"):
@@ -566,7 +569,7 @@ class QuietPageTest(unittest.TestCase):
                               and c["key"] != "coffee_size"], key)
         self.assertEqual(
             [c["label"] for c in d["load"]["controls"] if c["key"] == "coffee_size"],
-            ["Any size (21)", "12 oz (4)", "24 oz (1)", "2 lb (2)", "2.2 lb (2)", "5 lb (3)"])
+            ["Any size (9)", "12 oz (4)", "24 oz (1)", "2 lb (2)", "2.2 lb (2)", "5 lb (3)"])
         self.assertEqual(d["load"]["buttons"], [
             "Kind of thing", "Exact product", "Search",
             "Reset — show everything", "Show more matches"])
@@ -883,8 +886,8 @@ class QuietPageTest(unittest.TestCase):
 
     def test_questions_come_in_order_of_how_much_they_narrow(self):
         load = self.driven["load"]
-        # coffee_size narrows 20 -> 1 at most, coupons 20 -> 3, kind 20 -> 6, subscribe 20 -> 6
-        self.assertEqual(load["legends"][:2], ["Coffee bag size", "Which coupons?"])
+        # coffee_size narrows 9 -> 1 at most, shipping 9 -> 2, coupons 9 -> 3, kind 9 -> 6, subscribe 9 -> 6
+        self.assertEqual(load["legends"][:3], ["Coffee bag size", "Shipping", "Which coupons?"])
         self.assertEqual(load["legends"][-1], "What matters most?")  # reorders, never narrows
         everything = self.driven["allProducts"]["legends"]
         self.assertLess(everything.index("Coffee bag size"), everything.index("Which coupons?"))
@@ -1112,10 +1115,10 @@ class PrintedWindowTest(unittest.TestCase):
     PAGE = os.path.join(ROOT, "demo", "index.html")
     UNTUCKIT = "NOIRON"
     CASES = {  # pinned browser time -> (state, status text)
-        "2026-09-30T15:00:00Z": ("before", "Today (2026-09-30) is before the page's printed window."),
-        "2026-10-01T15:00:00Z": ("inside", "Today (2026-10-01) is inside the page's printed window."),
-        "2026-10-04T15:00:00Z": ("inside", "Today (2026-10-04) is inside the page's printed window."),
-        "2026-10-05T15:00:00Z": ("ended", "The page's printed window has ended (today is 2026-10-05)."),
+        "2026-09-30T15:00:00Z": ("before", "Today in US Eastern time (2026-09-30) is before the page's printed window."),
+        "2026-10-01T15:00:00Z": ("inside", "Today in US Eastern time (2026-10-01) is inside the page's printed window."),
+        "2026-10-04T15:00:00Z": ("inside", "Today in US Eastern time (2026-10-04) is inside the page's printed window."),
+        "2026-10-05T15:00:00Z": ("ended", "The page's printed window has ended (today in US Eastern time is 2026-10-05)."),
     }
 
     @classmethod

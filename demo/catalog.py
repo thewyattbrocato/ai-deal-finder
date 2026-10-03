@@ -39,6 +39,13 @@ STOP_CODES = {"HTML", "NULL", "TRUE", "FALSE", "JSON"}
 GATED_RE = re.compile(r"(?i)\b(e-?mail|address|sign[- ]?up|subscri\w+|resubscribe|newsletter|text)\b")
 
 
+# "<Name> Sale:" opening a printed offer, e.g. "Wrinkle-Free Sale: Offer valid ...".
+# Only the one word before "Sale" is taken: the words before it may be page navigation.
+SALE_HEAD_RE = re.compile(r"(?<![\w-])[A-Z][\w-]* Sale:\s")
+# A gift card or a membership is never a product with a shelf price to compare.
+NON_DEAL_RE = re.compile(r"(?i)\bgift\s*cards?\b|\be-?gift\b|\bmemberships?\b")
+
+
 def tight_offer(snip, m):
     """Verbatim substring of the snippet: the sentence holding the code.
 
@@ -56,6 +63,13 @@ def tight_offer(snip, m):
             r"(?i)(?:\$\d+|\d+%)\s*off", snip[start:m.start()])]
         if offer:
             start += offer[-1]
+    # Keep the sale the page names ("Wrinkle-Free Sale: ...") when it heads the
+    # offer, so the quote carries the scope the page printed with the code.
+    head = None
+    for h in SALE_HEAD_RE.finditer(snip[:start]):
+        head = h
+    if head and start - head.start() <= 260:
+        start = head.start()
     after = re.search(r"[.!?](?=\s|$)", snip[m.end():])
     end = m.end() + after.end() if after else len(snip)
     return snip[start:end].strip()
@@ -288,6 +302,8 @@ def offers_of(ev):
 
 def extract(ev):
     """Evidence record -> ('ok', observation) or ('excluded', reason)."""
+    if ev.get("excluded_reason"):
+        return "excluded", ev["excluded_reason"]
     if ev.get("http_status") != 200:
         return "excluded", "page did not load"
     prods = ev.get("json_ld") or []
@@ -297,6 +313,8 @@ def extract(ev):
     name = (p.get("name") or "").strip()
     if not name:
         return "excluded", "product identity not readable"
+    if NON_DEAL_RE.search(name):
+        return "excluded", "gift card or membership, not a product with a shelf price"
     offers = offers_of(ev)
     if not offers:
         return "excluded", "no price on the page"

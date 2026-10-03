@@ -15,6 +15,7 @@
   "url": "https://www.publicgoods.com/products/better-together-membership"
  },
  "coupon_snippets": [],
+ "excluded_reason": "paid membership, not a product with a shelf price to compare",
  "final_url": "https://www.publicgoods.com/products/better-together-membership",
  "http_status": 200,
  "id": "publicgoods-better-together-membership",

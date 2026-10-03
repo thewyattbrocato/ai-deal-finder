@@ -32,32 +32,32 @@
  {
   "id": "stumptowncoffee-crows-call-patch",
   "url": "https://stumptowncoffee.com/products/crows-call-patch",
-  "kind": "Coffee"
+  "kind": "Accessories"
  },
  {
   "id": "stumptowncoffee-wildwood-trail-pack",
   "url": "https://stumptowncoffee.com/products/wildwood-trail-pack",
-  "kind": "Coffee"
+  "kind": "Accessories"
  },
  {
   "id": "stumptowncoffee-into-the-wildwood-mug",
   "url": "https://stumptowncoffee.com/products/into-the-wildwood-mug",
-  "kind": "Coffee"
+  "kind": "Kitchen"
  },
  {
   "id": "stumptowncoffee-wilderness-field-notes",
   "url": "https://stumptowncoffee.com/products/wilderness-field-notes",
-  "kind": "Coffee"
+  "kind": "Office"
  },
  {
   "id": "stumptowncoffee-ghost-bridge-tote",
   "url": "https://stumptowncoffee.com/products/ghost-bridge-tote",
-  "kind": "Coffee"
+  "kind": "Accessories"
  },
  {
   "id": "stumptowncoffee-wildwood-sticker-crow",
   "url": "https://stumptowncoffee.com/products/wildwood-sticker-crow",
-  "kind": "Coffee"
+  "kind": "Accessories"
  },
  {
   "id": "intelligentsia-5-pack-house-instant-coffee",
@@ -897,17 +897,17 @@
  {
   "id": "cometeer-the-big-chlebowski-bundle",
   "url": "https://cometeer.com/products/the-big-chlebowski-bundle",
-  "kind": "Coffee"
+  "kind": "Drinks"
  },
  {
   "id": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde",
   "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde",
-  "kind": "Coffee"
+  "kind": "Drinks"
  },
  {
   "id": "cometeer-first-person-after-hours-decaf",
   "url": "https://cometeer.com/products/first-person-after-hours-decaf",
-  "kind": "Coffee"
+  "kind": "Drinks"
  },
  {
   "id": "counterculturecoffee-finca-el-puente-honey",
@@ -917,12 +917,12 @@
  {
   "id": "counterculturecoffee-the-bambino",
   "url": "https://counterculturecoffee.com/products/the-bambino\u2122",
-  "kind": "Coffee"
+  "kind": "Kitchen"
  },
  {
   "id": "counterculturecoffee-baratza-classic-grinder",
   "url": "https://counterculturecoffee.com/products/baratza-classic-grinder",
-  "kind": "Coffee"
+  "kind": "Kitchen"
  },
  {
   "id": "onyxcoffeelab-2026-advent-calendar",
@@ -982,7 +982,7 @@
  {
   "id": "deathwishcoffee-white-chocolate-pistachio-ground-bundle",
   "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
-  "kind": "Coffee"
+  "kind": "Drinks"
  },
  {
   "id": "deathwishcoffee-brown-saint-beanie",

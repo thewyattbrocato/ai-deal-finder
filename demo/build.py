@@ -397,6 +397,9 @@ DECISION_BADGE = {
 }
 
 
+PAGE_READ_LABEL = "Price read from the store page"
+
+
 def savings_block(item):
     """Shelf price, the page-printed coupon (never applied), and what is unknown.
 
@@ -482,7 +485,8 @@ def product_card(item, decision, coupon_html):
                  + '" data-quality-basis="'
                  + esc(item["quality"]["basis"] if item["quality"] else "")
                  + '" data-base-name="' + esc(item.get("base_name") or "")
-                 + '" data-terms="' + esc(terms_json(item.get("terms")))
+                 + '"' + (' data-coffee-note="yes"' if item.get("coffee_note") else "")
+                 + ' data-terms="' + esc(terms_json(item.get("terms")))
                  + '">')
     parts.append('<div class="card-body" style="min-width:0">')
     parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
@@ -517,10 +521,17 @@ def product_card(item, decision, coupon_html):
         parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
                      "Specialty band: "
                      + "</span>" + esc(item["band"]) + "</p>")
+    if item.get("page_read"):
+        # One page read, nothing compared: say what was established, no verdict.
+        status = ('<span class="text-lg font-bold" data-page-read>'
+                  + PAGE_READ_LABEL + "</span>"
+                  '<span class="text-sm opacity-80">Not compared with other stores.</span>')
+    else:
+        status = ('<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
+                  '<span class="text-sm opacity-80">Price as read from the page.</span>')
     parts.append(
         '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
-        '<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
-        '<span class="text-sm opacity-80">Price as read from the page.</span>'
+        + status +
         '<a class="btn btn-primary" href="' + esc(item["page_url"])
         + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
         + " \u2192</a></div>"
@@ -610,7 +621,8 @@ def card_for(item):
 def item_dict(key, name, detail, seller, kind, image, price_cents,
               price_label, was_label, decision, coupon, page_url, page_host,
               region, observed_at, fine_print, keywords, quality=None,
-              form=None, band=None, base_name=None, terms=None):
+              form=None, band=None, base_name=None, terms=None,
+              page_read=False):
     return {
         "key": key, "name": name, "detail": detail, "seller": seller,
         "kind": kind, "image": image,
@@ -620,6 +632,7 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
         "observed_at": observed_at, "fine_print": fine_print,
         "keywords": keywords, "quality": quality, "form": form,
         "band": band, "base_name": base_name, "terms": terms,
+        "page_read": page_read, "coffee_note": False,
     }
 
 
@@ -643,11 +656,17 @@ KIND_WORDS = {
 }
 PAGE_CAVEAT = ("Seen on the page but never tried out, so the price shown "
                "does not include it.")
-CATALOG_FINE_PRINT = [
-    "Tax and shipping weren't shown for this item \u2014 check the total at "
-    "checkout.",
-    "Recheck the price before paying; store pages change.",
-]
+TAX_SHIP_UNKNOWN = ("Tax and shipping weren't shown for this item \u2014 check "
+                    "the total at checkout.")
+TAX_UNKNOWN = ("Tax wasn't shown for this item \u2014 check the total at "
+               "checkout.")
+RECHECK = "Recheck the price before paying; store pages change."
+
+
+def tax_ship_line(t):
+    """Only what the stored evidence leaves unknown: tax always (no page
+    shows it before checkout), shipping only when no shipping line is stored."""
+    return TAX_UNKNOWN if (t or {}).get("ship") else TAX_SHIP_UNKNOWN
 
 
 def run_catalog_observation(obs):
@@ -688,13 +707,22 @@ def catalog_item(obs):
                   "caveat": PAGE_CAVEAT,
                   "window": printed_window(page_text),
                   "conditions": printed_conditions(page_text)}
+    item_terms = terms.for_id(obs["id"], obs["kind"])
     return item_dict(
         obs["id"], obs["name"], seller + " \u00b7 new", seller, obs["kind"],
         ("assets/" + obs["image"]) if obs["image"] else None,
         cents, label, None, run_catalog_observation(obs), coupon,
         obs["page_url"], obs["page_host"], "US", obs["observed_at"],
-        list(CATALOG_FINE_PRINT), sorted(words),
-        terms=terms.for_id(obs["id"], obs["kind"]))
+        [tax_ship_line(item_terms), RECHECK], sorted(words), page_read=True,
+        terms=item_terms)
+
+
+def seed_kinds():
+    """seeds.json is where a product's kind is decided; stored evidence keeps
+    the kind it was collected under, so a corrected kind is applied here."""
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "seeds.json"),
+              encoding="utf-8") as f:
+        return {s["id"]: s["kind"] for s in json.load(f)}
 
 
 def catalog_items(hand_items):
@@ -702,6 +730,8 @@ def catalog_items(hand_items):
     seen = {(i["page_host"], i["page_url"].rstrip("/").rsplit("/", 1)[-1])
             for i in hand_items.values()}
     obs_ok, _excluded = catalog.load_catalog()
+    kinds = seed_kinds()
+    obs_ok = [dict(o, kind=kinds.get(o["id"], o["kind"])) for o in obs_ok]
     names = {i["name"] for i in hand_items.values()}
     out = {}
     for o in obs_ok:
@@ -729,8 +759,7 @@ def build():
     _ccc, _cccost, dccc = run_ccc()
     _sp, _spcost, dsp = run_specific_super_crema()
 
-    tax_ship = ("Tax and shipping weren't shown for this item \u2014 check "
-                "the total at checkout.")
+    tax_ship = TAX_SHIP_UNKNOWN
     lavazza_coupon = {
         "code": LAVAZZA_OFFER[0], "offer": LAVAZZA_OFFER[1], "caveat": LAVAZZA_CAVEAT,
     }
@@ -887,6 +916,9 @@ def build():
         t = terms.HAND[k]
         item["terms"] = dict(t, src=t["src"])
         item["base_name"] = base_names.get(k)
+        item["fine_print"] = [tax_ship_line(item["terms"]) if n == tax_ship else n
+                              for n in item["fine_print"]]
+        item["coffee_note"] = any(item is c for c in coffee)
         # the default size's price is the card's shelf price, never different
         for s in t["sizes"]:
             if s.get("d"):
@@ -972,7 +1004,7 @@ def build():
 <p id="guide-status" class="text-sm font-semibold" role="status" aria-live="polite"></p>
 <details id="hidden-by" class="text-sm mt-1" style="display:none"><summary class="cursor-pointer">Hidden by your answers</summary><ul id="hidden-list" class="list-disc ml-6 mt-1"></ul></details>
 </section>
-<p class="text-sm opacity-80 mb-2">""" + coffee_note + """</p>
+<p id="coffee-note" class="text-sm opacity-80 mb-2" style="display:none">""" + coffee_note + """</p>
 <div id="no-match" class="alert mb-4" style="display:none" role="status"><div style="min-width:0"><p id="no-match-text" class="font-semibold"></p><div id="no-match-actions" class="flex flex-wrap gap-2 mt-2"></div></div></div>
 </header>
 <section id="all-checked" class="mb-8">
@@ -1042,6 +1074,7 @@ let spec = [];
 let specSig = "";
 let renderSig = "";
 let controls = [];
+const coffeeNote = document.getElementById("coffee-note");
 const noMatchText = document.getElementById("no-match-text");
 const noMatchActions = document.getElementById("no-match-actions");
 const shelfLine = new Map(cards.map(c => [c, c.querySelectorAll("[data-shelf-line]")[0].textContent]));
@@ -1063,7 +1096,8 @@ for (const c of cards) {
 // A coupon page's own printed date window against the browser's date (calendar days, ISO strings compare).
 // Ended means information only: never an available offer, never a lower price.
 function two(n) { return (n < 10 ? "0" : "") + n; }
-const TODAY = NOW.getFullYear() + "-" + two(NOW.getMonth() + 1) + "-" + two(NOW.getDate());
+// Printed ends are US Eastern ("11:59 PM ET"), so "today" is the Eastern calendar date, not the viewer's.
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" }).format(NOW);
 function windowState(start, end) {
   if (!start || !end) return "none";
   if (TODAY < start) return "before";
@@ -1071,9 +1105,9 @@ function windowState(start, end) {
   return "inside";
 }
 const WINDOW_TEXT = {
-  before: "Today (" + TODAY + ") is before the page's printed window.",
-  inside: "Today (" + TODAY + ") is inside the page's printed window. The code is still never tried: confirm it at checkout.",
-  ended: "The page's printed window has ended (today is " + TODAY + "). Shown as information only, not as an available offer.",
+  before: "Today in US Eastern time (" + TODAY + ") is before the page's printed window.",
+  inside: "Today in US Eastern time (" + TODAY + ") is inside the page's printed window. The code is still never tried: confirm it at checkout.",
+  ended: "The page's printed window has ended (today in US Eastern time is " + TODAY + "). Shown as information only, not as an available offer.",
 };
 for (const c of cards) {
   const row = c.querySelectorAll("[data-window-row]")[0];
@@ -1464,6 +1498,7 @@ function filter() {
     c.querySelectorAll("[data-shelf-line]")[0].textContent = v.resized
       ? fmt(v.shelf) + " for the " + v.size + " bag, as printed on the page" : shelfLine.get(c);
   });
+  coffeeNote.style.display = shownSet.some(c => c.getAttribute("data-coffee-note") === "yes") ? "" : "none";
   noMatch.style.display = shownSet.length ? "none" : "";
   if (!shownSet.length) renderEmpty(searched);
   else { noMatchText.textContent = ""; noMatchActions.innerHTML = ""; }

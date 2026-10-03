@@ -27,6 +27,7 @@ Terms shape (all keys optional except "group"/"sizes"):
 import json
 import os
 import re
+import urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 EVIDENCE_DIR = os.path.join(HERE, "evidence")
@@ -174,6 +175,42 @@ def conditions_from_evidence(ev):
             (c.get("url"), c.get("read_at")))
 
 
+def _offer_size(o):
+    """The size an offer's own url names (?Size=M), else None."""
+    q = urllib.parse.parse_qs(urllib.parse.urlparse(str(o.get("url") or "")).query)
+    vals = [v for k, vs in q.items() if k.lower() == "size" for v in vs if v]
+    return vals[0] if len(vals) == 1 else None
+
+
+def _sizes_from_offers(p):
+    """Sizes a product with no variants lists in its offers.
+
+    One offer: the product's own size. Several offers: every offer must name
+    its size, else the parse is partial and no size is shown at all (the
+    top-level size alone would understate what the page lists).
+    """
+    offers = _offers(p)
+    if len(offers) <= 1:
+        return [{"k": str(p["size"]), "c": None, "s": None, "sp": None,
+                 "o": _lead_number(str(p["size"])),
+                 "ok": str(offers[0].get("availability", "")).endswith("InStock")
+                 if offers else None}]
+    out, seen = [], set()
+    for o in offers:
+        k = _offer_size(o)
+        if k is None:
+            return []
+        if k in seen:
+            continue
+        seen.add(k)
+        n = _lead_number(k)
+        out.append({"k": k, "c": None, "s": None, "sp": None,
+                    # letter sizes keep the page's own order (XS, S, M ...)
+                    "o": n if n != 1000.0 else float(len(out)),
+                    "ok": str(o.get("availability", "")).endswith("InStock")})
+    return out
+
+
 def from_evidence(ev, kind):
     """Stored evidence record -> terms dict (sizes/shipping only if stated)."""
     prods = ev.get("json_ld") or []
@@ -193,11 +230,7 @@ def from_evidence(ev, kind):
                       "o": _lead_number(str(s)),
                       "ok": any(stocks) if stocks else None})
     if not sizes and p.get("size"):
-        stocks = [str(o.get("availability", "")).endswith("InStock")
-                  for o in _offers(p)]
-        sizes.append({"k": str(p["size"]), "c": None, "s": None, "sp": None,
-                      "o": _lead_number(str(p["size"])),
-                      "ok": any(stocks) if stocks else None})
+        sizes = _sizes_from_offers(p)
     group = _size_group([s["k"] for s in sizes], kind)
     if group is None:
         sizes = []
