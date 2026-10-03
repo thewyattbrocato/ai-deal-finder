@@ -1,0 +1,50 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.nativecos.com/products/mini-shampoo-sensitive",
+ "http_status": 200,
+ "id": "nativecos-mini-shampoo-sensitive",
+ "image_file": "nativecos-mini-shampoo-sensitive.png",
+ "image_sha256": "4c48d4fc6cb7ef8d984e17d9eaa6e26c0a9f89ef1ec580ce01190ee17538a637",
+ "image_source": "http://www.nativecos.com/cdn/shop/files/PLP_THUMBNAIL_Native_Sensitive_Series_Bare_Coconut_Hydrating_Shampoo_Mini_3oz_874669f1-282c-4489-81bf-9fb1198f3136.png?v=1774394677&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.nativecos.com/products/mini-shampoo-sensitive?variant=47394073510062",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5.0,
+    "ratingValue": 4.7,
+    "reviewCount": 952
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Native"
+   },
+   "description": "Sensitive doesn't have to be scentless: this Hydrating Shampoo is designed for sensitive scalp and skin with hypoallergenic fragrances so you smell AND feel amazing. For dry hair &amp; scalp.",
+   "image": [
+    "https:files/PLP_THUMBNAIL_Native_Sensitive_Series_Bare_Coconut_Hydrating_Shampoo_Mini_3oz_874669f1-282c-4489-81bf-9fb1198f3136.png"
+   ],
+   "name": "Sensitive Series: Mini Shampoo",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 5.0,
+     "priceCurrency": "USD",
+     "sku": "80880539",
+     "url": "https://www.nativecos.com/products/mini-shampoo-sensitive?variant=47394073510062"
+    }
+   ],
+   "sku": "80880539",
+   "url": "https://www.nativecos.com/products/mini-shampoo-sensitive?variant=47394073510062"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:35Z",
+ "og_image": "http://www.nativecos.com/cdn/shop/files/PLP_THUMBNAIL_Native_Sensitive_Series_Bare_Coconut_Hydrating_Shampoo_Mini_3oz_874669f1-282c-4489-81bf-9fb1198f3136.png?v=1774394677&width=1024",
+ "page_sha256": "3d4e6e6095e195cd0a4d9e74453eac872b9eebb783e2f4109fb2e7718097752d",
+ "rendered_checked": true,
+ "title": "Native Sensitive Mini Shampoo | Hydrating Bare Coconut | Native",
+ "url": "https://nativecos.com/products/mini-shampoo-sensitive"
+}

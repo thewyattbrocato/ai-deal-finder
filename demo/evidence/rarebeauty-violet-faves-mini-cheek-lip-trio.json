@@ -1,0 +1,53 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.rarebeauty.com/products/violet-faves-mini-cheek-lip-trio",
+ "http_status": 200,
+ "id": "rarebeauty-violet-faves-mini-cheek-lip-trio",
+ "image_file": "rarebeauty-violet-faves-mini-cheek-lip-trio.jpg",
+ "image_sha256": "aac188d39dadbc3d5642209cd2c2b9b359801ecbaa8b0234be269357642748e2",
+ "image_source": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?format=pjpg&v=1788553499&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.rarebeauty.com/products/violet-faves-mini-cheek-lip-trio",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Rare Beauty"
+   },
+   "description": "Three limited-edition minis to blush, glow, and gloss on the go. Featuring award-winning Soft Pinch Liquid Blush in Spirited (mid-tone violet), Positive Light Liquid Luminizer in set-exclusive Lovestruck (duo chrome violet), and Positive Light Luminizing Lip Gloss in set-exclusive Twinkle (mauve with duo chrome lilac/blue/rose pearls).\u00a0 ",
+   "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?v=1788553499&width=1024",
+   "mpn": "FGPKIT0025F1",
+   "name": "Violet Faves Mini Cheek & Lip Trio",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.rarebeauty.com/cart/add?id=45392594403463&quantity=1",
+     "gtin12": "840122910333",
+     "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?v=1788553499&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "FGPKIT0025F1",
+     "price": "34.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "Rare Beauty"
+     },
+     "sku": "FGPKIT0025F1",
+     "url": "https://www.rarebeauty.com/products/violet-faves-mini-cheek-lip-trio?variant=45392594403463"
+    }
+   ],
+   "sku": "FGPKIT0025F1",
+   "url": "https://www.rarebeauty.com/products/violet-faves-mini-cheek-lip-trio"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:14Z",
+ "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?format=pjpg&v=1788553499&width=1440",
+ "page_sha256": "92fa50217cf93e445a03e6b9469cdab3f10b25bad24571bec4a18f76ea7c30e8",
+ "rendered_checked": true,
+ "title": "Violet Faves Mini Cheek & Lip Trio",
+ "url": "https://rarebeauty.com/products/violet-faves-mini-cheek-lip-trio"
+}

@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://hexclad.com/products/hybrid-roasting-pan-7-x-10",
+ "http_status": 200,
+ "id": "hexclad-hybrid-roasting-pan-7-x-10",
+ "image_file": "hexclad-hybrid-roasting-pan-7-x-10.jpg",
+ "image_sha256": "09a1ee363b3aefadd57a86b1b170381b8d90ea40fd69e36c1264b1b665c8ae88",
+ "image_source": "http://hexclad.com/cdn/shop/files/7x10RoastingPan1.jpg?crop=center&height=480&v=1773873343&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "HexClad Cookware"
+   },
+   "description": "When you need a roasting pan for a slightly smaller job, like making your favorite side dishes, this is your go-to. Use it for mac and cheese, shepherd\u2019s pie or green bean casserole. As do all our pots and pans, the roasting pan boasts our Hybrid surface for the ultimate sear and easy cleanup.",
+   "image": "https://hexclad.com/cdn/shop/files/7x10RoastingPan1.jpg?v=1773873343&width=1024",
+   "name": "Hybrid Roasting Pan, 7\u201d x 10\u201d",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 84.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "HexClad Cookware"
+     },
+     "sku": "CWRT10-C",
+     "url": "https://hexclad.com/products/hybrid-roasting-pan-7-x-10?variant=43723820269702"
+    }
+   ],
+   "sku": "CWRT10-C"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T15:08:06Z",
+ "og_image": "http://hexclad.com/cdn/shop/files/7x10RoastingPan1.jpg?crop=center&height=480&v=1773873343&width=480",
+ "page_sha256": "de9d33fc07d68c9449746d0d64dafc804db95968f05ba597684f33e7adef8bd0",
+ "rendered_checked": true,
+ "title": "Hybrid Roasting Pan, 7\u201d x 10\u201d | HexClad",
+ "url": "https://hexclad.com/products/hybrid-roasting-pan-7-x-10"
+}

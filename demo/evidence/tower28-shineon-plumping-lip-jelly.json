@@ -1,0 +1,81 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly",
+ "http_status": 200,
+ "id": "tower28-shineon-plumping-lip-jelly",
+ "image_file": "tower28-shineon-plumping-lip-jelly.png",
+ "image_sha256": "d71fe7676d68e834a0370483c0af25864ef10885cb7720d07c8c00bb15acd50a",
+ "image_source": "http://www.tower28beauty.com/cdn/shop/files/PACKSHOT_-_STATIC_FLOW.webp?v=1787776951&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "description": "Okendo Reviews",
+    "ratingCount": "177",
+    "ratingValue": "4.8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Tower 28 Beauty"
+   },
+   "description": "A pain-free lip plumping gloss that uses first-ever VibePlump\u2122 technology that vibrates volume into lips \u2014 without the burn or irritation. Safe for sensitive skin.",
+   "image": [
+    "https://www.tower28beauty.com/cdn/shop/files/PACKSHOT_-_CHILL_HEAT.webp?v=1787776950&width=1920"
+   ],
+   "name": "ShineOn Plumping Lip Jelly",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T073-01-0000",
+     "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly?variant=42145346748471"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T074-01-0000",
+     "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly?variant=42145346715703"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T074-02-0000",
+     "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly?variant=42145346781239"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T074-03-0000",
+     "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly?variant=42145346814007"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T074-04-0000",
+     "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly?variant=42145346682935"
+    }
+   ],
+   "sku": "T073-01-0000",
+   "url": "https://www.tower28beauty.com/products/shineon-plumping-lip-jelly"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:08Z",
+ "og_image": "http://www.tower28beauty.com/cdn/shop/files/PACKSHOT_-_STATIC_FLOW.webp?v=1787776951",
+ "page_sha256": "97d9815addf865bf7d1b8f3bf5e891c9aedcd4386a2c03c683d8f9182b1a0154",
+ "rendered_checked": true,
+ "title": "ShineOn Plumping Lip Jelly | Tower 28 Beauty",
+ "url": "https://tower28beauty.com/products/shineon-plumping-lip-jelly"
+}

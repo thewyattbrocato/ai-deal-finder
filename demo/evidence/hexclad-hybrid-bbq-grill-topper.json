@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://hexclad.com/products/hybrid-bbq-grill-topper",
+ "http_status": 200,
+ "id": "hexclad-hybrid-bbq-grill-topper",
+ "image_file": "hexclad-hybrid-bbq-grill-topper.png",
+ "image_sha256": "1c30e095ff3d513a4817fbd5d70eb1aa6c61e4e851a195829774437e4e3fd3bd",
+ "image_source": "http://hexclad.com/cdn/shop/files/Hexclad_Hybrid-BBQ-GRilled-Topper_Top-Angle_Final_Black.png?crop=center&height=480&v=1778813112&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "HexClad Cookware"
+   },
+   "description": "Get the smoke and char without the mess with our new 16\u201d x 16\u201d grill topper. Its flat, wide surface makes it even easier to flip and maneuver smaller foods without losing them between the grates, and a perforated design enables better heat circulation and even cooking. It\u2019s also larger than our other (awesome) BBQ Pan!",
+   "image": "https://hexclad.com/cdn/shop/files/Hexclad_Hybrid-BBQ-GRilled-Topper_Top-Angle_Final_Black.png?v=1778813112&width=1024",
+   "name": "Hybrid BBQ Grill Topper, 16\u201d",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 144.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "HexClad Cookware"
+     },
+     "sku": "ODGT16-C",
+     "url": "https://hexclad.com/products/hybrid-bbq-grill-topper?variant=43985158602886"
+    }
+   ],
+   "sku": "ODGT16-C"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T15:07:56Z",
+ "og_image": "http://hexclad.com/cdn/shop/files/Hexclad_Hybrid-BBQ-GRilled-Topper_Top-Angle_Final_Black.png?crop=center&height=480&v=1778813112&width=480",
+ "page_sha256": "47f427669412f07c38da8e3883ebc3e01a968ceb269465a94c12e9e124fe602e",
+ "rendered_checked": true,
+ "title": "Hybrid BBQ Grill Topper, 16\u201d | HexClad",
+ "url": "https://hexclad.com/products/hybrid-bbq-grill-topper"
+}

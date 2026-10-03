@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://greatjonesgoods.com/products/square-one",
+ "http_status": 200,
+ "id": "greatjones-square-one",
+ "image_file": "greatjones-square-one.png",
+ "image_sha256": "dec07c116f41c86cd19f2bf66dc5d2d561f7f5ac3e827f74a19cd70f73467189",
+ "image_source": "http://greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1_1024x1024.png?v=1762449978&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "225"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Great Jones"
+   },
+   "description": "It\u2019s always wise to start at Square One, our 9x9-inch square baking pan with our signature wavy, corrugated bottom for easy release. Our custom nonstick, non...",
+   "image": [
+    "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1.png?v=1762449978&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_2.png?v=1697565083&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_3.png?v=1697565083&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_4.png?v=1697565083&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_5.png?v=1697565083&width=1200"
+   ],
+   "name": "Square One",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "35.00",
+    "priceCurrency": "USD",
+    "url": "https://greatjonesgoods.com/products/square-one"
+   },
+   "sku": "BW-SQR-BR-01"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T15:08:15Z",
+ "og_image": "http://greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1_1024x1024.png?v=1762449978",
+ "page_sha256": "5600ddaa1b2372aed77e242a76a8ea12949bf8a100b2e8c5328ca3ee4aecec00",
+ "rendered_checked": true,
+ "title": "Square One | Great Jones",
+ "url": "https://greatjonesgoods.com/products/square-one"
+}

@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://greatjonesgoods.com/products/sweetheart",
+ "http_status": 200,
+ "id": "greatjones-sweetheart",
+ "image_file": "greatjones-sweetheart.png",
+ "image_sha256": "8327f27bd771dfb2d024e749195a0fdc88b7ab8fc2f3da9b4c45576a0ec7c919",
+ "image_source": "http://greatjonesgoods.com/cdn/shop/files/Sweetheart_2_1024x1024.png?v=1762453768&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "225"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Great Jones"
+   },
+   "description": "Our heart-shaped cake pan features our signature wavy, corrugated bottom, designed to release baked goods effortlessly and resist scratching. Plus, our custo...",
+   "image": [
+    "//greatjonesgoods.com/cdn/shop/files/Sweetheart_2.png?v=1762453768&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/Sweetheart_1.png?v=1742317303&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/Sweetheart_6.png?v=1742317303&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/Sweetheart_5.png?v=1742317303&width=1200",
+    "//greatjonesgoods.com/cdn/shop/files/SweetheartPDP.png?v=1742317303&width=1200"
+   ],
+   "name": "Sweetheart",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "35.00",
+    "priceCurrency": "USD",
+    "url": "https://greatjonesgoods.com/products/sweetheart"
+   },
+   "sku": "BW-CAKM-HRA-01"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T15:08:14Z",
+ "og_image": "http://greatjonesgoods.com/cdn/shop/files/Sweetheart_2_1024x1024.png?v=1762453768",
+ "page_sha256": "9b0c909b2876a33c9e948cbb250d37184207505618458b393073a1f893c7a154",
+ "rendered_checked": true,
+ "title": "Sweetheart | Great Jones",
+ "url": "https://greatjonesgoods.com/products/sweetheart"
+}

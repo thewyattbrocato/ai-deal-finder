@@ -1,0 +1,98 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://baronfig.com/products/squire-click-ink-refills",
+ "http_status": 200,
+ "id": "baronfig-squire-click-ink-refills",
+ "image_file": "baronfig-squire-click-ink-refills.jpg",
+ "image_sha256": "7608cb98716bd6443225dd107ea3410033ec142fcb62080886b0bcbc6d862c66",
+ "image_source": "http://baronfig.com/cdn/shop/products/squire-click-refills_black_buy-square_01_126945d0-dcc6-4099-90cb-c4099258346d.jpg?v=1759252874&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/squire-click-ink-refills#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Baronfig"
+   },
+   "category": "Pen Ink & Refills",
+   "description": "Squire Click pen ink refills\u2014click, click, click away!\nNOTE: Not compatible with Squire Hex or Squire Classic pens, those refills are found\u00a0here.",
+   "hasVariant": [
+    {
+     "@id": "/products/squire-click-ink-refills?variant=40487990952019#variant",
+     "@type": "Product",
+     "gtin": "810106030487",
+     "image": "https://baronfig.com/cdn/shop/products/squire-click-refills_black_buy-square_01_126945d0-dcc6-4099-90cb-c4099258346d.jpg?v=1759252874&width=1920",
+     "name": "Squire Click Ink Refills - Black",
+     "offers": {
+      "@id": "/products/squire-click-ink-refills?variant=40487990952019#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "15.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/squire-click-ink-refills?variant=40487990952019"
+     },
+     "sku": "sqc-r-k"
+    },
+    {
+     "@id": "/products/squire-click-ink-refills?variant=40487990984787#variant",
+     "@type": "Product",
+     "gtin": "810106030494",
+     "image": "https://baronfig.com/cdn/shop/products/squire-click-refills_blue_buy-square_01_415bfbb9-6e3f-4db3-b57e-e6d1db618bc3.jpg?v=1697725103&width=1920",
+     "name": "Squire Click Ink Refills - Blue",
+     "offers": {
+      "@id": "/products/squire-click-ink-refills?variant=40487990984787#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "15.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/squire-click-ink-refills?variant=40487990984787"
+     },
+     "sku": "sqc-r-u"
+    }
+   ],
+   "name": "Squire Click Ink Refills",
+   "productGroupID": "6928324788307",
+   "url": "https://baronfig.com/products/squire-click-ink-refills"
+  },
+  {
+   "@id": "/products/squire-click-ink-refills?variant=40487990952019#variant",
+   "@type": "Product",
+   "gtin": "810106030487",
+   "image": "https://baronfig.com/cdn/shop/products/squire-click-refills_black_buy-square_01_126945d0-dcc6-4099-90cb-c4099258346d.jpg?v=1759252874&width=1920",
+   "name": "Squire Click Ink Refills - Black",
+   "offers": {
+    "@id": "/products/squire-click-ink-refills?variant=40487990952019#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "15.00",
+    "priceCurrency": "USD",
+    "url": "https://baronfig.com/products/squire-click-ink-refills?variant=40487990952019"
+   },
+   "sku": "sqc-r-k"
+  },
+  {
+   "@id": "/products/squire-click-ink-refills?variant=40487990984787#variant",
+   "@type": "Product",
+   "gtin": "810106030494",
+   "image": "https://baronfig.com/cdn/shop/products/squire-click-refills_blue_buy-square_01_415bfbb9-6e3f-4db3-b57e-e6d1db618bc3.jpg?v=1697725103&width=1920",
+   "name": "Squire Click Ink Refills - Blue",
+   "offers": {
+    "@id": "/products/squire-click-ink-refills?variant=40487990984787#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "15.00",
+    "priceCurrency": "USD",
+    "url": "https://baronfig.com/products/squire-click-ink-refills?variant=40487990984787"
+   },
+   "sku": "sqc-r-u"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T15:10:02Z",
+ "og_image": "http://baronfig.com/cdn/shop/products/squire-click-refills_black_buy-square_01_126945d0-dcc6-4099-90cb-c4099258346d.jpg?v=1759252874",
+ "page_sha256": "630a2c2b1253c7ceb74e1eebcec94eab10172ff746cb1ef57c4a5f88d3532fa9",
+ "rendered_checked": true,
+ "title": "Squire Click Ink Refills \u2013 Baronfig",
+ "url": "https://baronfig.com/products/squire-click-ink-refills"
+}

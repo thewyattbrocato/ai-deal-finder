@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.tower28beauty.com/products/brush-03-baby-blender-brush",
+ "http_status": 200,
+ "id": "tower28-brush-03-baby-blender-brush",
+ "image_file": "tower28-brush-03-baby-blender-brush.jpg",
+ "image_sha256": "7cf26d7c738461c06ebcddab817bcd1f82ea6aeb022129937141a6bfd552116f",
+ "image_source": "http://www.tower28beauty.com/cdn/shop/files/Packshot-Brush11.jpg?v=1786731965&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "description": "Okendo Reviews",
+    "ratingCount": "74",
+    "ratingValue": "4.7"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Tower 28 Beauty"
+   },
+   "description": "A baby multitasking complexion brush with densely packed bristles and a rounded teardrop shape that makes blending with precision easy, leaving skin smooth and streak-free.",
+   "image": [
+    "https://www.tower28beauty.com/cdn/shop/files/Packshot-Brush11.jpg?v=1786731965&width=1920"
+   ],
+   "name": "Brush 03 - Baby Blender Brush",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "T081-03-0000",
+     "url": "https://www.tower28beauty.com/products/brush-03-baby-blender-brush?variant=42379494096951"
+    }
+   ],
+   "sku": "T081-03-0000",
+   "url": "https://www.tower28beauty.com/products/brush-03-baby-blender-brush"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:03Z",
+ "og_image": "http://www.tower28beauty.com/cdn/shop/files/Packshot-Brush11.jpg?v=1786731965",
+ "page_sha256": "f483bf1d5152794e26450ff1501187424655f22a9897092dcfc61354ea80e3ba",
+ "rendered_checked": true,
+ "title": "Brush 03 - Baby Blender Brush \u2013 Tower 28 Beauty",
+ "url": "https://tower28beauty.com/products/brush-03-baby-blender-brush"
+}
