@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:53:22Z",
+  "read_at": "2026-10-03T22:23:57Z",
   "ship": [
    "Our aluminum capsule and shipping materials are all curbside recyclable. Even the lids!"
   ],
@@ -10,6 +10,52 @@
  },
  "coupon_snippets": [],
  "final_url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:53:22Z",
+    "ship": [
+     "Our aluminum capsule and shipping materials are all curbside recyclable. Even the lids!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Go Get Em Tiger"
+     },
+     "description": "With notes of brownie, black forest cake, and cherry.",
+     "image": "https://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=1024&v=1790782690&width=1024",
+     "name": "Decaf Placer De La Tarde \u2014 8ct",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "26.24",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Cometeer "
+      },
+      "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde?variant=45518069596459"
+     },
+     "sku": "PP8PGGDP"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:19Z",
+   "og_image": "http://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=480&v=1790782690&width=480",
+   "page_sha256": "d5befe826a76e666435fbadd289bc3644ae3e29bf13184314d33a5c7715c1694",
+   "rendered_checked": true,
+   "title": "Decaf Placer De La Tarde \u2013 Cometeer"
+  }
+ ],
  "http_status": 200,
  "id": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde",
  "image_file": "cometeer-go-get-em-tiger-decaf-placer-de-la-tarde.png",
@@ -41,9 +87,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:19Z",
+ "observed_at": "2026-10-03T22:23:44Z",
  "og_image": "http://cometeer.com/cdn/shop/files/8395926405419_hero.png?crop=center&height=480&v=1790782690&width=480",
- "page_sha256": "d5befe826a76e666435fbadd289bc3644ae3e29bf13184314d33a5c7715c1694",
+ "page_sha256": "66ceb8df41bed2af1f4632df6d4e1e4a0621d718fbe1143b4b26d3b06c81c5fc",
  "rendered_checked": true,
  "title": "Decaf Placer De La Tarde \u2013 Cometeer",
  "url": "https://cometeer.com/products/go-get-em-tiger-decaf-placer-de-la-tarde"

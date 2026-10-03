@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://bokksu.com/products/artisan-coffee-pairing",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://bokksu.com/products/artisan-coffee-pairing",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T20:05:03Z",
+   "og_image": "http://bokksu.com/cdn/shop/files/SNB26108399-edit.jpg?v=1790675934",
+   "page_sha256": "524f4799d0fcdb5462292d13a5a7e1ce2a93da2471595c33ba65ca67b2c49f42",
+   "title": "Artisan Coffee Pairing \u2013 Bokksu Snack Box"
+  }
+ ],
  "http_status": 200,
  "id": "bokksu-artisan-coffee-pairing",
  "image_file": null,
  "json_ld": [],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:05:03Z",
+ "observed_at": "2026-10-03T22:16:37Z",
  "og_image": "http://bokksu.com/cdn/shop/files/SNB26108399-edit.jpg?v=1790675934",
- "page_sha256": "524f4799d0fcdb5462292d13a5a7e1ce2a93da2471595c33ba65ca67b2c49f42",
+ "page_sha256": "91c7e53cae42c62b487112c7fff271f8c384b74fc4ccbe2eb3856c620e9dead2",
  "title": "Artisan Coffee Pairing \u2013 Bokksu Snack Box",
  "url": "https://bokksu.com/products/artisan-coffee-pairing"
 }

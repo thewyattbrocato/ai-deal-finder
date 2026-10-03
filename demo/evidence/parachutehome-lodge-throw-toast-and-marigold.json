@@ -1,8 +1,7 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:04:21Z",
+  "read_at": "2026-10-03T22:05:31Z",
   "ship": [
-   "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
    "Shipping + Returns",
    "Free Shipping & 60 Day Returns",
    "Free Shipping",
@@ -19,6 +18,86 @@
  },
  "coupon_snippets": [],
  "final_url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:04:21Z",
+    "ship": [
+     "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
+     "Shipping + Returns",
+     "Free Shipping & 60 Day Returns",
+     "Free Shipping",
+     "FREE U.S. SHIPPING"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "*By completing this form you are signing up to receive our emails and can unsubscribe at any time."
+    ],
+    "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/lodge-throw-toast-and-marigold#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Parachute Home"
+     },
+     "category": "Blankets",
+     "description": "Go big on plaid. An oversized check gives the classic cabin pattern a more modern point of view, with rich contrasting shades and long fringe for a relaxed finish. Woven from superfine alpaca, it delivers exceptional softness and wonderful warmth without the weight. The lodge look, no cabin required.\n\u00a0",
+     "hasVariant": [
+      {
+       "@id": "/products/lodge-throw-toast-and-marigold?variant=39754608115973#variant",
+       "@type": "Product",
+       "gtin": "810210549806",
+       "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_toast-and-marigold_main_1328.jpg?v=1790104100&width=1920",
+       "name": "Lodge Throw (Toast and Marigold) - One Size / Toast and Marigold",
+       "offers": {
+        "@id": "/products/lodge-throw-toast-and-marigold?variant=39754608115973#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "279.00",
+        "priceCurrency": "USD",
+        "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold?variant=39754608115973"
+       },
+       "sku": "THWLODTAMONE"
+      }
+     ],
+     "name": "Lodge Throw (Toast and Marigold)",
+     "productGroupID": "6702757347589",
+     "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold"
+    },
+    {
+     "@id": "/products/lodge-throw-toast-and-marigold?variant=39754608115973#variant",
+     "@type": "Product",
+     "gtin": "810210549806",
+     "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_toast-and-marigold_main_1328.jpg?v=1790104100&width=1920",
+     "name": "Lodge Throw (Toast and Marigold) - One Size / Toast and Marigold",
+     "offers": {
+      "@id": "/products/lodge-throw-toast-and-marigold?variant=39754608115973#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "279.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold?variant=39754608115973"
+     },
+     "sku": "THWLODTAMONE"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:52Z",
+   "og_image": "http://parachutehome.com/cdn/shop/files/lodge-throw_toast-and-marigold_main_1328.jpg?v=1790104100",
+   "page_sha256": "0eef4b7463738a3b075bbb92fc90f0efa8f8441665cb9f57587483dd2cf89f8e",
+   "rendered_checked": true,
+   "title": "Lodge Throw (Toast and Marigold) \u2013 Parachute Home"
+  }
+ ],
  "http_status": 200,
  "id": "parachutehome-lodge-throw-toast-and-marigold",
  "image_file": "parachutehome-lodge-throw-toast-and-marigold.jpg",
@@ -75,9 +154,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T19:58:52Z",
+ "observed_at": "2026-10-03T22:05:14Z",
  "og_image": "http://parachutehome.com/cdn/shop/files/lodge-throw_toast-and-marigold_main_1328.jpg?v=1790104100",
- "page_sha256": "0eef4b7463738a3b075bbb92fc90f0efa8f8441665cb9f57587483dd2cf89f8e",
+ "page_sha256": "def67aa7ddac45dd08a938d902076b5bb4f12ddd0d1dfaffab1b008bd1a7636d",
  "rendered_checked": true,
  "title": "Lodge Throw (Toast and Marigold) \u2013 Parachute Home",
  "url": "https://parachutehome.com/products/lodge-throw-toast-and-marigold"

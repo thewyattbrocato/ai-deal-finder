@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:02:20Z",
+  "read_at": "2026-10-03T22:02:33Z",
   "ship": [
    "Delivery Every",
    "Free US shipping",
@@ -13,9 +13,86 @@
   "url": "https://mudwtr.com/products/coffee-tin-psl-1"
  },
  "coupon_snippets": [
-  "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+  "Coffee Tin + PSL \u2013 MUD\\WTR Skip to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee Original PSL Protein Hot Chocolate Matcha Turmeric Rest Shop All Products this.up"
  ],
  "final_url": "https://mudwtr.com/products/coffee-tin-psl-1",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:02:20Z",
+    "ship": [
+     "Delivery Every",
+     "Free US shipping",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe & Save"
+    ],
+    "url": "https://mudwtr.com/products/coffee-tin-psl-1"
+   },
+   "coupon_snippets": [
+    "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+   ],
+   "final_url": "https://mudwtr.com/products/coffee-tin-psl-1",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/coffee-tin-psl-1#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "MUD\\WTR"
+     },
+     "description": "",
+     "image": "https://mudwtr.com/cdn/shop/files/CoffeeTin_PSL_450x450.jpg?v=1785358816",
+     "mpn": "8691637321911",
+     "name": "Coffee Tin + PSL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "70.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "MUD\\WTR"
+      }
+     },
+     "url": "/products/coffee-tin-psl-1"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "https://mudwtr.com/products/coffee-tin-psl-1",
+     "@type": "Product",
+     "brand": {
+      "name": "MUD\\WTR"
+     },
+     "description": "",
+     "image": [
+      "https: //mudwtr.com/cdn/shop/files/CoffeeTin_PSL.jpg?v=1785358816&width=746"
+     ],
+     "name": "Coffee Tin + PSL",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": "70.0",
+       "priceCurrency": "USD",
+       "sku": "SKU22242",
+       "url": "/products/coffee-tin-psl-1?variant=48941868286135"
+      }
+     ],
+     "url": "https://mudwtr.com/products/coffee-tin-psl-1"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:43Z",
+   "og_image": "http://mudwtr.com/cdn/shop/files/CoffeeTin_PSL_1200x1200.jpg?v=1785358816",
+   "page_sha256": "eac687aa095eddcba8a91b664ee395ca6ceb74a0c23965bacce906b8efd74fa6",
+   "rendered_checked": true,
+   "title": "Coffee Tin + PSL \u2013 MUD\\WTR"
+  }
+ ],
  "http_status": 200,
  "id": "mudwtr-coffee-tin-psl-1",
  "image_file": "mudwtr-coffee-tin-psl-1.jpg",
@@ -72,9 +149,9 @@
   }
  ],
  "kind": "Drinks",
- "observed_at": "2026-10-02T20:06:43Z",
+ "observed_at": "2026-10-03T22:02:16Z",
  "og_image": "http://mudwtr.com/cdn/shop/files/CoffeeTin_PSL_1200x1200.jpg?v=1785358816",
- "page_sha256": "eac687aa095eddcba8a91b664ee395ca6ceb74a0c23965bacce906b8efd74fa6",
+ "page_sha256": "ca35dce76fc5c20bf7f5f4bda1cfce9feb823041906e19b35b918a7871b66ddf",
  "rendered_checked": true,
  "title": "Coffee Tin + PSL \u2013 MUD\\WTR",
  "url": "https://mudwtr.com/products/coffee-tin-psl-1"

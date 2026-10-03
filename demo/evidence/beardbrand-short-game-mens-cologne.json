@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:51:25Z",
+  "read_at": "2026-10-03T22:14:45Z",
   "ship": [
    "Free luxury shipping on US orders $100+",
    "SHIPPING, RETURNS & GUARANTEES",
@@ -14,6 +14,97 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.beardbrand.com/products/short-game-mens-cologne",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:51:25Z",
+    "ship": [
+     "Free luxury shipping on US orders $100+",
+     "SHIPPING, RETURNS & GUARANTEES",
+     "LUXURY SHIPPING"
+    ],
+    "size": [
+     "SIZE: 20 mL alcohol and phthalate-free Eau de Parfum."
+    ],
+    "sub": [],
+    "url": "https://www.beardbrand.com/products/short-game-mens-cologne"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.beardbrand.com/products/short-game-mens-cologne",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.74,
+      "reviewCount": 35
+     },
+     "brand": {
+      "name": "Beardbrand"
+     },
+     "category": "Eau de Parfum",
+     "description": "Anyone can crush balls off the tee, but true players finish when they\u2019re close to the hole. Fresh cut perennial ryegrass and a tap of citrus up front with a sweet, sweet suede and leather dry down. Fresh, bright, and confident. Inspired by classic green colognes without approaching it-smells-like-your-grandpa territory. \nSIZE: 20 mL alcohol and phthalate-free Eau de Parfum.",
+     "gtin12": "850045850616",
+     "image": {
+      "@type": "ImageObject",
+      "height": "1024",
+      "image": "https://www.beardbrand.com/cdn/shop/files/EDP_SG_1024x.jpg?v=1779132966",
+      "name": "A bottle of Short Game Eau de Parfum against a grey background.",
+      "url": "https://www.beardbrand.com/cdn/shop/files/EDP_SG_1024x.jpg?v=1779132966",
+      "width": "1024"
+     },
+     "name": "Short Game Men's Cologne",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "eligibleRegion": {
+        "@type": "Country",
+        "name": "US"
+       },
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees",
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail"
+       },
+       "name": "Short Game",
+       "price": 50.0,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-12",
+       "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "doesNotShip": [
+         {
+          "@type": "Country",
+          "name": "Non-US"
+         }
+        ],
+        "freeShippingThreshold": {
+         "@type": "MonetaryAmount",
+         "currency": "USD",
+         "value": "100.00"
+        },
+        "shippingSettingsLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees"
+       },
+       "sku": "32874620",
+       "url": "https://www.beardbrand.com/products/short-game-mens-cologne?variant=61813947826546"
+      }
+     ],
+     "productId": "850045850616",
+     "sku": "32874620",
+     "url": "https://www.beardbrand.com/products/short-game-mens-cologne"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:38Z",
+   "og_image": "https://www.beardbrand.com/cdn/shop/files/EDP_SG_1200x630.jpg?v=1779132966",
+   "page_sha256": "2eeaae8696bf0721d44ab96ab5e447b9a49f537ed23a63c0c58aef47dfb18d44",
+   "rendered_checked": true,
+   "title": "Short Game Men's Cologne | Alcohol-Free Cologne \u2013 Beardbrand"
+  }
+ ],
  "http_status": 200,
  "id": "beardbrand-short-game-mens-cologne",
  "image_file": "beardbrand-short-game-mens-cologne.jpg",
@@ -60,7 +151,7 @@
      "name": "Short Game",
      "price": 50.0,
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-12",
+     "priceValidUntil": "2026-10-13",
      "shippingDetails": {
       "@type": "OfferShippingDetails",
       "doesNotShip": [
@@ -86,9 +177,9 @@
   }
  ],
  "kind": "Grooming",
- "observed_at": "2026-10-02T20:04:38Z",
+ "observed_at": "2026-10-03T22:14:34Z",
  "og_image": "https://www.beardbrand.com/cdn/shop/files/EDP_SG_1200x630.jpg?v=1779132966",
- "page_sha256": "2eeaae8696bf0721d44ab96ab5e447b9a49f537ed23a63c0c58aef47dfb18d44",
+ "page_sha256": "73e86147c78446efa7f29a390f877cd166644842a6d000617ed0f0eb6907f888",
  "rendered_checked": true,
  "title": "Short Game Men's Cologne | Alcohol-Free Cologne \u2013 Beardbrand",
  "url": "https://beardbrand.com/products/short-game-mens-cologne"

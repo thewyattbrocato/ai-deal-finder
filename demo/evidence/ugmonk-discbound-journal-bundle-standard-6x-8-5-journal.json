@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:14:53Z",
+  "read_at": "2026-10-03T22:15:14Z",
   "ship": [
    "Free US Shipping $200+",
    "Shipping & Returns"
@@ -14,6 +14,56 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:14:53Z",
+    "ship": [
+     "Free US Shipping $200+",
+     "Shipping & Returns"
+    ],
+    "size": [],
+    "sub": [
+     "Join 78,000+ subscribers by signing up below:",
+     "Subscribe \u2192"
+    ],
+    "url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/discbound-journal-bundle-standard-6x-8-5-journal#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Ugmonk"
+     },
+     "category": "Notebooks & Notepads",
+     "description": "The Discbound Journal Bundle\u00a0Includes:\n\n1 Discbound Journal\n3 Paper Refills (60 pages each)\n1 Journal Archive\n\nBuy it once. Refill it for life. This discbound journal combines the flexibility of a ring binder with the elegance of a bound notebook. The open-source disc binding system lets you easily add, remove, and rearrange pages, making it endlessly customizable. We've elevated this proven system using premium materials: solid brass discs, smooth 70# dot grid paper, and sturdy cardstock covers, all crafted in the USA.\nRefill packs available here\nFeatures:\n\nInclude 3 extra paper packs (120 pages each)\n\nRefillable discbound system\n\nSolid brass discs\nLays completely flat\nPage dimensions: 6\" x 8.5\"\n120 dot grid pages\n70# smooth white paper\nEmbossed Ugmonk logo\nMade in USA\n",
+     "image": "https://ugmonk.com/cdn/shop/files/journal-bundle-cardstock.jpg?v=1790020388&width=1920",
+     "name": "Discbound Journal Bundle (Standard 6\"x 8.5\" Journal)",
+     "offers": {
+      "@id": "/products/discbound-journal-bundle-standard-6x-8-5-journal?variant=46569914302614#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "99.00",
+      "priceCurrency": "USD",
+      "url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal?variant=46569914302614"
+     },
+     "sku": "discbound-journal-bundle",
+     "url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:44Z",
+   "og_image": "http://ugmonk.com/cdn/shop/files/journal-bundle-cardstock.jpg?v=1790020388",
+   "page_sha256": "9d7eb3eab4180fc41579467bd09bc8abe249f798d192f59f596c26caf86a1e52",
+   "rendered_checked": true,
+   "title": "Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) \u2013 Ugmonk"
+  }
+ ],
  "http_status": 200,
  "id": "ugmonk-discbound-journal-bundle-standard-6x-8-5-journal",
  "image_file": "ugmonk-discbound-journal-bundle-standard-6x-8-5-journal.jpg",
@@ -45,9 +95,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-02T20:04:44Z",
+ "observed_at": "2026-10-03T22:15:00Z",
  "og_image": "http://ugmonk.com/cdn/shop/files/journal-bundle-cardstock.jpg?v=1790020388",
- "page_sha256": "9d7eb3eab4180fc41579467bd09bc8abe249f798d192f59f596c26caf86a1e52",
+ "page_sha256": "527adec795250106e2d4e06bcb9ea1e2add9fd7653f391768559fd18b91e36b1",
  "rendered_checked": true,
  "title": "Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) \u2013 Ugmonk",
  "url": "https://ugmonk.com/products/discbound-journal-bundle-standard-6x-8-5-journal"

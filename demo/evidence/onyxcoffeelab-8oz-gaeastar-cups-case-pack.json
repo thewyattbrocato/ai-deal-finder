@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://onyxcoffeelab.com/products/8oz-gaeastar-cups-case-pack",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://onyxcoffeelab.com/products/8oz-gaeastar-cups-case-pack",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T20:06:31Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/IMG_3340.jpg?v=1726080004",
+   "page_sha256": "933b32117ace83b98c32bd823dd74fc2b5a0a2df8ed16f1b9ad8fc9d457d6722",
+   "title": "8oz GaeaStar Cups Case Pack \u2013 Onyx Coffee Lab"
+  }
+ ],
  "http_status": 200,
  "id": "onyxcoffeelab-8oz-gaeastar-cups-case-pack",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:31Z",
+ "observed_at": "2026-10-03T22:30:21Z",
  "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/IMG_3340.jpg?v=1726080004",
- "page_sha256": "933b32117ace83b98c32bd823dd74fc2b5a0a2df8ed16f1b9ad8fc9d457d6722",
+ "page_sha256": "c16db114431f972d21a41c8e588d49aff77af821779c8fda724f447d92114bb7",
  "title": "8oz GaeaStar Cups Case Pack \u2013 Onyx Coffee Lab",
  "url": "https://onyxcoffeelab.com/products/8oz-gaeastar-cups-case-pack"
 }

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:53:50Z",
+  "read_at": "2026-10-03T22:24:40Z",
   "ship": [
    "Promotions, shipping & taxes calculated at checkout.",
    "Free Standard Shipping On Orders $99+",
@@ -16,6 +16,68 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:53:50Z",
+    "ship": [
+     "Promotions, shipping & taxes calculated at checkout.",
+     "Free Standard Shipping On Orders $99+",
+     "Shipping"
+    ],
+    "size": [
+     "Size | Small"
+    ],
+    "sub": [
+     "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+    ],
+    "url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Cotopaxi-Amigos-24"
+     },
+     "description": "A classic fit plus UPF 50+ sun protection makes the Sombra Sun Hoodie perfect for throwing over a t-shirt when high noon approaches.A sunny adventure staple with UPF 50+ protection",
+     "image": [
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-01_d61bb38c-876f-458e-917b-5a22b2ee8344.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-02_725e5d99-503f-434c-9ccb-8ab0e113b1f4.png?v=1772062032",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-04_e3988621-372c-45c5-8619-f3fb868f49b5.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-06_9eb6454c-7c7d-4141-a151-d78375bb7c4e.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-07_8704ffa5-2856-48f9-a08a-d87d9e661807.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-lf_fbc44d92-bfe6-4557-9a68-0686e983a653.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-01_4a91bbbe-1e06-4690-a105-eb82212f472c.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-02_f16a9115-a09a-46fb-81c7-b92891566588.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-03_d5432325-ae62-43b8-a00c-b2eef48fc244.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-04_f81c9c46-76e7-44c3-9fc7-f269dad9c274.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-05_c84758c5-0f40-4fbd-a3c1-583c3f3fb6e2.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-06_d3bce203-92d4-4555-90d9-be249f71729e.png?v=1772062031",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-malachite-lf_bd77fe04-9d4c-4cd5-9efb-0087b58d4069.png?v=1772062031"
+     ],
+     "name": "Sombra Sun Hoodie - Men&#39;s",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "52.5",
+      "priceCurrency": "USD",
+      "url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6"
+     },
+     "sku": "SSH-S26-AZU-M-XL"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:37Z",
+   "og_image": "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-01_d61bb38c-876f-458e-917b-5a22b2ee8344_1200x630.png?v=1772062031",
+   "page_sha256": "d2f705190eaae6eabe81257366b022bc0d6ebf90331ea1e68e22990dcdf256c3",
+   "rendered_checked": true,
+   "title": "Sombra Sun Hoodie - Men's \u2013 Cotopaxi"
+  }
+ ],
  "http_status": 200,
  "id": "cotopaxi-sombra-sun-hoodie-mens-6",
  "image_file": "cotopaxi-sombra-sun-hoodie-mens-6.png",
@@ -57,9 +119,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:37Z",
+ "observed_at": "2026-10-03T22:24:23Z",
  "og_image": "https://www.cotopaxi.com/cdn/shop/files/s26-m-sombra-sun-hoodie-azure-01_d61bb38c-876f-458e-917b-5a22b2ee8344_1200x630.png?v=1772062031",
- "page_sha256": "d2f705190eaae6eabe81257366b022bc0d6ebf90331ea1e68e22990dcdf256c3",
+ "page_sha256": "1b0e6595d73bd63f0a4d18a9605b919ac8708af04dd9bb3af686575ada61f891",
  "rendered_checked": true,
  "title": "Sombra Sun Hoodie - Men's \u2013 Cotopaxi",
  "url": "https://cotopaxi.com/products/sombra-sun-hoodie-mens-6"

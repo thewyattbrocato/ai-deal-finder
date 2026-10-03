@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:01:25Z",
+  "read_at": "2026-10-03T22:13:07Z",
   "ship": [
    "Free Shipping Over $150",
    "Shipping & Returns"
@@ -13,6 +13,54 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:01:25Z",
+    "ship": [
+     "Free Shipping Over $150",
+     "Shipping & Returns"
+    ],
+    "size": [
+     "Size Guide"
+    ],
+    "sub": [],
+    "url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Hedley & Bennett"
+     },
+     "image": "https://cdn.shopify.com/s/files/1/0187/0608/files/Rifle-Paper-Co-Home-Sweet-Home-Essential_00057-Square1.jpg?v=1790879998",
+     "name": "Rifle Paper Co. Home Sweet Home Essential Apron",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "129.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Hedley & Bennett"
+      },
+      "url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron"
+     }
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:19Z",
+   "og_image": "[object Object]",
+   "page_sha256": "15b03cec3760cfbc8ccff53b287fc54f6f1de82e55e77049272cb0e7255c33f5",
+   "rendered_checked": true,
+   "title": "Essential Apron Florals - Rifle Paper Co. Home Sweet Home | Hedley & Bennett"
+  }
+ ],
  "http_status": 200,
  "id": "hedleyandbennett-rifle-paper-co-home-sweet-home-essential-ap",
  "image_error": "unknown url type: '%5Bobject%20Object%5D'",
@@ -42,9 +90,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:04:19Z",
+ "observed_at": "2026-10-03T22:12:54Z",
  "og_image": "[object Object]",
- "page_sha256": "15b03cec3760cfbc8ccff53b287fc54f6f1de82e55e77049272cb0e7255c33f5",
+ "page_sha256": "d147d1eb0bdce5297b00b5233cad579d2f3a62070511a1db591e44994e1c7bb7",
  "rendered_checked": true,
  "title": "Essential Apron Florals - Rifle Paper Co. Home Sweet Home | Hedley & Bennett",
  "url": "https://hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-essential-apron"

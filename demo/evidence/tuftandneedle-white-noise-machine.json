@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:14:22Z",
+  "read_at": "2026-10-03T22:37:54Z",
   "ship": [
    "Free returns & shipping",
    "Shipping & Returns",
@@ -15,6 +15,110 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.tuftandneedle.com/products/white-noise-machine",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:14:22Z",
+    "ship": [
+     "Free returns & shipping",
+     "Shipping & Returns",
+     "Free Shipping"
+    ],
+    "size": [
+     "Size and dimensions",
+     "Size"
+    ],
+    "sub": [],
+    "url": "https://www.tuftandneedle.com/products/white-noise-machine"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.tuftandneedle.com/products/white-noise-machine",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/white-noise-machine#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tuft and Needle"
+     },
+     "category": "White Noise Machines",
+     "description": "Enjoy consistent real-fan noise you can easily control with an app for deeper, more restorative sleep without interruptions.",
+     "hasVariant": [
+      {
+       "@id": "/products/snooz-pro-white-noise-machine-white?variant=43638180282434#variant",
+       "@type": "Product",
+       "image": "https://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159&width=1920",
+       "name": "SNOOZ Pro White Noise Machine - Cotton - Cotton / Standard",
+       "offers": {
+        "@id": "/products/snooz-pro-white-noise-machine-white?variant=43638180282434#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "120.00",
+        "priceCurrency": "USD",
+        "url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-white?variant=43638180282434"
+       },
+       "sku": "910810479-8099"
+      },
+      {
+       "@id": "/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970#variant",
+       "@type": "Product",
+       "image": "https://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159&width=1920",
+       "name": "SNOOZ Pro White Noise Machine - Midnight - Midnight / Standard",
+       "offers": {
+        "@id": "/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "120.00",
+        "priceCurrency": "USD",
+        "url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970"
+       },
+       "sku": "910810480-8099"
+      }
+     ],
+     "name": "SNOOZ Pro White Noise Machine",
+     "productGroupID": "8215759945794",
+     "url": "https://www.tuftandneedle.com/products/white-noise-machine"
+    },
+    {
+     "@id": "/products/snooz-pro-white-noise-machine-white?variant=43638180282434#variant",
+     "@type": "Product",
+     "image": "https://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159&width=1920",
+     "name": "SNOOZ Pro White Noise Machine - Cotton - Cotton / Standard",
+     "offers": {
+      "@id": "/products/snooz-pro-white-noise-machine-white?variant=43638180282434#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "120.00",
+      "priceCurrency": "USD",
+      "url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-white?variant=43638180282434"
+     },
+     "sku": "910810479-8099"
+    },
+    {
+     "@id": "/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970#variant",
+     "@type": "Product",
+     "image": "https://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159&width=1920",
+     "name": "SNOOZ Pro White Noise Machine - Midnight - Midnight / Standard",
+     "offers": {
+      "@id": "/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "120.00",
+      "priceCurrency": "USD",
+      "url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-midnight?variant=43638180347970"
+     },
+     "sku": "910810480-8099"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:00Z",
+   "og_image": "http://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159",
+   "page_sha256": "b3c82a142312ef045a53ff02e662bc0c95e59677d4003b9a46855b786cdf4529",
+   "rendered_checked": true,
+   "title": "SNOOZ Pro White Noise Machine"
+  }
+ ],
  "http_status": 200,
  "id": "tuftandneedle-white-noise-machine",
  "image_file": "tuftandneedle-white-noise-machine.jpg",
@@ -99,9 +203,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T20:02:00Z",
+ "observed_at": "2026-10-03T22:37:41Z",
  "og_image": "http://www.tuftandneedle.com/cdn/shop/files/2603_SnoozPro_HeroImage.jpg?v=1775924159",
- "page_sha256": "b3c82a142312ef045a53ff02e662bc0c95e59677d4003b9a46855b786cdf4529",
+ "page_sha256": "4979eb8b09652af7e395a0dc469404cc22e55c6a007eaef2de0b4cc0b9a5d14a",
  "rendered_checked": true,
  "title": "SNOOZ Pro White Noise Machine",
  "url": "https://tuftandneedle.com/products/white-noise-machine"

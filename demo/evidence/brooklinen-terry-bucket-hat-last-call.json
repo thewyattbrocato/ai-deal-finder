@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.brooklinen.com/products/terry-bucket-hat-last-call",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.brooklinen.com/products/terry-bucket-hat-last-call",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T19:58:34Z",
+   "og_image": "https:////www.brooklinen.com/cdn/shop/files/BKL_26-01_Beach_Tote_Surfside_Poppy_Detail_1_x_PDP_WO.jpg?v=1770402822&width=1200",
+   "page_sha256": "1bcc21c881f2c373b6325b95026447556b753302ed2aa722fc8f8ed5dd50364b",
+   "title": "Terry Bucket Hat | Soft, Absorbent Cotton | Brooklinen"
+  }
+ ],
  "http_status": 200,
  "id": "brooklinen-terry-bucket-hat-last-call",
  "image_file": null,
  "json_ld": [],
  "kind": "Home",
- "observed_at": "2026-10-02T19:58:34Z",
+ "observed_at": "2026-10-03T22:23:23Z",
  "og_image": "https:////www.brooklinen.com/cdn/shop/files/BKL_26-01_Beach_Tote_Surfside_Poppy_Detail_1_x_PDP_WO.jpg?v=1770402822&width=1200",
- "page_sha256": "1bcc21c881f2c373b6325b95026447556b753302ed2aa722fc8f8ed5dd50364b",
+ "page_sha256": "59fdd597850b0bffa6e2ed08359092df778f258225ef5b54c84c14e856935a25",
  "title": "Terry Bucket Hat | Soft, Absorbent Cotton | Brooklinen",
  "url": "https://brooklinen.com/products/terry-bucket-hat-last-call"
 }

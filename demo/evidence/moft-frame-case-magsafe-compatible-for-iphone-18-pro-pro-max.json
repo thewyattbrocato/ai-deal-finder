@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:01:49Z",
+  "read_at": "2026-10-03T22:21:41Z",
   "ship": [
    "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
    "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
@@ -16,6 +16,63 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:01:49Z",
+    "ship": [
+     "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
+     "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
+     "Shipping"
+    ],
+    "size": [
+     "Size - Color"
+    ],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "MD023"
+     },
+     "description": "Special Offers:Get $10 OFF \u2014 Buy 1 iPhone 18 Pro/Pro Max case + any Tripod Stand / Wallet, Wallet Stand, Field Wallet, Watch Band, or Lanyard Get $10 OFF \u2014 Buy any 2 iPhone 18 Pro/Pro Max cases",
+     "image": [
+      "https://www.moft.com/cdn/shop/files/Frame_2039669902.png?v=1789541143&width=1059"
+     ],
+     "mpn": "",
+     "name": "Frame Case MOVAS\u2122 for iPhone 18 Series - MagSafe Compatible",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "mpn": "",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-10-02",
+      "sku": "MD023-1-i18p-PNPPCRLQ",
+      "url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max"
+     },
+     "productID": "7747484155991",
+     "sku": "MD023-1-i18p-PNPPCRLQ",
+     "url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:04Z",
+   "og_image": "http://www.moft.com/cdn/shop/files/Frame_2039669902.png?v=1789541143",
+   "page_sha256": "d74e6adcf1c9d89eac7f033d4fede3031e6acdf28ef035d801eb7c78a06948fc",
+   "rendered_checked": true,
+   "title": "Frame Case MOVAS\u2122 for iPhone 18 Series - MagSafe Compatible \u2013 MOFT"
+  }
+ ],
  "http_status": 200,
  "id": "moft-frame-case-magsafe-compatible-for-iphone-18-pro-pro-max",
  "image_file": "moft-frame-case-magsafe-compatible-for-iphone-18-pro-pro-max.png",
@@ -42,7 +99,7 @@
     "mpn": "",
     "price": "49.99",
     "priceCurrency": "USD",
-    "priceValidUntil": "2027-10-02",
+    "priceValidUntil": "2027-10-03",
     "sku": "MD023-1-i18p-PNPPCRLQ",
     "url": "https://www.moft.com/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max"
    },
@@ -52,9 +109,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-02T20:06:04Z",
+ "observed_at": "2026-10-03T22:21:26Z",
  "og_image": "http://www.moft.com/cdn/shop/files/Frame_2039669902.png?v=1789541143",
- "page_sha256": "d74e6adcf1c9d89eac7f033d4fede3031e6acdf28ef035d801eb7c78a06948fc",
+ "page_sha256": "432c210544fa604275150f497fbabc350010e574b416a653436e584ef5863519",
  "rendered_checked": true,
  "title": "Frame Case MOVAS\u2122 for iPhone 18 Series - MagSafe Compatible \u2013 MOFT",
  "url": "https://moft.us/products/frame-case-magsafe-compatible-for-iphone-18-pro-pro-max"

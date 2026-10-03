@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:06:36Z",
+  "read_at": "2026-10-03T22:05:47Z",
   "ship": [
    "Shipping"
   ],
@@ -13,6 +13,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/powder-hound-jacket",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:06:36Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [
+     "CHOOSE SIZE",
+     "Size Chart"
+    ],
+    "sub": [],
+    "url": "https://ruffwear.com/products/powder-hound-jacket"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ruffwear.com/products/powder-hound-jacket",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/powder-hound-jacket#product",
+     "@type": "ProductGroup",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "633",
+      "ratingValue": "4.6"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Ruff Wear Inc"
+     },
+     "description": "Engineered for wet, cold, and windy conditions, the Powder Hound\u2122 Jacket keeps dogs warm and comfortable wherever the trail leads. The waterproof, windproof shell shields against harsh winter elements, while the high-loft insulation in the the back and belly panels retains core heat. The high-coverage jacket silhouette features a full-length zipper and articulated StormSleeves\u2122 that seal in warmth while allowing freedom of movement. Designed for active exploration, the Powder Hound\u2122 Jacket includes chest and back leash portals for use over most harnesses, reflective accents for visibility, and a light loop for attaching the Beacon\u2122 Safety Light during low-light exploration.\nWHAT\u2019S NEW:\u00a0Now waterproof with increased outer shell reflectivity.",
+     "image": "https://ruffwear.com/cdn/shop/files/Powderhound-Jacket_0004s_0000_05703_Powder-Hound-Waterproof-Insulated-Jacket_Polar-Blue_Main-Image-_Right__STUDIO_1_450x450.png?v=1784074346",
+     "mpn": "8017299177555",
+     "name": "Powder Hound\u2122 Waterproof Insulated Jacket",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "109.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Ruffwear"
+      }
+     },
+     "url": "/products/powder-hound-jacket"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:58Z",
+   "og_image": "https://ruffwear.com/cdn/shop/files/Powderhound-Jacket_0004s_0000_05703_Powder-Hound-Waterproof-Insulated-Jacket_Polar-Blue_Main-Image-_Right__STUDIO_1_882x589.png?v=1784074346",
+   "page_sha256": "140e33e72c26e8f6763e71345612f9468d5bc70faf7cc43f1b445c02ae64c0b2",
+   "rendered_checked": true,
+   "title": "Powder Hound\u2122 Waterproof Insulated Jacket | Ruffwear"
+  }
+ ],
  "http_status": 200,
  "id": "ruffwear-powder-hound-jacket",
  "image_file": "ruffwear-powder-hound-jacket.png",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-02T19:58:58Z",
+ "observed_at": "2026-10-03T22:05:33Z",
  "og_image": "https://ruffwear.com/cdn/shop/files/Powderhound-Jacket_0004s_0000_05703_Powder-Hound-Waterproof-Insulated-Jacket_Polar-Blue_Main-Image-_Right__STUDIO_1_882x589.png?v=1784074346",
- "page_sha256": "140e33e72c26e8f6763e71345612f9468d5bc70faf7cc43f1b445c02ae64c0b2",
+ "page_sha256": "a4d2f357c9e60f866197b812cf2d764b83cc07efe8560e68bd80a2255f58c06d",
  "rendered_checked": true,
  "title": "Powder Hound\u2122 Waterproof Insulated Jacket | Ruffwear",
  "url": "https://ruffwear.com/products/powder-hound-jacket"

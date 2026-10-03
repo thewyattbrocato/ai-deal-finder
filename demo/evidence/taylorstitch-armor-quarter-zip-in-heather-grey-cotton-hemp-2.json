@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:12:06Z",
+  "read_at": "2026-10-03T22:36:46Z",
   "ship": [
    "FREE SHIPPING & RETURNS ON EVERY DOMESTIC ORDER",
    "FREE SHIPPING & FREE RETURNS",
@@ -15,6 +15,866 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:12:06Z",
+    "ship": [
+     "FREE SHIPPING & RETURNS ON EVERY DOMESTIC ORDER",
+     "FREE SHIPPING & FREE RETURNS",
+     "Shipping & Delivery"
+    ],
+    "size": [
+     "SIZE:",
+     "Size & Fit Guide"
+    ],
+    "sub": [],
+    "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@id": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
+     "@type": "ProductGroup",
+     "brand": "Taylor Stitch",
+     "description": "A relaxed quarter zip in cotton hemp fleece.",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XS - 36)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583455309"
+       },
+       "size": "XS - 36",
+       "sku": "2609AQZHGCH36"
+      },
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (S - 38)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583488077"
+       },
+       "size": "S - 38",
+       "sku": "2609AQZHGCH38"
+      },
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (M - 40)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583520845"
+       },
+       "size": "M - 40",
+       "sku": "2609AQZHGCH40"
+      },
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (L - 42)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583553613"
+       },
+       "size": "L - 42",
+       "sku": "2609AQZHGCH42"
+      },
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XL - 44)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583586381"
+       },
+       "size": "XL - 44",
+       "sku": "2609AQZHGCH44"
+      },
+      {
+       "@type": "Product",
+       "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+       "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+       "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XXL - 46)",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": "US",
+         "merchantReturnDays": 21,
+         "returnFees": "https://schema.org/FreeReturn",
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+         "returnPolicyCountry": "US",
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+        },
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "seller": {
+         "@type": "Organization",
+         "name": "Taylor Stitch"
+        },
+        "shippingDetails": {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "businessDays": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+           ]
+          },
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 1,
+           "minValue": 0,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 2,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0
+         },
+         "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+        },
+        "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583619149"
+       },
+       "size": "XXL - 46",
+       "sku": "2609AQZHGCH46"
+      }
+     ],
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp",
+     "productGroupID": "7645560668237",
+     "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
+     "variesBy": [
+      "https://schema.org/size"
+     ]
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XS - 36)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583455309"
+     },
+     "size": "XS - 36",
+     "sku": "2609AQZHGCH36"
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (S - 38)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583488077"
+     },
+     "size": "S - 38",
+     "sku": "2609AQZHGCH38"
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (M - 40)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583520845"
+     },
+     "size": "M - 40",
+     "sku": "2609AQZHGCH40"
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (L - 42)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583553613"
+     },
+     "size": "L - 42",
+     "sku": "2609AQZHGCH42"
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XL - 44)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583586381"
+     },
+     "size": "XL - 44",
+     "sku": "2609AQZHGCH44"
+    },
+    {
+     "@type": "Product",
+     "description": "The Armor Quarter Zip draws on vintage athletic silhouettes with a relaxed, easy-wearing fit and enduring build. Cut from a soft yet substantial cotton he...",
+     "image": "https://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207",
+     "name": "The Armor Quarter Zip in Heather Grey Cotton Hemp (XXL - 46)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 21,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicyCountry": "US",
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/returns-and-exchanges"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 128.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Taylor Stitch"
+      },
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "businessDays": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+         ]
+        },
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 1,
+         "minValue": 0,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 2,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 0
+       },
+       "url": "https://www.taylorstitch.com/blogs/help-center/tagged/order-status"
+      },
+      "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609?variant=42507583619149"
+     },
+     "size": "XXL - 46",
+     "sku": "2609AQZHGCH46"
+    }
+   ],
+   "observed_at": "2026-10-02T20:00:59Z",
+   "og_image": "http://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207&width=1600",
+   "page_sha256": "379bf6f79e7c803f0bd7a6fd83cff2f8c2a3fce47c76bf67e5281fe066ff78fa",
+   "rendered_checked": true,
+   "title": "The Armor Quarter Zip in Heather Grey Cotton Hemp | Taylor Stitch"
+  }
+ ],
  "http_status": 200,
  "id": "taylorstitch-armor-quarter-zip-in-heather-grey-cotton-hemp-2",
  "image_file": "taylorstitch-armor-quarter-zip-in-heather-grey-cotton-hemp-2.jpg",
@@ -855,9 +1715,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-02T20:00:59Z",
+ "observed_at": "2026-10-03T22:36:32Z",
  "og_image": "http://www.taylorstitch.com/cdn/shop/files/Q326_the-armor-quarter-zip-heather-grey-cotton-hemp_pdp_01.jpg?v=1790612207&width=1600",
- "page_sha256": "379bf6f79e7c803f0bd7a6fd83cff2f8c2a3fce47c76bf67e5281fe066ff78fa",
+ "page_sha256": "ab22be6e6943973a69df009ba1ff5e3020761202b994565313b084077a1f1783",
  "rendered_checked": true,
  "title": "The Armor Quarter Zip in Heather Grey Cotton Hemp | Taylor Stitch",
  "url": "https://taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609"

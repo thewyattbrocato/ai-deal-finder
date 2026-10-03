@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:57:05Z",
+  "read_at": "2026-10-03T22:07:27Z",
   "ship": [
    "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
    "Shipping Information"
@@ -11,6 +11,50 @@
  },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/opus-gen-2-hopper",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:57:05Z",
+    "ship": [
+     "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+     "Shipping Information"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://fellowproducts.com/products/opus-gen-2-hopper",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://fellowproducts.com/products/opus-gen-2-hopper",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Fellow"
+     },
+     "name": "Opus Gen 2 Hopper",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 9.95,
+      "priceCurrency": "USD",
+      "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+     },
+     "sku": "1222BA-03",
+     "url": "https://fellowproducts.com/products/opus-gen-2-hopper"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:15Z",
+   "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
+   "page_sha256": "85d0c7e6b8e647939277d276d55f4e93689530352518c9d73c1118b0164274b0",
+   "rendered_checked": true,
+   "title": "Opus Gen 2 Hopper"
+  }
+ ],
  "http_status": 200,
  "id": "fellowproducts-opus-gen-2-hopper",
  "image_file": "fellowproducts-opus-gen-2-hopper.jpg",
@@ -39,9 +83,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T19:59:15Z",
+ "observed_at": "2026-10-03T22:07:11Z",
  "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
- "page_sha256": "85d0c7e6b8e647939277d276d55f4e93689530352518c9d73c1118b0164274b0",
+ "page_sha256": "fc40ab9382af2cb01da344a4feaec276f990abd1e54d4407cd1d0b34cb4e4a34",
  "rendered_checked": true,
  "title": "Opus Gen 2 Hopper",
  "url": "https://fellowproducts.com/products/opus-gen-2-hopper"

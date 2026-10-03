@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:10:17Z",
+  "read_at": "2026-10-03T22:34:49Z",
   "ship": [
    "Free Shipping Over $50",
    "Edit Your Shipping Zip Code"
@@ -16,6 +16,72 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:10:17Z",
+    "ship": [
+     "Free Shipping Over $50",
+     "Edit Your Shipping Zip Code"
+    ],
+    "size": [
+     "Size: 40 OZ"
+    ],
+    "sub": [
+     "SUBSCRIBE",
+     "Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). Privacy Policy & Terms."
+    ],
+    "url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stanley"
+     },
+     "description": "Every witch has her secrets. The Halloween Collection will keep yours. No questions asked.With the 40-ounce Quencher H2.0 Flowstate Tumbler, your drink stays ice-cold for hours, thanks to double-wall vacuum insulation. The Flowstate lid gives you three sip settings: straw opening, drink opening and full-cover top.Welcome to the season of the witch.40 oz ProTour Flip Straw lid fits all 40 oz Quencher\u00ae products.",
+     "image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_ProTour_Flip_Straw_Tumbler-40_oz_1.18_L-Black_Stardust-Front.png?v=1789082807&width=800",
+     "name": "Halloween Quencher\u00ae ProTour Flip Straw Tumbler | 40 OZ",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@id": "https://www.stanley1913.com/apps/returns",
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 30,
+       "returnFees": "https://schema.org/ReturnShippingFees",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "45.00",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2030-12-21",
+      "seller": {
+       "@type": "Organization",
+       "name": "Stanley 1913",
+       "url": "https://www.stanley1913.com"
+      },
+      "url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts"
+     },
+     "sku": "100000156998",
+     "url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:17Z",
+   "og_image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_ProTour_Flip_Straw_Tumbler-40_oz_1.18_L-Black_Stardust-Front.png?v=1789082807",
+   "page_sha256": "4a9baa215f10c8201229e079898e9cd9d86859273795507273f41c92e7980f28",
+   "rendered_checked": true,
+   "title": "Halloween Quencher ProTour Flip Straw Tumbler | 40oz | Stanley 1913 US"
+  }
+ ],
  "http_status": 200,
  "id": "stanley1913-halloween-quencher-protour-flip-straw-tumbler-40",
  "image_file": "stanley1913-halloween-quencher-protour-flip-straw-tumbler-40.png",
@@ -61,9 +127,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:17Z",
+ "observed_at": "2026-10-03T22:34:32Z",
  "og_image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_ProTour_Flip_Straw_Tumbler-40_oz_1.18_L-Black_Stardust-Front.png?v=1789082807",
- "page_sha256": "4a9baa215f10c8201229e079898e9cd9d86859273795507273f41c92e7980f28",
+ "page_sha256": "c42eed590201d0483b20ad451ef384f078c968ed84596d01e23bf37c13e49d31",
  "rendered_checked": true,
  "title": "Halloween Quencher ProTour Flip Straw Tumbler | 40oz | Stanley 1913 US",
  "url": "https://stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts"

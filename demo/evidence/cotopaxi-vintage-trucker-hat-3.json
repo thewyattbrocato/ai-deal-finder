@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:54:17Z",
+  "read_at": "2026-10-03T22:25:00Z",
   "ship": [
    "Promotions, shipping & taxes calculated at checkout.",
    "Free Standard Shipping On Orders $99+",
@@ -14,6 +14,69 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/vintage-trucker-hat-3",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:54:17Z",
+    "ship": [
+     "Promotions, shipping & taxes calculated at checkout.",
+     "Free Standard Shipping On Orders $99+",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+    ],
+    "url": "https://www.cotopaxi.com/products/vintage-trucker-hat-3"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.cotopaxi.com/products/vintage-trucker-hat-3",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Cotopaxi"
+     },
+     "description": "Equipped with a mesh back panel, an adjustable snapback closure, and an active breathable sweatband, the Vintage Trucker Hat is 100% recycled comfort.",
+     "image": [
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatAzure_F.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatAzure_B.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatDeepSea_F.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatDeepSea_B.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatJam_F.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatMoss_F.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatMoss_B.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatWhiskey_F.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatWhiskey_B.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UVintageTruckerHatDeepSea_001.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UVintageTruckerHatDeepSea_002.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-F25UVintageTruckerHatDeepSea_003.png?v=1769609687",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-vintage-trucker-hat-juniper-f.png?v=1784670883",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-vintage-trucker-hat-juniper-b.png?v=1784670883",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-vintage-trucker-hat-pitaya-f.png?v=1784670883",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-vintage-trucker-hat-pitaya-b.png?v=1784670883"
+     ],
+     "name": "Vintage Trucker Hat",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "24.0",
+      "priceCurrency": "USD",
+      "url": "https://www.cotopaxi.com/products/vintage-trucker-hat-3"
+     },
+     "sku": "TH-S26-AZU"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:41Z",
+   "og_image": "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatAzure_F_1200x630.png?v=1769609687",
+   "page_sha256": "56673ae1ad2e264b941aba339760d434202f5f4c722cdbc6d12263fa439092d5",
+   "rendered_checked": true,
+   "title": "Vintage Trucker Hat \u2013 Cotopaxi"
+  }
+ ],
  "http_status": 200,
  "id": "cotopaxi-vintage-trucker-hat-3",
  "image_file": "cotopaxi-vintage-trucker-hat-3.png",
@@ -58,9 +121,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:41Z",
+ "observed_at": "2026-10-03T22:24:44Z",
  "og_image": "https://www.cotopaxi.com/cdn/shop/files/1200x1200png-S26UVintageTruckerHatAzure_F_1200x630.png?v=1769609687",
- "page_sha256": "56673ae1ad2e264b941aba339760d434202f5f4c722cdbc6d12263fa439092d5",
+ "page_sha256": "1e984b18251270108e0e7cde57df102555f0f277865eb6eaf9a094777735c8d2",
  "rendered_checked": true,
  "title": "Vintage Trucker Hat \u2013 Cotopaxi",
  "url": "https://cotopaxi.com/products/vintage-trucker-hat-3"

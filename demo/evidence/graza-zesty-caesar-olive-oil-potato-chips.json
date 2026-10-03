@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:00:30Z",
+  "read_at": "2026-10-03T22:29:49Z",
   "ship": [],
   "size": [],
   "sub": [
@@ -11,6 +11,182 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:00:30Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "Subscribe",
+     "Manage Subscription"
+    ],
+    "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Graza"
+     },
+     "description": "",
+     "image": [
+      "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE_1_Zesty-Caesar.jpg?v=1778611695&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE2_Zesty-Caesar.jpg?v=1778483450&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE3_Zesty-Caesar.jpg?v=1778483450&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE4_Zesty-Caesar.jpg?v=1778483450&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE5_Zesty-Caesar.jpg?v=1778483450&width=1000"
+     ],
+     "name": "Zesty Caesar Olive Oil Potato Chips",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "5.99",
+      "priceCurrency": "USD",
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      "url": "/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694"
+     }
+    },
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips#json-ld-for-seo",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Graza"
+     },
+     "description": "",
+     "hasVariant": [
+      {
+       "@id": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Apparel & Accessories"
+       ],
+       "description": "",
+       "gtin": "850062393363",
+       "gtin12": "850062393363",
+       "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1296",
+       "inProductGroupWithID": "9350043992278",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "850062393363",
+       "name": "Zesty Caesar Olive Oil Potato Chips",
+       "offers": [
+        {
+         "@id": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "850062393363",
+         "gtin12": "850062393363",
+         "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1296",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "850062393363",
+         "name": "Zesty Caesar Olive Oil Potato Chips",
+         "price": "5.99",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2026-12-31",
+         "seller": {
+          "@type": "Organization",
+          "name": "Graza"
+         },
+         "sku": "CHP-ZC55",
+         "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
+         "validFrom": "2026-10-01"
+        }
+       ],
+       "sku": "CHP-ZC55",
+       "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 0.0
+       }
+      }
+     ],
+     "image": [
+      "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE_1_Zesty-Caesar.jpg?v=1778611695&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE2_Zesty-Caesar.jpg?v=1778483450&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE3_Zesty-Caesar.jpg?v=1778483450&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE4_Zesty-Caesar.jpg?v=1778483450&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE5_Zesty-Caesar.jpg?v=1778483450&width=1296"
+     ],
+     "name": "Zesty Caesar Olive Oil Potato Chips",
+     "productGroupID": "9350043992278",
+     "productID": "CHP-ZC55",
+     "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips"
+    },
+    {
+     "@id": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Apparel & Accessories"
+     ],
+     "description": "",
+     "gtin": "850062393363",
+     "gtin12": "850062393363",
+     "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1296",
+     "inProductGroupWithID": "9350043992278",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "850062393363",
+     "name": "Zesty Caesar Olive Oil Potato Chips",
+     "offers": [
+      {
+       "@id": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "850062393363",
+       "gtin12": "850062393363",
+       "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449&width=1296",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "850062393363",
+       "name": "Zesty Caesar Olive Oil Potato Chips",
+       "price": "5.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-12-31",
+       "seller": {
+        "@type": "Organization",
+        "name": "Graza"
+       },
+       "sku": "CHP-ZC55",
+       "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
+       "validFrom": "2026-10-01"
+      }
+     ],
+     "sku": "CHP-ZC55",
+     "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:08Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449",
+   "page_sha256": "a8d888184f11301b6f0bea95ec7cc85991f153f13958cb0d020a73cfd3803580",
+   "rendered_checked": true,
+   "title": "Zesty Caesar Olive Oil Potato Chips | Graza"
+  }
+ ],
  "http_status": 200,
  "id": "graza-zesty-caesar-olive-oil-potato-chips",
  "image_file": "graza-zesty-caesar-olive-oil-potato-chips.jpg",
@@ -92,14 +268,14 @@
        "name": "Zesty Caesar Olive Oil Potato Chips",
        "price": "5.99",
        "priceCurrency": "USD",
-       "priceValidUntil": "2026-12-31",
+       "priceValidUntil": "2027-01-01",
        "seller": {
         "@type": "Organization",
         "name": "Graza"
        },
        "sku": "CHP-ZC55",
        "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
-       "validFrom": "2026-10-01"
+       "validFrom": "2026-10-02"
       }
      ],
      "sku": "CHP-ZC55",
@@ -151,14 +327,14 @@
      "name": "Zesty Caesar Olive Oil Potato Chips",
      "price": "5.99",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-12-31",
+     "priceValidUntil": "2027-01-01",
      "seller": {
       "@type": "Organization",
       "name": "Graza"
      },
      "sku": "CHP-ZC55",
      "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips?variant=48239480340694",
-     "validFrom": "2026-10-01"
+     "validFrom": "2026-10-02"
     }
    ],
    "sku": "CHP-ZC55",
@@ -171,9 +347,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:04:08Z",
+ "observed_at": "2026-10-03T22:28:45Z",
  "og_image": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Zesty-Caesar.jpg?v=1778483449",
- "page_sha256": "a8d888184f11301b6f0bea95ec7cc85991f153f13958cb0d020a73cfd3803580",
+ "page_sha256": "e1f5ab8a25c37f057eab714bee2fa8cbd2943bfef693635dfb88d118551baf29",
  "rendered_checked": true,
  "title": "Zesty Caesar Olive Oil Potato Chips | Graza",
  "url": "https://graza.co/products/zesty-caesar-olive-oil-potato-chips"

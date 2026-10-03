@@ -1,6 +1,47 @@
 {
  "coupon_snippets": [],
  "final_url": "https://bokksu.com/products/gift-bokksu-snack-box-copy-1",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://bokksu.com/products/gift-bokksu-snack-box-copy-1",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "2606"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Bokksu"
+     },
+     "description": "Gift a delicious &amp; authentic experience from Japan\nBokksu delivers to your door the experience of tasting authentic Japanese snacks, candies, and teas sourced directly from centuries-old family makers. Every box you purchase supports these family-run businesses in Japan and helps keep their traditions alive.\nRest assured a receipt is not included in your gift shipment. Each box ships from Japan and comes with:",
+     "image": [
+      "https://bokksu.com/cdn/shop/files/Bokksu_SnackBox_Box_Hero_001_Square_8d791a63-b8c7-45c3-8914-08992e641c48.jpg?v=1751004849&width=480"
+     ],
+     "name": "Gift Bokksu Snack Box",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "32.99",
+      "priceCurrency": "USD",
+      "sku": "CBG01",
+      "url": "https://bokksu.com/products/gift-classic-bokksu?variant=42943749423190"
+     },
+     "sku": "CBG01"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:08Z",
+   "og_image": "http://bokksu.com/cdn/shop/files/Bokksu_SnackBox_Box_Hero_001_Square_8d791a63-b8c7-45c3-8914-08992e641c48.jpg?v=1751004849",
+   "page_sha256": "b88818b405e04a0b11210582a3b393defc12fba16ff8f071aa0ac5326b2c5a4b",
+   "rendered_checked": true,
+   "title": "Authentic Japanese Snack Box Gift | Bokksu \u2013 Bokksu Snack Box"
+  }
+ ],
  "http_status": 200,
  "id": "bokksu-gift-bokksu-snack-box-copy-1",
  "image_file": "bokksu-gift-bokksu-snack-box-copy-1.jpg",
@@ -36,9 +77,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:05:08Z",
+ "observed_at": "2026-10-03T22:16:54Z",
  "og_image": "http://bokksu.com/cdn/shop/files/Bokksu_SnackBox_Box_Hero_001_Square_8d791a63-b8c7-45c3-8914-08992e641c48.jpg?v=1751004849",
- "page_sha256": "b88818b405e04a0b11210582a3b393defc12fba16ff8f071aa0ac5326b2c5a4b",
+ "page_sha256": "e4fc786d42404a8dda8d132e6cca26c4ec92d77edbde39c320ebfbdcfef9c95b",
  "rendered_checked": true,
  "title": "Authentic Japanese Snack Box Gift | Bokksu \u2013 Bokksu Snack Box",
  "url": "https://bokksu.com/products/gift-bokksu-snack-box-copy-1"

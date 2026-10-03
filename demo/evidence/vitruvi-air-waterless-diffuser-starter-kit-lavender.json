@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:15:02Z",
+  "read_at": "2026-10-03T22:15:59Z",
   "ship": [
    "Free Shipping On All Carts Over $80",
    "Shipping policy"
@@ -13,6 +13,60 @@
  },
  "coupon_snippets": [],
  "final_url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:15:02Z",
+    "ship": [
+     "Free Shipping On All Carts Over $80",
+     "Shipping policy"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Vitruvi"
+     },
+     "description": "<p><span>Paired with Lavender Air Scent Refill (a 100% Natural Scent) for a <meta charset=\"utf-8\"> <span data-sheets-root=\"1\">soothing, tranquil, and powdery environment. It's p</span></span><span data-sheets-root=\"1\">erfect for relaxing wind-down evenings.</span><strong></strong></p>\n<p><meta charset=\"utf-8\"><span>The Air Waterless Diffuser fills your space with clean, natural aromas\u2014no water or heat required. It uses ultra-efficient cold air technology to scent up to 1500 sq.-ft. for up to 30 days with ease. With adjustable scent strength and mess-free refills, it\u2019s designed for a seamless and safe scenting experience. Enjoy a beautifully scented home with minimal effort and maximum impact.\u00a0</span></p>",
+     "image": "https:files/Air-Vanilla-Lavender-Bundle_1.png",
+     "itemCondition": "http://schema.org/NewCondition",
+     "name": "Air Waterless Diffuser Starter Kit \u2013 Lavender",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https:files/Air-Vanilla-Lavender-Bundle_1.png",
+       "itemCondition": "http://schema.org/NewCondition",
+       "mpn": "",
+       "price": "129.48",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-01 09:01:30 -0700",
+       "sku": null,
+       "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender?variant=67577894371508"
+      }
+     ],
+     "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:51Z",
+   "og_image": "http://vitruvi.com/cdn/shop/files/Air-Vanilla-Lavender-Bundle_1.png?v=1790871082",
+   "page_sha256": "55edb5ce44844742670988dd67f0097470114152e720cda03621cadff3d00e45",
+   "rendered_checked": true,
+   "title": "Air Waterless Diffuser Starter Kit \u2013 Lavender \u2013 Vitruvi US"
+  }
+ ],
  "http_status": 200,
  "id": "vitruvi-air-waterless-diffuser-starter-kit-lavender",
  "image_file": "vitruvi-air-waterless-diffuser-starter-kit-lavender.png",
@@ -49,9 +103,9 @@
   }
  ],
  "kind": "Wellness",
- "observed_at": "2026-10-02T20:04:51Z",
+ "observed_at": "2026-10-03T22:15:44Z",
  "og_image": "http://vitruvi.com/cdn/shop/files/Air-Vanilla-Lavender-Bundle_1.png?v=1790871082",
- "page_sha256": "55edb5ce44844742670988dd67f0097470114152e720cda03621cadff3d00e45",
+ "page_sha256": "68edf47fd7da7d81acf39b472b947fed8392d5c33825a4b77a9aac23bba8e236",
  "rendered_checked": true,
  "title": "Air Waterless Diffuser Starter Kit \u2013 Lavender \u2013 Vitruvi US",
  "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender"

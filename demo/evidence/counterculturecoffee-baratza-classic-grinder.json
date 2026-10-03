@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:54:34Z",
+  "read_at": "2026-10-03T22:25:35Z",
   "ship": [
    "Free shipping on $30 & up!",
    "Free shipping on $30 and up!"
@@ -16,6 +16,60 @@
  },
  "coupon_snippets": [],
  "final_url": "https://counterculturecoffee.com/products/baratza-classic-grinder",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:54:34Z",
+    "ship": [
+     "Free shipping on $30 & up!",
+     "Free shipping on $30 and up!"
+    ],
+    "size": [],
+    "sub": [
+     "Subscription,",
+     "Special Offer! Buy one Baratza and get the first order free on a Blend Box subscription! Using code: Probarista (must add both to cart)",
+     "Subscriptions",
+     "Gift Subscriptions"
+    ],
+    "url": "https://counterculturecoffee.com/products/baratza-classic-grinder"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://counterculturecoffee.com/products/baratza-classic-grinder",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "https://counterculturecoffee.com/products/baratza-classic-grinder",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Breville"
+     },
+     "description": "The Baratza Encore ESP Pro Grinder handles every brew method from drip to pour-over and espresso, with consistent, reliable results. Baristas trust it for its straightforward dial adjustment and dependable performance across all grind sizes. Whether you're brewing a quick morning cup or dialing in espresso shots, the Encore delivers the grind quality your brew deserves.\nSpecial Offer! Buy one Baratza and get the first order free on a Blend Box subscription! Using code: Probarista (must add both to cart)",
+     "image": [
+      "https://counterculturecoffee.com/cdn/shop/files/Baratza_Grinder_copy_2928x.jpg?v=1787758044"
+     ],
+     "name": "Baratza Encore ESP Pro Grinder",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 299.95,
+       "priceCurrency": "USD",
+       "sku": "ZCG595BLK1AUC1A",
+       "url": "https://counterculturecoffee.com/products/baratza-classic-grinder?variant=43327649316941"
+      }
+     ],
+     "url": "https://counterculturecoffee.com/products/baratza-classic-grinder"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:27Z",
+   "og_image": "http://counterculturecoffee.com/cdn/shop/files/Baratza_Grinder_copy.jpg?v=1787758044",
+   "page_sha256": "3cf89bad375e28fe2fa03729d5f54aa2697af1b03fcf61b915dd42f402efc267",
+   "rendered_checked": true,
+   "title": "Baratza Encore ESP Pro Grinder \u2013 Counter Culture Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "counterculturecoffee-baratza-classic-grinder",
  "image_file": "counterculturecoffee-baratza-classic-grinder.jpg",
@@ -49,9 +103,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:27Z",
+ "observed_at": "2026-10-03T22:25:24Z",
  "og_image": "http://counterculturecoffee.com/cdn/shop/files/Baratza_Grinder_copy.jpg?v=1787758044",
- "page_sha256": "3cf89bad375e28fe2fa03729d5f54aa2697af1b03fcf61b915dd42f402efc267",
+ "page_sha256": "dcdc7a1f9ae7f9eeb88593f8c9b0ae1c3653ffa636fe0d6bf41bff820a65bf1e",
  "rendered_checked": true,
  "title": "Baratza Encore ESP Pro Grinder \u2013 Counter Culture Coffee",
  "url": "https://counterculturecoffee.com/products/baratza-classic-grinder"

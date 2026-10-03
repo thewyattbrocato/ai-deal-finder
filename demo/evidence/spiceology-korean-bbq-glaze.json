@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:09:19Z",
+  "read_at": "2026-10-03T22:33:45Z",
   "ship": [
    "Free Shipping on Orders $50+ (In Contiguous US)",
    "Shipping",
@@ -13,6 +13,70 @@
  },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/korean-bbq-glaze",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:09:19Z",
+    "ship": [
+     "Free Shipping on Orders $50+ (In Contiguous US)",
+     "Shipping",
+     "Shipping calculated at checkout",
+     "You are $50.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://spiceology.com/products/korean-bbq-glaze"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://spiceology.com/products/korean-bbq-glaze",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "15"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Spiceology"
+     },
+     "description": "Korean BBQ has been one of Spiceology's most-reached-for blends since day one \u2014 the tamari, sesame, gochugaru heat, orange peel, the umami depth. Now those same flavors have been transformed into a thick, sticky, lacquered glaze that caramelizes on contact.",
+     "image": "https://spiceology.com/cdn/shop/files/korean-bbq-1.jpg?v=1782862043&width=3000",
+     "name": "Korean BBQ Glaze",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "description": "Korean BBQ has been one of Spiceology's most-reached-for blends since day one \u2014 the tamari, sesame, gochugaru heat, orange peel, the umami depth. Now those same flavors have been transformed into a thick, sticky, lacquered glaze that caramelizes on contact.",
+       "image": "https://spiceology.com/cdn/shop/files/korean-bbq-1.jpg?v=1782862043&width=3000",
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "Korean BBQ Glaze",
+       "price": "14.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Spiceology"
+       },
+       "sku": "11988",
+       "url": "https://spiceology.com/products/korean-bbq-glaze?variant=46267597914308"
+      }
+     ],
+     "productID": "8619798003908",
+     "sku": "11988",
+     "url": "https://spiceology.com/products/korean-bbq-glaze"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:21Z",
+   "og_image": "http://spiceology.com/cdn/shop/files/korean-bbq-1.jpg?v=1782862043",
+   "page_sha256": "431d4da6c33affc20286e97121d9ca183db752400c997af967e9fb60ffc1b73e",
+   "rendered_checked": true,
+   "title": "Korean BBQ Glaze \u2013 Spiceology"
+  }
+ ],
  "http_status": 200,
  "id": "spiceology-korean-bbq-glaze",
  "image_file": "spiceology-korean-bbq-glaze.jpg",
@@ -44,7 +108,7 @@
      "name": "Korean BBQ Glaze",
      "price": "14.99",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-02",
+     "priceValidUntil": "2026-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Spiceology"
@@ -59,9 +123,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:02:21Z",
+ "observed_at": "2026-10-03T22:33:30Z",
  "og_image": "http://spiceology.com/cdn/shop/files/korean-bbq-1.jpg?v=1782862043",
- "page_sha256": "431d4da6c33affc20286e97121d9ca183db752400c997af967e9fb60ffc1b73e",
+ "page_sha256": "a9964f66193c968c7b93bed50a8728dd05b0175cd4f495f1051f8807c63e0df7",
  "rendered_checked": true,
  "title": "Korean BBQ Glaze \u2013 Spiceology",
  "url": "https://spiceology.com/products/korean-bbq-glaze"

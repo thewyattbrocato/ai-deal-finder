@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://onyxcoffeelab.com/products/2026-advent-calendar",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://onyxcoffeelab.com/products/2026-advent-calendar",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T20:06:29Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Advent-Square.webp?v=1790865979",
+   "page_sha256": "4f44baf56c19f88d0290f176788647df46a22b376c87fb27b9b59f23579037a6",
+   "title": "2026 Advent Calendar \u2013 Onyx Coffee Lab"
+  }
+ ],
  "http_status": 200,
  "id": "onyxcoffeelab-2026-advent-calendar",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:29Z",
+ "observed_at": "2026-10-03T22:30:18Z",
  "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Advent-Square.webp?v=1790865979",
- "page_sha256": "4f44baf56c19f88d0290f176788647df46a22b376c87fb27b9b59f23579037a6",
+ "page_sha256": "6642c80e0873245ee0114915db4317a07645f4d9525316dce5119eb127fd00d9",
  "title": "2026 Advent Calendar \u2013 Onyx Coffee Lab",
  "url": "https://onyxcoffeelab.com/products/2026-advent-calendar"
 }

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:00:43Z",
+  "read_at": "2026-10-03T22:13:57Z",
   "ship": [
    "Free Shipping Over $150 | Free Gift With Purchase",
    "SHIPPING, WARRANTY, RETURNS",
@@ -15,6 +15,231 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:00:43Z",
+    "ship": [
+     "Free Shipping Over $150 | Free Gift With Purchase",
+     "SHIPPING, WARRANTY, RETURNS",
+     "FREE SHIPPING",
+     "**Shipping Information",
+     "Free Shipping",
+     "You are $150.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Jewel Pro"
+     },
+     "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "merchantReturnDays": 60,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "url": "https://www.greenpan.us/pages/returns"
+     },
+     "hasVariant": [
+      {
+       "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Jewel Pro"
+       },
+       "color": "Slate",
+       "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+       "gtin12": "885837058178",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/CC010882-001-1_3000x.jpg?v=1790194357"
+       ],
+       "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Slate",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin12": "885837058178",
+         "price": 469.99,
+         "priceCurrency": "USD",
+         "sku": "CC010882-001",
+         "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate?variant=56043448205480"
+        }
+       ],
+       "sku": "CC010882-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Jewel Pro"
+       },
+       "color": "Glacier",
+       "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+       "gtin12": "885837058154",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/CC010880-001-1_3000x.jpg?v=1790265301"
+       ],
+       "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Glacier",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin12": "885837058154",
+         "price": 469.99,
+         "priceCurrency": "USD",
+         "sku": "CC010880-001",
+         "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier?variant=56046840250536"
+        }
+       ],
+       "sku": "CC010880-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Jewel Pro"
+       },
+       "color": "Taupe",
+       "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+       "gtin12": "885837058161",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/CC010881-001-1_3000x.jpg?v=1790265485"
+       ],
+       "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Taupe",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin12": "885837058161",
+         "price": 469.99,
+         "priceCurrency": "USD",
+         "sku": "CC010881-001",
+         "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe?variant=56046851489960"
+        }
+       ],
+       "sku": "CC010881-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe"
+      }
+     ],
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC010881-001-1_3000x.jpg?v=1790265485"
+     ],
+     "name": "Jewel Pro Sets",
+     "productGroupID": "jewel-pro-sets",
+     "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+     "variesBy": [
+      "https://schema.org/color"
+     ]
+    },
+    {
+     "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Jewel Pro"
+     },
+     "color": "Slate",
+     "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+     "gtin12": "885837058178",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC010882-001-1_3000x.jpg?v=1790194357"
+     ],
+     "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Slate",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837058178",
+       "price": 469.99,
+       "priceCurrency": "USD",
+       "sku": "CC010882-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate?variant=56043448205480"
+      }
+     ],
+     "sku": "CC010882-001",
+     "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-slate"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Jewel Pro"
+     },
+     "color": "Glacier",
+     "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+     "gtin12": "885837058154",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC010880-001-1_3000x.jpg?v=1790265301"
+     ],
+     "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Glacier",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837058154",
+       "price": 469.99,
+       "priceCurrency": "USD",
+       "sku": "CC010880-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier?variant=56046840250536"
+      }
+     ],
+     "sku": "CC010880-001",
+     "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-glacier"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Jewel Pro"
+     },
+     "color": "Taupe",
+     "description": "Turn everyday cooking into something extraordinary with this 11-Piece Set. From quick breakfasts to full family dinners, Jewel Pro combines Thermolon\u2122 9G ceramic nonstick with scratch-resistant bodies and an induction-ready design for effortless cooking from start to finish.",
+     "gtin12": "885837058161",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/CC010881-001-1_3000x.jpg?v=1790265485"
+     ],
+     "name": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Taupe",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin12": "885837058161",
+       "price": 469.99,
+       "priceCurrency": "USD",
+       "sku": "CC010881-001",
+       "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe?variant=56046851489960"
+      }
+     ],
+     "sku": "CC010881-001",
+     "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:28Z",
+   "og_image": "http://www.greenpan.us/cdn/shop/files/CC010881-001-1_medium.jpg?v=1790265485",
+   "page_sha256": "d5bfa1be8d8e9569f2dcdd9c30a40129b99a604732f0982bdc013bc49deba966",
+   "rendered_checked": true,
+   "title": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Taupe | GreenPan US"
+  }
+ ],
  "http_status": 200,
  "id": "greenpan-jewel-pro-ceramic-nonstick-11-piece-cookware-set-ta",
  "image_file": "greenpan-jewel-pro-ceramic-nonstick-11-piece-cookware-set-ta.jpg",
@@ -220,9 +445,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:04:28Z",
+ "observed_at": "2026-10-03T22:13:38Z",
  "og_image": "http://www.greenpan.us/cdn/shop/files/CC010881-001-1_medium.jpg?v=1790265485",
- "page_sha256": "d5bfa1be8d8e9569f2dcdd9c30a40129b99a604732f0982bdc013bc49deba966",
+ "page_sha256": "4fb7dbcd511f720491b4a945c8257a0abbe6a436df73d7e3eed7a14796291efc",
  "rendered_checked": true,
  "title": "Jewel Pro Ceramic Nonstick 11-Piece Cookware Set | Taupe | GreenPan US",
  "url": "https://greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe"

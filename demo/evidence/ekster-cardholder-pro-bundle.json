@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:55:52Z",
+  "read_at": "2026-10-03T22:21:08Z",
   "ship": [
    "Free shipping",
    "Shipping",
@@ -15,6 +15,200 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.ekster.com/products/cardholder-pro-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:55:52Z",
+    "ship": [
+     "Free shipping",
+     "Shipping",
+     "Shipping & delivery",
+     "Shipping calculated at checkout"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://www.ekster.com/products/cardholder-pro-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.ekster.com/products/cardholder-pro-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/cardholder-pro-bundle#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Ekster\u00ae"
+     },
+     "category": "Card Cases",
+     "description": "Customize your Ekster Cardholder Pro with the removable Cash Clip backplate that securely stores folded bills and offers additional card storage under the backplate.\nYou'll never lose your wallet with the Tracker Card inside. Track it with Apple Find My\u00ae or Google's Find Hub\u00ae app.\n\nCardholder Pro holds 1-14 cards and bills\nMade from 100% recycled aluminum\n\nFast card access at the push of a button\n\nBuilt-in RFID protection\n\nLifetime warranty included\n",
+     "hasVariant": [
+      {
+       "@id": "/products/cardholder-pro-bundle?variant=43652305748031#variant",
+       "@type": "Product",
+       "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Jet_Black_Infograph_01.png?v=1787591050&width=1920",
+       "name": "Cardholder Pro Bundle - Black",
+       "offers": {
+        "@id": "/products/cardholder-pro-bundle?variant=43652305748031#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "127.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305748031"
+       },
+       "sku": "EK4-BUN-ALU-PRO-BLK"
+      },
+      {
+       "@id": "/products/cardholder-pro-bundle?variant=43652305780799#variant",
+       "@type": "Product",
+       "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Space_Grey_Infograph_01_c89fffc4-f0b9-4678-8e15-84b6004b09d0.png?v=1787591063&width=1920",
+       "name": "Cardholder Pro Bundle - Space Grey",
+       "offers": {
+        "@id": "/products/cardholder-pro-bundle?variant=43652305780799#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/OutOfStock",
+        "price": "127.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305780799"
+       },
+       "sku": "EK4-BUN-ALU-PRO-GRY"
+      },
+      {
+       "@id": "/products/cardholder-pro-bundle?variant=43652305813567#variant",
+       "@type": "Product",
+       "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Forest_Green_Infograph_01_01de0491-6781-4e4f-9ce3-20577a3617dd.png?v=1787591045&width=1920",
+       "name": "Cardholder Pro Bundle - Forest Green",
+       "offers": {
+        "@id": "/products/cardholder-pro-bundle?variant=43652305813567#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "127.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305813567"
+       },
+       "sku": "EK4-BUN-ALU-PRO-GRN"
+      },
+      {
+       "@id": "/products/cardholder-pro-bundle?variant=43652305846335#variant",
+       "@type": "Product",
+       "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Desert_Red_Infograph_01_2c9c0218-0846-407a-b318-ada77117c78e.png?v=1787591036&width=1920",
+       "name": "Cardholder Pro Bundle - Desert Red",
+       "offers": {
+        "@id": "/products/cardholder-pro-bundle?variant=43652305846335#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "127.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305846335"
+       },
+       "sku": "EK4-BUN-ALU-PRO-RED"
+      },
+      {
+       "@id": "/products/cardholder-pro-bundle?variant=43652305879103#variant",
+       "@type": "Product",
+       "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Midnight_Blue_Infograph_01_8b7a8135-3b05-4d81-af3b-481f7db6931a.png?v=1787591056&width=1920",
+       "name": "Cardholder Pro Bundle - Midnight Blue",
+       "offers": {
+        "@id": "/products/cardholder-pro-bundle?variant=43652305879103#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "127.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305879103"
+       },
+       "sku": "EK4-BUN-ALU-PRO-BLU"
+      }
+     ],
+     "name": "Cardholder Pro Bundle",
+     "productGroupID": "8284529623103",
+     "url": "https://www.ekster.com/products/cardholder-pro-bundle"
+    },
+    {
+     "@id": "/products/cardholder-pro-bundle?variant=43652305748031#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Jet_Black_Infograph_01.png?v=1787591050&width=1920",
+     "name": "Cardholder Pro Bundle - Black",
+     "offers": {
+      "@id": "/products/cardholder-pro-bundle?variant=43652305748031#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305748031"
+     },
+     "sku": "EK4-BUN-ALU-PRO-BLK"
+    },
+    {
+     "@id": "/products/cardholder-pro-bundle?variant=43652305780799#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Space_Grey_Infograph_01_c89fffc4-f0b9-4678-8e15-84b6004b09d0.png?v=1787591063&width=1920",
+     "name": "Cardholder Pro Bundle - Space Grey",
+     "offers": {
+      "@id": "/products/cardholder-pro-bundle?variant=43652305780799#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305780799"
+     },
+     "sku": "EK4-BUN-ALU-PRO-GRY"
+    },
+    {
+     "@id": "/products/cardholder-pro-bundle?variant=43652305813567#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Forest_Green_Infograph_01_01de0491-6781-4e4f-9ce3-20577a3617dd.png?v=1787591045&width=1920",
+     "name": "Cardholder Pro Bundle - Forest Green",
+     "offers": {
+      "@id": "/products/cardholder-pro-bundle?variant=43652305813567#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305813567"
+     },
+     "sku": "EK4-BUN-ALU-PRO-GRN"
+    },
+    {
+     "@id": "/products/cardholder-pro-bundle?variant=43652305846335#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Desert_Red_Infograph_01_2c9c0218-0846-407a-b318-ada77117c78e.png?v=1787591036&width=1920",
+     "name": "Cardholder Pro Bundle - Desert Red",
+     "offers": {
+      "@id": "/products/cardholder-pro-bundle?variant=43652305846335#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305846335"
+     },
+     "sku": "EK4-BUN-ALU-PRO-RED"
+    },
+    {
+     "@id": "/products/cardholder-pro-bundle?variant=43652305879103#variant",
+     "@type": "Product",
+     "image": "https://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Midnight_Blue_Infograph_01_8b7a8135-3b05-4d81-af3b-481f7db6931a.png?v=1787591056&width=1920",
+     "name": "Cardholder Pro Bundle - Midnight Blue",
+     "offers": {
+      "@id": "/products/cardholder-pro-bundle?variant=43652305879103#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "127.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/cardholder-pro-bundle?variant=43652305879103"
+     },
+     "sku": "EK4-BUN-ALU-PRO-BLU"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:56Z",
+   "og_image": "http://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Jet_Black_Infograph_01.png?v=1787591050",
+   "page_sha256": "42bcad17cbf4d0cec5acf99d9c563dddc5fc38ce21949090e20702a16ed45a7c",
+   "rendered_checked": true,
+   "title": "Cardholder Pro Bundle | Ekster\u00ae"
+  }
+ ],
  "http_status": 200,
  "id": "ekster-cardholder-pro-bundle",
  "image_file": "ekster-cardholder-pro-bundle.png",
@@ -189,9 +383,9 @@
   }
  ],
  "kind": "Accessories",
- "observed_at": "2026-10-02T20:05:56Z",
+ "observed_at": "2026-10-03T22:20:53Z",
  "og_image": "http://www.ekster.com/cdn/shop/files/Cardholder_Pro_Bundle_-_Jet_Black_Infograph_01.png?v=1787591050",
- "page_sha256": "42bcad17cbf4d0cec5acf99d9c563dddc5fc38ce21949090e20702a16ed45a7c",
+ "page_sha256": "315722fc5d7d3cc12d9b24f0f63cf94fa73799a6dbf24ca7c9931d2c89431136",
  "rendered_checked": true,
  "title": "Cardholder Pro Bundle | Ekster\u00ae",
  "url": "https://ekster.com/products/cardholder-pro-bundle"

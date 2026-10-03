@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:12:51Z",
+  "read_at": "2026-10-03T22:12:33Z",
   "ship": [
    "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
    "Get member pricing, free shipping, and 2x rewards today.",
@@ -17,6 +17,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:12:51Z",
+    "ship": [
+     "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
+     "Get member pricing, free shipping, and 2x rewards today.",
+     "Free Shipping on all orders for VIP Members",
+     "Free Shipping on $150+ for Non-Members",
+     "Shipping & Returns",
+     "Free Shipping on"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tea Forte"
+     },
+     "description": "NEW GIFT BUNDLE Herbal tea lovers will delight in this\u00a0 Presentation Box Combo of two limited edition Warming Joy Herbal Presentation Box of 20 teas, for 40 herbal teas in all. An excellent gift for herbal tea lovers, as most teas are naturally caffeine-free. Pick up this limited edition bundle while supplies last. Save when you buy as a bundle!\n Note: One herbal blend in this collection contain trace amounts of naturally-occurring caffeine: Belgian Mint (cocoa husk). All other blends are naturally caffeine-free.\nThe Warming Joy Herbal Presentation Box Duo Gift Bundle is a $96 value and includes:\n\nTwo\u00a0Warming Joy Herbal Presentation Boxes of 20\u00a0herbal pyramid tea infusers each\nEach pyramid infuser steeps 8-12 ounces of tea\nEach box measures 8.5L x 4.0D x 3.2H\"\nPlease note: Pyramid infusers are not microwave-safe\n\n\n\nAll teas in this bundle are Kosher Certified",
+     "image": [
+      "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJPBH_Duo.jpg?v=1790018681&width=1400"
+     ],
+     "mainEntityOfPage": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle",
+     "name": "Warming Joy Herbal Presentation Box Duo",
+     "offers": [
+      {
+       "@id": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle?variant=48462940340413#offer",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition",
+       "price": 86.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@id": "https://teaforte.com/#organization"
+       },
+       "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle?variant=48462940340413"
+      }
+     ],
+     "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:12Z",
+   "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJPBH_Duo.jpg?v=1790018681",
+   "page_sha256": "0fb720d0b4ea1d3bf06c7a0c4beb19ed070cdd3b0efc79e3021888cf3cbd7ffd",
+   "rendered_checked": true,
+   "title": "Warming Joy Herbal Presentation Box Duo | Gift Bundle"
+  }
+ ],
  "http_status": 200,
  "id": "teaforte-tea-gifts-warming-joy-herbal-presentation-box-duo-2",
  "image_file": "teaforte-tea-gifts-warming-joy-herbal-presentation-box-duo-2.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Tea",
- "observed_at": "2026-10-02T20:02:12Z",
+ "observed_at": "2026-10-03T22:12:17Z",
  "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJPBH_Duo.jpg?v=1790018681",
- "page_sha256": "0fb720d0b4ea1d3bf06c7a0c4beb19ed070cdd3b0efc79e3021888cf3cbd7ffd",
+ "page_sha256": "c77d0c311d9414e0e45b3512d812b0df6cc4f3e8229dae2757069405df8acfbf",
  "rendered_checked": true,
  "title": "Warming Joy Herbal Presentation Box Duo | Gift Bundle",
  "url": "https://teaforte.com/products/tea-gifts-warming-joy-herbal-presentation-box-duo-2026-bundle"

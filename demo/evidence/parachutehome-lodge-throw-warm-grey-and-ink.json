@@ -1,8 +1,7 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:04:31Z",
+  "read_at": "2026-10-03T22:05:12Z",
   "ship": [
-   "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
    "Shipping + Returns",
    "Free Shipping & 60 Day Returns",
    "Free Shipping",
@@ -19,6 +18,86 @@
  },
  "coupon_snippets": [],
  "final_url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:04:31Z",
+    "ship": [
+     "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
+     "Shipping + Returns",
+     "Free Shipping & 60 Day Returns",
+     "Free Shipping",
+     "FREE U.S. SHIPPING"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "*By completing this form you are signing up to receive our emails and can unsubscribe at any time."
+    ],
+    "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/lodge-throw-warm-grey-and-ink#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Parachute Home"
+     },
+     "category": "Blankets",
+     "description": "Go big on plaid. An oversized check gives the classic cabin pattern a more modern point of view, with rich contrasting shades and long fringe for a relaxed finish. Woven from superfine alpaca, it delivers exceptional softness and wonderful warmth without the weight. The lodge look, no cabin required.\n\u00a0",
+     "hasVariant": [
+      {
+       "@id": "/products/lodge-throw-warm-grey-and-ink?variant=39754608181509#variant",
+       "@type": "Product",
+       "gtin": "810210549813",
+       "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_warm-grey-and-ink_main_1339.jpg?v=1790104199&width=1920",
+       "name": "Lodge Throw (Warm Grey and Ink) - One Size / Warm Grey and Ink",
+       "offers": {
+        "@id": "/products/lodge-throw-warm-grey-and-ink?variant=39754608181509#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "279.00",
+        "priceCurrency": "USD",
+        "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink?variant=39754608181509"
+       },
+       "sku": "THWLODWAIONE"
+      }
+     ],
+     "name": "Lodge Throw (Warm Grey and Ink)",
+     "productGroupID": "6702757380357",
+     "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink"
+    },
+    {
+     "@id": "/products/lodge-throw-warm-grey-and-ink?variant=39754608181509#variant",
+     "@type": "Product",
+     "gtin": "810210549813",
+     "image": "https://parachutehome.com/cdn/shop/files/lodge-throw_warm-grey-and-ink_main_1339.jpg?v=1790104199&width=1920",
+     "name": "Lodge Throw (Warm Grey and Ink) - One Size / Warm Grey and Ink",
+     "offers": {
+      "@id": "/products/lodge-throw-warm-grey-and-ink?variant=39754608181509#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "279.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink?variant=39754608181509"
+     },
+     "sku": "THWLODWAIONE"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:50Z",
+   "og_image": "http://parachutehome.com/cdn/shop/files/lodge-throw_warm-grey-and-ink_main_1339.jpg?v=1790104199",
+   "page_sha256": "44475dfc92e97fd84c768f80c2e19216d309ebdf97098a3054755f2c63591bbb",
+   "rendered_checked": true,
+   "title": "Lodge Throw (Warm Grey and Ink) \u2013 Parachute Home"
+  }
+ ],
  "http_status": 200,
  "id": "parachutehome-lodge-throw-warm-grey-and-ink",
  "image_file": "parachutehome-lodge-throw-warm-grey-and-ink.jpg",
@@ -75,9 +154,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T19:58:50Z",
+ "observed_at": "2026-10-03T22:04:55Z",
  "og_image": "http://parachutehome.com/cdn/shop/files/lodge-throw_warm-grey-and-ink_main_1339.jpg?v=1790104199",
- "page_sha256": "44475dfc92e97fd84c768f80c2e19216d309ebdf97098a3054755f2c63591bbb",
+ "page_sha256": "7883a005c5f658f6969f73298ee90b16812f6dc8d0a7341e415ad47084d3bfe0",
  "rendered_checked": true,
  "title": "Lodge Throw (Warm Grey and Ink) \u2013 Parachute Home",
  "url": "https://parachutehome.com/products/lodge-throw-warm-grey-and-ink"

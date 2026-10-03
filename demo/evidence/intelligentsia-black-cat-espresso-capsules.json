@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.intelligentsia.com/products/black-cat-espresso-capsules",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.intelligentsia.com/products/black-cat-espresso-capsules",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T19:58:28Z",
+   "og_image": "http://www.intelligentsia.com/cdn/shop/files/bc_capsules_hero_1024x1024.png?v=1762439888",
+   "page_sha256": "b892a92a85ede54d4af1a701ea4bebad69642d88d8237d1a48194af2625445ba",
+   "title": "Black Cat Espresso Capsules"
+  }
+ ],
  "http_status": 200,
  "id": "intelligentsia-black-cat-espresso-capsules",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:28Z",
+ "observed_at": "2026-10-03T22:29:56Z",
  "og_image": "http://www.intelligentsia.com/cdn/shop/files/bc_capsules_hero_1024x1024.png?v=1762439888",
- "page_sha256": "b892a92a85ede54d4af1a701ea4bebad69642d88d8237d1a48194af2625445ba",
+ "page_sha256": "280f1e5a2e1dda16fb596a6ccd39b63a09111f477498570ea4056bc35f046352",
  "title": "Black Cat Espresso Capsules",
  "url": "https://intelligentsia.com/products/black-cat-espresso-capsules"
 }

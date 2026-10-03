@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:14:38Z",
+  "read_at": "2026-10-03T22:15:28Z",
   "ship": [
    "Free US Shipping $200+",
    "Shipping & Returns"
@@ -14,6 +14,57 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:14:38Z",
+    "ship": [
+     "Free US Shipping $200+",
+     "Shipping & Returns"
+    ],
+    "size": [],
+    "sub": [
+     "Join 78,000+ subscribers by signing up below:",
+     "Subscribe \u2192"
+    ],
+    "url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Ugmonk"
+     },
+     "category": "Office Supplies",
+     "description": "The Discbound Journal Bundle\u00a0Includes:\n\n1 Discbound Leather Journal\n3 Paper Refills (60 pages each)\n1 Journal Archive\n\nA journal built to evolve with you.\nEight solid brass discs let you add, remove, and reorganize pages freely. Move your best ideas forward. Pull out completed projects. Refill exactly where you need it.\nThe full-grain leather covers develop a rich patina over time. The 70lb dot grid paper is smooth for writing, substantial enough to prevent bleed-through. Lays completely flat.\nRefill it endlessly. Use it for decades.\nSpecifications:\n\n6\" x 8.5\" pages\n70lb smooth white paper\n3 extra dot grid refill packs (60 pages each)\nFull-grain leather covers\n\n8 solid brass discs\nJournal Archive with 6 sleeves\n\n\n*Each cover is cut from a single piece of full-grain leather so it will have natural markings and texture variations throughout.\nRefill packs available here \nFeatures:\n\n\n6\" x 8.5\" pages\n120 dot grid pages (60 sheets)\n3 Extra refill packs (60 sheets each)\n70lb smooth white paper\nFull-grain leather covers\n\n8 solid brass discs\nJournal Archive with 6 sleeves\n",
+     "gtin": "93687689",
+     "image": "https://ugmonk.com/cdn/shop/files/journal-bundle-archive-blk.jpg?v=1790019430&width=1920",
+     "name": "Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\")",
+     "offers": {
+      "@id": "/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5?variant=46569901916310#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "179.00",
+      "priceCurrency": "USD",
+      "url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5?variant=46569901916310"
+     },
+     "sku": "Heirloom-black-bundle",
+     "url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:46Z",
+   "og_image": "http://ugmonk.com/cdn/shop/files/journal-bundle-archive-blk.jpg?v=1790019430",
+   "page_sha256": "d245526c87ff4e086f0a14c559980779ece8655717884de03b03e151a3bede22",
+   "rendered_checked": true,
+   "title": "Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") \u2013 Ugmonk"
+  }
+ ],
  "http_status": 200,
  "id": "ugmonk-discbound-heirloom-journal-bundle-black-leather-stand",
  "image_file": "ugmonk-discbound-heirloom-journal-bundle-black-leather-stand.jpg",
@@ -46,9 +97,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-02T20:04:46Z",
+ "observed_at": "2026-10-03T22:15:15Z",
  "og_image": "http://ugmonk.com/cdn/shop/files/journal-bundle-archive-blk.jpg?v=1790019430",
- "page_sha256": "d245526c87ff4e086f0a14c559980779ece8655717884de03b03e151a3bede22",
+ "page_sha256": "85e9048d54952873e1b78d1399dde898c70dfcc5cc9e2ea2c697110e5a91b63a",
  "rendered_checked": true,
  "title": "Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") \u2013 Ugmonk",
  "url": "https://ugmonk.com/products/discbound-heirloom-journal-bundle-black-leather-standard-6-x-8-5"

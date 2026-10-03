@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://onyxcoffeelab.com/products/baristas-choice",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://onyxcoffeelab.com/products/baristas-choice",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T20:06:30Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Baristas-Choice.webp?v=1753279333",
+   "page_sha256": "006019daa7d08c2cd9da036b8be93196f30f92b2819e365634bce6c732d6bc12",
+   "title": "Barista's Choice \u2013 Onyx Coffee Lab"
+  }
+ ],
  "http_status": 200,
  "id": "onyxcoffeelab-baristas-choice",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:30Z",
+ "observed_at": "2026-10-03T22:30:25Z",
  "og_image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Baristas-Choice.webp?v=1753279333",
- "page_sha256": "006019daa7d08c2cd9da036b8be93196f30f92b2819e365634bce6c732d6bc12",
+ "page_sha256": "668c1197cc745f3f8de49a3e78d13ed4453ce04c2f0ecf71f22a7aac556e0f1a",
  "title": "Barista's Choice \u2013 Onyx Coffee Lab",
  "url": "https://onyxcoffeelab.com/products/baristas-choice"
 }

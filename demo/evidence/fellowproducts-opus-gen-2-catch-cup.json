@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:56:47Z",
+  "read_at": "2026-10-03T22:07:09Z",
   "ship": [
    "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
    "Shipping Information"
@@ -11,6 +11,50 @@
  },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/opus-gen-2-catch-cup",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:56:47Z",
+    "ship": [
+     "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+     "Shipping Information"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://fellowproducts.com/products/opus-gen-2-catch-cup"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://fellowproducts.com/products/opus-gen-2-catch-cup",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://fellowproducts.com/products/opus-gen-2-catch-cup",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Fellow"
+     },
+     "name": "Opus Gen 2 Catch Cup",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 9.95,
+      "priceCurrency": "USD",
+      "url": "https://fellowproducts.com/products/opus-gen-2-catch-cup"
+     },
+     "sku": "1222BA-05",
+     "url": "https://fellowproducts.com/products/opus-gen-2-catch-cup"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:13Z",
+   "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
+   "page_sha256": "1f4a6236986cd66034dcf42ffecc428b8a96ad81a9ebb35b21a717408148f2eb",
+   "rendered_checked": true,
+   "title": "Opus Gen 2 Catch Cup"
+  }
+ ],
  "http_status": 200,
  "id": "fellowproducts-opus-gen-2-catch-cup",
  "image_file": "fellowproducts-opus-gen-2-catch-cup.jpg",
@@ -39,9 +83,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T19:59:13Z",
+ "observed_at": "2026-10-03T22:06:54Z",
  "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
- "page_sha256": "1f4a6236986cd66034dcf42ffecc428b8a96ad81a9ebb35b21a717408148f2eb",
+ "page_sha256": "29dacb2d1274ebbad719866388ee50474929caa5bd849971c2bfd45a1005bae1",
  "rendered_checked": true,
  "title": "Opus Gen 2 Catch Cup",
  "url": "https://fellowproducts.com/products/opus-gen-2-catch-cup"
