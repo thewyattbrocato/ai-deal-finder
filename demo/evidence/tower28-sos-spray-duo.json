@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.tower28beauty.com/products/sos-spray-duo",
+ "http_status": 200,
+ "id": "tower28-sos-spray-duo",
+ "image_file": "tower28-sos-spray-duo.png",
+ "image_sha256": "dba03f30334d1314507f1bde30c3dd599eaba059602d2a9acec56fcdad10f9ee",
+ "image_source": "http://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "description": "Okendo Reviews",
+    "ratingCount": "1808",
+    "ratingValue": "4.8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Tower 28 Beauty"
+   },
+   "description": "A soothing, purifying, and renewing toner treatment for fast angry skin relief. Use AM/PM to maintain and prevent redness and irritation. Spritz SOS anywhere, everywhere with a TSA-approved mini + a regular full-size SOS Daily Rescue Facial Spray Duo. $40 Value.",
+   "image": [
+    "https://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385&width=1920"
+   ],
+   "name": "SOS Spray Duo",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 36.0,
+     "priceCurrency": "USD",
+     "sku": "T008-05-0000",
+     "url": "https://www.tower28beauty.com/products/sos-spray-duo?variant=41524724727863"
+    }
+   ],
+   "sku": "T008-05-0000",
+   "url": "https://www.tower28beauty.com/products/sos-spray-duo"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:10Z",
+ "og_image": "http://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385",
+ "page_sha256": "08f8836a11e55af77b2d3651966b539726bb8435e929a33d6cfb0b6130bdbd97",
+ "rendered_checked": true,
+ "title": "SOS Spray Duo | Tower 28 Beauty Exclusive",
+ "url": "https://tower28beauty.com/products/sos-spray-duo"
+}

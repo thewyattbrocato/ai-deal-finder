@@ -1,0 +1,90 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.nativecos.com/products/deodorant-discovery-3-pack",
+ "http_status": 200,
+ "id": "nativecos-deodorant-discovery-3-pack",
+ "image_file": "nativecos-deodorant-discovery-3-pack.png",
+ "image_sha256": "f8882964a7c612c6c8edb1f580c0388aedf5bfb79a4e474c5f158fa84393b488",
+ "image_source": "http://www.nativecos.com/cdn/shop/files/Native_MOI_DTC_BNDL-DD3_031026_VanillaVibes_7604ef79-1736-43f3-aeb4-a961e436f73a.png?v=1776120716&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855229102",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5.0,
+    "ratingValue": 3.7,
+    "reviewCount": 3
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Native"
+   },
+   "description": "",
+   "image": [
+    "https:files/Native_MOI_DTC_BNDL-DD3_031026_VanillaVibes_7604ef79-1736-43f3-aeb4-a961e436f73a.png"
+   ],
+   "name": "Deodorant Discovery 3-Pack",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0002-1",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855229102"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0003-1",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855261870"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0005-1",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855294638"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0007",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855327406"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0006",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855360174"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 33.6,
+     "priceCurrency": "USD",
+     "sku": "BNDL-DDS-0004-1",
+     "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855392942"
+    }
+   ],
+   "sku": "BNDL-DDS-0002-1",
+   "url": "https://www.nativecos.com/products/deodorant-discovery-3-pack?variant=47731855229102"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:29Z",
+ "og_image": "http://www.nativecos.com/cdn/shop/files/Native_MOI_DTC_BNDL-DD3_031026_VanillaVibes_7604ef79-1736-43f3-aeb4-a961e436f73a.png?v=1776120716&width=1024",
+ "page_sha256": "4dd3b7df73e3ab9b364070b5df779071ac35cebd605b7b0aa049f0e5c9641c9f",
+ "rendered_checked": true,
+ "title": "Native Bundle Deodorant Discovery 3-Pack | Vanilla Vibes | Native",
+ "url": "https://nativecos.com/products/deodorant-discovery-3-pack"
+}

@@ -1,0 +1,61 @@
+{
+ "coupon_snippets": [
+  "iper-slide-duplicate')); if (filteredSlides.length slide.removeAttribute('hidden')) } } }) \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25",
+  ") \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders",
+  "Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Terms Apply Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Save $25 Off $100 Order With Code: AYCEARIA Save $25 Of",
+  "SKIP TO CONTENT FREE SHIPPING on orders $50+ and FAST delivery! Save 20% off your first order with code 'WELCOME20' Terms Apply DOG CAT FRESH FOOD OUR PROMISE USA Find a location Best Sellers New Arrivals Dry Food Fresh Food Freeze Dried Wet Food Treats Health & W"
+ ],
+ "final_url": "https://openfarmpet.com/products/skin-coat-supplement-chews-for-dogs",
+ "http_status": 200,
+ "id": "openfarmpet-skin-coat-supplement-chews-for-dogs",
+ "image_file": "openfarmpet-skin-coat-supplement-chews-for-dogs.png",
+ "image_sha256": "559c7c676913d834f67734ec6e85bd90efc3f96d330c4e0597ece78270748824",
+ "image_source": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Skin_Coat-RENDER_548x768_6219c0e2-6260-4a4d-bcd3-2d12de44512f.png?v=1783541643&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://openfarmpet.com/products/skin-coat-supplement-chews-for-dogs",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Open Farm"
+   },
+   "category": "Dog Food",
+   "description": "Is your dog feeling a bit uncomfortable in their own skin? Each delicious Skin &amp; Coat health supplement soft chew is formulated with 100% traceable and functional ingredients like wild-caught salmon oil, cod liver oil, zinc and biotin to help support and promote a soft and shiny coat. ",
+   "gtin": "683547127234",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Skin_Coat-RENDER_548x768_6219c0e2-6260-4a4d-bcd3-2d12de44512f.png?v=1783541643&width=1024",
+    "name": "Skin & Coat Supplement Chews for Dogs",
+    "url": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Skin_Coat-RENDER_548x768_6219c0e2-6260-4a4d-bcd3-2d12de44512f.png?v=1783541643&width=1024",
+    "width": "1024"
+   },
+   "name": "Skin & Coat Supplement Chews for Dogs",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "683547127234",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Skin & Coat Supplement Chews for Dogs - 12.7 oz",
+     "price": 32.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "sku": "12723",
+     "url": "https://openfarmpet.com/products/skin-coat-supplement-chews-for-dogs?variant=43092208550001"
+    }
+   ],
+   "productID": 7611785838705,
+   "sku": "12723",
+   "url": "https://openfarmpet.com/products/skin-coat-supplement-chews-for-dogs"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T15:08:30Z",
+ "og_image": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Skin_Coat-RENDER_548x768_6219c0e2-6260-4a4d-bcd3-2d12de44512f.png?v=1783541643",
+ "page_sha256": "6d293b197621a6a60eb672eff43e03a2d76025dd65367b061a4c86088603d6bb",
+ "rendered_checked": true,
+ "title": "Skin & Coat Supplement Chews for Dogs \u2013 Open Farm",
+ "url": "https://openfarmpet.com/products/skin-coat-supplement-chews-for-dogs"
+}

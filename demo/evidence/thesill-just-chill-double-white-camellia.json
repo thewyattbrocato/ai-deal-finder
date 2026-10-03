@@ -1,0 +1,134 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.thesill.com/products/just-chill-double-white-camellia",
+ "http_status": 200,
+ "id": "thesill-just-chill-double-white-camellia",
+ "image_file": "thesill-just-chill-double-white-camellia.jpg",
+ "image_sha256": "58753203f930880df7b3516f52496a8b8be7c6b53b5b7735a14ce03fd7471706",
+ "image_source": "http://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-001.jpg?v=1790106783&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "The Sill"
+   },
+   "description": "Bright White Blooms When the Rest of the Garden is Winding DownJust Chill\u00ae Double White Camellia opens thick-petaled, pure white flowers in fall, right when most shrubs have called it a season. The blooms carry a light fragrance and stand out beautifully against glossy emerald-green foliage that holds its color all year.This series was selected for improved cold hardiness, so gardeners with a little more chill in the air can finally grow camellias with confidence. At 5 to 8 feet tall with an upright habit, it works as an evergreen hedge, a middle-of-the-border anchor, or a thriller in a large patio container you can tuck against a sheltered wall for winter.Why You&#39;ll Love the Just Chill\u00ae Double White CamelliaFall and winter interest: bright white double flowers appear in autumn, plus year-round evergreen structure.Improved cold hardiness: bred to handle colder winters than traditional camellias.Fragrant blooms: a subtle sweet scent near walkways, patios, and entries.Deer resistant and disease resistant: less browsing damage and less fuss for you.Hedge-worthy habit: upright, densely leaved growth makes an easy evergreen privacy screen.Plant it where you&#39;ll see it in November, and it will pay you back every fall.",
+   "image": [
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-001.jpg?v=1790106783&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-002.jpg?v=1790106783&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery.jpg?v=1790106783&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-003.jpg?v=1790106783&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-005.jpg?v=1790106783&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-004.jpg?v=1790106783&width=1200"
+   ],
+   "name": "Just Chill\u00ae Double White Camellia",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "url": "https://www.thesill.com/pages/shipping-and-handling"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "3 Gallon",
+     "price": "119.00",
+     "priceCurrency": "USD",
+     "priceSpecification": [
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "119.00",
+       "priceCurrency": "USD"
+      },
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "139.00",
+       "priceCurrency": "USD",
+       "priceType": "https://schema.org/StrikethroughPrice"
+      }
+     ],
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": [
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "freeShippingThreshold": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "99.00"
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "19.00"
+       }
+      }
+     ],
+     "sku": "EVD-CAM-JCW-NA-3G",
+     "url": "https://www.thesill.com/products/just-chill-double-white-camellia?variant=48034228240489"
+    }
+   ],
+   "sku": "EVD-CAM-JCW-NA-3G",
+   "url": "https://www.thesill.com/products/just-chill-double-white-camellia"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T15:10:13Z",
+ "og_image": "http://www.thesill.com/cdn/shop/files/the-sill_Camellia-Double-White_gallery-001.jpg?v=1790106783",
+ "page_sha256": "4862999efa93692159f08319146b353aa9b6ed12d812d399dc2e57a4eb678234",
+ "rendered_checked": true,
+ "title": "Just Chill\u00ae Double White Camellia \u2013 The Sill",
+ "url": "https://thesill.com/products/just-chill-double-white-camellia"
+}

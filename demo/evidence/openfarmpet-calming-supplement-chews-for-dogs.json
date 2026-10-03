@@ -1,0 +1,61 @@
+{
+ "coupon_snippets": [
+  "iper-slide-duplicate')); if (filteredSlides.length slide.removeAttribute('hidden')) } } }) \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25",
+  ") \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders",
+  "Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Terms Apply Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Save $25 Off $100 Order With Code: AYCEARIA Save $25 Of",
+  "SKIP TO CONTENT FREE SHIPPING on orders $50+ and FAST delivery! Save 20% off your first order with code 'WELCOME20' Terms Apply DOG CAT FRESH FOOD OUR PROMISE USA Find a location Best Sellers New Arrivals Dry Food Fresh Food Freeze Dried Wet Food Treats Health & W"
+ ],
+ "final_url": "https://openfarmpet.com/products/calming-supplement-chews-for-dogs",
+ "http_status": 200,
+ "id": "openfarmpet-calming-supplement-chews-for-dogs",
+ "image_file": "openfarmpet-calming-supplement-chews-for-dogs.png",
+ "image_sha256": "d5503e9c7407da1d6c89448b20a2b45463019dae102ee90ab4c3f997dcd2dfd1",
+ "image_source": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Calming-RENDER_548x768_a57d1bb5-a10b-45c3-8b5e-e71a6afb38f0.png?v=1783541643&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://openfarmpet.com/products/calming-supplement-chews-for-dogs",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Open Farm"
+   },
+   "category": "Dog Food",
+   "description": "From separation anxiety to scary car rides, our delicious Calming health supplement chews are formulated with 100% traceable and functional ingredients like ashwagandha, valerian root, and L-Theanine to help promote calmness.",
+   "gtin": "683547127265",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Calming-RENDER_548x768_a57d1bb5-a10b-45c3-8b5e-e71a6afb38f0.png?v=1783541643&width=1024",
+    "name": "Calming Supplement Chews for Dogs",
+    "url": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Calming-RENDER_548x768_a57d1bb5-a10b-45c3-8b5e-e71a6afb38f0.png?v=1783541643&width=1024",
+    "width": "1024"
+   },
+   "name": "Calming Supplement Chews for Dogs",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "683547127265",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Calming Supplement Chews for Dogs - 12.7 oz",
+     "price": 32.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "sku": "12726",
+     "url": "https://openfarmpet.com/products/calming-supplement-chews-for-dogs?variant=43092208648305"
+    }
+   ],
+   "productID": 7611786494065,
+   "sku": "12726",
+   "url": "https://openfarmpet.com/products/calming-supplement-chews-for-dogs"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T15:08:26Z",
+ "og_image": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-Supplements-Calming-RENDER_548x768_a57d1bb5-a10b-45c3-8b5e-e71a6afb38f0.png?v=1783541643",
+ "page_sha256": "fe4b2cb3b75466980f759eee79ca7303016b98f4ca8b9c28ed3df96fb1ae4ef9",
+ "rendered_checked": true,
+ "title": "Calming Supplement Chews for Dogs \u2013 Open Farm",
+ "url": "https://openfarmpet.com/products/calming-supplement-chews-for-dogs"
+}

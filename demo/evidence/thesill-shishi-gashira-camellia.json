@@ -1,0 +1,135 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.thesill.com/products/shishi-gashira-camellia",
+ "http_status": 200,
+ "id": "thesill-shishi-gashira-camellia",
+ "image_file": "thesill-shishi-gashira-camellia.jpg",
+ "image_sha256": "32c29c7f861d0cebbb40fc1fd6c229ff4b7e46d14490dd2bc08ee04a506bf73c",
+ "image_source": "http://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-002.jpg?v=1790106401&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "The Sill"
+   },
+   "description": "Hot Pink Blooms When the Rest of the Garden Goes QuietShishi Gashira Camellia covers itself in semi-double, hot pink flowers with golden yellow centers from early to mid fall season, right when most shrubs are shutting down. The rest of the year it holds glossy, dark green evergreen foliage on a low, wide-spreading frame that stays neat without much effort.At 4 to 5 feet tall and 6 to 8 feet wide, it&#39;s built for the jobs tall shrubs can&#39;t handle: a colorful low hedge, a high-profile groundcover under trees, or an espalier trained flat against a wall or fence. It&#39;s happiest in filtered sun to partial shade, so those tricky shady beds along the north side of the house finally have an answer. It also does well in a large container on a shaded patio.Why You&#39;ll Love the Shishi Gashira CamelliaOff-season color: Masses of hot pink, semi-double blooms during the early to mid bloom season.Evergreen structure: Glossy dark green leaves hold their color all four seasons.Shade tolerant: Thrives in filtered sun, partial sun, partial shade, and even full shade.Low and wide: A natural fit for low hedges, foundation beds, espalier, and groundcover plantings.Cut flowers included: Blooms are perfect for floating in a bowl or bringing indoors.Plant it once and enjoy glossy green year-round with a hot pink show when you need it most.",
+   "image": [
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-002.jpg?v=1790106401&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-006.jpg?v=1790106401&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-008.jpg?v=1790106531&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-007.jpg?v=1790106531&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-001.jpg?v=1790106401&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-004.jpg?v=1790106401&width=1200",
+    "https://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-003.jpg?v=1790106401&width=1200"
+   ],
+   "name": "Shishi Gashira Camellia",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "url": "https://www.thesill.com/pages/shipping-and-handling"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "3 Gallon",
+     "price": "119.00",
+     "priceCurrency": "USD",
+     "priceSpecification": [
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "119.00",
+       "priceCurrency": "USD"
+      },
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "139.00",
+       "priceCurrency": "USD",
+       "priceType": "https://schema.org/StrikethroughPrice"
+      }
+     ],
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": [
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "freeShippingThreshold": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "99.00"
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "19.00"
+       }
+      }
+     ],
+     "sku": "EVD-CAM-SHI-NA-3G",
+     "url": "https://www.thesill.com/products/shishi-gashira-camellia?variant=48042548723817"
+    }
+   ],
+   "sku": "EVD-CAM-SHI-NA-3G",
+   "url": "https://www.thesill.com/products/shishi-gashira-camellia"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T15:10:10Z",
+ "og_image": "http://www.thesill.com/cdn/shop/files/the-sill_Shishi-Gashira-Camellia_gallery-002.jpg?v=1790106401",
+ "page_sha256": "c797a0425274ecc5a3f3defe09a5ce973cc91cb44f0c9900f033a9991f3e04b5",
+ "rendered_checked": true,
+ "title": "Shishi Gashira Camellia \u2013 The Sill",
+ "url": "https://thesill.com/products/shishi-gashira-camellia"
+}

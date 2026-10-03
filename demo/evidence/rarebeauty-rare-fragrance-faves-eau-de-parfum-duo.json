@@ -1,0 +1,53 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.rarebeauty.com/products/rare-fragrance-faves-eau-de-parfum-duo",
+ "http_status": 200,
+ "id": "rarebeauty-rare-fragrance-faves-eau-de-parfum-duo",
+ "image_file": "rarebeauty-rare-fragrance-faves-eau-de-parfum-duo.jpg",
+ "image_sha256": "dcefd190c6a670a687f0cc9903e579fbb1a93f1f1d4f1ac25e2d4dd47bdec8b6",
+ "image_source": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-FRAGRANCE-FAVES-01.jpg?format=pjpg&v=1788550054&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.rarebeauty.com/products/rare-fragrance-faves-eau-de-parfum-duo",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Rare Beauty"
+   },
+   "description": "The essence of the perfect moment captured in a warm, decadent fragrance with a touch of spice. Includes a full-size Rare Eau de Parfum by Rare Beauty and a 10mL travel spray.\u00a0",
+   "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-FRAGRANCE-FAVES-01.jpg?v=1788550054&width=1024",
+   "mpn": "FGPKIT0029F1",
+   "name": "Rare Fragrance Faves Eau de Parfum Duo",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.rarebeauty.com/cart/add?id=45392594337927&quantity=1",
+     "gtin12": "840122910401",
+     "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-FRAGRANCE-FAVES-01.jpg?v=1788550054&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "FGPKIT0029F1",
+     "price": "81.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "Rare Beauty"
+     },
+     "sku": "FGPKIT0029F1",
+     "url": "https://www.rarebeauty.com/products/rare-fragrance-faves-eau-de-parfum-duo?variant=45392594337927"
+    }
+   ],
+   "sku": "FGPKIT0029F1",
+   "url": "https://www.rarebeauty.com/products/rare-fragrance-faves-eau-de-parfum-duo"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:18Z",
+ "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-FRAGRANCE-FAVES-01.jpg?format=pjpg&v=1788550054&width=1440",
+ "page_sha256": "3fca19036497ce58fac0dbd369ece68b71324d5662b1edd06cedfffd22e6c7fd",
+ "rendered_checked": true,
+ "title": "Rare Fragrance Faves Eau de Parfum Duo",
+ "url": "https://rarebeauty.com/products/rare-fragrance-faves-eau-de-parfum-duo"
+}

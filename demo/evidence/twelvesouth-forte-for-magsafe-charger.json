@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.twelvesouth.com/products/forte-for-magsafe-charger",
+ "http_status": 200,
+ "id": "twelvesouth-forte-for-magsafe-charger",
+ "image_file": "twelvesouth-forte-for-magsafe-charger.jpg",
+ "image_sha256": "7d141618fb6b7e7f2e06fb539ae79cc1c99fa8b17cc790892c8926eb941efbe3",
+ "image_source": "http://www.twelvesouth.com/cdn/shop/products/Forte-iPhone-Silo1_ChildHero.jpg?v=1719418254&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/forte-for-magsafe-charger#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Twelve South"
+   },
+   "description": "Insert your MagSafe Charger into Fort\u00e9 and you instantly have a clever way to use your iPhone 12 or newer while it wirelessly charges. It magnetically holds your phone vertically or horizontally for handsfree use. As a bonus, Fort\u00e9 also features a swiveling top that can be tilted to the perfect viewing angle or completely flat to serve as a charging pedestal for your AirPods. The white base and dove grey post compliments any color iPhone 12 or newer, or case.\n\n\nUses MagSafe Charger to create a floating iPhone charging stand.\nAdjusts iPhone screen angle up to 75 degrees.\nCreates a flat pedestal to charge AirPods &amp; AirPods Pro.\nWorks with Apple MagSafe Charger (not included).",
+   "image": "https://www.twelvesouth.com/cdn/shop/products/Forte-iPhone-Silo1_ChildHero_450x450.jpg?v=1719418254",
+   "mpn": "8454795657273",
+   "name": "Fort\u00e9 for MagSafe Charger",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Twelve South"
+    }
+   },
+   "url": "/products/forte-for-magsafe-charger"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/forte-for-magsafe-charger#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Twelve South"
+   },
+   "category": "Mobile & Smart Phone Accessories",
+   "description": "Insert your MagSafe Charger into Fort\u00e9 and you instantly have a clever way to use your iPhone 12 or newer while it wirelessly charges. It magnetically holds your phone vertically or horizontally for handsfree use. As a bonus, Fort\u00e9 also features a swiveling top that can be tilted to the perfect viewing angle or completely flat to serve as a charging pedestal for your AirPods. The white base and dove grey post compliments any color iPhone 12 or newer, or case.\n\n\nUses MagSafe Charger to create a floating iPhone charging stand.\nAdjusts iPhone screen angle up to 75 degrees.\nCreates a flat pedestal to charge AirPods &amp; AirPods Pro.\nWorks with Apple MagSafe Charger (not included).\n\n\n\n",
+   "gtin": "20810189130184",
+   "image": "https://www.twelvesouth.com/cdn/shop/products/Forte-iPhone-Silo1_ChildHero.jpg?v=1719418254&width=1920",
+   "name": "Fort\u00e9 for MagSafe Charger",
+   "offers": {
+    "@id": "/products/forte-for-magsafe-charger?variant=46530826928185#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.twelvesouth.com/products/forte-for-magsafe-charger?variant=46530826928185"
+   },
+   "sku": "12-2040/B",
+   "url": "https://www.twelvesouth.com/products/forte-for-magsafe-charger"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T15:09:45Z",
+ "og_image": "http://www.twelvesouth.com/cdn/shop/products/Forte-iPhone-Silo1_ChildHero.jpg?v=1719418254",
+ "page_sha256": "fbb516e7127ca1039df42d85e380f42b32e0415f422ff9328f6462bf648ed563",
+ "rendered_checked": true,
+ "title": "Fort\u00e9 | iPhone Wireless Charging Stand for MagSafe Charger",
+ "url": "https://twelvesouth.com/products/forte-for-magsafe-charger"
+}

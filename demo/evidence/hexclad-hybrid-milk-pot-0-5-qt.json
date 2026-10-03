@@ -1,0 +1,44 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://hexclad.com/products/hybrid-milk-pot-0-5-qt",
+ "http_status": 200,
+ "id": "hexclad-hybrid-milk-pot-0-5-qt",
+ "image_file": "hexclad-hybrid-milk-pot-0-5-qt.jpg",
+ "image_sha256": "929303c4810c43345850ba5b7d4c96e99b5561a8c17176cb2ff11471c5f521ed",
+ "image_source": "http://hexclad.com/cdn/shop/files/MilkPotEcommerce1.jpg?crop=center&height=480&v=1787009677&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "HexClad Cookware"
+   },
+   "description": "Our small-but-mighty pot is the ideal size to melt butter, warm milk or syrup, temper chocolate or make delicate sauces. Its compact size and our Hybrid tech ensure precise control and even heating without scorching; its double pour spouts enable clean, mess-free transfers into mugs and bowls. And it\u2019s dishwasher-safe!",
+   "image": "https://hexclad.com/cdn/shop/files/MilkPotEcommerce1.jpg?v=1787009677&width=1024",
+   "name": ".5 QT Hybrid Milk Pot",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 109.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "HexClad Cookware"
+     },
+     "sku": "CWMP05-C",
+     "url": "https://hexclad.com/products/hybrid-milk-pot-0-5-qt?variant=43478590849158"
+    }
+   ],
+   "sku": "CWMP05-C"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T15:08:02Z",
+ "og_image": "http://hexclad.com/cdn/shop/files/MilkPotEcommerce1.jpg?crop=center&height=480&v=1787009677&width=480",
+ "page_sha256": "0700fb023f535b38a64f1d627cc5d89931a2c028ec77f539969cd7ce041d21a1",
+ "rendered_checked": true,
+ "title": ".5 QT Hybrid Milk Pot | HexClad",
+ "url": "https://hexclad.com/products/hybrid-milk-pot-0-5-qt"
+}

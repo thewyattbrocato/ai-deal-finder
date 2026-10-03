@@ -1,0 +1,61 @@
+{
+ "coupon_snippets": [
+  "iper-slide-duplicate')); if (filteredSlides.length slide.removeAttribute('hidden')) } } }) \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25",
+  ") \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders",
+  "Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Terms Apply Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Save $25 Off $100 Order With Code: AYCEARIA Save $25 Of",
+  "SKIP TO CONTENT FREE SHIPPING on orders $50+ and FAST delivery! Save 20% off your first order with code 'WELCOME20' Terms Apply DOG CAT FRESH FOOD OUR PROMISE USA Find a location Best Sellers New Arrivals Dry Food Fresh Food Freeze Dried Wet Food Treats Health & W"
+ ],
+ "final_url": "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs",
+ "http_status": 200,
+ "id": "openfarmpet-rustic-stew-variety-pack-for-dogs",
+ "image_file": "openfarmpet-rustic-stew-variety-pack-for-dogs.png",
+ "image_sha256": "1e0b68642474bf1ab10ebccaadf60bb1b24e408e56b2ba5d9c59b5e10ab133bc",
+ "image_source": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-RustucStew-VarietyPack_548x768copy_1.png?v=1784135673&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Open Farm"
+   },
+   "category": "Dog Food",
+   "description": "Boost their bowl with this savory variety pack featuring rustic, kettle-cooked recipes made with humanely-raised and sustainably sourced proteins. These juicy, human-grade stews can be mixed with your dog\u2019s meal to maximize nutrition or served alone as a complete and balanced diet. Grain and potato-free.\n\nThis bundle includes:\n\n4x Grass Fed Beef Rustic Stew for Dogs 12.5oz\n4x Homestead Turkey Rustic Stew for Dogs 12.5oz\n4x Chicken and Salmon Rustic Stew for Dogs 12.5oz",
+   "gtin": "683547151123",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-RustucStew-VarietyPack_548x768copy_1.png?v=1784135673&width=1024",
+    "name": "Rustic Stew Variety Pack for Dogs",
+    "url": "https://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-RustucStew-VarietyPack_548x768copy_1.png?v=1784135673&width=1024",
+    "width": "1024"
+   },
+   "name": "Rustic Stew Variety Pack for Dogs",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "683547151123",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Rustic Stew Variety Pack for Dogs - 12.5 oz (Case of 12)",
+     "price": 55.88,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "sku": "15112",
+     "url": "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs?variant=43305909125233"
+    }
+   ],
+   "productID": 7662574043249,
+   "sku": "15112",
+   "url": "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T15:08:19Z",
+ "og_image": "http://openfarmpet.com/cdn/shop/files/OFP-Dog-PLP-RustucStew-VarietyPack_548x768copy_1.png?v=1784135673",
+ "page_sha256": "eab791fb87ce45a239a8d93bdef384958f748aeed167e30f25b23afe575533ec",
+ "rendered_checked": true,
+ "title": "Rustic Stew Variety Pack for Dogs \u2013 Open Farm",
+ "url": "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs"
+}

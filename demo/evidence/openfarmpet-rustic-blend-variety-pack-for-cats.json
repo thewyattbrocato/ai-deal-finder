@@ -1,0 +1,61 @@
+{
+ "coupon_snippets": [
+  "iper-slide-duplicate')); if (filteredSlides.length slide.removeAttribute('hidden')) } } }) \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25",
+  ") \" > Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Exclusive Offer: Get 25% off your first Autoship order with code 'DMAS78935' Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders",
+  "Terms Apply Save $25 Off $100 Order With Code: ARES Save $25 Off $100 Order With Code: ARES Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Terms Apply Exclusive Offer: Get 20% off your next 2 Autoship orders with code 'V3G1EG9E4JNE' Save $25 Off $100 Order With Code: AYCEARIA Save $25 Of",
+  "SKIP TO CONTENT FREE SHIPPING on orders $50+ and FAST delivery! Save 20% off your first order with code 'WELCOME20' Terms Apply DOG CAT FRESH FOOD OUR PROMISE USA Find a location Best Sellers New Arrivals Dry Food Fresh Food Freeze Dried Wet Food Treats Health & W"
+ ],
+ "final_url": "https://openfarmpet.com/products/rustic-blend-variety-pack-for-cats",
+ "http_status": 200,
+ "id": "openfarmpet-rustic-blend-variety-pack-for-cats",
+ "image_file": "openfarmpet-rustic-blend-variety-pack-for-cats.png",
+ "image_sha256": "e617a3a598e984ec8fa39c1dfccd489435e4c92c7b428519b4d4cfe470df166a",
+ "image_source": "http://openfarmpet.com/cdn/shop/files/OFP-Cat-PLP-RusticBlends-VarietyPack_548x768_165cc950-29dd-4be0-9e0a-e4fa37250dfe.png?v=1781116678&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://openfarmpet.com/products/rustic-blend-variety-pack-for-cats",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Open Farm"
+   },
+   "category": "Cat Food",
+   "description": "Treat your cat to a flavorful variety pack featuring rustic, kettle-cooked recipes made with humanely-raised &amp; sustainably sourced proteins. These juicy, human-grade blends can be mixed with your cat\u2019s meal or served alone as a complete and balanced diet.\n\nThis bundle comes with:\n\n4x Harvest Chicken Rustic Blend for Cats 5.5oz\n4x Grass Fed Beef Rustic Blend for Cats 5.5oz\n4x Chicken &amp; Salmon Rustic Blend for Cats 5.5oz",
+   "gtin": "683547151116",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://openfarmpet.com/cdn/shop/files/OFP-Cat-PLP-RusticBlends-VarietyPack_548x768_165cc950-29dd-4be0-9e0a-e4fa37250dfe.png?v=1781116678&width=1024",
+    "name": "Rustic Blend Variety Pack for Cats",
+    "url": "https://openfarmpet.com/cdn/shop/files/OFP-Cat-PLP-RusticBlends-VarietyPack_548x768_165cc950-29dd-4be0-9e0a-e4fa37250dfe.png?v=1781116678&width=1024",
+    "width": "1024"
+   },
+   "name": "Rustic Blend Variety Pack for Cats",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "683547151116",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Rustic Blend Variety Pack for Cats - 5.5 oz (Case of 12)",
+     "price": 43.88,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-03",
+     "sku": "15111",
+     "url": "https://openfarmpet.com/products/rustic-blend-variety-pack-for-cats?variant=43305907355761"
+    }
+   ],
+   "productID": 7662574010481,
+   "sku": "15111",
+   "url": "https://openfarmpet.com/products/rustic-blend-variety-pack-for-cats"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T15:08:22Z",
+ "og_image": "http://openfarmpet.com/cdn/shop/files/OFP-Cat-PLP-RusticBlends-VarietyPack_548x768_165cc950-29dd-4be0-9e0a-e4fa37250dfe.png?v=1781116678",
+ "page_sha256": "58ce1736b3fa3cf485f3bb54dcc435c4cadef0906b147e6527e3d66683983520",
+ "rendered_checked": true,
+ "title": "Rustic Blend Variety Pack for Cats \u2013 Open Farm",
+ "url": "https://openfarmpet.com/products/rustic-blend-variety-pack-for-cats"
+}

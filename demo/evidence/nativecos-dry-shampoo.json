@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.nativecos.com/products/dry-shampoo",
+ "http_status": 200,
+ "id": "nativecos-dry-shampoo",
+ "image_file": "nativecos-dry-shampoo.png",
+ "image_sha256": "338ad4370fca7fae048152ec491ffd02a4414732e4bd351292989e10d804b2af",
+ "image_source": "http://www.nativecos.com/cdn/shop/files/Packshot_Native_DryShampoo_1oz_Cashmere_Rain_Front_83919670.png?v=1782419267&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.nativecos.com/products/dry-shampoo?variant=47980252102830",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5.0,
+    "ratingValue": 4.6,
+    "reviewCount": 368
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Native"
+   },
+   "description": "Refresh your hair in-between washes with Native Dry Shampoo. Free of talc, this lightweight translucent powder drinks up excess oil, dirt, and sweat \u2014 so you can skip the suds and still look like you didn\u2019t.",
+   "image": [
+    "https:files/Packshot_Native_DryShampoo_1oz_Cashmere_Rain_Front_83919670.png"
+   ],
+   "name": "Dry Shampoo",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 13.0,
+     "priceCurrency": "USD",
+     "sku": "83919670",
+     "url": "https://www.nativecos.com/products/dry-shampoo?variant=47980252102830"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 13.0,
+     "priceCurrency": "USD",
+     "sku": "83919669",
+     "url": "https://www.nativecos.com/products/dry-shampoo?variant=47980252135598"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 13.0,
+     "priceCurrency": "USD",
+     "sku": "83919671",
+     "url": "https://www.nativecos.com/products/dry-shampoo?variant=47980252168366"
+    }
+   ],
+   "sku": "83919670",
+   "url": "https://www.nativecos.com/products/dry-shampoo?variant=47980252102830"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:09:27Z",
+ "og_image": "http://www.nativecos.com/cdn/shop/files/Packshot_Native_DryShampoo_1oz_Cashmere_Rain_Front_83919670.png?v=1782419267&width=1024",
+ "page_sha256": "6460fb07cc63679ee54acac265f9c97f86a9f18668843d91dedcab2c7899b505",
+ "rendered_checked": true,
+ "title": "Native Dry Shampoo | Cashmere & Rain | Native",
+ "url": "https://nativecos.com/products/dry-shampoo"
+}

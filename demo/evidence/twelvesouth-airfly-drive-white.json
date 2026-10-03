@@ -1,0 +1,66 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.twelvesouth.com/products/airfly-drive-white",
+ "http_status": 200,
+ "id": "twelvesouth-airfly-drive-white",
+ "image_file": "twelvesouth-airfly-drive-white.jpg",
+ "image_sha256": "8ae6dd4ebeb3a53a7b34040da5f9782c4b081426d39a0f686e965385aae0126a",
+ "image_source": "http://www.twelvesouth.com/cdn/shop/files/airfly-drive-silver-gallery-1_ec5ead11-755a-49aa-a3ed-9aa2e160bd20.jpg?v=1790783503&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/airfly-drive-white#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Twelve South"
+   },
+   "description": "AirFly Drive expands the AirFly family, bringing wireless audio freedom to your CarPlay or Android Auto-enabled vehicle. Plug in, pair once, and your iPhone or Android device connects wirelessly to your car seconds after you start your vehicle. AirFly Drive removes the need to find your cable and plug in every time you get into your vehicle, making driving more seamless. Access your favorite music, podcasts, maps for navigation, and more \u2013 all while your phone stays in your bag.\u00a0\n\n\n\n\nWireless Apple CarPlay and Android Auto on the car's built-in display.\u00a0 \n\n\nPlug-and-play setup with no app, account, or charging required. \u00a0\n\n\nFast automatic reconnection every time the car starts. \u00a0\n\n\nOne-press\u00a0switching between two paired phones.\u00a0 \n\n\nCompact aluminum housing designed to stay plugged in. \u00a0\n\nUSB-A and USB-C support, with a USB-A to USB-C adapter included.\nWorks with the car's existing display, buttons, and steering-wheel controls.\u00a0",
+   "image": "https://www.twelvesouth.com/cdn/shop/files/airfly-drive-silver-gallery-1_ec5ead11-755a-49aa-a3ed-9aa2e160bd20_450x450.jpg?v=1790783503",
+   "mpn": "8440262099001",
+   "name": "Airfly Drive (White)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Twelve South"
+    }
+   },
+   "url": "/products/airfly-drive-white"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/airfly-drive-white#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Twelve South"
+   },
+   "category": "Audio Transmitters",
+   "description": "AirFly Drive expands the AirFly family, bringing wireless audio freedom to your CarPlay or Android Auto-enabled vehicle. Plug in, pair once, and your iPhone or Android device connects wirelessly to your car seconds after you start your vehicle. AirFly Drive removes the need to find your cable and plug in every time you get into your vehicle, making driving more seamless. Access your favorite music, podcasts, maps for navigation, and more \u2013 all while your phone stays in your bag.\u00a0\n\n\n\n\nWireless Apple CarPlay and Android Auto on the car's built-in display.\u00a0 \n\n\nPlug-and-play setup with no app, account, or charging required. \u00a0\n\n\nFast automatic reconnection every time the car starts. \u00a0\n\n\nOne-press\u00a0switching between two paired phones.\u00a0 \n\n\nCompact aluminum housing designed to stay plugged in. \u00a0\n\nUSB-A and USB-C support, with a USB-A to USB-C adapter included.\nWorks with the car's existing display, buttons, and steering-wheel controls.\u00a0\n\n\n\n",
+   "gtin": "20810189131594",
+   "image": "https://www.twelvesouth.com/cdn/shop/files/airfly-drive-silver-gallery-1_ec5ead11-755a-49aa-a3ed-9aa2e160bd20.jpg?v=1790783503&width=1920",
+   "name": "Airfly Drive (White)",
+   "offers": {
+    "@id": "/products/airfly-drive-white?variant=46486270410809#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.twelvesouth.com/products/airfly-drive-white?variant=46486270410809"
+   },
+   "sku": "TS-26113",
+   "url": "https://www.twelvesouth.com/products/airfly-drive-white"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T15:09:40Z",
+ "og_image": "http://www.twelvesouth.com/cdn/shop/files/airfly-drive-silver-gallery-1_ec5ead11-755a-49aa-a3ed-9aa2e160bd20.jpg?v=1790783503",
+ "page_sha256": "1542dac658577597a61cc6b8318b6375b1507bc84fc1f956ec4c4851a5af1aab",
+ "rendered_checked": true,
+ "title": "AirFly Drive White | Wireless CarPlay Adapter",
+ "url": "https://twelvesouth.com/products/airfly-drive-white"
+}

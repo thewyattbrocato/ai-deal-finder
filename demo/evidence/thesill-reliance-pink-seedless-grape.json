@@ -1,0 +1,129 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.thesill.com/products/reliance-pink-seedless-grape",
+ "http_status": 200,
+ "id": "thesill-reliance-pink-seedless-grape",
+ "image_file": "thesill-reliance-pink-seedless-grape.jpg",
+ "image_sha256": "1d21bea690be0e6a7856f45c7e09ed4bda13c387a42fd6de4d9e57ff27fa6f94",
+ "image_source": "http://www.thesill.com/cdn/shop/files/iStock-1346309664.jpg?v=1790258085&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "The Sill"
+   },
+   "description": "Sweet, Seedless Pink Grapes From a Vine That Shrugs Off WinterReliance produces rosy-pink, seedless grapes that are big, plump, and sugary sweet, with tender skin and a melting texture backed by a mild fruity flavor. Clusters ripen in late August, and a mature vine can carry 40 to 50 clusters in a single season.This is one of the easiest table grapes a home gardener can grow. The vines are extremely cold hardy and will take sub-zero temperatures, and their strong resistance to mildews and anthracnose means you are not stuck on a constant spray schedule. Give it full sun, acidic soil, and something sturdy to climb, whether that is an arbor, a fence, or a backyard trellis.Why You&#39;ll Love the Reliance Pink Seedless GrapeSeedless, sugary-sweet pink grapes with tender skin and a melting textureHeavy producer: 40 to 50 clusters per established vine, ripening in late AugustCold hardy down through Zone 4 and tolerant of sub-zero winter temperaturesHighly disease resistant to mildews and anthracnose, so it needs far less sprayingVigorous growth makes quick work of covering an arbor, fence, or trellisPlant one this season and turn a sunny fence line into your own backyard grape harvest.",
+   "image": [
+    "https://www.thesill.com/cdn/shop/files/iStock-1346309664.jpg?v=1790258085&width=1200"
+   ],
+   "name": "Reliance Pink Seedless Grape",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "url": "https://www.thesill.com/pages/shipping-and-handling"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "2 Gallon",
+     "price": "89.00",
+     "priceCurrency": "USD",
+     "priceSpecification": [
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "89.00",
+       "priceCurrency": "USD"
+      },
+      {
+       "@type": "UnitPriceSpecification",
+       "price": "109.00",
+       "priceCurrency": "USD",
+       "priceType": "https://schema.org/StrikethroughPrice"
+      }
+     ],
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": [
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "freeShippingThreshold": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "99.00"
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 4,
+         "minValue": 1,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "19.00"
+       }
+      }
+     ],
+     "sku": "EDB-GRA-REL-NA-2G",
+     "url": "https://www.thesill.com/products/reliance-pink-seedless-grape?variant=50413918290025"
+    }
+   ],
+   "sku": "EDB-GRA-REL-NA-2G",
+   "url": "https://www.thesill.com/products/reliance-pink-seedless-grape"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T15:10:08Z",
+ "og_image": "http://www.thesill.com/cdn/shop/files/iStock-1346309664.jpg?v=1790258085",
+ "page_sha256": "b8209703c4fb9cc195c9b9a29a0e5d61c260e1d486ddf8ab2c424d5bd02bb1d9",
+ "rendered_checked": true,
+ "title": "Reliance Pink Seedless Grape \u2013 The Sill",
+ "url": "https://thesill.com/products/reliance-pink-seedless-grape"
+}

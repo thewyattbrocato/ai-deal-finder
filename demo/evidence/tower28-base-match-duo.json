@@ -1,0 +1,41 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.tower28beauty.com/products/base-match-duo",
+ "http_status": 200,
+ "id": "tower28-base-match-duo",
+ "image_file": "tower28-base-match-duo.jpg",
+ "image_sha256": "75aefdd76f43a71b6fa567b405f77c23c87f3161ecd83e8073473cf89b6f2ad5",
+ "image_source": "http://www.tower28beauty.com/cdn/shop/files/LipSoftieBundle_9.jpg?v=1788186474&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Tower 28 Beauty"
+   },
+   "description": "Our cult-favorite, sensitive-skin-friendly Swipe Serum Foundation\u00ae glides on like serum and blurs like a filter \u2014 and now it's paired with the brush built to make it disappear into skin. Get the flawless swipe-on coverage you want and the perfect-match brush you need \u2014 your full-size Swipe Serum Foundation\u00ae favorite, better together",
+   "image": [
+    "https://www.tower28beauty.com/cdn/shop/files/LipSoftieBundle_9.jpg?v=1788186474&width=1920"
+   ],
+   "name": "Base Match Duo",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 64.0,
+     "priceCurrency": "USD",
+     "url": "https://www.tower28beauty.com/products/base-match-duo?variant=42401640185911"
+    }
+   ],
+   "url": "https://www.tower28beauty.com/products/base-match-duo"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T15:08:58Z",
+ "og_image": "http://www.tower28beauty.com/cdn/shop/files/LipSoftieBundle_9.jpg?v=1788186474",
+ "page_sha256": "5922e6636215e9ada14762caa1f7114766cfd618661790c2d8bc0521f5f357d3",
+ "rendered_checked": true,
+ "title": "Tower 28 Base Match Duo \u2013 Tower 28 Beauty",
+ "url": "https://tower28beauty.com/products/base-match-duo"
+}

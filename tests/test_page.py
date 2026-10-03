@@ -425,8 +425,8 @@ const emptyAnswers = d => {
 out.emptyAnswers = fresh(emptyAnswers);
 out.emptyAnswersDrop = fresh(d => { emptyAnswers(d); clickAction(d, "Drop “Which coupons"); });
 out.emptyAnswersReset = fresh(d => { emptyAnswers(d); clickAction(d, "Reset all answers"); });
-out.emptySearch = fresh(d => { setQuery(d, "blend"); });
-out.emptySearchClear = fresh(d => { setQuery(d, "blend"); clickAction(d, "Clear the search"); });
+out.emptySearch = fresh(d => { setQuery(d, "zzyzx"); });
+out.emptySearchClear = fresh(d => { setQuery(d, "zzyzx"); clickAction(d, "Clear the search"); });
 out.emptyExact = fresh(d => { clickId(d, "mode-exact"); setQuery(d, "honest"); });
 out.emptyExactSwitch = fresh(d => {
   clickId(d, "mode-exact"); setQuery(d, "honest"); clickAction(d, "Switch to Kind of thing");
@@ -917,7 +917,7 @@ class QuietPageTest(unittest.TestCase):
         self.assertTrue(reset["status"].startswith("No answers set."))
         none = d["emptySearch"]
         self.assertEqual(none["visible"], [])
-        self.assertIn("No checked page matches “blend”", none["emptyText"])
+        self.assertIn("No checked page matches “zzyzx”", none["emptyText"])
         self.assertIn("nothing is invented", none["emptyText"])
         self.assertEqual(len(none["emptyActions"]), 1)
         self.assertTrue(none["emptyActions"][0].startswith("Clear the search — show all "))
@@ -963,7 +963,7 @@ class QuietPageTest(unittest.TestCase):
                 self.assertIn("No coupon printed on the page .", text)
                 self.assertNotIn("Not applied", text)
                 self.assertNotIn("whether the code works", text)
-        self.assertEqual(with_coupon, 15)  # 9 + the 6 Untuckit pages that print NOIRON
+        self.assertEqual(with_coupon, 19)  # 9 + 6 Untuckit (NOIRON) + 4 Open Farm first-Autoship code
 
     def test_a_seen_code_is_never_shown_as_a_lower_price(self):
         for c in self.cards():
