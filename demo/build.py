@@ -332,26 +332,47 @@ DECISION_BADGE = {
 }
 
 
-def coupon_seen_block(code, offer, page_host, region, observed_at, caveat):
-    return (
-        '<div class="alert alert-success mb-3" style="min-width:0"><div style="min-width:0">'
-        '<div class="font-bold mb-1">Coupon on this page</div>'
-        '<p class="mb-1"><span class="font-mono font-bold text-lg">'
-        + esc(code) + "</span> \u2014 " + esc(offer) + "</p>"
-        '<p class="text-sm opacity-80">Seen on ' + esc(page_host)
-        + ", " + esc(region) + ", " + esc(observed_at) + ". " + esc(caveat)
-        + "</p></div></div>"
-    )
+def savings_block(item):
+    """Shelf price, the page-printed coupon (never applied), and what is unknown.
 
-
-def coupon_none_block(page_host, region, observed_at):
+    Every fact is read from the stored page evidence; the coupon is quoted in
+    the page's own words and never turned into a lower price.
+    """
+    t = item.get("terms") or {}
+    rows = ['<li><span class="font-semibold">Shelf price:</span> '
+            '<span data-shelf-line>' + esc(item["price_label"])
+            + ' as printed on the page</span></li>']
+    unknown = ["tax"]
+    if not t.get("ship"):
+        unknown.append("shipping cost")
+    cp = item["coupon"]
+    if cp is None:
+        rows.append(
+            '<li><span class="font-semibold">No coupon on this page:</span> '
+            "no coupon code was visible when this page was checked ("
+            + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
+            + esc(item["observed_at"]) + ").</li>")
+    else:
+        offer = cp["offer"].rstrip(".")
+        if not offer.startswith("\u201c"):
+            offer = "\u201c" + offer + "\u201d"
+        rows.append(
+            '<li><span class="font-semibold">Coupon on this page:</span> '
+            '<span class="font-mono font-bold">' + esc(cp["code"])
+            + "</span> \u2014 the page says " + esc(offer)
+            + ". Conditions: only as that wording states them. Seen on "
+            + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
+            + esc(item["observed_at"]) + ". <strong>Not applied:</strong> "
+            + esc(cp["caveat"]) + "</li>")
+        unknown.append("whether the code works at checkout and what it would "
+                       "take off this item")
+    rows.append('<li><span class="font-semibold">Not known:</span> '
+                + esc("; ".join(unknown)) + ".</li>")
     return (
-        '<div class="alert mb-3" style="min-width:0"><div style="min-width:0">'
-        '<div class="font-bold mb-1">No coupon on this page</div>'
-        '<p class="text-sm opacity-80">No coupon code was visible when this '
-        "page was checked (" + esc(page_host) + ", " + esc(region) + ", "
-        + esc(observed_at) + ").</p></div></div>"
-    )
+        '<div class="savings-box" data-savings>'
+        '<p class="text-sm font-semibold mb-1">Price and coupon, plainly</p>'
+        '<ul class="text-sm" style="list-style:none;margin:0;padding:0">'
+        + "".join(rows) + "</ul></div>")
 
 
 def product_card(item, decision, coupon_html):
@@ -490,15 +511,7 @@ def terms_block(item):
 
 
 def card_for(item):
-    if item["coupon"] is None:
-        coupon_html = coupon_none_block(item["page_host"], item["region"],
-                                        item["observed_at"])
-    else:
-        coupon_html = coupon_seen_block(
-            item["coupon"]["code"], item["coupon"]["offer"],
-            item["page_host"], item["region"], item["observed_at"],
-            item["coupon"]["caveat"])
-    return product_card(item, item["decision"], coupon_html)
+    return product_card(item, item["decision"], savings_block(item))
 
 
 def item_dict(key, name, detail, seller, kind, image, price_cents,
@@ -830,6 +843,8 @@ def build():
   .guide-q { border: 0; padding: 0; margin: 0; min-width: 0; }
   .guide-best { border-left: 4px solid currentColor; background: rgba(127,127,127,0.1); padding: 0.6rem 0.8rem; border-radius: 0.5rem; margin: 0.5rem 0; }
   .terms-box { border-top: 1px solid rgba(127,127,127,0.3); margin: 0.5rem 0; padding-top: 0.5rem; }
+  .savings-box { border: 1px solid rgba(127,127,127,0.35); border-radius: 0.5rem; margin: 0.5rem 0 0.75rem; padding: 0.6rem 0.8rem; }
+  .savings-box li { margin-bottom: 0.25rem; }
   .guide-why { border-left: 3px solid currentColor; padding-left: 0.6rem; }
   a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
@@ -853,14 +868,14 @@ def build():
 <button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
 </div>
 <section id="guide" class="border border-base-300 rounded-lg bg-base-100 p-3 mb-3" aria-label="Optional guide" style="min-width:0">
-<div class="flex flex-wrap items-baseline justify-between gap-2 mb-3"><p class="text-sm font-semibold">Guide (optional) \u2014 it asks only what these results' pages state; answer any, in any order, and change them anytime</p><button id="guide-reset" class="btn btn-sm guide-btn" type="button">Reset \u2014 show everything</button></div>
+<div class="flex flex-wrap items-baseline justify-between gap-2 mb-3"><p class="text-sm font-semibold">Guide (optional) \u2014 it asks only what would change these results, biggest narrowing first. The number beside an answer is how many results it would leave; an answer that would leave nothing is not offered. Answer any, in any order, and change them anytime.</p><button id="guide-reset" class="btn btn-sm guide-btn" type="button">Reset \u2014 show everything</button></div>
 <div id="guide-dyn"></div>
 <div id="guide-best" class="guide-best" style="display:none"><p class="eyebrow mb-1">Best under your answers</p><p id="guide-best-text" class="text-sm"></p></div>
 <p id="guide-status" class="text-sm font-semibold" role="status" aria-live="polite"></p>
 <details id="hidden-by" class="text-sm mt-1" style="display:none"><summary class="cursor-pointer">Hidden by your answers</summary><ul id="hidden-list" class="list-disc ml-6 mt-1"></ul></details>
 </section>
 <p class="text-sm opacity-80 mb-2">""" + coffee_note + """</p>
-<p id="no-match" class="alert mb-4" style="display:none">Nothing here matches — only the checked pages below exist, and nothing is invented.</p>
+<div id="no-match" class="alert mb-4" style="display:none" role="status"><div style="min-width:0"><p id="no-match-text" class="font-semibold"></p><div id="no-match-actions" class="flex flex-wrap gap-2 mt-2"></div></div></div>
 </header>
 <section id="all-checked" class="mb-8">
 <hr class="section-rule">
@@ -927,7 +942,11 @@ const bestBox = document.getElementById("guide-best");
 const bestText = document.getElementById("guide-best-text");
 let spec = [];
 let specSig = "";
+let renderSig = "";
 let controls = [];
+const noMatchText = document.getElementById("no-match-text");
+const noMatchActions = document.getElementById("no-match-actions");
+const shelfLine = new Map(cards.map(c => [c, c.querySelectorAll("[data-shelf-line]")[0].textContent]));
 
 function mk(tag, cls, text) {
   const e = document.createElement(tag);
@@ -956,99 +975,148 @@ function buildSpec(searched) {
     const o = [["", "Anything"]];
     if (has(c => c.getAttribute("data-kind") !== "Coffee")) o.push(["any-coffee", "Any coffee"]);
     o.push(["whole-bean", "Whole bean"]);
-    out.push({ id: "form", sec: "buying", legend: "What kind?", type: "radio", opts: o });
+    out.push({ id: "form", legend: "What kind?", type: "radio", opts: o });
   }
   if (coffeeCards.length) {
-    const o = [["", "Any size"]].concat(sizeOptions(searched, "coffee").map(s => [s.k, s.k + " (" + s.n + ")"]));
-    out.push({ id: "coffee_size", sec: "buying", legend: "Coffee bag size", type: "radio", opts: o,
+    const o = [["", "Any size"]].concat(sizeOptions(searched, "coffee").map(s => [s.k, s.k]));
+    out.push({ id: "coffee_size", reprices: true, legend: "Coffee bag size", type: "radio", opts: o,
       help: "A cheaper 12 oz bag is not the same purchase as a 2 lb or 5 lb bag. Sizes and their prices come only from each product's own page; counts show how many list that size." });
   }
   for (const [g, id, legend] of [["shoe", "shoe_size", "Shoe size"], ["clothing", "clothing_size", "Clothing size"]]) {
     const opts = sizeOptions(searched, g);
     if (opts.length) {
-      out.push({ id: id, sec: "buying", legend: legend, type: "select",
-        opts: [["", "Any size"]].concat(opts.map(s => [s.k, s.k + " (" + s.n + ")"])),
+      out.push({ id: id, legend: legend, type: "select",
+        opts: [["", "Any size"]].concat(opts.map(s => [s.k, s.k])),
         help: "Only sizes a product's own page listed. A product that does not list your size is hidden, not guessed." });
     }
   }
   if (has(c => T.get(c).sb)) {
-    out.push({ id: "purchase", sec: "deal", legend: "How you would buy", type: "radio",
+    out.push({ id: "purchase", reprices: true, legend: "How you would buy", type: "radio",
       opts: [["any", "Either way"], ["subscribe", "Subscribe (price the page printed)"]],
       help: "Subscribe only counts where the page stated a subscribe option; a printed percent without a price is listed but not ranked." });
   }
   if (has(c => T.get(c).sh)) {
-    out.push({ id: "shipping", sec: "deal", legend: "Shipping", type: "radio",
+    out.push({ id: "shipping", legend: "Shipping", type: "radio",
       opts: [["any", "Any"], ["free", "Free shipping stated for this purchase"]],
       help: "Counts only where the page stated free shipping and this price qualifies; membership-only offers do not count. Silent pages are unknown." });
   }
   if (has(c => c.getAttribute("data-quality"))) {
-    out.push({ id: "prefer", sec: "order", legend: "What matters most?", type: "radio",
+    out.push({ id: "prefer", reorder: true, legend: "What matters most?", type: "radio",
       opts: [["price", "Lowest price first"], ["specialty", "Specialty-roaster quality first"]],
-      help: "Specialty roasters lead only where the page states small-batch, direct-trade or similar; the other items follow in the same list, still ordered by shelf price." });
+      help: "Only changes the order, never removes anything. Specialty roasters lead only where the page states small-batch, direct-trade or similar; the other items follow in the same list, still ordered by shelf price." });
   }
   if (has(c => c.getAttribute("data-coupon") === "yes")) {
-    out.push({ id: "coupon", sec: "order", legend: "Which coupons?", type: "radio",
+    out.push({ id: "coupon", legend: "Which coupons?", type: "radio",
       opts: [["all", "Show all"], ["yes", "Only with a printed coupon"]],
       help: "A printed coupon is a code that product's own page showed. It is never tried and never a lower price — prices stay shelf prices." });
   }
   return out;
 }
-const SECTIONS = { buying: "What you are buying", deal: "Conditions of the deal", order: "Order and coupons" };
-function renderSpec() {
+function countUnder(searched, over) {
+  const p = Object.assign({}, pick, over || {});
+  let n = 0;
+  for (const c of searched) if (!view(c, p).reasons.length) n += 1;
+  return exact ? Math.min(n, 1) : n;
+}
+function orderFor(visible, prefer) {
+  if (exact) return visible.slice(0, 1);
+  if (prefer === "specialty") {
+    const lead = visible.filter(c => c.getAttribute("data-quality") === "independent-roastery");
+    return lead.concat(visible.filter(c => !lead.includes(c)));
+  }
+  return visible;
+}
+// Which questions are worth asking now, and how much each answer would leave.
+function guideModel(searched, visible) {
+  const out = [];
+  spec.forEach((s, idx) => {
+    const m = { s: s, idx: idx, counts: null, show: false, score: 0 };
+    if (s.reorder) {
+      const a = orderFor(visible, "price").slice(0, PAGE);
+      const b = orderFor(visible, "specialty").slice(0, PAGE);
+      m.show = pick[s.id] !== DEFAULTS[s.id] || a.some((c, i) => c !== b[i]);
+    } else {
+      const dflt = DEFAULTS[s.id];
+      m.counts = s.opts.map(o => countUnder(searched, { [s.id]: o[0] }));
+      const base = m.counts[s.opts.findIndex(o => o[0] === dflt)];
+      let least = null;
+      s.opts.forEach((o, i) => {
+        const n = m.counts[i];
+        if (o[0] !== dflt && n > 0 && (n < base || s.reprices)) least = least === null ? n : Math.min(least, n);
+      });
+      m.show = pick[s.id] !== dflt || least !== null;
+      m.score = least === null ? 0 : Math.max(0, base - least);
+    }
+    out.push(m);
+  });
+  return out.filter(m => m.show).sort((a, b) => (b.score - a.score) || (a.idx - b.idx));
+}
+function renderGuide(model) {
+  const sig = JSON.stringify(model.map(m => [m.s.id, m.counts, pick[m.s.id], m.s.opts]));
+  if (sig === renderSig) return;
+  renderSig = sig;
+  const ae = document.activeElement;
+  const had = ae && ae.getAttribute && ae.getAttribute("data-guide-key")
+    ? [ae.getAttribute("data-guide-key"), ae.getAttribute("value")] : null;
   guideDyn.innerHTML = "";
   controls = [];
-  if (!spec.length) {
-    guideDyn.appendChild(mk("p", "text-sm opacity-70", "Nothing to narrow for these results — the guide only asks what their pages state."));
+  if (!model.length) {
+    guideDyn.appendChild(mk("p", "text-sm opacity-70", "Nothing to narrow for these results — no answer would change the list. The guide only asks what their pages state."));
     return;
   }
-  for (const sec of ["buying", "deal", "order"]) {
-    const qs = spec.filter(s => s.sec === sec);
-    if (!qs.length) continue;
-    const wrap = mk("div", "guide-sec");
-    wrap.appendChild(mk("p", "guide-sec-title", SECTIONS[sec]));
-    const grid = mk("div", "guide-grid");
-    for (const s of qs) {
-      const fs = mk("fieldset", "guide-q");
-      fs.appendChild(mk("legend", "text-sm font-semibold mb-1", s.legend));
-      if (s.type === "select") {
-        const sel = mk("select", "select select-bordered select-sm w-full");
-        sel.setAttribute("aria-label", s.legend);
-        sel.setAttribute("data-guide-key", s.id);
-        for (const [v, l] of s.opts) {
-          const o = mk("option", "", l);
-          o.setAttribute("value", v);
-          sel.appendChild(o);
-        }
-        sel.addEventListener("change", () => { pick[s.id] = sel.value; limit = PAGE; filter(); });
-        fs.appendChild(sel);
-        controls.push({ id: s.id, sel: sel });
-      } else {
-        const row = mk("div", "flex flex-wrap gap-2");
-        for (const [v, l] of s.opts) {
-          const lab = mk("label", "guide-opt");
-          const inp = mk("input");
-          inp.setAttribute("type", "radio");
-          inp.setAttribute("name", "guide-" + s.id);
-          inp.setAttribute("value", v);
-          inp.setAttribute("data-guide-key", s.id);
-          inp.addEventListener("change", () => {
-            if (!inp.checked) return;
-            pick[s.id] = v;
-            limit = PAGE;
-            filter();
-          });
-          lab.appendChild(inp);
-          lab.appendChild(mk("span", "", l));
-          row.appendChild(lab);
-          controls.push({ id: s.id, inp: inp, v: v });
-        }
-        fs.appendChild(row);
-      }
-      if (s.help) fs.appendChild(mk("p", "text-xs opacity-70 mt-1", s.help));
-      grid.appendChild(fs);
+  const grid = mk("div", "guide-grid");
+  for (const m of model) {
+    const s = m.s;
+    const fs = mk("fieldset", "guide-q");
+    fs.appendChild(mk("legend", "text-sm font-semibold mb-1", s.legend));
+    const text = (o, i) => m.counts ? o[1] + " (" + m.counts[i] + ")" : o[1];
+    // an answer that would leave nothing is not offered (unless it is the current one)
+    const gone = (o, i) => m.counts && m.counts[i] === 0 && pick[s.id] !== o[0];
+    if (s.type === "select") {
+      const sel = mk("select", "select select-bordered select-sm w-full");
+      sel.setAttribute("aria-label", s.legend);
+      sel.setAttribute("data-guide-key", s.id);
+      s.opts.forEach((o, i) => {
+        if (gone(o, i)) return;
+        const opt = mk("option", "", text(o, i));
+        opt.setAttribute("value", o[0]);
+        sel.appendChild(opt);
+      });
+      sel.addEventListener("change", () => { pick[s.id] = sel.value; limit = PAGE; filter(); });
+      fs.appendChild(sel);
+      controls.push({ id: s.id, sel: sel });
+    } else {
+      const row = mk("div", "flex flex-wrap gap-2");
+      s.opts.forEach((o, i) => {
+        if (gone(o, i)) return;
+        const lab = mk("label", "guide-opt");
+        const inp = mk("input");
+        inp.setAttribute("type", "radio");
+        inp.setAttribute("name", "guide-" + s.id);
+        inp.setAttribute("value", o[0]);
+        inp.setAttribute("data-guide-key", s.id);
+        inp.addEventListener("change", () => {
+          if (!inp.checked) return;
+          pick[s.id] = o[0];
+          limit = PAGE;
+          filter();
+        });
+        lab.appendChild(inp);
+        lab.appendChild(mk("span", "", text(o, i)));
+        row.appendChild(lab);
+        controls.push({ id: s.id, inp: inp, v: o[0] });
+      });
+      fs.appendChild(row);
     }
-    wrap.appendChild(grid);
-    guideDyn.appendChild(wrap);
+    if (s.help) fs.appendChild(mk("p", "text-xs opacity-70 mt-1", s.help));
+    grid.appendChild(fs);
+  }
+  guideDyn.appendChild(grid);
+  syncControls();
+  if (had) {
+    const back = controls.find(c => c.id === had[0] && (c.sel || c.v === had[1]));
+    const el = back && (back.sel || back.inp);
+    if (el && el.focus) el.focus();
   }
 }
 function syncControls() {
@@ -1072,9 +1140,49 @@ function updateSpec(searched) {
       const s = spec.find(x => x.id === key);
       if (!s || !s.opts.some(o => o[0] === pick[key])) pick[key] = DEFAULTS[key];
     }
-    renderSpec();
   }
-  syncControls();
+}
+// Nothing matches: say why and offer the way back, with what each step would restore.
+function renderEmpty(searched) {
+  noMatchActions.innerHTML = "";
+  const add = (label, fn) => {
+    const b = mk("button", "btn btn-sm", label);
+    b.setAttribute("type", "button");
+    b.addEventListener("click", fn);
+    noMatchActions.appendChild(b);
+  };
+  const active = spec.filter(s => !s.reorder && pick[s.id] !== DEFAULTS[s.id]);
+  if (active.length) {
+    noMatchText.textContent = "No checked page fits all of your answers. Take one back to see more:";
+    for (const s of active) {
+      const n = countUnder(searched, { [s.id]: DEFAULTS[s.id] });
+      if (n > 0) add("Drop “" + s.legend.replace("?", "") + ": " + labelOf(s.id, pick[s.id]) + "” — " + n + " would match", () => {
+        pick[s.id] = DEFAULTS[s.id];
+        limit = PAGE;
+        filter();
+      });
+    }
+    const all = {};
+    for (const s of active) all[s.id] = DEFAULTS[s.id];
+    const total = countUnder(searched, all);
+    if (active.length > 1 || total === 0) {
+      add("Reset all answers — " + total + " would match", () => {
+        Object.assign(pick, DEFAULTS);
+        limit = PAGE;
+        filter();
+      });
+    }
+    return;
+  }
+  const words = q.value.trim();
+  noMatchText.textContent = "No checked page matches “" + words + "”" + (exact ? " as one named product" : "")
+    + ". Only the checked pages exist and nothing is invented — try fewer or different words.";
+  if (words) add("Clear the search — show all " + cards.length + " checked products", () => {
+    q.value = "";
+    limit = PAGE;
+    filter();
+  });
+  if (exact) add("Switch to Kind of thing — similar checked products", () => setMode(true, true));
 }
 document.getElementById("guide-reset").addEventListener("click", () => {
   Object.assign(pick, DEFAULTS);
@@ -1084,29 +1192,29 @@ document.getElementById("guide-reset").addEventListener("click", () => {
 });
 
 // ---- one product under the current answers: only page-stated facts
-function view(c) {
+function view(c, p) {
   const t = T.get(c);
   const price = parseInt(c.getAttribute("data-price"), 10);
   const v = { shelf: price, size: null, sub: null, subPct: null, reasons: [], resized: false, rank: null, subNote: "" };
   let sz = null;
   if (t.g === "coffee") {
-    sz = pick.coffee_size ? t.z.find(s => s.k === pick.coffee_size) : (t.z.find(s => s.d) || t.z[0]);
-    if (sz) { v.size = sz.k; v.shelf = sz.c; v.sub = sz.s; v.subPct = sz.sp; v.resized = !!pick.coffee_size; }
+    sz = p.coffee_size ? t.z.find(s => s.k === p.coffee_size) : (t.z.find(s => s.d) || t.z[0]);
+    if (sz) { v.size = sz.k; v.shelf = sz.c; v.sub = sz.s; v.subPct = sz.sp; v.resized = !!p.coffee_size; }
   }
-  if (pick.coffee_size && !sz) v.reasons.push("its page does not list a " + pick.coffee_size + " bag (answer: Coffee bag size)");
+  if (p.coffee_size && !sz) v.reasons.push("its page does not list a " + p.coffee_size + " bag (answer: Coffee bag size)");
   for (const [id, g, nm] of [["shoe_size", "shoe", "Shoe size"], ["clothing_size", "clothing", "Clothing size"]]) {
-    if (!pick[id]) continue;
-    const s = t.g === g ? t.z.find(x => x.k === pick[id]) : null;
-    if (!s) v.reasons.push("its page does not list size " + pick[id] + " (answer: " + nm + ")");
-    else if (s.ok === false) v.reasons.push("its page lists size " + pick[id] + " but it was not shown in stock when checked (answer: " + nm + ")");
+    if (!p[id]) continue;
+    const s = t.g === g ? t.z.find(x => x.k === p[id]) : null;
+    if (!s) v.reasons.push("its page does not list size " + p[id] + " (answer: " + nm + ")");
+    else if (s.ok === false) v.reasons.push("its page lists size " + p[id] + " but it was not shown in stock when checked (answer: " + nm + ")");
     else v.size = s.k;
   }
-  if (pick.purchase === "subscribe") {
+  if (p.purchase === "subscribe") {
     if (!t.sb) v.reasons.push("its page did not state a subscribe option (answer: Subscribe)");
     else if (v.sub === null) v.subNote = "Subscribe offered, but the page printed no subscribe price" + (v.subPct ? " (" + v.subPct + "% stated)" : "");
   }
-  const paid = pick.purchase === "subscribe" && v.sub !== null ? v.sub : v.shelf;
-  if (pick.shipping === "free") {
+  const paid = p.purchase === "subscribe" && v.sub !== null ? v.sub : v.shelf;
+  if (p.shipping === "free") {
     const sh = t.sh;
     if (!sh) v.reasons.push("its page did not state shipping, so free shipping is unknown (answer: Shipping)");
     else if (sh.k === "free") { /* stated free */ }
@@ -1115,11 +1223,11 @@ function view(c) {
       if (paid < sh.over) v.reasons.push("free shipping starts at " + fmt(sh.over) + " and this price is " + fmt(paid) + "; what it costs below that is not stated (answer: Shipping)");
     } else v.reasons.push("its page states a shipping charge, not free shipping (answer: Shipping)");
   }
-  if (pick.coupon === "yes" && c.getAttribute("data-coupon") !== "yes") v.reasons.push("no coupon code was printed on its own page (answer: Only with a printed coupon)");
-  const f = pick.form;
+  if (p.coupon === "yes" && c.getAttribute("data-coupon") !== "yes") v.reasons.push("no coupon code was printed on its own page (answer: Only with a printed coupon)");
+  const f = p.form;
   if (f === "any-coffee" && c.getAttribute("data-kind") !== "Coffee") v.reasons.push("it is not coffee (answer: Any coffee)");
   if (f === "whole-bean" && c.getAttribute("data-form") !== "whole-bean") v.reasons.push("its page does not mark it whole bean (answer: Whole bean)");
-  v.rank = pick.purchase === "subscribe" ? v.sub : v.shelf;
+  v.rank = p.purchase === "subscribe" ? v.sub : v.shelf;
   return v;
 }
 function shipFact(c) {
@@ -1135,7 +1243,7 @@ function whyShown(c, v, rank, total, terms) {
   if (v.resized) out.push("its page lists the " + v.size + " bag at " + fmt(v.shelf));
   if (pick.shoe_size || pick.clothing_size) out.push("its page lists size " + v.size);
   if (pick.purchase === "subscribe" && v.sub !== null) out.push("its page printed a subscribe price of " + fmt(v.sub) + " (shelf price " + fmt(v.shelf) + ")");
-  if (pick.shipping === "free") out.push("shipping: " + shipFact(c));
+  if (pick.shipping === "free") out.push("its page states its shipping as " + shipFact(c));
   if (pick.coupon === "yes") {
     out.push("its own page printed " + c.getAttribute("data-coupon-code")
       + " (seen, never tried — the price is still the shelf price)");
@@ -1147,15 +1255,15 @@ function whyShown(c, v, rank, total, terms) {
   if (!exact && total > 1 && pick.prefer === "price" && v.rank !== null) {
     out.push((T.get(c).g === "coffee" && v.size ? v.size + " bag, " : "") + (pick.purchase === "subscribe" ? "subscribe price " : "shelf price ") + fmt(v.rank) + ", " + (rank === 1 ? "lowest" : "#" + rank + " by price") + " of " + total + " shown");
   }
-  return out.join(" · ");
+  return out.length ? out.join("; ") : "it is one of the checked product pages";
 }
-function setMode(open) {
+function setMode(open, keepQuery) {
   exact = !open;
   limit = PAGE;
   openBtn.setAttribute("aria-pressed", open ? "true" : "false");
   exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
   modeText.textContent = open ? OPEN_TEXT : EXACT_TEXT;
-  q.value = open ? "coffee beans" : "super crema";
+  if (!keepQuery) q.value = open ? "coffee beans" : "super crema";
   filter();
 }
 function filter() {
@@ -1173,7 +1281,7 @@ function filter() {
   const visible = [];
   const hidden = [];
   for (const c of searched) {
-    const v = view(c);
+    const v = view(c, pick);
     views.set(c, v);
     if (v.reasons.length) hidden.push(c);
     else visible.push(c);
@@ -1184,15 +1292,11 @@ function filter() {
     if (x === null || y === null) return (x === null) - (y === null);
     return x - y;
   });
-  let shownSet = visible;
-  if (exact) {
-    // One named item: every term in its name, closest (shortest) name wins.
-    visible.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
-    shownSet = visible.slice(0, 1);
-  } else if (pick.prefer === "specialty") {
-    const lead = visible.filter(c => c.getAttribute("data-quality") === "independent-roastery");
-    shownSet = lead.concat(visible.filter(c => !lead.includes(c)));
-  }
+  // One named item: every term in its name, closest (shortest) name wins.
+  if (exact) visible.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
+  let shownSet = orderFor(visible, pick.prefer);
+  renderGuide(guideModel(searched, visible));
+  syncControls();
   for (const c of cards) {
     c.querySelectorAll("[data-why]")[0].style.display = "none";
     c.querySelectorAll("[data-sub-note]")[0].style.display = "none";
@@ -1214,10 +1318,14 @@ function filter() {
       sn.style.display = "";
     }
     const why = c.querySelectorAll("[data-why]")[0];
-    why.textContent = "Why it is here: " + whyShown(c, v, i + 1, shownSet.length, terms) + ".";
-    why.style.display = why.textContent === "Why it is here: ." ? "none" : "";
+    why.textContent = "Shown because " + whyShown(c, v, i + 1, shownSet.length, terms) + ".";
+    why.style.display = "";
+    c.querySelectorAll("[data-shelf-line]")[0].textContent = v.resized
+      ? fmt(v.shelf) + " for the " + v.size + " bag, as printed on the page" : shelfLine.get(c);
   });
   noMatch.style.display = shownSet.length ? "none" : "";
+  if (!shownSet.length) renderEmpty(searched);
+  else { noMatchText.textContent = ""; noMatchActions.innerHTML = ""; }
   moreBtn.style.display = total > shownSet.length ? "" : "none";
   document.getElementById("result-count").textContent = shownSet.length + " of " + total + " matches shown (" + cards.length + " products checked).";
 
