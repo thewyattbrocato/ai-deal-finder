@@ -126,6 +126,8 @@ $("morebtn").addEventListener("click", function () {
 $("browseall").addEventListener("click", function () { S.browse = true; limit = PAGE; commit(false); });
 
 // ---- suggestions (kinds, stores, products with their shelf price)
+var sgY = 0;  // page scroll when the list opened (or last followed a highlight)
+function pageY() { return window.pageYOffset || 0; }
 function hideSugg() {
   show(sugg, false);
   clear(sugg);
@@ -153,6 +155,7 @@ function showSuggestions() {
   });
   show(sugg, true);
   q.setAttribute("aria-expanded", "true");
+  sgY = pageY();
 }
 function setActive(i) {
   var els = sugg.querySelectorAll("[data-i]");
@@ -163,6 +166,7 @@ function setActive(i) {
   els[i].setAttribute("aria-selected", "true");
   q.setAttribute("aria-activedescendant", els[i].getAttribute("id"));
   if (els[i].scrollIntoView) els[i].scrollIntoView({ block: "nearest" });
+  sgY = pageY();  // following the highlight is not the shopper scrolling away
   sgActive = i;
 }
 function choose(i) {
@@ -204,6 +208,11 @@ document.addEventListener("click", function (e) {
   var t = e.target, inBox = false;
   while (t) { if (t === q || t === sugg) inBox = true; t = t.parent || t.parentNode; }
   if (!inBox) hideSugg();
+});
+// The list sits over the top results, and scrolling does not move it off them, so a shopper who scrolls to read the results gets them uncovered with no extra click or key.
+window.addEventListener("scroll", function () {
+  if (sugg.style.display === "none") return;
+  if (Math.abs(pageY() - sgY) > 24) hideSugg();
 });
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && popOpen) { popOpen = false; render(); focusChip("size"); }

@@ -182,6 +182,7 @@ function boot(opts) {
   const window = {
     addEventListener(type, fn) { (winListeners[type] = winListeners[type] || []).push(fn); },
     matchMedia: matchMedia,
+    pageYOffset: 0,
   };
   const context = vm.createContext({
     document: document, window: window, location: location, history: history, matchMedia: matchMedia,
@@ -194,6 +195,7 @@ function boot(opts) {
   for (const code of scripts) vm.runInContext(code, context);
   return {
     full: !!opts.full, document, location, history, log,
+    scrollTo(y) { window.pageYOffset = y; for (const fn of winListeners.scroll || []) fn({}); },
     back(hash) { location.hash = hash; for (const fn of winListeners.popstate || []) fn({}); },
   };
 }
@@ -455,6 +457,12 @@ out.clickSugg = fresh(p => {
   const rows = []; walk($(p, "sugg"), e => { if (e.attrs.role === "option") rows.push(e); });
   rows[0].dispatch("click");
 });
+// the list sits over the top results; scrolling to read them closes it, and arrows bring it back
+const gesture = (p, y) => { p.scrollTo(y); };
+out.scrollSmall = fresh(p => { type(p, "coffee"); gesture(p, 10); });
+out.scrollFar = fresh(p => { type(p, "coffee"); gesture(p, 300); });
+out.scrollThenArrow = fresh(p => { type(p, "coffee"); gesture(p, 300); key(p, "ArrowDown"); });
+out.scrollThenType = fresh(p => { type(p, "coffee"); gesture(p, 300); type(p, "coffee beans"); });
 out.clearButton = fresh(p => { type(p, "coffee"); clickId(p, "clearq"); });
 
 // the address bar: typing replaces, choices push, Back restores

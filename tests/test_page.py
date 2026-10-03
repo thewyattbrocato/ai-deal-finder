@@ -487,6 +487,18 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(s["hash"], "#store=Old%20Navy")
         self.assertTrue(d["kbOpen"]["sugg"]["items"][0]["text"].startswith("Coffee"))
 
+    def test_scrolling_the_page_closes_the_list_that_covers_the_results(self):
+        d = self.d
+        self.assertTrue(d["kbOpen"]["sugg"]["shown"])
+        self.assertTrue(d["scrollSmall"]["sugg"]["shown"])           # a nudge keeps it
+        self.assertFalse(d["scrollFar"]["sugg"]["shown"])
+        self.assertEqual(d["scrollFar"]["q"], "coffee")              # the words and results stay
+        self.assertEqual(names(d["scrollFar"]["main"]), names(d["kbOpen"]["main"]))
+        down = d["scrollThenArrow"]["sugg"]                          # arrows bring it back, no extra key
+        self.assertTrue(down["shown"])
+        self.assertTrue(down["items"][0]["selected"])
+        self.assertTrue(d["scrollThenType"]["sugg"]["shown"])        # typing opens it again
+
     def test_escape_closes_suggestions_then_clears_the_box_then_the_size_list(self):
         d = self.d
         self.assertFalse(d["kbEscape1"]["sugg"]["shown"])
