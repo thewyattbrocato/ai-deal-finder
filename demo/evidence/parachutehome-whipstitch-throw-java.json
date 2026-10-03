@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:04:51Z",
+  "read_at": "2026-10-03T21:28:18Z",
   "ship": [
    "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
    "Shipping + Returns",
@@ -19,6 +19,86 @@
  },
  "coupon_snippets": [],
  "final_url": "https://parachutehome.com/products/whipstitch-throw-java",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:04:51Z",
+    "ship": [
+     "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
+     "Shipping + Returns",
+     "Free Shipping & 60 Day Returns",
+     "Free Shipping",
+     "FREE U.S. SHIPPING"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "*By completing this form you are signing up to receive our emails and can unsubscribe at any time."
+    ],
+    "url": "https://parachutehome.com/products/whipstitch-throw-java"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://parachutehome.com/products/whipstitch-throw-java",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/whipstitch-throw-java#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Parachute Home"
+     },
+     "category": "Pillowcases & Shams",
+     "description": "A little contrast goes a long way. Soft, breathable cotton keeps this everyday layer beautifully uncomplicated, while contrast whipstitching around the edges brings an unexpected hit of color and handcrafted character. Easy to layer, easy to live with and just expressive enough to earn a permanent spot on the sofa.\n\u00a0",
+     "hasVariant": [
+      {
+       "@id": "/products/whipstitch-throw-java?variant=39754608443653#variant",
+       "@type": "Product",
+       "gtin": "840544400504",
+       "image": "https://parachutehome.com/cdn/shop/files/whipstitch-throw_java_main_1747_a7611dd1-6202-44de-a9f1-adc92e73de24.jpg?v=1790111814&width=1920",
+       "name": "Whipstitch Throw (Java) - One Size / Java",
+       "offers": {
+        "@id": "/products/whipstitch-throw-java?variant=39754608443653#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://parachutehome.com/products/whipstitch-throw-java?variant=39754608443653"
+       },
+       "sku": "THWWHPJVAONE"
+      }
+     ],
+     "name": "Whipstitch Throw (Java)",
+     "productGroupID": "6702757511429",
+     "url": "https://parachutehome.com/products/whipstitch-throw-java"
+    },
+    {
+     "@id": "/products/whipstitch-throw-java?variant=39754608443653#variant",
+     "@type": "Product",
+     "gtin": "840544400504",
+     "image": "https://parachutehome.com/cdn/shop/files/whipstitch-throw_java_main_1747_a7611dd1-6202-44de-a9f1-adc92e73de24.jpg?v=1790111814&width=1920",
+     "name": "Whipstitch Throw (Java) - One Size / Java",
+     "offers": {
+      "@id": "/products/whipstitch-throw-java?variant=39754608443653#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/whipstitch-throw-java?variant=39754608443653"
+     },
+     "sku": "THWWHPJVAONE"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:45Z",
+   "og_image": "http://parachutehome.com/cdn/shop/files/whipstitch-throw_java_main_1747_a7611dd1-6202-44de-a9f1-adc92e73de24.jpg?v=1790111814",
+   "page_sha256": "faabd268181c33011b69779477bb96822cbc8953099936c304ee83463d199d3c",
+   "rendered_checked": true,
+   "title": "Whipstitch Throw (Java) \u2013 Parachute Home"
+  }
+ ],
  "http_status": 200,
  "id": "parachutehome-whipstitch-throw-java",
  "image_file": "parachutehome-whipstitch-throw-java.jpg",
@@ -75,9 +155,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T19:58:45Z",
+ "observed_at": "2026-10-03T21:27:59Z",
  "og_image": "http://parachutehome.com/cdn/shop/files/whipstitch-throw_java_main_1747_a7611dd1-6202-44de-a9f1-adc92e73de24.jpg?v=1790111814",
- "page_sha256": "faabd268181c33011b69779477bb96822cbc8953099936c304ee83463d199d3c",
+ "page_sha256": "511651d3328dcdeca44d1d89c4dda0ffcc7e723fc22e920178e504297e22123a",
  "rendered_checked": true,
  "title": "Whipstitch Throw (Java) \u2013 Parachute Home",
  "url": "https://parachutehome.com/products/whipstitch-throw-java"

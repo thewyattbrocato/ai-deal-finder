@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:28:58Z",
+  "read_at": "2026-10-03T21:45:26Z",
   "ship": [
    "Shipping & Returns",
    "FREE STANDARD SHIPPING W/ $50 ORDER."
@@ -13,6 +13,67 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:28:58Z",
+    "ship": [
+     "Shipping & Returns",
+     "FREE STANDARD SHIPPING W/ $50 ORDER."
+    ],
+    "size": [],
+    "sub": [
+     "By entering your email address and clicking \u201cJoin Us\u201d you agree to receive marketing email messages from Rare Beauty at the email address provided. Unsubscribe at any time. View our Privacy Policy & Terms of Service."
+    ],
+    "url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Rare Beauty"
+     },
+     "description": "Now available in a jumbo size, this bestselling universal clear brow gel shapes, lifts, and sets hairs in place with a 12-hour waterproof, sweat-resistant hold that\u2019s never sticky or crunchy.\u00a0",
+     "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?v=1788988192&width=1024",
+     "mpn": "FGPHOL0024J1",
+     "name": "Jumbo Brow Harmony Flexible Lifting Gel",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "checkoutPageURLTemplate": "https://www.rarebeauty.com/cart/add?id=45392594206855&quantity=1",
+       "gtin12": "840122910371",
+       "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?v=1788988192&width=1024",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "FGPHOL0024J1",
+       "price": "28.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-03",
+       "seller": {
+        "@type": "Organization",
+        "name": "Rare Beauty"
+       },
+       "sku": "FGPHOL0024J1",
+       "url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo?variant=45392594206855"
+      }
+     ],
+     "sku": "FGPHOL0024J1",
+     "url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:12Z",
+   "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?format=pjpg&v=1788988192&width=1440",
+   "page_sha256": "df06a8b52479946e6b45e3f9c77bf3db5dad8a9273d69613ac31bb7b57bfffc7",
+   "rendered_checked": true,
+   "title": "Jumbo Brow Harmony Flexible Lifting Gel"
+  }
+ ],
  "http_status": 200,
  "id": "rarebeauty-brow-harmony-flexible-lifting-gel-jumbo",
  "image_file": "rarebeauty-brow-harmony-flexible-lifting-gel-jumbo.jpg",
@@ -56,9 +117,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T15:09:12Z",
+ "observed_at": "2026-10-03T21:45:11Z",
  "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?format=pjpg&v=1788988192&width=1440",
- "page_sha256": "df06a8b52479946e6b45e3f9c77bf3db5dad8a9273d69613ac31bb7b57bfffc7",
+ "page_sha256": "ac5f9285916eee8c5795f915733b843c65df3b3ba5d30443b429d102c8f790f0",
  "rendered_checked": true,
  "title": "Jumbo Brow Harmony Flexible Lifting Gel",
  "url": "https://rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:54:00Z",
+  "read_at": "2026-10-03T21:32:58Z",
   "ship": [
    "Promotions, shipping & taxes calculated at checkout.",
    "Free Standard Shipping On Orders $99+",
@@ -16,6 +16,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/teca-fleece-headband",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:54:00Z",
+    "ship": [
+     "Promotions, shipping & taxes calculated at checkout.",
+     "Free Standard Shipping On Orders $99+",
+     "Shipping"
+    ],
+    "size": [
+     "size"
+    ],
+    "sub": [
+     "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+    ],
+    "url": "https://www.cotopaxi.com/products/teca-fleece-headband"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.cotopaxi.com/products/teca-fleece-headband",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "F24-Semiannual"
+     },
+     "description": "We channeled the coziness and resourcefulness of our bestselling Teca Fleece into a headband.Keeps your ears warm without overheating",
+     "image": [
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-acai-lf-r.png?v=1789768037",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-chalk-lf-r.png?v=1789768037",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-citron-lf-r.png?v=1789768037",
+      "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-chalk-01-r.png?v=1789768037"
+     ],
+     "name": "Teca Fleece Headband",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "20.0",
+      "priceCurrency": "USD",
+      "url": "https://www.cotopaxi.com/products/teca-fleece-headband"
+     },
+     "sku": "TFHB-F26-CHLK"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:31Z",
+   "og_image": "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-acai-lf-r_1200x630.png?v=1789768037",
+   "page_sha256": "f33686d97edc6d1b249ebbc558f9cab2e4d029744fba0dac7cea24a613f7500c",
+   "rendered_checked": true,
+   "title": "Teca Fleece Headband \u2013 Cotopaxi"
+  }
+ ],
  "http_status": 200,
  "id": "cotopaxi-teca-fleece-headband",
  "image_file": "cotopaxi-teca-fleece-headband.png",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:31Z",
+ "observed_at": "2026-10-03T21:32:40Z",
  "og_image": "https://www.cotopaxi.com/cdn/shop/files/f26-u-teca-fleece-headband-acai-lf-r_1200x630.png?v=1789768037",
- "page_sha256": "f33686d97edc6d1b249ebbc558f9cab2e4d029744fba0dac7cea24a613f7500c",
+ "page_sha256": "684429ab46c15a032c86d162512c0120367694c0bc8a9635200784f00dc2dbc1",
  "rendered_checked": true,
  "title": "Teca Fleece Headband \u2013 Cotopaxi",
  "url": "https://cotopaxi.com/products/teca-fleece-headband"

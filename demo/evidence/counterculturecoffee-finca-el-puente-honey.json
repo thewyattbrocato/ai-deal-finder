@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:54:40Z",
+  "read_at": "2026-10-03T21:41:01Z",
   "ship": [
    "Free shipping on $30 & up!",
    "Free shipping on $30 and up!"
@@ -15,6 +15,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://counterculturecoffee.com/products/finca-el-puente-honey",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:54:40Z",
+    "ship": [
+     "Free shipping on $30 & up!",
+     "Free shipping on $30 and up!"
+    ],
+    "size": [],
+    "sub": [
+     "Subscription,",
+     "Subscriptions",
+     "Gift Subscriptions"
+    ],
+    "url": "https://counterculturecoffee.com/products/finca-el-puente-honey"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://counterculturecoffee.com/products/finca-el-puente-honey",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "https://counterculturecoffee.com/products/finca-el-puente-honey",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Counter Culture Coffee - Retail"
+     },
+     "description": "We met Marysabel Caballero and Mois\u00e9s Herrera, the owners of Finca El Puente, in 2005. They have become like family to Counter Culture, and their constant pursuit of coffee perfection inspires us year after year. This year\u2019s harvest has rich notes of blackberry and chocolate, accented by an apricot acidity\nPronunciation: FEEN-ka el PWEHN-teh",
+     "image": [
+      "https://counterculturecoffee.com/cdn/shop/files/FincaElPuente_Honey-2026-PDP_2048x.png?v=1787844951"
+     ],
+     "name": "Finca El Puente - Honey Processed",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 25.0,
+       "priceCurrency": "USD",
+       "sku": "PUENTEHON-BG",
+       "url": "https://counterculturecoffee.com/products/finca-el-puente-honey?variant=42378552311885"
+      }
+     ],
+     "url": "https://counterculturecoffee.com/products/finca-el-puente-honey"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:23Z",
+   "og_image": "http://counterculturecoffee.com/cdn/shop/files/FincaElPuente_Honey-2026-PDP.png?v=1787844951",
+   "page_sha256": "31c4aa6f2c24b6a38c0c02f4e657429e496785cf02fe4706a8d6483aa8474b71",
+   "rendered_checked": true,
+   "title": "Finca El Puente - Honey Processed \u2013 Counter Culture Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "counterculturecoffee-finca-el-puente-honey",
  "image_file": "counterculturecoffee-finca-el-puente-honey.png",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:23Z",
+ "observed_at": "2026-10-03T21:40:49Z",
  "og_image": "http://counterculturecoffee.com/cdn/shop/files/FincaElPuente_Honey-2026-PDP.png?v=1787844951",
- "page_sha256": "31c4aa6f2c24b6a38c0c02f4e657429e496785cf02fe4706a8d6483aa8474b71",
+ "page_sha256": "19e72af8e14be4f7598681f4396df7ddd30ee25e816629146f60e07788f9df00",
  "rendered_checked": true,
  "title": "Finca El Puente - Honey Processed \u2013 Counter Culture Coffee",
  "url": "https://counterculturecoffee.com/products/finca-el-puente-honey"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:26:45Z",
+  "read_at": "2026-10-03T21:44:36Z",
   "ship": [
    "Free shipping $100+, 30-day trial, free returns",
    "Free shipping on orders over $100",
@@ -17,6 +17,67 @@
  },
  "coupon_snippets": [],
  "final_url": "https://greatjonesgoods.com/products/deep-cut-base-only",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:26:45Z",
+    "ship": [
+     "Free shipping $100+, 30-day trial, free returns",
+     "Free shipping on orders over $100",
+     "FREE standard US shipping for orders over $100",
+     "Shipping, Return, & Discount Policy",
+     "TermsShipping PolicyCareersPrivacy",
+     "You're $100.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe to save!"
+    ],
+    "url": "https://greatjonesgoods.com/products/deep-cut-base-only"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://greatjonesgoods.com/products/deep-cut-base-only",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "1"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Great Jones"
+     },
+     "description": "We combined the best elements of a deep saut\u00e9 pan and a skillet in one versatile 10-inch design. Deep Cut is deep enough that liquid won\u2019t splash out when yo...",
+     "image": [
+      "//greatjonesgoods.com/cdn/shop/products/gj_deep_cut_45_41233_85b7c610-80c2-4f90-85f2-50c254a497a6.png?v=1762444665&width=1200",
+      "//greatjonesgoods.com/cdn/shop/products/gj_deep_cut_top_41241_nolid_b0ce4ffe-2833-4bdd-a03d-99118589e7e3.png?v=1677690027&width=1200",
+      "//greatjonesgoods.com/cdn/shop/products/gj_deep_cut_top_30278_dd4f3946-24cc-49c3-9a45-273866876270.png?v=1677690027&width=1200",
+      "//greatjonesgoods.com/cdn/shop/products/gj_deep_cut_details_30376_97cbbd6c-01b5-4416-8334-e3a0de12f5e4.png?v=1677690027&width=1200",
+      "//greatjonesgoods.com/cdn/shop/products/gj_deep_cut_details_30372_5e30cd09-6cf1-4794-b6b3-0361cd435055.png?v=1677690026&width=1200"
+     ],
+     "name": "Deep Cut - Base",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "95.00",
+      "priceCurrency": "USD",
+      "url": "https://greatjonesgoods.com/products/deep-cut-base-only"
+     },
+     "sku": "DCL-26-02-CO1"
+    }
+   ],
+   "observed_at": "2026-10-03T15:08:08Z",
+   "og_image": "http://greatjonesgoods.com/cdn/shop/products/gj_deep_cut_45_41233_85b7c610-80c2-4f90-85f2-50c254a497a6_1024x1024.png?v=1762444665",
+   "page_sha256": "3e09d566c0c14c9c7eaa5e2e191e4fca5570a3ff58c855df152f7bb2b1d42391",
+   "rendered_checked": true,
+   "title": "Deep Cut - Base | Great Jones"
+  }
+ ],
  "http_status": 200,
  "id": "greatjones-deep-cut-base-only",
  "image_file": "greatjones-deep-cut-base-only.png",
@@ -56,9 +117,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-03T15:08:08Z",
+ "observed_at": "2026-10-03T21:44:22Z",
  "og_image": "http://greatjonesgoods.com/cdn/shop/products/gj_deep_cut_45_41233_85b7c610-80c2-4f90-85f2-50c254a497a6_1024x1024.png?v=1762444665",
- "page_sha256": "3e09d566c0c14c9c7eaa5e2e191e4fca5570a3ff58c855df152f7bb2b1d42391",
+ "page_sha256": "2d0494db50d25cef69e3ef3ef43477a8d798b1ef759b19f7fd0bd699bb30bb6c",
  "rendered_checked": true,
  "title": "Deep Cut - Base | Great Jones",
  "url": "https://greatjonesgoods.com/products/deep-cut-base-only"

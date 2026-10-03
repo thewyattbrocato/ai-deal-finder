@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:05:00Z",
+  "read_at": "2026-10-03T21:27:58Z",
   "ship": [
    "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
    "Shipping + Returns",
@@ -19,6 +19,86 @@
  },
  "coupon_snippets": [],
  "final_url": "https://parachutehome.com/products/whipstitch-throw-light-grey",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:05:00Z",
+    "ship": [
+     "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
+     "Shipping + Returns",
+     "Free Shipping & 60 Day Returns",
+     "Free Shipping",
+     "FREE U.S. SHIPPING"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "*By completing this form you are signing up to receive our emails and can unsubscribe at any time."
+    ],
+    "url": "https://parachutehome.com/products/whipstitch-throw-light-grey"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://parachutehome.com/products/whipstitch-throw-light-grey",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/whipstitch-throw-light-grey#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Parachute Home"
+     },
+     "category": "Pillowcases & Shams",
+     "description": "A little contrast goes a long way. Soft, breathable cotton keeps this everyday layer beautifully uncomplicated, while contrast whipstitching around the edges brings an unexpected hit of color and handcrafted character. Easy to layer, easy to live with and just expressive enough to earn a permanent spot on the sofa.\n\u00a0",
+     "hasVariant": [
+      {
+       "@id": "/products/whipstitch-throw-light-grey?variant=39754608804101#variant",
+       "@type": "Product",
+       "gtin": "840544400498",
+       "image": "https://parachutehome.com/cdn/shop/files/whipstitch-throw_light-grey_main_1743.jpg?v=1790111814&width=1920",
+       "name": "Whipstitch Throw (Light Grey) - One Size / Light Grey",
+       "offers": {
+        "@id": "/products/whipstitch-throw-light-grey?variant=39754608804101#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://parachutehome.com/products/whipstitch-throw-light-grey?variant=39754608804101"
+       },
+       "sku": "THWWHPGRYONE"
+      }
+     ],
+     "name": "Whipstitch Throw (Light Grey)",
+     "productGroupID": "6702757642501",
+     "url": "https://parachutehome.com/products/whipstitch-throw-light-grey"
+    },
+    {
+     "@id": "/products/whipstitch-throw-light-grey?variant=39754608804101#variant",
+     "@type": "Product",
+     "gtin": "840544400498",
+     "image": "https://parachutehome.com/cdn/shop/files/whipstitch-throw_light-grey_main_1743.jpg?v=1790111814&width=1920",
+     "name": "Whipstitch Throw (Light Grey) - One Size / Light Grey",
+     "offers": {
+      "@id": "/products/whipstitch-throw-light-grey?variant=39754608804101#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://parachutehome.com/products/whipstitch-throw-light-grey?variant=39754608804101"
+     },
+     "sku": "THWWHPGRYONE"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:42Z",
+   "og_image": "http://parachutehome.com/cdn/shop/files/whipstitch-throw_light-grey_main_1743.jpg?v=1790111814",
+   "page_sha256": "ea4ce1574d41396bedfcc6530df95f89944dafc83c17369545762a9bd1f2926e",
+   "rendered_checked": true,
+   "title": "Whipstitch Throw (Light Grey) \u2013 Parachute Home"
+  }
+ ],
  "http_status": 200,
  "id": "parachutehome-whipstitch-throw-light-grey",
  "image_file": "parachutehome-whipstitch-throw-light-grey.jpg",
@@ -75,9 +155,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T19:58:42Z",
+ "observed_at": "2026-10-03T21:27:40Z",
  "og_image": "http://parachutehome.com/cdn/shop/files/whipstitch-throw_light-grey_main_1743.jpg?v=1790111814",
- "page_sha256": "ea4ce1574d41396bedfcc6530df95f89944dafc83c17369545762a9bd1f2926e",
+ "page_sha256": "71a79cdddc29cd475961aa18c444ffc9dcd0f1fbd942bf47c7584d62fecec7de",
  "rendered_checked": true,
  "title": "Whipstitch Throw (Light Grey) \u2013 Parachute Home",
  "url": "https://parachutehome.com/products/whipstitch-throw-light-grey"

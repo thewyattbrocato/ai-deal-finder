@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:20:02Z",
+  "read_at": "2026-10-03T21:43:00Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,52 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/the-glossier-icons",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:20:02Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/the-glossier-icons"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/the-glossier-icons",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "The Glossier Icons",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "65",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:49Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/glossier-the-glossier-icons-carousel-01_6591b3e2-4bc4-4f80-bfd8-a821163caeba.png?v=1784305216",
+   "page_sha256": "1f6acada9158dae706e43f9e226418536a6bed26dfd8f017c62513aeefcbe223",
+   "rendered_checked": true,
+   "title": "The Glossier Icons"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-the-glossier-icons",
  "image_file": "glossier-the-glossier-icons.png",
@@ -41,9 +87,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:50:49Z",
+ "observed_at": "2026-10-03T21:42:44Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/glossier-the-glossier-icons-carousel-01_6591b3e2-4bc4-4f80-bfd8-a821163caeba.png?v=1784305216",
- "page_sha256": "1f6acada9158dae706e43f9e226418536a6bed26dfd8f017c62513aeefcbe223",
+ "page_sha256": "e28ae3ba9f46d5cc1aa72fc984ce21e394187e5001faab188d2aa3304d8109fd",
  "rendered_checked": true,
  "title": "The Glossier Icons",
  "url": "https://www.glossier.com/products/the-glossier-icons"

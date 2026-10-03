@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:06:19Z",
+  "read_at": "2026-10-03T21:40:31Z",
   "ship": [
    "Shipping Policy"
   ],
@@ -14,6 +14,111 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:06:19Z",
+    "ship": [
+     "Shipping Policy"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe for 10% off your first order",
+     "Subscription",
+     "Subscribe for clean essentials and save 10% on your first order"
+    ],
+    "url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/silicone-travel-bottles-refill-kit#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "5",
+      "ratingValue": "4.8"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Public Goods"
+     },
+     "description": "Lightweight, leak-proof and built for wherever you\u2019re going, our silicone travel bottles make it easy to bring your favorite essentials on the go. Made from soft, squeezable silicone, each bottle is easy to fill, TSA carry-on approved and designed to stand upright or lay flat in your bag with ease.",
+     "image": "https://www.publicgoods.com/cdn/shop/files/travel_kit_450x450.jpg?v=1786904124",
+     "mpn": "9255015055498",
+     "name": "Silicone Travel Bottles Refill Kit",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "19.95",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Public Goods"
+      }
+     },
+     "url": "/products/silicone-travel-bottles-refill-kit"
+    },
+    {
+     "@id": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Public Goods"
+     },
+     "description": "Lightweight, leak-proof and built for wherever you\u2019re going, our silicone travel bottles make it easy to bring your favorite essentials on the go. Made from soft, squeezable silicone, each bottle is easy to fill, TSA carry-on approved and designed to stand upright or lay flat in your bag with ease.",
+     "gtin": "810152230824",
+     "image": [
+      "https://www.publicgoods.com/cdn/shop/files/travel_kit.jpg?v=1786904124&width=1400",
+      "https://www.publicgoods.com/cdn/shop/files/travel_kit_empty.jpg?v=1786904131&width=1400",
+      "https://www.publicgoods.com/cdn/shop/files/bottle.jpg?v=1786904639&width=1400"
+     ],
+     "name": "Silicone Travel Bottles Refill Kit",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@id": "https://www.publicgoods.com/#returns"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "19.95",
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": "19.95",
+        "priceCurrency": "USD"
+       },
+       {
+        "@type": "UnitPriceSpecification",
+        "price": "15.96",
+        "priceCurrency": "USD",
+        "priceType": "https://schema.org/SalePrice",
+        "validForMemberTier": {
+         "@id": "https://www.publicgoods.com/membership#member-tier"
+        }
+       }
+      ],
+      "priceValidUntil": "2026-12-31",
+      "shippingDetails": {
+       "@id": "https://www.publicgoods.com/#shipping"
+      },
+      "url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit"
+     },
+     "sku": "010-701-007-011",
+     "url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:10Z",
+   "og_image": "http://www.publicgoods.com/cdn/shop/files/travel_kit.jpg?v=1786904124",
+   "page_sha256": "e6e3cb6d2c3069b0b880692ae1cbbe21beb80c5911f73700e5845d509133ffe4",
+   "rendered_checked": true,
+   "title": "Silicone Travel Bottles Refill Kit \u2013 Public Goods"
+  }
+ ],
  "http_status": 200,
  "id": "publicgoods-silicone-travel-bottles-refill-kit",
  "image_file": "publicgoods-silicone-travel-bottles-refill-kit.jpg",
@@ -100,9 +205,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-02T20:06:10Z",
+ "observed_at": "2026-10-03T21:40:16Z",
  "og_image": "http://www.publicgoods.com/cdn/shop/files/travel_kit.jpg?v=1786904124",
- "page_sha256": "e6e3cb6d2c3069b0b880692ae1cbbe21beb80c5911f73700e5845d509133ffe4",
+ "page_sha256": "f8ed3b0aa4be081e6c5ee507da9607073c64b2462886b6f9e1913a612f804539",
  "rendered_checked": true,
  "title": "Silicone Travel Bottles Refill Kit \u2013 Public Goods",
  "url": "https://publicgoods.com/products/silicone-travel-bottles-refill-kit"

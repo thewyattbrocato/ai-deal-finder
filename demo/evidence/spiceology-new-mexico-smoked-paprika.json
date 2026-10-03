@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:09:28Z",
+  "read_at": "2026-10-03T21:35:03Z",
   "ship": [
    "Free Shipping on Orders $50+ (In Contiguous US)",
    "Shipping",
@@ -13,6 +13,65 @@
  },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/new-mexico-smoked-paprika",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:09:28Z",
+    "ship": [
+     "Free Shipping on Orders $50+ (In Contiguous US)",
+     "Shipping",
+     "Shipping calculated at checkout",
+     "You are $50.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://spiceology.com/products/new-mexico-smoked-paprika"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://spiceology.com/products/new-mexico-smoked-paprika",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Spiceology"
+     },
+     "description": "New Mexico smoked paprika comes from red chile peppers grown and harvested in the American Southwest that are then wood-smoked, dried, and ground into powder. This paprika tends to have a rich, earthy, slightly sweet flavor with a noticeably smoky, almost mesquite-like intensity (that can be described as bitter), and a mild to moderate heat. It\u2019s delicious in dry rubs for grilled meats, hearty bean or beef chili, roasted root vegetables, tomato sauces, and rich savory cheese dishes like macaroni and cheese.",
+     "image": "https://spiceology.com/cdn/shop/files/NM-smoked-paprika-pc1-front.jpg?v=1787782197&width=3000",
+     "name": "New Mexico Smoked Paprika",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "description": "New Mexico smoked paprika comes from red chile peppers grown and harvested in the American Southwest that are then wood-smoked, dried, and ground into powder. This paprika tends to have a rich, earthy, slightly sweet flavor with a noticeably smoky, almost mesquite-like intensity (that can be described as bitter), and a mild to moderate heat. It\u2019s delicious in dry rubs for grilled meats, hearty bean or beef chili, roasted root vegetables, tomato sauces, and rich savory cheese dishes like macaroni and cheese.",
+       "image": "https://spiceology.com/cdn/shop/files/NM-smoked-paprika-pc1-front.jpg?v=1787782197&width=3000",
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "New Mexico Smoked Paprika",
+       "price": "19.2",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Spiceology"
+       },
+       "sku": "11998",
+       "url": "https://spiceology.com/products/new-mexico-smoked-paprika?variant=46578433360068"
+      }
+     ],
+     "productID": "8696579915972",
+     "sku": "11998",
+     "url": "https://spiceology.com/products/new-mexico-smoked-paprika"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:14Z",
+   "og_image": "http://spiceology.com/cdn/shop/files/NM-smoked-paprika-pc1-front.jpg?v=1787782197",
+   "page_sha256": "47c4528c28c8620a3160ec4197591f0691ed75a2e20d181fd13228fded17fdcc",
+   "rendered_checked": true,
+   "title": "New Mexico Smoked Paprika \u2013 Spiceology"
+  }
+ ],
  "http_status": 200,
  "id": "spiceology-new-mexico-smoked-paprika",
  "image_file": "spiceology-new-mexico-smoked-paprika.jpg",
@@ -39,7 +98,7 @@
      "name": "New Mexico Smoked Paprika",
      "price": "19.2",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-02",
+     "priceValidUntil": "2026-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Spiceology"
@@ -54,9 +113,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:02:14Z",
+ "observed_at": "2026-10-03T21:34:46Z",
  "og_image": "http://spiceology.com/cdn/shop/files/NM-smoked-paprika-pc1-front.jpg?v=1787782197",
- "page_sha256": "47c4528c28c8620a3160ec4197591f0691ed75a2e20d181fd13228fded17fdcc",
+ "page_sha256": "7be91f7cba5863644c74eed6f60cfce4eb6cee88027ac37185aec26e60b62ca7",
  "rendered_checked": true,
  "title": "New Mexico Smoked Paprika \u2013 Spiceology",
  "url": "https://spiceology.com/products/new-mexico-smoked-paprika"

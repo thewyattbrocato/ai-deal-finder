@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:14:31Z",
+  "read_at": "2026-10-03T21:37:52Z",
   "ship": [
    "Free US Shipping $200+",
    "Shipping & Returns",
@@ -16,6 +16,58 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ugmonk.com/products/analog-today-cards-3-pack",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:14:31Z",
+    "ship": [
+     "Free US Shipping $200+",
+     "Shipping & Returns",
+     "Great price. Fast shipping. And extremely useful. Perfect pocket size. They're thick so they work well with fountain pens. I'm a convert.",
+     "Order process was easy and when I needed help with a shipping problem the customer service was wonderful. They took care of things immediately. Can\u2019t wait to give the cards to my son in law."
+    ],
+    "size": [],
+    "sub": [
+     "Join 78,000+ subscribers by signing up below:",
+     "Subscribe \u2192"
+    ],
+    "url": "https://ugmonk.com/products/analog-today-cards-3-pack"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ugmonk.com/products/analog-today-cards-3-pack",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/analog-today-cards-3-pack#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Ugmonk"
+     },
+     "category": "Cardstock & Scrapbooking Paper",
+     "description": "3 packs of \"Today\" Analog Cards. 50 cards in each pack.\nThe 3\u2033x5\u2033 cards are printed on 100# smooth uncoated paper that feels great to write on. The cards come neatly packed in a custom die cut box which comes in handy for storing extras or taking them on the go.\nFeatures:\n\n3 packs of Today Cards (50 in each)\n3\u2033x5\u2033 (76mm x 127mm)\n100# smooth uncoated paper\nRounded corners\nDot grid pattern on back\nMade in Pennsylvania, USA\n",
+     "image": "https://ugmonk.com/cdn/shop/files/today-new2_ff126a76-c2f8-43b3-b120-3cbffb9d01ea.jpg?v=1773953342&width=1920",
+     "name": "Analog - Today Cards (3-Pack)",
+     "offers": {
+      "@id": "/products/analog-today-cards-3-pack?variant=42885037031574#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "30.00",
+      "priceCurrency": "USD",
+      "url": "https://ugmonk.com/products/analog-today-cards-3-pack?variant=42885037031574"
+     },
+     "sku": "analog-today-3-pack",
+     "url": "https://ugmonk.com/products/analog-today-cards-3-pack"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:42Z",
+   "og_image": "http://ugmonk.com/cdn/shop/files/today-new2_ff126a76-c2f8-43b3-b120-3cbffb9d01ea.jpg?v=1773953342",
+   "page_sha256": "3db6679a20a7f6bfde4e481c057c5e806eb85a3988d2b339e7125594e61dd6b5",
+   "rendered_checked": true,
+   "title": "Analog - Today Cards (3-Pack) \u2013 Ugmonk"
+  }
+ ],
  "http_status": 200,
  "id": "ugmonk-analog-today-cards-3-pack",
  "image_file": "ugmonk-analog-today-cards-3-pack.jpg",
@@ -47,9 +99,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-02T20:04:42Z",
+ "observed_at": "2026-10-03T21:37:38Z",
  "og_image": "http://ugmonk.com/cdn/shop/files/today-new2_ff126a76-c2f8-43b3-b120-3cbffb9d01ea.jpg?v=1773953342",
- "page_sha256": "3db6679a20a7f6bfde4e481c057c5e806eb85a3988d2b339e7125594e61dd6b5",
+ "page_sha256": "731607a0a000da3be0668bd5b93b71f27fadbfb639980d6fa27c148d237d1f91",
  "rendered_checked": true,
  "title": "Analog - Today Cards (3-Pack) \u2013 Ugmonk",
  "url": "https://ugmonk.com/products/analog-today-cards-3-pack"

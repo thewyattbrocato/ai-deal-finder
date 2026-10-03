@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:23:33Z",
+  "read_at": "2026-10-03T21:43:32Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -19,6 +19,68 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-harness-leash-collar-kit",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:23:33Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [
+     "Collar Size: S / M \u2022 Cat",
+     "Size Guide",
+     "Collar Size: XS \u2022 Kitten",
+     "Size Purchased:"
+    ],
+    "sub": [],
+    "url": "https://wildone.com/products/cat-harness-leash-collar-kit"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/cat-harness-leash-collar-kit",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 16,
+      "ratingValue": "4.5"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Everything you need for safe, comfortable cat adventures. This complete walking kit includes our escape-resistant Cat Harness &amp; Leash alongside a lightweight Breakaway Cat Collar for everyday wear. Designed specifically for cats, the harness features a comfort-first fit with adjustable straps and soft materials, while the breakaway collar includes a safety buckle designed to release under pressure. Finished with lightweight hardware and playful details, this all-in-one set makes it easy to gear up for both indoor and outdoor routines.\nImportant: The leash should only be attached to the harness \u2014 never to the breakaway collar.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_WalkKitHarness_Collar_Lilac_PDP_01_4x5_Web.jpg?v=1777923729&width=1920"
+     ],
+     "name": "Cat Harness & Leash + Collar Kit",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 45.0,
+       "priceCurrency": "USD",
+       "sku": "WO-CAT-HRN-L-COL",
+       "url": "https://wildone.com/products/cat-harness-leash-collar-kit?variant=45175637999811"
+      }
+     ],
+     "sku": "WO-CAT-HRN-L-COL",
+     "url": "https://wildone.com/products/cat-harness-leash-collar-kit"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:42Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_WalkKitHarness_Collar_Lilac_PDP_01_4x5_Web.jpg?v=1777923729",
+   "page_sha256": "8edcee50df887de6fce7288b0886689c7f7434b9f855287e658782bbc4c6b2b7",
+   "rendered_checked": true,
+   "title": "Cat Harness & Leash + Collar Kit \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-cat-harness-leash-collar-kit",
  "image_file": "wildone-cat-harness-leash-collar-kit.jpg",
@@ -57,9 +119,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:42Z",
+ "observed_at": "2026-10-03T21:43:17Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_WalkKitHarness_Collar_Lilac_PDP_01_4x5_Web.jpg?v=1777923729",
- "page_sha256": "8edcee50df887de6fce7288b0886689c7f7434b9f855287e658782bbc4c6b2b7",
+ "page_sha256": "ee19e7e19b427654795e7d2762a692585e211bcd611df4e5c003d3d073ea9681",
  "rendered_checked": true,
  "title": "Cat Harness & Leash + Collar Kit \u2013 Wild One",
  "url": "https://www.wildone.com/products/cat-harness-leash-collar-kit"

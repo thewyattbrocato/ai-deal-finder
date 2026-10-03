@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:27:48Z",
+  "read_at": "2026-10-03T21:45:44Z",
   "ship": [
    "FREE SHIPPING ON ORDERS $15+",
    "SHIPPING & RETURNS"
@@ -13,6 +13,74 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.nativecos.com/products/clean-hair-trio",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:27:48Z",
+    "ship": [
+     "FREE SHIPPING ON ORDERS $15+",
+     "SHIPPING & RETURNS"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE & SAVE 25%"
+    ],
+    "url": "https://www.nativecos.com/products/clean-hair-trio"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.nativecos.com/products/clean-hair-trio",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.nativecos.com/products/clean-hair-trio?variant=48003743711406",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Native"
+     },
+     "description": "",
+     "image": [
+      "https:files/Native_MOI_DTC_BNDL-CHT_070926_CashmereRain.png"
+     ],
+     "name": "Clean Hair Trio",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 28.0,
+       "priceCurrency": "USD",
+       "sku": "BNDL-CHT-0001",
+       "url": "https://www.nativecos.com/products/clean-hair-trio?variant=48003743711406"
+      },
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 28.0,
+       "priceCurrency": "USD",
+       "sku": "BNDL-CHT-0002",
+       "url": "https://www.nativecos.com/products/clean-hair-trio?variant=48003743645870"
+      },
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 28.0,
+       "priceCurrency": "USD",
+       "sku": "BNDL-CHT-0003",
+       "url": "https://www.nativecos.com/products/clean-hair-trio?variant=48003743973550"
+      }
+     ],
+     "sku": "BNDL-CHT-0001",
+     "url": "https://www.nativecos.com/products/clean-hair-trio?variant=48003743711406"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:24Z",
+   "og_image": "http://www.nativecos.com/cdn/shop/files/Native_MOI_DTC_BNDL-CHT_070926_CashmereRain.png?v=1783623226&width=1024",
+   "page_sha256": "3175dc3996965ac794243509c0f0e07f4759915fc434b143006152f82d131213",
+   "rendered_checked": true,
+   "title": "Native Bundle Clean Hair Trio | Cashmere & Rain | Native"
+  }
+ ],
  "http_status": 200,
  "id": "nativecos-clean-hair-trio",
  "image_file": "nativecos-clean-hair-trio.png",
@@ -63,9 +131,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T15:09:24Z",
+ "observed_at": "2026-10-03T21:45:28Z",
  "og_image": "http://www.nativecos.com/cdn/shop/files/Native_MOI_DTC_BNDL-CHT_070926_CashmereRain.png?v=1783623226&width=1024",
- "page_sha256": "3175dc3996965ac794243509c0f0e07f4759915fc434b143006152f82d131213",
+ "page_sha256": "51ef0a2daf1bace867dfe037c8456fc87d0b2a812391d7db53293796a7630b42",
  "rendered_checked": true,
  "title": "Native Bundle Clean Hair Trio | Cashmere & Rain | Native",
  "url": "https://nativecos.com/products/clean-hair-trio"

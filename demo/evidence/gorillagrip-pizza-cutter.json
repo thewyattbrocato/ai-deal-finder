@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:57:41Z",
+  "read_at": "2026-10-03T21:29:53Z",
   "ship": [
    "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
    "Shipping calculated at checkout.",
@@ -16,6 +16,76 @@
  },
  "coupon_snippets": [],
  "final_url": "https://gorillagrip.com/products/pizza-cutter",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:57:41Z",
+    "ship": [
+     "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
+     "Shipping calculated at checkout.",
+     "Free Shipping",
+     "We offer Free Shipping on all orders over $25. If you have any issues or questions with your order, please contact us directly at hello@gorillagrip.com and we will be happy to help.",
+     "Shipping & Returns"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://gorillagrip.com/products/pizza-cutter"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://gorillagrip.com/products/pizza-cutter",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Gorilla Grip"
+     },
+     "description": "ULTRA SHARP ONE CUT BLADE: cut through pizza with ease; super sharp blade makes slicing through any pizza a breeze; pizza cutter design presses as you slice to help keep toppings together for a clean cut, unlike messy and difficult to maneuver knives\nOVERSIZED HEAVY DUTY DESIGN: pizza cutter measures 3.5 by 9 inches, making it a larger, more durable option that is easy to grip; featuring a smooth rolling blade with a finger blade for added protection, the design makes slicing a cinch\nCOMFORTABLE AND SLIP RESISTANT GRIP: soft touch rubber handle and angled wheel provide the optimal ergonomic grip for comfortable and easy use; a built in finger guards help to provide stability and protect your hands as you slice\nDURABLE STAINLESS STEEL BLADE: features durable stainless steel construction, pizza cutter blade is rust resistant and will not bend or break; dishwasher safe for an easy clean\nALL PURPOSE SLICER: you'll be surprised how versatile this pizza cutter is; perfect for more than just pizza, easily chop salads, slice through quesadillas, hand cut pasta, cut perfect brownies, slice through layered food like lasagna, and more",
+     "image": [
+      "https://gorillagrip.com/cdn/shop/files/GG_PizzaCutter_Black_HERO.jpg?v=1776188035&width=1920"
+     ],
+     "name": "Pizza Cutter",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 15.99,
+       "priceCurrency": "USD",
+       "sku": "GG-PizzaCutter-Black",
+       "url": "https://gorillagrip.com/products/pizza-cutter?variant=52982699426108"
+      },
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 15.99,
+       "priceCurrency": "USD",
+       "sku": "GG-PizzaCutter-Mint",
+       "url": "https://gorillagrip.com/products/pizza-cutter?variant=52982699458876"
+      },
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 15.99,
+       "priceCurrency": "USD",
+       "sku": "GG-PizzaCutter-Red",
+       "url": "https://gorillagrip.com/products/pizza-cutter?variant=52982699491644"
+      }
+     ],
+     "sku": "GG-PizzaCutter-Black",
+     "url": "https://gorillagrip.com/products/pizza-cutter"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:20Z",
+   "og_image": "http://gorillagrip.com/cdn/shop/files/GG_PizzaCutter_Black_HERO.jpg?v=1776188035",
+   "page_sha256": "b5973a20d06caa4dcf22d5281a32f68b7a64bd4a92e14f8ece5571efca1417f4",
+   "rendered_checked": true,
+   "title": "Pizza Cutter \u2013 Gorilla Grip"
+  }
+ ],
  "http_status": 200,
  "id": "gorillagrip-pizza-cutter",
  "image_file": "gorillagrip-pizza-cutter.jpg",
@@ -65,9 +135,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-02T19:59:20Z",
+ "observed_at": "2026-10-03T21:29:41Z",
  "og_image": "http://gorillagrip.com/cdn/shop/files/GG_PizzaCutter_Black_HERO.jpg?v=1776188035",
- "page_sha256": "b5973a20d06caa4dcf22d5281a32f68b7a64bd4a92e14f8ece5571efca1417f4",
+ "page_sha256": "afa55b480d23f7e369531850d2245c85d32e1bb9496419410b4393916fd8a657",
  "rendered_checked": true,
  "title": "Pizza Cutter \u2013 Gorilla Grip",
  "url": "https://gorillagrip.com/products/pizza-cutter"

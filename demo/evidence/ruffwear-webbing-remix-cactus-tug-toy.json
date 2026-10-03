@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:07:00Z",
+  "read_at": "2026-10-03T21:28:34Z",
   "ship": [
    "Shipping"
   ],
@@ -10,6 +10,58 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:07:00Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/webbing-remix-cactus-tug-toy#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "2",
+      "ratingValue": "4.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Ruff Wear"
+     },
+     "description": "With an engaging, origami-like shape, the Remix\u2122 Cactus Tug Toy features an irresistible shape that dogs love to sink their teeth into. Designed and tested with feedback from avalanche rescue teams, this toy dials up the fun by turning flat webbing into three-dimensional fun that\u2019s easy to tug, toss, and fetch.\nThe rope core and webbing is made with repurposed yarns from post-manufacturing waste to minimize our impact on the planet. Colors vary depending on what surplus materials are available, making for a delightful surprise when it arrives.\nChew Style: GentlePlay Style: Tug &amp; toss\nOur toys are designed to be interactive - it's just more fun that way. While our toys suit a range of play styles, dogs can be crafty and determined chewers, so supervised play is recommended. If any part of the toy becomes loose or detached, take the toy away and discard.",
+     "image": "https://ruffwear.com/cdn/shop/files/Webbing_Remix_Cactus-Tug-Toy_Surprise_STUDIO_Front_450x450.png?v=1784592309",
+     "mpn": "8024195432531",
+     "name": "Webbing Remix\u2122\ufe0f Cactus Tug Toy",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "24.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Ruffwear"
+      }
+     },
+     "url": "/products/webbing-remix-cactus-tug-toy"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:54Z",
+   "og_image": "https://ruffwear.com/cdn/shop/files/Webbing_Remix_Cactus-Tug-Toy_Surprise_STUDIO_Front_882x589.png?v=1784592309",
+   "page_sha256": "61e71d8a58fdad3df8136ec2f88f8f508299a9f3c91e83f899a51671b7b64151",
+   "rendered_checked": true,
+   "title": "Webbing Remix\u2122\ufe0f Cactus Tug Toy | Ruffwear"
+  }
+ ],
  "http_status": 200,
  "id": "ruffwear-webbing-remix-cactus-tug-toy",
  "image_file": "ruffwear-webbing-remix-cactus-tug-toy.png",
@@ -47,9 +99,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-02T19:58:54Z",
+ "observed_at": "2026-10-03T21:28:19Z",
  "og_image": "https://ruffwear.com/cdn/shop/files/Webbing_Remix_Cactus-Tug-Toy_Surprise_STUDIO_Front_882x589.png?v=1784592309",
- "page_sha256": "61e71d8a58fdad3df8136ec2f88f8f508299a9f3c91e83f899a51671b7b64151",
+ "page_sha256": "33ad518d1c11a536ee72e797dfc46e950c9f41e8fdbeedc93d4151ef887af57d",
  "rendered_checked": true,
  "title": "Webbing Remix\u2122\ufe0f Cactus Tug Toy | Ruffwear",
  "url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:15:18Z",
+  "read_at": "2026-10-03T21:38:08Z",
   "ship": [
    "Free Shipping On All Carts Over $80",
    "Shipping & Returns",
@@ -14,6 +14,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://vitruvi.com/products/sweet-dreams-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:15:18Z",
+    "ship": [
+     "Free Shipping On All Carts Over $80",
+     "Shipping & Returns",
+     "Shipping policy"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://vitruvi.com/products/sweet-dreams-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://vitruvi.com/products/sweet-dreams-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://vitruvi.com/products/sweet-dreams-bundle#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Vitruvi US"
+     },
+     "description": "<p>Give the gift of sleep with this bundle curated to perfect anyone's sleep routine. Start the evening with the Vanilla Colourway Air Waterless Diffuser paired with the Sleep Air Scent Refill to unwind from your day, and journey to dreamland with the Cloud Humidifier to promote a restful sleep.\u00a0</p>\n<ul>\n<li>The Cloud Humidifier elevates sleep with its continuous cool mist that also hydrates skin and hair.\u00a0<meta charset=\"utf-8\">With settings ranging from 8 to 24 hours and a light-free night mode, it ensures undisturbed, restful sleep while also <meta charset=\"utf-8\">promoting a dewy complexion and silky locks.\u00a0<meta charset=\"utf-8\"> Its compact, nightstand-friendly design fits seamlessly into any space, humidifying rooms up to 600 sq.-ft.</li>\n<li>\n<meta charset=\"utf-8\">The Air Waterless Diffuser fills your space with clean, natural aromas; no water or heat required. It uses ultra-efficient cold air technology to scent up to 1500 sq.-ft. for up to 30 days with ease. With adjustable scent strength and mess-free refills, it\u2019s designed for a seamless and safe scenting experience. Enjoy a beautifully scented home with minimal effort and maximum impact.</li>\n<li>Sleep Air Scent Refill is a calming and soothing scent that gently lulls you into a peaceful slumber with the relaxing aroma of Lavender, gentle Chamomile, and the grounding presence of Frankincense.</li>\n</ul>",
+     "image": "https:files/pdp_mday-sweet-dreams-bundle_gallery_1_imagecopy.jpg",
+     "itemCondition": "http://schema.org/NewCondition",
+     "name": "Sweet Dreams Bundle",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https:files/pdp_mday-sweet-dreams-bundle_gallery_1_imagecopy.jpg",
+       "itemCondition": "http://schema.org/NewCondition",
+       "mpn": "",
+       "price": "335.97",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-01 09:02:15 -0700",
+       "sku": null,
+       "url": "https://vitruvi.com/products/sweet-dreams-bundle?variant=44181284880564"
+      }
+     ],
+     "url": "https://vitruvi.com/products/sweet-dreams-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:50Z",
+   "og_image": "http://vitruvi.com/cdn/shop/files/pdp_mday-sweet-dreams-bundle_gallery_1_imagecopy.jpg?v=1776818853",
+   "page_sha256": "034df38e16ec85f31b60ed3ce33b168a260597f1f47dff86f79db7963c0757e5",
+   "rendered_checked": true,
+   "title": "Sweet Dreams Bundle \u2013 Vitruvi US"
+  }
+ ],
  "http_status": 200,
  "id": "vitruvi-sweet-dreams-bundle",
  "image_file": "vitruvi-sweet-dreams-bundle.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Wellness",
- "observed_at": "2026-10-02T20:04:50Z",
+ "observed_at": "2026-10-03T21:37:53Z",
  "og_image": "http://vitruvi.com/cdn/shop/files/pdp_mday-sweet-dreams-bundle_gallery_1_imagecopy.jpg?v=1776818853",
- "page_sha256": "034df38e16ec85f31b60ed3ce33b168a260597f1f47dff86f79db7963c0757e5",
+ "page_sha256": "2ee07a80d7ec08bab6adc4dd184d9c3342ee586ec50715f6739b09aa6cde8d9a",
  "rendered_checked": true,
  "title": "Sweet Dreams Bundle \u2013 Vitruvi US",
  "url": "https://vitruvi.com/products/sweet-dreams-bundle"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:50:14Z",
+  "read_at": "2026-10-03T21:27:03Z",
   "ship": [
    "Free ground shipping on orders over $100",
    "Spend $100 more to earn free shipping!",
@@ -17,6 +17,667 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.allbirds.com/products/mens-canvas-runner-nz",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:50:14Z",
+    "ship": [
+     "Free ground shipping on orders over $100",
+     "Spend $100 more to earn free shipping!",
+     "+ FREE SHIPPING",
+     "Free Shipping on Orders over $100"
+    ],
+    "size": [
+     "SELECT A SIZE"
+    ],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS"
+    ],
+    "url": "https://www.allbirds.com/products/mens-canvas-runner-nz"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.allbirds.com/products/mens-canvas-runner-nz",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "#mens-canvas-runner-nz",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Allbirds"
+     },
+     "description": " ",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=8"
+       },
+       "size": "8",
+       "sku": "A12498M080"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=8.5"
+       },
+       "size": "8.5",
+       "sku": "A12498M085"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=9"
+       },
+       "size": "9",
+       "sku": "A12498M090"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=9.5"
+       },
+       "size": "9.5",
+       "sku": "A12498M095"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=10"
+       },
+       "size": "10",
+       "sku": "A12498M100"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=10.5"
+       },
+       "size": "10.5",
+       "sku": "A12498M105"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=11"
+       },
+       "size": "11",
+       "sku": "A12498M110"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=11.5"
+       },
+       "size": "11.5",
+       "sku": "A12498M115"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 12",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=12"
+       },
+       "size": "12",
+       "sku": "A12498M120"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 12.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=12.5"
+       },
+       "size": "12.5",
+       "sku": "A12498M125"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 13",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=13"
+       },
+       "size": "13",
+       "sku": "A12498M130"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 13.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=13.5"
+       },
+       "size": "13.5",
+       "sku": "A12498M135"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-canvas-runner-nz"
+       },
+       "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 14",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=14"
+       },
+       "size": "14",
+       "sku": "A12498M140"
+      }
+     ],
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "name": "Men's Canvas Runner NZ",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz"
+     },
+     "productGroupID": "MENS_RUNNER_NZ_CANVAS",
+     "sku": "MENS_RUNNER_NZ_CANVAS",
+     "variesBy": [
+      "https://schema.org/size",
+      "https://schema.org/color"
+     ]
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=8"
+     },
+     "size": "8",
+     "sku": "A12498M080"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=8.5"
+     },
+     "size": "8.5",
+     "sku": "A12498M085"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=9"
+     },
+     "size": "9",
+     "sku": "A12498M090"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=9.5"
+     },
+     "size": "9.5",
+     "sku": "A12498M095"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=10"
+     },
+     "size": "10",
+     "sku": "A12498M100"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=10.5"
+     },
+     "size": "10.5",
+     "sku": "A12498M105"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=11"
+     },
+     "size": "11",
+     "sku": "A12498M110"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=11.5"
+     },
+     "size": "11.5",
+     "sku": "A12498M115"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=12"
+     },
+     "size": "12",
+     "sku": "A12498M120"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=12.5"
+     },
+     "size": "12.5",
+     "sku": "A12498M125"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=13"
+     },
+     "size": "13",
+     "sku": "A12498M130"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 13.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=13.5"
+     },
+     "size": "13.5",
+     "sku": "A12498M135"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-canvas-runner-nz"
+     },
+     "name": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole) - Size 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-canvas-runner-nz?size=14"
+     },
+     "size": "14",
+     "sku": "A12498M140"
+    }
+   ],
+   "observed_at": "2026-10-02T19:57:58Z",
+   "og_image": "http://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585",
+   "page_sha256": "bfcfff5909393ff8cd7d7cb055f640e2223e0208de0ad118de55662409913f4b",
+   "rendered_checked": true,
+   "title": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)"
+  }
+ ],
  "http_status": 200,
  "id": "allbirds-mens-canvas-runner-nz",
  "image_file": "allbirds-mens-canvas-runner-nz.png",
@@ -656,9 +1317,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T19:57:58Z",
+ "observed_at": "2026-10-03T21:26:50Z",
  "og_image": "http://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT.png?v=1774550585",
- "page_sha256": "bfcfff5909393ff8cd7d7cb055f640e2223e0208de0ad118de55662409913f4b",
+ "page_sha256": "20cf667c8793cb0e2e5d57e79955cbe084f40498e2c329e0e9901251392bdece",
  "rendered_checked": true,
  "title": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
  "url": "https://allbirds.com/products/mens-canvas-runner-nz"
