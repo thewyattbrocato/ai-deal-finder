@@ -45,15 +45,25 @@ price and never fills in what a page did not say.
    the final say.
 
 <p align="center">
-  <img src="docs/readme/tool-desktop-result.png" width="880" alt="Screenshot of a result card in the live tool for Super Crema Whole Bean, 2.2 lb bag from Lavazza, with its shelf price, a Good to buy decision, a coupon box showing the code CAFE20 as seen and never tried out, and a list of what the page states about size, shipping and subscribe.">
+  <img src="docs/readme/tool-desktop-result.png" width="880" alt="Screenshot of a result card in the live tool for the UNTUCKit Waffle-Knit Hoodie Sweater at $128, with the line Price read from the store page, a coupon box showing the page-printed code NOIRON as printed and not applied, the date window the page printed and that today is inside it, and a list of what the page states about size, shipping and subscribe.">
 </p>
 
-<p align="center"><sub>The screenshot is the real capture from when the Lavazza pages printed CAFE20 (recorded 2026-10-01). On 2026-10-03 the same three pages printed AS20 instead, and the live tool now shows that, still as seen and never tried.</sub></p>
+<p align="center"><sub>Real capture of the live tool on 2026-10-03. The coupon window on that card ends 2026-10-04, so a later visit shows the card's own passed/not-passed line instead.</sub></p>
+
+A result card shows the shelf price exactly as the store page printed it, and how
+old the check is ("Checked today", or "Checked 2 days ago"). If the page printed a
+coupon, the card quotes the page's own words and says the code was printed, not
+applied, so the price never includes it. It also quotes the coupon's printed date
+window and says whether today, in US Eastern time, is inside it or has passed, or
+that the text states no clear window. Shipping that needs a membership is not
+counted as free: the card says the check was not signed in. Whatever the page did
+not show, such as tax or whether a code works, is listed on a *Confirm at
+checkout* line.
 
 On a phone the same page works at narrow width:
 
 <p align="center">
-  <img src="docs/readme/tool-phone.png" width="640" alt="Two phone-width screenshots of the live tool. Left: the search box and the optional guide. Right: a result card with the product picture, price, decision and a coupon box.">
+  <img src="docs/readme/tool-phone.png" width="640" alt="Screenshot of the live tool at a 390 px phone width, with no sideways scrolling: the search box, the optional guide, and a result card with the product picture, price, the line Price read from the store page, and a coupon box.">
 </p>
 
 ## What the evidence rules mean
@@ -175,7 +185,7 @@ missing, false, ambiguous, or revoked prerequisite returns `research-only`.
 - Consent and cart-action accountability: `CONSENT.md`.
 - Discovery and substitute bounds: `DISCOVERY.md`.
 - Unknown-cost behavior: `LANDED_COST.md`.
-- Draft fixture corpus (21 cases, needs independent relabeling): `FIXTURES.json`.
+- Draft fixture corpus (53 cases, needs independent relabeling): `FIXTURES.json`.
 - Judgment engine spec and Jev Choice/Score/Noul binding: `JUDGMENT_ENGINE.md`.
 - Gate-by-gate evidence record (all gates not run/blocked): `VALIDATION_RECORD.md`.
 - Key-dependent Jev validation still required: `KEYED_VALIDATION.md`.
