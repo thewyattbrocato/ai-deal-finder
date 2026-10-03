@@ -11,6 +11,7 @@ Regenerate:  python3 demo/build.py   (from the repo root)
 Verify:      python3 -m unittest discover -s tests
 """
 
+import datetime
 import html
 import json
 import os
@@ -34,6 +35,70 @@ APPLE_URL = "https://www.apple.com/airpods-pro/"
 
 def esc(s):
     return html.escape(str(s), quote=True)
+
+
+_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct",
+     "nov", "dec"], 1)}
+_TIME = r"(?: at \d{1,2}:\d\d [AP]M(?: [A-Z]{2,3})?)?"
+_DATE_RE = re.compile(
+    r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b" + _TIME
+    + r"|\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? "
+    r"(\d{1,2}),? (\d{4})\b" + _TIME)
+_CONDITION_RE = re.compile(
+    r"(?i)cannot be combined|can't be combined|not valid|no cash value|"
+    r"excludes?\b|excluded|one per|limit \d|limited to|minimum|while supplies")
+
+
+def printed_window(text):
+    """The date window a coupon's own page text prints, or None.
+
+    Only explicit full dates (m/d/yyyy read as US month/day/year, the stored
+    pages being US, or "Oct 4, 2026") count, and only exactly two of them in
+    order. One date (start or end unclear), a date without a year, an
+    impossible date or an out-of-order pair is ambiguous: no window.
+    """
+    found = []
+    for m in _DATE_RE.finditer(text or ""):
+        try:
+            if m.group(1):
+                d = datetime.date(int(m.group(3)), int(m.group(1)), int(m.group(2)))
+            else:
+                d = datetime.date(int(m.group(6)), _MONTHS[m.group(4).lower()],
+                                  int(m.group(5)))
+        except ValueError:
+            return None
+        found.append((d, m))
+    if len(found) != 2 or found[0][0] > found[1][0]:
+        return None
+    first, last = found[0][1], found[1][1]
+    return {"start": found[0][0].isoformat(), "end": found[1][0].isoformat(),
+            "quote": text[first.start():last.end()]}
+
+
+def printed_conditions(text):
+    """Whole sentences of the page text that state a condition, verbatim."""
+    out = []
+    for s in re.split(r"(?<=[.!?])\s+", text or ""):
+        s = s.strip()
+        if s and s[-1] in ".!?" and _CONDITION_RE.search(s):
+            out.append(s)
+    return out
+
+
+def coupon_page_text(obs):
+    """The stored page text around the code (evidence file), or the shown offer."""
+    cp = obs["coupon"]
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "evidence",
+                        obs["id"] + ".json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            for sn in json.load(f).get("coupon_snippets") or []:
+                if cp["code"] in sn:
+                    return sn
+    except (OSError, ValueError):
+        pass
+    return cp["text"]
 
 
 def run_lv001():
@@ -339,11 +404,9 @@ def savings_block(item):
     the page's own words and never turned into a lower price.
     """
     t = item.get("terms") or {}
-    confirm = ["tax"]
-    if not t.get("ship"):
-        confirm.append("shipping cost (the page did not state it)")
     cp = item["coupon"]
     rows = []
+    confirm_html = []
     if cp is None:
         status = "No coupon printed on the page"
         rows.append(
@@ -356,16 +419,43 @@ def savings_block(item):
         if not offer.startswith("\u201c"):
             offer = "\u201c" + offer + "\u201d"
         rows.append(
-            '<li><span class="font-semibold">Coupon on this page:</span> '
+            '<li data-coupon-row><span class="font-semibold" data-coupon-label>'
+            "Coupon on this page:</span> "
             '<span class="font-mono font-bold">' + esc(cp["code"])
             + "</span> \u2014 the page says " + esc(offer)
             + ". Conditions: only as that wording states them. Seen on "
             + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
             + esc(item["observed_at"]) + ". <strong>Not applied:</strong> "
             + esc(cp["caveat"]) + "</li>")
-        confirm.append("whether the code works and what it would take off")
+        w = cp.get("window")
+        if w:
+            rows.append(
+                '<li data-window-row data-window-start="' + w["start"]
+                + '" data-window-end="' + w["end"]
+                + '"><span class="font-semibold">Window the page prints:</span> '
+                "\u201c" + esc(w["quote"]) + "\u201d (read as " + w["start"]
+                + " to " + w["end"] + "). "
+                '<strong data-window-status>Compare it with today\'s date.</strong></li>')
+        else:
+            rows.append(
+                '<li data-window-row><span class="font-semibold">Window the page prints:</span> '
+                "<strong data-window-status>the coupon text states no date window "
+                "(or only one that is not a clear start and end), so no window is shown."
+                "</strong></li>")
+        if cp.get("conditions"):
+            rows.append(
+                '<li data-conditions-row><span class="font-semibold">Conditions the page prints:</span> '
+                + " ".join("\u201c" + esc(c) + "\u201d" for c in cp["conditions"])
+                + "</li>")
+        confirm_html.append('<span data-confirm-code>whether the code works and what it would take off</span>')
+    parts = ["tax"]
+    if not t.get("ship"):
+        parts.append("shipping cost (the page did not state it)")
+    confirm_text = esc("; ".join(parts))
+    if confirm_html:
+        confirm_text += "; " + "; ".join(confirm_html)
     rows.append('<li><span class="font-semibold">Confirm at checkout:</span> '
-                + esc("; ".join(confirm)) + ".</li>")
+                + confirm_text + ".</li>")
     return (
         '<div class="savings-box" data-savings>'
         '<p class="text-sm font-semibold mb-1" data-saving-lead>'
@@ -592,9 +682,12 @@ def catalog_item(obs):
     label = "$%d" % obs["price"] if cents % 100 == 0 else "$%.2f" % obs["price"]
     coupon = None
     if obs["coupon"]:
+        page_text = coupon_page_text(obs)
         coupon = {"code": obs["coupon"]["code"],
                   "offer": "\u201c" + obs["coupon"]["text"] + "\u201d",
-                  "caveat": PAGE_CAVEAT}
+                  "caveat": PAGE_CAVEAT,
+                  "window": printed_window(page_text),
+                  "conditions": printed_conditions(page_text)}
     return item_dict(
         obs["id"], obs["name"], seller + " \u00b7 new", seller, obs["kind"],
         ("assets/" + obs["image"]) if obs["image"] else None,
@@ -848,6 +941,8 @@ def build():
   .terms-box { border-top: 1px solid rgba(127,127,127,0.3); margin: 0.5rem 0; padding-top: 0.5rem; }
   .savings-box { border: 1px solid rgba(127,127,127,0.35); border-radius: 0.5rem; margin: 0.5rem 0 0.75rem; padding: 0.6rem 0.8rem; }
   .savings-box li { margin-bottom: 0.25rem; }
+  [data-window-state="ended"] [data-coupon-row], [data-window-state="ended"] [data-window-row] { opacity: 0.65; }
+  [data-window-state="ended"] [data-coupon-label], [data-window-state="ended"] [data-window-status] { color: #b45309; }
   .guide-why { border-left: 3px solid currentColor; padding-left: 0.6rem; }
   a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 </style>
@@ -951,11 +1046,11 @@ const noMatchText = document.getElementById("no-match-text");
 const noMatchActions = document.getElementById("no-match-actions");
 const shelfLine = new Map(cards.map(c => [c, c.querySelectorAll("[data-shelf-line]")[0].textContent]));
 // How old each stored check is, from its stored time only: whole days, no verdict, no threshold.
+const NOW = new Date();  // the one read of "today", for the age line and the printed windows
 function checkedAge(iso) {
   const d = iso.slice(0, 10);
   const then = Date.parse(d + "T00:00:00Z");
-  const t = new Date();
-  const today = Date.UTC(t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate());
+  const today = Date.UTC(NOW.getUTCFullYear(), NOW.getUTCMonth(), NOW.getUTCDate());
   const days = Math.round((today - then) / 86400000);
   if (isNaN(days) || days < 0) return "Checked " + d;
   if (days === 0) return "Checked today, " + d;
@@ -964,6 +1059,33 @@ function checkedAge(iso) {
 for (const c of cards) {
   const el = c.querySelectorAll("[data-age]")[0];
   el.textContent = checkedAge(el.getAttribute("data-observed"));
+}
+// A coupon page's own printed date window against the browser's date (calendar days, ISO strings compare).
+// Ended means information only: never an available offer, never a lower price.
+function two(n) { return (n < 10 ? "0" : "") + n; }
+const TODAY = NOW.getFullYear() + "-" + two(NOW.getMonth() + 1) + "-" + two(NOW.getDate());
+function windowState(start, end) {
+  if (!start || !end) return "none";
+  if (TODAY < start) return "before";
+  if (TODAY > end) return "ended";
+  return "inside";
+}
+const WINDOW_TEXT = {
+  before: "Today (" + TODAY + ") is before the page's printed window.",
+  inside: "Today (" + TODAY + ") is inside the page's printed window. The code is still never tried: confirm it at checkout.",
+  ended: "The page's printed window has ended (today is " + TODAY + "). Shown as information only, not as an available offer.",
+};
+for (const c of cards) {
+  const row = c.querySelectorAll("[data-window-row]")[0];
+  if (!row) continue;
+  const state = windowState(row.getAttribute("data-window-start"), row.getAttribute("data-window-end"));
+  c.setAttribute("data-window-state", state);
+  if (state === "none") continue;
+  row.querySelectorAll("[data-window-status]")[0].textContent = WINDOW_TEXT[state];
+  if (state !== "ended") continue;
+  c.querySelectorAll("[data-saving-status]")[0].textContent = "The page's printed window has ended";
+  c.querySelectorAll("[data-coupon-label]")[0].textContent = "The page's printed window has ended \u2014 code the page printed, information only:";
+  c.querySelectorAll("[data-confirm-code]")[0].textContent = "whether any offer is still available (the page's printed window has ended)";
 }
 
 function mk(tag, cls, text) {
@@ -1264,7 +1386,8 @@ function whyShown(c, v, rank, total, terms) {
   if (pick.shipping === "free") out.push("its page states its shipping as " + shipFact(c));
   if (pick.coupon === "yes") {
     out.push("its own page printed " + c.getAttribute("data-coupon-code")
-      + " (seen, never tried — the price is still the shelf price)");
+      + (c.getAttribute("data-window-state") === "ended" ? " (its printed window has ended: information only, never tried, never a lower price)" : " (seen, never tried")
+      + (c.getAttribute("data-window-state") === "ended" ? "" : " — the price is still the shelf price)"));
   }
   const basis = c.getAttribute("data-quality-basis");
   if (pick.prefer === "specialty" && !exact) {

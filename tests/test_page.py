@@ -179,7 +179,7 @@ function contained(node, anc) {
 }
 
 // The page reads "today" once to say how old each stored check is; pin it.
-const NOW = Date.UTC(2026, 9, 5, 15, 0, 0);
+const NOW = process.env.PAGE_NOW ? Date.parse(process.env.PAGE_NOW) : Date.UTC(2026, 9, 5, 15, 0, 0);
 class FixedDate extends Date {
   constructor(...a) { if (a.length) super(...a); else super(NOW); }
 }
@@ -262,6 +262,19 @@ function snap(document) {
     ages: shown.map(c => collect(first(c, "[data-age]")).trim()),
     leads: shown.map(c => collect(first(c, "[data-saving-lead]")).trim()),
     shelfLines: shown.map(c => collect(first(c, "[data-shelf-line]")).trim()),
+    windows: cards.filter(c => c.getAttribute("data-coupon") === "yes").map(c => ({
+      id: c.getAttribute("data-name"),
+      code: c.getAttribute("data-coupon-code"),
+      state: c.getAttribute("data-window-state"),
+      status: collect(first(c, "[data-window-status]")).trim(),
+      lead: collect(first(c, "[data-saving-lead]")).trim(),
+      label: collect(first(c, "[data-coupon-label]")).trim(),
+      confirm: collect(first(c, "[data-confirm-code]")).trim(),
+      price: collect(first(c, "[data-price-text]")).trim(),
+      priceLabel: c.getAttribute("data-price-label"),
+      conditions: c.querySelectorAll("[data-conditions-row]").map(r => collect(r).trim()),
+      windowStart: c.querySelectorAll("[data-window-row]")[0].getAttribute("data-window-start"),
+    })),
   };
 }
 function card(c) {
@@ -271,6 +284,7 @@ function card(c) {
     form: c.getAttribute("data-form"),
     coupon: c.getAttribute("data-coupon"),
     quality: c.getAttribute("data-quality"),
+    windowState: c.getAttribute("data-window-state"),
   };
 }
 function setQuery(document, value) {
@@ -317,6 +331,7 @@ function clickId(document, id) {
 const out = {};
 function fresh(fn) { const document = boot(); fn(document); return snap(document); }
 out.load = fresh(() => {});
+if (process.env.ONLY_LOAD) { process.stdout.write(JSON.stringify(out)); process.exit(0); }
 out.allProducts = fresh(d => { setQuery(d, ""); });
 out.anyCoffee = fresh(d => { setQuery(d, ""); answer(d, "form", "any-coffee"); });
 out.wholeBean = fresh(d => { setQuery(d, ""); answer(d, "form", "whole-bean"); });
@@ -438,14 +453,19 @@ def read(*parts):
         return f.read()
 
 
-def drive(page_path):
+def drive(page_path, now=None, only_load=False):
+    env = dict(os.environ, TZ="UTC")  # the page reads the browser's local date
+    if now:
+        env["PAGE_NOW"] = now
+    if only_load:
+        env["ONLY_LOAD"] = "1"
     with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as handle:
         handle.write(DRIVER)
         script = handle.name
     try:
         proc = subprocess.run(
             ["node", script, page_path],
-            check=False, capture_output=True, text=True,
+            check=False, capture_output=True, text=True, env=env,
         )
     finally:
         os.remove(script)
@@ -1076,11 +1096,140 @@ class QuietPageTest(unittest.TestCase):
             for lead, shelf, card in zip(snap["leads"], snap["shelfLines"], snap["visible"]):
                 status = "Coupon printed, not applied" if card["coupon"] == "yes" \
                     else "No coupon printed on the page"
+                if card["windowState"] == "ended":
+                    status = "The page's printed window has ended"
                 self.assertEqual(lead, shelf + ". " + status + ".", key)
 
     def test_vague_recheck_wording_is_gone(self):
         self.assertNotIn("recheck at checkout", self.page)
         self.assertNotIn("Not known:", self.page)
+
+
+class PrintedWindowTest(unittest.TestCase):
+    """A coupon page's own printed date window against the browser's date."""
+
+    PAGE = os.path.join(ROOT, "demo", "index.html")
+    UNTUCKIT = "NOIRON"
+    CASES = {  # pinned browser time -> (state, status text)
+        "2026-09-30T15:00:00Z": ("before", "Today (2026-09-30) is before the page's printed window."),
+        "2026-10-01T15:00:00Z": ("inside", "Today (2026-10-01) is inside the page's printed window."),
+        "2026-10-04T15:00:00Z": ("inside", "Today (2026-10-04) is inside the page's printed window."),
+        "2026-10-05T15:00:00Z": ("ended", "The page's printed window has ended (today is 2026-10-05)."),
+    }
+
+    @classmethod
+    def setUpClass(cls):
+        cls.page = read("demo", "index.html")
+        cls.runs = {now: drive(cls.PAGE, now=now, only_load=True)["load"]["windows"]
+                    for now in cls.CASES}
+
+    def untuckit(self, now):
+        return [w for w in self.runs[now] if w["code"] == self.UNTUCKIT]
+
+    def test_window_is_stated_before_inside_and_after_the_printed_dates(self):
+        for now, (state, text) in self.CASES.items():
+            rows = self.untuckit(now)
+            self.assertEqual(len(rows), 6, now)
+            for w in rows:
+                self.assertEqual(w["state"], state, now)
+                self.assertTrue(w["status"].startswith(text), (now, w["status"]))
+                self.assertEqual(w["windowStart"], "2026-10-01")
+                # never a lower price, in any state
+                self.assertEqual(w["price"], w["priceLabel"])
+
+    def test_an_ended_window_is_information_not_an_offer(self):
+        for w in self.untuckit("2026-10-05T15:00:00Z"):
+            self.assertEqual(w["lead"], w["priceLabel"] + " as printed on the page. "
+                             "The page's printed window has ended.")
+            self.assertTrue(w["label"].startswith("The page's printed window has ended"))
+            self.assertIn("information only", w["label"])
+            self.assertIn("not as an available offer", w["status"])
+            self.assertIn("whether any offer is still available", w["confirm"])
+            self.assertNotIn("Coupon printed, not applied", w["lead"])
+        for now in ("2026-09-30T15:00:00Z", "2026-10-04T15:00:00Z"):
+            for w in self.untuckit(now):
+                self.assertNotIn("has ended", w["lead"])
+
+    def test_before_and_inside_still_say_seen_never_tried(self):
+        for now in ("2026-09-30T15:00:00Z", "2026-10-04T15:00:00Z"):
+            for w in self.untuckit(now):
+                self.assertEqual(w["lead"], w["priceLabel"] + " as printed on the page. "
+                                 "Coupon printed, not applied.")
+                self.assertEqual(w["label"], "Coupon on this page:")
+                self.assertEqual(w["confirm"], "whether the code works and what it would take off")
+        self.assertIn("The code is still never tried", self.untuckit("2026-10-04T15:00:00Z")[0]["status"])
+
+    def test_coupons_with_no_printed_window_say_so_on_any_date(self):
+        for now, rows in self.runs.items():
+            others = [w for w in rows if w["code"] != self.UNTUCKIT]
+            self.assertEqual(len(others), 9, now)
+            for w in others:
+                self.assertEqual(w["state"], "none", now)
+                self.assertTrue(w["status"].startswith("the coupon text states no date window"), w["status"])
+                self.assertIsNone(w["windowStart"])
+                self.assertNotIn("has ended", w["lead"])
+                self.assertEqual(w["lead"], w["priceLabel"] + " as printed on the page. "
+                                 "Coupon printed, not applied.")
+
+    def test_printed_conditions_are_quoted_word_for_word_from_the_stored_text(self):
+        stored = json.loads(read("demo", "evidence", "untuckit-normand.json"))["coupon_snippets"][0]
+        quote = "Cannot be combined with any offers or promotions."
+        self.assertIn(quote, stored)
+        for w in self.untuckit("2026-10-05T15:00:00Z"):
+            self.assertEqual(len(w["conditions"]), 1)
+            self.assertIn("\u201c" + quote + "\u201d", w["conditions"][0])
+            for sentence in re.findall("\u201c([^\u201d]*)\u201d", w["conditions"][0]):
+                self.assertIn(sentence, stored)
+        # the window quote is a verbatim piece of the stored page text too
+        for m in re.finditer(r"Window the page prints:</span> \u201c([^\u201d]*)\u201d",
+                             html_lib.unescape(self.page)):
+            self.assertEqual(m.group(1), "10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET")
+            self.assertIn(m.group(1), stored)
+
+    def test_the_page_reads_the_date_once_and_adds_no_countdown_or_urgency(self):
+        script = self.page[self.page.rindex("<script>"):]
+        self.assertEqual(script.count("new Date()"), 1)
+        for word in ("hurry", "last chance", "ends soon", "countdown", "only today"):
+            self.assertNotIn(word, self.page.lower())
+
+
+class PrintedWindowParserTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import sys
+        sys.path.insert(0, os.path.join(ROOT, "demo"))
+        sys.path.insert(0, ROOT)
+        import build
+        cls.window = staticmethod(build.printed_window)
+        cls.conditions = staticmethod(build.printed_conditions)
+
+    def test_two_explicit_dates_make_a_window(self):
+        w = self.window("Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, online.")
+        self.assertEqual((w["start"], w["end"]), ("2026-10-01", "2026-10-04"))
+        self.assertEqual(w["quote"], "10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET")
+        w = self.window("Use code X from Oct 1, 2026 to October 4, 2026.")
+        self.assertEqual((w["start"], w["end"]), ("2026-10-01", "2026-10-04"))
+
+    def test_ambiguous_or_absent_dates_make_no_window(self):
+        for text in (
+            "Use code X at checkout.",
+            "Ends 10/4/2026.",                       # one date: start or end unclear
+            "Valid 10/1 to 10/4.",                   # no year
+            "Valid 10/1/26 through 10/4/26.",        # two-digit year
+            "Valid 10/4/2026 through 10/1/2026.",    # out of order
+            "Valid 13/45/2026 through 14/45/2026.",  # impossible dates
+            "Valid 10/1/2026, 10/4/2026 and 10/9/2026.",  # three dates
+            "Valid through the end of the month.",
+            "", None,
+        ):
+            self.assertIsNone(self.window(text), text)
+
+    def test_conditions_are_whole_sentences_quoted_as_printed(self):
+        text = ("Offer valid 10/1/2026 through 10/4/2026. Enter code X. Cannot be combined "
+                "with any offers or promotions. Offer has no cash value and is not valid on gift c")
+        self.assertEqual(self.conditions(text),
+                         ["Cannot be combined with any offers or promotions."])  # truncated tail is not quoted
+        self.assertEqual(self.conditions("Use code X."), [])
 
 
 if __name__ == "__main__":
