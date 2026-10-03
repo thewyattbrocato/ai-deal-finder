@@ -339,20 +339,19 @@ def savings_block(item):
     the page's own words and never turned into a lower price.
     """
     t = item.get("terms") or {}
-    rows = ['<li><span class="font-semibold">Shelf price:</span> '
-            '<span data-shelf-line>' + esc(item["price_label"])
-            + ' as printed on the page</span></li>']
-    unknown = ["tax"]
+    confirm = ["tax"]
     if not t.get("ship"):
-        unknown.append("shipping cost")
+        confirm.append("shipping cost (the page did not state it)")
     cp = item["coupon"]
+    rows = []
     if cp is None:
+        status = "No coupon printed on the page"
         rows.append(
-            '<li><span class="font-semibold">No coupon on this page:</span> '
-            "no coupon code was visible when this page was checked ("
+            "<li>No coupon code was visible when this page was checked ("
             + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
             + esc(item["observed_at"]) + ").</li>")
     else:
+        status = "Coupon printed, not applied"
         offer = cp["offer"].rstrip(".")
         if not offer.startswith("\u201c"):
             offer = "\u201c" + offer + "\u201d"
@@ -364,13 +363,15 @@ def savings_block(item):
             + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
             + esc(item["observed_at"]) + ". <strong>Not applied:</strong> "
             + esc(cp["caveat"]) + "</li>")
-        unknown.append("whether the code works at checkout and what it would "
-                       "take off this item")
-    rows.append('<li><span class="font-semibold">Not known:</span> '
-                + esc("; ".join(unknown)) + ".</li>")
+        confirm.append("whether the code works and what it would take off")
+    rows.append('<li><span class="font-semibold">Confirm at checkout:</span> '
+                + esc("; ".join(confirm)) + ".</li>")
     return (
         '<div class="savings-box" data-savings>'
-        '<p class="text-sm font-semibold mb-1">Price and coupon, plainly</p>'
+        '<p class="text-sm font-semibold mb-1" data-saving-lead>'
+        '<span data-shelf-line>' + esc(item["price_label"])
+        + ' as printed on the page</span>. '
+        '<span data-saving-status>' + status + "</span>.</p>"
         '<ul class="text-sm" style="list-style:none;margin:0;padding:0">'
         + "".join(rows) + "</ul></div>")
 
@@ -429,11 +430,13 @@ def product_card(item, decision, coupon_html):
     parts.append(
         '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
         '<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
-        '<span class="text-sm opacity-80">Price verified on the page \u2014 recheck at checkout.</span>'
+        '<span class="text-sm opacity-80">Price as read from the page.</span>'
         '<a class="btn btn-primary" href="' + esc(item["page_url"])
         + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
         + " \u2192</a></div>"
     )
+    parts.append('<p class="text-sm mb-1" data-age data-observed="' + esc(item["observed_at"])
+                 + '">Checked ' + esc(item["observed_at"][:10]) + "</p>")
     parts.append(coupon_html)
     if decision.verdict.value == "verify" and decision.manual_check:
         parts.append('<div class="alert alert-warning mb-3"><div>'
@@ -947,6 +950,21 @@ let controls = [];
 const noMatchText = document.getElementById("no-match-text");
 const noMatchActions = document.getElementById("no-match-actions");
 const shelfLine = new Map(cards.map(c => [c, c.querySelectorAll("[data-shelf-line]")[0].textContent]));
+// How old each stored check is, from its stored time only: whole days, no verdict, no threshold.
+function checkedAge(iso) {
+  const d = iso.slice(0, 10);
+  const then = Date.parse(d + "T00:00:00Z");
+  const t = new Date();
+  const today = Date.UTC(t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate());
+  const days = Math.round((today - then) / 86400000);
+  if (isNaN(days) || days < 0) return "Checked " + d;
+  if (days === 0) return "Checked today, " + d;
+  return "Checked " + days + (days === 1 ? " day" : " days") + " ago, " + d;
+}
+for (const c of cards) {
+  const el = c.querySelectorAll("[data-age]")[0];
+  el.textContent = checkedAge(el.getAttribute("data-observed"));
+}
 
 function mk(tag, cls, text) {
   const e = document.createElement(tag);
