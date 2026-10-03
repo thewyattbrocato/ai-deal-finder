@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:21:30Z",
+  "ship": [
+   "Shipping",
+   "You\u2019re $50.00 away from free shipping!"
+  ],
+  "size": [
+   "Size"
+  ],
+  "sub": [],
+  "url": "https://nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange"
+ },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange",
  "http_status": 200,

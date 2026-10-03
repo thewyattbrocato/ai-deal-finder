@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:21:59Z",
+  "ship": [
+   "Shipping",
+   "You\u2019re $50.00 away from free shipping!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro"
+ },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro",
  "http_status": 200,

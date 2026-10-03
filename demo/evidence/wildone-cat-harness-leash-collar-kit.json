@@ -1,4 +1,22 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:23:33Z",
+  "ship": [
+   "\ud83d\ude9a FREE Shipping on Orders $90+",
+   "Shipping & Returns",
+   "Shipping policy",
+   "Free Shipping on Orders $90+",
+   "You are $90.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "Collar Size: S / M \u2022 Cat",
+   "Size Guide",
+   "Collar Size: XS \u2022 Kitten",
+   "Size Purchased:"
+  ],
+  "sub": [],
+  "url": "https://wildone.com/products/cat-harness-leash-collar-kit"
+ },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-harness-leash-collar-kit",
  "http_status": 200,

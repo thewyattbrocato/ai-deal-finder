@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:18:53Z",
+  "ship": [
+   "Shipping + Delivery"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscription"
+  ],
+  "url": "https://www.deathwishcoffee.com/products/brown-saint-beanie"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/brown-saint-beanie",
  "http_status": 200,

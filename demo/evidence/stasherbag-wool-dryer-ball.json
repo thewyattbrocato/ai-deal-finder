@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:22:39Z",
+  "ship": [
+   "Free shipping $59+ SHOP NOW",
+   "Free shipping on orders $59+",
+   "Shipping & Returns",
+   "shipping & returns policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.stasherbag.com/products/wool-dryer-ball"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.stasherbag.com/products/wool-dryer-ball",
  "http_status": 200,

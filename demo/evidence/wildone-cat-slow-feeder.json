@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:24:04Z",
+  "ship": [
+   "\ud83d\ude9a FREE Shipping on Orders $90+",
+   "Shipping & Returns",
+   "Shipping policy",
+   "Free Shipping on Orders $90+",
+   "You are $90.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "Pack Size:"
+  ],
+  "sub": [],
+  "url": "https://wildone.com/products/cat-slow-feeder"
+ },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-slow-feeder",
  "http_status": 200,

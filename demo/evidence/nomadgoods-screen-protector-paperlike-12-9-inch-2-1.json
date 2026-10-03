@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:21:52Z",
+  "ship": [
+   "Awesome product. Super quick delivery. Love it so far!",
+   "Shipping",
+   "You\u2019re $50.00 away from free shipping!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1"
+ },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1",
  "http_status": 200,
