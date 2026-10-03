@@ -1188,5 +1188,190 @@
   "id": "stasherbag-school-essentials-6-pack",
   "url": "https://www.stasherbag.com/products/school-essentials-6-pack",
   "kind": "Kitchen"
+ },
+ {
+  "id": "olly-energy-mochi-bites",
+  "url": "https://olly.com/products/energy-mochi-bites",
+  "kind": "Wellness"
+ },
+ {
+  "id": "olly-sleep-mochi-bites",
+  "url": "https://olly.com/products/sleep-mochi-bites",
+  "kind": "Wellness"
+ },
+ {
+  "id": "olly-precise-probiotics-skin",
+  "url": "https://olly.com/products/precise-probiotics-skin",
+  "kind": "Wellness"
+ },
+ {
+  "id": "olly-kids-melatonin-free-sleep",
+  "url": "https://olly.com/products/kids-melatonin-free-sleep",
+  "kind": "Wellness"
+ },
+ {
+  "id": "moonjuice-supercell",
+  "url": "https://moonjuice.com/products/supercell",
+  "kind": "Wellness"
+ },
+ {
+  "id": "moonjuice-superhair",
+  "url": "https://moonjuice.com/products/superhair",
+  "kind": "Wellness"
+ },
+ {
+  "id": "moonjuice-neuro-magnesi-om",
+  "url": "https://moonjuice.com/products/neuro-magnesi-om",
+  "kind": "Wellness"
+ },
+ {
+  "id": "moonjuice-beauty-shroom-vegan-collagen-protection",
+  "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection",
+  "kind": "Wellness"
+ },
+ {
+  "id": "ritual-essential-for-women-multivitamin",
+  "url": "https://ritual.com/products/essential-for-women-multivitamin",
+  "kind": "Wellness"
+ },
+ {
+  "id": "ritual-essential-multivitamin-for-men",
+  "url": "https://ritual.com/products/essential-multivitamin-for-men",
+  "kind": "Wellness"
+ },
+ {
+  "id": "ritual-synbiotic-plus-for-gut-health",
+  "url": "https://ritual.com/products/synbiotic-plus-for-gut-health",
+  "kind": "Wellness"
+ },
+ {
+  "id": "ritual-hyacera-for-skin-hydration",
+  "url": "https://ritual.com/products/hyacera-for-skin-hydration",
+  "kind": "Wellness"
+ },
+ {
+  "id": "harrys-beard-and-face-wash",
+  "url": "https://harrys.com/products/beard-and-face-wash",
+  "kind": "Grooming"
+ },
+ {
+  "id": "harrys-harry-s-plus-handle",
+  "url": "https://harrys.com/products/harry-s-plus-handle",
+  "kind": "Grooming"
+ },
+ {
+  "id": "harrys-harrys-original-on-the-go-bundle",
+  "url": "https://harrys.com/products/harrys-original-on-the-go-bundle",
+  "kind": "Grooming"
+ },
+ {
+  "id": "leuchtturm-daily-planner-2027-12-months-dotted-english",
+  "url": "https://leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english",
+  "kind": "Office"
+ },
+ {
+  "id": "leuchtturm-covered-for-sunshine-a5-hardcover-notebook",
+  "url": "https://leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook",
+  "kind": "Office"
+ },
+ {
+  "id": "leuchtturm-drehgriffel-nr-2-pencil",
+  "url": "https://leuchtturm1917.us/products/drehgriffel-nr-2-pencil",
+  "kind": "Office"
+ },
+ {
+  "id": "leuchtturm-new-work-journal-1",
+  "url": "https://leuchtturm1917.us/products/new-work-journal-1",
+  "kind": "Office"
+ },
+ {
+  "id": "rishi-organic-vanilla-mint-black-tea-blend-teabag-sachets",
+  "url": "https://rishi-tea.com/products/organic-vanilla-mint-black-tea-blend-teabag-sachets",
+  "kind": "Tea"
+ },
+ {
+  "id": "rishi-lotus-black-tea",
+  "url": "https://rishi-tea.com/products/lotus-black-tea",
+  "kind": "Tea"
+ },
+ {
+  "id": "rishi-ceremonial-matcha-kit",
+  "url": "https://rishi-tea.com/products/ceremonial-matcha-kit",
+  "kind": "Tea"
+ },
+ {
+  "id": "rishi-doi-wawee-shu-puer-tea-cake",
+  "url": "https://rishi-tea.com/products/doi-wawee-shu-puer-tea-cake",
+  "kind": "Tea"
+ },
+ {
+  "id": "ghia-le-fizz-copy",
+  "url": "https://drinkghia.com/products/le-fizz-copy",
+  "kind": "Drinks"
+ },
+ {
+  "id": "ghia-blood-orange-4-pack",
+  "url": "https://drinkghia.com/products/blood-orange-4-pack",
+  "kind": "Drinks"
+ },
+ {
+  "id": "spindrift-blood-orange-tea",
+  "url": "https://drinkspindrift.com/products/blood-orange-tea",
+  "kind": "Drinks"
+ },
+ {
+  "id": "spindrift-lemon-tea",
+  "url": "https://drinkspindrift.com/products/lemon-tea",
+  "kind": "Drinks"
+ },
+ {
+  "id": "spindrift-ginger-lime-mule",
+  "url": "https://drinkspindrift.com/products/ginger-lime-mule",
+  "kind": "Drinks"
+ },
+ {
+  "id": "spindrift-cranberry-punch",
+  "url": "https://drinkspindrift.com/products/cranberry-punch",
+  "kind": "Drinks"
+ },
+ {
+  "id": "ghia-sumac-chili-4-pack",
+  "url": "https://drinkghia.com/products/sumac-chili-4-pack",
+  "kind": "Drinks"
+ },
+ {
+  "id": "ghia-ghia-ginger-4-pack",
+  "url": "https://drinkghia.com/products/ghia-ginger-4-pack",
+  "kind": "Drinks"
+ },
+ {
+  "id": "ghia-lime-salt-4-pack",
+  "url": "https://drinkghia.com/products/lime-salt-4-pack",
+  "kind": "Drinks"
+ },
+ {
+  "id": "vahdam-saffron-premium-masala-chai-tea",
+  "url": "https://vahdam.com/products/saffron-premium-masala-chai-tea",
+  "kind": "Tea"
+ },
+ {
+  "id": "vahdam-nilgiri-breakfast-black-tea-12oz",
+  "url": "https://vahdam.com/products/nilgiri-breakfast-black-tea-12oz",
+  "kind": "Tea"
+ },
+ {
+  "id": "vahdam-himalayan-green-tea-loose-leaf-12oz",
+  "url": "https://vahdam.com/products/himalayan-green-tea-loose-leaf-12oz",
+  "kind": "Tea"
+ },
+ {
+  "id": "vahdam-citrus-ginger-herbal-tea-tisane",
+  "url": "https://vahdam.com/products/citrus-ginger-herbal-tea-tisane",
+  "kind": "Tea"
+ },
+ {
+  "id": "harrys-harrys-plus-shave-shower-bundle",
+  "url": "https://harrys.com/products/harrys-plus-shave-shower-bundle",
+  "kind": "Grooming"
  }
 ]

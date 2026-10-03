@@ -1,0 +1,317 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:19Z",
+  "ship": [
+   "Free Shipping on Orders Over $50",
+   "Prices include VAT, excluding shipping costs.",
+   "Fast delivery"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook",
+ "http_status": 200,
+ "id": "leuchtturm-covered-for-sunshine-a5-hardcover-notebook",
+ "image_file": "leuchtturm-covered-for-sunshine-a5-hardcover-notebook.jpg",
+ "image_sha256": "1ae752d5e3eeb3463e30af8105d8f044338972e0f4d6e41e17e7cb7f8ff6e33e",
+ "image_source": "http://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Journals",
+   "description": "Bring a little sunshine to your everyday writing. This A5 hardcover notebook features a durable linen cover, colored page edges, and a matching postcard \u2014 perfect for journaling, planning, note-taking, or capturing ideas on the go.\n\u2022 Durable linen binding\u2022 Coloured page edges\u2022 Dotted pages\u2022 Includes a postcard for sunny greetings\u2022 Matching Pen Loop",
+   "hasVariant": [
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#variant",
+     "@type": "Product",
+     "gtin": "4070292006888",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Beach Rose",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229"
+     },
+     "sku": "400774"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#variant",
+     "@type": "Product",
+     "gtin": "4070292006901",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400777_LT1917_CoveredforSunshine_NB_Atlantic_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Atlantic",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997"
+     },
+     "sku": "400777"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#variant",
+     "@type": "Product",
+     "gtin": "4070292006895",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400776_LT1917_CoveredforSunshine_NB_Dune_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Dune",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765"
+     },
+     "sku": "400776"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#variant",
+     "@type": "Product",
+     "gtin": "4070292006871",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400775_LT1917_CoveredforSunshine_NB_Pinetree_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Pinetree",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533"
+     },
+     "sku": "400775"
+    }
+   ],
+   "name": "Covered for Sunshine A5 Hardcover Notebook",
+   "productGroupID": "9746224742645",
+   "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#variant",
+   "@type": "Product",
+   "gtin": "4070292006888",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Beach Rose",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229"
+   },
+   "sku": "400774"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#variant",
+   "@type": "Product",
+   "gtin": "4070292006901",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400777_LT1917_CoveredforSunshine_NB_Atlantic_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Atlantic",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997"
+   },
+   "sku": "400777"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#variant",
+   "@type": "Product",
+   "gtin": "4070292006895",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400776_LT1917_CoveredforSunshine_NB_Dune_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Dune",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765"
+   },
+   "sku": "400776"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#variant",
+   "@type": "Product",
+   "gtin": "4070292006871",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400775_LT1917_CoveredforSunshine_NB_Pinetree_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Pinetree",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533"
+   },
+   "sku": "400775"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Journals",
+   "description": "Bring a little sunshine to your everyday writing. This A5 hardcover notebook features a durable linen cover, colored page edges, and a matching postcard \u2014 perfect for journaling, planning, note-taking, or capturing ideas on the go.\n\u2022 Durable linen binding\u2022 Coloured page edges\u2022 Dotted pages\u2022 Includes a postcard for sunny greetings\u2022 Matching Pen Loop",
+   "hasVariant": [
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#variant",
+     "@type": "Product",
+     "gtin": "4070292006888",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Beach Rose",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229"
+     },
+     "sku": "400774"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#variant",
+     "@type": "Product",
+     "gtin": "4070292006901",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400777_LT1917_CoveredforSunshine_NB_Atlantic_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Atlantic",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997"
+     },
+     "sku": "400777"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#variant",
+     "@type": "Product",
+     "gtin": "4070292006895",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400776_LT1917_CoveredforSunshine_NB_Dune_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Dune",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765"
+     },
+     "sku": "400776"
+    },
+    {
+     "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#variant",
+     "@type": "Product",
+     "gtin": "4070292006871",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400775_LT1917_CoveredforSunshine_NB_Pinetree_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+     "name": "Covered for Sunshine A5 Hardcover Notebook - Pinetree",
+     "offers": {
+      "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533"
+     },
+     "sku": "400775"
+    }
+   ],
+   "name": "Covered for Sunshine A5 Hardcover Notebook",
+   "productGroupID": "9746224742645",
+   "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#variant",
+   "@type": "Product",
+   "gtin": "4070292006888",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Beach Rose",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073450229"
+   },
+   "sku": "400774"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#variant",
+   "@type": "Product",
+   "gtin": "4070292006901",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400777_LT1917_CoveredforSunshine_NB_Atlantic_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Atlantic",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073482997"
+   },
+   "sku": "400777"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#variant",
+   "@type": "Product",
+   "gtin": "4070292006895",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400776_LT1917_CoveredforSunshine_NB_Dune_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Dune",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073515765"
+   },
+   "sku": "400776"
+  },
+  {
+   "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#variant",
+   "@type": "Product",
+   "gtin": "4070292006871",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400775_LT1917_CoveredforSunshine_NB_Pinetree_2560x2560px_144dpi_sRGB.jpg?v=1783337139&width=1920",
+   "name": "Covered for Sunshine A5 Hardcover Notebook - Pinetree",
+   "offers": {
+    "@id": "/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook?variant=48371073548533"
+   },
+   "sku": "400775"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T21:27:15Z",
+ "og_image": "http://www.leuchtturm1917.us/cdn/shop/files/400774_LT1917_CoveredforSunshine_NB_BeachRose_2560x2560px_144dpi_sRGB.jpg?v=1783337139",
+ "page_sha256": "4dbf0e4f90a61e0486a34a23eb0f6e56c9ad252aad278e11ccbd0b8515bc834d",
+ "rendered_checked": true,
+ "title": "Covered for Sunshine A5 Hardcover Notebook \u2013 Leuchtturm1917.us",
+ "url": "https://leuchtturm1917.us/products/covered-for-sunshine-a5-hardcover-notebook"
+}

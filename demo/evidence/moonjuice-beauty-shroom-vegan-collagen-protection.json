@@ -1,0 +1,82 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:48Z",
+  "ship": [
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS",
+   "You are $65.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "Upgrade to Subscription and Save 30%",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS"
+  ],
+  "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection",
+ "http_status": 200,
+ "id": "moonjuice-beauty-shroom-vegan-collagen-protection",
+ "image_file": "moonjuice-beauty-shroom-vegan-collagen-protection.png",
+ "image_sha256": "c59b02d0ebcedaf87b678b2731583b3065ed2aab460b57acff0ea6c77964179d",
+ "image_source": "http://moonjuice.com/cdn/shop/products/Collagen_Protect_Bag_800x800_1.png?v=1766547630&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/beauty-shroom-vegan-collagen-protection#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Moon Juice"
+   },
+   "category": "Skincare",
+   "description": "Skin Care You Can Drink\n\n\nDescription\nBenefits\nHow to use\nIngredients\nSourcing\n\n\n\nSkin care you can drink.Collagen naturally breaks down with stress and time. Our vegan collagen creamer and skin supplement is formulated with 3 vegan ingredients to help protect and preserve your natural collagen.* High molecular weight Hyaluronic Acid is clinically shown to support collagen synthesis and reduce the appearance of fine lines.* Silver Ear Mushroom supports your skin barrier and promotes deep skin hydration.* Tocos contains essential fatty and amino acids to help protect collagen and prevent visible signs of aging.*\n\n\nHelps:\n\n+ preserve your natural collagen production*\n+ hydrate\u00a0skin*\n+ improve skin elasticity*\n+ minimize the appearance of fine lines and wrinkles*\n\n\n\nCollagen Protect\u00ae is a vegan collagen supplement. Add 1 rounded tbsp of this skin-protecting creamer to coffee or smoothies to promote healthy skin. Our plant-based collagen powder is a collagen builder that contains no additives, so it may clump. Blend for maximum yum.\n\n\nRice Bran Solubles (Tocotrienols), Tremella Fuciformis Sporocarp (Silver Ear Mushroom), Sodium Hyaluronate - Salt of Hyaluronic Acid\n100% NATURALLY-DERIVED INGREDIENTS\n\n\nOur ingredients are 100% traceable, unadulterated, and sustainably sourced. No bovine collagen or marine collagen; this is a true vegan collagen supplement.\n\n+ Silver Ear Mushroom, 100% fruiting body, organically grown in China.\n+ Tocos organically grown by a collective of family farmers in Thailand.\n+ Hyaluronic Acid bio-fermented with a molecular weight of 10,000-20,000 Daltons.\n\n",
+   "hasVariant": [
+    {
+     "@id": "/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835#variant",
+     "@type": "Product",
+     "image": "https://moonjuice.com/cdn/shop/products/Collagen_Protect_Bag_800x800_0feb4c05-c310-4808-adee-07d6cd38b013.png?v=1766547766&width=1920",
+     "name": "Collagen Protect - 8.5 oz",
+     "offers": {
+      "@id": "/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "58.00",
+      "priceCurrency": "USD",
+      "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835"
+     },
+     "sku": "SC00004"
+    }
+   ],
+   "name": "Collagen Protect",
+   "productGroupID": "1108585349177",
+   "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection"
+  },
+  {
+   "@id": "/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835#variant",
+   "@type": "Product",
+   "image": "https://moonjuice.com/cdn/shop/products/Collagen_Protect_Bag_800x800_0feb4c05-c310-4808-adee-07d6cd38b013.png?v=1766547766&width=1920",
+   "name": "Collagen Protect - 8.5 oz",
+   "offers": {
+    "@id": "/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "58.00",
+    "priceCurrency": "USD",
+    "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection?variant=31980175818835"
+   },
+   "sku": "SC00004"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:50Z",
+ "og_image": "http://moonjuice.com/cdn/shop/products/Collagen_Protect_Bag_800x800_1.png?v=1766547630",
+ "page_sha256": "f72bb1cdc8660d52fbfb74924340e84f1a27a2ea20f5c62ee0ef5259433be292",
+ "rendered_checked": true,
+ "title": "Vegan Collagen Powder Alternative Supplement | Moon Juice",
+ "url": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection"
+}

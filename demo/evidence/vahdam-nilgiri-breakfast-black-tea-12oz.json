@@ -1,0 +1,81 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:39Z",
+  "ship": [
+   "FREE US SHIPPING ON ORDERS ABOVE $59",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Manage Subscriptions"
+  ],
+  "url": "https://www.vahdam.com/products/nilgiri-breakfast-black-tea-12oz"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.vahdam.com/products/nilgiri-breakfast-black-tea-12oz",
+ "http_status": 200,
+ "id": "vahdam-nilgiri-breakfast-black-tea-12oz",
+ "image_file": "vahdam-nilgiri-breakfast-black-tea-12oz.jpg",
+ "image_sha256": "5ad5eac2f3264e98d09efaff6b8dd0dcc531b4d5e65696cec517e5924aaaad4f",
+ "image_source": "http://www.vahdam.com/cdn/shop/files/Nilgiri_Breakfast_01.jpg?v=1724217287&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/nilgiri-breakfast-black-tea-12oz#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "category": "Tea & Infusions",
+   "description": "Exotic &amp; outstanding Black tea from the high Nilgiri mountains, mellow &amp; full-bodied, perfect accompaniment to your breakfast each morning.",
+   "gtin": "LF034001163-BT",
+   "image": "https://www.vahdam.com/cdn/shop/files/Nilgiri_Breakfast_01.jpg?v=1724217287&width=1920",
+   "name": "Nilgiri Breakfast Black Tea, 12 oz",
+   "offers": {
+    "@id": "/products/nilgiri-breakfast-black-tea-12oz?variant=39454957994027#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "21.99",
+    "priceCurrency": "USD",
+    "url": "https://www.vahdam.com/products/nilgiri-breakfast-black-tea-12oz?variant=39454957994027"
+   },
+   "sku": "AMZBT2-100",
+   "url": "https://www.vahdam.com/products/nilgiri-breakfast-black-tea-12oz"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "5"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "description": "Exotic &amp; outstanding Black tea from the high Nilgiri mountains, mellow &amp; full-bodied, perfect accompaniment to your breakfast each morning.",
+   "image": [
+    "https://www.vahdam.com/cdn/shop/files/Nilgiri_Breakfast_01.jpg?v=1724217287&width=480"
+   ],
+   "name": "Nilgiri Breakfast Black Tea, 12 oz",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "21.99",
+    "priceCurrency": "USD",
+    "sku": "AMZBT2-100",
+    "url": "https://www.vahdam.com/products/nilgiri-breakfast-black-tea-12oz?variant=39454957994027"
+   },
+   "sku": "AMZBT2-100"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:28:24Z",
+ "og_image": "http://www.vahdam.com/cdn/shop/files/Nilgiri_Breakfast_01.jpg?v=1724217287&width=2048",
+ "page_sha256": "5c477f3a48dbf6cd89af80ba34b7765f32ad41babfc2d517caa535e0b5c2e3f9",
+ "rendered_checked": true,
+ "title": "Nilgiri Breakfast Black Tea, 12 oz | Loose Leaf Black Tea | VAHDAM\u00ae",
+ "url": "https://vahdam.com/products/nilgiri-breakfast-black-tea-12oz"
+}

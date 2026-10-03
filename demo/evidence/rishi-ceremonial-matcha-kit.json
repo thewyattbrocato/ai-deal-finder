@@ -1,0 +1,66 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:38:15Z",
+  "ship": [
+   "Free standard shipping on orders over $60: Shop Now",
+   "Shipping & Returns",
+   "Free Shipping",
+   "You are $60.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE"
+  ],
+  "sub": [
+   "Subscribe to Our Newsletter"
+  ],
+  "url": "https://www.rishi-tea.com/products/ceremonial-matcha-kit"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.rishi-tea.com/products/ceremonial-matcha-kit",
+ "http_status": 200,
+ "id": "rishi-ceremonial-matcha-kit",
+ "image_file": "rishi-ceremonial-matcha-kit.jpg",
+ "image_sha256": "dba7165c2d8131474af4c5af355b85453ba14fc3e15a653e254b933b4a8562ea",
+ "image_source": "http://www.rishi-tea.com/cdn/shop/files/PDP-Carousel-Matcha-Giftset-3.jpg?v=1762452526&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "8",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Rishi Tea &amp; Botanicals"
+   },
+   "description": "All the essential tools required to prepare a traditional matcha and our best-selling Ceremonial Matcha tin to get you started on your Matcha journey.\u00a0Set includes:\u00a0- 30g Rishi Ceremonial Matcha tin\u00a0- Chawan Matcha Bowl\u00a0- Chasen\u00a0Bamboo Whisk\u00a0- Chashaku Bamboo Scoop\u00a0- Furui Matcha Sifter\u00a0- Printed Matcha How-to Guide\u00a0",
+   "image": "https://www.rishi-tea.com/cdn/shop/files/PDP-Carousel-Matcha-Giftset-3_grande.jpg?v=1762452526",
+   "name": "Ceremonial Matcha Set",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "All the essential tools required to prepare a traditional matcha and our best-selling Ceremonial Matcha tin to get you started on your Matcha journey.\u00a0Set includes:\u00a0- 30g Rishi Ceremonial Matcha tin\u00a0- Chawan Matcha Bowl\u00a0- Chasen\u00a0Bamboo Whisk\u00a0- Chashaku Bamboo Scoop\u00a0- Furui Matcha Sifter\u00a0- Printed Matcha How-to Guide\u00a0",
+    "image": "https://www.rishi-tea.com/cdn/shop/files/PDP-Carousel-Matcha-Giftset-3_grande.jpg?v=1762452526",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Ceremonial Matcha Set",
+    "price": "95.00",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "RMATCHAKIT-EA",
+    "url": "https://www.rishi-tea.com/products/ceremonial-matcha-kit?variant=44558151418106"
+   },
+   "productID": "8017317626106",
+   "sku": "RMATCHAKIT-EA",
+   "url": "https://www.rishi-tea.com/products/ceremonial-matcha-kit"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:27:27Z",
+ "og_image": "http://www.rishi-tea.com/cdn/shop/files/PDP-Carousel-Matcha-Giftset-3.jpg?v=1762452526",
+ "page_sha256": "48bf1ce999a26a4e08a53bad75444a4605c856c88129371dccc643254fea1eb2",
+ "rendered_checked": true,
+ "title": "Ceremonial Matcha Set | Rishi Tea",
+ "url": "https://rishi-tea.com/products/ceremonial-matcha-kit"
+}

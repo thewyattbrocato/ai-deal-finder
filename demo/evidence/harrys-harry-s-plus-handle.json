@@ -1,0 +1,95 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:55Z",
+  "ship": [
+   "Free shipping for orders over $30",
+   "Flexible shipping. Cancel any time."
+  ],
+  "size": [],
+  "sub": [
+   "Unlock 5% off sitewide by signing up for any subscription",
+   "Subscribe & Save",
+   "SUBSCRIBE",
+   "About Subscriptions"
+  ],
+  "url": "https://www.harrys.com/en/products/harry-s-plus-handle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.harrys.com/en/products/harry-s-plus-handle",
+ "http_status": 200,
+ "id": "harrys-harry-s-plus-handle",
+ "image_file": "harrys-harry-s-plus-handle.jpg",
+ "image_sha256": "ebea072fafeaf3ca9a37d7954901e27c1bb4471c597294209ac155dbf6bd7134",
+ "image_source": "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/H_Plus_Onyx_01.jpg?v=1787673143&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "product_type",
+     "value": "[\"razor handle\"]"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4,
+    "reviewCount": 15437
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Harry's US"
+   },
+   "category": "Handles",
+   "description": "Includes 1 Harry\u2019s Plus razor and 1 Harry\u2019s Plus blade cartridge. Our Advanced Pivoting System more easily adapts to the curves of your face for a more ...",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0883/9528/4786/files/H_Plus_Onyx_01.jpg?v=1787673143"
+   ],
+   "name": "Harry's Plus Handle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 12,
+     "priceCurrency": "USD",
+     "sku": "9050099801",
+     "url": "https://www.harrys.com/en/products/harry-s-plus-handle?Color=Plus+-+Onyx"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 12,
+     "priceCurrency": "USD",
+     "sku": "9050144702",
+     "url": "https://www.harrys.com/en/products/harry-s-plus-handle?Color=Plus+-+Tide"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 12,
+     "priceCurrency": "USD",
+     "sku": "9050099803",
+     "url": "https://www.harrys.com/en/products/harry-s-plus-handle?Color=Plus+-+Moss"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "price": 12,
+     "priceCurrency": "USD",
+     "sku": "9050099804",
+     "url": "https://www.harrys.com/en/products/harry-s-plus-handle?Color=Plus+-+Clay"
+    }
+   ],
+   "sku": "9050099801",
+   "url": "https://www.harrys.com/en/products/harry-s-plus-handle"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T21:27:07Z",
+ "og_image": null,
+ "page_sha256": "6678d9d3663bcd338d06f8e320b3ec700f21532a49eee3214b04529953dd0966",
+ "rendered_checked": true,
+ "title": "Harry's Plus Handle | Harry's",
+ "url": "https://harrys.com/products/harry-s-plus-handle"
+}

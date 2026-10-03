@@ -1,0 +1,78 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:37:29Z",
+  "ship": [
+   "Free Shipping on Orders Over $59",
+   "Fast Shipping",
+   "shipping over $49.",
+   "You are $59.00 away from FREE SHIPPING"
+  ],
+  "size": [],
+  "sub": [
+   "Save 15% when you subscribe",
+   "Can I subscribe and save?",
+   "Learn About Subscriptions"
+  ],
+  "url": "https://www.olly.com/products/kids-melatonin-free-sleep"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.olly.com/products/kids-melatonin-free-sleep",
+ "http_status": 200,
+ "id": "olly-kids-melatonin-free-sleep",
+ "image_file": "olly-kids-melatonin-free-sleep.png",
+ "image_sha256": "b6714659b52fcdfd955e4119b82262fd2144a56a797896b041b181d01d3e952f",
+ "image_source": "https://www.olly.com/cdn/shop/files/2aacb20090fb346c9630eca7cad78bda78524124_grande.png?v=1769222345&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.olly.com/products/kids-melatonin-free-sleep",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.6,
+    "reviewCount": 52,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Organization",
+    "name": "OLLY"
+   },
+   "description": "When the evening struggle hits, your kiddo needs support that helps them find sweeter sleep. This Melatonin-free solution is a parent\u2019s dream partner in promoting a restful nightly routine for kids.*50 CountMagnesium, L-Theanine &amp; Botanical ExtractsCloudberry Peach Flavored with other natural flavors",
+   "gtin12": "840160203879",
+   "image": "https://www.olly.com/cdn/shop/files/2aacb20090fb346c9630eca7cad78bda78524124_grande.png?v=1769222345",
+   "name": "Kids Melatonin Free Sleep",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "description": "When the evening struggle hits, your kiddo needs support that helps them find sweeter sleep. This Melatonin-free solution is a parent\u2019s dream partner in promoting a restful nightly routine for kids.*50 CountMagnesium, L-Theanine &amp; Botanical ExtractsCloudberry Peach Flavored with other natural flavors",
+    "gtin12": "840160203879",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 30,
+     "merchantReturnLink": "https://help.olly.com/hc/en-us/articles/360035072232-What-is-the-return-policy",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+    },
+    "image": "https://www.olly.com/cdn/shop/files/2aacb20090fb346c9630eca7cad78bda78524124_2000x.png?v=1769222345",
+    "itemCondition": "https://schema.org/NewCondition",
+    "name": "Kids Melatonin Free Sleep",
+    "price": "14.99",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "700688",
+    "url": "https://www.olly.com/products/kids-melatonin-free-sleep?variant=42056968994891"
+   },
+   "productID": "7541532098635",
+   "sku": "700688",
+   "url": "https://www.olly.com/products/kids-melatonin-free-sleep"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:40Z",
+ "og_image": "https://www.olly.com/cdn/shop/files/2aacb20090fb346c9630eca7cad78bda78524124_grande.png?v=1769222345",
+ "page_sha256": "3ccf0314f77b0a1d7b57c259c99ca74d79a84b2077f99bb3888555a89512fd73",
+ "rendered_checked": true,
+ "title": "Kids Melatonin Free Sleep \u2013 OLLY PBC",
+ "url": "https://olly.com/products/kids-melatonin-free-sleep"
+}

@@ -1,0 +1,68 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:38:23Z",
+  "ship": [
+   "Free standard shipping on orders over $60: Shop Now",
+   "Shipping & Returns",
+   "Free Shipping",
+   "You are $60.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE:",
+   "Size:",
+   "SIZE"
+  ],
+  "sub": [
+   "Subscribe to Our Newsletter"
+  ],
+  "url": "https://www.rishi-tea.com/products/doi-wawee-shu-puer-tea-cake"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.rishi-tea.com/products/doi-wawee-shu-puer-tea-cake",
+ "http_status": 200,
+ "id": "rishi-doi-wawee-shu-puer-tea-cake",
+ "image_file": "rishi-doi-wawee-shu-puer-tea-cake.png",
+ "image_sha256": "85411c3f18b7fcb2c9e233bb57d03d639c5e222a145df15e81cf9dbc91f7947b",
+ "image_source": "http://www.rishi-tea.com/cdn/shop/files/TeaCircle_DoiWaweeShuPuerTeacake_Optimized-WSHU25250-RP-2025.png?v=1764212005&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "6",
+    "ratingValue": "4.5"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "Rishi Tea &amp; Botanicals"
+   },
+   "description": "This Shu Pu\u2019er is smooth and robust with a thick and syrupy infusion. Layers of cacao nibs, dark honey and raspberry jam unfold over the course of a brewing session. This is one of the stellar selections of ripe Pu'er with lots of flavor and boundless energy from the ancient roots of old tea trees in Doi Wawee.",
+   "image": "https://www.rishi-tea.com/cdn/shop/files/TeaCircle_DoiWaweeShuPuerTeacake_Optimized-WSHU25250-RP-2025_grande.png?v=1764212005",
+   "name": "Doi Wawee Shu Pu&#39;er Tea Cake",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "This Shu Pu\u2019er is smooth and robust with a thick and syrupy infusion. Layers of cacao nibs, dark honey and raspberry jam unfold over the course of a brewing session. This is one of the stellar selections of ripe Pu'er with lots of flavor and boundless energy from the ancient roots of old tea trees in Doi Wawee.",
+    "image": "https://www.rishi-tea.com/cdn/shop/files/TeaCircle_DoiWaweeShuPuerTeacake_Optimized-WSHU25250-RP-2025_grande.png?v=1764212005",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Doi Wawee Shu Pu&#39;er Tea Cake - 250 Grams",
+    "price": "52.00",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "WSHU25250-RP",
+    "url": "https://www.rishi-tea.com/products/doi-wawee-shu-puer-tea-cake?variant=48007918420218"
+   },
+   "productID": "9011640566010",
+   "sku": "WSHU25250-RP",
+   "url": "https://www.rishi-tea.com/products/doi-wawee-shu-puer-tea-cake"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:27:30Z",
+ "og_image": "http://www.rishi-tea.com/cdn/shop/files/TeaCircle_DoiWaweeShuPuerTeacake_Optimized-WSHU25250-RP-2025.png?v=1764212005",
+ "page_sha256": "fcace0361a6ff8cad2f1ec564ac73e9d2ac1485ce857c71cb0a05a5d45bba662",
+ "rendered_checked": true,
+ "title": "Doi Wawee Shu Pu'er Tea Cake | Rishi Tea",
+ "url": "https://rishi-tea.com/products/doi-wawee-shu-puer-tea-cake"
+}

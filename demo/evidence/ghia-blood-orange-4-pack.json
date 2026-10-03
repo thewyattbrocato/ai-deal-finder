@@ -1,0 +1,155 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:10Z",
+  "ship": [
+   "Free Shipping On Orders $60+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription",
+   "Subscribe & Save 15%",
+   "Manage Subscription"
+  ],
+  "url": "https://drinkghia.com/products/blood-orange-4-pack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkghia.com/products/blood-orange-4-pack",
+ "http_status": 200,
+ "id": "ghia-blood-orange-4-pack",
+ "image_file": "ghia-blood-orange-4-pack.png",
+ "image_sha256": "dff9ea2c3bbb0785289f032ca422d388054c7d27549d953f603cc5f8576d3840",
+ "image_source": "http://drinkghia.com/cdn/shop/files/BloodOrange-4pack3.png?v=1755576669&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/blood-orange-4-pack#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "5",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ghia"
+   },
+   "description": "",
+   "image": "https://drinkghia.com/cdn/shop/files/BloodOrange-4pack3_450x450.png?v=1755576669",
+   "mpn": "8556287590634",
+   "name": "Blood Orange",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "20.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ghia"
+    }
+   },
+   "url": "/products/blood-orange-4-pack"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 5,
+    "reviewCount": 5,
+    "worstRating": 1
+   },
+   "name": "Blood Orange",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "joanne h."
+     },
+     "datePublished": "2026-02-23T00:34:18.210Z",
+     "name": "A newer flavor, it doesn't disappoint.",
+     "reviewBody": "This is delicious as well as the other flavors.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrea"
+     },
+     "datePublished": "2026-01-29T18:14:37.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Like everything, dislike nothing.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Cindy"
+     },
+     "datePublished": "2025-12-27T03:21:02.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Excited to try blood orange",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Sonja"
+     },
+     "datePublished": "2025-12-21T02:25:56.762Z",
+     "name": "Yum",
+     "reviewBody": "My new favorite NA beverage!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Hailey"
+     },
+     "datePublished": "2025-11-23T00:22:22.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Love the new blood oramge flavor!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:41Z",
+ "og_image": "http://drinkghia.com/cdn/shop/files/BloodOrange-4pack3.png?v=1755576669",
+ "page_sha256": "2e87cca055d26ffa7c8f3cac5f49cd0ea690463561086d74844f30bec579972e",
+ "rendered_checked": true,
+ "title": "Ghia Non-Alcoholic Ap\u00e9ritifs | Le Spritz Blood Orange",
+ "url": "https://drinkghia.com/products/blood-orange-4-pack"
+}

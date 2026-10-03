@@ -1,0 +1,320 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:25Z",
+  "ship": [
+   "Free Shipping on Orders Over $50",
+   "Prices include VAT, excluding shipping costs.",
+   "Fast delivery"
+  ],
+  "size": [
+   "SIZE",
+   "Sizes:"
+  ],
+  "sub": [],
+  "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english",
+ "http_status": 200,
+ "id": "leuchtturm-daily-planner-2027-12-months-dotted-english",
+ "image_file": "leuchtturm-daily-planner-2027-12-months-dotted-english.jpg",
+ "image_sha256": "bb712af59464e925c969032c969ca09f433a6b7d26a5eb08fa421f3cf3cf3491",
+ "image_source": "http://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/daily-planner-2027-12-months-dotted-english#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Planners",
+   "description": "A full page for every day on a dotted grid \u2014 structure when you need it, freedom when you don't.\n\nJanuary 2027 \u2013 December 2027\nA full page per day with dotted ruling, 464 numbered pages\nBlank table of contents\n3-year overview and planning overview to December 2028\n8 perforated, detachable sheets\nGusseted pocket, 2 page markers, elastic enclosure band\nMedium (A5), hardcover\n",
+   "hasVariant": [
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#variant",
+     "@type": "Product",
+     "gtin": "4070292003191",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Black",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373"
+     },
+     "sku": "400333"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#variant",
+     "@type": "Product",
+     "gtin": "4070292003207",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400334_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Dusty_Rose_Frontshot_2560px_144DPI_sRGB_27331114-3f94-4d02-bbcf-def50c6d4637.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Dusty Rose",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141"
+     },
+     "sku": "400334"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#variant",
+     "@type": "Product",
+     "gtin": "4070292003214",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400335_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Sunflower_Frontshot_2560px_144DPI_sRGB_924e4a89-0250-49be-90b9-346adf8d98f6.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Sunflower",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909"
+     },
+     "sku": "400335"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#variant",
+     "@type": "Product",
+     "gtin": "4070292003221",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400336_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Forest_Green_Frontshot_2560px_144DPI_sRGB_cc854026-72b4-4fcf-b3ae-3b053baacc5a.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Forest Green",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677"
+     },
+     "sku": "400336"
+    }
+   ],
+   "name": "Daily Planner 2027, 12 Months, Dotted",
+   "productGroupID": "9827135389941",
+   "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#variant",
+   "@type": "Product",
+   "gtin": "4070292003191",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Black",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373"
+   },
+   "sku": "400333"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#variant",
+   "@type": "Product",
+   "gtin": "4070292003207",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400334_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Dusty_Rose_Frontshot_2560px_144DPI_sRGB_27331114-3f94-4d02-bbcf-def50c6d4637.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Dusty Rose",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141"
+   },
+   "sku": "400334"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#variant",
+   "@type": "Product",
+   "gtin": "4070292003214",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400335_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Sunflower_Frontshot_2560px_144DPI_sRGB_924e4a89-0250-49be-90b9-346adf8d98f6.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Sunflower",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909"
+   },
+   "sku": "400335"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#variant",
+   "@type": "Product",
+   "gtin": "4070292003221",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400336_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Forest_Green_Frontshot_2560px_144DPI_sRGB_cc854026-72b4-4fcf-b3ae-3b053baacc5a.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Forest Green",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677"
+   },
+   "sku": "400336"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/daily-planner-2027-12-months-dotted-english#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Planners",
+   "description": "A full page for every day on a dotted grid \u2014 structure when you need it, freedom when you don't.\n\nJanuary 2027 \u2013 December 2027\nA full page per day with dotted ruling, 464 numbered pages\nBlank table of contents\n3-year overview and planning overview to December 2028\n8 perforated, detachable sheets\nGusseted pocket, 2 page markers, elastic enclosure band\nMedium (A5), hardcover\n",
+   "hasVariant": [
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#variant",
+     "@type": "Product",
+     "gtin": "4070292003191",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Black",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373"
+     },
+     "sku": "400333"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#variant",
+     "@type": "Product",
+     "gtin": "4070292003207",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400334_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Dusty_Rose_Frontshot_2560px_144DPI_sRGB_27331114-3f94-4d02-bbcf-def50c6d4637.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Dusty Rose",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141"
+     },
+     "sku": "400334"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#variant",
+     "@type": "Product",
+     "gtin": "4070292003214",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400335_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Sunflower_Frontshot_2560px_144DPI_sRGB_924e4a89-0250-49be-90b9-346adf8d98f6.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Sunflower",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909"
+     },
+     "sku": "400335"
+    },
+    {
+     "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#variant",
+     "@type": "Product",
+     "gtin": "4070292003221",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400336_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Forest_Green_Frontshot_2560px_144DPI_sRGB_cc854026-72b4-4fcf-b3ae-3b053baacc5a.jpg?v=1786566608&width=1920",
+     "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Forest Green",
+     "offers": {
+      "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "32.50",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677"
+     },
+     "sku": "400336"
+    }
+   ],
+   "name": "Daily Planner 2027, 12 Months, Dotted",
+   "productGroupID": "9827135389941",
+   "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#variant",
+   "@type": "Product",
+   "gtin": "4070292003191",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Black",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425008373"
+   },
+   "sku": "400333"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#variant",
+   "@type": "Product",
+   "gtin": "4070292003207",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400334_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Dusty_Rose_Frontshot_2560px_144DPI_sRGB_27331114-3f94-4d02-bbcf-def50c6d4637.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Dusty Rose",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425041141"
+   },
+   "sku": "400334"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#variant",
+   "@type": "Product",
+   "gtin": "4070292003214",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400335_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Sunflower_Frontshot_2560px_144DPI_sRGB_924e4a89-0250-49be-90b9-346adf8d98f6.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Sunflower",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425073909"
+   },
+   "sku": "400335"
+  },
+  {
+   "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#variant",
+   "@type": "Product",
+   "gtin": "4070292003221",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400336_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Forest_Green_Frontshot_2560px_144DPI_sRGB_cc854026-72b4-4fcf-b3ae-3b053baacc5a.jpg?v=1786566608&width=1920",
+   "name": "Daily Planner 2027, 12 Months, Dotted - Medium (A5) / Hardcover / Forest Green",
+   "offers": {
+    "@id": "/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "32.50",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english?variant=48586425106677"
+   },
+   "sku": "400336"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T21:27:13Z",
+ "og_image": "http://www.leuchtturm1917.us/cdn/shop/files/400333_LT1917_TK_12_2027_EN_Medium_A5_HC_Dotted_Schwarz_Frontshot_2560px_144DPI_sRGB_75729f86-21f4-46bb-bf9e-f6f6ed8ce690.jpg?v=1786566608",
+ "page_sha256": "cf2cd9e4c68aa44cd5bd15b022f106646fcc3854e55dbf6dd1241df6042049ae",
+ "rendered_checked": true,
+ "title": "Daily Planner 2027, 12 Months, Dotted \u2013 Leuchtturm1917.us",
+ "url": "https://leuchtturm1917.us/products/daily-planner-2027-12-months-dotted-english"
+}

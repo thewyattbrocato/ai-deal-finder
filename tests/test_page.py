@@ -147,7 +147,7 @@ class SearchFirstTest(unittest.TestCase):
         start = self.d["load"]["startText"]
         self.assertIn("Or start with a kind", start)
         self.assertIn("Kitchen30 products", start)
-        self.assertIn("Browse all 244 checked products", start)
+        self.assertIn("Browse all 281 checked products", start)
         self.assertIn("never guessed", start)
 
     # ---- 2. results as the first characters are typed -------------------------
@@ -299,7 +299,7 @@ class SearchFirstTest(unittest.TestCase):
 
     def test_full_detail_stays_on_the_same_card_one_tap_away(self):
         cards = page_cards(self.page)
-        self.assertEqual(len(cards), 244)
+        self.assertEqual(len(cards), 281)
         for c in cards:
             body = c[c.index('<details class="more">'):]
             self.assertIn("<summary>Full details: savings, coupon window, what to confirm, terms</summary>", body)
@@ -431,9 +431,9 @@ class SearchFirstTest(unittest.TestCase):
 
     def test_opening_a_kind_or_everything_keeps_nothing_blocking(self):
         self.assertEqual(self.d["tile"]["active"][0]["label"][:12], "Remove: Kind")
-        self.assertEqual(self.d["browseAll"]["count"], "244 checked products")
+        self.assertEqual(self.d["browseAll"]["count"], "281 checked products")
         self.assertEqual(len(self.d["browseAll"]["main"]), 24)
-        self.assertEqual(self.d["browseAll"]["showMore"], "Show 24 more (220 left)")
+        self.assertEqual(self.d["browseAll"]["showMore"], "Show 24 more (257 left)")
         self.assertEqual(self.d["afterKind"]["count"], "9 checked products for “coffee”")
         self.assertEqual(self.d["removeKind"]["count"], "20 checked products for “coffee”")
 
@@ -450,7 +450,7 @@ class SearchFirstTest(unittest.TestCase):
         for n in near:
             self.assertIn("Matches “espresso” · doesn’t match “machine”", n["text"])
             self.assertTrue(n["href"].startswith("https://"))
-        for b in ("Kitchen 30", "Browse all 244", "Clear search"):
+        for b in ("Kitchen 30", "Browse all 281", "Clear search"):
             self.assertTrue([x for x in e["buttons"] if x.startswith(b)], b)
         z = self.d["typed"]["zzyzx"]["empty"]
         self.assertEqual(z["near"], [])
@@ -497,7 +497,7 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(refreshed["count"].split(" ")[0], str(len(refreshed["main"])) if len(refreshed["main"]) < 24 else "24")
         r = self.d["hashRestore"]
         self.assertEqual(r["#kind=Shoes"]["count"], "14 checked products")
-        self.assertEqual(r["#all=1"]["count"], "244 checked products")
+        self.assertEqual(r["#all=1"]["count"], "281 checked products")
         lo = [self.cents(c["priceLabel"]) for c in r["#q=coffee&sort=lo"]["main"]]
         self.assertEqual(lo, sorted(lo))
         self.assertEqual(r["#q=coffee&size=2%20lb"]["count"], "2 checked products for “coffee”")

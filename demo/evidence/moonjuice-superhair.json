@@ -1,0 +1,82 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:32:16Z",
+  "ship": [
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS",
+   "You are $65.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "Upgrade to Subscription and Save 30%",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS"
+  ],
+  "url": "https://moonjuice.com/products/superhair"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://moonjuice.com/products/superhair",
+ "http_status": 200,
+ "id": "moonjuice-superhair",
+ "image_file": "moonjuice-superhair.png",
+ "image_sha256": "6e2c06ddf74c92f87d7c470c5dcb444569aa5cc8fa92c8282618233f6fff970d",
+ "image_source": "http://moonjuice.com/cdn/shop/products/SuperHair_800x800_1e036d6d-c5a7-4bc3-ada4-58fb5e0c09bc.png?v=1762198161&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/superhair#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Moon Juice"
+   },
+   "category": "Supplements",
+   "description": "Multivitamin + hair magic\n\n\nDescription\nBenefits\nHow to use\nIngredients\nSourcing\n\n\n\nSuperHair\u00ae is your multivitamin for hair magic.\nOur clinical strength hair supplement promotes healthier, thicker, stronger hair 4 ways.* 10 bioavailable vitamins make up a comprehensive multivitamin to address the nutritional deficiencies that inhibit the growth of healthy hair.* Adaptogens like ashwagandha help balance stress hormones that can contribute to thinning and hair loss.* Botanicals like saw palmetto support healthy hair follicles and promote thickness, and micronutrients promote hair strength and smooth texture.* Commit to SuperHair\u00ae daily, and you should start to see hair health results in 90 days.*\nCommit to SuperHair\u00ae daily, and you should start to see hair health results in 4 weeks.* Recurring subscription orders are fulfilled with compostable pouches to refill your original\u00a0bottle.\nHOW SUPERHAIR STACKS UP\n*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.\n\n\nMULTIVITAMINS+ Bioavailable Vitamins: Vitamin A, six Vitamin B's, Vitamin C, Vitamin D, Vitamin E, and Vitamin K address the nutritional deficiencies that inhibit the growth of healthy hair*\nADAPTOGEN+ Organic Ashwagandha: helps balance stress hormones and reduce the effects of oxidative stress, which can contribute to hair loss*\nFOLLICLE PROTECTORS+\u00a0Saw Palmetto &amp; Pumpkin Seed: help inhibit the hair-destructive hormone, DHT, to support healthy hair follicles and promote thickness*\nMICRONUTRIENTS+ Horsetail: provides silica, for hair strength and thickness.*+ Biotin: supports healthy keratin infrastructure \u2014 linked to smooth texture.*+ Kelp: rich in iodine and essential for endocrine and thyroid hormone balance \u2014 imbalance can contribute to hair loss*\n*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.\n\n\nTake 4 caps of SuperHair\u00ae every morning, with or without food, for healthier, thicker, stronger hair.*\n\n\nVitamin A (as Vitamin A Palmitate), Vitamin C (as Ascorbic Acid), Vitamin D3 (as Vitashine D3\u2122 Cholecalciferol), Vitamin E (as D-alpha Tocopherol), Vitamin B1 (Thiamin as B complex), Vitamin B2 (Riboflavin as B complex), Vitamin B3 (Niacin as B complex), Vitamin B6 (as B complex), Folate (as L-methylfolate Calcium (Metafolin\u00ae), B complex), Vitamin B12 (as Methylcobalamin), B complex), Biotin,\u00a0Vitamin B5 (Pantothenic Acid as B Complex), Iron (as Iron Bisglycinate), Iodine (as Organic Kelp (Laminaria digitata) Powder), Pumpkin (Cucurbita moschata) (Seed) Powder, Organic Ashwagandha (Withania somnifera) Root Extract (KSM-66\u00ae), Horsetail (Equisetum arvense L.) (Grass) Extract, Saw Palmetto (Serenoa repens) (Fruit) Extract, B Complex (Guava (Psidium guajava) (Fruit) Extract, Holy Basil (Ocimum sanctum) (Leaf) Extract, Lemon (Citrus limon) (Fruit Peel) Extract), Vitamin K2 (From MK-7), \u00a0Vegetable Capsule (Hypromellose), Organic Rice Concentrate, Rice Bran Wax.\u00a0\n\n\nOur ingredients are 100% traceable, unadulterated, and sustainably sourced.\n\n+ All vitamins are bioavailable, bioactive, and USP grade.\n+ Ashwagandha from organic farms in India.\n+ Kelp wild harvested from a kelp forest in Iceland.\n\n+ Horsetail hand harvested from Spain.\n+ Saw Palmetto wildcrafted from the U.S.\n\n",
+   "hasVariant": [
+    {
+     "@id": "/products/superhair?variant=39633444110419#variant",
+     "@type": "Product",
+     "gtin": "815784021994",
+     "image": "https://moonjuice.com/cdn/shop/products/SuperHair_800x800_1e036d6d-c5a7-4bc3-ada4-58fb5e0c09bc.png?v=1762198161&width=1920",
+     "name": "SuperHair\u00ae - Bottle",
+     "offers": {
+      "@id": "/products/superhair?variant=39633444110419#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "66.00",
+      "priceCurrency": "USD",
+      "url": "https://moonjuice.com/products/superhair?variant=39633444110419"
+     },
+     "sku": "CU00002"
+    }
+   ],
+   "name": "SuperHair\u00ae",
+   "productGroupID": "2559501041747",
+   "url": "https://moonjuice.com/products/superhair"
+  },
+  {
+   "@id": "/products/superhair?variant=39633444110419#variant",
+   "@type": "Product",
+   "gtin": "815784021994",
+   "image": "https://moonjuice.com/cdn/shop/products/SuperHair_800x800_1e036d6d-c5a7-4bc3-ada4-58fb5e0c09bc.png?v=1762198161&width=1920",
+   "name": "SuperHair\u00ae - Bottle",
+   "offers": {
+    "@id": "/products/superhair?variant=39633444110419#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "66.00",
+    "priceCurrency": "USD",
+    "url": "https://moonjuice.com/products/superhair?variant=39633444110419"
+   },
+   "sku": "CU00002"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:45Z",
+ "og_image": "http://moonjuice.com/cdn/shop/products/SuperHair_800x800_1e036d6d-c5a7-4bc3-ada4-58fb5e0c09bc.png?v=1762198161",
+ "page_sha256": "6d7dd141bc4d7633b0265310bdaba9b7b44bd04d7c51ec96e84c3056a0fba765",
+ "rendered_checked": true,
+ "title": "SuperHair: Vegan Hair Supplement & Multivitamin | Moon Juice",
+ "url": "https://moonjuice.com/products/superhair"
+}

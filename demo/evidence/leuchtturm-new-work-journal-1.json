@@ -1,0 +1,183 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:31:38Z",
+  "ship": [
+   "Free Shipping on Orders Over $50",
+   "Prices include VAT, excluding shipping costs.",
+   "Fast delivery"
+  ],
+  "size": [
+   "Composition size: approx. 7 x 10 in (178 x 254 mm)"
+  ],
+  "sub": [],
+  "url": "https://www.leuchtturm1917.us/products/new-work-journal-1"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.leuchtturm1917.us/products/new-work-journal-1",
+ "http_status": 200,
+ "id": "leuchtturm-new-work-journal-1",
+ "image_file": "leuchtturm-new-work-journal-1.jpg",
+ "image_sha256": "4a40792df747e53ba7e9ce78dbf56be44d867a616654b130ad3bf4af56b655f1",
+ "image_source": "http://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/new-work-journal-1#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Journals",
+   "description": "\nHardcover\nComposition size (B5): approx. 7 x 10 in (178 x 254 mm)\n288 numbered pages\n100 gsm paper, approx. 68 lb text weight\nFormat: Composition (B5)\n",
+   "hasVariant": [
+    {
+     "@id": "/products/new-work-journal-1?variant=48300751880437#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970&width=1920",
+     "name": "New Work Journal - Indigo",
+     "offers": {
+      "@id": "/products/new-work-journal-1?variant=48300751880437#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751880437"
+     },
+     "sku": "400016"
+    },
+    {
+     "@id": "/products/new-work-journal-1?variant=48300751913205#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400015_LT1917_NWJ_FS_Sunflower_ENG_150dpi_sRGB.jpg?v=1782141620&width=1920",
+     "name": "New Work Journal - Sunflower",
+     "offers": {
+      "@id": "/products/new-work-journal-1?variant=48300751913205#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751913205"
+     },
+     "sku": "400015"
+    }
+   ],
+   "name": "New Work Journal",
+   "productGroupID": "9730016444661",
+   "url": "https://www.leuchtturm1917.us/products/new-work-journal-1"
+  },
+  {
+   "@id": "/products/new-work-journal-1?variant=48300751880437#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970&width=1920",
+   "name": "New Work Journal - Indigo",
+   "offers": {
+    "@id": "/products/new-work-journal-1?variant=48300751880437#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751880437"
+   },
+   "sku": "400016"
+  },
+  {
+   "@id": "/products/new-work-journal-1?variant=48300751913205#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400015_LT1917_NWJ_FS_Sunflower_ENG_150dpi_sRGB.jpg?v=1782141620&width=1920",
+   "name": "New Work Journal - Sunflower",
+   "offers": {
+    "@id": "/products/new-work-journal-1?variant=48300751913205#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751913205"
+   },
+   "sku": "400015"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/new-work-journal-1#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Leuchtturm1917.us"
+   },
+   "category": "Journals",
+   "description": "\nHardcover\nComposition size (B5): approx. 7 x 10 in (178 x 254 mm)\n288 numbered pages\n100 gsm paper, approx. 68 lb text weight\nFormat: Composition (B5)\n",
+   "hasVariant": [
+    {
+     "@id": "/products/new-work-journal-1?variant=48300751880437#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970&width=1920",
+     "name": "New Work Journal - Indigo",
+     "offers": {
+      "@id": "/products/new-work-journal-1?variant=48300751880437#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751880437"
+     },
+     "sku": "400016"
+    },
+    {
+     "@id": "/products/new-work-journal-1?variant=48300751913205#variant",
+     "@type": "Product",
+     "image": "https://www.leuchtturm1917.us/cdn/shop/files/400015_LT1917_NWJ_FS_Sunflower_ENG_150dpi_sRGB.jpg?v=1782141620&width=1920",
+     "name": "New Work Journal - Sunflower",
+     "offers": {
+      "@id": "/products/new-work-journal-1?variant=48300751913205#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.95",
+      "priceCurrency": "USD",
+      "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751913205"
+     },
+     "sku": "400015"
+    }
+   ],
+   "name": "New Work Journal",
+   "productGroupID": "9730016444661",
+   "url": "https://www.leuchtturm1917.us/products/new-work-journal-1"
+  },
+  {
+   "@id": "/products/new-work-journal-1?variant=48300751880437#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970&width=1920",
+   "name": "New Work Journal - Indigo",
+   "offers": {
+    "@id": "/products/new-work-journal-1?variant=48300751880437#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751880437"
+   },
+   "sku": "400016"
+  },
+  {
+   "@id": "/products/new-work-journal-1?variant=48300751913205#variant",
+   "@type": "Product",
+   "image": "https://www.leuchtturm1917.us/cdn/shop/files/400015_LT1917_NWJ_FS_Sunflower_ENG_150dpi_sRGB.jpg?v=1782141620&width=1920",
+   "name": "New Work Journal - Sunflower",
+   "offers": {
+    "@id": "/products/new-work-journal-1?variant=48300751913205#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.95",
+    "priceCurrency": "USD",
+    "url": "https://www.leuchtturm1917.us/products/new-work-journal-1?variant=48300751913205"
+   },
+   "sku": "400015"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T21:27:20Z",
+ "og_image": "http://www.leuchtturm1917.us/cdn/shop/files/400016_LT1917_NWJ_FS_Indigo_ENG_150dpi_sRGB.jpg?v=1783613970",
+ "page_sha256": "d51000657011e17be8332b890a238c74d13137d458b6d67a7e56554e2ad9d1df",
+ "rendered_checked": true,
+ "title": "New Work Journal \u2013 Leuchtturm1917.us",
+ "url": "https://leuchtturm1917.us/products/new-work-journal-1"
+}

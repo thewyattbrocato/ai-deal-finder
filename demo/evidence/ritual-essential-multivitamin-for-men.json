@@ -1,0 +1,145 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:25Z",
+  "ship": [
+   "30-day money-back guarantee. Free shipping.",
+   "Buy once \u2014 $37.50 + $10.99 Shipping",
+   "Patented Nutrient Delivery Technology",
+   "Our Patented Nutrient Delivery Technology",
+   "What purchase and delivery options does Ritual offer?",
+   "International Shipping",
+   "Shipping to"
+  ],
+  "size": [
+   "Serving Size:"
+  ],
+  "sub": [
+   "Buy More, Save More: New subscribers save 20% on 1 item\u2014up to 30% when you bundle 3+ different items",
+   "When You Subscribe, You Join the Club.",
+   "Subscribe",
+   "By clicking \u2018Subscribe\u2019, I acknowledge I have read and agree to the Terms and Privacy Policy, including to receive marketing emails from Ritual."
+  ],
+  "url": "https://ritual.com/products/essential-multivitamin-for-men"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ritual.com/products/essential-multivitamin-for-men",
+ "http_status": 200,
+ "id": "ritual-essential-multivitamin-for-men",
+ "image_file": null,
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/essential-multivitamin-for-men#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "category": "Multivitamin Supplements",
+   "description": "The scientifically-developed multivitamin for men 18-49 to help fill nutrient gaps in their diets.*",
+   "hasVariant": [
+    {
+     "@id": "/products/essential-multivitamin-for-men?variant=43253299970142#variant",
+     "@type": "Product",
+     "gtin": "850031975026",
+     "image": "https://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated.gif?v=1770263132&width=1920",
+     "name": "Men\u2019s Multivitamin 18+ - 30 servings",
+     "offers": {
+      "@id": "/products/essential-multivitamin-for-men?variant=43253299970142#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "37.50",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/essential-multivitamin-for-men?variant=43253299970142"
+     },
+     "sku": "EM18MT0MUS"
+    },
+    {
+     "@id": "/products/essential-multivitamin-for-men?variant=43253300002910#variant",
+     "@type": "Product",
+     "image": "https://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated.gif?v=1770263132&width=1920",
+     "name": "Men\u2019s Multivitamin 18+ - 90 servings",
+     "offers": {
+      "@id": "/products/essential-multivitamin-for-men?variant=43253300002910#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "37.50",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/essential-multivitamin-for-men?variant=43253300002910"
+     },
+     "sku": "EM18MT0MUS_90"
+    }
+   ],
+   "name": "Men\u2019s Multivitamin 18+",
+   "productGroupID": "7482572472414",
+   "url": "https://ritual.com/products/essential-multivitamin-for-men"
+  },
+  {
+   "@id": "/products/essential-multivitamin-for-men?variant=43253299970142#variant",
+   "@type": "Product",
+   "gtin": "850031975026",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated.gif?v=1770263132&width=1920",
+   "name": "Men\u2019s Multivitamin 18+ - 30 servings",
+   "offers": {
+    "@id": "/products/essential-multivitamin-for-men?variant=43253299970142#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.50",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/essential-multivitamin-for-men?variant=43253299970142"
+   },
+   "sku": "EM18MT0MUS"
+  },
+  {
+   "@id": "/products/essential-multivitamin-for-men?variant=43253300002910#variant",
+   "@type": "Product",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated.gif?v=1770263132&width=1920",
+   "name": "Men\u2019s Multivitamin 18+ - 90 servings",
+   "offers": {
+    "@id": "/products/essential-multivitamin-for-men?variant=43253300002910#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.50",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/essential-multivitamin-for-men?variant=43253300002910"
+   },
+   "sku": "EM18MT0MUS_90"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/essential-multivitamin-for-men#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "102",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "description": "The scientifically-developed multivitamin for men 18-49 to help fill nutrient gaps in their diets.*",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated_450x450.gif?v=1770263132",
+   "mpn": "7482572472414",
+   "name": "Men\u2019s Multivitamin 18+",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "37.5",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ritual"
+    }
+   },
+   "url": "/products/essential-multivitamin-for-men"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:54Z",
+ "og_image": "http://ritual.com/cdn/shop/files/PDP_EFM18_Pills_Animated.gif?v=1770263132",
+ "page_sha256": "094e869e1b4c7cc098c2c0c79c63b7a3f3dd5098a4cbd0bde9232210435332b4",
+ "rendered_checked": true,
+ "title": "Multivitamin for Men over 18: Essential for Men | Ritual",
+ "url": "https://ritual.com/products/essential-multivitamin-for-men"
+}

@@ -1,0 +1,81 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:48Z",
+  "ship": [
+   "FREE US SHIPPING ON ORDERS ABOVE $59",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Manage Subscriptions"
+  ],
+  "url": "https://www.vahdam.com/products/saffron-premium-masala-chai-tea"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.vahdam.com/products/saffron-premium-masala-chai-tea",
+ "http_status": 200,
+ "id": "vahdam-saffron-premium-masala-chai-tea",
+ "image_file": "vahdam-saffron-premium-masala-chai-tea.jpg",
+ "image_sha256": "cd3e36159c002ee7603db9ddf298c28f0060dc47da566c4cf47deb3e154e5fe3",
+ "image_source": "http://www.vahdam.com/cdn/shop/files/Saffron-Chai.jpg?v=1721370791&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/saffron-premium-masala-chai-tea#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "category": "Tea & Infusions",
+   "description": "Golden sunrise in your cup with the heavenly aroma of premium saffron &amp; a subtle fragrance of spices, offering a rich and exotic experience.",
+   "gtin": "LF01000061-CT",
+   "image": "https://www.vahdam.com/cdn/shop/files/Saffron-Chai.jpg?v=1721370791&width=1920",
+   "name": "Saffron Premium Masala Chai Tea, 3.53 oz",
+   "offers": {
+    "@id": "/products/saffron-premium-masala-chai-tea?variant=39455537758251#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "12.99",
+    "priceCurrency": "USD",
+    "url": "https://www.vahdam.com/products/saffron-premium-masala-chai-tea?variant=39455537758251"
+   },
+   "sku": "E3-7N1H-EW0P",
+   "url": "https://www.vahdam.com/products/saffron-premium-masala-chai-tea"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.85",
+    "reviewCount": "35"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "description": "Golden sunrise in your cup with the heavenly aroma of premium saffron &amp; a subtle fragrance of spices, offering a rich and exotic experience.",
+   "image": [
+    "https://www.vahdam.com/cdn/shop/files/Saffron-Chai.jpg?v=1721370791&width=480"
+   ],
+   "name": "Saffron Premium Masala Chai Tea, 3.53 oz",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "12.99",
+    "priceCurrency": "USD",
+    "sku": "E3-7N1H-EW0P",
+    "url": "https://www.vahdam.com/products/saffron-premium-masala-chai-tea?variant=39455537758251"
+   },
+   "sku": "E3-7N1H-EW0P"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:28:22Z",
+ "og_image": "http://www.vahdam.com/cdn/shop/files/Saffron-Chai.jpg?v=1721370791&width=2048",
+ "page_sha256": "faf065f492470876864f65ec3de3195b32048081366fe714d255cdc576eef350",
+ "rendered_checked": true,
+ "title": "Saffron Premium Masala Chai Tea, 3.53 Oz | Loose Leaf Chai | VAHDAM\u00ae",
+ "url": "https://vahdam.com/products/saffron-premium-masala-chai-tea"
+}

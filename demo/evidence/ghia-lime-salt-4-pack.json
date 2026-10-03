@@ -1,0 +1,107 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:30:31Z",
+  "ship": [
+   "Free Shipping On Orders $60+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription",
+   "Subscribe & Save 15%",
+   "Manage Subscription"
+  ],
+  "url": "https://drinkghia.com/products/lime-salt-4-pack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkghia.com/products/lime-salt-4-pack",
+ "http_status": 200,
+ "id": "ghia-lime-salt-4-pack",
+ "image_file": "ghia-lime-salt-4-pack.jpg",
+ "image_sha256": "f128acd2b061b0b9bc1b790d0ae417e53a5890d3b12a7b0e4efa1c4b46ebdb8c",
+ "image_source": "http://drinkghia.com/cdn/shop/files/Ghia_Lime_Single.jpg?v=1761196906&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/lime-salt-4-pack#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "2",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ghia"
+   },
+   "description": "",
+   "image": "https://drinkghia.com/cdn/shop/files/Ghia_Lime_Single_450x450.jpg?v=1761196906",
+   "mpn": "8507215118570",
+   "name": "Lime & Salt",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "20.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ghia"
+    }
+   },
+   "url": "/products/lime-salt-4-pack"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "worstRating": 1
+   },
+   "name": "Lime & Salt",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Kara"
+     },
+     "datePublished": "2026-03-31T21:49:46.000Z",
+     "name": "5 Stars",
+     "reviewBody": "Favorite canned mocktail yet!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "joanne h."
+     },
+     "datePublished": "2026-02-23T00:33:10.324Z",
+     "name": "Just had this, delicious!",
+     "reviewBody": "Refreshing and unique on it's own or with gingerale.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:28:20Z",
+ "og_image": "http://drinkghia.com/cdn/shop/files/Ghia_Lime_Single.jpg?v=1761196906",
+ "page_sha256": "fb05cbb7653a38332c31ccd26190f732104cd4b6fe12f61b4aabf5bda59b2e1f",
+ "rendered_checked": true,
+ "title": "Ghia | Lime & Salt",
+ "url": "https://drinkghia.com/products/lime-salt-4-pack"
+}

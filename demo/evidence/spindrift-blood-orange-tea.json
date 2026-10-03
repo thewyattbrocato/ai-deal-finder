@@ -1,0 +1,56 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:50Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscription"
+  ],
+  "url": "https://drinkspindrift.com/products/blood-orange-tea"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://drinkspindrift.com/products/blood-orange-tea",
+ "http_status": 200,
+ "id": "spindrift-blood-orange-tea",
+ "image_file": "spindrift-blood-orange-tea.jpg",
+ "image_sha256": "0d7a67f20dd72717acfe9909fc878765e678092c83b71b493c4725d993bef4fb",
+ "image_source": "http://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_BOBT.jpg?v=1767903452&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://drinkspindrift.com/products/blood-orange-tea#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Spindrift",
+    "url": "https://drinkspindrift.com"
+   },
+   "description": "<p><meta charset=\"utf-8\"><span>Taste the difference of real squeezed fruit in iced tea. Spindrift\u00ae Blood Orange Tea is real brewed black tea with real squeezed fruit. It's slightly sweet, non-carbonated, and endlessly drinkable. We believe the best things come from nature. That's why we brought together two of our favorites: brewed iced tea and real squeezed fruit, picked at the peak of its flavor. Balanced and slightly sweet for a refreshing beverage you'll want to drink any time.</span></p>",
+   "image": [
+    "https://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_BOBT_1024x1024.jpg?v=1767903452"
+   ],
+   "mpn": "00850079079076",
+   "name": "Blood Orange Tea",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Spindrift"
+    },
+    "url": "https://drinkspindrift.com/products/blood-orange-tea?variant=42872274681923"
+   },
+   "sku": "0-8406-1004"
+  }
+ ],
+ "kind": "Drinks",
+ "observed_at": "2026-10-03T21:27:43Z",
+ "og_image": "http://drinkspindrift.com/cdn/shop/files/Spindrift_Tea_Digital-Hero_BOBT.jpg?v=1767903452",
+ "page_sha256": "97d0d95c2cfdb3dd320cbf6b70c210f3744e178aeb6c33c3fc4f1858b9bf5f0c",
+ "rendered_checked": true,
+ "title": "Blood Orange Tea | Spindrift\u00ae Tea",
+ "url": "https://drinkspindrift.com/products/blood-orange-tea"
+}

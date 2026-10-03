@@ -1,0 +1,59 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:32:07Z",
+  "ship": [
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS",
+   "You are $65.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscribe & Save 30% plus free shipping + 10% off future orders",
+   "Free shipping on subscription orders, or one-time orders $65+",
+   "Upgrade to Subscription and Save 30%",
+   "SAVE 30% + FREE SHIPPING ON SUBSCRIPTION ORDERS"
+  ],
+  "url": "https://moonjuice.com/products/supercell"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://moonjuice.com/products/supercell",
+ "http_status": 200,
+ "id": "moonjuice-supercell",
+ "image_file": "moonjuice-supercell.png",
+ "image_sha256": "5910b9a452f80b227ea608ebd24c97bfe2c84d841f399961cfd3e39748f027a9",
+ "image_source": "http://moonjuice.com/cdn/shop/files/SuperCell_PDP_SKU_Hero.png?v=1789141254&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/supercell#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Moon Juice"
+   },
+   "category": "Vitamins & Supplements",
+   "description": "Cellular aging care for a life fully lived. \u00a0\nUV exposure, toxins, everyday stress,\u00a0and\u00a0even the body\u2019s normal\u00a0metabolism all\u00a0create\u00a0free radicals.\u00a0SuperCell\u00a0is a four-antioxidant network built\u00a0to protect cells from\u00a0oxidative stress, which is the root cause of cellular aging. Liposomal glutathione, liposomal vitamin C, and vitamin E regenerate each other after neutralizing free radicals, while\u00a0200mg\u00a0of vegan NAC helps replenish glutathione from\u00a0within.*\u00a0Together, they support healthy cellular aging, intracellular and mitochondrial antioxidant processes, and the liver's natural\u00a0detoxification.*\u00a0Oxidative stress is part of being alive. While you\u00a0can\u2019t\u00a0eliminate\u00a0it, you can support your body through it, leaving more room for a full, pleasurable life.\u00a0",
+   "image": "https://moonjuice.com/cdn/shop/files/SuperCell_PDP_SKU_Hero.png?v=1789141254&width=1920",
+   "name": "SuperCell",
+   "offers": {
+    "@id": "/products/supercell?variant=46036765704275#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "74.00",
+    "priceCurrency": "USD",
+    "url": "https://moonjuice.com/products/supercell?variant=46036765704275"
+   },
+   "sku": "CU00018",
+   "url": "https://moonjuice.com/products/supercell"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:43Z",
+ "og_image": "http://moonjuice.com/cdn/shop/files/SuperCell_PDP_SKU_Hero.png?v=1789141254",
+ "page_sha256": "4486ef0b1fc2f558bd7c0a36c58248cd7896dc12aefdc3b3bd2b27a1cd44d47a",
+ "rendered_checked": true,
+ "title": "SuperCell \u2013 Moon Juice",
+ "url": "https://moonjuice.com/products/supercell"
+}

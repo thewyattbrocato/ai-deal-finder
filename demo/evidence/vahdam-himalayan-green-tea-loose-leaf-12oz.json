@@ -1,0 +1,83 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:35:30Z",
+  "ship": [
+   "FREE US SHIPPING ON ORDERS ABOVE $59",
+   "shipping",
+   "Our cup of vadham green tea is a daily must. i buy the large packsge of loose tea. vadham's website makes it very easy and delivery is timely. what's not to love?",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Manage Subscriptions"
+  ],
+  "url": "https://www.vahdam.com/products/himalayan-green-tea-loose-leaf-12oz"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.vahdam.com/products/himalayan-green-tea-loose-leaf-12oz",
+ "http_status": 200,
+ "id": "vahdam-himalayan-green-tea-loose-leaf-12oz",
+ "image_file": "vahdam-himalayan-green-tea-loose-leaf-12oz.jpg",
+ "image_sha256": "a082fbb1652c99040e885ede656ddd3e6ad46c59afe9f241148b6eaa591494af",
+ "image_source": "http://www.vahdam.com/cdn/shop/files/Himalayan_green_tea_f953d287-3e7a-4973-9957-5e6e8bd22130.jpg?v=1724678892&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/himalayan-green-tea-loose-leaf-12oz#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "category": "Tea & Infusions",
+   "description": "A pure, fresh Green tea from the Himalayan region blessed with the right amount of anti-oxidants.",
+   "gtin": "LF034001160-GT",
+   "image": "https://www.vahdam.com/cdn/shop/files/Himalayan_green_tea_f953d287-3e7a-4973-9957-5e6e8bd22130.jpg?v=1724678892&width=1920",
+   "name": "Himalayan Green Tea, 12 oz",
+   "offers": {
+    "@id": "/products/himalayan-green-tea-loose-leaf-12oz?variant=39454637981739#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "url": "https://www.vahdam.com/products/himalayan-green-tea-loose-leaf-12oz?variant=39454637981739"
+   },
+   "sku": "92-UVK5-MKES",
+   "url": "https://www.vahdam.com/products/himalayan-green-tea-loose-leaf-12oz"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.61",
+    "reviewCount": "18"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "VAHDAM\u00ae USA"
+   },
+   "description": "A pure, fresh Green tea from the Himalayan region blessed with the right amount of anti-oxidants.",
+   "image": [
+    "https://www.vahdam.com/cdn/shop/files/Himalayan_green_tea_f953d287-3e7a-4973-9957-5e6e8bd22130.jpg?v=1724678892&width=480"
+   ],
+   "name": "Himalayan Green Tea, 12 oz",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "sku": "92-UVK5-MKES",
+    "url": "https://www.vahdam.com/products/himalayan-green-tea-loose-leaf-12oz?variant=39454637981739"
+   },
+   "sku": "92-UVK5-MKES"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:28:26Z",
+ "og_image": "http://www.vahdam.com/cdn/shop/files/Himalayan_green_tea_f953d287-3e7a-4973-9957-5e6e8bd22130.jpg?v=1724678892&width=2048",
+ "page_sha256": "0488439e48115381521b3ba1047f4c233de0c7724ee380ba8e7013b288162c6f",
+ "rendered_checked": true,
+ "title": "Himalayan Green Tea Loose Leaf, 12 oz | Fresh Green Tea | VAHDAM\u00ae",
+ "url": "https://vahdam.com/products/himalayan-green-tea-loose-leaf-12oz"
+}

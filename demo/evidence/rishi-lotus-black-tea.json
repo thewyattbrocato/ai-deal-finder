@@ -1,0 +1,62 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:02Z",
+  "ship": [
+   "Free standard shipping on orders over $60: Shop Now",
+   "Shipping & Returns",
+   "Free Shipping",
+   "You are $60.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE:",
+   "SIZE"
+  ],
+  "sub": [
+   "Subscribe to Our Newsletter"
+  ],
+  "url": "https://www.rishi-tea.com/products/lotus-black-tea"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.rishi-tea.com/products/lotus-black-tea",
+ "http_status": 200,
+ "id": "rishi-lotus-black-tea",
+ "image_file": "rishi-lotus-black-tea.jpg",
+ "image_sha256": "5e2a0983e8aa379168b2783218d6afb3ef48f53d225ae9bb90a98202279fe20d",
+ "image_source": "http://www.rishi-tea.com/cdn/shop/files/Lotus-Black-Tea_tea-circle_LSB100-RP_2026.jpg?v=1790698023&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Rishi Tea &amp; Botanicals"
+   },
+   "description": "A prized Snow Shan black tea scented with fresh lotus flowers. Each infusion reveals delicately sweet layers of floral nectar, resinous woods, marzipan and vanilla, offering a rare taste of Vietnam\u2019s rich flower culture.",
+   "image": "https://www.rishi-tea.com/cdn/shop/files/Lotus-Black-Tea_tea-circle_LSB100-RP_2026_grande.jpg?v=1790698023",
+   "name": "Lotus Black Tea",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "A prized Snow Shan black tea scented with fresh lotus flowers. Each infusion reveals delicately sweet layers of floral nectar, resinous woods, marzipan and vanilla, offering a rare taste of Vietnam\u2019s rich flower culture.",
+    "image": "https://www.rishi-tea.com/cdn/shop/files/Lotus-Black-Tea_tea-circle_LSB100-RP_2026_grande.jpg?v=1790698023",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Lotus Black Tea - 100 Grams",
+    "price": "75.00",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "LSB100-RP",
+    "url": "https://www.rishi-tea.com/products/lotus-black-tea?variant=50461017702650"
+   },
+   "productID": "9458088411386",
+   "sku": "LSB100-RP",
+   "url": "https://www.rishi-tea.com/products/lotus-black-tea"
+  }
+ ],
+ "kind": "Tea",
+ "observed_at": "2026-10-03T21:27:25Z",
+ "og_image": "http://www.rishi-tea.com/cdn/shop/files/Lotus-Black-Tea_tea-circle_LSB100-RP_2026.jpg?v=1790698023",
+ "page_sha256": "107e6e46bf032b14fd9320fcf3cc3536ce3f26e2a39d34787018e113d5027c45",
+ "rendered_checked": true,
+ "title": "Lotus Black Tea | Rishi Tea",
+ "url": "https://rishi-tea.com/products/lotus-black-tea"
+}

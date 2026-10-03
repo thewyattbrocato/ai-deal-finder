@@ -1,0 +1,146 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:33Z",
+  "ship": [
+   "30-day money-back guarantee. Free shipping.",
+   "Buy once \u2014 $61.36 + $10.99 Shipping",
+   "What purchase and delivery options does Ritual offer?",
+   "International Shipping",
+   "Shipping to"
+  ],
+  "size": [
+   "Serving Size:"
+  ],
+  "sub": [
+   "Buy More, Save More: New subscribers save 20% on 1 item\u2014up to 30% when you bundle 3+ different items",
+   "When You Subscribe, You Join the Club.",
+   "So many supplements I quit because i don\u2019t notice a difference after a few months. With Hyacera I do! I went without for almost a month due to timing of my subscription and i could absolutely tell.",
+   "Subscribe",
+   "By clicking \u2018Subscribe\u2019, I acknowledge I have read and agree to the Terms and Privacy Policy, including to receive marketing emails from Ritual."
+  ],
+  "url": "https://ritual.com/products/hyacera-for-skin-hydration"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ritual.com/products/hyacera-for-skin-hydration",
+ "http_status": 200,
+ "id": "ritual-hyacera-for-skin-hydration",
+ "image_file": "ritual-hyacera-for-skin-hydration.jpg",
+ "image_sha256": "7572b78402afb1a93ee1df74aee8924e28d9a0e543a3693bcdf6fd0046dc51da",
+ "image_source": "http://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/hyacera-for-skin-hydration#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "category": "Multivitamin Supplements",
+   "description": "Clinically proven to reduce wrinkles and fine lines and improve skin smoothness, all in one daily capsule.*\u2020",
+   "hasVariant": [
+    {
+     "@id": "/products/hyacera-for-skin-hydration?variant=43145196044382#variant",
+     "@type": "Product",
+     "gtin": "850031975309",
+     "image": "https://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106&width=1920",
+     "name": "HyaCera\u2122 - 30 servings",
+     "offers": {
+      "@id": "/products/hyacera-for-skin-hydration?variant=43145196044382#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "61.36",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/hyacera-for-skin-hydration?variant=43145196044382"
+     },
+     "sku": "SKNCVA0MUS"
+    },
+    {
+     "@id": "/products/hyacera-for-skin-hydration?variant=43145196077150#variant",
+     "@type": "Product",
+     "image": "https://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106&width=1920",
+     "name": "HyaCera\u2122 - 90 servings",
+     "offers": {
+      "@id": "/products/hyacera-for-skin-hydration?variant=43145196077150#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "61.36",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/hyacera-for-skin-hydration?variant=43145196077150"
+     },
+     "sku": "SKNCVA0MUS_90"
+    }
+   ],
+   "name": "HyaCera\u2122",
+   "productGroupID": "7482572701790",
+   "url": "https://ritual.com/products/hyacera-for-skin-hydration"
+  },
+  {
+   "@id": "/products/hyacera-for-skin-hydration?variant=43145196044382#variant",
+   "@type": "Product",
+   "gtin": "850031975309",
+   "image": "https://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106&width=1920",
+   "name": "HyaCera\u2122 - 30 servings",
+   "offers": {
+    "@id": "/products/hyacera-for-skin-hydration?variant=43145196044382#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/hyacera-for-skin-hydration?variant=43145196044382"
+   },
+   "sku": "SKNCVA0MUS"
+  },
+  {
+   "@id": "/products/hyacera-for-skin-hydration?variant=43145196077150#variant",
+   "@type": "Product",
+   "image": "https://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106&width=1920",
+   "name": "HyaCera\u2122 - 90 servings",
+   "offers": {
+    "@id": "/products/hyacera-for-skin-hydration?variant=43145196077150#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/hyacera-for-skin-hydration?variant=43145196077150"
+   },
+   "sku": "SKNCVA0MUS_90"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/hyacera-for-skin-hydration#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "119",
+    "ratingValue": "4.2"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "description": "Clinically proven to reduce wrinkles and fine lines and improve skin smoothness, all in one daily capsule.*\u2020",
+   "image": "https://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1_450x450.jpg?v=1770263106",
+   "mpn": "7482572701790",
+   "name": "HyaCera\u2122",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "61.36",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ritual"
+    }
+   },
+   "url": "/products/hyacera-for-skin-hydration"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:27:02Z",
+ "og_image": "http://ritual.com/cdn/shop/files/PDP_HYA_Bottle_1.jpg?v=1770263106",
+ "page_sha256": "faf74e5996abde3db7396a96944f52f2fdda1222315971179b7deb11cb3d5030",
+ "rendered_checked": true,
+ "title": "Skin Hydration Supplement*: HyaCera\u2122 | Ritual",
+ "url": "https://ritual.com/products/hyacera-for-skin-hydration"
+}

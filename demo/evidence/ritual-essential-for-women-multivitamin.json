@@ -1,0 +1,179 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T21:34:17Z",
+  "ship": [
+   "30-day money-back guarantee. Free shipping.",
+   "Buy once \u2014 $37.50 + $10.99 Shipping",
+   "Patented Nutrient Delivery Technology",
+   "Our Patented Nutrient Delivery Technology",
+   "What purchase and delivery options does Ritual offer?",
+   "International Shipping",
+   "Shipping to"
+  ],
+  "size": [
+   "Serving Size:"
+  ],
+  "sub": [
+   "Buy More, Save More: New subscribers save 20% on 1 item\u2014up to 30% when you bundle 3+ different items",
+   "When You Subscribe, You Join the Club.",
+   "Subscribe",
+   "By clicking \u2018Subscribe\u2019, I acknowledge I have read and agree to the Terms and Privacy Policy, including to receive marketing emails from Ritual."
+  ],
+  "url": "https://ritual.com/products/essential-for-women-multivitamin"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ritual.com/products/essential-for-women-multivitamin",
+ "http_status": 200,
+ "id": "ritual-essential-for-women-multivitamin",
+ "image_file": "ritual-essential-for-women-multivitamin.jpg",
+ "image_sha256": "92876883a61e900c8b370534d29542713e550071e1d9fcbc52c15279d0baef59",
+ "image_source": "http://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/essential-for-women-multivitamin#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "category": "Multivitamin Supplements",
+   "description": "The clinical-backed multivitamin for women 18-49 formulated to help fill nutrient gaps in their diet.*",
+   "hasVariant": [
+    {
+     "@id": "/products/essential-for-women-multivitamin?variant=42283036246110#variant",
+     "@type": "Product",
+     "gtin": "850031975002",
+     "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+     "name": "Women\u2019s Multivitamin 18+ - Mint / 30 servings",
+     "offers": {
+      "@id": "/products/essential-for-women-multivitamin?variant=42283036246110#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "37.50",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=42283036246110"
+     },
+     "sku": "EW18MT0MUS"
+    },
+    {
+     "@id": "/products/essential-for-women-multivitamin?variant=43253362196574#variant",
+     "@type": "Product",
+     "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+     "name": "Women\u2019s Multivitamin 18+ - Mint / 90 servings",
+     "offers": {
+      "@id": "/products/essential-for-women-multivitamin?variant=43253362196574#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "37.50",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=43253362196574"
+     },
+     "sku": "EW18MT0MUS_90"
+    },
+    {
+     "@id": "/products/essential-for-women-multivitamin?variant=42283036278878#variant",
+     "@type": "Product",
+     "gtin": "850031975286",
+     "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+     "name": "Women\u2019s Multivitamin 18+ - Citrus / 30 servings",
+     "offers": {
+      "@id": "/products/essential-for-women-multivitamin?variant=42283036278878#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "37.50",
+      "priceCurrency": "USD",
+      "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=42283036278878"
+     },
+     "sku": "EW18CT0MUS"
+    }
+   ],
+   "name": "Women\u2019s Multivitamin 18+",
+   "productGroupID": "7482572570718",
+   "url": "https://ritual.com/products/essential-for-women-multivitamin"
+  },
+  {
+   "@id": "/products/essential-for-women-multivitamin?variant=42283036246110#variant",
+   "@type": "Product",
+   "gtin": "850031975002",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+   "name": "Women\u2019s Multivitamin 18+ - Mint / 30 servings",
+   "offers": {
+    "@id": "/products/essential-for-women-multivitamin?variant=42283036246110#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.50",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=42283036246110"
+   },
+   "sku": "EW18MT0MUS"
+  },
+  {
+   "@id": "/products/essential-for-women-multivitamin?variant=43253362196574#variant",
+   "@type": "Product",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+   "name": "Women\u2019s Multivitamin 18+ - Mint / 90 servings",
+   "offers": {
+    "@id": "/products/essential-for-women-multivitamin?variant=43253362196574#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.50",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=43253362196574"
+   },
+   "sku": "EW18MT0MUS_90"
+  },
+  {
+   "@id": "/products/essential-for-women-multivitamin?variant=42283036278878#variant",
+   "@type": "Product",
+   "gtin": "850031975286",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110&width=1920",
+   "name": "Women\u2019s Multivitamin 18+ - Citrus / 30 servings",
+   "offers": {
+    "@id": "/products/essential-for-women-multivitamin?variant=42283036278878#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "37.50",
+    "priceCurrency": "USD",
+    "url": "https://ritual.com/products/essential-for-women-multivitamin?variant=42283036278878"
+   },
+   "sku": "EW18CT0MUS"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/essential-for-women-multivitamin#product",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "1173",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Ritual"
+   },
+   "description": "The clinical-backed multivitamin for women 18-49 formulated to help fill nutrient gaps in their diet.*",
+   "image": "https://ritual.com/cdn/shop/files/PDP_EFW18_Bottle_450x450.jpg?v=1770263110",
+   "mpn": "7482572570718",
+   "name": "Women\u2019s Multivitamin 18+",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "37.5",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Ritual"
+    }
+   },
+   "url": "/products/essential-for-women-multivitamin"
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T21:26:52Z",
+ "og_image": "http://ritual.com/cdn/shop/files/PDP_EFW18_Bottle.jpg?v=1770263110",
+ "page_sha256": "2679541cf4e72a85414427591e517ffc65d74203eabc9f8c7ffc7e9573feb0a6",
+ "rendered_checked": true,
+ "title": "Women's Multivitamin | Essential for Women 18+ | Ritual",
+ "url": "https://ritual.com/products/essential-for-women-multivitamin"
+}
