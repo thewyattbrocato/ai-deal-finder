@@ -39,7 +39,7 @@ def card_terms(card):
 
 def cards(page):
     out = []
-    for c in re.split(r'(?=<section class="card )', page):
+    for c in re.findall(r'<section class="card item".*?</section>', page, re.S):
         m = re.search(r'data-name="([^"]*)"', c)
         if "data-keywords=" in c and m:
             out.append((html_lib.unescape(m.group(1)),
@@ -53,7 +53,6 @@ class Base(unittest.TestCase):
     def setUpClass(cls):
         cls.page = read("demo", "index.html")
         cls.cards = cards(cls.page)
-        cls.driven = drive(PAGE)
 
 
 class D1PageReadNotVerdict(Base):
@@ -85,12 +84,11 @@ class D2CoffeeIsBeans(Base):
         "White Chocolate Pistachio Ground Bundle",
     }
 
-    def test_default_view_is_coffee_bags_cheapest_first(self):
-        load = self.driven["load"]
-        names = [c["name"] for c in load["visible"]]
+    def test_coffee_beans_search_lists_only_the_nine_bean_bags(self):
+        load = drive(PAGE, only_load=True, hash="#q=coffee%20beans")["load"]
+        names = [c["name"] for c in load["main"]]
         self.assertEqual(len(names), 9)
-        self.assertTrue(names[0].startswith("Dolcevita Classico"), names)
-        for c in load["visible"]:
+        for c in load["main"]:
             self.assertEqual(c["kind"], "Coffee", c)
             self.assertNotIn(c["name"], self.NOT_BEANS)
 
@@ -107,7 +105,7 @@ class D2CoffeeIsBeans(Base):
         self.assertEqual(kinds["The Breville Bambino™"], "Kitchen")
 
     def test_a_non_bean_item_is_found_by_its_own_name(self):
-        shown = drive(PAGE, only_load=True, query="bambino")["load"]["visible"]
+        shown = drive(PAGE, only_load=True, hash="#q=bambino")["load"]["main"]
         self.assertEqual([c["name"] for c in shown], ["The Breville Bambino\u2122"])
 
     def test_seeds_are_where_the_kind_is_decided_and_evidence_is_kept(self):
@@ -170,7 +168,7 @@ class D4SizesFromOffers(unittest.TestCase):
 
     def test_no_chubbies_card_reads_listed_xs_alone(self):
         page = read("demo", "index.html")
-        for c in re.split(r'(?=<section class="card )', page):
+        for c in re.findall(r'<section class="card item".*?</section>', page, re.S):
             if "chubbies" in c.lower() and "data-terms=" in c:
                 self.assertGreater(len(card_terms(c)["z"]), 1)
 
@@ -196,13 +194,13 @@ class D5SaleNameKept(unittest.TestCase):
 
 
 class D6CoffeeNoteOnlyWithCoffee(Base):
-    def test_note_shows_for_the_default_coffee_search(self):
-        self.assertEqual(self.driven["load"]["coffeeNote"], "")
+    def test_note_shows_for_a_coffee_search(self):
+        load = drive(PAGE, only_load=True, hash="#q=coffee%20beans")["load"]
+        self.assertEqual(load["coffeeNote"], "")
 
     def test_note_is_hidden_when_results_have_no_coffee(self):
-        self.assertEqual(self.driven["tea"]["coffeeNote"], "none")
-        self.assertEqual(self.driven["airpods"]["coffeeNote"], "none")
-        self.assertEqual(self.driven["shoes"]["coffeeNote"], "none")
+        for q in ("tea", "airpods", "shoes"):
+            self.assertEqual(drive(PAGE, only_load=True, hash="#q=" + q)["load"]["coffeeNote"], "none", q)
 
 
 class D7NoGiftCardsOrMemberships(unittest.TestCase):
