@@ -6,50 +6,55 @@
 
 ### **[Open the live tool: thewyattbrocato.github.io/ai-deal-finder →](https://thewyattbrocato.github.io/ai-deal-finder/)**
 
-Nothing to download or install. It runs in your browser. The page loads its
-styling from a CDN, so you need an internet connection.
+Nothing to download or install. It runs in your browser.
 
 Deal Finder searches a set of store product pages that were opened and read
-ahead of time. For each product it shows the shelf price, a plain decision, and
-a coupon code only when that product's own page printed one. It never guesses a
+ahead of time. For each product it shows the shelf price, and a coupon code only
+when that product's own page printed one. It never guesses a
 price and never fills in what a page did not say.
 
 <p align="center">
-  <img src="docs/readme/tool-desktop-search.png" width="880" alt="Screenshot of the live tool at desktop width: a Kind of thing / Exact product switch, a search box set to coffee beans, and an optional guide with questions about kind, bag size, how you would buy, shipping, ordering and coupons.">
+  <img src="docs/readme/tool-desktop-search.png" width="880" alt="Screenshot of the live tool's first view at desktop width: the page header, an empty search box with the cursor in it and the hint Results update as you type, and buttons for starting with a kind such as Kitchen, Clothing, Tech, Pantry and Home, each with its product count.">
 </p>
 
 ## Use it in four steps
 
-1. **Pick how to search.**
-   - **Kind of thing** (the default) lists several similar checked products,
-     cheapest shelf price first, twelve at a time with a *Show more matches*
-     button. Type something like `coffee beans`.
-   - **Exact product** returns the one closest name match. Type a name such as
-     `super crema`.
-
-   <img src="docs/readme/search-modes.svg" width="880" alt="Diagram with placeholder names. Kind of thing: type a kind of item and get several similar checked products, cheapest shelf price first. Exact product: type one product's name and get the single closest name match, with its own page's price and any coupon that page printed.">
-
-2. **Narrow it with the guide, if you want to.** The guide is optional and the
-   results stay visible while you use it. It asks only what the pages in your
-   results actually state: what kind, coffee bag size, shoe or clothing size,
-   subscribe, free shipping, what matters most, and whether to show only
-   products with a printed coupon. A question you can't answer from the pages
-   is not asked. Each answer can be changed at any time, and *Reset* shows
-   everything again.
-3. **Read the cards.** Each card has the product, its shelf price, a *See at the
-   store* link (hand-checked coffee cards add a decision; the rest say *Price read
-   from the store page*), any coupon, and what the page stated about
-   size, shipping and subscribe. A *Why it is here* line says why a product is
-   listed, and *Hidden by your answers* lists what the guide removed and why.
+1. **Type what you want.** The search box is focused when the page opens.
+   Results appear as you type, with no Search button. Type a product, a store or
+   a kind, such as `coffee`, `Old Navy` or `sneaker`. Partial words work, and so
+   do small typos: when a word matched only as a close spelling of a word in the
+   checked pages, the page says so and names the spellings it used. As you type,
+   suggestions list kinds, stores and products (with their shelf price); you can
+   also start from a kind button or *Browse all checked products*. By default
+   results are ordered by best word match; a sort control switches to price, low
+   to high or high to low. Results are shown 24 at a time with a *Show more*
+   button.
+2. **Narrow it, if you want to.** *Refine results* is optional and appears above
+   the results. Its chips (kind, a size the pages list, free shipping, subscribe,
+   printed coupon) each show how many of the current results they would keep, and
+   only chips that apply to your results are offered. If a chip would leave
+   nothing, or no product matches, the page says so and offers *Drop* buttons
+   that show what would be left, plus *Clear all choices*. Nothing is shown that
+   doesn't fit, and nothing is guessed. Products whose page doesn't state a
+   fact you narrowed by (for example size or shipping) are not counted in the
+   results. A line such as "3 more products don't state size on the page" lists
+   them separately behind *Show them*.
+3. **Read the card.** Each card is compact: the product's photo when one was
+   captured, its name, store, shelf price, the line *Price read from the store
+   page* (with *Not compared with other stores*), when it was checked, any printed
+   coupon with the page's own words, and what the page stated about size,
+   shipping and subscribe, plus a *See at the store* link. *Full details* opens on
+   the same card, with the savings line, the coupon's printed date window,
+   conditions the page printed, *Confirm at checkout* items and the terms read.
 4. **Go to the store and recheck.** The price was true when the page was
    checked. The card says to recheck at checkout, and the store's own page has
    the final say.
 
 <p align="center">
-  <img src="docs/readme/tool-desktop-result.png" width="880" alt="Screenshot of a result card in the live tool for the UNTUCKit Waffle-Knit Hoodie Sweater at $128, with the line Price read from the store page, a coupon box showing the page-printed code NOIRON as printed and not applied, the date window the page printed and that today is inside it, and a list of what the page states about size, shipping and subscribe.">
+  <img src="docs/readme/tool-desktop-result.png" width="880" alt="Screenshot of a search for waffle knit hoodie in the live tool: the Refine results chips, one result card for the UNTUCKit Waffle-Knit Hoodie Sweater at $128 with the page-printed code NOIRON shown as printed and not applied, and the opened Full details box with the page's printed date window and that today is inside it.">
 </p>
 
-<p align="center"><sub>Real capture of the live tool on 2026-10-03. The coupon window on that card ends 2026-10-04, so a later visit shows the card's own passed/not-passed line instead.</sub></p>
+<p align="center"><sub>Real, unedited capture of the live tool on 2026-10-03. The coupon window on that card ends 2026-10-04, so a later visit shows the card's own passed/not-passed line instead.</sub></p>
 
 A result card shows the shelf price exactly as the store page printed it, and how
 old the check is ("Checked today", or "Checked 2 days ago"). If the page printed a
@@ -59,12 +64,12 @@ window and says whether today, in US Eastern time, is inside it or has passed, o
 that the text states no clear window. Shipping that needs a membership is not
 counted as free: the card says the check was not signed in. Whatever the page did
 not show, such as tax or whether a code works, is listed on a *Confirm at
-checkout* line.
+checkout* line in *Full details*.
 
 On a phone the same page works at narrow width:
 
 <p align="center">
-  <img src="docs/readme/tool-phone.png" width="390" alt="Screenshot of the live tool at a 390 px phone width, with no sideways scrolling: the search box, the optional guide, and a result card with the product picture, price, the line Price read from the store page, and a coupon box.">
+  <img src="docs/readme/tool-phone.png" width="390" alt="Screenshot of the live tool at a 390 px phone width, with no sideways scrolling: the same waffle knit hoodie search with the compact card and its opened Full details.">
 </p>
 
 ## What the evidence rules mean
@@ -85,7 +90,14 @@ On a phone the same page works at narrow width:
 <img src="docs/readme/coupon-vs-shelf.svg" width="880" alt="Diagram with a placeholder product name. Left: a product's own page shows a shelf price and may print a code. Middle: the tool ranks by the shelf price and lists the code as a coupon on this page, seen and not tried. Right: the rules. A code is listed only if the page printed it, a seen code is never a lower price, and with no code the card says no coupon on this page.">
 
 The page covers only products that were checked and stored in this repo
-(`demo/evidence/`). It is not a live search of the web: a product that is not
+(`demo/evidence/`).
+It holds 244 products, each one stored read of that product's own page. The page
+header's "244 products, 79 stores" counts 244 stored product pages and 79
+distinct store names as the catalog labels them. Some of those labels are a
+sub-brand or product line rather than a separate website, so the same site can
+appear under more than one name. Counted by the web address of the product
+pages instead, the products come from 60 distinct hosts (for example
+`www.untuckit.com`), so 79 stores is a count of labels, not of websites. It is not a live search of the web: a product that is not
 there cannot be found, and prices may have changed since the check. The page
 is rebuilt offline from that stored evidence with `python3 demo/build.py`.
 

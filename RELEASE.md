@@ -12,12 +12,17 @@ Live site: https://thewyattbrocato.github.io/ai-deal-finder/
 Counts below were computed by commands run against this commit (see the PR
 body for the commands and their output).
 
-- 60 distinct store sites (page hosts) across the 244 products on the live page.
 - 244 products on the live page, each a stored read of the product's own page.
+- 79 stores, as the page header says: distinct store names (the catalog's
+  merchant label) across those 244 products. Some labels are a sub-brand or
+  product line, so this is a count of labels, not of websites.
+- 60 distinct page hosts: distinct web addresses (host names) of the 244
+  product pages. This is why it is lower than 79: 12 hosts appear under more
+  than one store name (for example `counterculturecoffee.com` under three).
 - 19 products with a coupon code printed on the product's own page.
 - 164 products with a known shipping condition the page stated.
 - 24 products with a known subscribe condition the page stated.
-- 262 tests, all passing (`python3 -m unittest discover -s tests`).
+- 279 tests at commit e502a4b, all passing (`python3 -m unittest discover -s tests`).
 - 53 fixture cases in `FIXTURES.json`.
 
 ## Safety behaviors
