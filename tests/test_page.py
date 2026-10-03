@@ -527,6 +527,10 @@ class SearchFirstTest(unittest.TestCase):
         self.assertIn("@media (max-width:640px)", css)
         self.assertNotIn("min-width:390", css)
 
+    def test_a_quoted_coupon_is_never_cut_short_on_screen(self):
+        css = read("demo", "page.css")
+        self.assertNotIn("line-clamp", css)
+
     def test_page_is_self_contained_no_cdn_script_or_stylesheet(self):
         self.assertNotRegex(self.page, r'<script[^>]+src=')
         self.assertNotRegex(self.page, r'<link[^>]+rel="stylesheet"')
