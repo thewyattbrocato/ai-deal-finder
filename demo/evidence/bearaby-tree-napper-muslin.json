@@ -1,0 +1,98 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://bearaby.com/products/tree-napper-muslin",
+ "http_status": 200,
+ "id": "bearaby-tree-napper-muslin",
+ "image_file": "bearaby-tree-napper-muslin.jpg",
+ "image_sha256": "33e8bcf050d8d1f12aa59fb03004c4cffdb7bb765f65d7ba728b6d39b19d09d4",
+ "image_source": "http://bearaby.com/cdn/shop/files/BunddleTencel1.jpg?v=1787041940&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "10",
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Bearaby"
+   },
+   "image": [
+    "https://bearaby.com/cdn/shop/files/BunddleTencel1_grande.jpg?v=1787041940"
+   ],
+   "name": "Tree Napper + Muslin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "checkoutPageURLTemplate": "https://bearaby.com/cart/add?id=46366901895354&quantity=1",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 365,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicySeasonalOverride": "https://bearaby.com/pages/returns-exchanges"
+    },
+    "name": "Tree Napper + Muslin Default Title",
+    "price": 376,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 376,
+      "priceCurrency": "USD",
+      "priceType": "https://schema.org/SalePrice",
+      "valueAddedTaxIncluded": true
+     },
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 418,
+      "priceCurrency": "USD",
+      "priceType": "https://schema.org/ListPrice",
+      "valueAddedTaxIncluded": true
+     }
+    ],
+    "priceValidUntil": "2026-12-31",
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 2,
+       "minValue": 1,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 7,
+       "minValue": 3,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+     }
+    },
+    "url": "https://bearabystore.myshopify.com/products/tree-napper-muslin?variant=46366901895354",
+    "validFrom": "2026-08-17"
+   }
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T14:50:11Z",
+ "og_image": "http://bearaby.com/cdn/shop/files/BunddleTencel1.jpg?v=1787041940",
+ "page_sha256": "4157ffa652f5be025564b4e226d6e4f92d43f23e528108353ae6f984b30e10bf",
+ "rendered_checked": true,
+ "title": "Tree Napper + Muslin",
+ "url": "https://www.bearaby.com/products/tree-napper-muslin"
+}

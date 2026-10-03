@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://magicspoon.com/products/variety6-pack-with-cookiescream-strawberrycheesecake",
+ "http_status": 200,
+ "id": "magicspoon-variety6-pack-with-cookiescream-strawberrycheesecake",
+ "image_file": "magicspoon-variety6-pack-with-cookiescream-strawberrycheesecake.png",
+ "image_sha256": "557006a7de2733d80dfd9290dfd63febe27992b991eadec3c96b96c9bd79b9f2",
+ "image_source": "https://magicspoon.com/cdn/shop/files/ms_var6_hero_2048x2048.webp?v=1790174645&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/variety6-pack-with-cookiescream-strawberrycheesecake#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "25909",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Magic Spoon"
+   },
+   "description": "This pack brings together our classic favorites and two of our newest limited-edition drops: Fruity, Cocoa, S'mores Marshmallow, Marshmallow, Strawberry Cheesecake, and Cookies &amp; Cream. All packed with 12-13g\u00a0protein and 0-3g sugar per serving.",
+   "image": "https://magicspoon.com/cdn/shop/files/ms_var6_hero_450x450.webp?v=1790174645",
+   "mpn": "8262878920766",
+   "name": "Limited Edition Variety 6 Pack - 1 case (6 boxes)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "54.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Magic Spoon"
+    }
+   },
+   "url": "/products/variety6-pack-with-cookiescream-strawberrycheesecake"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T14:50:05Z",
+ "og_image": "//magicspoon.com/cdn/shop/files/ms_var6_hero_2048x2048.webp?v=1790174645",
+ "page_sha256": "fd3639e420f6387c28f50efc4e88d821785e9b1dc971a3e7aebff1a33e31fbaa",
+ "rendered_checked": true,
+ "title": "Limited Edition Variety 6 Pack - 1 case (6 boxes)",
+ "url": "https://magicspoon.com/products/variety6-pack-with-cookiescream-strawberrycheesecake"
+}

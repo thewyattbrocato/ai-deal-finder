@@ -1,0 +1,91 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://bearaby.com/products/latex-pillow",
+ "http_status": 200,
+ "id": "bearaby-latex-pillow",
+ "image_file": "bearaby-latex-pillow.jpg",
+ "image_sha256": "742a14f75a388a3023cd85750345ed2bb3470ee167350aa22a6a3cf7e7e82148",
+ "image_source": "http://bearaby.com/cdn/shop/files/Detail_photo_8_8d9d4bdf-8e64-4f20-876d-6b0f2ebd23ab.jpg?v=1784299364&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "15",
+    "ratingValue": "4.7"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Bearaby"
+   },
+   "description": "A cooling latex pillow cushions your head and aligns your back, for deeper, stiller sleep. Crafted from breathable, plant-based Melofoam, it keeps the air flowing, so you can stop tossing and turning.",
+   "image": [
+    "https://bearaby.com/cdn/shop/files/Detail_photo_8_8d9d4bdf-8e64-4f20-876d-6b0f2ebd23ab_grande.jpg?v=1784299364"
+   ],
+   "name": "SoftForm Pillow",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "checkoutPageURLTemplate": "https://bearaby.com/cart/add?id=46164401946810&quantity=1",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "US",
+     "merchantReturnDays": 365,
+     "returnFees": "https://schema.org/FreeReturn",
+     "returnMethod": "https://schema.org/ReturnByMail",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+     "returnPolicySeasonalOverride": "https://bearaby.com/pages/returns-exchanges"
+    },
+    "name": "SoftForm Pillow Default Title",
+    "price": 149,
+    "priceCurrency": "USD",
+    "priceSpecification": {
+     "@type": "PriceSpecification",
+     "price": 149,
+     "priceCurrency": "USD",
+     "valueAddedTaxIncluded": true
+    },
+    "priceValidUntil": "2026-12-31",
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 2,
+       "minValue": 1,
+       "unitCode": "DAY"
+      },
+      "transitTime": {
+       "@type": "QuantitativeValue",
+       "maxValue": 7,
+       "minValue": 3,
+       "unitCode": "DAY"
+      }
+     },
+     "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "US"
+     },
+     "shippingRate": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+     }
+    },
+    "sku": "LPSWQN",
+    "url": "https://bearabystore.myshopify.com/products/latex-pillow?variant=46164401946810",
+    "validFrom": "2026-07-17"
+   },
+   "sku": "LPSWQN"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T14:50:15Z",
+ "og_image": "http://bearaby.com/cdn/shop/files/Detail_photo_8_8d9d4bdf-8e64-4f20-876d-6b0f2ebd23ab.jpg?v=1784299364",
+ "page_sha256": "013ae4e8a0c73b347f494f98be69a9c0155363ec327dee21885ef0d19ad85cf5",
+ "rendered_checked": true,
+ "title": "Bearaby SoftForm Pillow | Natural Latex Pillow for Deeper Sleep",
+ "url": "https://www.bearaby.com/products/latex-pillow"
+}

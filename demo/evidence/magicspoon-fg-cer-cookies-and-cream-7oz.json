@@ -1,0 +1,42 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://magicspoon.com/products/fg-cer-cookies-and-cream-7oz",
+ "http_status": 200,
+ "id": "magicspoon-fg-cer-cookies-and-cream-7oz",
+ "image_file": "magicspoon-fg-cer-cookies-and-cream-7oz.png",
+ "image_sha256": "b02d556517e1b27a00242fea97e9e052bea85941b14ea418895dc6c261c8e2c1",
+ "image_source": "https://magicspoon.com/cdn/shop/files/cookies_cream_2848b62e-5b7a-4500-a917-99a57fcbaee6_2048x2048.webp?v=1790002376&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/fg-cer-cookies-and-cream-7oz#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Magic Spoon"
+   },
+   "description": "",
+   "image": "https://magicspoon.com/cdn/shop/files/cookies_cream_2848b62e-5b7a-4500-a917-99a57fcbaee6_450x450.webp?v=1790002376",
+   "mpn": "8262864240702",
+   "name": "Cookies and Cream Cereal",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "9.75",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Magic Spoon"
+    }
+   },
+   "url": "/products/fg-cer-cookies-and-cream-7oz"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T14:50:01Z",
+ "og_image": "//magicspoon.com/cdn/shop/files/cookies_cream_2848b62e-5b7a-4500-a917-99a57fcbaee6_2048x2048.webp?v=1790002376",
+ "page_sha256": "ccc1501b7cb06391540b740cbe618ca8180fdb7e16f4023a6996cb16f6109bdb",
+ "rendered_checked": true,
+ "title": "Cookies and Cream Cereal",
+ "url": "https://magicspoon.com/products/fg-cer-cookies-and-cream-7oz"
+}

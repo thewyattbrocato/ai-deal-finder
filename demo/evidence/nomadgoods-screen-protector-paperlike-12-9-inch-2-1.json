@@ -1,0 +1,64 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1",
+ "http_status": 200,
+ "id": "nomadgoods-screen-protector-paperlike-12-9-inch-2-1",
+ "image_file": "nomadgoods-screen-protector-paperlike-12-9-inch-2-1.jpg",
+ "image_sha256": "094db2d7cba6885d2fde16808127882e5c29f30faa52c2a6aa69cef80cefc815",
+ "image_source": "https://cdn.shopify.com/s/files/1/0384/6721/files/1_fb791e82-b577-4eb3-89c6-3bd567151dec.jpg?v=1710181897&width=420&height=630",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Nomad Goods"
+   },
+   "color": "Transparent",
+   "description": "Paperlike iPad Screen Protector mimics the feel of paper, offering a perfect tactile experience for artists and professionals. With Nanodot\u00ae microbead technology, it provides excellent touch sensitivity, screen clarity, and seamless Apple Pencil compatibility. Each package includes 2 screen protectors, cleaning, and alignment tools.",
+   "gtin12": "840283935015",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/1_fb791e82-b577-4eb3-89c6-3bd567151dec.jpg?v=1710181897",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/5.jpg?v=1710181901",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/4.jpg?v=1710181906",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/3_95b8a04d-3d2e-4ac0-9018-4fa5b531bcf0.jpg?v=1710181907",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/2_28a9469f-17ed-4059-9b1f-cae7ca19daf7.jpg?v=1710181910"
+   ],
+   "material": "PET",
+   "model": "Screen Protector",
+   "mpn": "144416114Q4Q",
+   "name": "Paperlike",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "price": 45,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Nomad"
+     },
+     "sku": "144416114Q4Q",
+     "url": "https://nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1?Title=Default+Title"
+    }
+   ],
+   "sku": "144416114Q4Q",
+   "url": "https://nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T14:52:12Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/1_fb791e82-b577-4eb3-89c6-3bd567151dec.jpg?v=1710181897&width=1280&height=630",
+ "page_sha256": "ca0d536776efc39c88fd65eefdc0d34626dafae29568cd99d19fdcf47fba8c8e",
+ "rendered_checked": true,
+ "title": "NOMAD\u00ae Paperlike 2.1 for iPad Pro 12.9\"",
+ "url": "https://www.nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1"
+}

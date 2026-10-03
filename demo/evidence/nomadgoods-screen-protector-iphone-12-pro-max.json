@@ -1,0 +1,70 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nomadgoods.com/products/screen-protector-iphone-12-pro-max",
+ "http_status": 200,
+ "id": "nomadgoods-screen-protector-iphone-12-pro-max",
+ "image_file": "nomadgoods-screen-protector-iphone-12-pro-max.jpg",
+ "image_sha256": "fb4a9a2624c28bfe94bb230b0e9ab01f8690888641a8859b38d91bb2e244b709",
+ "image_source": "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_B.jpg?v=1629766855&width=420&height=630",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 48,
+    "ratingValue": "4.46"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Nomad Goods"
+   },
+   "color": "Transparent",
+   "description": "Our tempered glass screen protector provides superior impact and scratch protection without compromising screen sensitivity or visibility. Crafted from extremely tough Japanese-made tempered glass, it is custom cut for an edge-to-edge fit. Enjoy flawless touch sensitivity, while the oleophobic coating reduces smudges, keeping your screen pristine. Each package includes essential screen cleaning and alignment tools for effortless installation.",
+   "gtin12": "856500011288",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_B.jpg?v=1629766855",
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_A.jpg?v=1629766855",
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_C.jpg?v=1629766855",
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_E.jpg?v=1629766855",
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_F.jpg?v=1629766855",
+    "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_D.jpg?v=1629766855"
+   ],
+   "material": "Glass",
+   "model": "Screen Protector",
+   "mpn": "14442111NA",
+   "name": "Screen Protector",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "price": 13,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Nomad"
+     },
+     "sku": "14442111NA",
+     "url": "https://nomadgoods.com/products/screen-protector-iphone-12-pro-max?Title=Default+Title"
+    }
+   ],
+   "sku": "14442111NA",
+   "url": "https://nomadgoods.com/products/screen-protector-iphone-12-pro-max"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T14:52:10Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/products/856500011288_B.jpg?v=1629766855&width=1280&height=630",
+ "page_sha256": "a37e9691117b19b64db1cbf4755ef1757da38eb9a792025f87045e6455a9b3bb",
+ "rendered_checked": true,
+ "title": "Screen Protector - iPhone 12 Pro Max | NOMAD\u00ae",
+ "url": "https://www.nomadgoods.com/products/screen-protector-iphone-12-pro-max"
+}

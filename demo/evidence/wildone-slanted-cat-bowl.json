@@ -1,0 +1,49 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://wildone.com/products/slanted-cat-bowl",
+ "http_status": 200,
+ "id": "wildone-slanted-cat-bowl",
+ "image_file": "wildone-slanted-cat-bowl.jpg",
+ "image_sha256": "c2b256790427172ff011b53fa794fa04931cadc86bded8dd6dee232f8b3a82be",
+ "image_source": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 5,
+    "ratingValue": "5.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Wild One"
+   },
+   "description": "Improve your cat\u2019s mealtime comfort with this slanted cat bowl designed to reduce whisker fatigue. The shallow, angled design allows easier access to food and water, while the removable stainless steel bowl resists bacteria and cleans easily. A non-slip base keeps everything securely in place.",
+   "image": [
+    "https://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309&width=1920"
+   ],
+   "name": "Slanted Cat Bowl",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": 850067252795,
+     "price": 18.0,
+     "priceCurrency": "USD",
+     "sku": "WO-BWL-CT-LIL",
+     "url": "https://wildone.com/products/slanted-cat-bowl?variant=45163408523459"
+    }
+   ],
+   "sku": "WO-BWL-CT-LIL",
+   "url": "https://wildone.com/products/slanted-cat-bowl"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T14:51:49Z",
+ "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309",
+ "page_sha256": "9255df31fb9559a3e23a67f1cd7dc9333a126244d874c152a6edad28a613f72b",
+ "rendered_checked": true,
+ "title": "Slanted Cat Bowl \u2013 Wild One",
+ "url": "https://www.wildone.com/products/slanted-cat-bowl"
+}

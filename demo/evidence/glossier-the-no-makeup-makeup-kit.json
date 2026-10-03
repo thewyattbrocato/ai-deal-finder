@@ -1,0 +1,40 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.glossier.com/products/the-no-makeup-makeup-kit",
+ "http_status": 200,
+ "id": "glossier-the-no-makeup-makeup-kit",
+ "image_file": "glossier-the-no-makeup-makeup-kit.png",
+ "image_sha256": "cc5c27d2d8b9d7284aa65f0a3f88055aadc1614c815e58d5995dd0cf20d58297",
+ "image_source": "http://www.glossier.com/cdn/shop/files/glossier-nomakeupmakeup-carousel-01.png?v=1782223725&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Glossier"
+   },
+   "description": "Save on three everyday icons with The No-Makeup Makeup Kit. It includes Lash Slick for long defined lashes. Boy Brow for soft, fluffy brows and Stretch Balm Concealer for medium dewy coverage.",
+   "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+   "name": "The No-Makeup Makeup Kit",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "itemCondition": "http://schema.org/NewCondition",
+    "price": "54",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Glossier"
+    }
+   }
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T14:51:02Z",
+ "og_image": "http://www.glossier.com/cdn/shop/files/glossier-nomakeupmakeup-carousel-01.png?v=1782223725",
+ "page_sha256": "c9bcc9a14e32d4fb8b22da511612c17aace8f8b3b460ce23670b98d2b8a08b8c",
+ "rendered_checked": true,
+ "title": "The No-Makeup Makeup Kit \u2013 Glossier",
+ "url": "https://www.glossier.com/products/the-no-makeup-makeup-kit"
+}

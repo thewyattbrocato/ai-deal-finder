@@ -1,0 +1,45 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.stasherbag.com/products/school-essentials-6-pack",
+ "http_status": 200,
+ "id": "stasherbag-school-essentials-6-pack",
+ "image_file": "stasherbag-school-essentials-6-pack.jpg",
+ "image_sha256": "821e0e79c2edfd7c05f9bee7cb9d54f0df63fd71f0fa41cd90f9ae8aba34ae21",
+ "image_source": "http://www.stasherbag.com/cdn/shop/files/MP285A_Bundle_6Pack_2800.jpg?v=1786314519&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Organization",
+    "name": "Stasher"
+   },
+   "description": "Make lunch packing easy, organized, and waste-free with this versatile 6-pack bundle. Perfect for busy school days, it includes all the sizes you need to keep snacks fresh and lunches leak-free. Made from durable, platinum-grade silicone, these bags are safe for the microwave, dishwasher, and freezer\u2014ideal for everything from sandwiches to meal prep.\nSPECS\n1-CUP BOWL\n2-CUP BOWL\n1 POCKET\u00a0\n1 STAND-UP MID\n1 X SANDWICH\n1 X SNACK\u00a0\n\nEndlessly reusable food-grade platinum silicone\nNo BPA, BPS, lead, latex, or phthalates\nLeak-free patented Pinch-Loc\u00ae seal\nDishwasher, microwave, and oven safe up to 425 F\u00ba\nLabel it with any dry erase/chalk marker!\n",
+   "image": [
+    "https://www.stasherbag.com/cdn/shop/files/MP285A_Bundle_6Pack_2800.jpg?v=1786314519&width=1920"
+   ],
+   "name": "Value 6-Pack",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": "810055318858",
+     "price": 52.79,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-04",
+     "sku": "MP285A",
+     "url": "https://www.stasherbag.com/products/school-essentials-6-pack?variant=44841515712691"
+    }
+   ],
+   "sku": "MP285A",
+   "url": "https://www.stasherbag.com/products/school-essentials-6-pack"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T14:52:25Z",
+ "og_image": "http://www.stasherbag.com/cdn/shop/files/MP285A_Bundle_6Pack_2800.jpg?v=1786314519",
+ "page_sha256": "9f7c0b8d5a725cfa45b510eba5cdf9e915111f2ee347b5f639695408fdf1fe1a",
+ "rendered_checked": true,
+ "title": "Value 6-Pack \u2013 Stasher",
+ "url": "https://www.stasherbag.com/products/school-essentials-6-pack"
+}

@@ -968,5 +968,225 @@
   "id": "mudwtr-coffee-tin-psl-1",
   "url": "https://mudwtr.com/products/coffee-tin-psl-1",
   "kind": "Drinks"
+ },
+ {
+  "id": "deathwishcoffee-klean-kanteen-camp-mug",
+  "url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "deathwishcoffee-white-chocolate-pistachio-klean-kanteen-20oz",
+  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
+  "kind": "Kitchen"
+ },
+ {
+  "id": "deathwishcoffee-white-chocolate-pistachio-ground-bundle",
+  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
+  "kind": "Coffee"
+ },
+ {
+  "id": "deathwishcoffee-brown-saint-beanie",
+  "url": "https://www.deathwishcoffee.com/products/brown-saint-beanie",
+  "kind": "Clothing"
+ },
+ {
+  "id": "deathwishcoffee-death-grip-bottle-opener",
+  "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+  "kind": "Accessories"
+ },
+ {
+  "id": "magicspoon-variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-bo",
+  "url": "https://magicspoon.com/products/variety-6-all-the-treats-bowl-6-boxes-16-cereal-treats-4-boxes",
+  "kind": "Pantry"
+ },
+ {
+  "id": "magicspoon-strawberry-cheesecake-cereal",
+  "url": "https://magicspoon.com/products/strawberry-cheesecake-cereal",
+  "kind": "Pantry"
+ },
+ {
+  "id": "magicspoon-fg-cer-cookies-and-cream-7oz",
+  "url": "https://magicspoon.com/products/fg-cer-cookies-and-cream-7oz",
+  "kind": "Pantry"
+ },
+ {
+  "id": "magicspoon-limited-edition-cereal-treats-bundle",
+  "url": "https://magicspoon.com/products/limited-edition-cereal-treats-bundle",
+  "kind": "Pantry"
+ },
+ {
+  "id": "magicspoon-variety6-pack-with-cookiescream-strawberrycheesecake",
+  "url": "https://magicspoon.com/products/variety6-pack-with-cookiescream-strawberrycheesecake",
+  "kind": "Pantry"
+ },
+ {
+  "id": "magicspoon-variety-1-case-6-boxes-1",
+  "url": "https://magicspoon.com/products/variety-1-case-6-boxes-1",
+  "kind": "Pantry"
+ },
+ {
+  "id": "bearaby-tree-napper-muslin",
+  "url": "https://www.bearaby.com/products/tree-napper-muslin",
+  "kind": "Home"
+ },
+ {
+  "id": "bearaby-latex-pillow",
+  "url": "https://www.bearaby.com/products/latex-pillow",
+  "kind": "Home"
+ },
+ {
+  "id": "bearaby-base-body-pillow",
+  "url": "https://www.bearaby.com/products/base-body-pillow",
+  "kind": "Home"
+ },
+ {
+  "id": "bearaby-body-pillow",
+  "url": "https://www.bearaby.com/products/body-pillow",
+  "kind": "Home"
+ },
+ {
+  "id": "glossier-the-glossier-icons",
+  "url": "https://www.glossier.com/products/the-glossier-icons",
+  "kind": "Personal care"
+ },
+ {
+  "id": "glossier-balm-dotcom-trio",
+  "url": "https://www.glossier.com/products/balm-dotcom-trio",
+  "kind": "Personal care"
+ },
+ {
+  "id": "glossier-the-skincare-icons",
+  "url": "https://www.glossier.com/products/the-skincare-icons",
+  "kind": "Personal care"
+ },
+ {
+  "id": "glossier-in-a-new-york-minute",
+  "url": "https://www.glossier.com/products/in-a-new-york-minute",
+  "kind": "Personal care"
+ },
+ {
+  "id": "glossier-boy-brow-duo",
+  "url": "https://www.glossier.com/products/boy-brow-duo",
+  "kind": "Personal care"
+ },
+ {
+  "id": "glossier-the-no-makeup-makeup-kit",
+  "url": "https://www.glossier.com/products/the-no-makeup-makeup-kit",
+  "kind": "Personal care"
+ },
+ {
+  "id": "untuckit-newbury-quarter-zip-cream",
+  "url": "https://www.untuckit.com/products/newbury-quarter-zip-cream",
+  "kind": "Clothing"
+ },
+ {
+  "id": "untuckit-blackwald-hoodie-cream",
+  "url": "https://www.untuckit.com/products/blackwald-hoodie-cream",
+  "kind": "Clothing"
+ },
+ {
+  "id": "untuckit-northwell",
+  "url": "https://www.untuckit.com/products/northwell",
+  "kind": "Clothing"
+ },
+ {
+  "id": "untuckit-valois",
+  "url": "https://www.untuckit.com/products/valois",
+  "kind": "Clothing"
+ },
+ {
+  "id": "untuckit-normand",
+  "url": "https://www.untuckit.com/products/normand",
+  "kind": "Clothing"
+ },
+ {
+  "id": "untuckit-quinnell-tan",
+  "url": "https://www.untuckit.com/products/quinnell-tan",
+  "kind": "Clothing"
+ },
+ {
+  "id": "wildone-cat-harness-leash-collar-kit",
+  "url": "https://www.wildone.com/products/cat-harness-leash-collar-kit",
+  "kind": "Pets"
+ },
+ {
+  "id": "wildone-cat-meal-kit",
+  "url": "https://www.wildone.com/products/cat-meal-kit",
+  "kind": "Pets"
+ },
+ {
+  "id": "wildone-cat-slow-feeder",
+  "url": "https://www.wildone.com/products/cat-slow-feeder",
+  "kind": "Pets"
+ },
+ {
+  "id": "wildone-slanted-cat-bowl",
+  "url": "https://www.wildone.com/products/slanted-cat-bowl",
+  "kind": "Pets"
+ },
+ {
+  "id": "wildone-cat-placemat",
+  "url": "https://www.wildone.com/products/cat-placemat",
+  "kind": "Pets"
+ },
+ {
+  "id": "wildone-cat-plush-toy",
+  "url": "https://www.wildone.com/products/cat-plush-toy",
+  "kind": "Pets"
+ },
+ {
+  "id": "nomadgoods-garmin-sport-band-22mm-mesa-orange",
+  "url": "https://www.nomadgoods.com/products/garmin-sport-band-22mm-mesa-orange",
+  "kind": "Tech"
+ },
+ {
+  "id": "nomadgoods-garmin-rocky-point-26mm-natural-hardware-sol",
+  "url": "https://www.nomadgoods.com/products/garmin-rocky-point-26mm-natural-hardware-sol",
+  "kind": "Tech"
+ },
+ {
+  "id": "nomadgoods-leather-folio-brown-ipad-pro-12-9-inch",
+  "url": "https://www.nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch",
+  "kind": "Tech"
+ },
+ {
+  "id": "nomadgoods-screen-protector-iphone-12-pro-max",
+  "url": "https://www.nomadgoods.com/products/screen-protector-iphone-12-pro-max",
+  "kind": "Tech"
+ },
+ {
+  "id": "nomadgoods-screen-protector-paperlike-12-9-inch-2-1",
+  "url": "https://www.nomadgoods.com/products/screen-protector-paperlike-12-9-inch-2-1",
+  "kind": "Tech"
+ },
+ {
+  "id": "nomadgoods-traditional-leather-case-english-tan-c-nomad-leather-iphone",
+  "url": "https://www.nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro",
+  "kind": "Tech"
+ },
+ {
+  "id": "stasherbag-laundry-starter-kit",
+  "url": "https://www.stasherbag.com/products/laundry-starter-kit",
+  "kind": "Home"
+ },
+ {
+  "id": "stasherbag-laundry-detergent-sheets-3-pack-buy-2-get-1-free",
+  "url": "https://www.stasherbag.com/products/laundry-detergent-sheets-3-pack-buy-2-get-1-free",
+  "kind": "Home"
+ },
+ {
+  "id": "stasherbag-wool-dryer-ball",
+  "url": "https://www.stasherbag.com/products/wool-dryer-ball",
+  "kind": "Home"
+ },
+ {
+  "id": "stasherbag-laundry-detergent-sheets",
+  "url": "https://www.stasherbag.com/products/laundry-detergent-sheets",
+  "kind": "Home"
+ },
+ {
+  "id": "stasherbag-school-essentials-6-pack",
+  "url": "https://www.stasherbag.com/products/school-essentials-6-pack",
+  "kind": "Kitchen"
  }
 ]

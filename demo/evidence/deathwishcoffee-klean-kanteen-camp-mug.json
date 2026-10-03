@@ -1,0 +1,68 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug",
+ "http_status": 200,
+ "id": "deathwishcoffee-klean-kanteen-camp-mug",
+ "image_file": "deathwishcoffee-klean-kanteen-camp-mug.jpg",
+ "image_sha256": "26b013e44b3d84849802a77223816f8247adba4e437cc643b1097725a6ef8cc0",
+ "image_source": "http://www.deathwishcoffee.com/cdn/shop/products/MetalCore-101.jpg?v=1674569558&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Klean Kanteen"
+   },
+   "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/",
+      "name": "Homepage",
+      "position": 1
+     },
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/collections/all-products",
+      "name": "All Products",
+      "position": 2
+     },
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug",
+      "name": "Crossbones Klean Kanteen Mug",
+      "position": 3
+     }
+    ]
+   },
+   "description": "METAL TO THE CORE.\n\nFor when you need to get cracking while you crush your coffee. Serving on-the-go readiness in a shadowy colorway that can withstand even the loudest of living. So turn it up, hit the gas and do what you gotta do. Your coffee will be hot and ready in the Crossbones Klean Kanteen Mug.",
+   "image": [
+    "https://www.deathwishcoffee.com/cdn/shop/products/MetalCore-101.jpg?v=1674569558&width=1920"
+   ],
+   "name": "Crossbones Klean Kanteen Mug",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "name": "Default Title",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "sku": "UMKKCM23",
+     "url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug?variant=40064390660151"
+    }
+   ],
+   "sku": "UMKKCM23",
+   "url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T14:49:47Z",
+ "og_image": "http://www.deathwishcoffee.com/cdn/shop/products/MetalCore-101.jpg?v=1674569558",
+ "page_sha256": "2eb1574976f939035da79c721566f687b00e7dc62d7a53298dcc7efa87d21bbb",
+ "rendered_checked": true,
+ "title": "Crossbones Klean Kanteen Mug \u2013 Death Wish Coffee",
+ "url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug"
+}

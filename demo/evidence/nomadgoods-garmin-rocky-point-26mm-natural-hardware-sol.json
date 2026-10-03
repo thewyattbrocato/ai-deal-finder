@@ -1,0 +1,67 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://nomadgoods.com/products/garmin-rocky-point-26mm-natural-hardware-sol",
+ "http_status": 200,
+ "id": "nomadgoods-garmin-rocky-point-26mm-natural-hardware-sol",
+ "image_file": "nomadgoods-garmin-rocky-point-26mm-natural-hardware-sol.jpg",
+ "image_sha256": "f165196a45ac76116fb5ecbd9ce39c24a24d8d6dd034b00cab93fba50b0144d6",
+ "image_source": "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00000.jpg?v=1790202746&width=420&height=630",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Nomad Goods"
+   },
+   "color": "Sol",
+   "description": "Watch band for Garmin devices, part of the Rocky Point series, made from FKM rubber with titanium hardware in natural finish. Buckle clasp, heavy duty profile, waterproof construction. Color: Sol.",
+   "gtin12": "855848009599",
+   "image": [
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00000.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00001.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00002.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00003.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00004.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00005.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00006.jpg?v=1790202746",
+    "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00007.jpg?v=1790202746"
+   ],
+   "material": "FKM",
+   "model": "Rocky Point",
+   "mpn": "894001118N8N",
+   "name": "Rocky Point Band",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "price": 89,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Nomad"
+     },
+     "sku": "894001118N8N",
+     "url": "https://nomadgoods.com/products/garmin-rocky-point-26mm-natural-hardware-sol?Title=Default+Title"
+    }
+   ],
+   "sku": "894001118N8N",
+   "url": "https://nomadgoods.com/products/garmin-rocky-point-26mm-natural-hardware-sol"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T14:52:06Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/Garmin_Rocky-Point-Band_Silver_Sol_00000.jpg?v=1790202746&width=1280&height=630",
+ "page_sha256": "156f700e970436aee58edddf31e5f032692a2d4114b91f92719ea793237d09cd",
+ "rendered_checked": true,
+ "title": "Rocky Point - Garmin 26mm - Sol | NOMAD",
+ "url": "https://www.nomadgoods.com/products/garmin-rocky-point-26mm-natural-hardware-sol"
+}

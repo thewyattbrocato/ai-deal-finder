@@ -1,0 +1,68 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://www.deathwishcoffee.com/products/brown-saint-beanie",
+ "http_status": 200,
+ "id": "deathwishcoffee-brown-saint-beanie",
+ "image_file": "deathwishcoffee-brown-saint-beanie.jpg",
+ "image_sha256": "9b6da97e33c0a609d129c7dfcea9c38a7795edf23cff06e68d197e3efa139584",
+ "image_source": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Beanie_Front_Web.jpg?v=1789156571&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.deathwishcoffee.com/products/brown-saint-beanie",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Death Wish Coffee"
+   },
+   "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/",
+      "name": "Homepage",
+      "position": 1
+     },
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/collections/all-products",
+      "name": "All Products",
+      "position": 2
+     },
+     {
+      "@type": "ListItem",
+      "item": "https://www.deathwishcoffee.com/products/brown-saint-beanie",
+      "name": "Wild at Heart Beanie",
+      "position": 3
+     }
+    ]
+   },
+   "description": "Answer the call of the wild.\u00a0\nWhether you're deep in the woods in pursuit of a Red Stag or just stepping outside on a crisp fall morning, this limited-edition beanie is made for days when the temperature drops but your standards don't.\nFeaturing an earthy brown finish with a faux-leather patch, it's the perfect layer for whatever adventure\u2014or aggressively overbooked Saturday\u2014you've got planned.\nThrow it on, grab your coffee and get out there. The wild is calling.\n*Full collection sold separately.",
+   "image": [
+    "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Beanie_Front_Web.jpg?v=1789156571&width=1920"
+   ],
+   "name": "Wild at Heart Beanie",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "name": "Default Title",
+     "price": 35.0,
+     "priceCurrency": "USD",
+     "sku": "UBSAIB26",
+     "url": "https://www.deathwishcoffee.com/products/brown-saint-beanie?variant=42438677954615"
+    }
+   ],
+   "sku": "UBSAIB26",
+   "url": "https://www.deathwishcoffee.com/products/brown-saint-beanie"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T14:49:54Z",
+ "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Beanie_Front_Web.jpg?v=1789156571",
+ "page_sha256": "90221882e856b2c4a8c9bdcfc528c35a4a9b7492491424876b139d6af4e454c6",
+ "rendered_checked": true,
+ "title": "Wild at Heart Beanie \u2013 Death Wish Coffee",
+ "url": "https://www.deathwishcoffee.com/products/brown-saint-beanie"
+}

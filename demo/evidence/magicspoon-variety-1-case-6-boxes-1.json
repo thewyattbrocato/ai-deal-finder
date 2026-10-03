@@ -1,0 +1,47 @@
+{
+ "coupon_snippets": [],
+ "final_url": "https://magicspoon.com/products/variety-1-case-6-boxes-1",
+ "http_status": 200,
+ "id": "magicspoon-variety-1-case-6-boxes-1",
+ "image_file": "magicspoon-variety-1-case-6-boxes-1.png",
+ "image_sha256": "5a18f0fcf059ae67ffad49bbb6cb2325b3c7e66ed8698d958f623377568ee978",
+ "image_source": "https://magicspoon.com/cdn/shop/files/MS_C_VAR6_HERO_2x_7341fa36-e701-431c-a0c3-5abb95847cb5_2048x2048.webp?v=1769004825&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/variety-1-case-6-boxes-1#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "25909",
+    "ratingValue": "4.6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Magic Spoon"
+   },
+   "description": "Try all of our classic flavors\u2014Fruity, Frosted, Cocoa, Peanut Butter, Blueberry Muffin, and Cinnamon Crunch. We\u2019ve reimagined all your favorite childhood cereals.",
+   "image": "https://magicspoon.com/cdn/shop/files/MS_C_VAR6_HERO_2x_7341fa36-e701-431c-a0c3-5abb95847cb5_450x450.webp?v=1769004825",
+   "mpn": "6574592131134",
+   "name": "Variety 6 - 1 case (6 boxes)",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "55.5",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Magic Spoon"
+    }
+   },
+   "url": "/products/variety-1-case-6-boxes-1"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T14:50:08Z",
+ "og_image": "//magicspoon.com/cdn/shop/files/MS_C_VAR6_HERO_2x_7341fa36-e701-431c-a0c3-5abb95847cb5_2048x2048.webp?v=1769004825",
+ "page_sha256": "551e05d773485cf391f748f467962d005bc9268eca8d27f4c9970f317a9a8779",
+ "rendered_checked": true,
+ "title": "Magic Spoon Variety Pack - 6 Boxes | High-Protein, Keto Cereal",
+ "url": "https://magicspoon.com/products/variety-1-case-6-boxes-1"
+}
