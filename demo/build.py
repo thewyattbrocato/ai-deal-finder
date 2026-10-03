@@ -422,9 +422,9 @@ def savings_block(item):
         if not offer.startswith("\u201c"):
             offer = "\u201c" + offer + "\u201d"
         rows.append(
-            '<li data-coupon-row><span class="font-semibold" data-coupon-label>'
+            '<li data-coupon-row><span class="fs" data-coupon-label>'
             "Coupon on this page:</span> "
-            '<span class="font-mono font-bold">' + esc(cp["code"])
+            '<span class="mono">' + esc(cp["code"])
             + "</span> \u2014 the page says " + esc(offer)
             + ". Conditions: only as that wording states them. Seen on "
             + esc(item["page_host"]) + ", " + esc(item["region"]) + ", "
@@ -435,19 +435,19 @@ def savings_block(item):
             rows.append(
                 '<li data-window-row data-window-start="' + w["start"]
                 + '" data-window-end="' + w["end"]
-                + '"><span class="font-semibold">Window the page prints:</span> '
+                + '"><span class="fs">Window the page prints:</span> '
                 "\u201c" + esc(w["quote"]) + "\u201d (read as " + w["start"]
                 + " to " + w["end"] + "). "
                 '<strong data-window-status>Compare it with today\'s date.</strong></li>')
         else:
             rows.append(
-                '<li data-window-row><span class="font-semibold">Window the page prints:</span> '
+                '<li data-window-row><span class="fs">Window the page prints:</span> '
                 "<strong data-window-status>the coupon text states no date window "
                 "(or only one that is not a clear start and end), so no window is shown."
                 "</strong></li>")
         if cp.get("conditions"):
             rows.append(
-                '<li data-conditions-row><span class="font-semibold">Conditions the page prints:</span> '
+                '<li data-conditions-row><span class="fs">Conditions the page prints:</span> '
                 + " ".join("\u201c" + esc(c) + "\u201d" for c in cp["conditions"])
                 + "</li>")
         confirm_html.append('<span data-confirm-code>whether the code works and what it would take off</span>')
@@ -457,101 +457,149 @@ def savings_block(item):
     confirm_text = esc("; ".join(parts))
     if confirm_html:
         confirm_text += "; " + "; ".join(confirm_html)
-    rows.append('<li><span class="font-semibold">Confirm at checkout:</span> '
+    rows.append('<li><span class="fs">Confirm at checkout:</span> '
                 + confirm_text + ".</li>")
     return (
         '<div class="savings-box" data-savings>'
-        '<p class="text-sm font-semibold mb-1" data-saving-lead>'
+        '<p class="fs" data-saving-lead>'
         '<span data-shelf-line>' + esc(item["price_label"])
         + ' as printed on the page</span>. '
         '<span data-saving-status>' + status + "</span>.</p>"
-        '<ul class="text-sm" style="list-style:none;margin:0;padding:0">'
-        + "".join(rows) + "</ul></div>")
+        "<ul>" + "".join(rows) + "</ul></div>")
 
 
-def product_card(item, decision, coupon_html):
+def _offer_quote(cp):
+    offer = cp["offer"].rstrip(".")
+    return offer if offer.startswith("“") else "“" + offer + "”"
+
+
+def _short_money(c):
+    return "$%d" % (c // 100) if c % 100 == 0 else _money(c)
+
+
+def facts_strip(item):
+    """Size, shipping and subscribe in a few words, from what the page stated.
+
+    Anything the page did not say reads "not stated — unknown", never "no"
+    and never a guess. The full wording is in the card's details.
+    """
+    t = item.get("terms") or {"group": None, "sizes": []}
+    unknown = '<span class="u">not stated — unknown</span>'
+    sizes = t.get("sizes") or []
+    if sizes:
+        size = "%d size%s listed" % (len(sizes), "" if len(sizes) == 1 else "s")
+        if all(s["ok"] is False for s in sizes):
+            size += ", none shown in stock"
+        size = esc(size)
+    else:
+        size = unknown
+    ship = t.get("ship")
+    if not ship:
+        shipping = unknown
+    elif ship["k"] == "free":
+        shipping = "free shipping"
+    elif ship["k"] == "threshold":
+        shipping = esc("free over " + _short_money(ship["over"]) + (
+            " (members only)" if ship.get("members") else ""))
+    else:
+        shipping = esc("shipping " + _short_money(ship["rate"]))
+    sub = "offered" if t.get("sub") else unknown
+    return ('<p class="facts" data-facts>' + "".join(
+        "<span><b>" + k + ":</b> " + v + "</span>"
+        for k, v in (("Size", size), ("Shipping", shipping),
+                     ("Subscribe", sub))) + "</p>")
+
+
+def coupon_line(item):
+    """The printed coupon in the page's own words, and that it is not applied."""
+    cp = item["coupon"]
+    if cp is None:
+        return ""
+    return (
+        '<p class="coupon" data-coupon-line><b data-coupon-lead>Printed coupon '
+        '<span class="code">' + esc(cp["code"]) + "</span></b> — the page says "
+        '<span class="quote">' + esc(_offer_quote(cp)) + "</span>"
+        '<span data-coupon-ended></span> '
+        "<b>Not applied:</b> the price above is the shelf price and does not "
+        "include it.</p>")
+
+
+def product_card(item, decision, coupon_html, index=0):
+    """One product: a compact card (name, store, shelf price, check age, printed
+    coupon status, unknowns, one tap to the store) with the full detail behind
+    a native disclosure on the same card."""
     badge, label = DECISION_BADGE[decision.verdict.value]
     parts = []
-    parts.append('<section class="card bg-base-100 shadow mb-5 border border-base-200" '
-                 'data-keywords="' + esc(" ".join(item["keywords"]))
+    parts.append('<section class="card item" data-i="' + str(index)
+                 + '" data-keywords="' + esc(" ".join(item["keywords"]))
                  + '" data-name="' + esc(item["name"]) + '" data-kind="' + esc(item["kind"]) + '" data-coupon="'
                  + ("yes" if item["coupon"] else "no") + '" data-price="'
-                 + str(item["price_cents"]) + '" data-quality="'
-                 + esc(item["quality"]["tag"] if item["quality"] else "")
-                 + '" data-form="' + esc(item["form"] or "")
+                 + str(item["price_cents"])
                  + '" data-price-label="' + esc(item["price_label"])
                  + '" data-coupon-code="'
                  + esc(item["coupon"]["code"] if item["coupon"] else "")
-                 + '" data-quality-basis="'
-                 + esc(item["quality"]["basis"] if item["quality"] else "")
-                 + '" data-base-name="' + esc(item.get("base_name") or "")
                  + '"' + (' data-coffee-note="yes"' if item.get("coffee_note") else "")
                  + ' data-terms="' + esc(terms_json(item.get("terms")))
                  + '">')
-    parts.append('<div class="card-body" style="min-width:0">')
-    parts.append('<div class="flex flex-wrap gap-4" style="min-width:0">')
+    parts.append('<div class="card-main">')
     if item["image"]:
         parts.append(
             '<img src="' + esc(item["image"]) + '" alt="Photo of '
             + esc(item["name"]) + ' as shown on the store page" '
-            'loading="eager" width="140" height="140" '
-            'style="width:140px;height:140px;object-fit:cover;border-radius:0.75rem;flex:none;background:#f3f4f6">'
-        )
-    parts.append('<div style="min-width:0;flex:1 1 16rem">')
-    parts.append('<p class="text-xs font-semibold tracking-wide opacity-60 mb-1">'
-                 + esc(item["kind"]) + " \u00b7 " + esc(item["seller"]) + "</p>")
-    parts.append('<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1" style="min-width:0">'
-                 '<h3 class="card-title text-xl" style="min-width:0" data-heading>'
-                 + esc(item["name"]) + "</h3>"
-                 '<div class="text-2xl font-extrabold whitespace-nowrap" data-price-text>'
-                 + esc(item["price_label"]) + "</div></div>")
-    parts.append('<p class="text-sm opacity-80 mb-1">' + esc(item["detail"]) + "</p>")
-    parts.append('<p class="guide-why text-sm mb-1" data-why style="display:none"></p>')
-    parts.append('<p class="text-sm font-semibold mb-1" data-sub-note style="display:none"></p>')
+            'loading="lazy" decoding="async" width="96" height="96">')
+    else:
+        parts.append('<div class="nophoto" role="img" aria-label="No photo was '
+                     'captured for this product">No photo captured</div>')
+    parts.append('<div class="card-head">')
+    parts.append('<p class="meta">' + esc(item["kind"]) + " · " + esc(item["seller"]) + "</p>")
+    parts.append('<h3 data-heading>' + esc(item["name"]) + "</h3>")
+    parts.append('<p class="var">' + esc(item["detail"]) + "</p>")
+    parts.append('<div class="priceline"><span class="price" data-price-text>'
+                 + esc(item["price_label"]) + "</span><small>shelf price</small></div>")
     if item["was_label"]:
-        parts.append('<p class="text-sm opacity-70 mb-1">was '
-                     + esc(item["was_label"])
+        parts.append('<p class="was">was ' + esc(item["was_label"])
                      + " (as marked on the page)</p>")
-    if item["quality"] and not item.get("band"):
-        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
-                     + esc(item["quality"]["label"])
-                     + '</span> <span class="opacity-70">\u2014 '
-                     + esc(item["quality"]["basis"]) + "</span></p>")
-    if item.get("band"):
-        parts.append('<p class="text-sm mt-1"><span class="font-semibold">'
-                     "Specialty band: "
-                     + "</span>" + esc(item["band"]) + "</p>")
+    parts.append('<p class="size-line" data-size-line style="display:none"></p>')
+    parts.append("</div></div>")
     if item.get("page_read"):
         # One page read, nothing compared: say what was established, no verdict.
-        status = ('<span class="text-lg font-bold" data-page-read>'
-                  + PAGE_READ_LABEL + "</span>"
-                  '<span class="text-sm opacity-80">Not compared with other stores.</span>')
-    else:
-        status = ('<span class="text-lg font-bold text-success">\u2713 ' + esc(label) + "</span>"
-                  '<span class="text-sm opacity-80">Price as read from the page.</span>')
-    parts.append(
-        '<div class="flex flex-wrap items-center gap-3 my-3 p-3 rounded-lg bg-base-200" style="min-width:0">'
-        + status +
-        '<a class="btn btn-primary" href="' + esc(item["page_url"])
-        + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
-        + " \u2192</a></div>"
-    )
-    parts.append('<p class="text-sm mb-1" data-age data-observed="' + esc(item["observed_at"])
+        parts.append('<p class="readline"><span class="fs" data-page-read>'
+                     + PAGE_READ_LABEL + '</span> · <span>Not compared with other stores.</span></p>')
+    parts.append('<p class="line sm" data-age data-observed="' + esc(item["observed_at"])
                  + '">Checked ' + esc(item["observed_at"][:10]) + "</p>")
+    if item["coupon"]:
+        parts.append(coupon_line(item))
+    parts.append(facts_strip(item))
+    parts.append('<div class="cardfoot"><a class="go" href="' + esc(item["page_url"])
+                 + '" target="_blank" rel="noopener">See at ' + esc(item["seller"])
+                 + " →</a></div>")
+    parts.append('<details class="more"><summary>Full details: savings, coupon '
+                 "window, what to confirm, terms</summary>"
+                 '<div class="more-body">')
+    if not item.get("page_read"):
+        parts.append(
+            '<div class="status"><span class="big">✓ ' + esc(label) + "</span>"
+            '<span class="sm">Price as read from the page.</span></div>')
+    if item["quality"] and not item.get("band"):
+        parts.append('<p class="line"><span class="fs">'
+                     + esc(item["quality"]["label"])
+                     + '</span> <span>— '
+                     + esc(item["quality"]["basis"]) + "</span></p>")
+    if item.get("band"):
+        parts.append('<p class="line"><span class="fs">Specialty band: </span>'
+                     + esc(item["band"]) + "</p>")
     parts.append(coupon_html)
     if decision.verdict.value == "verify" and decision.manual_check:
-        parts.append('<div class="alert alert-warning mb-3"><div>'
-                     + esc(decision.manual_check) + "</div></div>")
+        parts.append('<div class="banner">' + esc(decision.manual_check) + "</div>")
     parts.append(terms_block(item))
-    parts.append('<ul class="list-disc ml-6 text-sm mb-2">'
+    parts.append('<ul class="fine">'
                  + "".join("<li>" + esc(n) + "</li>" for n in item["fine_print"])
                  + "</ul>")
     parts.append(
-        '<p class="text-xs opacity-70" style="min-width:0;overflow-wrap:anywhere">'
-        "Checked: " + esc(item["page_host"]) + " \u00b7 " + esc(item["region"])
-        + " \u00b7 " + esc(item["observed_at"]) + "</p>"
+        '<p class="src">Checked: ' + esc(item["page_host"]) + " · " + esc(item["region"])
+        + " · " + esc(item["observed_at"]) + "</p>"
     )
-    parts.append("</div></div></div></section>")
+    parts.append("</div></details></section>")
     return "\n".join(parts)
 
 
@@ -603,19 +651,19 @@ def terms_block(item):
     rows = [("Size", size_txt), ("Shipping", ship_txt), ("Subscribe", sub_txt)]
     src = ""
     if t.get("src"):
-        src = ('<p class="text-xs opacity-70 mt-1">Read ' + esc(t["src"][1])
+        src = ('<p class="src">Read ' + esc(t["src"][1])
                + " from " + esc(t["src"][0]) + "</p>")
     return (
         '<div class="terms-box" data-terms-block>'
-        '<p class="text-sm font-semibold mb-1">What the page states about this purchase</p>'
-        '<ul class="text-sm" style="list-style:none;margin:0;padding:0">'
-        + "".join('<li><span class="font-semibold">' + esc(k) + ":</span> "
+        '<p class="t">What the page states about this purchase</p>'
+        "<ul>"
+        + "".join('<li><span class="fs">' + esc(k) + ":</span> "
                   + esc(v) + "</li>" for k, v in rows)
         + "</ul>" + src + "</div>")
 
 
-def card_for(item):
-    return product_card(item, item["decision"], savings_block(item))
+def card_for(item, index=0):
+    return product_card(item, item["decision"], savings_block(item), index)
 
 
 def item_dict(key, name, detail, seller, kind, image, price_cents,
@@ -697,6 +745,7 @@ def catalog_item(obs):
     words = set(re.findall(r"[a-z0-9]+", (obs["name"] + " " + seller).lower()))
     words.update(KIND_WORDS.get(obs["kind"], [obs["kind"].lower()]))
     words.add(obs["kind"].lower())
+    words.update(terms.SEARCH_WORDS.get(obs["id"], []))
     cents = int(round(obs["price"] * 100))
     label = "$%d" % obs["price"] if cents % 100 == 0 else "$%.2f" % obs["price"]
     coupon = None
@@ -744,6 +793,125 @@ def catalog_items(hand_items):
         names.add(o["name"])
         out[o["id"]] = catalog_item(o)
     return out
+
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def catalog_entry(item):
+    """The search index row for one card: only what the stored evidence states."""
+    t = item.get("terms") or {}
+    ship = t.get("ship")
+    return {
+        "n": item["name"], "m": item["seller"], "k": item["kind"],
+        "kw": item["keywords"], "pc": item["price_cents"],
+        "pl": item["price_label"], "u": item["page_url"],
+        "c": item["observed_at"][:10],
+        "cp": item["coupon"]["code"] if item["coupon"] else "",
+        "z": [{"k": z["k"], "c": z["c"], "ok": z["ok"]}
+              for z in (t.get("sizes") or [])],
+        "sh": {"k": ship["k"], "members": bool(ship.get("members"))} if ship else None,
+        "sb": 1 if t.get("sub") else 0,
+    }
+
+
+def catalog_json(items):
+    """The index as JSON that is safe inside a script element."""
+    raw = json.dumps([catalog_entry(i) for i in items], separators=(",", ":"))
+    return raw.replace("<", "\\u003c")
+
+
+def _read(name):
+    with open(os.path.join(HERE, name), encoding="utf-8") as f:
+        return f.read()
+
+
+PAGE_SHELL = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find a deal — what the store page actually shows</title>
+<style>
+{css}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<p class="brand">Deal Finder</p>
+<p class="lede">Only products whose store pages were actually read. <span id="range"></span></p>
+</header>
+<main>
+<label class="search-label" for="q">Search products, stores or kinds</label>
+<div class="searchbox">
+<div class="field">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+<input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list" enterkeyhint="done" placeholder="Try “coffee”, “Old Navy” or “sneaker”">
+<button type="button" id="clearq" class="clear-x" aria-label="Clear search" style="display:none">×</button>
+</div>
+<div id="sugg" role="listbox" aria-label="Suggestions" style="display:none"></div>
+</div>
+<p class="hint" id="hint">Results update as you type. Partial words and small typos are fine.</p>
+<noscript><p>Searching needs JavaScript. Nothing is hidden from you otherwise: every checked store page is linked from its product.</p></noscript>
+
+<section id="start" class="start" aria-label="Start with a kind">
+<h2>Or start with a kind</h2>
+<ul class="tiles" id="tiles"></ul>
+<div class="more-kinds">
+<button type="button" class="linkbtn" id="morebtn" aria-expanded="false" aria-controls="morekinds">More kinds</button>
+<button type="button" class="linkbtn" id="browseall" style="margin-left:16px">Browse all <span id="allcount"></span> checked products</button>
+<ul class="kindrow" id="morekinds" style="display:none"></ul>
+</div>
+<div class="read">
+<p><b>How to read this page.</b> The price is the shelf price printed on the store page on the day it was checked. A printed coupon is shown in quotes and is never subtracted. “Unknown” means the page did not say; it is never guessed.</p>
+</div>
+</section>
+
+<section id="resultsArea" aria-label="Results" style="display:none">
+<div id="active"></div>
+<details id="refine" class="refine"><summary>Refine results<span id="refine-count"></span></summary><div id="bar"></div></details>
+<div class="statusline">
+<h2 id="count" aria-live="polite" role="status"></h2>
+<div class="sortbox" id="sortbox"><label for="sort">Sort</label>
+<select id="sort"><option value="rel">Best word match</option><option value="lo">Price, low to high</option><option value="hi">Price, high to low</option></select>
+</div>
+</div>
+<div id="notes"></div>
+<p id="coffee-note" class="note" style="display:none">{coffee_note}</p>
+<div id="unk" style="display:none"></div>
+<div id="empty" class="empty" role="status" style="display:none"></div>
+<div id="results">
+<h2 id="unk-head" style="display:none">The page doesn’t say — listed separately</h2>
+{cards}
+</div>
+<button type="button" id="show-more" class="showmore" style="display:none">Show more</button>
+</section>
+</main>
+<section class="how"><h3>How these were checked</h3>
+<ul>
+<li>Pages opened anonymously — nothing added to a bag, no code tried out.</li>
+<li>Tax and shipping shown only when the page shows them.</li>
+<li>Coupon shown only when its text was seen, with page and time.</li>
+</ul>
+</section>
+</div>
+<script type="application/json" id="catalog">{catalog}</script>
+<script>
+{engine}</script>
+<script>
+{view}</script>
+</body>
+</html>
+"""
+
+
+def page_html(cards, catalog, coffee_note):
+    """The page: search first, every card written from stored evidence."""
+    vals = {"css": _read("page.css"), "cards": cards, "catalog": catalog,
+            "coffee_note": coffee_note, "engine": _read("engine.js"),
+            "view": _read("view.js")}
+    return re.sub(r"\{(css|cards|catalog|coffee_note|engine|view)\}",
+                  lambda m: vals[m.group(1)], PAGE_SHELL)
 
 
 def build():
@@ -924,7 +1092,7 @@ def build():
             if s.get("d"):
                 assert s["c"] == item["price_cents"], k
     items.update(catalog_items(items))
-    all_cards = "\n".join(card_for(items[k]) for k in items)
+    all_cards = "\n".join(card_for(items[k], i) for i, k in enumerate(items))
     with_c = [v for v in coffee if v["coupon"]]
     without_c = [v for v in coffee if not v["coupon"]]
 
@@ -942,621 +1110,7 @@ def build():
         + " did not. No code was tried, so every price here is the shelf price."
     )
 
-    page = """<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Find a deal — what the store page actually shows</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
-<style>
-  *, *::before, *::after { box-sizing: border-box; }
-  :where(p, h1, h2, h3, h4, li, td, th, .badge) { overflow-wrap: anywhere; }
-  :where(img, svg, video, canvas, iframe) { max-width: 100%; height: auto; }
-  .wrap { max-width: 64rem; margin: 0 auto; padding: 1.5rem; min-width: 0; }
-  .mode-btn[aria-pressed="true"], .guide-btn[aria-pressed="true"] { outline: 2px solid currentColor; }
-  body { font-size: 1.0625rem; line-height: 1.6; }
-  .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
-  .section-rule { border: 0; border-top: 2px solid currentColor; opacity: 0.15; margin: 0 0 1rem; }
-  .mode-btn, .guide-btn { min-height: 2.5rem; }
-  .guide-opt { cursor: pointer; display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0 0.9rem; border: 1px solid currentColor; border-radius: 0.5rem; font-size: 0.9rem; opacity: 0.85; }
-  .guide-opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-  .guide-opt:has(input:checked) { outline: 2px solid currentColor; font-weight: 700; opacity: 1; }
-  .guide-opt:has(input:focus-visible) { outline: 3px solid #1d4ed8; outline-offset: 2px; }
-  .guide-sec { margin-bottom: 0.9rem; }
-  .guide-sec-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; margin-bottom: 0.4rem; }
-  .guide-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.9rem 1.25rem; }
-  .guide-q { border: 0; padding: 0; margin: 0; min-width: 0; }
-  .guide-best { border-left: 4px solid currentColor; background: rgba(127,127,127,0.1); padding: 0.6rem 0.8rem; border-radius: 0.5rem; margin: 0.5rem 0; }
-  .terms-box { border-top: 1px solid rgba(127,127,127,0.3); margin: 0.5rem 0; padding-top: 0.5rem; }
-  .savings-box { border: 1px solid rgba(127,127,127,0.35); border-radius: 0.5rem; margin: 0.5rem 0 0.75rem; padding: 0.6rem 0.8rem; }
-  .savings-box li { margin-bottom: 0.25rem; }
-  [data-window-state="ended"] [data-coupon-row], [data-window-state="ended"] [data-window-row] { opacity: 0.65; }
-  [data-window-state="ended"] [data-coupon-label], [data-window-state="ended"] [data-window-status] { color: #b45309; }
-  .guide-why { border-left: 3px solid currentColor; padding-left: 0.6rem; }
-  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
-</style>
-</head>
-<body>
-<div class="wrap">
-<header class="mb-6">
-<p class="eyebrow mb-1">Deal Finder · checked pages only</p>
-<h1 class="text-4xl font-extrabold mb-2">Find a deal</h1>
-<p class="mb-4 text-lg">Search checked store pages. Price, decision, and coupon only when really seen.</p>
-<div class="flex flex-wrap gap-2 mb-2" role="group" aria-label="Search mode">
-<button id="mode-open" class="btn mode-btn" aria-pressed="true">Kind of thing</button>
-<button id="mode-exact" class="btn mode-btn" aria-pressed="false">Exact product</button>
-</div>
-<p id="mode-hint" class="text-sm opacity-80 mb-3"><span id="mode-text">Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out — the price shown is the shelf price.</span> <span id="result-count" class="font-semibold"></span></p>
-<div class="flex gap-2 mb-3" style="min-width:0">
-<label class="input input-bordered input-lg flex items-center gap-2 w-full" style="min-width:0">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd"/></svg>
-<input id="q" type="search" class="grow" style="min-width:0" placeholder="Try &quot;coffee beans&quot; or &quot;super crema&quot;" value="coffee beans" aria-label="Search checked products">
-</label>
-<button id="search-go" class="btn btn-primary btn-lg flex-none">Search</button>
-</div>
-<section id="guide" class="border border-base-300 rounded-lg bg-base-100 p-3 mb-3" aria-label="Optional guide" style="min-width:0">
-<div class="flex flex-wrap items-baseline justify-between gap-2 mb-3"><p class="text-sm font-semibold">Guide (optional) \u2014 it asks only what would change these results, biggest narrowing first. The number beside an answer is how many results it would leave; an answer that would leave nothing is not offered. Answer any, in any order, and change them anytime.</p><button id="guide-reset" class="btn btn-sm guide-btn" type="button">Reset \u2014 show everything</button></div>
-<div id="guide-dyn"></div>
-<div id="guide-best" class="guide-best" style="display:none"><p class="eyebrow mb-1">Best under your answers</p><p id="guide-best-text" class="text-sm"></p></div>
-<p id="guide-status" class="text-sm font-semibold" role="status" aria-live="polite"></p>
-<details id="hidden-by" class="text-sm mt-1" style="display:none"><summary class="cursor-pointer">Hidden by your answers</summary><ul id="hidden-list" class="list-disc ml-6 mt-1"></ul></details>
-</section>
-<p id="coffee-note" class="text-sm opacity-80 mb-2" style="display:none">""" + coffee_note + """</p>
-<div id="no-match" class="alert mb-4" style="display:none" role="status"><div style="min-width:0"><p id="no-match-text" class="font-semibold"></p><div id="no-match-actions" class="flex flex-wrap gap-2 mt-2"></div></div></div>
-</header>
-<section id="all-checked" class="mb-8">
-<hr class="section-rule">
-<div id="results">
-"""
-    page += all_cards
-    page += """</div>
-<div class="text-center mt-2"><button id="show-more" class="btn" style="display:none">Show more matches</button></div>
-</section>
-<section class="card bg-base-200 shadow mb-6"><div class="card-body" style="min-width:0">
-<h3 class="card-title text-base">How these were checked</h3>
-<ul class="list-disc ml-6 text-sm">
-<li>Pages opened anonymously — nothing added to a bag, no code tried out.</li>
-<li>Tax and shipping shown only when the page shows them.</li>
-<li>Coupon shown only when its text was seen, with page and time.</li>
-</ul>
-</div></section>
-</div>
-<script>
-const q = document.getElementById("q");
-const modeText = document.getElementById("mode-text");
-const noMatch = document.getElementById("no-match");
-const openBtn = document.getElementById("mode-open");
-const exactBtn = document.getElementById("mode-exact");
-const results = document.getElementById("results");
-const cards = Array.from(results.querySelectorAll("[data-keywords]"));
-const OPEN_TEXT = "Kind of thing shows similar checked products. A coupon appears only when that product's own page printed it, and it is never tried out — the price shown is the shelf price.";
-const EXACT_TEXT = "Exact product is one named item: the closest name match, with its own page's price and any coupon that page printed.";
-const PAGE = 12;
-let limit = PAGE;
-const moreBtn = document.getElementById("show-more");
-let exact = false;
-
-// ---- what each product's own page stated (build-time evidence, never filled in)
-const NO_TERMS = { g: null, z: [], sh: null, sb: null };
-const T = new Map(cards.map(c => {
-  const raw = c.getAttribute("data-terms");
-  return [c, raw ? JSON.parse(raw) : NO_TERMS];
-}));
-function fold(s) {
-  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-}
-// Search text is read once, without the terms block and before any "why" line.
-const hays = new Map(cards.map(c => {
-  const tb = c.querySelectorAll("[data-terms-block]")[0];
-  if (tb) tb.style.display = "none";
-  const h = fold(c.getAttribute("data-keywords") + " " + c.innerText);
-  if (tb) tb.style.display = "";
-  return [c, h];
-}));
-const shownPrice = new Map(cards.map(c => [c, c.querySelectorAll("[data-price-text]")[0].textContent]));
-const shownName = new Map(cards.map(c => [c, c.querySelectorAll("[data-heading]")[0].textContent]));
-function fmt(cents) { return "$" + (cents / 100).toFixed(2); }
-
-// ---- answers
-const DEFAULTS = { prefer: "price", form: "", coffee_size: "", shoe_size: "", clothing_size: "",
-  purchase: "any", shipping: "any", coupon: "all" };
-const pick = Object.assign({}, DEFAULTS);
-const guideDyn = document.getElementById("guide-dyn");
-const guideStatus = document.getElementById("guide-status");
-const hiddenBy = document.getElementById("hidden-by");
-const hiddenList = document.getElementById("hidden-list");
-const bestBox = document.getElementById("guide-best");
-const bestText = document.getElementById("guide-best-text");
-let spec = [];
-let specSig = "";
-let renderSig = "";
-let controls = [];
-const coffeeNote = document.getElementById("coffee-note");
-const noMatchText = document.getElementById("no-match-text");
-const noMatchActions = document.getElementById("no-match-actions");
-const shelfLine = new Map(cards.map(c => [c, c.querySelectorAll("[data-shelf-line]")[0].textContent]));
-// How old each stored check is, from its stored time only: whole days, no verdict, no threshold.
-const NOW = new Date();  // the one read of "today", for the age line and the printed windows
-function checkedAge(iso) {
-  const d = iso.slice(0, 10);
-  const then = Date.parse(d + "T00:00:00Z");
-  const today = Date.UTC(NOW.getUTCFullYear(), NOW.getUTCMonth(), NOW.getUTCDate());
-  const days = Math.round((today - then) / 86400000);
-  if (isNaN(days) || days < 0) return "Checked " + d;
-  if (days === 0) return "Checked today, " + d;
-  return "Checked " + days + (days === 1 ? " day" : " days") + " ago, " + d;
-}
-for (const c of cards) {
-  const el = c.querySelectorAll("[data-age]")[0];
-  el.textContent = checkedAge(el.getAttribute("data-observed"));
-}
-// A coupon page's own printed date window against the browser's date (calendar days, ISO strings compare).
-// Ended means information only: never an available offer, never a lower price.
-function two(n) { return (n < 10 ? "0" : "") + n; }
-// Printed ends are US Eastern ("11:59 PM ET"), so "today" is the Eastern calendar date, not the viewer's.
-const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" }).format(NOW);
-function windowState(start, end) {
-  if (!start || !end) return "none";
-  if (TODAY < start) return "before";
-  if (TODAY > end) return "ended";
-  return "inside";
-}
-const WINDOW_TEXT = {
-  before: "Today in US Eastern time (" + TODAY + ") is before the page's printed window.",
-  inside: "Today in US Eastern time (" + TODAY + ") is inside the page's printed window. The code is still never tried: confirm it at checkout.",
-  ended: "The page's printed window has ended (today in US Eastern time is " + TODAY + "). Shown as information only, not as an available offer.",
-};
-for (const c of cards) {
-  const row = c.querySelectorAll("[data-window-row]")[0];
-  if (!row) continue;
-  const state = windowState(row.getAttribute("data-window-start"), row.getAttribute("data-window-end"));
-  c.setAttribute("data-window-state", state);
-  if (state === "none") continue;
-  row.querySelectorAll("[data-window-status]")[0].textContent = WINDOW_TEXT[state];
-  if (state !== "ended") continue;
-  c.querySelectorAll("[data-saving-status]")[0].textContent = "The page's printed window has ended";
-  c.querySelectorAll("[data-coupon-label]")[0].textContent = "The page's printed window has ended \u2014 code the page printed, information only:";
-  c.querySelectorAll("[data-confirm-code]")[0].textContent = "whether any offer is still available (the page's printed window has ended)";
-}
-
-function mk(tag, cls, text) {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-}
-function sizeOptions(searched, group) {
-  const seen = new Map();
-  for (const c of searched) {
-    const t = T.get(c);
-    if (t.g !== group) continue;
-    for (const s of t.z) {
-      const e = seen.get(s.k) || { k: s.k, o: s.o, n: 0 };
-      e.n += 1;
-      seen.set(s.k, e);
-    }
-  }
-  return Array.from(seen.values()).sort((a, b) => (a.o - b.o) || (a.k < b.k ? -1 : 1));
-}
-function buildSpec(searched) {
-  const out = [];
-  const has = f => searched.some(f);
-  const coffeeCards = searched.filter(c => T.get(c).g === "coffee");
-  if (has(c => c.getAttribute("data-form"))) {
-    const o = [["", "Anything"]];
-    if (has(c => c.getAttribute("data-kind") !== "Coffee")) o.push(["any-coffee", "Any coffee"]);
-    o.push(["whole-bean", "Whole bean"]);
-    out.push({ id: "form", legend: "What kind?", type: "radio", opts: o });
-  }
-  if (coffeeCards.length) {
-    const o = [["", "Any size"]].concat(sizeOptions(searched, "coffee").map(s => [s.k, s.k]));
-    out.push({ id: "coffee_size", reprices: true, legend: "Coffee bag size", type: "radio", opts: o,
-      help: "A cheaper 12 oz bag is not the same purchase as a 2 lb or 5 lb bag. Sizes and their prices come only from each product's own page; counts show how many results that size leaves." });
-  }
-  for (const [g, id, legend] of [["shoe", "shoe_size", "Shoe size"], ["clothing", "clothing_size", "Clothing size"]]) {
-    const opts = sizeOptions(searched, g);
-    if (opts.length) {
-      out.push({ id: id, legend: legend, type: "select",
-        opts: [["", "Any size"]].concat(opts.map(s => [s.k, s.k])),
-        help: "Only sizes a product's own page listed. A product that does not list your size is hidden, not guessed." });
-    }
-  }
-  if (has(c => T.get(c).sb)) {
-    out.push({ id: "purchase", reprices: true, legend: "How you would buy", type: "radio",
-      opts: [["any", "Either way"], ["subscribe", "Subscribe (price the page printed)"]],
-      help: "Subscribe only counts where the page stated a subscribe option; a printed percent without a price is listed but not ranked." });
-  }
-  if (has(c => T.get(c).sh)) {
-    out.push({ id: "shipping", legend: "Shipping", type: "radio",
-      opts: [["any", "Any"], ["free", "Free shipping stated for this purchase"]],
-      help: "Counts only where the page stated free shipping and this price qualifies; membership-only offers do not count. Silent pages are unknown." });
-  }
-  if (has(c => c.getAttribute("data-quality"))) {
-    out.push({ id: "prefer", reorder: true, legend: "What matters most?", type: "radio",
-      opts: [["price", "Lowest price first"], ["specialty", "Specialty-roaster quality first"]],
-      help: "Only changes the order, never removes anything. Specialty roasters lead only where the page states small-batch, direct-trade or similar; the other items follow in the same list, still ordered by shelf price." });
-  }
-  if (has(c => c.getAttribute("data-coupon") === "yes")) {
-    out.push({ id: "coupon", legend: "Which coupons?", type: "radio",
-      opts: [["all", "Show all"], ["yes", "Only with a printed coupon"]],
-      help: "A printed coupon is a code that product's own page showed. It is never tried and never a lower price — prices stay shelf prices." });
-  }
-  return out;
-}
-function countUnder(searched, over) {
-  const p = Object.assign({}, pick, over || {});
-  let n = 0;
-  for (const c of searched) if (!view(c, p).reasons.length) n += 1;
-  return exact ? Math.min(n, 1) : n;
-}
-function orderFor(visible, prefer) {
-  if (exact) return visible.slice(0, 1);
-  if (prefer === "specialty") {
-    const lead = visible.filter(c => c.getAttribute("data-quality") === "independent-roastery");
-    return lead.concat(visible.filter(c => !lead.includes(c)));
-  }
-  return visible;
-}
-// Which questions are worth asking now, and how much each answer would leave.
-function guideModel(searched, visible) {
-  const out = [];
-  spec.forEach((s, idx) => {
-    const m = { s: s, idx: idx, counts: null, show: false, score: 0 };
-    if (s.reorder) {
-      const a = orderFor(visible, "price").slice(0, PAGE);
-      const b = orderFor(visible, "specialty").slice(0, PAGE);
-      m.show = pick[s.id] !== DEFAULTS[s.id] || a.some((c, i) => c !== b[i]);
-    } else {
-      const dflt = DEFAULTS[s.id];
-      m.counts = s.opts.map(o => countUnder(searched, { [s.id]: o[0] }));
-      const base = m.counts[s.opts.findIndex(o => o[0] === dflt)];
-      let least = null;
-      s.opts.forEach((o, i) => {
-        const n = m.counts[i];
-        if (o[0] !== dflt && n > 0 && (n < base || s.reprices)) least = least === null ? n : Math.min(least, n);
-      });
-      m.show = pick[s.id] !== dflt || least !== null;
-      m.score = least === null ? 0 : Math.max(0, base - least);
-    }
-    out.push(m);
-  });
-  return out.filter(m => m.show).sort((a, b) => (b.score - a.score) || (a.idx - b.idx));
-}
-function renderGuide(model) {
-  const sig = JSON.stringify(model.map(m => [m.s.id, m.counts, pick[m.s.id], m.s.opts]));
-  if (sig === renderSig) return;
-  renderSig = sig;
-  const ae = document.activeElement;
-  const had = ae && ae.getAttribute && ae.getAttribute("data-guide-key")
-    ? [ae.getAttribute("data-guide-key"), ae.getAttribute("value")] : null;
-  guideDyn.innerHTML = "";
-  controls = [];
-  if (!model.length) {
-    guideDyn.appendChild(mk("p", "text-sm opacity-70", "Nothing to narrow for these results — no answer would change the list. The guide only asks what their pages state."));
-    return;
-  }
-  const grid = mk("div", "guide-grid");
-  for (const m of model) {
-    const s = m.s;
-    const fs = mk("fieldset", "guide-q");
-    fs.appendChild(mk("legend", "text-sm font-semibold mb-1", s.legend));
-    const text = (o, i) => m.counts ? o[1] + " (" + m.counts[i] + ")" : o[1];
-    // an answer that would leave nothing is not offered (unless it is the current one)
-    const gone = (o, i) => m.counts && m.counts[i] === 0 && pick[s.id] !== o[0];
-    if (s.type === "select") {
-      const sel = mk("select", "select select-bordered select-sm w-full");
-      sel.setAttribute("aria-label", s.legend);
-      sel.setAttribute("data-guide-key", s.id);
-      s.opts.forEach((o, i) => {
-        if (gone(o, i)) return;
-        const opt = mk("option", "", text(o, i));
-        opt.setAttribute("value", o[0]);
-        sel.appendChild(opt);
-      });
-      sel.addEventListener("change", () => { pick[s.id] = sel.value; limit = PAGE; filter(); });
-      fs.appendChild(sel);
-      controls.push({ id: s.id, sel: sel });
-    } else {
-      const row = mk("div", "flex flex-wrap gap-2");
-      s.opts.forEach((o, i) => {
-        if (gone(o, i)) return;
-        const lab = mk("label", "guide-opt");
-        const inp = mk("input");
-        inp.setAttribute("type", "radio");
-        inp.setAttribute("name", "guide-" + s.id);
-        inp.setAttribute("value", o[0]);
-        inp.setAttribute("data-guide-key", s.id);
-        inp.addEventListener("change", () => {
-          if (!inp.checked) return;
-          pick[s.id] = o[0];
-          limit = PAGE;
-          filter();
-        });
-        lab.appendChild(inp);
-        lab.appendChild(mk("span", "", text(o, i)));
-        row.appendChild(lab);
-        controls.push({ id: s.id, inp: inp, v: o[0] });
-      });
-      fs.appendChild(row);
-    }
-    if (s.help) fs.appendChild(mk("p", "text-xs opacity-70 mt-1", s.help));
-    grid.appendChild(fs);
-  }
-  guideDyn.appendChild(grid);
-  syncControls();
-  if (had) {
-    const back = controls.find(c => c.id === had[0] && (c.sel || c.v === had[1]));
-    const el = back && (back.sel || back.inp);
-    if (el && el.focus) el.focus();
-  }
-}
-function syncControls() {
-  for (const c of controls) {
-    if (c.sel) c.sel.value = pick[c.id];
-    else c.inp.checked = pick[c.id] === c.v;
-  }
-}
-function labelOf(id, v) {
-  const s = spec.find(x => x.id === id);
-  const o = s && s.opts.find(x => x[0] === v);
-  return o ? o[1] : v;
-}
-function updateSpec(searched) {
-  const next = buildSpec(searched);
-  const sig = JSON.stringify(next);
-  if (sig !== specSig) {
-    spec = next;
-    specSig = sig;
-    for (const key of Object.keys(DEFAULTS)) {
-      const s = spec.find(x => x.id === key);
-      if (!s || !s.opts.some(o => o[0] === pick[key])) pick[key] = DEFAULTS[key];
-    }
-  }
-}
-// Nothing matches: say why and offer the way back, with what each step would restore.
-function renderEmpty(searched) {
-  noMatchActions.innerHTML = "";
-  const add = (label, fn) => {
-    const b = mk("button", "btn btn-sm", label);
-    b.setAttribute("type", "button");
-    b.addEventListener("click", fn);
-    noMatchActions.appendChild(b);
-  };
-  const active = spec.filter(s => !s.reorder && pick[s.id] !== DEFAULTS[s.id]);
-  if (active.length) {
-    noMatchText.textContent = "No checked page fits all of your answers. Take one back to see more:";
-    for (const s of active) {
-      const n = countUnder(searched, { [s.id]: DEFAULTS[s.id] });
-      if (n > 0) add("Drop “" + s.legend.replace("?", "") + ": " + labelOf(s.id, pick[s.id]) + "” — " + n + " would match", () => {
-        pick[s.id] = DEFAULTS[s.id];
-        limit = PAGE;
-        filter();
-      });
-    }
-    const all = {};
-    for (const s of active) all[s.id] = DEFAULTS[s.id];
-    const total = countUnder(searched, all);
-    if (active.length > 1 || total === 0) {
-      add("Reset all answers — " + total + " would match", () => {
-        Object.assign(pick, DEFAULTS);
-        limit = PAGE;
-        filter();
-      });
-    }
-    return;
-  }
-  const words = q.value.trim();
-  noMatchText.textContent = "No checked page matches “" + words + "”" + (exact ? " as one named product" : "")
-    + ". Only the checked pages exist and nothing is invented — try fewer or different words.";
-  if (words) add("Clear the search — show all " + cards.length + " checked products", () => {
-    q.value = "";
-    limit = PAGE;
-    filter();
-  });
-  if (exact) add("Switch to Kind of thing — similar checked products", () => setMode(true, true));
-}
-document.getElementById("guide-reset").addEventListener("click", () => {
-  Object.assign(pick, DEFAULTS);
-  limit = PAGE;
-  syncControls();
-  filter();
-});
-
-// ---- one product under the current answers: only page-stated facts
-function view(c, p) {
-  const t = T.get(c);
-  const price = parseInt(c.getAttribute("data-price"), 10);
-  const v = { shelf: price, size: null, sub: null, subPct: null, reasons: [], resized: false, rank: null, subNote: "" };
-  let sz = null;
-  if (t.g === "coffee") {
-    sz = p.coffee_size ? t.z.find(s => s.k === p.coffee_size) : (t.z.find(s => s.d) || t.z[0]);
-    if (sz) { v.size = sz.k; v.shelf = sz.c; v.sub = sz.s; v.subPct = sz.sp; v.resized = !!p.coffee_size; }
-  }
-  if (p.coffee_size && !sz) v.reasons.push("its page does not list a " + p.coffee_size + " bag (answer: Coffee bag size)");
-  for (const [id, g, nm] of [["shoe_size", "shoe", "Shoe size"], ["clothing_size", "clothing", "Clothing size"]]) {
-    if (!p[id]) continue;
-    const s = t.g === g ? t.z.find(x => x.k === p[id]) : null;
-    if (!s) v.reasons.push("its page does not list size " + p[id] + " (answer: " + nm + ")");
-    else if (s.ok === false) v.reasons.push("its page lists size " + p[id] + " but it was not shown in stock when checked (answer: " + nm + ")");
-    else v.size = s.k;
-  }
-  if (p.purchase === "subscribe") {
-    if (!t.sb) v.reasons.push("its page did not state a subscribe option (answer: Subscribe)");
-    else if (v.sub === null) v.subNote = "Subscribe offered, but the page printed no subscribe price" + (v.subPct ? " (" + v.subPct + "% stated)" : "");
-  }
-  const paid = p.purchase === "subscribe" && v.sub !== null ? v.sub : v.shelf;
-  if (p.shipping === "free") {
-    const sh = t.sh;
-    if (!sh) v.reasons.push("its page did not state shipping, so free shipping is unknown (answer: Shipping)");
-    else if (sh.k === "free") { /* stated free */ }
-    else if (sh.k === "threshold" && sh.members) v.reasons.push("free shipping is stated only for members (answer: Shipping)");
-    else if (sh.k === "threshold") {
-      if (paid < sh.over) v.reasons.push("free shipping starts at " + fmt(sh.over) + " and this price is " + fmt(paid) + "; what it costs below that is not stated (answer: Shipping)");
-    } else v.reasons.push("its page states a shipping charge, not free shipping (answer: Shipping)");
-  }
-  if (p.coupon === "yes" && c.getAttribute("data-coupon") !== "yes") v.reasons.push("no coupon code was printed on its own page (answer: Only with a printed coupon)");
-  const f = p.form;
-  if (f === "any-coffee" && c.getAttribute("data-kind") !== "Coffee") v.reasons.push("it is not coffee (answer: Any coffee)");
-  if (f === "whole-bean" && c.getAttribute("data-form") !== "whole-bean") v.reasons.push("its page does not mark it whole bean (answer: Whole bean)");
-  v.rank = p.purchase === "subscribe" ? v.sub : v.shelf;
-  return v;
-}
-function shipFact(c) {
-  const sh = T.get(c).sh;
-  return sh ? sh.t : "shipping not stated on the page (unknown)";
-}
-function whyShown(c, v, rank, total, terms) {
-  const out = [];
-  if (exact) out.push("closest name match to “" + q.value.trim() + "”");
-  else if (terms.length) out.push("matches “" + q.value.trim() + "”");
-  if (pick.form === "whole-bean") out.push("its page marks it whole bean");
-  if (pick.form === "any-coffee") out.push("it is coffee");
-  if (v.resized) out.push("its page lists the " + v.size + " bag at " + fmt(v.shelf));
-  if (pick.shoe_size || pick.clothing_size) out.push("its page lists size " + v.size);
-  if (pick.purchase === "subscribe" && v.sub !== null) out.push("its page printed a subscribe price of " + fmt(v.sub) + " (shelf price " + fmt(v.shelf) + ")");
-  if (pick.shipping === "free") out.push("its page states its shipping as " + shipFact(c));
-  if (pick.coupon === "yes") {
-    out.push("its own page printed " + c.getAttribute("data-coupon-code")
-      + (c.getAttribute("data-window-state") === "ended" ? " (its printed window has ended: information only, never tried, never a lower price)" : " (seen, never tried")
-      + (c.getAttribute("data-window-state") === "ended" ? "" : " — the price is still the shelf price)"));
-  }
-  const basis = c.getAttribute("data-quality-basis");
-  if (pick.prefer === "specialty" && !exact) {
-    out.push(basis ? "listed first: " + basis : "listed after the roasters whose pages state a specialty basis");
-  }
-  if (!exact && total > 1 && pick.prefer === "price" && v.rank !== null) {
-    out.push((T.get(c).g === "coffee" && v.size && !v.resized ? v.size + " bag, " : "") + (pick.purchase === "subscribe" ? "subscribe price " : "shelf price ") + fmt(v.rank) + ", " + (rank === 1 ? "lowest" : "#" + rank + " by price") + " of " + total + " shown");
-  }
-  return out.length ? out.join("; ") : "it is one of the checked product pages";
-}
-function setMode(open, keepQuery) {
-  exact = !open;
-  limit = PAGE;
-  openBtn.setAttribute("aria-pressed", open ? "true" : "false");
-  exactBtn.setAttribute("aria-pressed", open ? "false" : "true");
-  modeText.textContent = open ? OPEN_TEXT : EXACT_TEXT;
-  if (!keepQuery) q.value = open ? "coffee beans" : "super crema";
-  filter();
-}
-function filter() {
-  const terms = fold(q.value).split(/\\s+/).filter(Boolean);
-  const searched = [];
-  for (const c of cards) {
-    const hay = hays.get(c);
-    const hit = terms.every(t => hay.includes(t))
-      && (!exact || (terms.length && terms.every(t => fold(c.getAttribute("data-name")).includes(t))));
-    c.style.display = "none";
-    if (hit) searched.push(c);
-  }
-  updateSpec(searched);
-  const views = new Map();
-  const visible = [];
-  const hidden = [];
-  for (const c of searched) {
-    const v = view(c, pick);
-    views.set(c, v);
-    if (v.reasons.length) hidden.push(c);
-    else visible.push(c);
-  }
-  // Lowest effective price first; a product with no printed price for the chosen terms goes last.
-  visible.sort((a, b) => {
-    const x = views.get(a).rank, y = views.get(b).rank;
-    if (x === null || y === null) return (x === null) - (y === null);
-    return x - y;
-  });
-  // One named item: every term in its name, closest (shortest) name wins.
-  if (exact) visible.sort((a, b) => a.getAttribute("data-name").length - b.getAttribute("data-name").length);
-  let shownSet = orderFor(visible, pick.prefer);
-  renderGuide(guideModel(searched, visible));
-  syncControls();
-  for (const c of cards) {
-    c.querySelectorAll("[data-why]")[0].style.display = "none";
-    c.querySelectorAll("[data-sub-note]")[0].style.display = "none";
-  }
-  const total = shownSet.length;
-  if (!exact) shownSet = shownSet.slice(0, limit);
-  shownSet.forEach((c, i) => {
-    const v = views.get(c);
-    c.style.display = "";
-    results.appendChild(c);
-    c.querySelectorAll("[data-price-text]")[0].textContent = v.resized ? fmt(v.shelf) : shownPrice.get(c);
-    const base = c.getAttribute("data-base-name");
-    c.querySelectorAll("[data-heading]")[0].textContent = v.resized && base ? base + " — " + v.size : shownName.get(c);
-    const sn = c.querySelectorAll("[data-sub-note]")[0];
-    if (pick.purchase === "subscribe") {
-      sn.textContent = v.sub !== null
-        ? "Subscribe price the page printed: " + fmt(v.sub) + (v.size ? " for " + v.size : "") + ". Shelf price above is unchanged."
-        : v.subNote;
-      sn.style.display = "";
-    }
-    const why = c.querySelectorAll("[data-why]")[0];
-    why.textContent = "Shown because " + whyShown(c, v, i + 1, shownSet.length, terms) + ".";
-    why.style.display = "";
-    c.querySelectorAll("[data-shelf-line]")[0].textContent = v.resized
-      ? fmt(v.shelf) + " for the " + v.size + " bag, as printed on the page" : shelfLine.get(c);
-  });
-  coffeeNote.style.display = shownSet.some(c => c.getAttribute("data-coffee-note") === "yes") ? "" : "none";
-  noMatch.style.display = shownSet.length ? "none" : "";
-  if (!shownSet.length) renderEmpty(searched);
-  else { noMatchText.textContent = ""; noMatchActions.innerHTML = ""; }
-  moreBtn.style.display = total > shownSet.length ? "" : "none";
-  document.getElementById("result-count").textContent = shownSet.length + " of " + total + " matches shown (" + cards.length + " products checked).";
-
-  // ---- best under the conditions the shopper set (page-stated prices only)
-  const conds = ["coffee_size", "shoe_size", "clothing_size", "purchase", "shipping"].filter(k => pick[k] !== DEFAULTS[k]);
-  const ranked = visible.filter(c => views.get(c).rank !== null);
-  const bagSizes = new Set(ranked.filter(c => T.get(c).g === "coffee").map(c => views.get(c).size));
-  bestText.textContent = "";
-  if (!exact && conds.length && ranked.length && !pick.coffee_size && bagSizes.size > 1) {
-    // Different bag sizes are different purchases; do not call one "best".
-    bestText.textContent = "These results come in different bag sizes (" + Array.from(bagSizes).join(", ")
-      + "), so a lowest price would compare unlike purchases. Choose a bag size above to see the best price for that size.";
-    bestBox.style.display = "";
-  } else if (!exact && conds.length && ranked.length) {
-    const b = ranked[0], bv = views.get(b);
-    const unranked = visible.length - ranked.length;
-    bestText.textContent = "Best under your answers: " + shownName.get(b).split(",")[0] + (bv.size ? " — " + bv.size : "")
-      + " at " + fmt(bv.rank) + (pick.purchase === "subscribe" ? " (subscribe price the page printed; shelf price " + fmt(bv.shelf) + ")" : " (shelf price)")
-      + ". Shipping: " + shipFact(b) + "."
-      + (unranked ? " " + unranked + " more match but their pages print no price for these terms, so they are not ranked." : "")
-      + " A code seen on a page is never part of this ranking.";
-    bestBox.style.display = "";
-  } else {
-    bestBox.style.display = "none";
-  }
-
-  const active = [];
-  for (const s of spec) {
-    if (pick[s.id] !== DEFAULTS[s.id]) active.push(s.legend.replace("?", "") + ": " + labelOf(s.id, pick[s.id]));
-  }
-  guideStatus.textContent = (active.length ? "Your answers: " + active.join(" · ") + ". " : "No answers set. ")
-    + total + " match, " + hidden.length + " hidden by your answers.";
-  hiddenList.innerHTML = "";
-  for (const c of hidden.slice(0, PAGE)) {
-    const li = document.createElement("li");
-    li.textContent = c.getAttribute("data-name") + " — " + views.get(c).reasons.join("; ");
-    hiddenList.appendChild(li);
-  }
-  if (hidden.length > PAGE) {
-    const more = document.createElement("li");
-    more.textContent = "and " + (hidden.length - PAGE) + " more";
-    hiddenList.appendChild(more);
-  }
-  hiddenBy.style.display = hidden.length ? "" : "none";
-}
-openBtn.addEventListener("click", () => setMode(true));
-exactBtn.addEventListener("click", () => setMode(false));
-q.addEventListener("input", () => { limit = PAGE; filter(); });
-moreBtn.addEventListener("click", () => { limit += PAGE; filter(); });
-document.getElementById("search-go").addEventListener("click", filter);
-filter();
-</script>
-</body>
-</html>
-"""
+    page = page_html(all_cards, catalog_json(items.values()), coffee_note)
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)

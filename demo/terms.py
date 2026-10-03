@@ -253,6 +253,15 @@ def for_id(ev_id, kind, evidence_dir=EVIDENCE_DIR):
         return from_evidence(json.load(f), kind)
 
 
+# Search words a product's own name does not carry, so the search finds it by
+# what it is. Added here, at build time, never by hand in the page; each is a
+# plain description of a real catalog product, not a claim about its page.
+SEARCH_WORDS = {
+    # "The Breville Bambino": an espresso machine (kind Kitchen, Counter Culture)
+    "counterculturecoffee-the-bambino": ["espresso"],
+}
+
+
 def _size(k, c=None, s=None, sp=None, o=None, ok=None, d=False):
     return {"k": k, "c": c, "s": s, "sp": sp, "o": o, "ok": ok, "d": d}
 

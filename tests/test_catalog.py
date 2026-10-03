@@ -198,8 +198,10 @@ class PublicPageTest(unittest.TestCase):
                          len(re.findall(r'data-coupon-code="[^"]+"', self.page)))
 
     def test_search_never_dumps_the_catalog(self):
-        self.assertIn("const PAGE = 12;", self.page)
+        # nothing is typed on open, and a long list is paged, never dumped
+        self.assertIn("var PAGE = 24;", self.page)
         self.assertIn('id="show-more"', self.page)
+        self.assertNotIn('value="coffee beans"', self.page)
 
 
 class ReadmeLiveLinkTest(unittest.TestCase):
