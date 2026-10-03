@@ -297,6 +297,78 @@
       "summary": "Observed live 2026-10-02: Counter Culture Coffee Big Trouble 12 oz $19.50 one-time observed-now with full provenance (whole-bean on the bag, Durham NC roastery); newsletter/footer words are not codes; shipping/tax Unknown.",
       "must_hold": ["lookalike coupon words verified in context before counting", "unknowns shown as open-ended range"],
       "expected_verdict": "buy with open-ended range USD 19.50 .. unbounded (observed live engine output; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-001",
+      "kind": "stale-price-evidence",
+      "severity": "S1",
+      "summary": "Price observed longer ago than the freshness window the shopper stated.",
+      "must_hold": ["price older than the stated window never supports buy or wait", "no window stated means age is not judged, never guessed"],
+      "expected_verdict": "verify with recheck of price and stock (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-002",
+      "kind": "stale-or-untimed-coupon",
+      "severity": "S1",
+      "summary": "A counted coupon discount whose cart test is older than the window, or has no observation time.",
+      "must_hold": ["a coupon discount is counted only with a fresh timestamp"],
+      "expected_verdict": "verify with re-test in an anonymous cart (with consent) (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-003",
+      "kind": "urgency-scarcity-language",
+      "severity": "S1",
+      "summary": "Countdown, 'only N left' or 'ends tonight' text; one case where it returns after a reload.",
+      "must_hold": ["urgency text is labelled and never used as stock or deadline evidence", "urgency that returns on reload is refused as a deadline"],
+      "expected_verdict": "buy/wait unchanged with label; verify if it repeats on reload (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-004",
+      "kind": "inflated-reference-price",
+      "severity": "S2",
+      "summary": "A 'was' price with no dated price history.",
+      "must_hold": ["was-price is labelled, never subtracted, never a savings figure"],
+      "expected_verdict": "verdict unchanged; label shown (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-005",
+      "kind": "coupon-unstated-condition",
+      "severity": "S1",
+      "summary": "A code whose conditions the page does not state.",
+      "must_hold": ["a counted discount with an unstated condition is refused", "an uncounted code is labelled and stays out of the total"],
+      "expected_verdict": "verify when counted; label only when not counted (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-006",
+      "kind": "unverified-or-unsafe-seller",
+      "severity": "S1",
+      "summary": "Seller explicitly unverified or carrying recorded red flags; a marketplace seller never checked.",
+      "must_hold": ["unverified or flagged seller is refused", "an unchecked seller stays unknown with no safety claim"],
+      "expected_verdict": "verify; label only for an unchecked seller (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-007",
+      "kind": "affiliate-influenced-winner",
+      "severity": "S1",
+      "summary": "Leading offer is affiliate-linked or sponsored.",
+      "must_hold": ["a flagged winner is not recommended", "disclosure says commission may have shaped placement"],
+      "expected_verdict": "verify with merchant-page check (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-008",
+      "kind": "affiliate-influenced-rival",
+      "severity": "S2",
+      "summary": "A sponsored offer that does not win.",
+      "must_hold": ["ranking stays by landed cost", "flag is shown beside the offer"],
+      "expected_verdict": "verdict unchanged; label shown (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "DC-009",
+      "kind": "private-data-leaving-context",
+      "severity": "S0",
+      "summary": "Email, card number, SSN-shaped or URL-secret text in a field that would be sent to the judgment service.",
+      "must_hold": ["private values are rejected before any judgment request is built"],
+      "expected_verdict": "error: input rejected, nothing sent (engine rule; requires independent relabel)"
     }
   ]
 }
