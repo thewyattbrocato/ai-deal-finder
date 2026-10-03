@@ -1162,7 +1162,7 @@ class PrintedWindowTest(unittest.TestCase):
     def test_coupons_with_no_printed_window_say_so_on_any_date(self):
         for now, rows in self.runs.items():
             others = [w for w in rows if w["code"] != self.UNTUCKIT]
-            self.assertEqual(len(others), 9, now)
+            self.assertEqual(len(others), 13, now)  # 9 + 4 Open Farm pages
             for w in others:
                 self.assertEqual(w["state"], "none", now)
                 self.assertTrue(w["status"].startswith("the coupon text states no date window"), w["status"])
