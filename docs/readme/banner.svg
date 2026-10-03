@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 232" width="880" height="232" role="img" aria-labelledby="t d">
   <title id="t">AI Deal Finder</title>
-  <desc id="d">Search checked store pages. Price, decision and coupon only when really seen. Open the live tool.</desc>
+  <desc id="d">Search checked store pages. Price and coupon only when really seen. Open the live tool.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
   </style>
@@ -8,7 +8,7 @@
   <rect x="0" y="0" width="8" height="232" fill="#422ad5"/>
   <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="1.6" fill="#55556a">AI DEAL FINDER · CHECKED PAGES ONLY</text>
   <text x="48" y="108" font-size="44" font-weight="800" fill="#16161d">Find a deal.</text>
-  <text x="48" y="140" font-size="19" fill="#2b2b38">Price, decision and coupon, only when the</text>
+  <text x="48" y="140" font-size="19" fill="#2b2b38">Price and coupon, only when the</text>
   <text x="48" y="164" font-size="19" fill="#2b2b38">store page really showed it.</text>
   <rect x="48" y="178" width="214" height="30" rx="6" fill="#422ad5"/>
   <text x="155" y="199" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Open the live tool  →</text>
