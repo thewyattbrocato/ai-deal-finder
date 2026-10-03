@@ -36,8 +36,9 @@ price and never fills in what a page did not say.
    products with a printed coupon. A question you can't answer from the pages
    is not asked. Each answer can be changed at any time, and *Reset* shows
    everything again.
-3. **Read the cards.** Each card has the product, its shelf price, a decision
-   with a *See at the store* link, any coupon, and what the page stated about
+3. **Read the cards.** Each card has the product, its shelf price, a *See at the
+   store* link (hand-checked coffee cards add a decision; the rest say *Price read
+   from the store page*), any coupon, and what the page stated about
    size, shipping and subscribe. A *Why it is here* line says why a product is
    listed, and *Hidden by your answers* lists what the guide removed and why.
 4. **Go to the store and recheck.** The price was true when the page was
@@ -63,7 +64,7 @@ checkout* line.
 On a phone the same page works at narrow width:
 
 <p align="center">
-  <img src="docs/readme/tool-phone.png" width="640" alt="Screenshot of the live tool at a 390 px phone width, with no sideways scrolling: the search box, the optional guide, and a result card with the product picture, price, the line Price read from the store page, and a coupon box.">
+  <img src="docs/readme/tool-phone.png" width="390" alt="Screenshot of the live tool at a 390 px phone width, with no sideways scrolling: the search box, the optional guide, and a result card with the product picture, price, the line Price read from the store page, and a coupon box.">
 </p>
 
 ## What the evidence rules mean
