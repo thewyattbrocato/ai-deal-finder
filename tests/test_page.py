@@ -522,7 +522,7 @@ class QuietPageTest(unittest.TestCase):
             "What matters most?"])
         self.assertEqual(d["shoes"]["legends"], ["Shoe size"])
         self.assertEqual(d["clothing"]["legends"],
-                         ["Clothing size", "Which coupons?", "Shipping"])
+                         ["Clothing size", "Shipping", "Which coupons?"])
         self.assertEqual(d["airpods"]["legends"], [])
         self.assertEqual(d["tea"]["legends"], [])
         self.assertIn("Nothing to narrow", d["tea"]["guideText"])
@@ -536,7 +536,7 @@ class QuietPageTest(unittest.TestCase):
                               and c["key"] != "coffee_size"], key)
         self.assertEqual(
             [c["label"] for c in d["load"]["controls"] if c["key"] == "coffee_size"],
-            ["Any size (20)", "12 oz (4)", "24 oz (1)", "2 lb (2)", "2.2 lb (2)", "5 lb (3)"])
+            ["Any size (21)", "12 oz (4)", "24 oz (1)", "2 lb (2)", "2.2 lb (2)", "5 lb (3)"])
         self.assertEqual(d["load"]["buttons"], [
             "Kind of thing", "Exact product", "Search",
             "Reset — show everything", "Show more matches"])
@@ -932,7 +932,7 @@ class QuietPageTest(unittest.TestCase):
                 self.assertIn("No coupon on this page:", text)
                 self.assertNotIn("Not applied", text)
                 self.assertNotIn("whether the code works", text)
-        self.assertEqual(with_coupon, 9)
+        self.assertEqual(with_coupon, 15)  # 9 + the 6 Untuckit pages that print NOIRON
 
     def test_a_seen_code_is_never_shown_as_a_lower_price(self):
         for c in self.cards():
