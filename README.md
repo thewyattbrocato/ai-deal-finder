@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://thewyattbrocato.github.io/ai-deal-finder/"><img src="docs/readme/banner.svg" width="880" alt="AI Deal Finder. Price, decision and coupon, only when the store page really showed it. Open the live tool."></a>
+  <a href="https://thewyattbrocato.github.io/ai-deal-finder/"><img src="docs/readme/banner.svg" width="880" alt="AI Deal Finder. Price and coupon, only when the store page really showed it. Open the live tool."></a>
 </p>
 
 # AI Deal Finder
@@ -90,16 +90,43 @@ On a phone the same page works at narrow width:
 <img src="docs/readme/coupon-vs-shelf.svg" width="880" alt="Diagram with a placeholder product name. Left: a product's own page shows a shelf price and may print a code. Middle: the tool ranks by the shelf price and lists the code as a coupon on this page, seen and not tried. Right: the rules. A code is listed only if the page printed it, a seen code is never a lower price, and with no code the card says no coupon on this page.">
 
 The page covers only products that were checked and stored in this repo
-(`demo/evidence/`).
-It holds 244 products, each one stored read of that product's own page. The page
-header's "244 products, 79 stores" counts 244 stored product pages and 79
-distinct store names as the catalog labels them. Some of those labels are a
-sub-brand or product line rather than a separate website, so the same site can
-appear under more than one name. Counted by the web address of the product
-pages instead, the products come from 60 distinct hosts (for example
-`www.untuckit.com`), so 79 stores is a count of labels, not of websites. It is not a live search of the web: a product that is not
-there cannot be found, and prices may have changed since the check. The page
-is rebuilt offline from that stored evidence with `python3 demo/build.py`.
+(`demo/evidence/`). It is not a live search of the web: a product that is not
+there cannot be found, and prices may have changed since the check. The page is
+rebuilt offline from that stored evidence with `python3 demo/build.py`.
+
+What the numbers mean, as measured on 2026-10-03 at commit `ee4d953` (they will
+drift as the catalog grows, so each comes with the command that recomputes it).
+Run the commands from the repo root; they read the built page, `demo/index.html`:
+
+```sh
+python3 - <<'PY'
+import json, re, urllib.parse
+h = open("demo/index.html").read()
+P = json.loads(re.search(r'id="catalog">(.*?)</script>', h, re.S).group(1))
+print("products", len(P))
+print("store labels", len({p["m"] for p in P}))
+print("page hosts", len({urllib.parse.urlsplit(p["u"]).hostname for p in P}))
+print("printed coupon", sum(1 for p in P if p["cp"]))
+print("shipping stated", sum(1 for p in P if p["sh"]))
+print("subscribe stated", sum(1 for p in P if p["sb"]))
+print("sizes listed", sum(1 for p in P if p["z"]))
+print("kinds", len({p["k"] for p in P}))
+PY
+```
+
+- **335 products** on the page, each one stored read of that product's own
+  page. The page header says "335 products, 88 stores" (checked on the live page).
+- **88 stores** counts distinct store names as the catalog labels them (the
+  merchant for the page's web address). It is a count of labels, not of
+  websites; the page hosts count below is the check.
+- **88 distinct page hosts** (for example `www.untuckit.com`): distinct web
+  addresses of those 335 product pages.
+- **19** products carry a coupon code printed on their own page; **229** state a
+  shipping condition; **42** state a subscribe condition; **28** list sizes;
+  **17** kinds. Everything else on those lines is unknown, not zero.
+- `demo/evidence/` holds more stored page reads (361 files:
+  `ls demo/evidence/*.json | wc -l`) than the page shows; the page count above
+  is the one that matters to a shopper.
 
 ## Use it as an agent skill
 
@@ -113,7 +140,10 @@ not mark any gate in `VALIDATION_RECORD.md` passed or establish effectiveness.
 
 ### Run
 
-Python 3.11+ is the only local requirement.
+Only the Python standard library is used. `pyproject.toml` declares
+`requires-python = ">=3.11"`, but the suite was measured only on Python 3.9.6
+(363 tests from `python3 -m unittest discover -s tests`, all passing, 2026-10-03); no lower or upper bound beyond that run is
+claimed here.
 
 ```sh
 python3 -m unittest discover -v
@@ -198,7 +228,7 @@ missing, false, ambiguous, or revoked prerequisite returns `research-only`.
 - Consent and cart-action accountability: `CONSENT.md`.
 - Discovery and substitute bounds: `DISCOVERY.md`.
 - Unknown-cost behavior: `LANDED_COST.md`.
-- Draft fixture corpus (53 cases, needs independent relabeling): `FIXTURES.json`.
+- Draft fixture corpus (53 cases, `len(json.load(open("FIXTURES.json"))["cases"])`; needs independent relabeling): `FIXTURES.json`.
 - Judgment engine spec and Jev Choice/Score/Noul binding: `JUDGMENT_ENGINE.md`.
 - Gate-by-gate evidence record (all gates not run/blocked): `VALIDATION_RECORD.md`.
 - Key-dependent Jev validation still required: `KEYED_VALIDATION.md`.
