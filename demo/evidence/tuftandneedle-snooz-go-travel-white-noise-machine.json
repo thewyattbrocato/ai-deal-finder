@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:13:59Z",
+  "read_at": "2026-10-03T21:34:09Z",
   "ship": [
    "Free returns & shipping",
    "Shipping & Returns",
@@ -15,6 +15,80 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:13:59Z",
+    "ship": [
+     "Free returns & shipping",
+     "Shipping & Returns",
+     "Free Shipping"
+    ],
+    "size": [
+     "Size and Dimensions",
+     "Size"
+    ],
+    "sub": [],
+    "url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/snooz-go-travel-white-noise-machine#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tuft & Needle"
+     },
+     "category": "White Noise Machines",
+     "description": "Sleep soundly on the road with this rechargeable, travel sound machine. Includes: 12 sounds, a Bluetooth speaker, and a night light.",
+     "hasVariant": [
+      {
+       "@id": "/products/snooz-go-travel-white-noise-machine?variant=44135014465602#variant",
+       "@type": "Product",
+       "image": "https://www.tuftandneedle.com/cdn/shop/files/2606_SnoozGo2_HeroImage.jpg?v=1784170005&width=1920",
+       "name": "SNOOZ Go 2 Travel White Noise Sound Machine - Standard",
+       "offers": {
+        "@id": "/products/snooz-go-travel-white-noise-machine?variant=44135014465602#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "60.00",
+        "priceCurrency": "USD",
+        "url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine?variant=44135014465602"
+       },
+       "sku": "910810486-8099"
+      }
+     ],
+     "name": "SNOOZ Go 2 Travel White Noise Sound Machine",
+     "productGroupID": "8311302160450",
+     "url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine"
+    },
+    {
+     "@id": "/products/snooz-go-travel-white-noise-machine?variant=44135014465602#variant",
+     "@type": "Product",
+     "image": "https://www.tuftandneedle.com/cdn/shop/files/2606_SnoozGo2_HeroImage.jpg?v=1784170005&width=1920",
+     "name": "SNOOZ Go 2 Travel White Noise Sound Machine - Standard",
+     "offers": {
+      "@id": "/products/snooz-go-travel-white-noise-machine?variant=44135014465602#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "60.00",
+      "priceCurrency": "USD",
+      "url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine?variant=44135014465602"
+     },
+     "sku": "910810486-8099"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:54Z",
+   "og_image": "http://www.tuftandneedle.com/cdn/shop/files/2606_SnoozGo2_HeroImage.jpg?v=1784170005",
+   "page_sha256": "ddd26357b354ea24049cd199fabfc981cd7cc0fefab8ec5943cc363bd4cbc084",
+   "rendered_checked": true,
+   "title": "SNOOZ Go 2 Travel White Noise Sound Machine & Bluetooth Speaker"
+  }
+ ],
  "http_status": 200,
  "id": "tuftandneedle-snooz-go-travel-white-noise-machine",
  "image_file": "tuftandneedle-snooz-go-travel-white-noise-machine.jpg",
@@ -69,9 +143,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-02T20:01:54Z",
+ "observed_at": "2026-10-03T21:33:54Z",
  "og_image": "http://www.tuftandneedle.com/cdn/shop/files/2606_SnoozGo2_HeroImage.jpg?v=1784170005",
- "page_sha256": "ddd26357b354ea24049cd199fabfc981cd7cc0fefab8ec5943cc363bd4cbc084",
+ "page_sha256": "aef0065f54b5abace43ee20546656366b954d28d77d52704c8498a72ece8aa0a",
  "rendered_checked": true,
  "title": "SNOOZ Go 2 Travel White Noise Sound Machine & Bluetooth Speaker",
  "url": "https://tuftandneedle.com/products/snooz-go-travel-white-noise-machine"

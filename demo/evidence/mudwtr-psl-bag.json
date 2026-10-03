@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:02:30Z",
+  "read_at": "2026-10-03T21:41:51Z",
   "ship": [
    "Free shipping in USA",
    "Shipping"
@@ -10,9 +10,64 @@
   "url": "https://mudwtr.com/products/psl-bag"
  },
  "coupon_snippets": [
-  "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+  "PSL Bag \u2013 MUD\\WTR Skip to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee Original PSL Protein Hot Chocolate Matcha Turmeric Rest Shop All Products this.up"
  ],
  "final_url": "https://mudwtr.com/products/psl-bag",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:02:30Z",
+    "ship": [
+     "Free shipping in USA",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://mudwtr.com/products/psl-bag"
+   },
+   "coupon_snippets": [
+    "to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee O"
+   ],
+   "final_url": "https://mudwtr.com/products/psl-bag",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/psl-bag#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "14",
+      "ratingValue": "3.9"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "MUD\\WTR"
+     },
+     "description": "",
+     "image": "https://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_450x450.jpg?v=1785358242",
+     "mpn": "8667862466743",
+     "name": "PSL Bag",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "20.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "MUD\\WTR"
+      }
+     },
+     "url": "/products/psl-bag"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:39Z",
+   "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_1200x1200.jpg?v=1785358242",
+   "page_sha256": "cc7a1c2828f27895db0bc0f349c788e673ecb9e9567b419c7b3fff0f7e9991f3",
+   "rendered_checked": true,
+   "title": "PSL Bag \u2013 MUD\\WTR"
+  }
+ ],
  "http_status": 200,
  "id": "mudwtr-psl-bag",
  "image_file": "mudwtr-psl-bag.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Drinks",
- "observed_at": "2026-10-02T20:06:39Z",
+ "observed_at": "2026-10-03T21:41:30Z",
  "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_94009fa0-95e8-49cf-b5f7-57833de6496c_1200x1200.jpg?v=1785358242",
- "page_sha256": "cc7a1c2828f27895db0bc0f349c788e673ecb9e9567b419c7b3fff0f7e9991f3",
+ "page_sha256": "37f6808a8321b156c64d6d9d0d7893c9322f47fde0d583d3a63459a9beb9e92e",
  "rendered_checked": true,
  "title": "PSL Bag \u2013 MUD\\WTR",
  "url": "https://mudwtr.com/products/psl-bag"

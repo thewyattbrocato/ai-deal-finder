@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:51:05Z",
+  "read_at": "2026-10-03T21:37:36Z",
   "ship": [
    "Free luxury shipping on US orders $100+",
    "SHIPPING, RETURNS & GUARANTEES",
@@ -14,6 +14,97 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:51:05Z",
+    "ship": [
+     "Free luxury shipping on US orders $100+",
+     "SHIPPING, RETURNS & GUARANTEES",
+     "LUXURY SHIPPING"
+    ],
+    "size": [
+     "SIZE: 20 mL alcohol and phthalate-free Eau de Parfum."
+    ],
+    "sub": [],
+    "url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.81,
+      "reviewCount": 26
+     },
+     "brand": {
+      "name": "Beardbrand"
+     },
+     "category": "Eau de Parfum",
+     "description": "Virginia 1768. A young George Washington rides roughshod through overgrown cedar brake and tangled wood. Crisp air is filled with the scent of early-autumn dry grass, oiled English leather, musk; the sound of baying hounds and pounding hooves. Be ever in pursuit. \nSIZE: 20 mL alcohol and phthalate-free Eau de Parfum.",
+     "gtin12": "850045850630",
+     "image": {
+      "@type": "ImageObject",
+      "height": "1024",
+      "image": "https://www.beardbrand.com/cdn/shop/files/EDP_FH_1024x.jpg?v=1786992683",
+      "name": "A bottle of Fox Hunt Eau de Parfum against a grey background.",
+      "url": "https://www.beardbrand.com/cdn/shop/files/EDP_FH_1024x.jpg?v=1786992683",
+      "width": "1024"
+     },
+     "name": "Fox Hunt Men's Cologne",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "eligibleRegion": {
+        "@type": "Country",
+        "name": "US"
+       },
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees",
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail"
+       },
+       "name": "Fox Hunt",
+       "price": 50.0,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-12",
+       "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "doesNotShip": [
+         {
+          "@type": "Country",
+          "name": "Non-US"
+         }
+        ],
+        "freeShippingThreshold": {
+         "@type": "MonetaryAmount",
+         "currency": "USD",
+         "value": "100.00"
+        },
+        "shippingSettingsLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees"
+       },
+       "sku": "32836920",
+       "url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne?variant=62111906529650"
+      }
+     ],
+     "productId": "850045850630",
+     "sku": "32836920",
+     "url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:34Z",
+   "og_image": "https://www.beardbrand.com/cdn/shop/files/EDP_FH_1200x630.jpg?v=1786992683",
+   "page_sha256": "42991086ea8bc8a9d30cd5ab1e485726f381925210fdb8f763faf1d3140de8bb",
+   "rendered_checked": true,
+   "title": "Fox Hunt Men's Cologne | Alcohol-Free Cologne \u2013 Beardbrand"
+  }
+ ],
  "http_status": 200,
  "id": "beardbrand-fox-hunt-mens-cologne",
  "image_file": "beardbrand-fox-hunt-mens-cologne.jpg",
@@ -60,7 +151,7 @@
      "name": "Fox Hunt",
      "price": 50.0,
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-12",
+     "priceValidUntil": "2026-10-13",
      "shippingDetails": {
       "@type": "OfferShippingDetails",
       "doesNotShip": [
@@ -86,9 +177,9 @@
   }
  ],
  "kind": "Grooming",
- "observed_at": "2026-10-02T20:04:34Z",
+ "observed_at": "2026-10-03T21:37:24Z",
  "og_image": "https://www.beardbrand.com/cdn/shop/files/EDP_FH_1200x630.jpg?v=1786992683",
- "page_sha256": "42991086ea8bc8a9d30cd5ab1e485726f381925210fdb8f763faf1d3140de8bb",
+ "page_sha256": "b9861d4a6d5234ae95db136b392256300015e8670bab12ab6cb0a52b02513128",
  "rendered_checked": true,
  "title": "Fox Hunt Men's Cologne | Alcohol-Free Cologne \u2013 Beardbrand",
  "url": "https://beardbrand.com/products/fox-hunt-mens-cologne"

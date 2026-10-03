@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:56:38Z",
+  "read_at": "2026-10-03T21:29:26Z",
   "ship": [
    "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
    "Shipping Information"
@@ -14,6 +14,91 @@
  },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/colombia-juan-puerta-mango",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:56:38Z",
+    "ship": [
+     "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+     "Shipping Information"
+    ],
+    "size": [
+     "Size",
+     "Size:"
+    ],
+    "sub": [],
+    "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://fellowproducts.com/products/colombia-juan-puerta-mango",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://fellowproducts.com/products/colombia-juan-puerta-mango",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {
+       "error": "json not allowed for this object"
+      },
+      "reviewCount": 43
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Resident Coffee"
+     },
+     "description": "Created by Resident Coffee Roasters in collaboration with Juan Puerta of Sens Coffee, this light roast begins with Castillo from La Sirena in Quind\u00edo, Colombia, before undergoing an innovative mango osmotic dehydration process that builds a bold tropical profile while preserving the coffee's natural structure.The result is a juicy, candy-like cup with remarkable clarity. Follow the Brew Guide and brew it on Aiden to bring out every layer of its vibrant fruit character.Fruit Rollup, Mango Lollipop, Jumex Mango Nectar.\ud83c\udf0e Origin: Colombia\u2697\ufe0f Process: Osmotic dehydration\ud83d\udd2c Variety: Castillo\ud83d\udd25 Roast: Light",
+     "image": [
+      "https://fellowproducts.com/cdn/shop/files/08.04.26_drops_AdditionalPDP_Resident-JuanPuerta.png?v=1785949763&width=2000"
+     ],
+     "name": "Juan Puerta Mango",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 25.0,
+      "priceCurrency": "USD",
+      "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango"
+     },
+     "sku": "sku-50004938195221",
+     "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "43"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Resident Coffee"
+     },
+     "description": "Created by Resident Coffee Roasters in collaboration with Juan Puerta of Sens Coffee, this light roast begins with Castillo from La Sirena in Quind\u00edo, Colombia, before undergoing an innovative mango osmotic dehydration process that builds a bold tropical profile while preserving the coffee's natural structure.\nThe result is a juicy, candy-like cup with remarkable clarity. Follow the Brew Guide and brew it on Aiden to bring out every layer of its vibrant fruit character.\nFruit Rollup, Mango Lollipop, Jumex Mango Nectar.\n\ud83c\udf0e Origin: Colombia\n\u2697\ufe0f Process: Osmotic dehydration\n\ud83d\udd2c Variety: Castillo\n\ud83d\udd25 Roast: Light",
+     "image": [
+      "https://fellowproducts.com/cdn/shop/files/08.04.26_drops_AdditionalPDP_Resident-JuanPuerta.png?v=1785949763&width=480"
+     ],
+     "name": "Juan Puerta Mango",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "25.0",
+      "priceCurrency": "USD",
+      "sku": "sku-50004938195221",
+      "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango?variant=48916245905508"
+     },
+     "sku": "sku-50004938195221"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:09Z",
+   "og_image": "http://fellowproducts.com/cdn/shop/files/08.04.26_drops_AdditionalPDP_Resident-JuanPuerta.png?v=1785949763",
+   "page_sha256": "9571635bc23439fd014985fcff73f41f48011d9895728c924c0bb3cd969fd294",
+   "rendered_checked": true,
+   "title": "Juan Puerta Mango"
+  }
+ ],
  "http_status": 200,
  "id": "fellowproducts-colombia-juan-puerta-mango",
  "image_file": "fellowproducts-colombia-juan-puerta-mango.png",
@@ -80,9 +165,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T19:59:09Z",
+ "observed_at": "2026-10-03T21:29:09Z",
  "og_image": "http://fellowproducts.com/cdn/shop/files/08.04.26_drops_AdditionalPDP_Resident-JuanPuerta.png?v=1785949763",
- "page_sha256": "9571635bc23439fd014985fcff73f41f48011d9895728c924c0bb3cd969fd294",
+ "page_sha256": "4ec0ccbe4c98d52353c4effa126f18cb5b112f8848312647eb89d206fd8b03c7",
  "rendered_checked": true,
  "title": "Juan Puerta Mango",
  "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:10:49Z",
+  "read_at": "2026-10-03T21:27:22Z",
   "ship": [
    "Free shipping on all orders over $45"
   ],
@@ -14,6 +14,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stumptowncoffee.com/products/crows-call-patch",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:10:49Z",
+    "ship": [
+     "Free shipping on all orders over $45"
+    ],
+    "size": [],
+    "sub": [
+     "Save 15% on your first 5 subscription shipments with code 15OFF5",
+     "Subscribe",
+     "Why Subscribe?"
+    ],
+    "url": "https://www.stumptowncoffee.com/products/crows-call-patch"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stumptowncoffee.com/products/crows-call-patch",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.stumptowncoffee.com/products/crows-call-patch",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stumptown Coffee"
+     },
+     "description": "The crows of WILDWOOD are clever, calculating, and definitely up to something. Dare to wear this limited-edition patch boldly\u2014but prepare to answer questions about where your loyalties lie.",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Patch_72DPI_ae553613-e5ef-43ec-acf1-035fe24b9daf.png?v=1790104812",
+     "mpn": "100778",
+     "name": "Crow's Call Patch",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Patch_72DPI_ae553613-e5ef-43ec-acf1-035fe24b9daf.png?v=1790104812",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "100778",
+       "price": "8.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Stumptown Coffee"
+       },
+       "sku": "100778",
+       "url": "https://www.stumptowncoffee.com/products/crows-call-patch/products/crows-call-patch?variant=56033602240680"
+      }
+     ],
+     "sku": "100778",
+     "url": "https://www.stumptowncoffee.com/products/crows-call-patch"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:12Z",
+   "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Patch_72DPI_ae553613-e5ef-43ec-acf1-035fe24b9daf.png?v=1790104812",
+   "page_sha256": "ccd2efb40b634a38dd7169007b924c276d84ad1cc03a864b4c5bf4035f5ec620",
+   "rendered_checked": true,
+   "title": "Crow's Call Patch | Stumptown Coffee Roasters"
+  }
+ ],
  "http_status": 200,
  "id": "stumptowncoffee-crows-call-patch",
  "image_file": "stumptowncoffee-crows-call-patch.png",
@@ -41,7 +101,7 @@
      "mpn": "100778",
      "price": "8.00",
      "priceCurrency": "USD",
-     "priceValidUntil": "2027-10-02",
+     "priceValidUntil": "2027-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Stumptown Coffee"
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:12Z",
+ "observed_at": "2026-10-03T21:27:05Z",
  "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Patch_72DPI_ae553613-e5ef-43ec-acf1-035fe24b9daf.png?v=1790104812",
- "page_sha256": "ccd2efb40b634a38dd7169007b924c276d84ad1cc03a864b4c5bf4035f5ec620",
+ "page_sha256": "f8f0dd9d3b88d124ac90eb6a5e85dcc5f3bd15e432cc7bf3f53fc75700c671ae",
  "rendered_checked": true,
  "title": "Crow's Call Patch | Stumptown Coffee Roasters",
  "url": "https://stumptowncoffee.com/products/crows-call-patch"

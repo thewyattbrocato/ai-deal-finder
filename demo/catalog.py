@@ -147,8 +147,12 @@ def sized_image(url):
     return url
 
 
-def collect_one(seed):
-    """seed: {id, url, kind}. Returns the evidence record (saved)."""
+def collect_one(seed, prior=None):
+    """seed: {id, url, kind}. Returns the evidence record (saved).
+
+    prior: the stored record being re-read; its saved photo is kept, not
+    fetched again, so a re-read changes the page facts and nothing else.
+    """
     status, final_url, body = fetch(seed["url"])
     raw = body.decode("utf-8", "replace")
     text = visible_text(raw)
@@ -170,7 +174,12 @@ def collect_one(seed):
         img = img.get("url")
     if img and img.startswith("//"):
         img = "https:" + img
-    if img and offers_of(ev) is not None:
+    if prior and prior.get("image_file") and os.path.exists(
+            os.path.join(ASSETS_DIR, prior["image_file"])):
+        for k in ("image_file", "image_sha256", "image_source"):
+            if k in prior:
+                ev[k] = prior[k]
+    elif img and offers_of(ev) is not None:
         try:
             _, _, data = fetch(sized_image(img))
             ext = ".png" if data[:4] == b"\x89PNG" else ".jpg"
@@ -285,6 +294,55 @@ def conditions_pass(ev_id, session="cond1"):
     return got
 
 
+# The page facts one observation holds; a re-read moves these, as they were,
+# into "history" (dated by their own observed_at) before the new ones are stored.
+OBSERVED_KEYS = ("observed_at", "http_status", "final_url", "page_sha256", "title",
+                 "json_ld", "og_image", "coupon_snippets", "rendered_checked",
+                 "conditions", "excluded_reason")
+
+
+def reread(ev_id, session="reread1"):
+    """Observe a stored product's page again and keep the earlier observation.
+
+    Same path as the first collection: read-only GET, then the real-browser
+    promo-text pass and the shipping/subscribe/size pass. Returns
+    ("read", None) when the page was read again, ("gone", reason) when the
+    page answers 404/410 (stored as a new dated observation with the reason,
+    the earlier one kept), or ("unread", reason) when it could not be read
+    (the stored record is left exactly as it was).
+    """
+    import urllib.error
+    path = os.path.join(EVIDENCE_DIR, ev_id + ".json")
+    old = json.load(open(path))
+    seed = {"id": ev_id, "url": old["url"], "kind": old["kind"]}
+    snapshot = {k: old[k] for k in OBSERVED_KEYS if k in old}
+    history = list(old.get("history", [])) + [snapshot]
+    try:
+        ev = collect_one(seed, prior=old)
+    except urllib.error.HTTPError as e:
+        if e.code not in (404, 410):
+            return "unread", "HTTP %d" % e.code
+        ev = dict(old)
+        for k in OBSERVED_KEYS:
+            ev.pop(k, None)
+        ev.update(
+            http_status=e.code, final_url=old["final_url"],
+            observed_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            json_ld=[], coupon_snippets=[], history=history,
+            excluded_reason="page returned HTTP %d when read again" % e.code)
+        json.dump(ev, open(path, "w"), indent=1, sort_keys=True)
+        return "gone", ev["excluded_reason"]
+    except Exception as e:
+        return "unread", str(e)[:80]
+    ev["history"] = history
+    json.dump(ev, open(path, "w"), indent=1, sort_keys=True)
+    if extract(ev)[0] == "ok":
+        render_pass(ev_id, session)
+        if conditions_pass(ev_id, session) is None:
+            return "read", "conditions not read"
+    return "read", None
+
+
 def offers_of(ev):
     for p in ev.get("json_ld", []):
         o = p.get("offers")
@@ -390,6 +448,10 @@ if __name__ == "__main__":
                 print(s["id"], st, val if st != "ok" else val["price"])
             except Exception as e:
                 print(s["id"], "fetch-failed", str(e)[:80])
+            time.sleep(1.0)
+    elif len(sys.argv) >= 3 and sys.argv[1] == "reread":
+        for ev_id in sys.argv[2:]:
+            print(ev_id, *reread(ev_id), flush=True)
             time.sleep(1.0)
     elif len(sys.argv) == 2 and sys.argv[1] == "conditions-pass":
         for fn in sorted(os.listdir(EVIDENCE_DIR)):

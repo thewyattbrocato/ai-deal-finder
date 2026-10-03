@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:03:05Z",
+  "read_at": "2026-10-03T21:39:24Z",
   "ship": [
    "Free shipping on $150+",
    "SHIPPING & RETURNS",
@@ -16,6 +16,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://nisolo.com/products/shoe-charm-fish-blue",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:03:05Z",
+    "ship": [
+     "Free shipping on $150+",
+     "SHIPPING & RETURNS",
+     "Shipping policy",
+     "You are $150.00 away from Free Shipping!"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS",
+     "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
+    ],
+    "url": "https://nisolo.com/products/shoe-charm-fish-blue"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://nisolo.com/products/shoe-charm-fish-blue",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Nisolo"
+     },
+     "description": "Our NEW shoe charms offer an effortless way to personalize your huarache sandals\u2014no commitment required. Designed for subtle expression with refined ease, each charm features a sleek hinge clasp that attaches seamlessly, allowing for thoughtful customization with minimal effort. From delicate pops of color to polished metallic accents, these charms transform your huaraches into a considered style statement. Equally suited for sun-soaked weekends, destination escapes, or evening moments, they bring versatility with a quietly luxurious edge. Mix, layer, or interchange charms to mirror your mood, your look, or the season.",
+     "image": [
+      "https://nisolo.com/cdn/shop/files/SHOE_CHARM_FISH_OVERHEAD_SINGLE.jpg?v=1770653045&width=1920"
+     ],
+     "name": "Shoe Charm Fish Blue",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 840493712017,
+       "price": 10.0,
+       "priceCurrency": "USD",
+       "sku": "AA-0230-BLU-001",
+       "url": "https://nisolo.com/products/shoe-charm-fish-blue?variant=52221563338933"
+      }
+     ],
+     "sku": "AA-0230-BLU-001",
+     "url": "https://nisolo.com/products/shoe-charm-fish-blue"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:30Z",
+   "og_image": "http://nisolo.com/cdn/shop/files/SHOE_CHARM_FISH_OVERHEAD_SINGLE.jpg?v=1770653045",
+   "page_sha256": "0afad4993cde6b569dcce2f448dde376c270efff2cb63f23330607c3dfc1b391",
+   "rendered_checked": true,
+   "title": "Shoe Charm Fish Blue \u2013 Nisolo"
+  }
+ ],
  "http_status": 200,
  "id": "nisolo-shoe-charm-fish-blue",
  "image_file": "nisolo-shoe-charm-fish-blue.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T20:05:30Z",
+ "observed_at": "2026-10-03T21:39:09Z",
  "og_image": "http://nisolo.com/cdn/shop/files/SHOE_CHARM_FISH_OVERHEAD_SINGLE.jpg?v=1770653045",
- "page_sha256": "0afad4993cde6b569dcce2f448dde376c270efff2cb63f23330607c3dfc1b391",
+ "page_sha256": "5d5800c4a7e201801c7b23876822a5f48ac3881b35ad2f781a80543ee90c7fa0",
  "rendered_checked": true,
  "title": "Shoe Charm Fish Blue \u2013 Nisolo",
  "url": "https://nisolo.com/products/shoe-charm-fish-blue"

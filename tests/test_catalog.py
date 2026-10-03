@@ -231,5 +231,49 @@ class ReadmeLiveLinkTest(unittest.TestCase):
             self.assertTrue(os.path.isfile(os.path.join(ROOT, src)), src)
 
 
+class RereadHistoryTests(unittest.TestCase):
+    """A re-read stores a new dated observation and keeps the earlier one."""
+
+    def records(self):
+        d = os.path.join(ROOT, "demo", "evidence")
+        for fn in sorted(os.listdir(d)):
+            if fn.endswith(".json"):
+                with open(os.path.join(d, fn)) as f:
+                    yield json.load(f)
+
+    def test_at_least_sixty_pages_were_read_again_with_history_kept(self):
+        reread = [ev for ev in self.records() if ev.get("history")]
+        self.assertGreaterEqual(len(reread), 60)
+        merchants = {ev["final_url"].split("/")[2] for ev in reread}
+        self.assertGreaterEqual(len(merchants), 50)
+        for ev in reread:
+            for old in ev["history"]:
+                self.assertLess(old["observed_at"], ev["observed_at"], ev["id"])
+                self.assertEqual(old["final_url"].split("/")[2],
+                                 ev["final_url"].split("/")[2], ev["id"])
+            self.assertEqual(ev["observed_at"][:10], "2026-10-03", ev["id"])
+
+    def test_the_card_check_age_is_the_latest_observation(self):
+        by_id = {o["id"]: o for o in OBS}
+        for ev in self.records():
+            if ev.get("history") and ev["id"] in by_id:
+                self.assertEqual(by_id[ev["id"]]["observed_at"], ev["observed_at"])
+
+    def test_a_gone_page_is_excluded_with_a_reason_not_deleted(self):
+        ev = next(e for e in self.records() if e.get("history"))
+        gone = copy.deepcopy(ev)
+        gone["excluded_reason"] = "page returned HTTP 404 when read again"
+        self.assertEqual(catalog.extract(gone),
+                         ("excluded", "page returned HTTP 404 when read again"))
+        self.assertTrue(gone["history"])
+
+    def test_changed_shipping_line_recorded_as_the_page_now_prints_it(self):
+        path = os.path.join(ROOT, "demo", "evidence", "brightland-the-pizza-night-set.json")
+        with open(path) as f:
+            ev = json.load(f)
+        self.assertIn("Enjoy Free US Shipping on Orders $90+.", ev["conditions"]["ship"])
+        self.assertEqual(ev["history"][0]["conditions"]["ship"], [])
+
+
 if __name__ == "__main__":
     unittest.main()

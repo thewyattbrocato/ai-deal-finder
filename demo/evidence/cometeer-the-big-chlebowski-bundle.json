@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:53:29Z",
+  "read_at": "2026-10-03T21:40:48Z",
   "ship": [
    "Select your shipping state:"
   ],
@@ -10,6 +10,52 @@
  },
  "coupon_snippets": [],
  "final_url": "https://cometeer.com/products/the-big-chlebowski-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:53:29Z",
+    "ship": [
+     "Select your shipping state:"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://cometeer.com/products/the-big-chlebowski-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://cometeer.com/products/the-big-chlebowski-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Cometeer"
+     },
+     "description": "Picked by Ethan Chlebowski",
+     "image": "https://cometeer.com/cdn/shop/files/curated_bundle_gif.gif?crop=center&height=1024&v=1789073219&width=1024",
+     "name": "The Big Chlebowski Bundle \u2014 Mixed Roast",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "105.00",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Cometeer "
+      },
+      "url": "https://cometeer.com/products/the-big-chlebowski-bundle?variant=67618905162027"
+     },
+     "sku": null
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:17Z",
+   "og_image": "http://cometeer.com/cdn/shop/files/curated_bundle_gif.gif?crop=center&height=480&v=1789073219&width=480",
+   "page_sha256": "7a1d7a8aa77d0237178267bcf1cda67c0fd6c0497c2cda3fb030cbee9eeefd37",
+   "rendered_checked": true,
+   "title": "The Big Chlebowski Bundle \u2013 Cometeer"
+  }
+ ],
  "http_status": 200,
  "id": "cometeer-the-big-chlebowski-bundle",
  "image_file": null,
@@ -39,9 +85,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T20:06:17Z",
+ "observed_at": "2026-10-03T21:40:33Z",
  "og_image": "http://cometeer.com/cdn/shop/files/curated_bundle_gif.gif?crop=center&height=480&v=1789073219&width=480",
- "page_sha256": "7a1d7a8aa77d0237178267bcf1cda67c0fd6c0497c2cda3fb030cbee9eeefd37",
+ "page_sha256": "aa99f68ec81b34068fc3c130be555cc94c8d2c25f9d3e85908e601999991cdac",
  "rendered_checked": true,
  "title": "The Big Chlebowski Bundle \u2013 Cometeer",
  "url": "https://cometeer.com/products/the-big-chlebowski-bundle"

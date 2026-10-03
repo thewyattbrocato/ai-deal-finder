@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:08:32Z",
+  "read_at": "2026-10-03T21:32:23Z",
   "ship": [],
   "size": [],
   "sub": [
@@ -13,6 +13,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:08:32Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "Subscribe & Save",
+     "up to $110 off your machine - when you subscribe to CO2Shop Now",
+     "You can withdraw your consent and unsubscribe at any time. View terms and privacy. *Gas cylinder and cylinder exchange not eligible for discount Financial incentive notice",
+     "Subscribe and Save"
+    ],
+    "url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": "5",
+      "ratingCount": "275",
+      "ratingValue": "4.5",
+      "worstRating": "1"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Sodastream"
+     },
+     "description": "Buy the SodaStream Diet MTN DEW Drink Mix Syrup and make your own citrus flavored Diet Mountain Dew soda drink with less calories. Order Online.",
+     "gtin": "810055455119",
+     "image": "https://sodastream.com/cdn/shop/files/DietMountainDew_large.png?v=1754204317",
+     "mpn": "1924209010",
+     "name": "Sodastream MTN DEW Diet Drink Mix 440ml",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "3.0",
+      "priceCurrency": "USD",
+      "url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old"
+     },
+     "sku": "1924209010"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:22Z",
+   "og_image": "http://sodastream.com/cdn/shop/files/US_Info_yellow_1.jpg?v=1765213097&width=1200",
+   "page_sha256": "d08d695b5cfb88312ed19fb47cc073e8435f7e57e11f4509808496f56d635c3a",
+   "rendered_checked": true,
+   "title": "SodaStream\u00ae Diet MTN DEW\u00ae Drink Mix Syrup"
+  }
+ ],
  "http_status": 200,
  "id": "sodastream-sodastream-diet-mtn-dew-drink-mix-old",
  "image_file": "sodastream-sodastream-diet-mtn-dew-drink-mix-old.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:01:22Z",
+ "observed_at": "2026-10-03T21:32:09Z",
  "og_image": "http://sodastream.com/cdn/shop/files/US_Info_yellow_1.jpg?v=1765213097&width=1200",
- "page_sha256": "d08d695b5cfb88312ed19fb47cc073e8435f7e57e11f4509808496f56d635c3a",
+ "page_sha256": "ba72aec2cc0342b0610c1008d8a50b1d82134925cec3a9998475c29f8770450c",
  "rendered_checked": true,
  "title": "SodaStream\u00ae Diet MTN DEW\u00ae Drink Mix Syrup",
  "url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old"

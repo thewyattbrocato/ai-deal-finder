@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:25:43Z",
+  "read_at": "2026-10-03T21:46:13Z",
   "ship": [
    "Shipping"
   ],
@@ -14,6 +14,177 @@
  },
  "coupon_snippets": [],
  "final_url": "https://baronfig.com/products/confidant-leather-notebook-case",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:25:43Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [
+     "Size"
+    ],
+    "sub": [
+     "By entering your email and clicking below, you agree to our Terms of Use and acknowledge our Privacy Policy. Unsubscribe at any time."
+    ],
+    "url": "https://baronfig.com/products/confidant-leather-notebook-case"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://baronfig.com/products/confidant-leather-notebook-case",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/confidant-leather-notebook-case#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Baronfig"
+     },
+     "category": "Filing & Organization",
+     "description": "The Guardian Leather Notebook Case is a handcrafted full-grain leather cover designed to shield your notebook while elevating it. Made from premium full-grain leather, it develops a rich patina over time, telling the story of every meeting, sketch, and late-night breakthrough.\nWith thoughtfully integrated front and back pockets, it keeps loose notes and essentials contained without sacrificing design. It slips on securely, fits the Confidant precisely, and transforms your notebook into a lasting companion built for daily use.\n",
+     "hasVariant": [
+      {
+       "@id": "/products/confidant-leather-notebook-case?variant=43400311013459#variant",
+       "@type": "Product",
+       "gtin": "810106032733",
+       "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_light-brown_01.jpg?v=1773248918&width=1920",
+       "name": "Confidant Leather Notebook Case - Light Brown / Flagship",
+       "offers": {
+        "@id": "/products/confidant-leather-notebook-case?variant=43400311013459#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "95.00",
+        "priceCurrency": "USD",
+        "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400311013459"
+       },
+       "sku": "grd-fs-lb"
+      },
+      {
+       "@id": "/products/confidant-leather-notebook-case?variant=43400309997651#variant",
+       "@type": "Product",
+       "gtin": "810106032719",
+       "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_forest-green_01.jpg?v=1773248918&width=1920",
+       "name": "Confidant Leather Notebook Case - Forest Green / Flagship",
+       "offers": {
+        "@id": "/products/confidant-leather-notebook-case?variant=43400309997651#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "95.00",
+        "priceCurrency": "USD",
+        "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400309997651"
+       },
+       "sku": "grd-fs-fg"
+      },
+      {
+       "@id": "/products/confidant-leather-notebook-case?variant=43400310325331#variant",
+       "@type": "Product",
+       "gtin": "810106032726",
+       "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_navy-blue_01.jpg?v=1773248918&width=1920",
+       "name": "Confidant Leather Notebook Case - Navy Blue / Flagship",
+       "offers": {
+        "@id": "/products/confidant-leather-notebook-case?variant=43400310325331#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "95.00",
+        "priceCurrency": "USD",
+        "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400310325331"
+       },
+       "sku": "grd-fs-nb"
+      },
+      {
+       "@id": "/products/confidant-leather-notebook-case?variant=43400310784083#variant",
+       "@type": "Product",
+       "gtin": "810106032740",
+       "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_jet-black_01.jpg?v=1771432370&width=1920",
+       "name": "Confidant Leather Notebook Case - Jet Black / Flagship",
+       "offers": {
+        "@id": "/products/confidant-leather-notebook-case?variant=43400310784083#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "95.00",
+        "priceCurrency": "USD",
+        "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400310784083"
+       },
+       "sku": "grd-fs-b"
+      }
+     ],
+     "name": "Confidant Leather Notebook Case",
+     "productGroupID": "3885953478",
+     "url": "https://baronfig.com/products/confidant-leather-notebook-case"
+    },
+    {
+     "@id": "/products/confidant-leather-notebook-case?variant=43400311013459#variant",
+     "@type": "Product",
+     "gtin": "810106032733",
+     "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_light-brown_01.jpg?v=1773248918&width=1920",
+     "name": "Confidant Leather Notebook Case - Light Brown / Flagship",
+     "offers": {
+      "@id": "/products/confidant-leather-notebook-case?variant=43400311013459#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "95.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400311013459"
+     },
+     "sku": "grd-fs-lb"
+    },
+    {
+     "@id": "/products/confidant-leather-notebook-case?variant=43400309997651#variant",
+     "@type": "Product",
+     "gtin": "810106032719",
+     "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_forest-green_01.jpg?v=1773248918&width=1920",
+     "name": "Confidant Leather Notebook Case - Forest Green / Flagship",
+     "offers": {
+      "@id": "/products/confidant-leather-notebook-case?variant=43400309997651#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "95.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400309997651"
+     },
+     "sku": "grd-fs-fg"
+    },
+    {
+     "@id": "/products/confidant-leather-notebook-case?variant=43400310325331#variant",
+     "@type": "Product",
+     "gtin": "810106032726",
+     "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_navy-blue_01.jpg?v=1773248918&width=1920",
+     "name": "Confidant Leather Notebook Case - Navy Blue / Flagship",
+     "offers": {
+      "@id": "/products/confidant-leather-notebook-case?variant=43400310325331#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "95.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400310325331"
+     },
+     "sku": "grd-fs-nb"
+    },
+    {
+     "@id": "/products/confidant-leather-notebook-case?variant=43400310784083#variant",
+     "@type": "Product",
+     "gtin": "810106032740",
+     "image": "https://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_jet-black_01.jpg?v=1771432370&width=1920",
+     "name": "Confidant Leather Notebook Case - Jet Black / Flagship",
+     "offers": {
+      "@id": "/products/confidant-leather-notebook-case?variant=43400310784083#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "95.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/confidant-leather-notebook-case?variant=43400310784083"
+     },
+     "sku": "grd-fs-b"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:53Z",
+   "og_image": "http://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_light-brown_01.jpg?v=1773248918",
+   "page_sha256": "42e2d4156a10d0b09f1e7dd1bb1bd230d2d1b22aa56c0b442ef2a51f00991002",
+   "rendered_checked": true,
+   "title": "Confidant Leather Notebook Case \u2013 Baronfig"
+  }
+ ],
  "http_status": 200,
  "id": "baronfig-confidant-leather-notebook-case",
  "image_file": "baronfig-confidant-leather-notebook-case.jpg",
@@ -166,9 +337,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-03T15:09:53Z",
+ "observed_at": "2026-10-03T21:46:01Z",
  "og_image": "http://baronfig.com/cdn/shop/files/guardian-leather_buy-variant_light-brown_01.jpg?v=1773248918",
- "page_sha256": "42e2d4156a10d0b09f1e7dd1bb1bd230d2d1b22aa56c0b442ef2a51f00991002",
+ "page_sha256": "d36b5c7ded4d1829089098fd3313af3dbc5624bc934af3f5d4a23bc945a7576c",
  "rendered_checked": true,
  "title": "Confidant Leather Notebook Case \u2013 Baronfig",
  "url": "https://baronfig.com/products/confidant-leather-notebook-case"

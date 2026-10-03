@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:22:24Z",
+  "read_at": "2026-10-03T21:44:03Z",
   "ship": [
    "Free shipping $59+ SHOP NOW",
    "Free shipping on orders $59+",
@@ -13,6 +13,56 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stasherbag.com/products/laundry-starter-kit",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:22:24Z",
+    "ship": [
+     "Free shipping $59+ SHOP NOW",
+     "Free shipping on orders $59+",
+     "Shipping & Returns",
+     "shipping & returns policy"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.stasherbag.com/products/laundry-starter-kit"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stasherbag.com/products/laundry-starter-kit",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Organization",
+      "name": "Stasher"
+     },
+     "description": "Meet your new laundry-day duo. The Laundry Starter Kit pairs one pack of our fragrance-free Laundry Detergent Sheets with a 3-pack of reusable Wool Dryer Balls for an easy wash-to-dry routine with less mess, less bulk, and fewer single-use products. Our pre-measured detergent sheets dissolve quickly in hot or cold water for a powerful, no-spill clean, while the wool dryer balls help separate clothes as they tumble and can be reused load after load. Together, they make laundry day simpler from washer to dryer.\nSPECS\nSET OF 3 X 100% PURE WOOL DRYER BALLS\n 15 LAUNDRY DETERGENT SHEETS (15 half sheets for up to 30 loads)\n\nPre-Measured Sheets: Laundry sheets dissolve quickly and completely in hot or cold water for ultimate convenience.\nPowerful Clean &amp; Pure Formula: Laundry sheets effectively tackles everyday dirt and stubborn stains. Free from fragrances, dyes, phosphates, and parabens \u2013 gentle on skin and\u00a0clothes.\n\nNatural Softening: Wool dryer balls achieve fluffy, soft laundry without harsh chemicals, perfumes, or synthetic residues.\n\nEnergy &amp; Time Saving: Dryer balls eparates clothes for better airflow, significantly reducing drying time and energy consumption.\n\n\nPlastic-Free Laundry: Replaces bulky plastic detergent jugs and single-use dryer sheets, making a tangible impact on waste.\u00a0\n\n\n",
+     "image": [
+      "https://www.stasherbag.com/cdn/shop/files/Bundle_Laundry_Hero_v2_2800.jpg?v=1787005640&width=1920"
+     ],
+     "name": "Laundry Starter Kit: Detergent Sheets + Wool Dryer Balls",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 28.98,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-04",
+       "url": "https://www.stasherbag.com/products/laundry-starter-kit?variant=45864597323955"
+      }
+     ],
+     "url": "https://www.stasherbag.com/products/laundry-starter-kit"
+    }
+   ],
+   "observed_at": "2026-10-03T14:52:16Z",
+   "og_image": "http://www.stasherbag.com/cdn/shop/files/Bundle_Laundry_Hero_v2_2800.jpg?v=1787005640",
+   "page_sha256": "5ae1548dae4a3c9d2ea0133ee6eecca420adfe0de3b6bb093788429d6d24d79b",
+   "rendered_checked": true,
+   "title": "Laundry Starter Kit: Detergent Sheets + Wool Dryer Balls \u2013 Stasher"
+  }
+ ],
  "http_status": 200,
  "id": "stasherbag-laundry-starter-kit",
  "image_file": "stasherbag-laundry-starter-kit.jpg",
@@ -45,9 +95,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T14:52:16Z",
+ "observed_at": "2026-10-03T21:43:49Z",
  "og_image": "http://www.stasherbag.com/cdn/shop/files/Bundle_Laundry_Hero_v2_2800.jpg?v=1787005640",
- "page_sha256": "5ae1548dae4a3c9d2ea0133ee6eecca420adfe0de3b6bb093788429d6d24d79b",
+ "page_sha256": "6bd8eaed52865597b9e36be3b49a1a67a8629b2e875b0f3f43171983ee9c0b78",
  "rendered_checked": true,
  "title": "Laundry Starter Kit: Detergent Sheets + Wool Dryer Balls \u2013 Stasher",
  "url": "https://www.stasherbag.com/products/laundry-starter-kit"

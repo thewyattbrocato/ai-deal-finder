@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:07:08Z",
+  "read_at": "2026-10-03T21:28:48Z",
   "ship": [
    "Shipping"
   ],
@@ -12,6 +12,60 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:07:08Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [
+     "One Size: Diameter: 8.7 in (22 cm)"
+    ],
+    "sub": [],
+    "url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/webbing-remix-soft-flying-disc#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "5",
+      "ratingValue": "4.8"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Ruff Wear"
+     },
+     "description": "Inspired by our original Hover Craft toy, the Remix\u2122 Soft Flying Disc is a lightweight, flexible flyer for fetch sessions on land. It\u2019s soft build is easy on gums and teeth, great for building confidence in aspiring disc dogs. By utilizing surplus webbings and materials, it maximizes the fun you and your dog have together while minimizing our impact on the planet. Colors are varied depending on what surplus materials are available, making for a delightful surprise when it arrives.\nChew Style: GentlePlay Style: Fly &amp; FetchOne Size: Diameter: 8.7 in (22 cm)\nOur toys are designed to be interactive - it's just more fun that way. While our toys suit a range of play styles, dogs can be crafty and determined chewers, so supervised play is recommended. If any part of the toy becomes loose or detached, take the toy away and discard.",
+     "image": "https://ruffwear.com/cdn/shop/files/CompressedPNG-Remix_Soft-Flying-Disc_Surprise_STUDIO_Main_450x450.png?v=1784591398",
+     "mpn": "8024194515027",
+     "name": "Remix\u2122 Soft Flying Disc",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "24.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Ruffwear"
+      }
+     },
+     "url": "/products/webbing-remix-soft-flying-disc"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:56Z",
+   "og_image": "https://ruffwear.com/cdn/shop/files/CompressedPNG-Remix_Soft-Flying-Disc_Surprise_STUDIO_Main_882x589.png?v=1784591398",
+   "page_sha256": "ce09ba4463c92b6328a41825fada9cbb6acf25558b4822e3ec22b7e8983f49a0",
+   "rendered_checked": true,
+   "title": "Remix\u2122 Soft Flying Disc | Ruffwear"
+  }
+ ],
  "http_status": 200,
  "id": "ruffwear-webbing-remix-soft-flying-disc",
  "image_file": "ruffwear-webbing-remix-soft-flying-disc.png",
@@ -49,9 +103,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-02T19:58:56Z",
+ "observed_at": "2026-10-03T21:28:35Z",
  "og_image": "https://ruffwear.com/cdn/shop/files/CompressedPNG-Remix_Soft-Flying-Disc_Surprise_STUDIO_Main_882x589.png?v=1784591398",
- "page_sha256": "ce09ba4463c92b6328a41825fada9cbb6acf25558b4822e3ec22b7e8983f49a0",
+ "page_sha256": "87c8074a74da9a621c0bb6679f043bcfdc2307dcc18577c44236167932149483",
  "rendered_checked": true,
  "title": "Remix\u2122 Soft Flying Disc | Ruffwear",
  "url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc"

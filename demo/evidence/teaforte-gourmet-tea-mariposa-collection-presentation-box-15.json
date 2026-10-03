@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:12:31Z",
+  "read_at": "2026-10-03T21:34:44Z",
   "ship": [
    "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
    "Get member pricing, free shipping, and 2x rewards today.",
@@ -17,6 +17,67 @@
  },
  "coupon_snippets": [],
  "final_url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:12:31Z",
+    "ship": [
+     "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
+     "Get member pricing, free shipping, and 2x rewards today.",
+     "Free Shipping on all orders for VIP Members",
+     "Free Shipping on $150+ for Non-Members",
+     "Shipping & Returns",
+     "Free Shipping on"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tea Forte"
+     },
+     "description": "UPDATED BLENDS The Mariposa Collection is our sixth-year collaboration with The New York Botanical Garden (NYBG). This exquisite tea collection features lush, fruity flavors and floral aromas; each vibrant blend inspires happiness, harmony, and rejuvenation. Mariposa is inspired by the beauty of new beginnings, making it a perfect tea collection for celebrating spring events and special occasions.\u00a0A percentage of sales of this collection will support NYBG's work in plant research and conservation, horticulture, and education.\nThe Mariposa Presentation Box contains 20 pyramid infusers of 5 blends, four of each: Moroccan Mint\u00a0(Green tea),\u00a0White Ginger Pear (White tea),\u00a0Chamomile Lavender (Herbal tea),\u00a0Raspberry Nectar (Herbal tea), and our newest blend, Pink Papaya Nectar (Herbal tea). All teas in this collection are Kosher Certified. The open lid reveals a detailed tasting menu. See below for blend descriptions.\nFeatures &amp; Measurements:\n\nEach box contains 10 pyramid infusers, two of each blend\n\nEach pyramid tea infuser steeps 8-12 ounces of tea\nBox measures 8.5 L X 4.2 D X 3.4 H\u201d\nPlease note: Pyramid infusers are not microwave-safe",
+     "image": [
+      "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Mariposa_PB_OC.jpg?v=1788363686&width=1400"
+     ],
+     "mainEntityOfPage": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060",
+     "name": "Mariposa Presentation Box",
+     "offers": [
+      {
+       "@id": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060?variant=48358032474301#offer",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition",
+       "price": 45.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@id": "https://teaforte.com/#organization"
+       },
+       "url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060?variant=48358032474301"
+      }
+     ],
+     "sku": "153060",
+     "url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:01Z",
+   "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Mariposa_PB_OC.jpg?v=1788363686",
+   "page_sha256": "88854c6ba8e22958668eedcfa70bf96169148357fbdf169b6e90183ca28b4260",
+   "rendered_checked": true,
+   "title": "Mariposa Presentation Box | Luxury Tea & Gifts"
+  }
+ ],
  "http_status": 200,
  "id": "teaforte-gourmet-tea-mariposa-collection-presentation-box-15",
  "image_file": "teaforte-gourmet-tea-mariposa-collection-presentation-box-15.jpg",
@@ -56,9 +117,9 @@
   }
  ],
  "kind": "Tea",
- "observed_at": "2026-10-02T20:02:01Z",
+ "observed_at": "2026-10-03T21:34:26Z",
  "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Mariposa_PB_OC.jpg?v=1788363686",
- "page_sha256": "88854c6ba8e22958668eedcfa70bf96169148357fbdf169b6e90183ca28b4260",
+ "page_sha256": "f88a7d94d9a3456b340d6736daa131bcb1f9444e7caf215b0604d1f5b1d7898c",
  "rendered_checked": true,
  "title": "Mariposa Presentation Box | Luxury Tea & Gifts",
  "url": "https://teaforte.com/products/gourmet-tea-mariposa-collection-presentation-box-153060"

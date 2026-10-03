@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:55:35Z",
+  "read_at": "2026-10-03T21:35:37Z",
   "ship": [
    "$3.99 flat rate shipping \u2022 Orders $50+ ship FREE",
    "Spend $50.00 or subscribe to unlock FREE shipping"
@@ -13,8 +13,62 @@
   ],
   "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
  },
- "coupon_snippets": [],
+ "coupon_snippets": [
+  "! Add me to the store mailing list Submit We'll notify you when this product is in stock. We won't share your address with anybody else. Your 20% off discount code GOBLUE will auto-apply at checkout. 30% off subscriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-a",
+  "ur 20% off discount code GOBLUE will auto-apply at checkout. 30% off subscriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-apply at checkout. 20% off Tropical Punch with code PUNCH20 will auto-apply at checkout. Your 15% off discount code DREAMY15 will auto-appl",
+  "scriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-apply at checkout. 20% off Tropical Punch with code PUNCH20 will auto-apply at checkout. Your 15% off discount code DREAMY15 will auto-apply at checkout. Early access 30% off with code EARLY30 will auto-apply"
+ ],
  "final_url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:55:35Z",
+    "ship": [
+     "$3.99 flat rate shipping \u2022 Orders $50+ ship FREE",
+     "Spend $50.00 or subscribe to unlock FREE shipping"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe",
+     "Manage Subscriptions",
+     "Spend $50.00 or subscribe to unlock FREE shipping"
+    ],
+    "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/caramel-apple-crisp-apple-bundle#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "OLIPOP"
+     },
+     "category": "",
+     "description": "",
+     "image": "https://drinkolipop.com/cdn/shop/files/PLP-V3.png?v=1790962058&width=1920",
+     "name": "Caramel Apple + Crisp Apple Bundle",
+     "offers": {
+      "@id": "/products/caramel-apple-crisp-apple-bundle?variant=62857637134495#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "53.98",
+      "priceCurrency": "USD",
+      "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle?variant=62857637134495"
+     },
+     "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:01Z",
+   "og_image": "http://drinkolipop.com/cdn/shop/files/PLP-V3_1200x1200.png?v=1790962058",
+   "page_sha256": "756b72c8341b0f4faafd46d1af58c48a2d3d883c4db11d30ec79d635061e30f9",
+   "rendered_checked": true,
+   "title": "Caramel Apple + Crisp Apple Bundle \u2013 OLIPOP"
+  }
+ ],
  "http_status": 200,
  "id": "drinkolipop-caramel-apple-crisp-apple-bundle",
  "image_file": "drinkolipop-caramel-apple-crisp-apple-bundle.png",
@@ -45,9 +99,9 @@
   }
  ],
  "kind": "Drinks",
- "observed_at": "2026-10-02T20:04:01Z",
+ "observed_at": "2026-10-03T21:35:20Z",
  "og_image": "http://drinkolipop.com/cdn/shop/files/PLP-V3_1200x1200.png?v=1790962058",
- "page_sha256": "756b72c8341b0f4faafd46d1af58c48a2d3d883c4db11d30ec79d635061e30f9",
+ "page_sha256": "8df6be0188c36cbc7b0672036138e6f7a115ed540e7a2f35e92cd4ff9e40fd52",
  "rendered_checked": true,
  "title": "Caramel Apple + Crisp Apple Bundle \u2013 OLIPOP",
  "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"

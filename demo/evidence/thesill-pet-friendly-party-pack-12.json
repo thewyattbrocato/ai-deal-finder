@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:29:39Z",
+  "read_at": "2026-10-03T21:46:30Z",
   "ship": [
    "Not warehouse-held.Acclimated before shipping.",
    "Free Shipping Over $99"
@@ -11,6 +11,145 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.thesill.com/products/pet-friendly-party-pack-12",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:29:39Z",
+    "ship": [
+     "Not warehouse-held.Acclimated before shipping.",
+     "Free Shipping Over $99"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.thesill.com/products/pet-friendly-party-pack-12"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.thesill.com/products/pet-friendly-party-pack-12",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "The Sill"
+     },
+     "description": "Bring home plants without the worry with our Pet Friendly Party Pack. This curated bundle of a dozen non-toxic houseplants offers absolute peace of mind for pet parents. It\u2019s the perfect size for refreshing a room, sharing with friends, or hosting a small DIY potting get-together. Planning a bigger celebration? Check out our 30-pack for larger spaces and events! All plants arrive in 6&quot; nursery grow pots. Plant type may vary slightly depending on time of year; we do our best to match your assortment to what is pictured.What&#39;s Included:\u00a03x\u00a0 Money Trees3x\u00a0 Parlor Palms3x\u00a0 Hoya Carnosa tricolors3x\u00a0\u00a0Ponytail Palms",
+     "image": [
+      "https://www.thesill.com/cdn/shop/files/the-sill_Small-Pet-Friendly-party-pack-12_Small_Growpot_Variant_1_ded15928-3536-4163-8668-8d76a4f5a394.jpg?v=1781535777&width=1200",
+      "https://www.thesill.com/cdn/shop/files/the-sill_Large-Parlor-Palm_Gallery_2.jpg?v=1770151098&width=1200",
+      "https://www.thesill.com/cdn/shop/products/the-sill_money-tree_gallery_small_all_all_01_c888e75f-4f27-4306-a52e-735cfe04b521.jpg?v=1774535500&width=1200",
+      "https://www.thesill.com/cdn/shop/files/the-sill_Small-Hoya-Carnosa-Tricolor_Gallery_1.jpg?v=1775830489&width=1200",
+      "https://www.thesill.com/cdn/shop/files/The_Sill_Small_Ponytail_Palm_Gallery.jpg?v=1774537163&width=1200"
+     ],
+     "name": "Pet Friendly Party Pack, 12",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "merchantReturnDays": 30,
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "url": "https://www.thesill.com/pages/shipping-and-handling"
+       },
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "Default Title",
+       "price": "299.00",
+       "priceCurrency": "USD",
+       "priceSpecification": [
+        {
+         "@type": "UnitPriceSpecification",
+         "price": "299.00",
+         "priceCurrency": "USD"
+        },
+        {
+         "@type": "UnitPriceSpecification",
+         "price": "828.00",
+         "priceCurrency": "USD",
+         "priceType": "https://schema.org/StrikethroughPrice"
+        }
+       ],
+       "priceValidUntil": "2027-12-31",
+       "shippingDetails": [
+        {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 2,
+           "minValue": 1,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 1,
+           "unitCode": "DAY"
+          }
+         },
+         "freeShippingThreshold": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "99.00"
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "0"
+         }
+        },
+        {
+         "@type": "OfferShippingDetails",
+         "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 2,
+           "minValue": 1,
+           "unitCode": "DAY"
+          },
+          "transitTime": {
+           "@type": "QuantitativeValue",
+           "maxValue": 4,
+           "minValue": 1,
+           "unitCode": "DAY"
+          }
+         },
+         "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+         },
+         "shippingRate": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "19.00"
+         }
+        }
+       ],
+       "sku": "BN-PAR-PK-PF-12",
+       "url": "https://www.thesill.com/products/pet-friendly-party-pack-12?variant=47699506430057"
+      }
+     ],
+     "sku": "BN-PAR-PK-PF-12",
+     "url": "https://www.thesill.com/products/pet-friendly-party-pack-12"
+    }
+   ],
+   "observed_at": "2026-10-03T15:10:04Z",
+   "og_image": "http://www.thesill.com/cdn/shop/files/the-sill_Small-Pet-Friendly-party-pack-12_Small_Growpot_Variant_1_ded15928-3536-4163-8668-8d76a4f5a394.jpg?v=1781535777",
+   "page_sha256": "d67a8c270271d4069390d198213fc78ca99a16fd9da633caa1a73866a244edcf",
+   "rendered_checked": true,
+   "title": "Pet Friendly Party Pack, 12 | Shop Indoor Houseplants & Gifts \u2013 The Sill"
+  }
+ ],
  "http_status": 200,
  "id": "thesill-pet-friendly-party-pack-12",
  "image_file": "thesill-pet-friendly-party-pack-12.jpg",
@@ -134,9 +273,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T15:10:04Z",
+ "observed_at": "2026-10-03T21:46:15Z",
  "og_image": "http://www.thesill.com/cdn/shop/files/the-sill_Small-Pet-Friendly-party-pack-12_Small_Growpot_Variant_1_ded15928-3536-4163-8668-8d76a4f5a394.jpg?v=1781535777",
- "page_sha256": "d67a8c270271d4069390d198213fc78ca99a16fd9da633caa1a73866a244edcf",
+ "page_sha256": "d7210df5defa0c64b183ae0cc2a29a43243547b812456019c68b5fd8edae5ba4",
  "rendered_checked": true,
  "title": "Pet Friendly Party Pack, 12 | Shop Indoor Houseplants & Gifts \u2013 The Sill",
  "url": "https://thesill.com/products/pet-friendly-party-pack-12"
