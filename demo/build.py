@@ -685,23 +685,30 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
 
 
 KIND_WORDS = {
-    "Shoes": ["shoes", "sneakers", "footwear"],
+    "Shoes": ["shoes", "footwear"],
     "Clothing": ["clothing", "clothes", "apparel", "wear"],
-    "Home": ["home", "bedding"],
-    "Pets": ["pets", "pet", "dog"],
+    "Home": ["home"],
+    "Pets": ["pets", "pet"],
     "Kitchen": ["kitchen", "cooking"],
     "Outdoors": ["outdoors", "outdoor", "camping", "hiking"],
     "Tea": ["tea", "drink"],
     "Pantry": ["pantry", "food", "cooking"],
     "Drinks": ["drinks", "drink", "beverage"],
     "Coffee": ["coffee", "beans"],
-    "Tech": ["tech", "phone", "gadget", "electronics"],
+    "Tech": ["tech", "gadget", "electronics"],
     "Accessories": ["accessories", "wallet", "bag"],
     "Grooming": ["grooming", "beard", "care"],
     "Personal care": ["personal", "care", "bath"],
     "Wellness": ["wellness", "scent"],
     "Office": ["office", "desk"],
 }
+# A plain product-type word a kind must not hand to every product in it: it is
+# added to a product only when that product's own stored page (title and name; for dog and cat also its description) says so.
+TITLE_WORDS = (
+    ("sneakers", r"\bsneakers?\b", False), ("dog", r"\bdogs?\b", True),
+    ("cat", r"\bcats?\b", True), ("phone", r"\b(?:iphone|pixel|phone)\b", False),
+    ("bedding", r"\b(?:blanket|pillow|throw|comforter)\b", False),
+)
 PAGE_CAVEAT = ("Seen on the page but never tried out, so the price shown "
                "does not include it.")
 TAX_SHIP_UNKNOWN = ("Tax and shipping weren't shown for this item \u2014 check "
@@ -746,6 +753,10 @@ def catalog_item(obs):
     words.update(KIND_WORDS.get(obs["kind"], [obs["kind"].lower()]))
     words.add(obs["kind"].lower())
     words.update(terms.SEARCH_WORDS.get(obs["id"], []))
+    said = obs.get("title", "") + " " + obs["name"]
+    for word, pattern, in_desc in TITLE_WORDS:
+        if re.search(pattern, said + (" " + obs.get("desc", "") if in_desc else ""), re.I):
+            words.add(word)
     cents = int(round(obs["price"] * 100))
     label = "$%d" % obs["price"] if cents % 100 == 0 else "$%.2f" % obs["price"]
     coupon = None

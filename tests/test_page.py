@@ -55,6 +55,47 @@ def page_cards(page):
     return re.findall(r'<section class="card item".*?</section>', page, re.S)
 
 
+class ShopperWordsTest(unittest.TestCase):
+    """Defects found walking the live page: words a shopper types that found
+    nothing, or found products that are not what the word names."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.eng = engine(os.path.join(ROOT, "demo", "index.html"))
+        cls.q = cls.eng["queries"]
+
+    def rows(self, q):
+        return self.q[q]["rows"]
+
+    def test_plural_of_a_word_ending_ie_finds_it(self):
+        self.assertEqual(self.rows("hoodies"), self.rows("hoodie"))
+        self.assertTrue(self.rows("hoodies"))
+
+    def test_t_shirt_in_any_spelling_finds_the_tee_not_button_shirts(self):
+        tee = self.rows("tee")
+        self.assertEqual(tee, ["The Long Sleeve Shop Tee"])
+        for q in ("t-shirt", "t shirt", "tshirts"):
+            self.assertEqual(self.rows(q), tee, q)
+
+    def test_dog_never_lists_cat_products(self):
+        dogs, cats = self.rows("dog"), self.rows("cat")
+        self.assertTrue(dogs and cats)
+        self.assertFalse(set(dogs) & set(cats))
+        self.assertEqual(self.rows("dogs"), dogs)
+
+    def test_a_kind_word_is_not_handed_to_every_product_of_the_kind(self):
+        # phone: only products whose own page names a phone, never bath strips
+        self.assertTrue(self.rows("phone"))
+        for n in ("Bath Strips", "Bento Box", "Pizza Cutter"):
+            self.assertNotIn(n, self.rows("phone"))
+        # sneakers: not shoe charms, flip flops or jackets filed under Shoes
+        for n in self.rows("sneakers"):
+            self.assertNotRegex(n, r"(?i)charm|flip flop|jacket|sweater")
+        # bedding: not plants or detergent sheets filed under Home
+        for n in self.rows("bedding"):
+            self.assertNotRegex(n, r"(?i)camellia|detergent|dryer")
+
+
 class SearchFirstTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
