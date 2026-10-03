@@ -86,6 +86,94 @@ def _shipping(node_list):
     return None
 
 
+_FREE_SHIP = re.compile(
+    r"(?i)\bfree(?: (?:standard|ground|us|u\.s\.|fast|economy|domestic|"
+    r"continental|usps|2-day|two-day|luxury))* (?:shipping|delivery)\b")
+_NON_MEMBER = re.compile(r"(?i)\bnon[- ]?members?\b|\bvips?\b")
+_THRESHOLD = re.compile(
+    r"(?i)(?:\b(?:over|above|orders? of|orders? \$|spend|minimum|on)\s*"
+    r"(?:orders? )?(?:over |of )?(?:US)?\$\s?(\d{2,4})(?:\.00)?(?!\d)"
+    r"|(?:US)?\$\s?(\d{2,4})(?:\.00)?\s*(?:\+|and up|& up|or more|minimum))")
+_SHIP_SKIP = re.compile(
+    r"(?i)\b(?:international|canada|outside|worldwide|returns?|exchanges?|"
+    r"more to (?:earn|get|qualify|unlock)|away from|to unlock|you.?re \$|"
+    r"add \$|spend \$\d+ more|amount|only|exclud|except|select|some items|"
+    r"hawaii|alaska|puerto)\b")
+_MEMBERS = re.compile(
+    r"(?i)\b(?:members?|membership|rewards?|loyalty|sign(?:ed)? in|log ?in|"
+    r"join|insider|vip|club)\b")
+_FREE_ALL = re.compile(
+    r"(?i)\bfree(?: [a-z.]+){0,2} (?:shipping|delivery) (?:on |for )?"
+    r"(?:all|every|any) (?:us |u\.s\. )?orders?\b(?! over| of| \$)")
+_SUB_OFFER = re.compile(
+    r"(?i)subscribe\s*(?:&|and|\+|n)\s*(?:save|get|enjoy)|auto-?ship|"
+    r"subscription (?:discount|price|option|available)|"
+    r"(?:save|get) (?:up to )?\d{1,2}% (?:when you|with a|on a|on your|by) "
+    r"(?:subscri|auto)|deliver(?:ed|y)? every \d|"
+    r"(?:subscribe|subscription) (?:for|to) (?:this|the) (?:product|item|coffee)")
+_SUB_SKIP = re.compile(
+    r"(?i)\b(?:newsletter|e-?mails?|text|sms|updates|notify|restock|"
+    r"back in stock|sign ?up|join our|waitlist|offers? and|promotions?)\b")
+_PCT = re.compile(r"(?i)\bsave (?:up to )?(\d{1,2})\s?%")
+
+
+def _ship_from_lines(lines):
+    """Explicit shipping statements in the page's own stored lines.
+
+    Fail closed: lines that talk about returns, other countries, cart
+    progress or exceptions are ignored, two different thresholds mean
+    unknown, and a bare "free shipping" tag with no minimum is not a
+    condition.
+    """
+    found = []
+    segs = [g.strip() for l in lines or [] for g in re.split(r"\s[|\u2022]\s", l)]
+    for line in segs:
+        if _NON_MEMBER.search(line):
+            continue
+        if not _FREE_SHIP.search(line) or _SHIP_SKIP.search(line):
+            continue
+        mem = bool(_MEMBERS.search(line))
+        m = _THRESHOLD.search(line)
+        if m:
+            over = int(m.group(1) or m.group(2)) * 100
+            found.append(("threshold", over, mem, line))
+        elif _FREE_ALL.search(line) and not mem:
+            found.append(("free", None, False, line))
+    if not found:
+        return None
+    kinds = {(k, o) for k, o, _, _ in found}
+    if len(kinds) != 1:
+        return None
+    k, over, _, line = found[0]
+    mem = any(f[2] for f in found)
+    quote = "\u201c" + line + "\u201d"
+    if k == "free":
+        return {"k": "free", "t": quote}
+    return {"k": "threshold", "over": over, "members": mem, "t": quote}
+
+
+def _sub_from_lines(lines):
+    hits = [l for l in (lines or [])
+            if _SUB_OFFER.search(l) and not _SUB_SKIP.search(l)]
+    if not hits:
+        return None
+    out = {"t": "\u201c" + hits[0] + "\u201d (the subscribe price itself is "
+                                    "not shown)"}
+    pct = _PCT.search(hits[0])
+    if pct:
+        out["pct"] = int(pct.group(1))
+    return out
+
+
+def conditions_from_evidence(ev):
+    """(ship, sub, src) the page's stored lines state, else (None, None, None)."""
+    c = ev.get("conditions")
+    if not c:
+        return None, None, None
+    return (_ship_from_lines(c.get("ship")), _sub_from_lines(c.get("sub")),
+            (c.get("url"), c.get("read_at")))
+
+
 def from_evidence(ev, kind):
     """Stored evidence record -> terms dict (sizes/shipping only if stated)."""
     prods = ev.get("json_ld") or []
@@ -115,8 +203,14 @@ def from_evidence(ev, kind):
         sizes = []
     out = {"group": group, "sizes": sizes}
     ship = _shipping([p] + variants)
+    r_ship, r_sub, src = conditions_from_evidence(ev)
+    ship = ship or r_ship
     if ship:
         out["ship"] = ship
+    if r_sub:
+        out["sub"] = r_sub
+    if src and (ship or r_sub):
+        out["src"] = src
     return out
 
 

@@ -1,4 +1,21 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:57:47Z",
+  "ship": [
+   "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
+   "Shipping calculated at checkout.",
+   "Free Shipping",
+   "We offer Free Shipping on all orders over $25. If you have any issues or questions with your order, please contact us directly at hello@gorillagrip.com and we will be happy to help.",
+   "Shipping & Returns"
+  ],
+  "size": [
+   "Size"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://gorillagrip.com/products/removable-hooks"
+ },
  "coupon_snippets": [],
  "final_url": "https://gorillagrip.com/products/removable-hooks",
  "http_status": 200,

@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:51:05Z",
+  "ship": [
+   "Free luxury shipping on US orders $100+",
+   "SHIPPING, RETURNS & GUARANTEES",
+   "LUXURY SHIPPING"
+  ],
+  "size": [
+   "SIZE: 20 mL alcohol and phthalate-free Eau de Parfum."
+  ],
+  "sub": [],
+  "url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.beardbrand.com/products/fox-hunt-mens-cologne",
  "http_status": 200,

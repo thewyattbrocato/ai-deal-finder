@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:13:59Z",
+  "ship": [
+   "Free returns & shipping",
+   "Shipping & Returns",
+   "Free Shipping"
+  ],
+  "size": [
+   "Size and Dimensions",
+   "Size"
+  ],
+  "sub": [],
+  "url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.tuftandneedle.com/products/snooz-go-travel-white-noise-machine",
  "http_status": 200,

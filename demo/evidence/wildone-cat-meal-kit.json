@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:23:42Z",
+  "ship": [
+   "\ud83d\ude9a FREE Shipping on Orders $90+",
+   "Shipping & Returns",
+   "Shipping policy",
+   "Free Shipping on Orders $90+",
+   "You are $90.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://wildone.com/products/cat-meal-kit"
+ },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-meal-kit",
  "http_status": 200,

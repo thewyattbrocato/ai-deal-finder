@@ -1,4 +1,20 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:08:00Z",
+  "ship": [
+   "Free Shipping $45+",
+   "Roasting & Shipping Schedule",
+   "Shipping, Returns & Refunds"
+  ],
+  "size": [
+   "Size"
+  ],
+  "sub": [
+   "Subscribe",
+   "Manage my Subscription"
+  ],
+  "url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set"
+ },
  "coupon_snippets": [],
  "final_url": "https://sightglasscoffee.com/products/harvest-moon-fall-gift-set",
  "http_status": 200,

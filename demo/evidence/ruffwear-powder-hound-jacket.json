@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:06:36Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [
+   "CHOOSE SIZE",
+   "Size Chart"
+  ],
+  "sub": [],
+  "url": "https://ruffwear.com/products/powder-hound-jacket"
+ },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/powder-hound-jacket",
  "http_status": 200,

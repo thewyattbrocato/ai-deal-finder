@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:15:02Z",
+  "ship": [
+   "Free Shipping On All Carts Over $80",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender"
+ },
  "coupon_snippets": [],
  "final_url": "https://vitruvi.com/products/air-waterless-diffuser-starter-kit-lavender",
  "http_status": 200,

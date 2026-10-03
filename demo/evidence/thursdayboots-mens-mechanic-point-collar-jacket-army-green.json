@@ -1,4 +1,22 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:13:42Z",
+  "ship": [
+   "FREE SHIPPING AND RETURNS IN THE U.S. DETAILS",
+   "Free Shipping & Returns",
+   "Shipping Info",
+   "Free domestic U.S. ground shipping",
+   "International shipping available",
+   "Expedited shipping options available at checkout",
+   "Shipping & Returns"
+  ],
+  "size": [
+   "Size: Fits true to size. Size up if you are between sizes.",
+   "Size chart"
+  ],
+  "sub": [],
+  "url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green"
+ },
  "coupon_snippets": [],
  "final_url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green",
  "http_status": 200,

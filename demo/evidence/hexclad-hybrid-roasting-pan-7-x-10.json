@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:27:29Z",
+  "ship": [
+   "FREE SHIPPING"
+  ],
+  "size": [
+   "Select A Size: 7\u201d x 10\u201d"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://hexclad.com/products/hybrid-roasting-pan-7-x-10"
+ },
  "coupon_snippets": [],
  "final_url": "https://hexclad.com/products/hybrid-roasting-pan-7-x-10",
  "http_status": 200,

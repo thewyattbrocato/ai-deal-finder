@@ -1,4 +1,22 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:04:51Z",
+  "ship": [
+   "FREE SHIPPING ON EVERY ORDER | 60 DAYS RETURN",
+   "Shipping + Returns",
+   "Free Shipping & 60 Day Returns",
+   "Free Shipping",
+   "FREE U.S. SHIPPING"
+  ],
+  "size": [
+   "Size",
+   "Size Guide"
+  ],
+  "sub": [
+   "*By completing this form you are signing up to receive our emails and can unsubscribe at any time."
+  ],
+  "url": "https://parachutehome.com/products/whipstitch-throw-java"
+ },
  "coupon_snippets": [],
  "final_url": "https://parachutehome.com/products/whipstitch-throw-java",
  "http_status": 200,

@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:19:09Z",
+  "ship": [
+   "Shipping + Delivery"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscription"
+  ],
+  "url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/klean-kanteen-camp-mug",
  "http_status": 200,

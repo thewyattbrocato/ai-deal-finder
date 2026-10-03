@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:19:01Z",
+  "ship": [
+   "Shipping + Delivery"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscription"
+  ],
+  "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
  "http_status": 200,

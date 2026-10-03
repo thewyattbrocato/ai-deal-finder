@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:21:45Z",
+  "ship": [
+   "Shipping",
+   "You\u2019re $50.00 away from free shipping!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://nomadgoods.com/products/screen-protector-iphone-12-pro-max"
+ },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/screen-protector-iphone-12-pro-max",
  "http_status": 200,

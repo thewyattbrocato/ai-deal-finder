@@ -548,11 +548,11 @@ class QuietPageTest(unittest.TestCase):
     def test_guide_asks_only_what_the_results_fit(self):
         d = self.driven
         self.assertEqual(d["load"]["legends"], [
-            "Coffee bag size", "Which coupons?", "What kind?", "How you would buy",
-            "What matters most?"])
-        self.assertEqual(d["shoes"]["legends"], ["Shoe size"])
+            "Coffee bag size", "Which coupons?", "Shipping", "What kind?",
+            "How you would buy", "What matters most?"])
+        self.assertEqual(d["shoes"]["legends"], ["Shoe size", "Shipping"])
         self.assertEqual(d["clothing"]["legends"],
-                         ["Clothing size", "Shipping", "Which coupons?"])
+                         ["Clothing size", "How you would buy", "Which coupons?", "Shipping"])
         self.assertEqual(d["airpods"]["legends"], [])
         self.assertEqual(d["tea"]["legends"], [])
         self.assertIn("Nothing to narrow", d["tea"]["guideText"])
@@ -628,7 +628,7 @@ class QuietPageTest(unittest.TestCase):
         self.assertIn("not ranked", sub["best"])
         self.assertTrue(any("Midnight Axes" not in nm for nm in names(sub)))
         clothes = d["clothingFree"]
-        self.assertEqual(len(clothes["visible"]), 3)
+        self.assertEqual(len(clothes["visible"]), 12)
         joined = " | ".join(clothes["hiddenItems"])
         self.assertIn("free shipping is stated only for members", joined)
         self.assertIn("did not state shipping", joined)
@@ -873,8 +873,9 @@ class QuietPageTest(unittest.TestCase):
         self.assertEqual(d["airpods"]["legends"], [])
         self.assertNotIn("Which coupons?", d["exactSuper"]["legends"])
         self.assertNotIn("Coffee bag size", d["tea"]["legends"])
-        # free shipping is stated by no coffee page in the list: not asked
-        self.assertNotIn("Shipping", d["load"]["legends"])
+        # free shipping is asked once some listed pages state it (re-read lines)
+        self.assertIn("Shipping", d["load"]["legends"])
+        self.assertNotIn("Shipping", d["airpods"]["legends"])
         self.assertIn("Shipping", d["clothing"]["legends"])
         # the order question appears only while it would reorder the list
         self.assertIn("What matters most?", d["load"]["legends"])

@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:09:19Z",
+  "ship": [
+   "Free Shipping on Orders $50+ (In Contiguous US)",
+   "Shipping",
+   "Shipping calculated at checkout",
+   "You are $50.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://spiceology.com/products/korean-bbq-glaze"
+ },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/korean-bbq-glaze",
  "http_status": 200,

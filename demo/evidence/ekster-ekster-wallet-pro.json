@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:56:02Z",
+  "ship": [
+   "Free shipping",
+   "Shipping",
+   "Shipping & delivery",
+   "Shipping calculated at checkout"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://www.ekster.com/products/ekster-wallet-pro"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.ekster.com/products/ekster-wallet-pro",
  "http_status": 200,

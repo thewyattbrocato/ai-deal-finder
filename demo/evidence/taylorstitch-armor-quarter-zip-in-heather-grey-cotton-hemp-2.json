@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:12:06Z",
+  "ship": [
+   "FREE SHIPPING & RETURNS ON EVERY DOMESTIC ORDER",
+   "FREE SHIPPING & FREE RETURNS",
+   "Shipping & Delivery"
+  ],
+  "size": [
+   "SIZE:",
+   "Size & Fit Guide"
+  ],
+  "sub": [],
+  "url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.taylorstitch.com/products/armor-quarter-zip-in-heather-grey-cotton-hemp-2609",
  "http_status": 200,

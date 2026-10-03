@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:27:38Z",
+  "ship": [
+   "FREE SHIPPING"
+  ],
+  "size": [
+   "Select A Size: Rice Pot"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://hexclad.com/products/rice-pot"
+ },
  "coupon_snippets": [],
  "final_url": "https://hexclad.com/products/rice-pot",
  "http_status": 200,

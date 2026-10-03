@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:01:59Z",
+  "ship": [
+   "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
+   "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
+   "Shipping"
+  ],
+  "size": [
+   "Size - Color"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://www.moft.com/products/magsafe-movas-case-for-iphone-18-pro-pro-max"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.moft.com/products/magsafe-movas-case-for-iphone-18-pro-pro-max",
  "http_status": 200,

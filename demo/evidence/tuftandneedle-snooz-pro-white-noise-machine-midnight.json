@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:14:07Z",
+  "ship": [
+   "Free returns & shipping",
+   "Shipping & Returns",
+   "Free Shipping"
+  ],
+  "size": [
+   "Size and dimensions",
+   "Size"
+  ],
+  "sub": [],
+  "url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-midnight"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.tuftandneedle.com/products/snooz-pro-white-noise-machine-midnight",
  "http_status": 200,

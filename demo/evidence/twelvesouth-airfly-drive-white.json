@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:30:30Z",
+  "ship": [
+   "Free Shipping US Orders $85+ Shop Best Sellers",
+   "Free Shipping US Orders $85+",
+   "FREE Shipping Over $85+ | 30-Day Returns",
+   "Shipping & Returns",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.twelvesouth.com/products/airfly-drive-white"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.twelvesouth.com/products/airfly-drive-white",
  "http_status": 200,

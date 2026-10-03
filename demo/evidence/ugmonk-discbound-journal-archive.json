@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:14:46Z",
+  "ship": [
+   "Free US Shipping $200+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [
+   "Join 78,000+ subscribers by signing up below:",
+   "Subscribe \u2192"
+  ],
+  "url": "https://ugmonk.com/products/discbound-journal-archive"
+ },
  "coupon_snippets": [],
  "final_url": "https://ugmonk.com/products/discbound-journal-archive",
  "http_status": 200,

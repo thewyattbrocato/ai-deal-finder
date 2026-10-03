@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:06:19Z",
+  "ship": [
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe for 10% off your first order",
+   "Subscription",
+   "Subscribe for clean essentials and save 10% on your first order"
+  ],
+  "url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.publicgoods.com/products/silicone-travel-bottles-refill-kit",
  "http_status": 200,

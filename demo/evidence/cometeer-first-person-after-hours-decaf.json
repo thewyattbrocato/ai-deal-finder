@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:53:14Z",
+  "ship": [
+   "Our aluminum capsule and shipping materials are all curbside recyclable. Even the lids!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://cometeer.com/products/first-person-after-hours-decaf"
+ },
  "coupon_snippets": [],
  "final_url": "https://cometeer.com/products/first-person-after-hours-decaf",
  "http_status": 200,

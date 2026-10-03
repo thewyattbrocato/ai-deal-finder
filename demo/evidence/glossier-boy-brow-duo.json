@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:19:45Z",
+  "ship": [
+   "Free standard shipping on orders $40+"
+  ],
+  "size": [],
+  "sub": [
+   "You can unsubscribe anytime. For more details, review our Privacy Policy."
+  ],
+  "url": "https://www.glossier.com/products/boy-brow-duo"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/boy-brow-duo",
  "http_status": 200,

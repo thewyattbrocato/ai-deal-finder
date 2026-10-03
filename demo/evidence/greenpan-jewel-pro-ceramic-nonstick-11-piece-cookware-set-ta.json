@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:00:43Z",
+  "ship": [
+   "Free Shipping Over $150 | Free Gift With Purchase",
+   "SHIPPING, WARRANTY, RETURNS",
+   "FREE SHIPPING",
+   "**Shipping Information",
+   "Free Shipping",
+   "You are $150.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.greenpan.us/products/jewel-pro-ceramic-nonstick-11-piece-cookware-set-taupe",
  "http_status": 200,

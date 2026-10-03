@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:15:18Z",
+  "ship": [
+   "Free Shipping On All Carts Over $80",
+   "Shipping & Returns",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://vitruvi.com/products/sweet-dreams-bundle"
+ },
  "coupon_snippets": [],
  "final_url": "https://vitruvi.com/products/sweet-dreams-bundle",
  "http_status": 200,

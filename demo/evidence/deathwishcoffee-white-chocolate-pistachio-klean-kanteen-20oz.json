@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:19:26Z",
+  "ship": [
+   "Shipping + Delivery"
+  ],
+  "size": [
+   "Size: 10\" H x 3\" W."
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscription"
+  ],
+  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
  "http_status": 200,

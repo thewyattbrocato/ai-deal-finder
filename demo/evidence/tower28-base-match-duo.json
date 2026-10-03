@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:30:02Z",
+  "ship": [
+   "FREE U.S shipping on orders $30+",
+   "Free Shipping $30+ \u2022 Free Returns",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.tower28beauty.com/products/base-match-duo"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.tower28beauty.com/products/base-match-duo",
  "http_status": 200,

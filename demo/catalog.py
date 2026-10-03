@@ -216,6 +216,61 @@ def render_pass(ev_id, session="cat100"):
     return snips
 
 
+# Second browser pass (read-only, nothing added to a cart, no code tried):
+# keep the page's own lines that talk about shipping/delivery, subscribing,
+# and the size picker, verbatim. terms.py turns only explicit statements in
+# these lines into conditions; a page that is silent stays unknown.
+CONDITIONS_JS = (
+    "() => { const keep = (re, n) => { const o = [];"
+    " for (const l of document.body.innerText.split(/\\n+/)) {"
+    " const s = l.replace(/\\s+/g, ' ').trim();"
+    " if (s.length > 2 && s.length <= 220 && re.test(s) && !o.includes(s)) o.push(s);"
+    " if (o.length >= n) break; } return o; };"
+    " return JSON.stringify({ at: [location.href],"
+    " ship: keep(/shipping|delivery/i, 14),"
+    " sub: keep(/subscri|auto-?ship|repeat order|recurring/i, 10),"
+    " size: keep(/^(?:select |choose |pick )?(?:a |your )?size\\b|\\bsizes?:/i, 6)}); }")
+
+
+def conditions_pass(ev_id, session="cond1"):
+    """Re-read one stored product's page in a real browser and store the
+    shipping / subscribe / size lines it prints, with the date read."""
+    import subprocess
+    env = dict(os.environ, CHROME_DEVTOOLS_AXI_SESSION=session)
+    path = os.path.join(EVIDENCE_DIR, ev_id + ".json")
+    ev = json.load(open(path))
+    run = lambda *a: subprocess.run(["chrome-devtools-axi", *a], env=env,
+                                    capture_output=True, text=True, timeout=90)
+    run("open", ev["final_url"])
+    pages = run("pages").stdout
+    ids = re.findall(r"^\s+(\d+),(\S+),", pages, re.M)
+    cur = [i for i, u in ids if u.startswith("http")]
+    if cur:
+        run("selectpage", cur[-1])
+    run("wait", "3500")
+    out = run("eval", CONDITIONS_JS).stdout
+    m = re.search(r'result: "(.*)"\n', out)
+    got = None
+    if m:
+        try:
+            v = json.loads('"' + m.group(1) + '"')
+            while isinstance(v, str):
+                v = json.loads(v)
+            got = {k: [x for x in v.get(k, []) if isinstance(x, str)]
+                   for k in ("at", "ship", "sub", "size")}
+        except ValueError:
+            got = None
+    if got is None or not got.get("at", [""])[0].startswith(
+            "https://" + urllib.parse.urlparse(ev["final_url"]).netloc):
+        return None
+    got.pop("at")
+    ev["conditions"] = dict(
+        got, read_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        url=ev["final_url"])
+    json.dump(ev, open(path, "w"), indent=1, sort_keys=True)
+    return got
+
+
 def offers_of(ev):
     for p in ev.get("json_ld", []):
         o = p.get("offers")
@@ -317,6 +372,17 @@ if __name__ == "__main__":
             except Exception as e:
                 print(s["id"], "fetch-failed", str(e)[:80])
             time.sleep(1.0)
+    elif len(sys.argv) == 2 and sys.argv[1] == "conditions-pass":
+        for fn in sorted(os.listdir(EVIDENCE_DIR)):
+            if not fn.endswith(".json"):
+                continue
+            ev_id = fn[:-5]
+            ev = json.load(open(os.path.join(EVIDENCE_DIR, fn)))
+            if ev.get("conditions") or extract(ev)[0] != "ok":
+                continue
+            got = conditions_pass(ev_id)
+            print(ev_id, "unread" if got is None else
+                  {k: len(v) for k, v in got.items()}, flush=True)
     elif len(sys.argv) == 2 and sys.argv[1] == "render-pass":
         for fn in sorted(os.listdir(EVIDENCE_DIR)):
             ev_id = fn[:-5]

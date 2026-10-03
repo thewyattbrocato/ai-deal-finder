@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:27:20Z",
+  "ship": [
+   "FREE SHIPPING"
+  ],
+  "size": [
+   "Select A Size: 0.5 Quart"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://hexclad.com/products/hybrid-milk-pot-0-5-qt"
+ },
  "coupon_snippets": [],
  "final_url": "https://hexclad.com/products/hybrid-milk-pot-0-5-qt",
  "http_status": 200,

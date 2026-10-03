@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:52:13Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://brightland.co/products/the-fall-flavor-duo"
+ },
  "coupon_snippets": [],
  "final_url": "https://brightland.co/products/the-fall-flavor-duo",
  "http_status": 200,

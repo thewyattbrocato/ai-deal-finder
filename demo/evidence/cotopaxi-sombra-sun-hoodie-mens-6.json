@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:53:50Z",
+  "ship": [
+   "Promotions, shipping & taxes calculated at checkout.",
+   "Free Standard Shipping On Orders $99+",
+   "Shipping"
+  ],
+  "size": [
+   "Size | Small"
+  ],
+  "sub": [
+   "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+  ],
+  "url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/sombra-sun-hoodie-mens-6",
  "http_status": 200,

@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:19:17Z",
+  "ship": [
+   "Shipping + Delivery"
+  ],
+  "size": [
+   "Size: 10\" H x 3\" W."
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscription"
+  ],
+  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
  "http_status": 200,

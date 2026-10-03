@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:51:19Z",
+  "ship": [
+   "Free luxury shipping on US orders $100+",
+   "SHIPPING, RETURNS & GUARANTEES",
+   "LUXURY SHIPPING"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray",
  "http_status": 200,

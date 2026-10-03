@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:18:12Z",
+  "ship": [
+   "Free shipping and easy returns.",
+   "FREE shipping & easy returns"
+  ],
+  "size": [
+   "Size:"
+  ],
+  "sub": [],
+  "url": "https://bearaby.com/products/latex-pillow"
+ },
  "coupon_snippets": [],
  "final_url": "https://bearaby.com/products/latex-pillow",
  "http_status": 200,

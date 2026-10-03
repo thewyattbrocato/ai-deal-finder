@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:20:56Z",
+  "ship": [
+   "Skip or cancel delivery anytime"
+  ],
+  "size": [],
+  "sub": [
+   "\u231b Limited! FREE Bowl Set for New Subscribers! \ud83e\udd63\u2728",
+   "SUBSCRIBE & SAVE 24%",
+   "Free bowl set with your first subscription order",
+   "SUBSCRIBE"
+  ],
+  "url": "https://magicspoon.com/products/variety-1-case-6-boxes-1"
+ },
  "coupon_snippets": [],
  "final_url": "https://magicspoon.com/products/variety-1-case-6-boxes-1",
  "http_status": 200,

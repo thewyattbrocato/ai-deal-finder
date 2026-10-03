@@ -1,4 +1,23 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:03:25Z",
+  "ship": [
+   "Free Shipping on Orders $125+",
+   "Free Shipping over $125 and Easy Returns",
+   "Shipping Info"
+  ],
+  "size": [
+   "Size /",
+   "Size Guide",
+   "Select Size",
+   "Select Your Size:"
+  ],
+  "sub": [
+   "Catalog Unsubscribe",
+   "Subscribe"
+  ],
+  "url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.outerknown.com/products/the-womens-woolaroo-vest-heather-natural",
  "http_status": 200,

@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:25:43Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [
+   "Size"
+  ],
+  "sub": [
+   "By entering your email and clicking below, you agree to our Terms of Use and acknowledge our Privacy Policy. Unsubscribe at any time."
+  ],
+  "url": "https://baronfig.com/products/confidant-leather-notebook-case"
+ },
  "coupon_snippets": [],
  "final_url": "https://baronfig.com/products/confidant-leather-notebook-case",
  "http_status": 200,

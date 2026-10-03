@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:15:26Z",
+  "ship": [
+   "Free Shipping On All Carts Over $80",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://vitruvi.com/products/the-mystery-box"
+ },
  "coupon_snippets": [],
  "final_url": "https://vitruvi.com/products/the-mystery-box",
  "http_status": 200,

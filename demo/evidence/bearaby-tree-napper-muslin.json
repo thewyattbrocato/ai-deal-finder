@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:18:20Z",
+  "ship": [
+   "Free shipping and easy returns.",
+   "FREE shipping & easy returns"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://bearaby.com/products/tree-napper-muslin"
+ },
  "coupon_snippets": [],
  "final_url": "https://bearaby.com/products/tree-napper-muslin",
  "http_status": 200,

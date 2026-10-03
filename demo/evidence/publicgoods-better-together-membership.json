@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:05:56Z",
+  "ship": [
+   "Free shipping (no minimum for members who enroll today)",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [
+   "Shop & Subscribe",
+   "Subscribe for 10% off your first order",
+   "Subscription",
+   "Subscribe for clean essentials and save 10% on your first order"
+  ],
+  "url": "https://www.publicgoods.com/products/better-together-membership"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.publicgoods.com/products/better-together-membership",
  "http_status": 200,
