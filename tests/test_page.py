@@ -7,6 +7,7 @@ The coffee note and card attributes are the generated page contract.
 Search, guide, and exact-product behavior are executed in the page script.
 """
 
+import html as html_lib
 import json
 import os
 import re
@@ -177,6 +178,12 @@ function contained(node, anc) {
   return false;
 }
 
+// The page reads "today" once to say how old each stored check is; pin it.
+const NOW = Date.UTC(2026, 9, 5, 15, 0, 0);
+class FixedDate extends Date {
+  constructor(...a) { if (a.length) super(...a); else super(NOW); }
+}
+
 function boot() {
   ACTIVE = null;
   const root = parse(html);
@@ -190,6 +197,7 @@ function boot() {
     console: console,
     Array: Array,
     parseInt: parseInt,
+    Date: FixedDate,
   });
   for (const code of scripts) vm.runInContext(code, context);
   return document;
@@ -251,6 +259,8 @@ function snap(document) {
     emptyText: collect(document.getElementById("no-match-text")).trim(),
     emptyActions: document.getElementById("no-match-actions").children.map(b => collect(b).trim()),
     savings: shown.map(c => collect(first(c, "[data-savings]")).trim()),
+    ages: shown.map(c => collect(first(c, "[data-age]")).trim()),
+    leads: shown.map(c => collect(first(c, "[data-saving-lead]")).trim()),
     shelfLines: shown.map(c => collect(first(c, "[data-shelf-line]")).trim()),
   };
 }
@@ -916,9 +926,10 @@ class QuietPageTest(unittest.TestCase):
             text = re.sub(r"<[^>]+>", " ", box)
             text = re.sub(r"\s+", " ", text)
             label = re.search(r'data-price-label="([^"]*)"', c).group(1)
-            self.assertIn("Shelf price: " + label + " as printed on the page", text)
-            self.assertIn("Not known:", text)
-            self.assertIn("tax", text.split("Not known:")[1])
+            self.assertTrue(re.sub(r"\s+([.])", r"\1", text).strip().startswith(
+                label + " as printed on the page. "), text)
+            self.assertIn("Confirm at checkout:", text)
+            self.assertIn("tax", text.split("Confirm at checkout:")[1])
             if 'data-coupon="yes"' in c:
                 with_coupon += 1
                 code = re.search(r'data-coupon-code="([^"]*)"', c).group(1)
@@ -927,9 +938,9 @@ class QuietPageTest(unittest.TestCase):
                 self.assertIn("Conditions: only as that wording states them", text)
                 self.assertIn("Not applied:", text)
                 self.assertIn("does not include it", text)
-                self.assertIn("whether the code works at checkout", text.split("Not known:")[1])
+                self.assertIn("whether the code works", text.split("Confirm at checkout:")[1])
             else:
-                self.assertIn("No coupon on this page:", text)
+                self.assertIn("No coupon printed on the page .", text)
                 self.assertNotIn("Not applied", text)
                 self.assertNotIn("whether the code works", text)
         self.assertEqual(with_coupon, 9)
@@ -989,7 +1000,7 @@ class QuietPageTest(unittest.TestCase):
         for word in ("countdown", "setinterval", "settimeout", "hurry", "limited time"):
             self.assertNotIn(word, guide)
         script = low[low.rindex("<script>"):]
-        for word in ("setinterval", "settimeout", "date.now", "new date"):
+        for word in ("setinterval", "settimeout", "date.now"):
             self.assertNotIn(word, script)
 
     def test_guide_is_labelled_and_keyboard_reachable(self):
@@ -1003,6 +1014,73 @@ class QuietPageTest(unittest.TestCase):
             self.assertTrue(c["label"] or c["options"])
         self.assertIn('name="viewport"', page)
         self.assertIn("minmax(15rem, 1fr)", page)  # one column at phone width
+
+    # ---- freshness and what to confirm ----------------------------------------
+
+    def test_each_card_says_how_old_its_stored_check_is_in_plain_days(self):
+        # the page script runs with "today" pinned to 2026-10-05
+        for c in self.cards():
+            iso = re.search(r'data-observed="([^"]*)"', c).group(1)
+            self.assertIn("Checked " + iso[:10] + "</p>", c)  # no-script fallback: date only
+        seen = set()
+        for key, snap in self.driven.items():
+            self.assertEqual(len(snap["ages"]), len(snap["visible"]), key)
+            for age in snap["ages"]:
+                seen.add(age)
+                self.assertRegex(age, r"^Checked (today|\d+ days?) ?(ago)?,? ?\d{4}-\d\d-\d\d$", age)
+                low = age.lower()
+                for word in ("fresh", "stale", "old", "expired", "recent", "outdated", "valid"):
+                    self.assertNotIn(word, low, age)
+        self.assertIn("Checked 3 days ago, 2026-10-02", seen)
+        self.assertIn("Checked 2 days ago, 2026-10-03", seen)
+
+    def test_age_comes_only_from_the_stored_time(self):
+        for c in self.cards():
+            iso = re.search(r'data-observed="([^"]*)"', c).group(1)
+            self.assertEqual(iso, re.search(r"Checked: [^<]*\u00b7 (\d{4}[^<]*)</p>", c).group(1))
+        script = self.page[self.page.rindex("<script>"):]
+        self.assertEqual(script.count("new Date()"), 1)  # read once, for the age line only
+
+    def test_confirm_at_checkout_lists_only_what_the_stored_evidence_leaves_unknown(self):
+        saw_ship_known = saw_ship_unknown = 0
+        for c in self.cards():
+            box = re.search(r'data-savings>(.*?)</ul></div>', c, re.S).group(1)
+            text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", box))
+            line = re.search(r"Confirm at checkout: (.*?)\.(?: |$)", text).group(1)
+            self.assertEqual(text.count("Confirm at checkout:"), 1)
+            terms = json.loads(html_lib.unescape(re.search(r'data-terms="([^"]*)"', c).group(1)))
+            self.assertIn("tax", line)
+            if terms["sh"]:
+                saw_ship_known += 1
+                self.assertNotIn("shipping", line)
+            else:
+                saw_ship_unknown += 1
+                self.assertIn("shipping cost (the page did not state it)", line)
+            if 'data-coupon="yes"' in c:
+                self.assertIn("whether the code works and what it would take off", line)
+            else:
+                self.assertNotIn("code", line)
+        self.assertGreater(saw_ship_known, 0)
+        self.assertGreater(saw_ship_unknown, 0)
+
+    def test_savings_box_opens_with_shelf_price_and_plain_saving_status(self):
+        for c in self.cards():
+            label = re.search(r'data-price-label="([^"]*)"', c).group(1)
+            lead = re.search(r"data-saving-lead>(.*?)</p>", c, re.S).group(1)
+            lead = re.sub(r"<[^>]+>", "", lead)
+            status = "Coupon printed, not applied" if 'data-coupon="yes"' in c \
+                else "No coupon printed on the page"
+            self.assertEqual(lead, label + " as printed on the page. " + status + ".")
+            self.assertLess(c.index("data-saving-lead"), c.index("Confirm at checkout:"))
+        for key, snap in self.driven.items():
+            for lead, shelf, card in zip(snap["leads"], snap["shelfLines"], snap["visible"]):
+                status = "Coupon printed, not applied" if card["coupon"] == "yes" \
+                    else "No coupon printed on the page"
+                self.assertEqual(lead, shelf + ". " + status + ".", key)
+
+    def test_vague_recheck_wording_is_gone(self):
+        self.assertNotIn("recheck at checkout", self.page)
+        self.assertNotIn("Not known:", self.page)
 
 
 if __name__ == "__main__":
