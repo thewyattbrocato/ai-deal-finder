@@ -14,6 +14,7 @@
   "url": "https://nisolo.com/products/nisolo-gift-card-100"
  },
  "coupon_snippets": [],
+ "excluded_reason": "gift card at face value, not a product with a shelf price to compare",
  "final_url": "https://nisolo.com/products/nisolo-gift-card-100",
  "http_status": 200,
  "id": "nisolo-nisolo-gift-card-100",
