@@ -151,6 +151,10 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
   .card-main{gap:12px}
   .card img,.nophoto{width:72px;height:72px}
   #q{font-size:1.05rem}
+  /* the size list spans the bar's width instead of hanging off the button, so it never leaves the viewport */
+  .chiprow{position:relative}
+  .pop{position:static}
+  .popbody{left:0;right:0;width:auto;top:auto;margin-top:6px}
 }
 @media (prefers-reduced-motion:no-preference){
   .card{animation:fade .12s ease-out}

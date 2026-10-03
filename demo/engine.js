@@ -26,8 +26,17 @@ function fold(s) {
     .replace(/[™®©]/g, "").replace(/[’‘`]/g, "'");
 }
 function words(s) { return fold(s).match(/[a-z0-9]+/g) || []; }
+// A typed price: "$25", "$25.00", "25 dollars", "25 bucks", "25 usd". It names an exact amount, never a range.
+var PRICE_RE = /\$\s?(\d{1,5}(?:\.\d{1,2})?)(?![\d.]*\d)|\b(\d{1,5}(?:\.\d{1,2})?)\s*(?:dollars?|bucks?|usd)\b/gi;
+function pricesIn(q) {
+  var out = [], m;
+  PRICE_RE.lastIndex = 0;
+  while ((m = PRICE_RE.exec(String(q)))) out.push(Math.round(parseFloat(m[1] || m[2]) * 100));
+  return out;
+}
 // What a shopper types for a tee: "t-shirt", "t shirt", "tshirts" are the catalog's "tee".
-function typed(q) { return String(q).replace(/\bt[\s-]?shirts?\b/gi, "tee"); }
+// A typed price is not a word to look for: it is read apart by pricesIn().
+function typed(q) { return String(q).replace(PRICE_RE, " ").replace(/\bt[\s-]?shirts?\b/gi, "tee"); }
 function stem(w) {
   if (w.length > 4 && /ies$/.test(w)) return w.slice(0, -3) + "y";
   if (w.length > 4 && /(?:ch|sh|x|ss|z)es$/.test(w)) return w.slice(0, -2);
@@ -169,11 +178,17 @@ function create(P) {
     for (var w in res.set) if (D[idx].n[w]) return true;
     return false;
   }
-  // Every typed word must hit. No words typed: every product, unscored.
+  // Every typed word must hit, and every typed price must be the product's stored shelf price.
+  // Nothing typed: every product, unscored.
   function match(q) {
-    var rs = resolveAll(q), out = [];
+    var rs = resolveAll(q), prices = pricesIn(q), out = [];
     P.forEach(function (p, idx) {
       var s = 0, ok = true, nameAll = true;
+      for (var pi = 0; pi < prices.length; pi++) {
+        if (p.pc !== prices[pi]) { ok = false; break; }
+        s += 10;
+      }
+      if (!ok) return;
       for (var i = 0; i < rs.length; i++) {
         var h = rs[i].mode === "none" ? 0 : hitWeight(idx, rs[i]);
         if (!h) { ok = false; break; }
@@ -249,7 +264,7 @@ function create(P) {
   function count(st, mod, m) { return list(withMod(st, mod), m).rows.length; }
 
   function hasIntent(st) {
-    return !!(tokens(st.q).length || st.kind || st.store || st.browse || st.size || st.ship || st.sub || st.coupon);
+    return !!(tokens(st.q).length || pricesIn(st.q).length || st.kind || st.store || st.browse || st.size || st.ship || st.sub || st.coupon);
   }
 
   // Chips for the current results. Each count is count(): the list with that chip on.
@@ -411,7 +426,7 @@ function create(P) {
     resolve: resolveAll, wordList: wordList, match: match, judge: judge, list: list, count: count,
     chips: chips, silentOn: silentOn, notes: notes, nearest: nearest, suggest: suggest, marks: marks,
     shown: shown, hasIntent: hasIntent, blank: blank, encode: encode, decode: decode,
-    tokens: tokenize,
+    tokens: tokenize, prices: pricesIn,
   };
 }
 

@@ -11,7 +11,10 @@ import html as html_lib
 import json
 import os
 import re
+import shutil
 import subprocess
+import tempfile
+import time
 import unittest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -939,3 +942,145 @@ class FocusWalkTest(unittest.TestCase):
 
     def test_refine_summary_keeps_a_gap_before_the_number_of_choices_on(self):
         self.assertRegex(read("demo", "page.css"), r"\.refine>summary\{[^}]*gap:")
+
+
+CHROME = next((p for p in ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                           shutil.which("google-chrome") or "", shutil.which("chromium") or "")
+               if p and os.path.exists(p)), None)
+
+
+class PageFixesR2Test(unittest.TestCase):
+    """Audit defects: one neutral price line on every card, a phone Size list
+    that fits, an empty box whenever nothing fits, coffee-only coffee lines,
+    a favicon, and exact-price search."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.path = os.path.join(ROOT, "demo", "index.html")
+        cls.page = read("demo", "index.html")
+        cls.d = drive(cls.path)
+        cls.cards = page_cards(cls.page)
+
+    # 1. no endorsement badge, the same neutral wording on every card
+    def test_every_card_carries_the_same_neutral_price_wording_and_no_badge(self):
+        self.assertEqual(len(self.cards), 281)
+        for c in self.cards:
+            self.assertIn("Price read from the store page", c)
+            self.assertIn("Not compared with other stores.", c)
+        for word in ("Good to buy", "Worth a wait", "Check first", "Skipped", "✓"):
+            self.assertNotIn(word, self.page)
+
+    # 2. phone Size list
+    def test_phone_size_list_fills_the_bar_width_not_a_fixed_offset_box(self):
+        css = read("demo", "page.css")
+        phone = css[css.index("@media (max-width:640px)"):]
+        self.assertRegex(phone, r"\.pop\{position:static\}")
+        self.assertRegex(phone, r"\.popbody\{[^}]*left:0;right:0;width:auto")
+
+    @unittest.skipUnless(CHROME, "no Chrome to lay the page out")
+    def test_size_list_open_at_390_px_does_not_scroll_the_page_sideways(self):
+        wrapper = (
+            "<!doctype html><body style='margin:0'><iframe id=f width=390 height=800 "
+            "style='border:0' src='file://%s#q=hoodie'></iframe><pre id=out></pre><script>"
+            "f.onload=function(){setTimeout(function(){var d=f.contentDocument;"
+            "d.querySelector('#refine>summary').click();"
+            "d.querySelector('[data-chip=size]').click();"
+            "var r=d.querySelector('.popbody').getBoundingClientRect();"
+            "out.textContent=JSON.stringify({iw:f.contentWindow.innerWidth,"
+            "sw:d.documentElement.scrollWidth,l:r.left,r:r.right});},300)}</script>" % self.path)
+        with tempfile.TemporaryDirectory() as tmp:
+            w = os.path.join(tmp, "w.html")
+            with open(w, "w", encoding="utf-8") as f:
+                f.write(wrapper)
+            dump = os.path.join(tmp, "dom.html")
+            with open(dump, "w", encoding="utf-8") as sink:
+                proc = subprocess.Popen(
+                    [CHROME, "--headless=new", "--disable-gpu", "--allow-file-access-from-files",
+                     "--user-data-dir=" + os.path.join(tmp, "profile"), "--virtual-time-budget=3000",
+                     "--dump-dom", "file://" + w], stdout=sink, stderr=subprocess.DEVNULL)
+            try:   # Chrome can linger after printing the page: wait for the dump, not the exit
+                for _ in range(120):
+                    with open(dump, encoding="utf-8") as f:
+                        out = f.read()
+                    if "</html>" in out or proc.poll() is not None:
+                        break
+                    time.sleep(0.5)
+            finally:
+                proc.kill()
+                proc.wait()
+            with open(dump, encoding="utf-8") as f:
+                out = f.read()
+        m = re.search(r'<pre id="out">(\{.*?\})</pre>', out)
+        self.assertIsNotNone(m, out[-500:])
+        got = json.loads(html_lib.unescape(m.group(1)))
+        self.assertEqual(got["iw"], 390)
+        self.assertEqual(got["sw"], 390, got)
+        self.assertGreaterEqual(got["l"], 0, got)
+        self.assertLessEqual(got["r"], 390, got)
+
+    # 3. a choice that fits nothing still gets the empty box with its Drop buttons
+    def test_deep_link_to_a_choice_that_fits_nothing_shows_the_box_and_drop_buttons(self):
+        d = self.d["deepNoFit"]
+        self.assertEqual(d["main"], [])
+        self.assertIn("“hoodie” matches 3 checked products, but none also fit your choices", d["empty"]["text"])
+        self.assertIn("Drop Size: ZZ 3 would show", d["empty"]["buttons"])
+        self.assertNotIn("No checked product matches", d["count"])
+        self.assertIn("No checked product fits these choices", d["count"])
+        # the pages that don't say stay listed, apart and labelled, below the box
+        self.assertEqual(len(d["unkCards"]), 2)
+        self.assertIn("Not matches", d["unk"])
+        self.assertIn("listed below", d["unk"])
+        self.assertNotIn("Hide them", d["unk"])
+
+    def test_dropping_the_choice_lists_the_matches(self):
+        d = self.d["deepNoFitDrop"]
+        self.assertEqual(len(d["main"]), 3)
+        self.assertIsNone(d["empty"])
+
+    def test_a_query_that_fits_nothing_with_nothing_unknown_still_has_its_box(self):
+        d = self.d["deepNoFitUnk"]
+        self.assertIsNotNone(d["empty"])
+        self.assertTrue([b for b in d["empty"]["buttons"] if b.startswith("Drop Kind: Tea")])
+
+    # 4. console noise
+    def test_page_has_an_inline_favicon_so_no_404(self):
+        self.assertRegex(self.page, r'<link rel="icon" href="data:image/svg\+xml,')
+
+    def test_no_card_text_shows_a_literal_amp_entity(self):
+        # the Read ... from URL: escaped once in the markup, so a reader sees "&"
+        self.assertIn("Phone=Pixel+8&amp;Case+Style=SlimLink+Case", self.page)
+        self.assertNotIn("&amp;amp;", self.page)
+        s = drive(self.path, hash="#q=slimlink")
+        self.assertNotIn("&amp;", s["load"]["pageText"])
+        self.assertIn("Phone=Pixel+8&Case+Style=SlimLink+Case", s["load"]["pageText"] + " ".join(
+            c for c in re.findall(r"Read [^<]*", html_lib.unescape(self.page))))
+
+    # 5. the specialty band is a coffee line
+    def test_specialty_band_shows_only_on_coffee_cards(self):
+        with_band = [c for c in self.cards if "Specialty band" in c]
+        self.assertEqual(len(with_band), 6)
+        for c in with_band:
+            self.assertIn('data-kind="Coffee"', c)
+            self.assertIn('data-coffee-note="yes"', c)
+        self.assertNotIn("not checked for other products yet", self.page)
+
+    # 6. exact price
+    def test_a_typed_price_finds_products_priced_exactly_that(self):
+        for q in ("$25", "$25.00", "25 dollars"):
+            d = self.d["price"][q]
+            self.assertTrue(d["main"], q)
+            self.assertEqual(d["count"].split(" ")[0], "7", q)
+            for c in d["main"]:
+                self.assertIn(c["priceLabel"], ("$25", "$25.00"), c)
+        self.assertNotIn("PowerBug", " ".join(names(self.d["price"]["$25"]["main"])))
+
+    def test_a_price_with_nothing_at_that_price_says_what_search_matches(self):
+        for q in ("under $20", "$0.07"):
+            e = self.d["price"][q]["empty"]
+            self.assertIn("Search matches words and an exact shelf price", e["text"])
+            self.assertIn("sort by price", e["text"])
+            self.assertTrue([b for b in e["buttons"] if b.startswith("Browse all 281, lowest price first")])
+        self.assertEqual(self.d["priceSort"]["hash"], "#sort=lo&all=1")
+        self.assertEqual(self.d["priceSort"]["count"], "281 checked products")
+        # an ordinary word query gets no price note
+        self.assertNotIn("exact shelf price", self.d["typed"]["zzyzx"]["empty"]["text"])

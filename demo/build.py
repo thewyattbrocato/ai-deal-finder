@@ -389,14 +389,6 @@ def run_ccc():
     return ccc, cost, decision
 
 
-DECISION_BADGE = {
-    "buy": ("badge-success", "Good to buy"),
-    "wait": ("badge-info", "Worth a wait"),
-    "verify": ("badge-warning", "Check first"),
-    "abstain": ("badge-error", "Skipped"),
-}
-
-
 PAGE_READ_LABEL = "Price read from the store page"
 
 
@@ -535,7 +527,6 @@ def product_card(item, decision, coupon_html, index=0):
     """One product: a compact card (name, store, shelf price, check age, printed
     coupon status, unknowns, one tap to the store) with the full detail behind
     a native disclosure on the same card."""
-    badge, label = DECISION_BADGE[decision.verdict.value]
     parts = []
     parts.append('<section class="card item" data-i="' + str(index)
                  + '" data-keywords="' + esc(" ".join(item["keywords"]))
@@ -568,10 +559,10 @@ def product_card(item, decision, coupon_html, index=0):
                      + " (as marked on the page)</p>")
     parts.append('<p class="size-line" data-size-line style="display:none"></p>')
     parts.append("</div></div>")
-    if item.get("page_read"):
-        # One page read, nothing compared: say what was established, no verdict.
-        parts.append('<p class="readline"><span class="fs" data-page-read>'
-                     + PAGE_READ_LABEL + '</span> · <span>Not compared with other stores.</span></p>')
+    # One page read, nothing compared: say what was established, no verdict.
+    # Every card says the same thing; the engine's verdict is not printed.
+    parts.append('<p class="readline"><span class="fs" data-page-read>'
+                 + PAGE_READ_LABEL + '</span> · <span>Not compared with other stores.</span></p>')
     parts.append('<p class="line sm" data-age data-observed="' + esc(item["observed_at"])
                  + '">Checked ' + esc(item["observed_at"][:10]) + "</p>")
     if item["coupon"]:
@@ -583,16 +574,12 @@ def product_card(item, decision, coupon_html, index=0):
     parts.append('<details class="more"><summary>Full details: savings, coupon '
                  "window, what to confirm, terms</summary>"
                  '<div class="more-body">')
-    if not item.get("page_read"):
-        parts.append(
-            '<div class="status"><span class="big">✓ ' + esc(label) + "</span>"
-            '<span class="sm">Price as read from the page.</span></div>')
     if item["quality"] and not item.get("band"):
         parts.append('<p class="line"><span class="fs">'
                      + esc(item["quality"]["label"])
                      + '</span> <span>— '
                      + esc(item["quality"]["basis"]) + "</span></p>")
-    if item.get("band"):
+    if item.get("band") and item.get("coffee_note"):  # a coffee-quality line: only on coffee cards
         parts.append('<p class="line"><span class="fs">Specialty band: </span>'
                      + esc(item["band"]) + "</p>")
     parts.append(coupon_html)
@@ -682,7 +669,7 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
               price_label, was_label, decision, coupon, page_url, page_host,
               region, observed_at, fine_print, keywords, quality=None,
               form=None, band=None, base_name=None, terms=None,
-              page_read=False):
+              page_read=True):
     return {
         "key": key, "name": name, "detail": detail, "seller": seller,
         "kind": kind, "image": image,
@@ -874,6 +861,7 @@ PAGE_SHELL = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Find a deal — what the store page actually shows</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f4a'/%3E%3Cpath d='M9 17l5 5 9-12' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
 {css}</style>
 </head>
