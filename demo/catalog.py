@@ -360,7 +360,8 @@ def extract(ev):
         "brand": htmllib.unescape(brand) if isinstance(brand, str) else None,
         "price": price, "page_url": ev["final_url"], "page_host": host,
         "observed_at": ev["observed_at"], "coupon": coupon,
-        "image": ev.get("image_file"),
+        "image": ev.get("image_file"), "title": ev.get("title") or "",
+        "desc": str(p.get("description") or ""),
     }
 
 

@@ -26,6 +26,8 @@ function fold(s) {
     .replace(/[™®©]/g, "").replace(/[’‘`]/g, "'");
 }
 function words(s) { return fold(s).match(/[a-z0-9]+/g) || []; }
+// What a shopper types for a tee: "t-shirt", "t shirt", "tshirts" are the catalog's "tee".
+function typed(q) { return String(q).replace(/\bt[\s-]?shirts?\b/gi, "tee"); }
 function stem(w) {
   if (w.length > 4 && /ies$/.test(w)) return w.slice(0, -3) + "y";
   if (w.length > 4 && /(?:ch|sh|x|ss|z)es$/.test(w)) return w.slice(0, -2);
@@ -52,7 +54,7 @@ function dl(a, b, max) {
 function maxEdits(n) { return n < 5 ? 0 : (n < 9 ? 1 : 2); }
 // A single letter is not yet a word to search for: it waits for a second one.
 function tokens(q) {
-  return words(q).filter(function (w) { return w.length > 1; });
+  return words(typed(q)).filter(function (w) { return w.length > 1; });
 }
 
 var FIELDS = [["n", 10], ["k", 8], ["m", 6], ["w", 4]];
@@ -83,6 +85,8 @@ function create(P) {
       Object.keys(f[fl[0]]).forEach(function (w) {
         vocab[w] = true;
         (byStem[stem(w)] = byStem[stem(w)] || {})[w] = true;
+        // "hoodies" is the plural of "hoodie", not of a word "hoody"
+        if (/ie$/.test(w)) (byStem[stem(w + "s")] = byStem[stem(w + "s")] || {})[w] = true;
       });
     });
     kinds[p.k] = (kinds[p.k] || 0) + 1;
