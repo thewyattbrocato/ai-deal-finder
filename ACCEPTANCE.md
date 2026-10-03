@@ -78,7 +78,8 @@ The frozen task set must contain exact-item, variant, substitute (qualifying and
 adversarial), marketplace, coupon (applied / retailer-stated / unverified /
 rejected), tax-unknown, shipping-unknown, eligibility-unknown, stock, blocked-page,
 conflicting-evidence, consent-absent, history-wait, and no-browse cases. The
-current draft corpus is `FIXTURES.json` (21 cases, IDs `EX-001` … `HIST-002`).
+current draft corpus is `FIXTURES.json` (53 cases). It still includes the
+original IDs `EX-001` … `HIST-002`.
 
 ## 6. Map to the six deliverables
 
