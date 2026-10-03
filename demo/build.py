@@ -497,12 +497,19 @@ def facts_strip(item):
     if not ship:
         shipping = unknown
     elif ship["k"] == "free":
-        shipping = "free shipping"
+        # the short line repeats the page's own word (shipping or delivery)
+        shipping = ("free delivery" if re.search(r"(?i)free delivery", ship["t"])
+                    else "free shipping")
     elif ship["k"] == "threshold":
         shipping = esc("free over " + _short_money(ship["over"]) + (
             " (members only)" if ship.get("members") else ""))
     else:
         shipping = esc("shipping " + _short_money(ship["rate"]))
+    pre = t.get("pre")
+    if pre:
+        # a stated pre-order is never read as shipping now
+        shipping = esc("pre-order, " + pre["when"]) + (
+            "" if not ship else "; " + shipping)
     sub = "offered" if t.get("sub") else unknown
     return ('<p class="facts" data-facts>' + "".join(
         "<span><b>" + k + ":</b> " + v + "</span>"
@@ -639,6 +646,11 @@ def terms_block(item):
         size_txt = unknown
     ship = t.get("ship")
     ship_txt = ship["t"] if ship else unknown
+    pre = t.get("pre")
+    if pre:
+        ship_txt = ("Pre-order \u2014 the page says " + pre["t"]
+                    + ", so it is not shipping now"
+                    + ("" if not ship else "; also: " + ship["t"]))
     sub = t.get("sub")
     if sub:
         priced = [s for s in sizes if s.get("s") is not None]
@@ -724,14 +736,31 @@ def tax_ship_line(t):
     return TAX_UNKNOWN if (t or {}).get("ship") else TAX_SHIP_UNKNOWN
 
 
+# A SKU-like label: letters, digits and hyphens only, with a digit (MS030, F24-Semiannual).
+SKU_LIKE = re.compile(r"(?=.*\d)[A-Za-z0-9-]+")
+
+
+def merchants():
+    """host -> store label (demo/merchants.json). The label names the store the
+    product page belongs to; JSON-LD brand and SKU codes are never the store."""
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "merchants.json"), encoding="utf-8") as f:
+        return json.load(f)
+
+
+def merchant_label(obs):
+    """The store label for one stored observation; unmapped hosts show the host."""
+    return merchants().get(obs["page_host"]) or obs["page_host"]
+
+
 def run_catalog_observation(obs):
     """One stored observation -> engine decision (same fail-closed path)."""
     from deal_finder.decision import decide
     cand = Candidate(
         id=obs["id"], variant=obs["name"], quantity_terms="1 item",
         condition="new", bundle="single",
-        seller=obs["brand"] or obs["page_host"],
-        fulfilled_by=obs["brand"] or obs["page_host"], region="US",
+        seller=merchant_label(obs),
+        fulfilled_by=merchant_label(obs), region="US",
         in_stock=True, evidence_state=EvidenceState.OBSERVED_NOW,
         source=obs["page_url"], observed_at=obs["observed_at"],
         price_determining_states=[EvidenceState.OBSERVED_NOW],
@@ -740,7 +769,7 @@ def run_catalog_observation(obs):
     coupons = []
     if obs["coupon"]:
         coupons.append(Coupon(code=obs["coupon"]["code"],
-                              merchant=obs["brand"] or obs["page_host"],
+                              merchant=merchant_label(obs),
                               status="retailer-stated"))
     return decide(DecisionInput(
         candidates=[cand], ranked=[RankedCandidate(obs["id"], cost)],
@@ -748,8 +777,10 @@ def run_catalog_observation(obs):
 
 
 def catalog_item(obs):
-    seller = obs["brand"] or obs["page_host"]
-    words = set(re.findall(r"[a-z0-9]+", (obs["name"] + " " + seller).lower()))
+    seller = merchant_label(obs)
+    # the page's own brand stays searchable (never a SKU-like code)
+    brand = obs["brand"] if obs["brand"] and not SKU_LIKE.fullmatch(obs["brand"]) else ""
+    words = set(re.findall(r"[a-z0-9]+", (obs["name"] + " " + seller + " " + brand).lower()))
     words.update(KIND_WORDS.get(obs["kind"], [obs["kind"].lower()]))
     words.add(obs["kind"].lower())
     words.update(terms.SEARCH_WORDS.get(obs["id"], []))
