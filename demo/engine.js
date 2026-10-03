@@ -97,6 +97,26 @@ function create(P) {
   var storeWords = {};
   Object.keys(stores).forEach(function (m) { storeWords[m] = words(m); });
 
+  /* ---- two-word versus one-word spellings of a real catalog word ----
+   * "sweat pants" is the catalog's "sweatpants" when that word exists, and "sweatpants"
+   * is "sweat pants" when the catalog has no such word but has both parts. Only real
+   * catalog words are ever joined or split; nothing else changes. */
+  function known(w) { return !!byStem[stem(w)]; }
+  function tokenize(q) {
+    var ts = tokens(q), out = [], i, j;
+    for (i = 0; i < ts.length; i++) {
+      if (i + 1 < ts.length && known(ts[i] + ts[i + 1])) { out.push(ts[i] + ts[i + 1]); i++; continue; }
+      var w = ts[i], last = i === ts.length - 1, done = false;
+      if (w.length >= 6 && !known(w) && !(last && vocabList.some(function (v) { return v.indexOf(w) === 0; }))) {
+        for (j = 3; j <= w.length - 3; j++) {
+          if (known(w.slice(0, j)) && known(w.slice(j))) { out.push(w.slice(0, j), w.slice(j)); done = true; break; }
+        }
+      }
+      if (!done) out.push(w);
+    }
+    return out;
+  }
+
   /* ---- one typed word -> the catalog words it means ---- */
   var resCache = {};
   function resolve(t, last) {
@@ -125,7 +145,7 @@ function create(P) {
     return (resCache[key] = { t: t, mode: mode, set: set });
   }
   function resolveAll(q) {
-    var ts = tokens(q);
+    var ts = tokenize(q);
     return ts.map(function (t, i) { return resolve(t, i === ts.length - 1); });
   }
   function wordList(res) { return Object.keys(res.set).sort(); }
@@ -283,7 +303,7 @@ function create(P) {
 
   /* ---- nothing listed: the closest real products, and which word each matched ---- */
   function nearest(q) {
-    var ts = tokens(q), rs = resolveAll(q), out = [];
+    var ts = tokenize(q), rs = resolveAll(q), out = [];
     if (ts.length === 1 && rs[0].mode === "none" && ts[0].length >= 5) {
       var head = ts[0].slice(0, 4), set = Object.create(null), any = false;
       vocabList.forEach(function (w) { if (w.indexOf(head) === 0) { set[w] = true; any = true; } });
@@ -314,7 +334,7 @@ function create(P) {
 
   /* ---- suggestions while typing ---- */
   function suggest(st) {
-    var ts = tokens(st.q), items = [];
+    var ts = tokenize(st.q), items = [];
     if (!ts.length) return items;
     var rs = resolveAll(st.q), lastRes = rs[rs.length - 1];
     kindNames.filter(function (k) {
@@ -391,7 +411,7 @@ function create(P) {
     resolve: resolveAll, wordList: wordList, match: match, judge: judge, list: list, count: count,
     chips: chips, silentOn: silentOn, notes: notes, nearest: nearest, suggest: suggest, marks: marks,
     shown: shown, hasIntent: hasIntent, blank: blank, encode: encode, decode: decode,
-    tokens: tokens,
+    tokens: tokenize,
   };
 }
 

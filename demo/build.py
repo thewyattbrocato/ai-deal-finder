@@ -882,7 +882,7 @@ PAGE_SHELL = """<!DOCTYPE html>
 <div id="active"></div>
 <details id="refine" class="refine"><summary>Refine results<span id="refine-count"></span></summary><div id="bar"></div></details>
 <div class="statusline">
-<h2 id="count" aria-live="polite" role="status"></h2>
+<h2 id="count" aria-live="polite" role="status" tabindex="-1"></h2>
 <div class="sortbox" id="sortbox"><label for="sort">Sort</label>
 <select id="sort"><option value="rel">Best word match</option><option value="lo">Price, low to high</option><option value="hi">Price, high to low</option></select>
 </div>

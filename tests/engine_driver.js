@@ -17,7 +17,7 @@ out.kinds = E.kinds;
 out.rows = q => names(E.list(st({ q: q })).rows);
 const Q = ["bean", "beans", "beanie", "beani", "cof", "coffee", "cofee", "espresso", "expresso", "sneaker", "sneakers", "shoe",
   "old nav", "bambino", "zzyzx", "co", "c", "", "  ", "the", "dog", "dogs", "lavazza", "nike",
-  "hoodie", "hoodies", "t-shirt", "t shirt", "tshirts", "tee", "phone", "bedding", "cat", "sneakers"];
+  "sweat pants", "sweatpants", "sweat-pants", "sweatpant", "sweat pant", "olive oil", "oliveoil", "pan cake", "hoodie", "hoodies", "t-shirt", "t shirt", "tshirts", "tee", "phone", "bedding", "cat", "sneakers"];
 out.queries = {};
 Q.forEach(q => {
   const cur = E.list(st({ q: q }));

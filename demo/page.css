@@ -66,10 +66,11 @@ noscript p{margin:16px 0;padding:12px 16px;border:1px solid var(--line-strong);b
 .chiprow+.chiprow{margin-top:8px}
 .chiprow>li>.rowlabel{display:inline-block;min-width:4.5rem}
 .refine{margin-top:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:0 14px}
-.refine>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700}
+.refine>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:.35em;font-weight:700}
 .refine[open]>summary{border-bottom:1px solid var(--line)}
 .refine>div{padding:10px 0 12px}
 #active{margin-top:14px}
+#count:focus{outline:none}
 .pop{position:relative}
 .popbody{position:absolute;z-index:15;left:0;top:calc(100% + 6px);background:var(--surface);border:1px solid var(--line-strong);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.16);padding:10px;width:min(22rem,calc(100vw - 32px));max-height:20rem;overflow:auto}
 .popbody .grid{display:flex;flex-wrap:wrap;gap:8px}
