@@ -236,6 +236,9 @@ crowned interchangeable — so no captain-call number (D1–D6) is picked.
 | COF-1 | `https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202` | 2026-10-01T23:52:52Z | "Super Crema Whole Bean … $26.99", 2.2 lb, ADD TO CART; banner "COFFEE DAY: 20% OFF COFFEE WITH CODE CAFE20 + FREE MUG ON ORDERS $150+" | observed-now (item price); code CAFE20 retailer-stated, untested |
 | COF-2 | `https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa` | 2026-10-01T23:54:08Z | "Qualità Rossa Whole Bean … $24.99", 2.2 lb, ADD TO CART; same CAFE20 banner | observed-now (item price); code CAFE20 retailer-stated, untested |
 | COF-3 | `https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico` | 2026-10-01T23:55:04Z | "Dolcevita Classico Whole Bean … $13.99", 12 oz, ADD TO CART; same CAFE20 banner | observed-now (item price); code CAFE20 retailer-stated, untested |
+| COF-1b | `https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202` | 2026-10-03T14:48:31Z | "Super Crema Whole Bean … $26.99", 2.2 lb, ADD TO CART; banner "AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 \| Extra Savings on Orders $49+"; the `*` has no matching footnote in the page text | observed-now (item price); code AS20 retailer-stated, untested; CAFE20 no longer printed |
+| COF-2b | `https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa` | 2026-10-03T14:48:36Z | "Qualità Rossa Whole Bean … $24.99", 2.2 lb, ADD TO CART; same AS20 banner | observed-now (item price); code AS20 retailer-stated, untested; CAFE20 no longer printed |
+| COF-3b | `https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico` | 2026-10-03T14:48:38Z | "Dolcevita Classico Whole Bean … $13.99", 12 oz, ADD TO CART; same AS20 banner | observed-now (item price); code AS20 retailer-stated, untested; CAFE20 no longer printed |
 | BLK-T | Target search for the same Super Crema bag | 2026-10-01 ~23:53Z | "Human verification … page currently unavailable" | primary page blocked; seller not counted |
 | BLK-W | Walmart search for the same Super Crema bag | 2026-10-01 ~23:54Z | "Robot or human?" challenge | primary page blocked; seller not counted |
 | BLK-K | Kroger search for the same Super Crema bag | 2026-10-01 ~23:55Z | `ERR_HTTP2_PROTOCOL_ERROR`, unreachable (not diagnosed) | primary page blocked; seller not counted |
@@ -395,8 +398,8 @@ membership-only offer, and never a page that said nothing. A different bag
 size is a different purchase, so no "best" is named across sizes. Shelf price
 stays the price on every card.
 
-Not changed here, but noted: today the three Lavazza pages print the banner
-"AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on
-Orders $49+", not CAFE20. The cards' CAFE20 observation is the dated
-2026-10-01 read and is left as recorded; whether to re-observe and replace
-it is a separate decision.
+Update 2026-10-03: the three Lavazza pages were re-read (COF-1b..3b above) and
+now print AS20, not CAFE20. The cards carry the 2026-10-03 observation; the
+2026-10-01 CAFE20 read is kept as dated history in
+`demo/evidence/lavazza/*.json`. Shelf prices were unchanged, no code was
+tried, and a seen code never lowers a price.

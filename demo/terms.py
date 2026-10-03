@@ -250,7 +250,8 @@ HAND = {
 }
 
 # What the live Lavazza pages print today. Kept as a dated observation only:
-# the cards' CAFE20 observation is from 2026-10-01 and is not edited here.
+# the cards now carry the 2026-10-03 re-observation (demo/evidence/lavazza/);
+# the earlier CAFE20 read stays there as dated history.
 LAVAZZA_BANNER_2026_10_02 = (
     "AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings "
     "on Orders $49+")

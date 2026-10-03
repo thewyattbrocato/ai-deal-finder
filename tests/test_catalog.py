@@ -183,11 +183,15 @@ class PublicPageTest(unittest.TestCase):
         stored = {o["coupon"]["code"] for o in OBS if o["coupon"]}
         on_page = set(re.findall(r'data-coupon-code="([^"]+)"', self.page))
         hand_checked = on_page - stored
-        # codes the page shows beyond stored catalog evidence must be hand-checked ones
-        with open(os.path.join(ROOT, "demo", "build.py"), encoding="utf-8") as f:
-            build_src = f.read()
-        for code in hand_checked:
-            self.assertRegex(build_src, r'Coupon\(code="%s"' % re.escape(code))
+        # codes the page shows beyond the catalog are the hand-checked Lavazza
+        # ones, and must be the latest dated observation in their stored record
+        lavazza = set()
+        for fn in os.listdir(os.path.join(ROOT, "demo", "evidence", "lavazza")):
+            with open(os.path.join(ROOT, "demo", "evidence", "lavazza", fn),
+                      encoding="utf-8") as f:
+                lavazza.add(json.load(f)["observations"][-1]["code"])
+        self.assertTrue(lavazza <= hand_checked)
+        hand_checked -= lavazza
         # every stored catalog coupon is shown, and none gains a lower price
         self.assertTrue(stored <= on_page)
         self.assertEqual(self.page.count('data-coupon="yes"'),

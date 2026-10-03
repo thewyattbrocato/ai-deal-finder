@@ -400,7 +400,7 @@ class QuietPageTest(unittest.TestCase):
         self.assertIsNotNone(m)
         note = m.group(1)
         self.assertIn("Dolcevita Classico, Qualità Rossa and Super Crema "
-                      "showed the code CAFE20", note)
+                      "showed the code AS20", note)
         for seller in ("Honest Coffee Roasters", "The Well Coffee Roasters",
                        "Counter Culture Coffee"):
             self.assertIn(seller, note)
@@ -410,11 +410,42 @@ class QuietPageTest(unittest.TestCase):
         cards = re.split(r'(?=<section class="card)', self.page)
         with_code = {re.search(r'data-name="([^"]*)"', c).group(1)
                      for c in cards if 'data-coupon="yes"' in c
-                     and "CAFE20" in c}
+                     and "AS20" in c}
         self.assertEqual(len(with_code), 3)
         for c in cards:
             if "Midnight Axes" in c or "Watershed" in c or "Big Trouble" in c:
                 self.assertIn('data-coupon="no"', c)
+
+    def test_lavazza_records_carry_the_2026_10_03_observation(self):
+        import glob
+        import json
+        files = sorted(glob.glob(os.path.join(ROOT, "demo", "evidence",
+                                              "lavazza", "*.json")))
+        self.assertEqual(len(files), 3)
+        cards = re.split(r'(?=<section class="card)', self.page)
+        for fn in files:
+            with open(fn, encoding="utf-8") as f:
+                rec = json.load(f)
+            first, latest = rec["observations"][0], rec["observations"][-1]
+            # the earlier CAFE20 read stays as dated history, never deleted
+            self.assertEqual((first["code"], first["observed_at"][:10]),
+                             ("CAFE20", "2026-10-01"), fn)
+            self.assertEqual((latest["code"], latest["observed_at"][:10]),
+                             ("AS20", "2026-10-03"), fn)
+            self.assertIn("AS20", latest["banner"])
+            self.assertFalse(latest["code_tried"])
+            self.assertEqual(latest["shelf_price"], first["shelf_price"])
+            card = [c for c in cards if rec["page_url"] in c]
+            self.assertEqual(len(card), 1, fn)
+            card = card[0]
+            self.assertIn("Checked: lavazzausa.com \u00b7 US \u00b7 "
+                          + latest["observed_at"], card)
+            self.assertIn(">AS20</span>", card)
+            self.assertNotIn("CAFE20", card)
+            self.assertIn("never tried out", card)
+            self.assertIn("price shown does not include it", card)
+            self.assertIn('data-price="%d"' % round(latest["shelf_price"] * 100), card)
+        self.assertNotIn("CAFE20", self.page)
 
     def test_card_names_are_unique(self):
         names_found = [card["name"] for card in self.driven["load"]["all"]]
@@ -534,7 +565,8 @@ class QuietPageTest(unittest.TestCase):
         self.assertFalse(reset["bestShown"])
         for key, snap in d.items():
             for text in snap["whys"] + [snap["best"]]:
-                self.assertNotIn("CAFE20", text if "printed CAFE20" not in text else "", key)
+                self.assertNotIn("CAFE20", text, key)
+                self.assertNotIn("AS20", text if "printed AS20" not in text else "", key)
 
     def test_shoe_and_clothing_sizes_use_only_sizes_the_page_listed(self):
         d = self.driven
@@ -617,7 +649,7 @@ class QuietPageTest(unittest.TestCase):
         by_name = dict(zip(names(self.driven["couponOnly"]),
                            self.driven["couponOnly"]["whys"]))
         rossa = by_name["Qualità Rossa Whole Bean, 2.2 lb bag"]
-        self.assertIn("its own page printed CAFE20", rossa)
+        self.assertIn("its own page printed AS20", rossa)
         self.assertIn("never tried", rossa)
         self.assertIn("the price is still the shelf price", rossa)
         for why in self.driven["couponOnly"]["whys"]:
@@ -665,7 +697,7 @@ class QuietPageTest(unittest.TestCase):
         for key, snap in self.driven.items():
             self.assertFalse(snap["blockedClaim"], key)
             for why in snap["whys"]:
-                if "CAFE20" in why or "EXTRA" in why:
+                if "AS20" in why or "EXTRA" in why:
                     self.assertIn("printed", why, key)
         exact = self.driven["exactSuperCoupon"]
         self.assertEqual(len(exact["visible"]), 1)
