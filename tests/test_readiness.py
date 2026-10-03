@@ -66,12 +66,12 @@ class D1PageReadNotVerdict(Base):
                 self.assertNotIn(word, c)
             self.assertNotIn("text-success", c)
 
-    def test_engine_verdict_wording_stays_only_on_the_hand_checked_cards(self):
-        verdict = [n for n, _k, c in self.cards if "Good to buy" in c]
-        self.assertEqual(len(verdict), 10)
-        self.assertEqual(len(self.cards), len(verdict) + len(
+    def test_the_hand_checked_cards_say_the_same_neutral_thing(self):
+        # the engine still decides for them, but no card prints its verdict
+        self.assertEqual(len(self.cards), len(
             [1 for _n, _k, c in self.cards if "data-page-read" in c]))
-        self.assertEqual(self.page.count("Good to buy"), len(verdict))
+        for word in ("Good to buy", "Worth a wait", "Check first"):
+            self.assertNotIn(word, self.page)
 
 
 class D2CoffeeIsBeans(Base):

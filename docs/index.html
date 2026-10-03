@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Find a deal — what the store page actually shows</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f4a'/%3E%3Cpath d='M9 17l5 5 9-12' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
 :root{
   color-scheme:light dark;
@@ -158,6 +159,10 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
   .card-main{gap:12px}
   .card img,.nophoto{width:72px;height:72px}
   #q{font-size:1.05rem}
+  /* the size list spans the bar's width instead of hanging off the button, so it never leaves the viewport */
+  .chiprow{position:relative}
+  .pop{position:static}
+  .popbody{left:0;right:0;width:auto;top:auto;margin-top:6px}
 }
 @media (prefers-reduced-motion:no-preference){
   .card{animation:fade .12s ease-out}
@@ -222,12 +227,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$249</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-01T19:50:52Z">Checked 2026-10-01</p>
 <p class="facts" data-facts><span><b>Size:</b> <span class="u">not stated — unknown</span></span><span><b>Shipping:</b> free delivery</span><span><b>Subscribe:</b> <span class="u">not stated — unknown</span></span></p>
 <div class="cardfoot"><a class="go" href="https://www.apple.com/airpods-pro/" target="_blank" rel="noopener">See at Apple →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
-<p class="line"><span class="fs">Specialty band: </span>not checked for other products yet.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$249 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (apple.com, US, 2026-10-01T19:50:52Z).</li><li><span class="fs">Confirm at checkout:</span> tax.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> not stated on the page — unknown</li><li><span class="fs">Shipping:</span> Page lists “free delivery” among its delivery options (no minimum shown)</li><li><span class="fs">Subscribe:</span> not stated on the page — unknown</li></ul><p class="src">Read 2026-10-02T22:14:40Z from https://www.apple.com/airpods-pro/</p></div>
 <ul class="fine"><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li><li>Recheck the price before paying; store pages change.</li></ul>
@@ -244,13 +248,12 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <p class="was">was $36.99 (as marked on the page)</p>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-01T19:50:21Z">Checked 2026-10-01</p>
 <p class="coupon" data-coupon-line><b data-coupon-lead>Printed coupon <span class="code">EXTRA</span></b> — the page says <span class="quote">“Extra 30% off (exclusions apply)”</span><span data-coupon-ended></span> <b>Not applied:</b> the price above is the shelf price and does not include it.</p>
 <p class="facts" data-facts><span><b>Size:</b> 9 sizes listed</span><span><b>Shipping:</b> free over $50 (members only)</span><span><b>Subscribe:</b> <span class="u">not stated — unknown</span></span></p>
 <div class="cardfoot"><a class="go" href="https://oldnavy.gap.com/browse/product.do?pid=777363182" target="_blank" rel="noopener">See at Old Navy →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
-<p class="line"><span class="fs">Specialty band: </span>not checked for other products yet.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$25.00 as printed on the page</span>. <span data-saving-status>Coupon printed, not applied</span>.</p><ul><li data-coupon-row><span class="fs" data-coupon-label>Coupon on this page:</span> <span class="mono">EXTRA</span> — the page says “Extra 30% off (exclusions apply)”. Conditions: only as that wording states them. Seen on oldnavy.gap.com, US, 2026-10-01T19:50:21Z. <strong>Not applied:</strong> The code was seen but never tested, so the $25.00 price above does not include it.</li><li data-window-row><span class="fs">Window the page prints:</span> <strong data-window-status>the coupon text states no date window (or only one that is not a clear start and end), so no window is shown.</strong></li><li><span class="fs">Confirm at checkout:</span> tax; <span data-confirm-code>whether the code works and what it would take off</span>.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> listed: XS, S, M, L, XL, XXL, 2X, 3X, 4X</li><li><span class="fs">Shipping:</span> “Free fast shipping on $50+ for Rewards Members”</li><li><span class="fs">Subscribe:</span> not stated on the page — unknown</li></ul><p class="src">Read 2026-10-02T22:14:17Z from https://oldnavy.gap.com/browse/product.do?pid=777363182</p></div>
 <ul class="fine"><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li><li>Free shipping over $50 needs a Rewards membership, which was not signed into during this check.</li></ul>
@@ -266,12 +269,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$79.95</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-01T19:50:30Z">Checked 2026-10-01</p>
 <p class="facts" data-facts><span><b>Size:</b> 7 sizes listed</span><span><b>Shipping:</b> free over $50 (members only)</span><span><b>Subscribe:</b> <span class="u">not stated — unknown</span></span></p>
 <div class="cardfoot"><a class="go" href="https://www.gap.com/browse/product.do?pid=800546212" target="_blank" rel="noopener">See at Gap →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
-<p class="line"><span class="fs">Specialty band: </span>not checked for other products yet.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$79.95 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (gap.com, US, 2026-10-01T19:50:30Z).</li><li><span class="fs">Confirm at checkout:</span> tax.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> listed: XXS, XS, S, M, L, XL, XXL — not shown in stock when checked: M, L, XXL</li><li><span class="fs">Shipping:</span> “Free fast shipping on $50+ for Rewards Members”</li><li><span class="fs">Subscribe:</span> not stated on the page — unknown</li></ul><p class="src">Read 2026-10-02T22:16:01Z from https://www.gap.com/browse/product.do?pid=800546212</p></div>
 <ul class="fine"><li>Store signs advertised select-style offers, but none named a code for this item — the $79.95 price stands on its own.</li><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li></ul>
@@ -288,12 +290,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <p class="was">was $155 (as marked on the page)</p>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-01T19:50:41Z">Checked 2026-10-01</p>
 <p class="facts" data-facts><span><b>Size:</b> 21 sizes listed</span><span><b>Shipping:</b> free over $50 (members only)</span><span><b>Subscribe:</b> <span class="u">not stated — unknown</span></span></p>
 <div class="cardfoot"><a class="go" href="https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002" target="_blank" rel="noopener">See at Nike →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
-<p class="line"><span class="fs">Specialty band: </span>not checked for other products yet.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$87.97 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (nike.com, US, 2026-10-01T19:50:41Z).</li><li><span class="fs">Confirm at checkout:</span> tax.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> listed: W 5 / M 3.5, W 5.5 / M 4, W 6 / M 4.5, W 6.5 / M 5, W 7 / M 5.5, W 7.5 / M 6, W 8 / M 6.5, W 8.5 / M 7, W 9 / M 7.5, W 9.5 / M 8, W 10 / M 8.5, W 10.5 / M 9, W 11 / M 9.5, W 11.5 / M 10, W 12 / M 10.5, W 12.5 / M 11, W 13 / M 11.5, W 13.5 / M 12, W 14 / M 12.5, W 14.5 / M 13, W 15.5 / M 14 — not shown in stock when checked: W 10.5 / M 9, W 11.5 / M 10, W 12 / M 10.5, W 12.5 / M 11, W 13 / M 11.5, W 13.5 / M 12, W 14 / M 12.5, W 14.5 / M 13, W 15.5 / M 14</li><li><span class="fs">Shipping:</span> “Members: Free Shipping on Orders $50+”; otherwise “You&#x27;ll see our shipping options at checkout”</li><li><span class="fs">Subscribe:</span> not stated on the page — unknown</li></ul><p class="src">Read 2026-10-02T22:13:55Z from https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002</p></div>
 <ul class="fine"><li>The marked-down price is the price checked; no extra savings math was added.</li><li>Members get free shipping over $50, but no membership was signed into during this check — shipping wasn&#x27;t shown.</li><li>Tax wasn&#x27;t shown for this item — check the total at checkout.</li></ul>
@@ -309,12 +310,12 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$26.99</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-03T14:48:31Z">Checked 2026-10-03</p>
 <p class="coupon" data-coupon-line><b data-coupon-lead>Printed coupon <span class="code">AS20</span></b> — the page says <span class="quote">“AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”</span><span data-coupon-ended></span> <b>Not applied:</b> the price above is the shelf price and does not include it.</p>
 <p class="facts" data-facts><span><b>Size:</b> 1 size listed</span><span><b>Shipping:</b> free over $50</span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202" target="_blank" rel="noopener">See at Lavazza →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$26.99 as printed on the page</span>. <span data-saving-status>Coupon printed, not applied</span>.</p><ul><li data-coupon-row><span class="fs" data-coupon-label>Coupon on this page:</span> <span class="mono">AS20</span> — the page says “AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”. Conditions: only as that wording states them. Seen on lavazzausa.com, US, 2026-10-03T14:48:31Z. <strong>Not applied:</strong> Seen in the store banner but never tried out, so the price shown does not include it.</li><li data-window-row><span class="fs">Window the page prints:</span> <strong data-window-status>the coupon text states no date window (or only one that is not a clear start and end), so no window is shown.</strong></li><li><span class="fs">Confirm at checkout:</span> tax; <span data-confirm-code>whether the code works and what it would take off</span>.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 2.2 lb $26.99 (shelf prices)</li><li><span class="fs">Shipping:</span> “Free delivery on orders over $50”</li><li><span class="fs">Subscribe:</span> “Subscribe and save 25%” (the subscribe price itself is not shown)</li></ul><p class="src">Read 2026-10-02T22:09:30Z from https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202</p></div>
@@ -331,12 +332,12 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$24.99</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-03T14:48:36Z">Checked 2026-10-03</p>
 <p class="coupon" data-coupon-line><b data-coupon-lead>Printed coupon <span class="code">AS20</span></b> — the page says <span class="quote">“AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”</span><span data-coupon-ended></span> <b>Not applied:</b> the price above is the shelf price and does not include it.</p>
 <p class="facts" data-facts><span><b>Size:</b> 1 size listed</span><span><b>Shipping:</b> free over $50</span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa" target="_blank" rel="noopener">See at Lavazza →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$24.99 as printed on the page</span>. <span data-saving-status>Coupon printed, not applied</span>.</p><ul><li data-coupon-row><span class="fs" data-coupon-label>Coupon on this page:</span> <span class="mono">AS20</span> — the page says “AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”. Conditions: only as that wording states them. Seen on lavazzausa.com, US, 2026-10-03T14:48:36Z. <strong>Not applied:</strong> Seen in the store banner but never tried out, so the price shown does not include it.</li><li data-window-row><span class="fs">Window the page prints:</span> <strong data-window-status>the coupon text states no date window (or only one that is not a clear start and end), so no window is shown.</strong></li><li><span class="fs">Confirm at checkout:</span> tax; <span data-confirm-code>whether the code works and what it would take off</span>.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 2.2 lb $24.99 (shelf prices)</li><li><span class="fs">Shipping:</span> “Free delivery on orders over $50”</li><li><span class="fs">Subscribe:</span> “Subscribe and save 25%” (the subscribe price itself is not shown)</li></ul><p class="src">Read 2026-10-02T22:09Z from https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa</p></div>
@@ -353,12 +354,12 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$13.99</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-03T14:48:38Z">Checked 2026-10-03</p>
 <p class="coupon" data-coupon-line><b data-coupon-lead>Printed coupon <span class="code">AS20</span></b> — the page says <span class="quote">“AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”</span><span data-coupon-ended></span> <b>Not applied:</b> the price above is the shelf price and does not include it.</p>
 <p class="facts" data-facts><span><b>Size:</b> 1 size listed</span><span><b>Shipping:</b> free over $50</span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico" target="_blank" rel="noopener">See at Lavazza →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>Not in this band: no small-batch or direct-trade statement seen on the checked pages.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$13.99 as printed on the page</span>. <span data-saving-status>Coupon printed, not applied</span>.</p><ul><li data-coupon-row><span class="fs" data-coupon-label>Coupon on this page:</span> <span class="mono">AS20</span> — the page says “AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+”. Conditions: only as that wording states them. Seen on lavazzausa.com, US, 2026-10-03T14:48:38Z. <strong>Not applied:</strong> Seen in the store banner but never tried out, so the price shown does not include it.</li><li data-window-row><span class="fs">Window the page prints:</span> <strong data-window-status>the coupon text states no date window (or only one that is not a clear start and end), so no window is shown.</strong></li><li><span class="fs">Confirm at checkout:</span> tax; <span data-confirm-code>whether the code works and what it would take off</span>.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 12 oz $13.99 (shelf prices)</li><li><span class="fs">Shipping:</span> “Free delivery on orders over $50”</li><li><span class="fs">Subscribe:</span> “Subscribe and save 25%” (the subscribe price itself is not shown)</li></ul><p class="src">Read 2026-10-02T22:09Z from https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico</p></div>
@@ -375,11 +376,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$18.00</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-02T15:00:17Z">Checked 2026-10-02</p>
 <p class="facts" data-facts><span><b>Size:</b> 3 sizes listed</span><span><b>Shipping:</b> <span class="u">not stated — unknown</span></span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr" target="_blank" rel="noopener">See at Honest Coffee Roasters →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>In this band: roastery locations plus direct sourcing, stated on honest.coffee; single-origin bag.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$18.00 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (honest.coffee, US, 2026-10-02T15:00:17Z).</li><li><span class="fs">Confirm at checkout:</span> tax; shipping cost (the page did not state it).</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 12 oz $18.00 · 2 lb $38.00 · 5 lb $95.00 (shelf prices)</li><li><span class="fs">Shipping:</span> not stated on the page — unknown</li><li><span class="fs">Subscribe:</span> “Subscribe” option with its own price per size (delivery frequency not shown): 12 oz $13.50 · 2 lb $28.50 · 5 lb $71.25</li></ul><p class="src">Read 2026-10-02T22:10:43Z from https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr</p></div>
@@ -396,11 +397,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$20.50</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-02T15:01:25Z">Checked 2026-10-02</p>
 <p class="facts" data-facts><span><b>Size:</b> 3 sizes listed</span><span><b>Shipping:</b> free over $75</span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://wellcoffeeroasters.com/products/watershed" target="_blank" rel="noopener">See at The Well Coffee Roasters →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>In this band: &#x27;Small Batch Roasted in Nashville&#x27; plus direct trade, stated on the page.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$20.50 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (wellcoffeeroasters.com, US, 2026-10-02T15:01:25Z).</li><li><span class="fs">Confirm at checkout:</span> tax.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 12 oz $20.50 · 2 lb $51.50 · 5 lb $119.00 (shelf prices)</li><li><span class="fs">Shipping:</span> “Free Shipping On All Orders $75+”; below that “Shipping calculated at checkout”</li><li><span class="fs">Subscribe:</span> “Subscribe &amp; Save” (“Save up to 10%”) with its own price per size: 12 oz $18.45 · 2 lb $46.35 · 5 lb $107.10</li></ul><p class="src">Read 2026-10-02T22:11Z from https://wellcoffeeroasters.com/products/watershed</p></div>
@@ -417,11 +418,11 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 <div class="priceline"><span class="price" data-price-text>$19.50</span><small>shelf price</small></div>
 <p class="size-line" data-size-line style="display:none"></p>
 </div></div>
+<p class="readline"><span class="fs" data-page-read>Price read from the store page</span> · <span>Not compared with other stores.</span></p>
 <p class="line sm" data-age data-observed="2026-10-02T15:03:57Z">Checked 2026-10-02</p>
 <p class="facts" data-facts><span><b>Size:</b> 3 sizes listed</span><span><b>Shipping:</b> free over $30</span><span><b>Subscribe:</b> offered</span></p>
 <div class="cardfoot"><a class="go" href="https://counterculturecoffee.com/collections/coffee/products/big-trouble" target="_blank" rel="noopener">See at Counter Culture Coffee →</a></div>
 <details class="more"><summary>Full details: savings, coupon window, what to confirm, terms</summary><div class="more-body">
-<div class="status"><span class="big">✓ Good to buy</span><span class="sm">Price as read from the page.</span></div>
 <p class="line"><span class="fs">Specialty band: </span>In this band: roastery training centers plus published transparency reports, stated on counterculturecoffee.com.</p>
 <div class="savings-box" data-savings><p class="fs" data-saving-lead><span data-shelf-line>$19.50 as printed on the page</span>. <span data-saving-status>No coupon printed on the page</span>.</p><ul><li>No coupon code was visible when this page was checked (counterculturecoffee.com, US, 2026-10-02T15:03:57Z).</li><li><span class="fs">Confirm at checkout:</span> tax.</li></ul></div>
 <div class="terms-box" data-terms-block><p class="t">What the page states about this purchase</p><ul><li><span class="fs">Size:</span> 12 oz $19.50 · 24 oz $37.50 · 5 lb $101.00 (shelf prices)</li><li><span class="fs">Shipping:</span> “Free shipping on $30 &amp; up!”</li><li><span class="fs">Subscribe:</span> “Subscribe + Save” with its own price per size: 12 oz $17.50 · 24 oz $33.66 · 5 lb $90.65</li></ul><p class="src">Read 2026-10-02T22:13:21Z from https://counterculturecoffee.com/collections/coffee/products/big-trouble</p></div>
@@ -5905,8 +5906,17 @@ function fold(s) {
     .replace(/[™®©]/g, "").replace(/[’‘`]/g, "'");
 }
 function words(s) { return fold(s).match(/[a-z0-9]+/g) || []; }
+// A typed price: "$25", "$25.00", "25 dollars", "25 bucks", "25 usd". It names an exact amount, never a range.
+var PRICE_RE = /\$\s?(\d{1,5}(?:\.\d{1,2})?)(?![\d.]*\d)|\b(\d{1,5}(?:\.\d{1,2})?)\s*(?:dollars?|bucks?|usd)\b/gi;
+function pricesIn(q) {
+  var out = [], m;
+  PRICE_RE.lastIndex = 0;
+  while ((m = PRICE_RE.exec(String(q)))) out.push(Math.round(parseFloat(m[1] || m[2]) * 100));
+  return out;
+}
 // What a shopper types for a tee: "t-shirt", "t shirt", "tshirts" are the catalog's "tee".
-function typed(q) { return String(q).replace(/\bt[\s-]?shirts?\b/gi, "tee"); }
+// A typed price is not a word to look for: it is read apart by pricesIn().
+function typed(q) { return String(q).replace(PRICE_RE, " ").replace(/\bt[\s-]?shirts?\b/gi, "tee"); }
 function stem(w) {
   if (w.length > 4 && /ies$/.test(w)) return w.slice(0, -3) + "y";
   if (w.length > 4 && /(?:ch|sh|x|ss|z)es$/.test(w)) return w.slice(0, -2);
@@ -6048,11 +6058,17 @@ function create(P) {
     for (var w in res.set) if (D[idx].n[w]) return true;
     return false;
   }
-  // Every typed word must hit. No words typed: every product, unscored.
+  // Every typed word must hit, and every typed price must be the product's stored shelf price.
+  // Nothing typed: every product, unscored.
   function match(q) {
-    var rs = resolveAll(q), out = [];
+    var rs = resolveAll(q), prices = pricesIn(q), out = [];
     P.forEach(function (p, idx) {
       var s = 0, ok = true, nameAll = true;
+      for (var pi = 0; pi < prices.length; pi++) {
+        if (p.pc !== prices[pi]) { ok = false; break; }
+        s += 10;
+      }
+      if (!ok) return;
       for (var i = 0; i < rs.length; i++) {
         var h = rs[i].mode === "none" ? 0 : hitWeight(idx, rs[i]);
         if (!h) { ok = false; break; }
@@ -6128,7 +6144,7 @@ function create(P) {
   function count(st, mod, m) { return list(withMod(st, mod), m).rows.length; }
 
   function hasIntent(st) {
-    return !!(tokens(st.q).length || st.kind || st.store || st.browse || st.size || st.ship || st.sub || st.coupon);
+    return !!(tokens(st.q).length || pricesIn(st.q).length || st.kind || st.store || st.browse || st.size || st.ship || st.sub || st.coupon);
   }
 
   // Chips for the current results. Each count is count(): the list with that chip on.
@@ -6290,7 +6306,7 @@ function create(P) {
     resolve: resolveAll, wordList: wordList, match: match, judge: judge, list: list, count: count,
     chips: chips, silentOn: silentOn, notes: notes, nearest: nearest, suggest: suggest, marks: marks,
     shown: shown, hasIntent: hasIntent, blank: blank, encode: encode, decode: decode,
-    tokens: tokenize,
+    tokens: tokenize, prices: pricesIn,
   };
 }
 
@@ -6656,6 +6672,9 @@ function renderEmpty(cur) {
     return;
   }
   box.appendChild(h("h2", { text: "No checked product matches “" + S.q + "”" }));
+  if (E.prices(S.q).length) {
+    box.appendChild(h("p", { "data-price-note": "1", text: "Search matches words and an exact shelf price (“$25” finds products priced exactly $25.00). It does not find “under” or “over” a price. To see prices in order, browse everything and sort by price." }));
+  }
   box.appendChild(h("p", { text: "Searched " + n + " checked products by name, store and kind" + (toks.length > 1 ? " for all of: " + toks.map(function (t) { return "“" + t + "”"; }).join(", ") : "")
     + ". Nothing is shown that doesn’t match, and nothing is guessed." }));
   var near = E.nearest(S.q);
@@ -6680,6 +6699,9 @@ function renderEmpty(cur) {
   kindsByCount.slice(0, 6).forEach(function (k) {
     kinds.appendChild(btn(k, String(E.kinds[k]), function () { S.kind = k; S.q = ""; q.value = ""; }, { "data-kind": k }));
   });
+  if (E.prices(S.q).length) {
+    kinds.appendChild(btn("Browse all " + n + ", lowest price first", null, function () { S.q = ""; q.value = ""; S.browse = true; S.sort = "lo"; }, { "data-price-sort": "1" }));
+  }
   kinds.appendChild(btn("Browse all " + n, null, function () { S.q = ""; q.value = ""; S.browse = true; }, { "data-browse": "1" }));
   kinds.appendChild(btn("Clear search", null, function () { S.q = ""; q.value = ""; }, { "data-clearq": "1" }));
   box.appendChild(kinds);
@@ -6717,7 +6739,7 @@ function render() {
   var cnt = $("count");
   cnt.textContent = cur.rows.length
     ? plural(cur.rows.length, "checked product", "checked products") + (S.q ? " for “" + S.q + "”" : "")
-    : (S.q ? "No checked product matches “" + S.q + "”" : "No checked product matches these choices");
+    : (S.q && !cur.m.rows.length ? "No checked product matches “" + S.q + "”" : "No checked product fits these choices");
   show($("sortbox"), cur.rows.length > 1);
   var notes = $("notes");
   clear(notes);
@@ -6728,15 +6750,21 @@ function render() {
   clear(unk);
   if (cur.unk.length) {
     var which = E.silentOn(S).join(" or "), many = cur.unk.length !== 1;
-    var tog = h("button", { type: "button", class: "linkbtn", "data-unk": "1", "aria-expanded": listUnk ? "true" : "false", text: listUnk ? "Hide them" : "Show them" });
-    tog.addEventListener("click", function () { unkOpen = !listUnk; render(); focusAttr("data-unk"); });
-    unk.appendChild(h("p", { class: "unk", role: "status" }, [
-      cur.unk.length + " more " + (many ? "products don’t" : "product doesn’t") + " state " + which + " on the page, so " + (many ? "they aren’t" : "it isn’t") + " counted above. ", tog]));
+    if (cur.rows.length) {
+      var tog = h("button", { type: "button", class: "linkbtn", "data-unk": "1", "aria-expanded": listUnk ? "true" : "false", text: listUnk ? "Hide them" : "Show them" });
+      tog.addEventListener("click", function () { unkOpen = !listUnk; render(); focusAttr("data-unk"); });
+      unk.appendChild(h("p", { class: "unk", role: "status" }, [
+        cur.unk.length + " more " + (many ? "products don’t" : "product doesn’t") + " state " + which + " on the page, so " + (many ? "they aren’t" : "it isn’t") + " counted above. ", tog]));
+    } else {
+      // nothing fits: these pages are not matches, only pages that cannot be ruled out; listed below the box
+      unk.appendChild(h("p", { class: "unk", role: "status" }, [
+        "Not matches, but " + cur.unk.length + (many ? " products don’t" : " product doesn’t") + " state " + which + " on the page, so " + (many ? "they are" : "it is") + " listed below, apart from the empty result."]));
+    }
   }
   show(unk, !!cur.unk.length);
 
   var empty = $("empty");
-  var isEmpty = !cur.rows.length && !cur.unk.length;
+  var isEmpty = !cur.rows.length;
   show(empty, isEmpty);
   clear(empty);
   if (isEmpty) renderEmpty(cur);

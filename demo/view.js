@@ -356,6 +356,9 @@ function renderEmpty(cur) {
     return;
   }
   box.appendChild(h("h2", { text: "No checked product matches “" + S.q + "”" }));
+  if (E.prices(S.q).length) {
+    box.appendChild(h("p", { "data-price-note": "1", text: "Search matches words and an exact shelf price (“$25” finds products priced exactly $25.00). It does not find “under” or “over” a price. To see prices in order, browse everything and sort by price." }));
+  }
   box.appendChild(h("p", { text: "Searched " + n + " checked products by name, store and kind" + (toks.length > 1 ? " for all of: " + toks.map(function (t) { return "“" + t + "”"; }).join(", ") : "")
     + ". Nothing is shown that doesn’t match, and nothing is guessed." }));
   var near = E.nearest(S.q);
@@ -380,6 +383,9 @@ function renderEmpty(cur) {
   kindsByCount.slice(0, 6).forEach(function (k) {
     kinds.appendChild(btn(k, String(E.kinds[k]), function () { S.kind = k; S.q = ""; q.value = ""; }, { "data-kind": k }));
   });
+  if (E.prices(S.q).length) {
+    kinds.appendChild(btn("Browse all " + n + ", lowest price first", null, function () { S.q = ""; q.value = ""; S.browse = true; S.sort = "lo"; }, { "data-price-sort": "1" }));
+  }
   kinds.appendChild(btn("Browse all " + n, null, function () { S.q = ""; q.value = ""; S.browse = true; }, { "data-browse": "1" }));
   kinds.appendChild(btn("Clear search", null, function () { S.q = ""; q.value = ""; }, { "data-clearq": "1" }));
   box.appendChild(kinds);
@@ -417,7 +423,7 @@ function render() {
   var cnt = $("count");
   cnt.textContent = cur.rows.length
     ? plural(cur.rows.length, "checked product", "checked products") + (S.q ? " for “" + S.q + "”" : "")
-    : (S.q ? "No checked product matches “" + S.q + "”" : "No checked product matches these choices");
+    : (S.q && !cur.m.rows.length ? "No checked product matches “" + S.q + "”" : "No checked product fits these choices");
   show($("sortbox"), cur.rows.length > 1);
   var notes = $("notes");
   clear(notes);
@@ -428,15 +434,21 @@ function render() {
   clear(unk);
   if (cur.unk.length) {
     var which = E.silentOn(S).join(" or "), many = cur.unk.length !== 1;
-    var tog = h("button", { type: "button", class: "linkbtn", "data-unk": "1", "aria-expanded": listUnk ? "true" : "false", text: listUnk ? "Hide them" : "Show them" });
-    tog.addEventListener("click", function () { unkOpen = !listUnk; render(); focusAttr("data-unk"); });
-    unk.appendChild(h("p", { class: "unk", role: "status" }, [
-      cur.unk.length + " more " + (many ? "products don’t" : "product doesn’t") + " state " + which + " on the page, so " + (many ? "they aren’t" : "it isn’t") + " counted above. ", tog]));
+    if (cur.rows.length) {
+      var tog = h("button", { type: "button", class: "linkbtn", "data-unk": "1", "aria-expanded": listUnk ? "true" : "false", text: listUnk ? "Hide them" : "Show them" });
+      tog.addEventListener("click", function () { unkOpen = !listUnk; render(); focusAttr("data-unk"); });
+      unk.appendChild(h("p", { class: "unk", role: "status" }, [
+        cur.unk.length + " more " + (many ? "products don’t" : "product doesn’t") + " state " + which + " on the page, so " + (many ? "they aren’t" : "it isn’t") + " counted above. ", tog]));
+    } else {
+      // nothing fits: these pages are not matches, only pages that cannot be ruled out; listed below the box
+      unk.appendChild(h("p", { class: "unk", role: "status" }, [
+        "Not matches, but " + cur.unk.length + (many ? " products don’t" : " product doesn’t") + " state " + which + " on the page, so " + (many ? "they are" : "it is") + " listed below, apart from the empty result."]));
+    }
   }
   show(unk, !!cur.unk.length);
 
   var empty = $("empty");
-  var isEmpty = !cur.rows.length && !cur.unk.length;
+  var isEmpty = !cur.rows.length;
   show(empty, isEmpty);
   clear(empty);
   if (isEmpty) renderEmpty(cur);
