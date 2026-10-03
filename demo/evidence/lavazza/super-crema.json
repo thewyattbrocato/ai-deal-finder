@@ -1,0 +1,29 @@
+{
+ "id": "lavazza-super-crema",
+ "name": "Super Crema Whole Bean",
+ "size": "2.2 lb",
+ "page_url": "https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202",
+ "seller": "Lavazza",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-01T23:52:52Z",
+   "shelf_price": 26.99,
+   "banner": "COFFEE DAY: 20% OFF COFFEE WITH CODE CAFE20 + FREE MUG ON ORDERS $150+",
+   "code": "CAFE20",
+   "conditions": "free mug on orders $150+ (as printed in the banner)",
+   "code_tried": false,
+   "source": "LIVE_VERIFICATION.md COF rows"
+  },
+  {
+   "observed_at": "2026-10-03T14:48:31Z",
+   "shelf_price": 26.99,
+   "banner": "AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+",
+   "code": "AS20",
+   "conditions": "banner prints \"Extra Savings on Orders $49+\"; the * after \"Coffee\" has no matching footnote in the page text, so no exclusions or terms are known",
+   "code_tried": false,
+   "source": "live page, this recheck"
+  }
+ ]
+}

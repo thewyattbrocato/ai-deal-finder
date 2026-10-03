@@ -48,6 +48,8 @@ price and never fills in what a page did not say.
   <img src="docs/readme/tool-desktop-result.png" width="880" alt="Screenshot of a result card in the live tool for Super Crema Whole Bean, 2.2 lb bag from Lavazza, with its shelf price, a Good to buy decision, a coupon box showing the code CAFE20 as seen and never tried out, and a list of what the page states about size, shipping and subscribe.">
 </p>
 
+<p align="center"><sub>The screenshot is the real capture from when the Lavazza pages printed CAFE20 (recorded 2026-10-01). On 2026-10-03 the same three pages printed AS20 instead, and the live tool now shows that, still as seen and never tried.</sub></p>
+
 On a phone the same page works at narrow width:
 
 <p align="center">

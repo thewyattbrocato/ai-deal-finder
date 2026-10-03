@@ -145,19 +145,31 @@ def run_lv007():
     return nike, cost, decision
 
 
-TS_COF1 = "2026-10-01T23:52:52Z"
-TS_COF2 = "2026-10-01T23:54:08Z"
-TS_COF3 = "2026-10-01T23:55:04Z"
-COF1_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202"
-COF2_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/qualita-rossa"
-COF3_URL = "https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico"
-CAFE20 = ("CAFE20", "20% off coffee (free mug on orders $150+)")
-CAFE20_CAVEAT = ("Seen in the store banner but never tried out, so the price "
+def lavazza_record(slug):
+    """Stored Lavazza evidence (demo/evidence/lavazza/<slug>.json)."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "evidence", "lavazza", slug + ".json")
+    with open(path) as f:
+        rec = json.load(f)
+    return rec, rec["observations"][-1]
+
+
+_L1, _O1 = lavazza_record("super-crema")
+_L2, _O2 = lavazza_record("qualita-rossa")
+_L3, _O3 = lavazza_record("dolcevita-classico")
+TS_COF1, TS_COF2, TS_COF3 = _O1["observed_at"], _O2["observed_at"], _O3["observed_at"]
+COF1_URL, COF2_URL, COF3_URL = _L1["page_url"], _L2["page_url"], _L3["page_url"]
+# The code the pages print now (latest dated observation); the earlier
+# CAFE20 observation stays in the stored record as history.
+LAVAZZA_CODE = _O1["code"]
+assert {_O1["code"], _O2["code"], _O3["code"]} == {LAVAZZA_CODE}
+LAVAZZA_OFFER = (LAVAZZA_CODE, "\u201c" + _O1["banner"] + "\u201d")
+LAVAZZA_CAVEAT = ("Seen in the store banner but never tried out, so the price "
                  "shown does not include it.")
 
 
 def run_cof1():
-    """Super Crema Whole Bean 2.2 lb, $26.99, code CAFE20 seen not tested."""
+    """Super Crema Whole Bean 2.2 lb, $26.99, code seen not tested."""
     from deal_finder.decision import decide
     cof = Candidate(
         id="lavazza-super-crema",
@@ -172,7 +184,7 @@ def run_cof1():
     decision = decide(DecisionInput(
         candidates=[cof],
         ranked=[RankedCandidate("lavazza-super-crema", cost)],
-        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+        coupons=[Coupon(code=LAVAZZA_CODE, merchant="Lavazza",
                         status="retailer-stated")],
         consent=ConsentRecord(), mode="browsing",
     ))
@@ -180,7 +192,7 @@ def run_cof1():
 
 
 def run_cof2():
-    """Qualita Rossa Whole Bean 2.2 lb, $24.99, code CAFE20 seen not tested."""
+    """Qualita Rossa Whole Bean 2.2 lb, $24.99, code seen not tested."""
     from deal_finder.decision import decide
     cof = Candidate(
         id="lavazza-rossa",
@@ -195,7 +207,7 @@ def run_cof2():
     decision = decide(DecisionInput(
         candidates=[cof],
         ranked=[RankedCandidate("lavazza-rossa", cost)],
-        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+        coupons=[Coupon(code=LAVAZZA_CODE, merchant="Lavazza",
                         status="retailer-stated")],
         consent=ConsentRecord(), mode="browsing",
     ))
@@ -203,7 +215,7 @@ def run_cof2():
 
 
 def run_cof3():
-    """Dolcevita Classico Whole Bean 12 oz, $13.99, CAFE20 seen not tested."""
+    """Dolcevita Classico Whole Bean 12 oz, $13.99, code seen not tested."""
     from deal_finder.decision import decide
     cof = Candidate(
         id="lavazza-classico",
@@ -218,7 +230,7 @@ def run_cof3():
     decision = decide(DecisionInput(
         candidates=[cof],
         ranked=[RankedCandidate("lavazza-classico", cost)],
-        coupons=[Coupon(code="CAFE20", merchant="Lavazza",
+        coupons=[Coupon(code=LAVAZZA_CODE, merchant="Lavazza",
                         status="retailer-stated")],
         consent=ConsentRecord(), mode="browsing",
     ))
@@ -611,7 +623,7 @@ def build():
     tax_ship = ("Tax and shipping weren't shown for this item \u2014 check "
                 "the total at checkout.")
     lavazza_coupon = {
-        "code": CAFE20[0], "offer": CAFE20[1], "caveat": CAFE20_CAVEAT,
+        "code": LAVAZZA_OFFER[0], "offer": LAVAZZA_OFFER[1], "caveat": LAVAZZA_CAVEAT,
     }
     items = {
         "apple": item_dict(
