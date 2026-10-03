@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:17:56Z",
+  "read_at": "2026-10-03T23:21:32Z",
   "ship": [
    "Free shipping and easy returns.",
    "FREE shipping & easy returns"
@@ -15,6 +15,107 @@
  },
  "coupon_snippets": [],
  "final_url": "https://bearaby.com/products/base-body-pillow",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:17:56Z",
+    "ship": [
+     "Free shipping and easy returns.",
+     "FREE shipping & easy returns"
+    ],
+    "size": [
+     "Size: Medium (54\u2019\u2019)",
+     "Size Guide",
+     "SIZE GUIDE"
+    ],
+    "sub": [],
+    "url": "https://bearaby.com/products/base-body-pillow"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://bearaby.com/products/base-body-pillow",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "8",
+      "ratingValue": "4.9"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Bearaby"
+     },
+     "description": "A full-length ergonomic body pillow filled with GOLS-certified plant-based Melofoam\u2122. Available in 54&quot; and 75&quot; sizes, it molds to your body for tension-free support \u2014 ideal for side sleepers, pregnancy comfort, and back pain relief.",
+     "image": [
+      "https://bearaby.com/cdn/shop/files/Base-Included_54_cotton_grande.png?v=1776408479"
+     ],
+     "name": "Cuddler Base",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "checkoutPageURLTemplate": "https://bearaby.com/cart/add?id=45783847305402&quantity=1",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 365,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicySeasonalOverride": "https://bearaby.com/pages/returns-exchanges"
+      },
+      "name": "Cuddler Base Medium (54\u2019\u2019)",
+      "price": 169,
+      "priceCurrency": "USD",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": 169,
+       "priceCurrency": "USD",
+       "valueAddedTaxIncluded": true
+      },
+      "priceValidUntil": "2026-12-31",
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      "sku": "BPCW54",
+      "url": "https://bearabystore.myshopify.com/products/base-body-pillow?variant=45783847305402",
+      "validFrom": "2026-04-17"
+     },
+     "sku": "BPCW54"
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:17Z",
+   "og_image": "http://bearaby.com/cdn/shop/files/Softwood_54_linen.png?v=1776678213",
+   "page_sha256": "7378198be18c344111a584c265e53d05ae67d878ca661d51ec22d4fe0800dc8a",
+   "rendered_checked": true,
+   "title": "Body Pillow | Dream Spooning Partner for Side Sleepers | Cuddler"
+  }
+ ],
  "http_status": 200,
  "id": "bearaby-base-body-pillow",
  "image_file": "bearaby-base-body-pillow.png",
@@ -96,9 +197,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T14:50:17Z",
+ "observed_at": "2026-10-03T23:21:18Z",
  "og_image": "http://bearaby.com/cdn/shop/files/Softwood_54_linen.png?v=1776678213",
- "page_sha256": "7378198be18c344111a584c265e53d05ae67d878ca661d51ec22d4fe0800dc8a",
+ "page_sha256": "181f0790d4beafc41b573c4de38341195888e9693e9c2ad629a19b53e4bf19c6",
  "rendered_checked": true,
  "title": "Body Pillow | Dream Spooning Partner for Side Sleepers | Cuddler",
  "url": "https://www.bearaby.com/products/base-body-pillow"

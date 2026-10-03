@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:21:38Z",
+  "read_at": "2026-10-03T23:26:15Z",
   "ship": [
    "Shipping",
    "You\u2019re $50.00 away from free shipping!"
@@ -11,6 +11,84 @@
  },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:21:38Z",
+    "ship": [
+     "Shipping",
+     "You\u2019re $50.00 away from free shipping!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 355,
+      "ratingValue": "4.83"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Nomad Goods"
+     },
+     "color": "Brown",
+     "description": "The Leather Folio elevates your iPad with its sophisticated design and slim profile. It automatically wakes your iPad upon opening and puts it to sleep when closed. The Folio conveniently folds into multiple kickstand positions, making it perfect for viewing, reading, and FaceTiming. Crafted from full grain, sustainably sourced leather, it features a protective microfiber interior and attaches magnetically to your iPad for a secure fit. With its magnetic closure and Apple Pencil compatibility, this Folio is designed to enhance your iPad usage in style.",
+     "gtin12": "856500013404",
+     "image": [
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_A.jpg?v=1698685399",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_E.jpg?v=1698777130",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_C.jpg?v=1698777130",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_D.jpg?v=1698777130",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_G.jpg?v=1698685400",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_F.jpg?v=1698685399",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_H.jpg?v=1698685400",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_Bcopy.jpg?v=1698685400"
+     ],
+     "material": "Camino Leather",
+     "model": "Modern Folio",
+     "mpn": "124533114080",
+     "name": "Leather Folio",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "merchantReturnDays": 30,
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+       },
+       "price": 139,
+       "priceCurrency": "USD",
+       "seller": {
+        "@type": "Organization",
+        "name": "Nomad"
+       },
+       "sku": "124533114080",
+       "url": "https://nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch?Title=Default+Title"
+      }
+     ],
+     "sku": "124533114080",
+     "url": "https://nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch"
+    }
+   ],
+   "observed_at": "2026-10-03T14:52:08Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_A.jpg?v=1698685399&width=1280&height=630",
+   "page_sha256": "3c031464a17a6e5b97a257361db309d23086f50a431f2057f14ab6d5bc0cd4a4",
+   "rendered_checked": true,
+   "title": "Modern Folio - iPad Pro 12.9 inch - Brown | NOMAD"
+  }
+ ],
  "http_status": 200,
  "id": "nomadgoods-leather-folio-brown-ipad-pro-12-9-inch",
  "image_file": "nomadgoods-leather-folio-brown-ipad-pro-12-9-inch.jpg",
@@ -73,9 +151,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-03T14:52:08Z",
+ "observed_at": "2026-10-03T23:26:03Z",
  "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/856500013404_A.jpg?v=1698685399&width=1280&height=630",
- "page_sha256": "3c031464a17a6e5b97a257361db309d23086f50a431f2057f14ab6d5bc0cd4a4",
+ "page_sha256": "97232a11a84770191e892f4c860d22121326e66ebffcc7e26546afa3ed675d00",
  "rendered_checked": true,
  "title": "Modern Folio - iPad Pro 12.9 inch - Brown | NOMAD",
  "url": "https://www.nomadgoods.com/products/leather-folio-brown-ipad-pro-12-9-inch"

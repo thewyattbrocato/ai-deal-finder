@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:54Z",
+  "read_at": "2026-10-03T23:22:40Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,52 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/in-a-new-york-minute",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:54Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/in-a-new-york-minute"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/in-a-new-york-minute",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "In A New York Minute Set",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "70",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:56Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/glossier-newyorkminute--set-carousel-updated.png?v=1788374006",
+   "page_sha256": "b041c9ec64f7104d4bda7c459e6a75fbad89009b93ec407935636f971287da86",
+   "rendered_checked": true,
+   "title": "In A New York Minute Set \u2013 Glossier"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-in-a-new-york-minute",
  "image_file": "glossier-in-a-new-york-minute.png",
@@ -41,9 +87,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:50:56Z",
+ "observed_at": "2026-10-03T23:22:23Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/glossier-newyorkminute--set-carousel-updated.png?v=1788374006",
- "page_sha256": "b041c9ec64f7104d4bda7c459e6a75fbad89009b93ec407935636f971287da86",
+ "page_sha256": "6048428fe7d5c0b6637fd7758a273be88775661f52f6c41c2b92858edc028485",
  "rendered_checked": true,
  "title": "In A New York Minute Set \u2013 Glossier",
  "url": "https://www.glossier.com/products/in-a-new-york-minute"

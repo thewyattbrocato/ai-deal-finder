@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:17Z",
+  "read_at": "2026-10-03T23:19:05Z",
   "ship": [
    "Shipping + Delivery"
   ],
@@ -15,6 +15,84 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:17Z",
+    "ship": [
+     "Shipping + Delivery"
+    ],
+    "size": [
+     "Size: 10\" H x 3\" W."
+    ],
+    "sub": [
+     "SUBSCRIBE & SAVE",
+     "Subscription"
+    ],
+    "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Death Wish Coffee"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/",
+        "name": "Homepage",
+        "position": 1
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/collections/all-products",
+        "name": "All Products",
+        "position": 2
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle",
+        "name": "White Chocolate Pistachio Ground Bundle",
+        "position": 3
+       }
+      ]
+     },
+     "description": "Bold flavor meets on-the-go convenience.\nWhat's better than a mug-full of warm, toasted pistachio and sweet white chocolate? Pairing it with a 20oz Klean Kanteen wrapped in White Chocolate Pistachio flavor skulls so you can take your new favorite flavor wherever life might lead you.\nWhether you're chasing Fall foliage or just making it to the other side of a Monday, this limited-edition bundle promises to keep you fueled through it all.\n AVAILABLE EXCLUSIVELY AT DEATHWISHCOFFEE.COM\n*This product is excluded from the National Coffee Day sale.",
+     "image": [
+      "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_CoffeeBag_Front_Web.jpg?v=1790181531&width=1920"
+     ],
+     "name": "White Chocolate Pistachio Ground Bundle",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "name": "Default Title",
+       "price": 48.99,
+       "priceCurrency": "USD",
+       "sku": "LKWCPSKG26",
+       "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle?variant=50216336556087"
+      }
+     ],
+     "sku": "LKWCPSKG26",
+     "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle"
+    }
+   ],
+   "observed_at": "2026-10-03T14:49:52Z",
+   "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_CoffeeBag_Front_Web.jpg?v=1790181531",
+   "page_sha256": "17453f97f02a1111378a0d6c3a93ce46bb0b468e925927ebd5bd4a9d4dcccd00",
+   "rendered_checked": true,
+   "title": "White Chocolate Pistachio Ground Bundle \u2013 Death Wish Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "deathwishcoffee-white-chocolate-pistachio-ground-bundle",
  "image_file": "deathwishcoffee-white-chocolate-pistachio-ground-bundle.jpg",
@@ -73,9 +151,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-03T14:49:52Z",
+ "observed_at": "2026-10-03T23:18:51Z",
  "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_CoffeeBag_Front_Web.jpg?v=1790181531",
- "page_sha256": "17453f97f02a1111378a0d6c3a93ce46bb0b468e925927ebd5bd4a9d4dcccd00",
+ "page_sha256": "3235f6cf41ffe416d1594bfb79688b1f59b378335cffd0ca5a37ee00a22b1c36",
  "rendered_checked": true,
  "title": "White Chocolate Pistachio Ground Bundle \u2013 Death Wish Coffee",
  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-ground-bundle"

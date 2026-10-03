@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:23:49Z",
+  "read_at": "2026-10-03T23:25:32Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -16,6 +16,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-placemat",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:23:49Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [
+     "Pack Size:"
+    ],
+    "sub": [],
+    "url": "https://wildone.com/products/cat-placemat"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/cat-placemat",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Keep your floors clean with this non-slip silicone cat feeding mat. Designed with a raised edge to contain spills and messes, it provides a stable surface for food and water bowls. Made from food-safe, non-toxic materials, it\u2019s easy to clean and perfectly sized for two cat bowls.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_Lilac_PDP_02_4x5_Web.jpg?v=1777058339&width=1920"
+     ],
+     "name": "Cat Placemat",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 850067252726,
+       "price": 18.0,
+       "priceCurrency": "USD",
+       "sku": "WO-PLCM-CT-LIL",
+       "url": "https://wildone.com/products/cat-placemat?variant=45163407966403"
+      }
+     ],
+     "sku": "WO-PLCM-CT-LIL",
+     "url": "https://wildone.com/products/cat-placemat"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:51Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_Lilac_PDP_02_4x5_Web.jpg?v=1777058339",
+   "page_sha256": "85ec9e2c6b792a3f325914f494b8f9b70f1dcae58b1d763a6f696270427b191f",
+   "rendered_checked": true,
+   "title": "Cat Placemat \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-cat-placemat",
  "image_file": "wildone-cat-placemat.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:51Z",
+ "observed_at": "2026-10-03T23:25:18Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_Lilac_PDP_02_4x5_Web.jpg?v=1777058339",
- "page_sha256": "85ec9e2c6b792a3f325914f494b8f9b70f1dcae58b1d763a6f696270427b191f",
+ "page_sha256": "504bb667b1e06b497db4cd00df92074f9ac4e7bf8f041515c2bed1cb38a118f3",
  "rendered_checked": true,
  "title": "Cat Placemat \u2013 Wild One",
  "url": "https://www.wildone.com/products/cat-placemat"

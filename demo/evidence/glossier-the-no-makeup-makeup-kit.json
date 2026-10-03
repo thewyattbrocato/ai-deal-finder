@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:20:12Z",
+  "read_at": "2026-10-03T23:23:17Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,53 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/the-no-makeup-makeup-kit",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:20:12Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/the-no-makeup-makeup-kit"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/the-no-makeup-makeup-kit",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "description": "Save on three everyday icons with The No-Makeup Makeup Kit. It includes Lash Slick for long defined lashes. Boy Brow for soft, fluffy brows and Stretch Balm Concealer for medium dewy coverage.",
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "The No-Makeup Makeup Kit",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "54",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:02Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/glossier-nomakeupmakeup-carousel-01.png?v=1782223725",
+   "page_sha256": "c9bcc9a14e32d4fb8b22da511612c17aace8f8b3b460ce23670b98d2b8a08b8c",
+   "rendered_checked": true,
+   "title": "The No-Makeup Makeup Kit \u2013 Glossier"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-the-no-makeup-makeup-kit",
  "image_file": "glossier-the-no-makeup-makeup-kit.png",
@@ -42,9 +89,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:51:02Z",
+ "observed_at": "2026-10-03T23:23:00Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/glossier-nomakeupmakeup-carousel-01.png?v=1782223725",
- "page_sha256": "c9bcc9a14e32d4fb8b22da511612c17aace8f8b3b460ce23670b98d2b8a08b8c",
+ "page_sha256": "b685c4f43c252f19afcb13e8e91ed7432d16b709c1dee6cd71f17b216725582f",
  "rendered_checked": true,
  "title": "The No-Makeup Makeup Kit \u2013 Glossier",
  "url": "https://www.glossier.com/products/the-no-makeup-makeup-kit"

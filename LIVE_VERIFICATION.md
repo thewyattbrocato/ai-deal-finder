@@ -403,3 +403,33 @@ now print AS20, not CAFE20. The cards carry the 2026-10-03 observation; the
 2026-10-01 CAFE20 read is kept as dated history in
 `demo/evidence/lavazza/*.json`. Shelf prices were unchanged, no code was
 tried, and a seen code never lowers a price.
+
+## Hand-checked cards read again (2026-10-03, display only)
+
+Apple, Old Navy, Gap and Nike carried a price read from 2026-10-01 next to
+terms read 2026-10-02. All four pages were read again in a read-only,
+anonymous real-browser session (nothing added to a cart, no code tried).
+Each read is stored as a new dated observation in
+`demo/evidence/handcards/<card>.json`; the 2026-10-01 price read (OBS-8 to
+OBS-11) and the 2026-10-02 conditions read (T-ON, T-GAP, T-NIKE, T-APPLE
+above) stay in the same file as dated history. The cards and their terms show
+the 2026-10-03 observation.
+
+| ID | Source | Read at (UTC) | What the page printed now | Change from the earlier reads |
+| --- | --- | --- | --- | --- |
+| R-APPLE | `https://www.apple.com/airpods-pro/` | 2026-10-03T23:15:06Z | "AirPods Pro 3 … $249" with Buy link; "Choose two-hour delivery from an Apple Store, free delivery, or easy pickup options."; no promo, coupon or code text | none |
+| R-ON | `https://oldnavy.gap.com/browse/product.do?pid=777363182` | 2026-10-03T23:15:26Z | $25.00, was $36.99; "Extra 30% Off with Code: EXTRA"; banner "Fall Faves Up To 50% Off + Extra 30% Off Purchase … Code: EXTRA Exclusions apply."; sizes XS to 4X, none marked not selectable; "Free fast shipping on $50+ for Rewards Members" | none (code EXTRA still seen, never tried) |
+| R-GAP | `https://www.gap.com/browse/product.do?pid=800546212` | 2026-10-03T23:15:42Z | $79.95; "Extra 25% off your first purchase with your new card. Ends 10/3. Apply now", "Extra 50% off sale", "50–60% off limited-time deals"; no code; sizes XXS and XS selectable, S, M, L, XL, XXL not selectable; "Free fast shipping on $50+ for Rewards Members" | **sizes S and XL, selectable on 2026-10-02, are now not selectable**; price and offer texts unchanged |
+| R-NIKE | `https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002` | 2026-10-03T23:15:57Z | $87.97, "$155", "43% off"; banner "Up to 40% Off Select Styles" (no code); "Members: Free Shipping on Orders $50+"; "You'll see our shipping options at checkout."; same 21 sizes, W 10.5, W 11.5 and W 12 to W 15.5 not selectable | none |
+
+The Gap card's own credit-card line still prints "Ends 10/3"; it is shown as
+printed and is not a coupon for this item.
+
+Stored catalog pages read again the same day: every stored page already
+carried a 2026-10-03 observation, so "oldest" was taken by observation time
+among pages not yet re-read (no history entry). The 60 oldest (first collected
+2026-10-03T14:49Z to 15:10Z) were read again with `demo/catalog.py reread`
+(read-only GET, then the browser promo, shipping, subscribe and size pass).
+All 60 pages loaded; none changed in price, coupon text, shipping, subscribe or
+size lines, and none was removed or unreadable. Each earlier observation is
+kept in the record's `history`.

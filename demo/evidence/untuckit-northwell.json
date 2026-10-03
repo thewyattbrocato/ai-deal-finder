@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:23:10Z",
+  "read_at": "2026-10-03T23:23:47Z",
   "ship": [
    "Free Shipping On $110+ | Free U.S. Returns",
    "Add $110.00 For FREE SHIPPING!",
@@ -19,6 +19,1051 @@
   "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
  ],
  "final_url": "https://www.untuckit.com/products/northwell",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:23:10Z",
+    "ship": [
+     "Free Shipping On $110+ | Free U.S. Returns",
+     "Add $110.00 For FREE SHIPPING!",
+     "Free Shipping on orders $110+. Free Returns online and at 80+ stores within the US.",
+     "Shipping"
+    ],
+    "size": [
+     "Size & Fit Guide",
+     "SIZE",
+     "Size Chart"
+    ],
+    "sub": [],
+    "url": "https://www.untuckit.com/products/northwell"
+   },
+   "coupon_snippets": [
+    "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
+   ],
+   "final_url": "https://www.untuckit.com/products/northwell",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.untuckit.com/products/northwell#json-ld-for-seo",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "UNTUCKit"
+     },
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "hasVariant": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099757646#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405639491",
+       "gtin12": "193405639491",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405639491",
+       "name": "Vintage Wash Northwell Shirt Small / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099757646#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/OutOfStock",
+         "gtin": "193405639491",
+         "gtin12": "193405639491",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405639491",
+         "name": "Vintage Wash Northwell Shirt Small / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegSM",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099757646",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegSM",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099757646",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099790414#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405724852",
+       "gtin12": "193405724852",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405724852",
+       "name": "Vintage Wash Northwell Shirt Small / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099790414#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405724852",
+         "gtin12": "193405724852",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405724852",
+         "name": "Vintage Wash Northwell Shirt Small / Slim Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavSlmSM",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099790414",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavSlmSM",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099790414",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099823182#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405719018",
+       "gtin12": "193405719018",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405719018",
+       "name": "Vintage Wash Northwell Shirt Medium / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099823182#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405719018",
+         "gtin12": "193405719018",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405719018",
+         "name": "Vintage Wash Northwell Shirt Medium / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegMD",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099823182",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegMD",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099823182",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099855950#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405663014",
+       "gtin12": "193405663014",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405663014",
+       "name": "Vintage Wash Northwell Shirt Medium / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099855950#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405663014",
+         "gtin12": "193405663014",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405663014",
+         "name": "Vintage Wash Northwell Shirt Medium / Slim Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavSlmMD",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099855950",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavSlmMD",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099855950",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099888718#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405718998",
+       "gtin12": "193405718998",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405718998",
+       "name": "Vintage Wash Northwell Shirt Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099888718#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405718998",
+         "gtin12": "193405718998",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405718998",
+         "name": "Vintage Wash Northwell Shirt Large / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegLG",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099888718",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegLG",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099888718",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099921486#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405994682",
+       "gtin12": "193405994682",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405994682",
+       "name": "Vintage Wash Northwell Shirt Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099921486#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405994682",
+         "gtin12": "193405994682",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405994682",
+         "name": "Vintage Wash Northwell Shirt Large / Slim Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavSlmLG",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099921486",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavSlmLG",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099921486",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099954254#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405718974",
+       "gtin12": "193405718974",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405718974",
+       "name": "Vintage Wash Northwell Shirt X-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099954254#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405718974",
+         "gtin12": "193405718974",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405718974",
+         "name": "Vintage Wash Northwell Shirt X-Large / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegXL",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099954254",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099954254",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099987022#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405573894",
+       "gtin12": "193405573894",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405573894",
+       "name": "Vintage Wash Northwell Shirt X-Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445099987022#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405573894",
+         "gtin12": "193405573894",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405573894",
+         "name": "Vintage Wash Northwell Shirt X-Large / Slim Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavSlmXL",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445099987022",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavSlmXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099987022",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100019790#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405720045",
+       "gtin12": "193405720045",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720045",
+       "name": "Vintage Wash Northwell Shirt XX-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445100019790#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/OutOfStock",
+         "gtin": "193405720045",
+         "gtin12": "193405720045",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405720045",
+         "name": "Vintage Wash Northwell Shirt XX-Large / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegXXL",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445100019790",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100019790",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100052558#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405573870",
+       "gtin12": "193405573870",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405573870",
+       "name": "Vintage Wash Northwell Shirt XX-Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445100052558#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/OutOfStock",
+         "gtin": "193405573870",
+         "gtin12": "193405573870",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405573870",
+         "name": "Vintage Wash Northwell Shirt XX-Large / Slim Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavSlmXXL",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445100052558",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavSlmXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100052558",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100085326#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405724876",
+       "gtin12": "193405724876",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "inProductGroupWithID": "7828409548878",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405724876",
+       "name": "Vintage Wash Northwell Shirt XXX-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/northwell?variant=43445100085326#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/OutOfStock",
+         "gtin": "193405724876",
+         "gtin12": "193405724876",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405724876",
+         "name": "Vintage Wash Northwell Shirt XXX-Large / Regular Fit / Navy",
+         "price": "105.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42337NavRegXXXL",
+         "url": "https://www.untuckit.com/products/northwell?variant=43445100085326",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42337NavRegXXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100085326",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      }
+     ],
+     "image": [
+      "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-2.jpg?v=1771535074&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-3.jpg?v=1771535076&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-4.jpg?v=1771535074&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-5.jpg?v=1771535074&width=1667"
+     ],
+     "name": "Vintage Wash Northwell Shirt",
+     "productGroupID": "7828409548878",
+     "productID": "42337NavSlmSM",
+     "url": "https://www.untuckit.com/products/northwell"
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099757646#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405639491",
+     "gtin12": "193405639491",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405639491",
+     "name": "Vintage Wash Northwell Shirt Small / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099757646#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/OutOfStock",
+       "gtin": "193405639491",
+       "gtin12": "193405639491",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405639491",
+       "name": "Vintage Wash Northwell Shirt Small / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegSM",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099757646",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegSM",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099757646",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099790414#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405724852",
+     "gtin12": "193405724852",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405724852",
+     "name": "Vintage Wash Northwell Shirt Small / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099790414#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405724852",
+       "gtin12": "193405724852",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405724852",
+       "name": "Vintage Wash Northwell Shirt Small / Slim Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavSlmSM",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099790414",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavSlmSM",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099790414",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099823182#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405719018",
+     "gtin12": "193405719018",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405719018",
+     "name": "Vintage Wash Northwell Shirt Medium / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099823182#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405719018",
+       "gtin12": "193405719018",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405719018",
+       "name": "Vintage Wash Northwell Shirt Medium / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegMD",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099823182",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegMD",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099823182",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099855950#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405663014",
+     "gtin12": "193405663014",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405663014",
+     "name": "Vintage Wash Northwell Shirt Medium / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099855950#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405663014",
+       "gtin12": "193405663014",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405663014",
+       "name": "Vintage Wash Northwell Shirt Medium / Slim Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavSlmMD",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099855950",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavSlmMD",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099855950",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099888718#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405718998",
+     "gtin12": "193405718998",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405718998",
+     "name": "Vintage Wash Northwell Shirt Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099888718#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405718998",
+       "gtin12": "193405718998",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405718998",
+       "name": "Vintage Wash Northwell Shirt Large / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegLG",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099888718",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegLG",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099888718",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099921486#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405994682",
+     "gtin12": "193405994682",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405994682",
+     "name": "Vintage Wash Northwell Shirt Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099921486#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405994682",
+       "gtin12": "193405994682",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405994682",
+       "name": "Vintage Wash Northwell Shirt Large / Slim Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavSlmLG",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099921486",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavSlmLG",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099921486",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099954254#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405718974",
+     "gtin12": "193405718974",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405718974",
+     "name": "Vintage Wash Northwell Shirt X-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099954254#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405718974",
+       "gtin12": "193405718974",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405718974",
+       "name": "Vintage Wash Northwell Shirt X-Large / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099954254",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegXL",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099954254",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445099987022#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405573894",
+     "gtin12": "193405573894",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405573894",
+     "name": "Vintage Wash Northwell Shirt X-Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445099987022#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405573894",
+       "gtin12": "193405573894",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405573894",
+       "name": "Vintage Wash Northwell Shirt X-Large / Slim Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavSlmXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445099987022",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavSlmXL",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445099987022",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445100019790#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405720045",
+     "gtin12": "193405720045",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405720045",
+     "name": "Vintage Wash Northwell Shirt XX-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100019790#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/OutOfStock",
+       "gtin": "193405720045",
+       "gtin12": "193405720045",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720045",
+       "name": "Vintage Wash Northwell Shirt XX-Large / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100019790",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegXXL",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445100019790",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445100052558#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405573870",
+     "gtin12": "193405573870",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405573870",
+     "name": "Vintage Wash Northwell Shirt XX-Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100052558#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/OutOfStock",
+       "gtin": "193405573870",
+       "gtin12": "193405573870",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405573870",
+       "name": "Vintage Wash Northwell Shirt XX-Large / Slim Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavSlmXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100052558",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavSlmXXL",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445100052558",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/northwell?variant=43445100085326#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun microcheck pattern that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Button-down collar\n \u2022 Chest pocket\n \u2022 Navy signature sail\n \u2022 SKU #42337Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405724876",
+     "gtin12": "193405724876",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+     "inProductGroupWithID": "7828409548878",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405724876",
+     "name": "Vintage Wash Northwell Shirt XXX-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/northwell?variant=43445100085326#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/OutOfStock",
+       "gtin": "193405724876",
+       "gtin12": "193405724876",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1.jpg?v=1771535074&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405724876",
+       "name": "Vintage Wash Northwell Shirt XXX-Large / Regular Fit / Navy",
+       "price": "105.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42337NavRegXXXL",
+       "url": "https://www.untuckit.com/products/northwell?variant=43445100085326",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42337NavRegXXXL",
+     "url": "https://www.untuckit.com/products/northwell?variant=43445100085326",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:35Z",
+   "og_image": "//www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1_grande.jpg?v=1771535074",
+   "page_sha256": "26694161123bb67db5a7be7ddd3479a2350c7dd55986125dc4b97d0d216d557c",
+   "rendered_checked": true,
+   "title": "Vintage Wash Northwell Shirt Navy | UNTUCKit"
+  }
+ ],
  "http_status": 200,
  "id": "untuckit-northwell",
  "image_file": "untuckit-northwell.jpg",
@@ -1040,9 +2085,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-03T14:51:35Z",
+ "observed_at": "2026-10-03T23:23:33Z",
  "og_image": "//www.untuckit.com/cdn/shop/files/NORTHWELL-UNTUCKIT-42337Nav-VINTAGE-WASH-PINK-1_grande.jpg?v=1771535074",
- "page_sha256": "26694161123bb67db5a7be7ddd3479a2350c7dd55986125dc4b97d0d216d557c",
+ "page_sha256": "abb696676fb1ae65b724aafd092f24d2a2aa77ecaff44b7be281c75edd5fe5c5",
  "rendered_checked": true,
  "title": "Vintage Wash Northwell Shirt Navy | UNTUCKit",
  "url": "https://www.untuckit.com/products/northwell"

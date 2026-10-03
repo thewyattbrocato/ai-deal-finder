@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:30:51Z",
+  "read_at": "2026-10-03T23:33:26Z",
   "ship": [
    "Free Shipping US Orders $85+ Shop Best Sellers",
    "Free Shipping US Orders $85+",
@@ -14,6 +14,169 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.twelvesouth.com/products/powerbug-25w",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:30:51Z",
+    "ship": [
+     "Free Shipping US Orders $85+ Shop Best Sellers",
+     "Free Shipping US Orders $85+",
+     "FREE Shipping Over $85+ | 30-Day Returns",
+     "Shipping & Returns",
+     "Shipping Policy"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.twelvesouth.com/products/powerbug-25w"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.twelvesouth.com/products/powerbug-25w",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/powerbug-25w#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Twelve South"
+     },
+     "description": "PowerBug is a beautifully minimal way to wirelessly charge your iPhone while keeping it visible and in use, perfect for StandBy mode, FaceTime, streaming, and more. Snap your MagSafe or Qi2.2-compatible phone into place for effortless, hands-free charging. A built-in USB-C port can power a second device, all without the clutter. Sleek enough for your nightstand, kitchen, or vanity, PowerBug brings elegant charging to the places you use most.\n\nTransforms outlet into a charging dock\nUSB-C PD port with up to 35W fast charging and PPS support.\nSupports iOS StandBy mode, perfect for bedside or desk\nClean, compact design with foldable prongs (US Version)",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Dune_Hero_450x450.jpg?v=1752687477",
+     "mpn": "8420388208697",
+     "name": "PowerBug 25W (Qi2.2)",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Twelve South"
+      }
+     },
+     "url": "/products/powerbug-25w"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/powerbug-25w#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Twelve South"
+     },
+     "category": "Wireless Chargers",
+     "description": "PowerBug is a beautifully minimal way to wirelessly charge your iPhone while keeping it visible and in use, perfect for StandBy mode, FaceTime, streaming, and more. Snap your MagSafe or Qi2.2-compatible phone into place for effortless, hands-free charging. A built-in USB-C port can power a second device, all without the clutter. Sleek enough for your nightstand, kitchen, or vanity, PowerBug brings elegant charging to the places you use most.\n\nTransforms outlet into a charging dock\nUSB-C PD port with up to 35W fast charging and PPS support.\nSupports iOS StandBy mode, perfect for bedside or desk\nClean, compact design with foldable prongs (US Version)\n",
+     "hasVariant": [
+      {
+       "@id": "/products/powerbug-25w?variant=46441190424633#variant",
+       "@type": "Product",
+       "gtin": "20810189131136",
+       "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Dune_Hero.jpg?v=1752687477&width=1920",
+       "name": "PowerBug 25W (Qi2.2) - White/Dune",
+       "offers": {
+        "@id": "/products/powerbug-25w?variant=46441190424633#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441190424633"
+       },
+       "sku": "TS-26411"
+      },
+      {
+       "@id": "/products/powerbug-25w?variant=46441190457401#variant",
+       "@type": "Product",
+       "gtin": "20810189131143",
+       "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Slate_Hero_1200x1200_715cc766-2179-489f-bd85-d565f56e2e6a.jpg?v=1753190850&width=1920",
+       "name": "PowerBug 25W (Qi2.2) - Slate/Black",
+       "offers": {
+        "@id": "/products/powerbug-25w?variant=46441190457401#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441190457401"
+       },
+       "sku": "TS-26412"
+      },
+      {
+       "@id": "/products/powerbug-25w?variant=46441216016441#variant",
+       "@type": "Product",
+       "gtin": "20810189131150",
+       "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Teal_Hero_WebRes.png?v=1788524866&width=1920",
+       "name": "PowerBug 25W (Qi2.2) - Teal",
+       "offers": {
+        "@id": "/products/powerbug-25w?variant=46441216016441#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441216016441"
+       },
+       "sku": "TS-26413"
+      }
+     ],
+     "name": "PowerBug 25W (Qi2.2)",
+     "productGroupID": "8420388208697",
+     "url": "https://www.twelvesouth.com/products/powerbug-25w"
+    },
+    {
+     "@id": "/products/powerbug-25w?variant=46441190424633#variant",
+     "@type": "Product",
+     "gtin": "20810189131136",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Dune_Hero.jpg?v=1752687477&width=1920",
+     "name": "PowerBug 25W (Qi2.2) - White/Dune",
+     "offers": {
+      "@id": "/products/powerbug-25w?variant=46441190424633#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441190424633"
+     },
+     "sku": "TS-26411"
+    },
+    {
+     "@id": "/products/powerbug-25w?variant=46441190457401#variant",
+     "@type": "Product",
+     "gtin": "20810189131143",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Slate_Hero_1200x1200_715cc766-2179-489f-bd85-d565f56e2e6a.jpg?v=1753190850&width=1920",
+     "name": "PowerBug 25W (Qi2.2) - Slate/Black",
+     "offers": {
+      "@id": "/products/powerbug-25w?variant=46441190457401#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441190457401"
+     },
+     "sku": "TS-26412"
+    },
+    {
+     "@id": "/products/powerbug-25w?variant=46441216016441#variant",
+     "@type": "Product",
+     "gtin": "20810189131150",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Teal_Hero_WebRes.png?v=1788524866&width=1920",
+     "name": "PowerBug 25W (Qi2.2) - Teal",
+     "offers": {
+      "@id": "/products/powerbug-25w?variant=46441216016441#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.twelvesouth.com/products/powerbug-25w?variant=46441216016441"
+     },
+     "sku": "TS-26413"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:47Z",
+   "og_image": "http://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Dune_Hero.jpg?v=1752687477",
+   "page_sha256": "984758e6161a359affcbec02b484abdb01cf01554dab67a0ad3297c5fd2591be",
+   "rendered_checked": true,
+   "title": "PowerBug 25W (Qi2.2)"
+  }
+ ],
  "http_status": 200,
  "id": "twelvesouth-powerbug-25w",
  "image_file": "twelvesouth-powerbug-25w.jpg",
@@ -158,9 +321,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-03T15:09:47Z",
+ "observed_at": "2026-10-03T23:33:13Z",
  "og_image": "http://www.twelvesouth.com/cdn/shop/files/TS_PowerBug_US_Dune_Hero.jpg?v=1752687477",
- "page_sha256": "984758e6161a359affcbec02b484abdb01cf01554dab67a0ad3297c5fd2591be",
+ "page_sha256": "ee42a0d74ed57f96df44e787f0479555af0c9c9d3b128e7447fd2bcd825becd7",
  "rendered_checked": true,
  "title": "PowerBug 25W (Qi2.2)",
  "url": "https://twelvesouth.com/products/powerbug-25w"

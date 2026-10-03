@@ -1,0 +1,223 @@
+{
+ "id": "nike",
+ "name": "Air Jordan OG Women's Shoes",
+ "page_url": "https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002",
+ "seller": "Nike",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-01T19:50:41Z",
+   "shelf_price": 87.97,
+   "was_price": 155.0,
+   "offer_texts": [],
+   "sizes": [],
+   "shipping": [
+    "Members: Free Shipping on Orders $50+",
+    "You'll see our shipping options at checkout."
+   ],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md OBS-10"
+  },
+  {
+   "observed_at": "2026-10-02T22:13:55Z",
+   "shelf_price": null,
+   "was_price": null,
+   "offer_texts": [],
+   "sizes": [
+    [
+     "W 5 / M 3.5",
+     true
+    ],
+    [
+     "W 5.5 / M 4",
+     true
+    ],
+    [
+     "W 6 / M 4.5",
+     true
+    ],
+    [
+     "W 6.5 / M 5",
+     true
+    ],
+    [
+     "W 7 / M 5.5",
+     true
+    ],
+    [
+     "W 7.5 / M 6",
+     true
+    ],
+    [
+     "W 8 / M 6.5",
+     true
+    ],
+    [
+     "W 8.5 / M 7",
+     true
+    ],
+    [
+     "W 9 / M 7.5",
+     true
+    ],
+    [
+     "W 9.5 / M 8",
+     true
+    ],
+    [
+     "W 10 / M 8.5",
+     true
+    ],
+    [
+     "W 10.5 / M 9",
+     false
+    ],
+    [
+     "W 11 / M 9.5",
+     true
+    ],
+    [
+     "W 11.5 / M 10",
+     false
+    ],
+    [
+     "W 12 / M 10.5",
+     false
+    ],
+    [
+     "W 12.5 / M 11",
+     false
+    ],
+    [
+     "W 13 / M 11.5",
+     false
+    ],
+    [
+     "W 13.5 / M 12",
+     false
+    ],
+    [
+     "W 14 / M 12.5",
+     false
+    ],
+    [
+     "W 14.5 / M 13",
+     false
+    ],
+    [
+     "W 15.5 / M 14",
+     false
+    ]
+   ],
+   "shipping": [
+    "Members: Free Shipping on Orders $50+",
+    "You'll see our shipping options at checkout."
+   ],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md T-NIKE"
+  },
+  {
+   "observed_at": "2026-10-03T23:15:57Z",
+   "shelf_price": 87.97,
+   "was_price": 155.0,
+   "offer_texts": [
+    "Up to 40% Off Select Styles (site banner; no code printed)",
+    "43% off"
+   ],
+   "code_tried": false,
+   "sizes": [
+    [
+     "W 5 / M 3.5",
+     true
+    ],
+    [
+     "W 5.5 / M 4",
+     true
+    ],
+    [
+     "W 6 / M 4.5",
+     true
+    ],
+    [
+     "W 6.5 / M 5",
+     true
+    ],
+    [
+     "W 7 / M 5.5",
+     true
+    ],
+    [
+     "W 7.5 / M 6",
+     true
+    ],
+    [
+     "W 8 / M 6.5",
+     true
+    ],
+    [
+     "W 8.5 / M 7",
+     true
+    ],
+    [
+     "W 9 / M 7.5",
+     true
+    ],
+    [
+     "W 9.5 / M 8",
+     true
+    ],
+    [
+     "W 10 / M 8.5",
+     true
+    ],
+    [
+     "W 10.5 / M 9",
+     false
+    ],
+    [
+     "W 11 / M 9.5",
+     true
+    ],
+    [
+     "W 11.5 / M 10",
+     false
+    ],
+    [
+     "W 12 / M 10.5",
+     false
+    ],
+    [
+     "W 12.5 / M 11",
+     false
+    ],
+    [
+     "W 13 / M 11.5",
+     false
+    ],
+    [
+     "W 13.5 / M 12",
+     false
+    ],
+    [
+     "W 14 / M 12.5",
+     false
+    ],
+    [
+     "W 14.5 / M 13",
+     false
+    ],
+    [
+     "W 15.5 / M 14",
+     false
+    ]
+   ],
+   "shipping": [
+    "Members: Free Shipping on Orders $50+",
+    "You'll see our shipping options at checkout."
+   ],
+   "subscribe": [],
+   "source": "live page, this re-read (unchanged)"
+  }
+ ]
+}

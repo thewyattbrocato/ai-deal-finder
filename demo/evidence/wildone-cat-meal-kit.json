@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:23:42Z",
+  "read_at": "2026-10-03T23:24:46Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -14,6 +14,63 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-meal-kit",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:23:42Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://wildone.com/products/cat-meal-kit"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/cat-meal-kit",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 4,
+      "ratingValue": "5.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Upgrade your cat\u2019s mealtime routine with this all-in-one cat feeding kit, featuring a slanted stainless steel cat bowl, silicone slow feeder, and non-slip placemat. Designed to support healthier eating habits, reduce whisker fatigue, and keep floors clean, this feeding set combines comfort, functionality, and modern design. The slow feeder encourages a slower pace for improved digestion, while the raised-edge placemat contains spills and the non-slip base keeps everything securely in place. Made with food-safe, easy-to-clean materials\u2014perfect for everyday feeding.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_SlowFeeder_SlantedBowl_Lilac_PDP_02_4x5_Web_07b2b354-663d-4f74-ad38-0245f1027614.jpg?v=1777076981&width=1920"
+     ],
+     "name": "Cat Meal Kit",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 43.0,
+       "priceCurrency": "USD",
+       "sku": "XWO-CAT-MEAL-KIT",
+       "url": "https://wildone.com/products/cat-meal-kit?variant=45163412029635"
+      }
+     ],
+     "sku": "XWO-CAT-MEAL-KIT",
+     "url": "https://wildone.com/products/cat-meal-kit"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:44Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_SlowFeeder_SlantedBowl_Lilac_PDP_02_4x5_Web_07b2b354-663d-4f74-ad38-0245f1027614.jpg?v=1777076981",
+   "page_sha256": "c3bf278a02ccfcbbc85aaa588cc143f7a2b226af64f0449dc9a4d528030be5ec",
+   "rendered_checked": true,
+   "title": "Cat Meal Kit \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-cat-meal-kit",
  "image_file": "wildone-cat-meal-kit.jpg",
@@ -52,9 +109,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:44Z",
+ "observed_at": "2026-10-03T23:24:31Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_Placemat_SlowFeeder_SlantedBowl_Lilac_PDP_02_4x5_Web_07b2b354-663d-4f74-ad38-0245f1027614.jpg?v=1777076981",
- "page_sha256": "c3bf278a02ccfcbbc85aaa588cc143f7a2b226af64f0449dc9a4d528030be5ec",
+ "page_sha256": "cb4d804691570cdba7b607bc6075a9ec134b999193417e53cea3a7e0aba41845",
  "rendered_checked": true,
  "title": "Cat Meal Kit \u2013 Wild One",
  "url": "https://www.wildone.com/products/cat-meal-kit"

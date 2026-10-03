@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:26:37Z",
+  "read_at": "2026-10-03T23:29:02Z",
   "ship": [
    "Free shipping $100+, 30-day trial, free returns",
    "Free shipping on orders over $100",
@@ -17,6 +17,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://greatjonesgoods.com/products/big-chill-single",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:26:37Z",
+    "ship": [
+     "Free shipping $100+, 30-day trial, free returns",
+     "Free shipping on orders over $100",
+     "FREE standard US shipping for orders over $100",
+     "Shipping, Return, & Discount Policy",
+     "TermsShipping PolicyCareersPrivacy",
+     "You're $100.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe to save!"
+    ],
+    "url": "https://greatjonesgoods.com/products/big-chill-single"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://greatjonesgoods.com/products/big-chill-single",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "5"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Great Jones"
+     },
+     "description": "Cool off with Big Chill \u2014 a cooling rack that\u2019s perfectly sized for Holy Sheet (and all other half-sized sheet pans). Made from the same nonstick technology ...",
+     "image": [
+      "//greatjonesgoods.com/cdn/shop/files/1_0ead424c-68ee-404a-85e0-4f650e67acbb.png?v=1762445107&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/2_2b5de7cb-d023-4803-8325-6eecebf131d4.png?v=1724685417&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/3_b29ba3ab-5ae9-42ec-86c0-82296159ce7b.png?v=1724685419&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/4_01289179-38a7-4fbb-9415-30a1bc23967d.png?v=1724685418&width=1200"
+     ],
+     "name": "Big Chill",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "25.00",
+      "priceCurrency": "USD",
+      "url": "https://greatjonesgoods.com/products/big-chill-single"
+     },
+     "sku": "BW-CRK-BL-01"
+    }
+   ],
+   "observed_at": "2026-10-03T15:08:12Z",
+   "og_image": "http://greatjonesgoods.com/cdn/shop/files/1_0ead424c-68ee-404a-85e0-4f650e67acbb_1024x1024.png?v=1762445107",
+   "page_sha256": "bf49c451bcef0ef72a30a9797b3706ee1c220df45e34b1ccd7a73f181fe478c2",
+   "rendered_checked": true,
+   "title": "Big Chill | Great Jones"
+  }
+ ],
  "http_status": 200,
  "id": "greatjones-big-chill-single",
  "image_file": "greatjones-big-chill-single.png",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-03T15:08:12Z",
+ "observed_at": "2026-10-03T23:28:48Z",
  "og_image": "http://greatjonesgoods.com/cdn/shop/files/1_0ead424c-68ee-404a-85e0-4f650e67acbb_1024x1024.png?v=1762445107",
- "page_sha256": "bf49c451bcef0ef72a30a9797b3706ee1c220df45e34b1ccd7a73f181fe478c2",
+ "page_sha256": "845bb242eb4fa5b1af752cb1909f0da9814e45cdbe324ab40f05938b26028ea7",
  "rendered_checked": true,
  "title": "Big Chill | Great Jones",
  "url": "https://greatjonesgoods.com/products/big-chill-single"

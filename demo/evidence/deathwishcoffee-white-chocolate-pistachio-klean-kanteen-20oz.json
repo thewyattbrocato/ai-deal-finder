@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:26Z",
+  "read_at": "2026-10-03T23:18:50Z",
   "ship": [
    "Shipping + Delivery"
   ],
@@ -15,6 +15,84 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:26Z",
+    "ship": [
+     "Shipping + Delivery"
+    ],
+    "size": [
+     "Size: 10\" H x 3\" W."
+    ],
+    "sub": [
+     "SUBSCRIBE & SAVE",
+     "Subscription"
+    ],
+    "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Klean Kanteen"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/",
+        "name": "Homepage",
+        "position": 1
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/collections/all-products",
+        "name": "All Products",
+        "position": 2
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz",
+        "name": "White Chocolate Pistachio Klean Kanteen (20oz)",
+        "position": 3
+       }
+      ]
+     },
+     "description": "Sweet on the outside, strong all the way through.\nWhether you're chasing Fall foliage or just making it to the other side of a Monday, this limited-edition Klean Kanteen is built to keep 20oz of your favorite brews piping hot or ice cold for hours.\nWrapped in white chocolate skulls and pistachio-green detail, it's the perfect way to carry the creamy, decadent flavor of White Chocolate Pistachio (or any of our other bold brews) wherever life takes you.\n AVAILABLE EXCLUSIVELY AT DEATHWISHCOFFEE.COM",
+     "image": [
+      "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_Front_Web.jpg?v=1790181717&width=1920"
+     ],
+     "name": "White Chocolate Pistachio Klean Kanteen (20oz)",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "name": "Default Title",
+       "price": 40.0,
+       "priceCurrency": "USD",
+       "sku": "UKWHCP26",
+       "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz?variant=42349075562551"
+      }
+     ],
+     "sku": "UKWHCP26",
+     "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz"
+    }
+   ],
+   "observed_at": "2026-10-03T14:49:48Z",
+   "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_Front_Web.jpg?v=1790181717",
+   "page_sha256": "85d146fa36a9122f611d1d764efa59b28017cc50757c0e3956d95cddf928dc00",
+   "rendered_checked": true,
+   "title": "White Chocolate Pistachio Klean Kanteen (20oz) \u2013 Death Wish Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "deathwishcoffee-white-chocolate-pistachio-klean-kanteen-20oz",
  "image_file": "deathwishcoffee-white-chocolate-pistachio-klean-kanteen-20oz.jpg",
@@ -73,9 +151,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-03T14:49:48Z",
+ "observed_at": "2026-10-03T23:18:33Z",
  "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_September2026_Product_Pistachio_KleanKanteen_Front_Web.jpg?v=1790181717",
- "page_sha256": "85d146fa36a9122f611d1d764efa59b28017cc50757c0e3956d95cddf928dc00",
+ "page_sha256": "c9f4bc98b5e7d81adea32c320e0eedab8c21995012eeecb47edbf45dec111576",
  "rendered_checked": true,
  "title": "White Chocolate Pistachio Klean Kanteen (20oz) \u2013 Death Wish Coffee",
  "url": "https://www.deathwishcoffee.com/products/white-chocolate-pistachio-klean-kanteen-20oz"

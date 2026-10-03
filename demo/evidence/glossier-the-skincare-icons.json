@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:20:20Z",
+  "read_at": "2026-10-03T23:22:21Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,53 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/the-skincare-icons",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:20:20Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/the-skincare-icons"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/the-skincare-icons",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "description": "US",
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "The Skincare Icons",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "72",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:53Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/glossier-the-skincare-icons-carousel-01.png?v=1784297003",
+   "page_sha256": "5f0a45e79ece2ec3122be3ac1cc59f4a5573a7db91214772ec1bf6b40adf368e",
+   "rendered_checked": true,
+   "title": "The Skincare Icons \u2013 Glossier"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-the-skincare-icons",
  "image_file": "glossier-the-skincare-icons.png",
@@ -42,9 +89,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:50:53Z",
+ "observed_at": "2026-10-03T23:22:07Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/glossier-the-skincare-icons-carousel-01.png?v=1784297003",
- "page_sha256": "5f0a45e79ece2ec3122be3ac1cc59f4a5573a7db91214772ec1bf6b40adf368e",
+ "page_sha256": "ca4da4fdeb5407761f1e09e5f2ce3aa85b427fefe5a7509b851a1033d726c49d",
  "rendered_checked": true,
  "title": "The Skincare Icons \u2013 Glossier",
  "url": "https://www.glossier.com/products/the-skincare-icons"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:29:07Z",
+  "read_at": "2026-10-03T23:32:05Z",
   "ship": [
    "Shipping & Returns",
    "FREE STANDARD SHIPPING W/ $50 ORDER."
@@ -13,6 +13,67 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.rarebeauty.com/products/luminous-faves-lip-duo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:29:07Z",
+    "ship": [
+     "Shipping & Returns",
+     "FREE STANDARD SHIPPING W/ $50 ORDER."
+    ],
+    "size": [],
+    "sub": [
+     "By entering your email address and clicking \u201cJoin Us\u201d you agree to receive marketing email messages from Rare Beauty at the email address provided. Unsubscribe at any time. View our Privacy Policy & Terms of Service."
+    ],
+    "url": "https://www.rarebeauty.com/products/luminous-faves-lip-duo"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.rarebeauty.com/products/luminous-faves-lip-duo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.rarebeauty.com/products/luminous-faves-lip-duo",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Rare Beauty"
+     },
+     "description": "Define your shine with plush, prismatic lips that drip in shimmer. This full-size duo features a creamy, waterproof Kind Words Matte Lip Liner in Lovely (warm mauve) and Positive Light Luminizing Lip Gloss in new, exclusive shade Flash (sheer champagne with gold, pink, and silver pearl).\u00a0\u00a0",
+     "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-LUMINOUS-FAVES-01.jpg?v=1788549086&width=1024",
+     "mpn": "FGPKIT0026F1",
+     "name": "Luminous Faves Lip Duo",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "checkoutPageURLTemplate": "https://www.rarebeauty.com/cart/add?id=45392594305159&quantity=1",
+       "gtin12": "840122910340",
+       "image": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-LUMINOUS-FAVES-01.jpg?v=1788549086&width=1024",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "FGPKIT0026F1",
+       "price": "23.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-03",
+       "seller": {
+        "@type": "Organization",
+        "name": "Rare Beauty"
+       },
+       "sku": "FGPKIT0026F1",
+       "url": "https://www.rarebeauty.com/products/luminous-faves-lip-duo?variant=45392594305159"
+      }
+     ],
+     "sku": "FGPKIT0026F1",
+     "url": "https://www.rarebeauty.com/products/luminous-faves-lip-duo"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:20Z",
+   "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-LUMINOUS-FAVES-01.jpg?format=pjpg&v=1788549086&width=1440",
+   "page_sha256": "65c13c2592bdb60b391001132e8e3b9984a9635233fe247b247e47bd166eb098",
+   "rendered_checked": true,
+   "title": "Luminous Faves Lip Duo"
+  }
+ ],
  "http_status": 200,
  "id": "rarebeauty-luminous-faves-lip-duo",
  "image_file": "rarebeauty-luminous-faves-lip-duo.jpg",
@@ -23,6 +84,11 @@
    "@context": "https://schema.org",
    "@id": "https://www.rarebeauty.com/products/luminous-faves-lip-duo",
    "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "1",
+    "ratingValue": "5.0"
+   },
    "brand": {
     "@type": "Brand",
     "name": "Rare Beauty"
@@ -56,9 +122,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T15:09:20Z",
+ "observed_at": "2026-10-03T23:31:51Z",
  "og_image": "http://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-LUMINOUS-FAVES-01.jpg?format=pjpg&v=1788549086&width=1440",
- "page_sha256": "65c13c2592bdb60b391001132e8e3b9984a9635233fe247b247e47bd166eb098",
+ "page_sha256": "890952c9ea7fd0ecef8228b520493e20423c9dde99cc86590274f33a7f929a86",
  "rendered_checked": true,
  "title": "Luminous Faves Lip Duo",
  "url": "https://rarebeauty.com/products/luminous-faves-lip-duo"

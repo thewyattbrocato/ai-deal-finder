@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:25:57Z",
+  "read_at": "2026-10-03T23:33:54Z",
   "ship": [
    "Shipping"
   ],
@@ -12,6 +12,55 @@
  },
  "coupon_snippets": [],
  "final_url": "https://baronfig.com/products/planner-2026",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:25:57Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "By entering your email and clicking below, you agree to our Terms of Use and acknowledge our Privacy Policy. Unsubscribe at any time."
+    ],
+    "url": "https://baronfig.com/products/planner-2026"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://baronfig.com/products/planner-2026",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/planner-2026#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Baronfig"
+     },
+     "category": "Calendars, Organizers & Planners",
+     "description": "One year. One book. Make every day count. Use it as a datebook, task manager, or daily journal. Includes a year overview, month at-a-glance, and day/week view calendar, plus a dot grid notes section in the back.\nClothbound and threadbound in our signature Confidant form, Planner 2026 opens flat for ease and durability. Balanced proportions, fine-grain 90gsm paper, and a single cloth bookmark make it a tool of precision, designed to be carried, marked, and kept.\n",
+     "gtin": "810106032696",
+     "image": "https://baronfig.com/cdn/shop/files/planner-2026_buy-variant_01.jpg?v=1755628395&width=1920",
+     "name": "Planner 2026",
+     "offers": {
+      "@id": "/products/planner-2026?variant=42619932344403#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "8.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/planner-2026?variant=42619932344403"
+     },
+     "sku": "cf-plan26",
+     "url": "https://baronfig.com/products/planner-2026"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:56Z",
+   "og_image": "http://baronfig.com/cdn/shop/files/planner-2026_buy-variant_01.jpg?v=1755628395",
+   "page_sha256": "9116b37e6a6bd3d06e6b617e8c382ebe60fa17b386f823f19816daad8f9d1e91",
+   "rendered_checked": true,
+   "title": "Planner 2026 \u2013 Baronfig"
+  }
+ ],
  "http_status": 200,
  "id": "baronfig-planner-2026",
  "image_file": "baronfig-planner-2026.jpg",
@@ -44,9 +93,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-03T15:09:56Z",
+ "observed_at": "2026-10-03T23:33:42Z",
  "og_image": "http://baronfig.com/cdn/shop/files/planner-2026_buy-variant_01.jpg?v=1755628395",
- "page_sha256": "9116b37e6a6bd3d06e6b617e8c382ebe60fa17b386f823f19816daad8f9d1e91",
+ "page_sha256": "3902114ff95413f465cbbf8b4c37c27c2a063d8c594e6325f650866571b38a8f",
  "rendered_checked": true,
  "title": "Planner 2026 \u2013 Baronfig",
  "url": "https://baronfig.com/products/planner-2026"

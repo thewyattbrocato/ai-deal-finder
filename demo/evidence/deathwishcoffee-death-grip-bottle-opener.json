@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:01Z",
+  "read_at": "2026-10-03T23:19:36Z",
   "ship": [
    "Shipping + Delivery"
   ],
@@ -13,6 +13,82 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:01Z",
+    "ship": [
+     "Shipping + Delivery"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE & SAVE",
+     "Subscription"
+    ],
+    "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "BAMKO"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/",
+        "name": "Homepage",
+        "position": 1
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/collections/accessories",
+        "name": "Accessories",
+        "position": 2
+       },
+       {
+        "@type": "ListItem",
+        "item": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+        "name": "Death Grip Bottle Opener",
+        "position": 3
+       }
+      ]
+     },
+     "description": "To the window...\nTo literally any wall you can think of. Perfect for any basement bar, man cave or she-shed, you won't have to dig through your junk drawer to find this limited edition wall mount bottle opener.\nCrack open a cold one, kick up your feet and add interior designer to your r\u00e9sum\u00e9 while you're at it.",
+     "image": [
+      "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BottleOpener_Front2_Web.jpg?v=1741809353&width=1920"
+     ],
+     "name": "Death Grip Bottle Opener",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "name": "Default Title",
+       "price": 8.0,
+       "priceCurrency": "USD",
+       "sku": "UWMDWC25",
+       "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener?variant=41524646871095"
+      }
+     ],
+     "sku": "UWMDWC25",
+     "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener"
+    }
+   ],
+   "observed_at": "2026-10-03T14:49:55Z",
+   "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BottleOpener_Front2_Web.jpg?v=1741809353",
+   "page_sha256": "fcaacd6810dd94e794b1b2d50d962b5d2236fd050114038a0a2c829cb3c5b529",
+   "rendered_checked": true,
+   "title": "Death Grip Bottle Opener \u2013 Death Wish Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "deathwishcoffee-death-grip-bottle-opener",
  "image_file": "deathwishcoffee-death-grip-bottle-opener.jpg",
@@ -71,9 +147,9 @@
   }
  ],
  "kind": "Accessories",
- "observed_at": "2026-10-03T14:49:55Z",
+ "observed_at": "2026-10-03T23:19:22Z",
  "og_image": "http://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BottleOpener_Front2_Web.jpg?v=1741809353",
- "page_sha256": "fcaacd6810dd94e794b1b2d50d962b5d2236fd050114038a0a2c829cb3c5b529",
+ "page_sha256": "3ec17888106b25afe9e548cc6f0754fe9f93c594b75bb1a3ed26a1166c9518e3",
  "rendered_checked": true,
  "title": "Death Grip Bottle Opener \u2013 Death Wish Coffee",
  "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener"

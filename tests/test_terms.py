@@ -163,7 +163,46 @@ class HandTermsTest(unittest.TestCase):
         for key, t in terms.HAND.items():
             url, when = t["src"]
             self.assertTrue(url.startswith("https://"), key)
-            self.assertTrue(when.startswith("2026-10-02T"), key)
+            self.assertTrue(when.startswith(("2026-10-02T", "2026-10-03T")), key)
+
+    def test_hand_cards_carry_the_2026_10_03_observation_and_keep_history(self):
+        import json
+        with open(os.path.join(ROOT, "demo", "index.html"), encoding="utf-8") as f:
+            page = f.read()
+        first_seen = {"apple": "2026-10-01T19:50:52Z",
+                      "oldnavy": "2026-10-01T19:50:21Z",
+                      "gap": "2026-10-01T19:50:30Z",
+                      "nike": "2026-10-01T19:50:41Z"}
+        prices = {"apple": 249.0, "oldnavy": 25.0, "gap": 79.95, "nike": 87.97}
+        for slug, first in first_seen.items():
+            rec = terms.handcard_record(slug)
+            obs = rec["observations"]
+            # the earlier price read and the 2026-10-02 conditions read stay
+            self.assertEqual(obs[0]["observed_at"], first, slug)
+            self.assertEqual(obs[1]["observed_at"][:10], "2026-10-02", slug)
+            latest = obs[-1]
+            self.assertEqual(latest["observed_at"][:10], "2026-10-03", slug)
+            self.assertEqual(latest["shelf_price"], prices[slug], slug)
+            self.assertFalse(latest.get("code_tried", False), slug)
+            # the card's "Checked" stamp and the terms source are that read
+            self.assertEqual(terms.HAND[slug]["src"][1], latest["observed_at"], slug)
+            self.assertIn(rec["page_url"], page, slug)
+            self.assertIn(latest["observed_at"], page, slug)
+            self.assertNotIn(first, page, slug)
+            # sizes and shipping on the card are what the latest read printed
+            if latest["sizes"]:
+                self.assertEqual(
+                    [(s["k"], s["ok"]) for s in terms.HAND[slug]["sizes"]],
+                    [(k, ok) for k, ok in latest["sizes"]], slug)
+        # Gap: S and XL were selectable on 2026-10-02 and are not now
+        gap = terms.handcard_record("gap")["observations"]
+        self.assertEqual([k for k, ok in gap[1]["sizes"] if ok],
+                         ["XXS", "XS", "S", "XL"])
+        self.assertEqual([k for k, ok in gap[-1]["sizes"] if ok], ["XXS", "XS"])
+        # a code seen is recorded as seen; no hand card has a code tried
+        on = terms.handcard_record("oldnavy")["observations"][-1]
+        self.assertTrue(any("Code: EXTRA" in x for x in on["offer_texts"]))
+        self.assertFalse(on["code_tried"])
 
     def test_subscribe_prices_are_printed_ones_never_computed(self):
         for key, t in terms.HAND.items():
