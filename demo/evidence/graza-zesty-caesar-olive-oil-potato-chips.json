@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:00:30Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Manage Subscription"
+  ],
+  "url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.graza.co/products/zesty-caesar-olive-oil-potato-chips",
  "http_status": 200,

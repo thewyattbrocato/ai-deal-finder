@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:10:27Z",
+  "ship": [
+   "Free Shipping Over $50",
+   "Edit Your Shipping Zip Code"
+  ],
+  "size": [
+   "Size: 30 OZ"
+  ],
+  "sub": [
+   "SUBSCRIBE",
+   "Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). Privacy Policy & Terms."
+  ],
+  "url": "https://www.stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate%E2%84%A2-tumbler-30-oz"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate%E2%84%A2-tumbler-30-oz",
  "http_status": 200,

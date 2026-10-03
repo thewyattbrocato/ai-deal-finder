@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:57:14Z",
+  "ship": [
+   "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+   "Shipping Information"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr"
+ },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr",
  "http_status": 200,

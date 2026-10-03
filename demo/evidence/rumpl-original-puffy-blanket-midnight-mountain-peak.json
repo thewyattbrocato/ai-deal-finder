@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:07:34Z",
+  "ship": [
+   "Free Shipping $75+ | 60-Day Guarantee",
+   "Is my order eligible for free shipping?"
+  ],
+  "size": [
+   "Size",
+   "Size Guide"
+  ],
+  "sub": [
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak",
  "http_status": 200,

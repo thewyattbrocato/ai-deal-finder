@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:10:17Z",
+  "ship": [
+   "Free Shipping Over $50",
+   "Edit Your Shipping Zip Code"
+  ],
+  "size": [
+   "Size: 40 OZ"
+  ],
+  "sub": [
+   "SUBSCRIBE",
+   "Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). Privacy Policy & Terms."
+  ],
+  "url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.stanley1913.com/products/halloween-quencher-protour-flip-straw-tumbler-40-oz-tts",
  "http_status": 200,

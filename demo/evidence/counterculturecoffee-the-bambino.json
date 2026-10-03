@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:54:46Z",
+  "ship": [
+   "Free shipping on $30 & up!",
+   "Free shipping on $30 and up!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription,",
+   "Special Offer! Buy one Bambino and get the first order free on a Blend Box subscription using code: Probarista (must add both to cart)",
+   "Subscriptions",
+   "Gift Subscriptions"
+  ],
+  "url": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2"
+ },
  "coupon_snippets": [],
  "final_url": "https://counterculturecoffee.com/products/the-bambino%E2%84%A2",
  "http_status": 200,

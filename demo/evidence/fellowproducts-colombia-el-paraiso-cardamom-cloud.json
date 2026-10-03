@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:56:29Z",
+  "ship": [
+   "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+   "Shipping Information"
+  ],
+  "size": [
+   "Size"
+  ],
+  "sub": [],
+  "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud"
+ },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud",
  "http_status": 200,

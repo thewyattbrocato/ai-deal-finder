@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:03:12Z",
+  "ship": [
+   "Free shipping on $150+",
+   "SHIPPING & RETURNS",
+   "Shipping policy",
+   "You are $150.00 away from Free Shipping!"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE TO OUR EMAILS",
+   "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
+  ],
+  "url": "https://nisolo.com/products/shoe-charm-terracotta-gold"
+ },
  "coupon_snippets": [],
  "final_url": "https://nisolo.com/products/shoe-charm-terracotta-gold",
  "http_status": 200,

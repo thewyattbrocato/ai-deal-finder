@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:54:40Z",
+  "ship": [
+   "Free shipping on $30 & up!",
+   "Free shipping on $30 and up!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription,",
+   "Subscriptions",
+   "Gift Subscriptions"
+  ],
+  "url": "https://counterculturecoffee.com/products/finca-el-puente-honey"
+ },
  "coupon_snippets": [],
  "final_url": "https://counterculturecoffee.com/products/finca-el-puente-honey",
  "http_status": 200,

@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:55:35Z",
+  "ship": [
+   "$3.99 flat rate shipping \u2022 Orders $50+ ship FREE",
+   "Spend $50.00 or subscribe to unlock FREE shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Manage Subscriptions",
+   "Spend $50.00 or subscribe to unlock FREE shipping"
+  ],
+  "url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle"
+ },
  "coupon_snippets": [],
  "final_url": "https://drinkolipop.com/products/caramel-apple-crisp-apple-bundle",
  "http_status": 200,

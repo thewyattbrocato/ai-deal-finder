@@ -1,4 +1,24 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:03:48Z",
+  "ship": [
+   "Free Shipping on Orders $125+",
+   "Free Shipping over $125 and Easy Returns",
+   "Shipping Info"
+  ],
+  "size": [
+   "Size /",
+   "Size Guide",
+   "Select Size",
+   "Select Your Size:",
+   "size"
+  ],
+  "sub": [
+   "Catalog Unsubscribe",
+   "Subscribe"
+  ],
+  "url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.outerknown.com/products/the-woolaroo-hoodie-carob",
  "http_status": 200,

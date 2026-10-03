@@ -1,4 +1,20 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:53:40Z",
+  "ship": [
+   "Promotions, shipping & taxes calculated at checkout.",
+   "Free Standard Shipping On Orders $99+",
+   "Shipping"
+  ],
+  "size": [
+   "Size | Small",
+   "size"
+  ],
+  "sub": [
+   "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+  ],
+  "url": "https://www.cotopaxi.com/products/fuego-down-pant-mens"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/fuego-down-pant-mens",
  "http_status": 200,

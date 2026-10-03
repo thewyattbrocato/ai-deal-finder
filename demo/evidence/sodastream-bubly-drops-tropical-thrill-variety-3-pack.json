@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:08:25Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe & Save",
+   "up to $110 off your machine - when you subscribe to CO2Shop Now",
+   "You can withdraw your consent and unsubscribe at any time. View terms and privacy. *Gas cylinder and cylinder exchange not eligible for discount Financial incentive notice",
+   "Subscribe and Save"
+  ],
+  "url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack"
+ },
  "coupon_snippets": [],
  "final_url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack",
  "http_status": 200,

@@ -1,4 +1,19 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:54:34Z",
+  "ship": [
+   "Free shipping on $30 & up!",
+   "Free shipping on $30 and up!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscription,",
+   "Special Offer! Buy one Baratza and get the first order free on a Blend Box subscription! Using code: Probarista (must add both to cart)",
+   "Subscriptions",
+   "Gift Subscriptions"
+  ],
+  "url": "https://counterculturecoffee.com/products/baratza-classic-grinder"
+ },
  "coupon_snippets": [],
  "final_url": "https://counterculturecoffee.com/products/baratza-classic-grinder",
  "http_status": 200,

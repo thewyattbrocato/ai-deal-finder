@@ -1,4 +1,22 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:55:42Z",
+  "ship": [
+   "$3.99 flat rate shipping \u2022 Orders $50+ ship FREE",
+   "Free shipping in the contiguous US",
+   "Spend $50.00 or subscribe to unlock FREE shipping"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscribe & Save",
+   "Subscription price",
+   "Select subscription frequency",
+   "Manage Subscriptions",
+   "Spend $50.00 or subscribe to unlock FREE shipping"
+  ],
+  "url": "https://drinkolipop.com/products/pomegranate-sparkle"
+ },
  "coupon_snippets": [],
  "final_url": "https://drinkolipop.com/products/pomegranate-sparkle",
  "http_status": 200,

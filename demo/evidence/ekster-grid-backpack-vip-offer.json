@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:56:19Z",
+  "ship": [
+   "Free shipping",
+   "Shipping",
+   "Shipping & delivery",
+   "Shipping calculated at checkout"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://www.ekster.com/products/grid-backpack-vip-offer"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.ekster.com/products/grid-backpack-vip-offer",
  "http_status": 200,

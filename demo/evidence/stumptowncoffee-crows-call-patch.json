@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:10:49Z",
+  "ship": [
+   "Free shipping on all orders over $45"
+  ],
+  "size": [],
+  "sub": [
+   "Save 15% on your first 5 subscription shipments with code 15OFF5",
+   "Subscribe",
+   "Why Subscribe?"
+  ],
+  "url": "https://www.stumptowncoffee.com/products/crows-call-patch"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.stumptowncoffee.com/products/crows-call-patch",
  "http_status": 200,

@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:01:32Z",
+  "ship": [
+   "Free Shipping Over $150",
+   "Shipping & Returns"
+  ],
+  "size": [
+   "Size Guide"
+  ],
+  "sub": [],
+  "url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.hedleyandbennett.com/products/rifle-paper-co-home-sweet-home-smock",
  "http_status": 200,

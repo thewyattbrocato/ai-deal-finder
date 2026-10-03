@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:02:49Z",
+  "ship": [
+   "Free shipping on $150+",
+   "Shipping policy",
+   "You are $150.00 away from Free Shipping!"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE TO OUR EMAILS",
+   "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
+  ],
+  "url": "https://nisolo.com/products/nisolo-gift-card-100"
+ },
  "coupon_snippets": [],
  "final_url": "https://nisolo.com/products/nisolo-gift-card-100",
  "http_status": 200,

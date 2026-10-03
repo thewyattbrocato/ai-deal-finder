@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:09:38Z",
+  "ship": [
+   "Free Shipping Over $50",
+   "Edit Your Shipping Zip Code"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE",
+   "Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). Privacy Policy & Terms."
+  ],
+  "url": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.stanley1913.com/products/halloween-iceflow-flip-straw-tumbler-2-0-30-oz-tts",
  "http_status": 200,

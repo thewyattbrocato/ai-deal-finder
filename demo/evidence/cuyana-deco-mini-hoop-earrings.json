@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:55:16Z",
+  "ship": [
+   "Enjoy free shipping on U.S. orders of $95 or more. Shop now.",
+   "Shipping & Returns",
+   "We use recycled brass to lessen the environmental impact of mining virgin metals, while our NYC-based production helps to reduce our carbon footprint from shipping."
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://cuyana.com/products/deco-mini-hoop-earrings"
+ },
  "coupon_snippets": [],
  "final_url": "https://cuyana.com/products/deco-mini-hoop-earrings",
  "http_status": 200,

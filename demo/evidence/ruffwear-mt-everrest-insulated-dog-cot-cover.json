@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:06:28Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://ruffwear.com/products/mt-everrest-insulated-dog-cot-cover"
+ },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/mt-everrest-insulated-dog-cot-cover",
  "http_status": 200,

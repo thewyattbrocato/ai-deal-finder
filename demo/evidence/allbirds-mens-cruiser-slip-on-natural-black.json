@@ -1,4 +1,20 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:50:34Z",
+  "ship": [
+   "Free ground shipping on orders over $100",
+   "Spend $100 more to earn free shipping!",
+   "+ FREE SHIPPING",
+   "Free Shipping on Orders over $100"
+  ],
+  "size": [
+   "SELECT A SIZE"
+  ],
+  "sub": [
+   "SUBSCRIBE TO OUR EMAILS"
+  ],
+  "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black",
  "http_status": 200,

@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:01:11Z",
+  "ship": [
+   "Free Shipping Over $150",
+   "Shipping & Returns"
+  ],
+  "size": [
+   "Size Guide"
+  ],
+  "sub": [],
+  "url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron",
  "http_status": 200,

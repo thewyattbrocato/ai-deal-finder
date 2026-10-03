@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:59:10Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Manage Subscription"
+  ],
+  "url": "https://www.graza.co/products/potato-chips"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.graza.co/products/potato-chips",
  "http_status": 200,

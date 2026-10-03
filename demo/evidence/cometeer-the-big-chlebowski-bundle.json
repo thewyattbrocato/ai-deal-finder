@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:53:29Z",
+  "ship": [
+   "Select your shipping state:"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://cometeer.com/products/the-big-chlebowski-bundle"
+ },
  "coupon_snippets": [],
  "final_url": "https://cometeer.com/products/the-big-chlebowski-bundle",
  "http_status": 200,

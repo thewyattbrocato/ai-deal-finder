@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:07:08Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [
+   "One Size: Diameter: 8.7 in (22 cm)"
+  ],
+  "sub": [],
+  "url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc"
+ },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/webbing-remix-soft-flying-disc",
  "http_status": 200,

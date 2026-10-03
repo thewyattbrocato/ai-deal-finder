@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:08:18Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe & Save",
+   "up to $110 off your machine - when you subscribe to CO2Shop Now",
+   "You can withdraw your consent and unsubscribe at any time. View terms and privacy. *Gas cylinder and cylinder exchange not eligible for discount Financial incentive notice",
+   "Subscribe and Save",
+   "You can unsubscribe at any time. Privacy Policy."
+  ],
+  "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
+ },
  "coupon_snippets": [],
  "final_url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
  "http_status": 200,

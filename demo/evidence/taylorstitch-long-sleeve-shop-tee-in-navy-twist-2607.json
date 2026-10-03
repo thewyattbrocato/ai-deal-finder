@@ -1,4 +1,18 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:12:21Z",
+  "ship": [
+   "FREE SHIPPING & RETURNS ON EVERY DOMESTIC ORDER",
+   "FREE SHIPPING & FREE RETURNS",
+   "Shipping & Delivery"
+  ],
+  "size": [
+   "SIZE:",
+   "Size & Fit Guide"
+  ],
+  "sub": [],
+  "url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-navy-twist-2607",
  "http_status": 200,

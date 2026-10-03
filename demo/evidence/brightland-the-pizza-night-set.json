@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:52:20Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://brightland.co/products/the-pizza-night-set"
+ },
  "coupon_snippets": [],
  "final_url": "https://brightland.co/products/the-pizza-night-set",
  "http_status": 200,

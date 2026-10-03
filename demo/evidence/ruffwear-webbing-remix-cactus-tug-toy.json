@@ -1,4 +1,13 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:07:00Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy"
+ },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/webbing-remix-cactus-tug-toy",
  "http_status": 200,

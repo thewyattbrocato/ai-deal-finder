@@ -1,4 +1,32 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T14:52:28Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $50+ FOR COLLECTIVE MEMBERS",
+   "Not eligible for international shipping",
+   "Shipping & Returns",
+   "Shipping",
+   "We offer standard and expedited shipping options within the US.",
+   "International shipping is available and will ship with standard shipping. We offer free shipping on orders over $150.",
+   "US Shipping Options (some restrictions may apply):",
+   "Standard shipping 4-5 Business days (Chubbies Collective members get free shipping on orders over $50)",
+   "Two Day Shipping (no PO boxes)",
+   "Free Shipping",
+   "Shipping & Delivery",
+   "Chubbies Collective Members get FREE SHIPPING",
+   "Add $50.00 & Sign-Up to Unlock Free Standard Shipping"
+  ],
+  "size": [
+   "Size & Length Guide",
+   "Size Chart",
+   "Size",
+   "Size Guide"
+  ],
+  "sub": [
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-49ers-polo"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.chubbiesshorts.com/products/the-groovy-with-it-49ers-polo",
  "http_status": 200,
