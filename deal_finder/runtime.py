@@ -14,10 +14,12 @@ import time
 import urllib.error
 import urllib.request
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
+
+from .deception import parse_time, private_value, trust_review
 
 
 MODEL = "jev-1.13.0"
@@ -58,6 +60,11 @@ FORBIDDEN_KEY_TOKENS = {
     "credentials",
     "password",
     "ssn",
+    "email",
+    "phone",
+    "cookie",
+    "token",
+    "passport",
 }
 FORBIDDEN_KEY_PHRASES = (
     "government_id",
@@ -162,6 +169,9 @@ def _reject_private_data(value: Any, path: str = "state") -> None:
             if _is_forbidden_state_key(str(key)):
                 raise DealFinderError(f"private field is not allowed: {path}.{key}")
             _reject_private_data(child, f"{path}.{key}")
+    elif isinstance(value, str):
+        if private_value(value):
+            raise DealFinderError(f"private value is not allowed: {path}")
     elif isinstance(value, list):
         for index, child in enumerate(value):
             _reject_private_data(child, f"{path}[{index}]")
@@ -265,6 +275,11 @@ def validate_state(state: dict[str, Any]) -> None:
     )
     if request["mode"] not in {"browsing", "non-browsing"}:
         raise DealFinderError("request.mode must be browsing or non-browsing")
+    window = request.get("freshness_window_hours")
+    if window is not None and (not _json_int(window) or window < 1):
+        raise DealFinderError("request.freshness_window_hours must be a positive whole number")
+    if request.get("as_of") is not None and not _is_absolute_timestamp(request["as_of"]):
+        raise DealFinderError("request.as_of must be an absolute timestamp")
     candidates = state["candidates"]
     if not isinstance(candidates, list):
         raise DealFinderError("candidates must be an array")
@@ -421,9 +436,16 @@ def _delayed_disclosure(candidate: dict[str, Any]) -> Any:
 def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> dict[str, Any]:
     """Compose deterministic rules and an optional Jev response into a verdict."""
     validate_state(state)
+    labels: list[dict[str, str]] = []
 
     def result(verdict: str, reason: str, winner: dict[str, Any] | None, next_action: str) -> dict[str, Any]:
         output = _result(verdict, reason, winner, next_action)
+        output["labels"] = labels
+        if any(item.get("affiliate_link") or item.get("sponsored") for item in state["candidates"]):
+            output["affiliate_disclosure"] = (
+                "Some offers were affiliate-linked or sponsored; ranking uses landed cost only "
+                "and a flagged winner is not recommended."
+            )
         if isinstance(judgment, dict):
             output["judgment_log"] = {
                 "model": judgment.get("model"),
@@ -454,6 +476,14 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
         "material_differences": winner.get("material_differences", []),
         "delayed_value": _delayed_disclosure(winner),
     }
+
+    request = state["request"]
+    window = timedelta(hours=request["freshness_window_hours"]) if request.get("freshness_window_hours") else None
+    now = parse_time(request["as_of"]) if request.get("as_of") else datetime.now(timezone.utc)
+    refusals, labels = trust_review(winner, state["candidates"], now, window)
+    if refusals:
+        reason, check = refusals[0]
+        return result("verify", f"not trusted: {reason}", winner_summary, check)
 
     if judgment is None or not isinstance(judgment, dict):
         return result("verify", "judgment service unavailable or not run", winner_summary, "Confirm the payable total and exact item on the merchant page.")

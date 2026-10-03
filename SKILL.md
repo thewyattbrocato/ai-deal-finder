@@ -36,6 +36,22 @@ Coupon research is allowed without cart mutation. Testing in a cart is optional 
 5. Restore a visibly empty cart, clean the browser session, and record merchant, actions, budget used/declared, stop reason, and observed cleanup. Do not claim knowledge of merchant-side identifiers.
 6. Revoke immediately on request with `scripts/deal-finder consent revoke --file <consent.json>`. Any denial or uncertainty means research-only verification.
 
+## Stale and deceptive deals
+
+Add the optional fields below to the evidence JSON (field list in `README.md`'s schema; all are optional, and a missing field stays unknown, never guessed). Ask the shopper how fresh a price must be and set `request.freshness_window_hours`; set `request.as_of` to the current time. Each rule is run by `scripts/deal-finder evaluate`; the shopper sees one of three outcomes.
+
+| Situation (field) | What the shopper sees |
+| --- | --- |
+| Price or counted coupon older than the stated window, dated in the future, or a counted coupon with no time | **Refused**: `verify`, "not trusted", with a recheck. No window stated means age is not judged. |
+| Counted coupon whose conditions the page did not state (`coupon.conditions_unstated`) | **Refused** if its discount is counted; otherwise **labelled** and left out of the total. |
+| Urgency or scarcity text (`urgency_signals`: countdown, "only N left", "ends tonight") | **Labelled** "not evidence of stock or a deadline" and never used to hurry the choice. **Refused** if it comes back after a reload (`repeats_on_reload`). |
+| "Was" price with no dated history (`reference_price.dated_history` false) | **Labelled**; never subtracted, never shown as a saving. The saving stays unknown. |
+| Seller marked unverified or with red flags (`seller_verified` false, `seller_red_flags`) | **Refused**: `verify` with a seller check. A marketplace seller nobody checked is **labelled** unknown; say nothing about its safety. |
+| Affiliate-linked or sponsored offer (`affiliate_link`, `sponsored`) | A winner like this is **refused**; a losing one is **labelled**. The disclosure changes from "no affiliate links" to say so. |
+| Email, card number, SSN-shaped text, or a login or token inside a URL anywhere in the evidence | **Rejected** before anything is sent to Jev or any other service; only the product, offer and region facts leave your context. |
+
+Read the `labels` list in the output and put each label beside the claim it limits. A label never raises or lowers a verdict by itself; a refusal always returns `verify` with the one check that would resolve it.
+
 ## Output contract
 
 Lead with the verdict and one next action. Show the winner and at most one decision-changing alternative. For every material claim include source, region, absolute timestamp, and one evidence state: `observed-now`, `applied-in-anonymous-cart`, `retailer-stated`, `third-party-historical`, `user-provided`, `unverified`, `rejected`, or `unknown`.
