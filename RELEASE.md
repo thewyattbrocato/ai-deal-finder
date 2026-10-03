@@ -1,8 +1,9 @@
 # Deal Finder presentation cut, 2026-10-03
 
 Cut from `origin/main` commit `8b45c3d7a962819ae716c3f0a1daa91a68971aa4`
-("docs(readme): refresh for the live tool (#24)"). This file is the only
-change on the final-cut branch: no code, tests, catalog or generated-page edits.
+("docs(readme): refresh for the live tool (#24)"). This release note plus two
+factual count corrections in ACCEPTANCE.md and ASSUMPTIONS.md are the only
+changes on the final-cut branch: no code, tests, catalog or generated-page edits.
 
 Live site: https://thewyattbrocato.github.io/ai-deal-finder/
 
