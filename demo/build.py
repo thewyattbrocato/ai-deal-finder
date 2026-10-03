@@ -980,7 +980,7 @@ function buildSpec(searched) {
   if (coffeeCards.length) {
     const o = [["", "Any size"]].concat(sizeOptions(searched, "coffee").map(s => [s.k, s.k]));
     out.push({ id: "coffee_size", reprices: true, legend: "Coffee bag size", type: "radio", opts: o,
-      help: "A cheaper 12 oz bag is not the same purchase as a 2 lb or 5 lb bag. Sizes and their prices come only from each product's own page; counts show how many list that size." });
+      help: "A cheaper 12 oz bag is not the same purchase as a 2 lb or 5 lb bag. Sizes and their prices come only from each product's own page; counts show how many results that size leaves." });
   }
   for (const [g, id, legend] of [["shoe", "shoe_size", "Shoe size"], ["clothing", "clothing_size", "Clothing size"]]) {
     const opts = sizeOptions(searched, g);
@@ -1253,7 +1253,7 @@ function whyShown(c, v, rank, total, terms) {
     out.push(basis ? "listed first: " + basis : "listed after the roasters whose pages state a specialty basis");
   }
   if (!exact && total > 1 && pick.prefer === "price" && v.rank !== null) {
-    out.push((T.get(c).g === "coffee" && v.size ? v.size + " bag, " : "") + (pick.purchase === "subscribe" ? "subscribe price " : "shelf price ") + fmt(v.rank) + ", " + (rank === 1 ? "lowest" : "#" + rank + " by price") + " of " + total + " shown");
+    out.push((T.get(c).g === "coffee" && v.size && !v.resized ? v.size + " bag, " : "") + (pick.purchase === "subscribe" ? "subscribe price " : "shelf price ") + fmt(v.rank) + ", " + (rank === 1 ? "lowest" : "#" + rank + " by price") + " of " + total + " shown");
   }
   return out.length ? out.join("; ") : "it is one of the checked product pages";
 }
