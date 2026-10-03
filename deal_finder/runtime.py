@@ -19,7 +19,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
 
-from .deception import parse_time, private_value, trust_review
+from .deception import comparability_problem, parse_time, private_value, trust_review
 
 
 MODEL = "jev-1.13.0"
@@ -353,10 +353,23 @@ def _noul(instructions: str) -> dict[str, Any]:
     }
 
 
-def _eligible_candidates(state: dict[str, Any]) -> list[tuple[dict[str, Any], dict[str, Any]]]:
+def _eligible_candidates(
+    state: dict[str, Any], excluded: list[dict[str, str]] | None = None
+) -> list[tuple[dict[str, Any], dict[str, Any]]]:
     eligible = []
     for candidate in state["candidates"]:
         if candidate.get("subscription_only") or candidate["availability"] != "in-stock":
+            continue
+        problem = comparability_problem(candidate, state["request"])
+        if problem:
+            if excluded is not None:
+                excluded.append(
+                    {
+                        "kind": "not-comparable",
+                        "candidate": candidate["id"],
+                        "text": f"Left out of the ranking: {problem}.",
+                    }
+                )
             continue
         if candidate["is_substitute"]:
             if not candidate["must_haves_met"] or not candidate["material_differences"]:
@@ -458,7 +471,9 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
     if category in EXCLUDED_CATEGORIES:
         return result("abstain", f"excluded category: {category}", None, "No ranking was performed.")
 
-    eligible = _eligible_candidates(state)
+    excluded: list[dict[str, str]] = []
+    eligible = _eligible_candidates(state, excluded)
+    labels.extend(excluded)
     winner, robust = _rank(eligible)
     if winner is None:
         return result("verify", "no eligible in-stock exact or qualifying candidate", None, "Check the exact item identity and current stock on the merchant page.")
@@ -480,7 +495,8 @@ def evaluate(state: dict[str, Any], judgment: dict[str, Any] | None = None) -> d
     request = state["request"]
     window = timedelta(hours=request["freshness_window_hours"]) if request.get("freshness_window_hours") else None
     now = parse_time(request["as_of"]) if request.get("as_of") else datetime.now(timezone.utc)
-    refusals, labels = trust_review(winner, state["candidates"], now, window)
+    refusals, found = trust_review(winner, state["candidates"], now, window)
+    labels.extend(found)
     if refusals:
         reason, check = refusals[0]
         return result("verify", f"not trusted: {reason}", winner_summary, check)

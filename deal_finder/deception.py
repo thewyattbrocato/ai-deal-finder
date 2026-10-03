@@ -51,6 +51,27 @@ def private_value(text: str) -> bool:
     )
 
 
+def _same(left: Any, right: Any) -> bool:
+    return str(left).strip().casefold() == str(right).strip().casefold()
+
+
+def comparability_problem(candidate: dict[str, Any], request: dict[str, Any]) -> str | None:
+    """Why this offer is not the same purchase the shopper asked for, or None.
+
+    Region and currency are compared as stated and never converted; a condition
+    is only judged when the shopper stated acceptable ones. Nothing is guessed.
+    """
+    if not _same(candidate["region"], request["region"]):
+        return f"sold for region {candidate['region']}, not the requested {request['region']}"
+    currency = candidate.get("currency")
+    if currency is not None and not _same(currency, request["currency"]):
+        return f"priced in {currency}, not the requested {request['currency']}; no conversion is made"
+    acceptable = request.get("acceptable_conditions")
+    if isinstance(acceptable, list) and not any(_same(candidate["condition"], item) for item in acceptable):
+        return f"condition '{candidate['condition']}' is not one the shopper accepts ({', '.join(map(str, acceptable))})"
+    return None
+
+
 def _age_problem(observed_at: str, now: datetime, window: timedelta, what: str) -> str | None:
     observed = parse_time(observed_at)
     if observed - now > CLOCK_SKEW:
@@ -83,6 +104,13 @@ def _refusals(candidate: dict[str, Any], now: datetime, window: timedelta | None
                 problem = _age_problem(coupon["observed_at"], now, window, "coupon evidence")
                 if problem:
                     found.append((problem, "Re-test the code in a logged-out anonymous cart (with consent), then re-run."))
+        if coupon.get("terms_on_other_page"):
+            found.append(
+                (
+                    "coupon discount depends on terms that are on a page that was not read",
+                    "Open the page that holds the code's terms, read them, then re-run; or treat the coupon as not counted.",
+                )
+            )
         if coupon.get("conditions_unstated"):
             found.append(
                 (
@@ -90,6 +118,13 @@ def _refusals(candidate: dict[str, Any], now: datetime, window: timedelta | None
                     "Find the code's full terms on the merchant page, or treat the coupon as not counted.",
                 )
             )
+    if candidate.get("eligibility_condition") and not candidate.get("eligibility_confirmed"):
+        found.append(
+            (
+                f"price depends on eligibility ({candidate['eligibility_condition']}) that the shopper has not confirmed",
+                "Ask the shopper once whether they qualify; if not, drop this offer and re-run.",
+            )
+        )
     for signal in candidate.get("urgency_signals") or []:
         if isinstance(signal, dict) and signal.get("repeats_on_reload"):
             found.append(
@@ -139,6 +174,23 @@ def _labels(candidate: dict[str, Any]) -> list[dict[str, str]]:
             }
         )
     coupon = candidate.get("coupon") if isinstance(candidate.get("coupon"), dict) else None
+    if coupon and coupon.get("terms_on_other_page"):
+        out.append(
+            {
+                "kind": "coupon-terms-elsewhere",
+                "candidate": cid,
+                "text": "The code's terms are on a page that was not read; they stay unknown and the code is not counted.",
+            }
+        )
+    if candidate.get("eligibility_condition"):
+        confirmed = "confirmed by the shopper" if candidate.get("eligibility_confirmed") else "not confirmed"
+        out.append(
+            {
+                "kind": "eligibility",
+                "candidate": cid,
+                "text": f"This price is retailer-stated for: {candidate['eligibility_condition']} ({confirmed}); eligibility is never assumed.",
+            }
+        )
     if coupon and coupon.get("conditions_unstated"):
         out.append(
             {
