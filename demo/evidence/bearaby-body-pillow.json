@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:18:04Z",
+  "read_at": "2026-10-03T23:21:48Z",
   "ship": [
    "Free shipping and easy returns.",
    "FREE shipping & easy returns",
@@ -16,6 +16,106 @@
  },
  "coupon_snippets": [],
  "final_url": "https://bearaby.com/products/body-pillow",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:18:04Z",
+    "ship": [
+     "Free shipping and easy returns.",
+     "FREE shipping & easy returns",
+     "Absolutely luv the cuddler\u2026.. can be used in so many different ways.. lots of support\u2026so glad you finally are shipping to Canada"
+    ],
+    "size": [
+     "Size: Medium (54\u2019\u2019)",
+     "Size Guide",
+     "SIZE GUIDE"
+    ],
+    "sub": [],
+    "url": "https://bearaby.com/products/body-pillow"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://bearaby.com/products/body-pillow",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "106",
+      "ratingValue": "5.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Bearaby"
+     },
+     "description": "A squashy, ergonomic Cuddler body pillow made from natural Melofoam\u2122 that molds to your shape for tension-free sleep. Perfect for side sleepers, pregnancy, and joint pain, with a removable, washable organic cotton cover included.",
+     "image": [
+      "https://bearaby.com/cdn/shop/files/Base-Included_54_cotton_grande.png?v=1776408479"
+     ],
+     "name": "Cuddler",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "checkoutPageURLTemplate": "https://bearaby.com/cart/add?id=45783891640506&quantity=1",
+      "hasMerchantReturnPolicy": {
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 365,
+       "returnFees": "https://schema.org/FreeReturn",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+       "returnPolicySeasonalOverride": "https://bearaby.com/pages/returns-exchanges"
+      },
+      "name": "Cuddler Base Included / Base / Medium (54\u2019\u2019)",
+      "price": 169,
+      "priceCurrency": "USD",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": 169,
+       "priceCurrency": "USD",
+       "valueAddedTaxIncluded": true
+      },
+      "priceValidUntil": "2026-12-31",
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 2,
+         "minValue": 1,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      "url": "https://bearabystore.myshopify.com/products/body-pillow?variant=45783891640506",
+      "validFrom": "2026-04-17"
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:20Z",
+   "og_image": "http://bearaby.com/cdn/shop/files/cuddler_default.webp?v=1776408479",
+   "page_sha256": "2130fa9a25a4d43f03a18d900519c078befaa74e743676c5eeab63661505501d",
+   "rendered_checked": true,
+   "title": "Body Pillow | Supportive, Ergonomic & Breathable - Bearaby Cuddler"
+  }
+ ],
  "http_status": 200,
  "id": "bearaby-body-pillow",
  "image_file": "bearaby-body-pillow.jpg",
@@ -95,9 +195,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T14:50:20Z",
+ "observed_at": "2026-10-03T23:21:34Z",
  "og_image": "http://bearaby.com/cdn/shop/files/cuddler_default.webp?v=1776408479",
- "page_sha256": "2130fa9a25a4d43f03a18d900519c078befaa74e743676c5eeab63661505501d",
+ "page_sha256": "ec7ce9fb7227d8a661996db9083d825cc847fbf3f19b6723556d8dbab940f9d1",
  "rendered_checked": true,
  "title": "Body Pillow | Supportive, Ergonomic & Breathable - Bearaby Cuddler",
  "url": "https://www.bearaby.com/products/body-pillow"

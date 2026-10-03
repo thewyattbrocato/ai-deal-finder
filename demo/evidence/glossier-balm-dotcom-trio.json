@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:35Z",
+  "read_at": "2026-10-03T23:22:06Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,53 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/balm-dotcom-trio",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:35Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/balm-dotcom-trio"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/balm-dotcom-trio",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "description": "A customizable three-pack of our cult-favorite skin salve in your choice of flavors (or Original, with none)",
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "Balm Dotcom Trio",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "42",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:51Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/BDC_Trio_-_I_3NY_birthday_blackcherry.png?v=1788208005",
+   "page_sha256": "ea6a5fde4a4afdc1c0c364cb5e2d9fa17c01a305c2200e822cbf43432fea55a8",
+   "rendered_checked": true,
+   "title": "Balm Dotcom Trio \u2013 Glossier"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-balm-dotcom-trio",
  "image_file": "glossier-balm-dotcom-trio.png",
@@ -42,9 +89,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:50:51Z",
+ "observed_at": "2026-10-03T23:21:50Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/BDC_Trio_-_I_3NY_birthday_blackcherry.png?v=1788208005",
- "page_sha256": "ea6a5fde4a4afdc1c0c364cb5e2d9fa17c01a305c2200e822cbf43432fea55a8",
+ "page_sha256": "6602524982aeee6c13436480ebba3788c7ddc23c940d861fb17c824a26ec760d",
  "rendered_checked": true,
  "title": "Balm Dotcom Trio \u2013 Glossier",
  "url": "https://www.glossier.com/products/balm-dotcom-trio"

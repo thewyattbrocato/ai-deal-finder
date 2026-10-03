@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:21:59Z",
+  "read_at": "2026-10-03T23:26:55Z",
   "ship": [
    "Shipping",
    "You\u2019re $50.00 away from free shipping!"
@@ -11,6 +11,83 @@
  },
  "coupon_snippets": [],
  "final_url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:21:59Z",
+    "ship": [
+     "Shipping",
+     "You\u2019re $50.00 away from free shipping!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 484,
+      "ratingValue": "4.80"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Nomad Goods"
+     },
+     "color": "English Tan",
+     "description": "Phone case for iPhone 18 Pro, part of the Traditional Case series. Made from Camino leather with anodized aluminum buttons and a camera control button. Compatible with MagSafe and Qi wireless charging. Card capacity 0, drop protection not rated, slim profile, wrist strap compatible. Color: English Tan.",
+     "gtin12": "856504017897",
+     "image": [
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_A_PHONE_a92c417d-71c8-4c42-b857-ac46e2846331.jpg?v=1788207511",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_B_PHONE_07d5230a-6e11-44bb-b26f-56ac8b0f7ce9.jpg?v=1788207511",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_D_PHONE_3933dad4-b640-4375-9732-81dac338c101.jpg?v=1788207512",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_E_2ec50ba0-bee3-4f85-97b1-5fff317ff3c4.jpg?v=1788207511",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_F_PHONE_fa2e5e0b-2085-42bb-9e86-587fca3a24a8.jpg?v=1788207511",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_F_a9edd591-ab8f-494d-95ef-cd0a55c198ff.jpg?v=1788207510",
+      "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_C_PHONE_6791df30-3caf-4af6-ae45-2029083881ab.jpg?v=1788207511"
+     ],
+     "material": "Camino Leather",
+     "model": "Traditional Case",
+     "mpn": "114770118I8I",
+     "name": "Traditional Leather Case",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "merchantReturnDays": 30,
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+       },
+       "price": 79,
+       "priceCurrency": "USD",
+       "seller": {
+        "@type": "Organization",
+        "name": "Nomad"
+       },
+       "sku": "114770118I8I",
+       "url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro?Title=Default+Title"
+      }
+     ],
+     "sku": "114770118I8I",
+     "url": "https://nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro"
+    }
+   ],
+   "observed_at": "2026-10-03T14:52:15Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_A_PHONE_a92c417d-71c8-4c42-b857-ac46e2846331.jpg?v=1788207511&width=1280&height=630",
+   "page_sha256": "16d06c50597e02bc1dac5208a9c02e17196a475d474e730b19991fec29449833",
+   "rendered_checked": true,
+   "title": "Traditional Case - iPhone 18 Pro - English Tan | NOMAD"
+  }
+ ],
  "http_status": 200,
  "id": "nomadgoods-traditional-leather-case-english-tan-c-nomad-leather-iphone",
  "image_file": "nomadgoods-traditional-leather-case-english-tan-c-nomad-leather-iphone.jpg",
@@ -72,9 +149,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-03T14:52:15Z",
+ "observed_at": "2026-10-03T23:26:43Z",
  "og_image": "https://cdn.shopify.com/s/files/1/0384/6721/files/856504017897_A_PHONE_a92c417d-71c8-4c42-b857-ac46e2846331.jpg?v=1788207511&width=1280&height=630",
- "page_sha256": "16d06c50597e02bc1dac5208a9c02e17196a475d474e730b19991fec29449833",
+ "page_sha256": "052292d358e4a42655992d175a4d47e4cb99acb6b79594b0f5a9f6d7c50b56d7",
  "rendered_checked": true,
  "title": "Traditional Case - iPhone 18 Pro - English Tan | NOMAD",
  "url": "https://www.nomadgoods.com/products/traditional-leather-case-english-tan-c-nomad-leather-iphone-18-pro"

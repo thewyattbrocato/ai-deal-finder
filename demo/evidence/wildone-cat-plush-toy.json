@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:23:57Z",
+  "read_at": "2026-10-03T23:25:47Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -14,6 +14,68 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-plush-toy",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:23:57Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://wildone.com/products/cat-plush-toy"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/cat-plush-toy",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Designed for kicking, pouncing, and solo play, these plush cat toys keep your cat engaged for hours. Featuring a removable catnip pouch, textured mesh for dental stimulation, and high-contrast design for visual appeal, these durable toys are built for energetic play.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_PlayfulPlush_Cherry_PDP_03_4x5_Web.jpg?v=1777058643&width=1920"
+     ],
+     "name": "Playful Plush Cat Toy",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 850067252931,
+       "price": 10.0,
+       "priceCurrency": "USD",
+       "sku": "WO-TOY-PLYP-CT-CHR",
+       "url": "https://wildone.com/products/cat-plush-toy?variant=45162687725763"
+      },
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 850067252917,
+       "price": 10.0,
+       "priceCurrency": "USD",
+       "sku": "WO-TOY-PLYP-CT-MTA",
+       "url": "https://wildone.com/products/cat-plush-toy?variant=45162687758531"
+      }
+     ],
+     "sku": "WO-TOY-PLYP-CT-CHR",
+     "url": "https://wildone.com/products/cat-plush-toy"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:54Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_PlayfulPlush_MTA_PDP_03_4x5_Web.jpg?v=1777058630",
+   "page_sha256": "7e19317e93a0ebab7972eddff8793446b1750f06bd543e1f14edd62a71aae15b",
+   "rendered_checked": true,
+   "title": "Playful Plush Cat Toy \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-cat-plush-toy",
  "image_file": "wildone-cat-plush-toy.jpg",
@@ -57,9 +119,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:54Z",
+ "observed_at": "2026-10-03T23:25:33Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_PlayfulPlush_MTA_PDP_03_4x5_Web.jpg?v=1777058630",
- "page_sha256": "7e19317e93a0ebab7972eddff8793446b1750f06bd543e1f14edd62a71aae15b",
+ "page_sha256": "6f042534cd5dbf6d0ca7709e87d6d78bfff4f1ddab7a4d378875d91124064fdb",
  "rendered_checked": true,
  "title": "Playful Plush Cat Toy \u2013 Wild One",
  "url": "https://www.wildone.com/products/cat-plush-toy"

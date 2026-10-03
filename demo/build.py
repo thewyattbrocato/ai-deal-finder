@@ -122,10 +122,18 @@ def run_lv001():
     return apple, cost, decision
 
 
-TS_ON = "2026-10-01T19:50:21Z"
-TS_GAP = "2026-10-01T19:50:30Z"
-TS_NIKE = "2026-10-01T19:50:41Z"
-TS_APPLE2 = "2026-10-01T19:50:52Z"
+
+
+def handcard_latest(slug):
+    """Latest dated observation of a hand-checked card
+    (demo/evidence/handcards/<slug>.json); earlier ones stay as history."""
+    return terms.handcard_record(slug)["observations"][-1]
+
+
+TS_ON = handcard_latest("oldnavy")["observed_at"]
+TS_GAP = handcard_latest("gap")["observed_at"]
+TS_NIKE = handcard_latest("nike")["observed_at"]
+TS_APPLE2 = handcard_latest("apple")["observed_at"]
 ON_URL = "https://oldnavy.gap.com/browse/product.do?pid=777363182"
 GAP_URL = "https://www.gap.com/browse/product.do?pid=800546212"
 NIKE_URL = "https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/CW0907-002"

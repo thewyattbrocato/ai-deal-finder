@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:24:13Z",
+  "read_at": "2026-10-03T23:25:17Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -16,6 +16,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/slanted-cat-bowl",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:24:13Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [
+     "Pack Size:"
+    ],
+    "sub": [],
+    "url": "https://wildone.com/products/slanted-cat-bowl"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/slanted-cat-bowl",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 5,
+      "ratingValue": "5.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Improve your cat\u2019s mealtime comfort with this slanted cat bowl designed to reduce whisker fatigue. The shallow, angled design allows easier access to food and water, while the removable stainless steel bowl resists bacteria and cleans easily. A non-slip base keeps everything securely in place.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309&width=1920"
+     ],
+     "name": "Slanted Cat Bowl",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 850067252795,
+       "price": 18.0,
+       "priceCurrency": "USD",
+       "sku": "WO-BWL-CT-LIL",
+       "url": "https://wildone.com/products/slanted-cat-bowl?variant=45163408523459"
+      }
+     ],
+     "sku": "WO-BWL-CT-LIL",
+     "url": "https://wildone.com/products/slanted-cat-bowl"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:49Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309",
+   "page_sha256": "9255df31fb9559a3e23a67f1cd7dc9333a126244d874c152a6edad28a613f72b",
+   "rendered_checked": true,
+   "title": "Slanted Cat Bowl \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-slanted-cat-bowl",
  "image_file": "wildone-slanted-cat-bowl.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:49Z",
+ "observed_at": "2026-10-03T23:25:03Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777055309",
- "page_sha256": "9255df31fb9559a3e23a67f1cd7dc9333a126244d874c152a6edad28a613f72b",
+ "page_sha256": "f7632359f26a0f62e04d503850f026ae17085aad5f2460065d406bfc45617374",
  "rendered_checked": true,
  "title": "Slanted Cat Bowl \u2013 Wild One",
  "url": "https://www.wildone.com/products/slanted-cat-bowl"

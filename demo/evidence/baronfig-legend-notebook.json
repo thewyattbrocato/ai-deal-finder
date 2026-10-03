@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:25:50Z",
+  "read_at": "2026-10-03T23:34:07Z",
   "ship": [
    "Shipping"
   ],
@@ -12,6 +12,55 @@
  },
  "coupon_snippets": [],
  "final_url": "https://baronfig.com/products/legend-notebook",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:25:50Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "By entering your email and clicking below, you agree to our Terms of Use and acknowledge our Privacy Policy. Unsubscribe at any time."
+    ],
+    "url": "https://baronfig.com/products/legend-notebook"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://baronfig.com/products/legend-notebook",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/legend-notebook#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Baronfig"
+     },
+     "category": "Notebooks & Notepads",
+     "description": "The notebook for ideas. The Legend is Baronfig\u2019s most advanced notebook yet\u2014designed for thinkers who demand clarity, durability, and elegance in every detail.\nBuilt on our signature open-flat, threadbound design, it features a custom hybrid layout that blends the structure of ruled lines with the freedom of dot grid\u2014a Baronfig original, crafted to let thinkers move fluidly between notes, diagrams, and ideas.\nNumbered pages and a built-in index support long-form organization. Dual bookmarks, an elastic closure, a water-resistant cover, and a rear folder offer utility without excess.\n\n",
+     "gtin": "810106031415",
+     "image": "https://baronfig.com/cdn/shop/files/legend_buy-variant_blackout_01.jpg?v=1750863561&width=1920",
+     "name": "Legend Hardcover Notebook",
+     "offers": {
+      "@id": "/products/legend-notebook?variant=42411866849363#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "36.00",
+      "priceCurrency": "USD",
+      "url": "https://baronfig.com/products/legend-notebook?variant=42411866849363"
+     },
+     "sku": "lgd-f-c-sg",
+     "url": "https://baronfig.com/products/legend-notebook"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:58Z",
+   "og_image": "http://baronfig.com/cdn/shop/files/legend_buy-variant_blackout_01.jpg?v=1750863561",
+   "page_sha256": "62f948f2cbf590e19c0d516ef11ce523a6f3210926022998c60a505746475261",
+   "rendered_checked": true,
+   "title": "Legend Hardcover Notebook \u2013 Baronfig"
+  }
+ ],
  "http_status": 200,
  "id": "baronfig-legend-notebook",
  "image_file": "baronfig-legend-notebook.jpg",
@@ -44,9 +93,9 @@
   }
  ],
  "kind": "Office",
- "observed_at": "2026-10-03T15:09:58Z",
+ "observed_at": "2026-10-03T23:33:55Z",
  "og_image": "http://baronfig.com/cdn/shop/files/legend_buy-variant_blackout_01.jpg?v=1750863561",
- "page_sha256": "62f948f2cbf590e19c0d516ef11ce523a6f3210926022998c60a505746475261",
+ "page_sha256": "81bbb5f29c5b4cc0b35d2591f1e27b58c28dca072c86bd0b62f5d77ae5cd7315",
  "rendered_checked": true,
  "title": "Legend Hardcover Notebook \u2013 Baronfig",
  "url": "https://baronfig.com/products/legend-notebook"

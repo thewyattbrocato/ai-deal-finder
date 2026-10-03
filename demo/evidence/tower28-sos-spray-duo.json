@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:30:22Z",
+  "read_at": "2026-10-03T23:31:05Z",
   "ship": [
    "FREE U.S shipping on orders $30+",
    "Free Shipping $30+ \u2022 Free Returns",
@@ -12,6 +12,62 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.tower28beauty.com/products/sos-spray-duo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:30:22Z",
+    "ship": [
+     "FREE U.S shipping on orders $30+",
+     "Free Shipping $30+ \u2022 Free Returns",
+     "Shipping & Returns"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.tower28beauty.com/products/sos-spray-duo"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.tower28beauty.com/products/sos-spray-duo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "description": "Okendo Reviews",
+      "ratingCount": "1808",
+      "ratingValue": "4.8"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Tower 28 Beauty"
+     },
+     "description": "A soothing, purifying, and renewing toner treatment for fast angry skin relief. Use AM/PM to maintain and prevent redness and irritation. Spritz SOS anywhere, everywhere with a TSA-approved mini + a regular full-size SOS Daily Rescue Facial Spray Duo. $40 Value.",
+     "image": [
+      "https://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385&width=1920"
+     ],
+     "name": "SOS Spray Duo",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 36.0,
+       "priceCurrency": "USD",
+       "sku": "T008-05-0000",
+       "url": "https://www.tower28beauty.com/products/sos-spray-duo?variant=41524724727863"
+      }
+     ],
+     "sku": "T008-05-0000",
+     "url": "https://www.tower28beauty.com/products/sos-spray-duo"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:10Z",
+   "og_image": "http://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385",
+   "page_sha256": "08f8836a11e55af77b2d3651966b539726bb8435e929a33d6cfb0b6130bdbd97",
+   "rendered_checked": true,
+   "title": "SOS Spray Duo | Tower 28 Beauty Exclusive"
+  }
+ ],
  "http_status": 200,
  "id": "tower28-sos-spray-duo",
  "image_file": "tower28-sos-spray-duo.png",
@@ -51,9 +107,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T15:09:10Z",
+ "observed_at": "2026-10-03T23:30:54Z",
  "og_image": "http://www.tower28beauty.com/cdn/shop/files/Set-SOSSprayDuo_0f2911ab-b960-46b4-989b-1e0b15f5d602.webp?v=1774574385",
- "page_sha256": "08f8836a11e55af77b2d3651966b539726bb8435e929a33d6cfb0b6130bdbd97",
+ "page_sha256": "690c778ab7ae463986dc2177773b370007531a7966e4bc9761fd61966e7f089c",
  "rendered_checked": true,
  "title": "SOS Spray Duo | Tower 28 Beauty Exclusive",
  "url": "https://tower28beauty.com/products/sos-spray-duo"

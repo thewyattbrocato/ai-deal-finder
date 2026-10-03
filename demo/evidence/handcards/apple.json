@@ -1,0 +1,44 @@
+{
+ "id": "apple",
+ "name": "AirPods Pro 3",
+ "page_url": "https://www.apple.com/airpods-pro/",
+ "seller": "Apple",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-01T19:50:52Z",
+   "shelf_price": 249.0,
+   "was_price": null,
+   "offer_texts": [],
+   "sizes": [],
+   "shipping": [],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md OBS-11"
+  },
+  {
+   "observed_at": "2026-10-02T22:14:40Z",
+   "shelf_price": null,
+   "was_price": null,
+   "offer_texts": [],
+   "sizes": [],
+   "shipping": [
+    "Choose two-hour delivery from an Apple Store, free delivery, or easy pickup options."
+   ],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md T-APPLE"
+  },
+  {
+   "observed_at": "2026-10-03T23:15:06Z",
+   "shelf_price": 249.0,
+   "was_price": null,
+   "offer_texts": [],
+   "sizes": [],
+   "shipping": [
+    "Choose two-hour delivery from an Apple Store, free delivery, or easy pickup options."
+   ],
+   "subscribe": [],
+   "source": "live page, this re-read (unchanged); the page also prints $149 for a different product, AirPods 5"
+  }
+ ]
+}

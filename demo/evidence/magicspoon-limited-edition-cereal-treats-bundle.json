@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:20:39Z",
+  "read_at": "2026-10-03T23:20:25Z",
   "ship": [],
   "size": [],
   "sub": [
@@ -11,6 +11,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://magicspoon.com/products/limited-edition-cereal-treats-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:20:39Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "\u231b Limited! FREE Bowl Set for New Subscribers! \ud83e\udd63\u2728",
+     "SUBSCRIBE"
+    ],
+    "url": "https://magicspoon.com/products/limited-edition-cereal-treats-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://magicspoon.com/products/limited-edition-cereal-treats-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/limited-edition-cereal-treats-bundle#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "25909",
+      "ratingValue": "4.6"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Magic Spoon"
+     },
+     "description": "Get all four of our limited-edition flavors in one bundle. Two boxes of cereal - Cookies &amp; Cream and Strawberry Cheesecake; paired with two boxes of Treats in Cookies &amp; Cream and Chocolate Chip Cookie Dough. With 11-13g protein, 0-2g total sugar, and dessert-inspired flavor in every bowl and bar. All limited-edition, so grab this bundle before they're gone for good.",
+     "image": "https://magicspoon.com/cdn/shop/files/ms_var4_hero_450x450.webp?v=1790190237",
+     "mpn": "8262876594238",
+     "name": "Limited Edition Cereal & Treats Bundle - 2 Cereal, 2 Treats",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "39.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Magic Spoon"
+      }
+     },
+     "url": "/products/limited-edition-cereal-treats-bundle"
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:03Z",
+   "og_image": "//magicspoon.com/cdn/shop/files/ms_var4_hero_2048x2048.webp?v=1790190237",
+   "page_sha256": "ae3c20164e8b05102ae1cd75cbd4bf671813073e603d638ccc074373e00c26ac",
+   "rendered_checked": true,
+   "title": "Limited Edition Cereal & Treats Bundle - 2 Cereal, 2 Treats"
+  }
+ ],
  "http_status": 200,
  "id": "magicspoon-limited-edition-cereal-treats-bundle",
  "image_file": "magicspoon-limited-edition-cereal-treats-bundle.png",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-03T14:50:03Z",
+ "observed_at": "2026-10-03T23:20:11Z",
  "og_image": "//magicspoon.com/cdn/shop/files/ms_var4_hero_2048x2048.webp?v=1790190237",
- "page_sha256": "ae3c20164e8b05102ae1cd75cbd4bf671813073e603d638ccc074373e00c26ac",
+ "page_sha256": "bc00d8586c3003853841b44252f4acd32036bebd08187e20b48095877d717f92",
  "rendered_checked": true,
  "title": "Limited Edition Cereal & Treats Bundle - 2 Cereal, 2 Treats",
  "url": "https://magicspoon.com/products/limited-edition-cereal-treats-bundle"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:24:04Z",
+  "read_at": "2026-10-03T23:25:01Z",
   "ship": [
    "\ud83d\ude9a FREE Shipping on Orders $90+",
    "Shipping & Returns",
@@ -16,6 +16,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://wildone.com/products/cat-slow-feeder",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:24:04Z",
+    "ship": [
+     "\ud83d\ude9a FREE Shipping on Orders $90+",
+     "Shipping & Returns",
+     "Shipping policy",
+     "Free Shipping on Orders $90+",
+     "You are $90.00 away from FREE SHIPPING!"
+    ],
+    "size": [
+     "Pack Size:"
+    ],
+    "sub": [],
+    "url": "https://wildone.com/products/cat-slow-feeder"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://wildone.com/products/cat-slow-feeder",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": 1,
+      "ratingValue": "5.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Wild One"
+     },
+     "description": "Promote healthier eating habits with this silicone cat slow feeder. Designed with ridges and valleys to encourage slower eating, it supports better digestion and weight management. Made from BPA-free, dishwasher-safe silicone with a strong suction base to keep it securely in place during meals.",
+     "image": [
+      "https://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_UFO_PDP_01_4x5_Web.jpg?v=1777054690&width=1920"
+     ],
+     "name": "Cat Slow Feeder",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 850067252764,
+       "price": 12.0,
+       "priceCurrency": "USD",
+       "sku": "WO-SLF-CT-UFO",
+       "url": "https://wildone.com/products/cat-slow-feeder?variant=45163409539267"
+      }
+     ],
+     "sku": "WO-SLF-CT-UFO",
+     "url": "https://wildone.com/products/cat-slow-feeder"
+    }
+   ],
+   "observed_at": "2026-10-03T14:51:47Z",
+   "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777054690",
+   "page_sha256": "e3493bc1715e01622c2666b73736cab495699a756b67217f9db115f59ba6ef9c",
+   "rendered_checked": true,
+   "title": "Cat Slow Feeder \u2013 Wild One"
+  }
+ ],
  "http_status": 200,
  "id": "wildone-cat-slow-feeder",
  "image_file": "wildone-cat-slow-feeder.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-03T14:51:47Z",
+ "observed_at": "2026-10-03T23:24:48Z",
  "og_image": "http://wildone.com/cdn/shop/files/WO_VM_Cat_SlowFeeder_SlantedBowl_Lilac_PDP_06_4x5_Web.jpg?v=1777054690",
- "page_sha256": "e3493bc1715e01622c2666b73736cab495699a756b67217f9db115f59ba6ef9c",
+ "page_sha256": "728171cf68d6c68f4e4524fa3ed7351ff3826450becdc3cb64bb3339da51f6e0",
  "rendered_checked": true,
  "title": "Cat Slow Feeder \u2013 Wild One",
  "url": "https://www.wildone.com/products/cat-slow-feeder"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:20:47Z",
+  "read_at": "2026-10-03T23:19:54Z",
   "ship": [],
   "size": [],
   "sub": [
@@ -11,10 +11,64 @@
  },
  "coupon_snippets": [],
  "final_url": "https://magicspoon.com/products/strawberry-cheesecake-cereal",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:20:47Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "\u231b Limited! FREE Bowl Set for New Subscribers! \ud83e\udd63\u2728",
+     "SUBSCRIBE"
+    ],
+    "url": "https://magicspoon.com/products/strawberry-cheesecake-cereal"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://magicspoon.com/products/strawberry-cheesecake-cereal",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/strawberry-cheesecake-cereal#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "25909",
+      "ratingValue": "4.6"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Magic Spoon"
+     },
+     "description": "",
+     "image": "https://magicspoon.com/cdn/shop/files/strawberry_cheesecake_450x450.webp?v=1790002165",
+     "mpn": "7779362963518",
+     "name": "Strawberry Cheesecake Cereal",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "9.75",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Magic Spoon"
+      }
+     },
+     "url": "/products/strawberry-cheesecake-cereal"
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:00Z",
+   "og_image": "//magicspoon.com/cdn/shop/files/strawberry_cheesecake_2048x2048.webp?v=1790002165",
+   "page_sha256": "aed7c8ff881bbcff33ba3cadaddf9cfaf35695ca3b6bf9ec54249c8e0cc44eee",
+   "rendered_checked": true,
+   "title": "Strawberry Cheesecake Cereal"
+  }
+ ],
  "http_status": 200,
  "id": "magicspoon-strawberry-cheesecake-cereal",
- "image_error": "HTTP Error 502: Bad Gateway",
- "image_file": null,
+ "image_file": "magicspoon-strawberry-cheesecake-cereal.png",
+ "image_sha256": "f9d1faf9d912a3ec925b351543326311d468845ab858c8144d8a4bd9068ce89d",
+ "image_source": "https://magicspoon.com/cdn/shop/files/strawberry_cheesecake_2048x2048.webp?v=1790002165&width=420",
  "json_ld": [
   {
    "@context": "http://schema.org/",
@@ -47,9 +101,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-03T14:50:00Z",
+ "observed_at": "2026-10-03T23:19:37Z",
  "og_image": "//magicspoon.com/cdn/shop/files/strawberry_cheesecake_2048x2048.webp?v=1790002165",
- "page_sha256": "aed7c8ff881bbcff33ba3cadaddf9cfaf35695ca3b6bf9ec54249c8e0cc44eee",
+ "page_sha256": "2407e51f1b546c8b96e792643cf6244ac4938f11be6643649b3dfd80a769d0e6",
  "rendered_checked": true,
  "title": "Strawberry Cheesecake Cereal",
  "url": "https://magicspoon.com/products/strawberry-cheesecake-cereal"

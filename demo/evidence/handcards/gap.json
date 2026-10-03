@@ -1,0 +1,113 @@
+{
+ "id": "gap",
+ "name": "CashSoft Crop Cardigan",
+ "page_url": "https://www.gap.com/browse/product.do?pid=800546212",
+ "seller": "Gap",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-01T19:50:30Z",
+   "shelf_price": 79.95,
+   "was_price": null,
+   "offer_texts": [
+    "50–60% off limited-time deals / Select styles",
+    "Extra 50% off sale",
+    "Extra 25% off your first purchase with your new card. Ends 10/3."
+   ],
+   "code_tried": false,
+   "sizes": [],
+   "shipping": [],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md OBS-9"
+  },
+  {
+   "observed_at": "2026-10-02T22:16:01Z",
+   "shelf_price": null,
+   "was_price": null,
+   "offer_texts": [],
+   "sizes": [
+    [
+     "XXS",
+     true
+    ],
+    [
+     "XS",
+     true
+    ],
+    [
+     "S",
+     true
+    ],
+    [
+     "M",
+     false
+    ],
+    [
+     "L",
+     false
+    ],
+    [
+     "XL",
+     true
+    ],
+    [
+     "XXL",
+     false
+    ]
+   ],
+   "shipping": [
+    "Free fast shipping on $50+ for Rewards Members"
+   ],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md T-GAP"
+  },
+  {
+   "observed_at": "2026-10-03T23:15:42Z",
+   "shelf_price": 79.95,
+   "was_price": null,
+   "offer_texts": [
+    "50–60% off limited time deals end in",
+    "Extra 50% off sale",
+    "Extra 25% off your first purchase with your new card. Ends 10/3. Apply now",
+    "50–60% off limited-time deals + more"
+   ],
+   "code_tried": false,
+   "sizes": [
+    [
+     "XXS",
+     true
+    ],
+    [
+     "XS",
+     true
+    ],
+    [
+     "S",
+     false
+    ],
+    [
+     "M",
+     false
+    ],
+    [
+     "L",
+     false
+    ],
+    [
+     "XL",
+     false
+    ],
+    [
+     "XXL",
+     false
+    ]
+   ],
+   "shipping": [
+    "Free fast shipping on $50+ for Rewards Members"
+   ],
+   "subscribe": [],
+   "source": "live page, this re-read: sizes S and XL, selectable on 2026-10-02, are now not selectable; price and offer texts unchanged"
+  }
+ ]
+}

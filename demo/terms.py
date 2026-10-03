@@ -317,12 +317,26 @@ SEARCH_WORDS = {
 }
 
 
+def handcard_record(slug):
+    """Stored dated observations of a hand-checked card (the earlier ones are
+    history, the last one is what the card shows)."""
+    with open(os.path.join(EVIDENCE_DIR, "handcards", slug + ".json"),
+              encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _latest(slug):
+    return handcard_record(slug)["observations"][-1]
+
+
 def _size(k, c=None, s=None, sp=None, o=None, ok=None, d=False):
     return {"k": k, "c": c, "s": s, "sp": sp, "o": o, "ok": ok, "d": d}
 
 
 # Re-read 2026-10-02 (UTC) in a read-only browser; nothing added to a cart,
-# no code tried. "src" is the page the terms were read from.
+# no code tried. "src" is the page the terms were read from. Apple, Old Navy,
+# Gap and Nike were read again 2026-10-03 (demo/evidence/handcards/, earlier
+# reads kept there as dated history); their sizes below are that latest read.
 HAND = {
     "cof3": {  # Lavazza Dolcevita Classico
         "src": ("https://www.lavazzausa.com/en/whole-bean-coffee/"
@@ -390,14 +404,14 @@ HAND = {
                      "size"},
     },
     "apple": {
-        "src": ("https://www.apple.com/airpods-pro/", "2026-10-02T22:14:40Z"),
+        "src": ("https://www.apple.com/airpods-pro/", _latest("apple")["observed_at"]),
         "group": None, "sizes": [],
         "ship": {"k": "free", "t": "Page lists “free delivery” among "
                                    "its delivery options (no minimum shown)"},
     },
     "oldnavy": {
         "src": ("https://oldnavy.gap.com/browse/product.do?pid=777363182",
-                "2026-10-02T22:14:17Z"),
+                _latest("oldnavy")["observed_at"]),
         "group": "clothing",
         "sizes": [_size(k, ok=True, o=i) for i, k in enumerate(
             ["XS", "S", "M", "L", "XL", "XXL", "2X", "3X", "4X"])],
@@ -407,11 +421,11 @@ HAND = {
     },
     "gap": {
         "src": ("https://www.gap.com/browse/product.do?pid=800546212",
-                "2026-10-02T22:16:01Z"),
+                _latest("gap")["observed_at"]),
         "group": "clothing",
         "sizes": [_size("XXS", ok=True, o=0), _size("XS", ok=True, o=1),
-                  _size("S", ok=True, o=2), _size("M", ok=False, o=3),
-                  _size("L", ok=False, o=4), _size("XL", ok=True, o=5),
+                  _size("S", ok=False, o=2), _size("M", ok=False, o=3),
+                  _size("L", ok=False, o=4), _size("XL", ok=False, o=5),
                   _size("XXL", ok=False, o=6)],
         "ship": {"k": "threshold", "over": 5000, "members": True,
                  "t": "“Free fast shipping on $50+ for Rewards "
@@ -419,7 +433,7 @@ HAND = {
     },
     "nike": {
         "src": ("https://www.nike.com/t/air-jordan-og-womens-shoes-6JW206/"
-                "CW0907-002", "2026-10-02T22:13:55Z"),
+                "CW0907-002", _latest("nike")["observed_at"]),
         "group": "shoe",
         "sizes": [_size(k, ok=ok, o=_lead_number(k)) for k, ok in [
             ("W 5 / M 3.5", True), ("W 5.5 / M 4", True),

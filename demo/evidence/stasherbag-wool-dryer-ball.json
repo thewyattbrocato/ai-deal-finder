@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:22:39Z",
+  "read_at": "2026-10-03T23:27:25Z",
   "ship": [
    "Free shipping $59+ SHOP NOW",
    "Free shipping on orders $59+",
@@ -13,6 +13,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stasherbag.com/products/wool-dryer-ball",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:22:39Z",
+    "ship": [
+     "Free shipping $59+ SHOP NOW",
+     "Free shipping on orders $59+",
+     "Shipping & Returns",
+     "shipping & returns policy"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.stasherbag.com/products/wool-dryer-ball"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stasherbag.com/products/wool-dryer-ball",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Organization",
+      "name": "Stasher"
+     },
+     "description": "Elevate your laundry routine with Stasher's Re\u2219use\u2219able Wool Dryer Balls \u2013 the natural,\u00a0reusable solution for softer clothes and faster drying times. We're extending our\u00a0commitment to a Life with Less Plastic\u2122 by offering a re\u2219use\u2219able alternative to single-use dryer sheets. Crafted from 100% pure wool, these dryer balls are an effortless way to reduce waste, save energy, and care for your fabrics naturally.\u00a0\nSPECS\nSET OF 3 X 100% PURE WOOL DRYER BALLS\n\n\nNatural Softening: Achieve fluffy, soft laundry without harsh chemicals, perfumes,\u00a0or synthetic residues.\n\nEnergy &amp; Time Saving: Separates clothes for better airflow, significantly reducing\u00a0drying time and energy consumption.\n\nReusable &amp; Long-Lasting: A durable, plastic-free alternative designed for hundreds\u00a0of loads, replacing countless single-use dryer sheets.\n\nReduces Static Cling: Naturally minimizes static without the need for chemical\u00a0additives.\n\nGentle on All Fabrics: Safe and effective for all clothing types, helping to preserve\u00a0garment quality and lifespan.\n",
+     "image": [
+      "https://www.stasherbag.com/cdn/shop/files/DryerBalls_wPKG_v2_2800.jpg?v=1786400926&width=1920"
+     ],
+     "name": "Wool Dryer Balls 3-Pack",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": "810122742142",
+       "price": 19.99,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-04",
+       "sku": "STDRYBALLS",
+       "url": "https://www.stasherbag.com/products/wool-dryer-ball?variant=45813301149875"
+      }
+     ],
+     "sku": "STDRYBALLS",
+     "url": "https://www.stasherbag.com/products/wool-dryer-ball"
+    }
+   ],
+   "observed_at": "2026-10-03T14:52:20Z",
+   "og_image": "http://www.stasherbag.com/cdn/shop/files/DryerBalls_wPKG_v2_2800.jpg?v=1786400926",
+   "page_sha256": "5fb5684fe75a7b6d96d7bf4dd89a5001442e29e586073086693684ef1ffcc7f3",
+   "rendered_checked": true,
+   "title": "Wool Dryer Balls 3-Pack \u2013 Stasher"
+  }
+ ],
  "http_status": 200,
  "id": "stasherbag-wool-dryer-ball",
  "image_file": "stasherbag-wool-dryer-ball.jpg",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T14:52:20Z",
+ "observed_at": "2026-10-03T23:27:12Z",
  "og_image": "http://www.stasherbag.com/cdn/shop/files/DryerBalls_wPKG_v2_2800.jpg?v=1786400926",
- "page_sha256": "5fb5684fe75a7b6d96d7bf4dd89a5001442e29e586073086693684ef1ffcc7f3",
+ "page_sha256": "bc9a8459b2c00bcfdaa9bd7703d211f15f93ef1fb12ab9f4217787c13f0f3726",
  "rendered_checked": true,
  "title": "Wool Dryer Balls 3-Pack \u2013 Stasher",
  "url": "https://www.stasherbag.com/products/wool-dryer-ball"

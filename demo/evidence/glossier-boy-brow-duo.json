@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:19:45Z",
+  "read_at": "2026-10-03T23:22:58Z",
   "ship": [
    "Free standard shipping on orders $40+"
   ],
@@ -12,6 +12,52 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.glossier.com/products/boy-brow-duo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:19:45Z",
+    "ship": [
+     "Free standard shipping on orders $40+"
+    ],
+    "size": [],
+    "sub": [
+     "You can unsubscribe anytime. For more details, review our Privacy Policy."
+    ],
+    "url": "https://www.glossier.com/products/boy-brow-duo"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.glossier.com/products/boy-brow-duo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Glossier"
+     },
+     "image": "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_348x.gif",
+     "name": "Boy Brow Duo",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "37",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Glossier"
+      }
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T14:50:59Z",
+   "og_image": "http://www.glossier.com/cdn/shop/files/glossier-boy-brow-duo-set-carousel-01.png?v=1782217779",
+   "page_sha256": "7f83ccb8faa691efbbbc242ae1f315918b381371c0ed3b62ad77cc745affe358",
+   "rendered_checked": true,
+   "title": "Boy Brow Duo \u2013 Glossier"
+  }
+ ],
  "http_status": 200,
  "id": "glossier-boy-brow-duo",
  "image_file": "glossier-boy-brow-duo.png",
@@ -41,9 +87,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-03T14:50:59Z",
+ "observed_at": "2026-10-03T23:22:42Z",
  "og_image": "http://www.glossier.com/cdn/shop/files/glossier-boy-brow-duo-set-carousel-01.png?v=1782217779",
- "page_sha256": "7f83ccb8faa691efbbbc242ae1f315918b381371c0ed3b62ad77cc745affe358",
+ "page_sha256": "f68b25d4cad1d711e4963a0600f020beba1e308fb86300e21b401216fb8debf0",
  "rendered_checked": true,
  "title": "Boy Brow Duo \u2013 Glossier",
  "url": "https://www.glossier.com/products/boy-brow-duo"

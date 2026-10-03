@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:26:53Z",
+  "read_at": "2026-10-03T23:29:29Z",
   "ship": [
    "Free shipping $100+, 30-day trial, free returns",
    "Free shipping on orders over $100",
@@ -18,6 +18,68 @@
  },
  "coupon_snippets": [],
  "final_url": "https://greatjonesgoods.com/products/square-one",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:26:53Z",
+    "ship": [
+     "Free shipping $100+, 30-day trial, free returns",
+     "Free shipping on orders over $100",
+     "FREE standard US shipping for orders over $100",
+     "Fast delivery and the loaf pan is beautiful!",
+     "Shipping, Return, & Discount Policy",
+     "TermsShipping PolicyCareersPrivacy",
+     "You're $100.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe to save!"
+    ],
+    "url": "https://greatjonesgoods.com/products/square-one"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://greatjonesgoods.com/products/square-one",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "reviewCount": "225"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Great Jones"
+     },
+     "description": "It\u2019s always wise to start at Square One, our 9x9-inch square baking pan with our signature wavy, corrugated bottom for easy release. Our custom nonstick, non...",
+     "image": [
+      "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1.png?v=1762449978&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_2.png?v=1697565083&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_3.png?v=1697565083&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_4.png?v=1697565083&width=1200",
+      "//greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_5.png?v=1697565083&width=1200"
+     ],
+     "name": "Square One",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "35.00",
+      "priceCurrency": "USD",
+      "url": "https://greatjonesgoods.com/products/square-one"
+     },
+     "sku": "BW-SQR-BR-01"
+    }
+   ],
+   "observed_at": "2026-10-03T15:08:15Z",
+   "og_image": "http://greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1_1024x1024.png?v=1762449978",
+   "page_sha256": "5600ddaa1b2372aed77e242a76a8ea12949bf8a100b2e8c5328ca3ee4aecec00",
+   "rendered_checked": true,
+   "title": "Square One | Great Jones"
+  }
+ ],
  "http_status": 200,
  "id": "greatjones-square-one",
  "image_file": "greatjones-square-one.png",
@@ -57,9 +119,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-03T15:08:15Z",
+ "observed_at": "2026-10-03T23:29:17Z",
  "og_image": "http://greatjonesgoods.com/cdn/shop/files/SquareOne_Broccoli_1_1024x1024.png?v=1762449978",
- "page_sha256": "5600ddaa1b2372aed77e242a76a8ea12949bf8a100b2e8c5328ca3ee4aecec00",
+ "page_sha256": "75bd06199ee1ab2361ca34cb4d83c4364227c225eafaaeec8057eb1a317c138d",
  "rendered_checked": true,
  "title": "Square One | Great Jones",
  "url": "https://greatjonesgoods.com/products/square-one"

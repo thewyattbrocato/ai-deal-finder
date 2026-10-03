@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:22:16Z",
+  "read_at": "2026-10-03T23:27:40Z",
   "ship": [
    "Free shipping $59+ SHOP NOW",
    "Free shipping on orders $59+",
@@ -13,6 +13,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stasherbag.com/products/laundry-detergent-sheets",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:22:16Z",
+    "ship": [
+     "Free shipping $59+ SHOP NOW",
+     "Free shipping on orders $59+",
+     "Shipping & Returns",
+     "shipping & returns policy"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.stasherbag.com/products/laundry-detergent-sheets"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stasherbag.com/products/laundry-detergent-sheets",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Organization",
+      "name": "Stasher"
+     },
+     "description": "\n\nStasher is thrilled to introduce our new Laundry Detergent Sheets \u2013 a revolutionary way to clean your clothes that aligns perfectly with your goal to live Life with Less Plastic\u2122. We've harnessed the power of a deep clean into a compact, eco-friendly sheet, transforming your wash day from messy and wasteful to effortless and sustainable. Discover a smarter approach to laundry that's kind to your fabrics, your family, and the planet\n\n\nSPECS\n15 LAUNDRY DETERGENT SHEETS (15 half sheets for up to 30 loads)\n\n\n\n\n\nPre-Measured Sheets: Dissolve quickly and completely in hot or cold water for\u00a0ultimate convenience.\nPowerful Clean &amp; Pure Formula: Effectively tackles everyday dirt and stubborn\u00a0stains. Free from fragrances, dyes, phosphates, and parabens \u2013 gentle on skin and\u00a0clothes.\nMess-Free Convenience: Say goodbye to sticky spills, heavy jugs, and wasteful\u00a0measuring. Compact &amp; lightweight, easy to store and travel with.\nHE &amp; Standard Washer Safe: Compatible with all washing machine types, ensuring\u00a0versatile use.\nPlastic-Free Laundry: Replaces bulky plastic detergent jugs, making a tangible\u00a0impact on waste\n\n\n",
+     "image": [
+      "https://www.stasherbag.com/cdn/shop/files/DetergentSheets_Hero_2800.jpg?v=1786400900&width=1920"
+     ],
+     "name": "Laundry Detergent Sheets 15-Pack",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": "810122742265",
+       "price": 8.99,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-04",
+       "sku": "STDTRSH01",
+       "url": "https://www.stasherbag.com/products/laundry-detergent-sheets?variant=45813288566963"
+      }
+     ],
+     "sku": "STDTRSH01",
+     "url": "https://www.stasherbag.com/products/laundry-detergent-sheets"
+    }
+   ],
+   "observed_at": "2026-10-03T14:52:22Z",
+   "og_image": "http://www.stasherbag.com/cdn/shop/files/DetergentSheets_Hero_2800.jpg?v=1786400900",
+   "page_sha256": "7bade13ac3b155476594efb220ca4dabc1c7d60f50dda54d45db6639d63fdeef",
+   "rendered_checked": true,
+   "title": "Laundry Detergent Sheets 15-Pack \u2013 Stasher"
+  }
+ ],
  "http_status": 200,
  "id": "stasherbag-laundry-detergent-sheets",
  "image_file": "stasherbag-laundry-detergent-sheets.jpg",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Home",
- "observed_at": "2026-10-03T14:52:22Z",
+ "observed_at": "2026-10-03T23:27:27Z",
  "og_image": "http://www.stasherbag.com/cdn/shop/files/DetergentSheets_Hero_2800.jpg?v=1786400900",
- "page_sha256": "7bade13ac3b155476594efb220ca4dabc1c7d60f50dda54d45db6639d63fdeef",
+ "page_sha256": "6df4dfe9d477d85de59e319c7a5844829a94faaa6ea25a72681efd1873d6edaa",
  "rendered_checked": true,
  "title": "Laundry Detergent Sheets 15-Pack \u2013 Stasher",
  "url": "https://www.stasherbag.com/products/laundry-detergent-sheets"

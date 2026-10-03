@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:27:38Z",
+  "read_at": "2026-10-03T23:28:13Z",
   "ship": [
    "FREE SHIPPING"
   ],
@@ -14,6 +14,59 @@
  },
  "coupon_snippets": [],
  "final_url": "https://hexclad.com/products/rice-pot",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:27:38Z",
+    "ship": [
+     "FREE SHIPPING"
+    ],
+    "size": [
+     "Select A Size: Rice Pot"
+    ],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://hexclad.com/products/rice-pot"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://hexclad.com/products/rice-pot",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "HexClad Cookware"
+     },
+     "description": "A modern twist on the traditional Japanese hagama, the HexClad 2-QT (3-go) Hybrid Rice Pot is our bestselling pot in Japan. We designed it to make stovetop rice perfectly tender and fluffy\u2014every time. But it can also do more: This pot is ideal for crispy-bottom rice, Korean nurungji, hot pots, soups, stews and braises.",
+     "image": "https://hexclad.com/cdn/shop/files/RicePot2.jpg?v=1774234727&width=1024",
+     "name": "Hybrid Rice Pot, 2-QT (3-GO)",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 118.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@type": "Organization",
+        "name": "HexClad Cookware"
+       },
+       "sku": "CWRP02-C",
+       "url": "https://hexclad.com/products/rice-pot?variant=43708012036230"
+      }
+     ],
+     "sku": "CWRP02-C"
+    }
+   ],
+   "observed_at": "2026-10-03T15:08:00Z",
+   "og_image": "http://hexclad.com/cdn/shop/files/RicePot2.jpg?crop=center&height=480&v=1774234727&width=480",
+   "page_sha256": "2a1996a3f85959a2c9a0993cb3b45192fc156b701bdc9e7c49f21d30c1598143",
+   "rendered_checked": true,
+   "title": "Hybrid Rice Pot, 2-QT (3-GO) | HexClad"
+  }
+ ],
  "http_status": 200,
  "id": "hexclad-rice-pot",
  "image_file": "hexclad-rice-pot.jpg",
@@ -48,9 +101,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-03T15:08:00Z",
+ "observed_at": "2026-10-03T23:27:56Z",
  "og_image": "http://hexclad.com/cdn/shop/files/RicePot2.jpg?crop=center&height=480&v=1774234727&width=480",
- "page_sha256": "2a1996a3f85959a2c9a0993cb3b45192fc156b701bdc9e7c49f21d30c1598143",
+ "page_sha256": "3dbc4661a4757156dfe25dd3035649cef61f5a4731f11275d0b34da219d58ad5",
  "rendered_checked": true,
  "title": "Hybrid Rice Pot, 2-QT (3-GO) | HexClad",
  "url": "https://hexclad.com/products/rice-pot"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:30:37Z",
+  "read_at": "2026-10-03T23:33:40Z",
   "ship": [
    "Free Shipping US Orders $85+ Shop Best Sellers",
    "Free Shipping US Orders $85+",
@@ -14,6 +14,86 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.twelvesouth.com/products/airfly-pro-2-deluxe",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:30:37Z",
+    "ship": [
+     "Free Shipping US Orders $85+ Shop Best Sellers",
+     "Free Shipping US Orders $85+",
+     "FREE Shipping Over $85+ | 30-Day Returns",
+     "Shipping & Returns",
+     "Shipping Policy"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.twelvesouth.com/products/airfly-pro-2-deluxe"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.twelvesouth.com/products/airfly-pro-2-deluxe",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/airfly-pro-2-deluxe#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "5",
+      "ratingValue": "5.0"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Twelve South"
+     },
+     "description": "Enjoy in-flight entertainment with your favorite wireless headphones\nPair two sets of wireless headphones to one device for shared listening\nExperience superior sound, intuitive controls, and effortless Bluetooth pairing\n25+ hour battery life, rechargeable via USB-C\nWorks with gym equipment, classic stereos, and more\nDeluxe includes our International Airline Adapter and a premium faux suede bag",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/12s_AirFlyPro2Deluxe_TravelBagAdapter_HiRes_450x450.jpg?v=1779223806",
+     "mpn": "8311980654649",
+     "name": "AirFly Pro 2 Deluxe",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "69.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Twelve South"
+      }
+     },
+     "url": "/products/airfly-pro-2-deluxe"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/airfly-pro-2-deluxe#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Twelve South"
+     },
+     "category": "Bluetooth Transmitters",
+     "description": "\nEnjoy in-flight entertainment with your favorite wireless headphones\nPair two sets of wireless headphones to one device for shared listening\nExperience superior sound, intuitive controls, and effortless Bluetooth pairing\n25+ hour battery life, rechargeable via USB-C\nWorks with gym equipment, classic stereos, and more\nDeluxe includes our International Airline Adapter and a premium faux suede bag\n",
+     "gtin": "811370025643",
+     "image": "https://www.twelvesouth.com/cdn/shop/files/12s_AirFlyPro2Deluxe_TravelBagAdapter_HiRes.jpg?v=1779223806&width=1920",
+     "name": "AirFly Pro 2 Deluxe",
+     "offers": {
+      "@id": "/products/airfly-pro-2-deluxe?variant=46434882912313#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "69.99",
+      "priceCurrency": "USD",
+      "url": "https://www.twelvesouth.com/products/airfly-pro-2-deluxe?variant=46434882912313"
+     },
+     "sku": "TS-2616",
+     "url": "https://www.twelvesouth.com/products/airfly-pro-2-deluxe"
+    }
+   ],
+   "observed_at": "2026-10-03T15:09:49Z",
+   "og_image": "http://www.twelvesouth.com/cdn/shop/files/12s_AirFlyPro2Deluxe_TravelBagAdapter_HiRes.jpg?v=1779223806",
+   "page_sha256": "6aa9a0768c2e4a51f5384000c57130b486f14038252b6f69349122bb2652b62c",
+   "rendered_checked": true,
+   "title": "AirFly Pro 2 Deluxe: Bluetooth Audio Anywhere | Twelve South"
+  }
+ ],
  "http_status": 200,
  "id": "twelvesouth-airfly-pro-2-deluxe",
  "image_file": "twelvesouth-airfly-pro-2-deluxe.jpg",
@@ -75,9 +155,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-03T15:09:49Z",
+ "observed_at": "2026-10-03T23:33:27Z",
  "og_image": "http://www.twelvesouth.com/cdn/shop/files/12s_AirFlyPro2Deluxe_TravelBagAdapter_HiRes.jpg?v=1779223806",
- "page_sha256": "6aa9a0768c2e4a51f5384000c57130b486f14038252b6f69349122bb2652b62c",
+ "page_sha256": "67463eef9ff1489f0fe3183c798a39c4473406f1816a0a95c5b03ff9c22bad09",
  "rendered_checked": true,
  "title": "AirFly Pro 2 Deluxe: Bluetooth Audio Anywhere | Twelve South",
  "url": "https://twelvesouth.com/products/airfly-pro-2-deluxe"
