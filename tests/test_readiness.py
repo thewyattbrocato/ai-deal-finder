@@ -84,10 +84,10 @@ class D2CoffeeIsBeans(Base):
         "White Chocolate Pistachio Ground Bundle",
     }
 
-    def test_coffee_beans_search_lists_only_the_nine_bean_bags(self):
+    def test_coffee_beans_search_lists_only_the_eleven_bean_bags(self):
         load = drive(PAGE, only_load=True, hash="#q=coffee%20beans")["load"]
         names = [c["name"] for c in load["main"]]
-        self.assertEqual(len(names), 9)
+        self.assertEqual(len(names), 11)
         for c in load["main"]:
             self.assertEqual(c["kind"], "Coffee", c)
             self.assertNotIn(c["name"], self.NOT_BEANS)

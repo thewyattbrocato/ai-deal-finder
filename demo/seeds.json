@@ -177,12 +177,12 @@
  {
   "id": "fellowproducts-colombia-el-paraiso-cardamom-cloud",
   "url": "https://fellowproducts.com/products/colombia-el-paraiso-cardamom-cloud",
-  "kind": "Kitchen"
+  "kind": "Coffee"
  },
  {
   "id": "fellowproducts-colombia-juan-puerta-mango",
   "url": "https://fellowproducts.com/products/colombia-juan-puerta-mango",
-  "kind": "Kitchen"
+  "kind": "Coffee"
  },
  {
   "id": "fellowproducts-opus-gen-2-cleaning-brush",
@@ -207,27 +207,27 @@
  {
   "id": "gorillagrip-bath-strips",
   "url": "https://gorillagrip.com/products/bath-strips",
-  "kind": "Tech"
+  "kind": "Home"
  },
  {
   "id": "gorillagrip-pizza-cutter",
   "url": "https://gorillagrip.com/products/pizza-cutter",
-  "kind": "Tech"
+  "kind": "Kitchen"
  },
  {
   "id": "gorillagrip-home-genie-ironing-board-cover",
   "url": "https://gorillagrip.com/products/home-genie-ironing-board-cover",
-  "kind": "Tech"
+  "kind": "Home"
  },
  {
   "id": "gorillagrip-bento-box",
   "url": "https://gorillagrip.com/products/bento-box",
-  "kind": "Tech"
+  "kind": "Kitchen"
  },
  {
   "id": "gorillagrip-removable-hooks",
   "url": "https://gorillagrip.com/products/removable-hooks",
-  "kind": "Tech"
+  "kind": "Home"
  },
  {
   "id": "peakdesign-everyday-case-for-pixel-8-everyday-case-redwood",
@@ -351,7 +351,7 @@
  },
  {
   "id": "stanley1913-stanley-x-togethxr-quencher-h2-0-flowstate-tumbl",
-  "url": "https://stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate\u2122-tumbler-30-oz",
+  "url": "https://stanley1913.com/products/stanley-x-togethxr-quencher-h2-0-flowstate™-tumbler-30-oz",
   "kind": "Outdoors"
  },
  {
@@ -376,23 +376,23 @@
  },
  {
   "id": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-30-oz",
-  "url": "https://stanley1913.com/products/halloween-quencher\u00ae-h2-0-flowstate\u2122-tumbler-30-oz-tts",
+  "url": "https://stanley1913.com/products/halloween-quencher®-h2-0-flowstate™-tumbler-30-oz-tts",
   "kind": "Outdoors"
  },
  {
   "id": "sodastream-sodastream-diet-mtn-dew-drink-mix-old",
   "url": "https://sodastream.com/products/sodastream-diet-mtn-dew-drink-mix-old",
-  "kind": "Kitchen"
+  "kind": "Drinks"
  },
  {
   "id": "sodastream-bubly-drops-tropical-thrill-variety-3-pack",
   "url": "https://sodastream.com/products/bubly-drops-tropical-thrill-variety-3-pack",
-  "kind": "Kitchen"
+  "kind": "Drinks"
  },
  {
   "id": "sodastream-bubly-drops-original-variety-6-pack",
   "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
-  "kind": "Kitchen"
+  "kind": "Drinks"
  },
  {
   "id": "sodastream-bubly-squeeze-tropical-punch-3pk",
@@ -727,7 +727,7 @@
  {
   "id": "bokksu-gift-wrap",
   "url": "https://bokksu.com/products/gift-wrap",
-  "kind": "Pantry"
+  "kind": "Home"
  },
  {
   "id": "bokksu-gift-bokksu-snack-box-copy-1",
@@ -757,27 +757,27 @@
  {
   "id": "cuyana-deco-bracelet-7-5-inch",
   "url": "https://cuyana.com/products/deco-bracelet-7-5-inch",
-  "kind": "Clothing"
+  "kind": "Accessories"
  },
  {
   "id": "cuyana-deco-bracelet-7-inch",
   "url": "https://cuyana.com/products/deco-bracelet-7-inch",
-  "kind": "Clothing"
+  "kind": "Accessories"
  },
  {
   "id": "cuyana-deco-pearl-earrings",
   "url": "https://cuyana.com/products/deco-pearl-earrings",
-  "kind": "Clothing"
+  "kind": "Accessories"
  },
  {
   "id": "cuyana-deco-mini-hoop-earrings",
   "url": "https://cuyana.com/products/deco-mini-hoop-earrings",
-  "kind": "Clothing"
+  "kind": "Accessories"
  },
  {
   "id": "nisolo-shoe-charm-fish-blue",
   "url": "https://nisolo.com/products/shoe-charm-fish-blue",
-  "kind": "Shoes"
+  "kind": "Accessories"
  },
  {
   "id": "nisolo-nisolo-gift-card-100",
@@ -787,32 +787,32 @@
  {
   "id": "nisolo-shoe-charm-black-white",
   "url": "https://nisolo.com/products/shoe-charm-black-white",
-  "kind": "Shoes"
+  "kind": "Accessories"
  },
  {
   "id": "nisolo-shoe-charm-terracotta-gold",
   "url": "https://nisolo.com/products/shoe-charm-terracotta-gold",
-  "kind": "Shoes"
+  "kind": "Accessories"
  },
  {
   "id": "thursdayboots-mens-mechanic-point-collar-jacket-army-green",
   "url": "https://thursdayboots.com/products/mens-mechanic-point-collar-jacket-army-green",
-  "kind": "Shoes"
+  "kind": "Clothing"
  },
  {
   "id": "thursdayboots-mens-bomber-jacket-cinnamon-suede",
   "url": "https://thursdayboots.com/products/mens-bomber-jacket-cinnamon-suede",
-  "kind": "Shoes"
+  "kind": "Clothing"
  },
  {
   "id": "thursdayboots-mens-racer-leather-jacket-java-brown",
   "url": "https://thursdayboots.com/products/mens-racer-leather-jacket-java-brown",
-  "kind": "Shoes"
+  "kind": "Clothing"
  },
  {
   "id": "thursdayboots-mens-highland-wool-sweater-driftwood",
   "url": "https://thursdayboots.com/products/mens-highland-wool-sweater-driftwood",
-  "kind": "Shoes"
+  "kind": "Clothing"
  },
  {
   "id": "ridgewallet-wallet-power-bank-keycase-kintsugi-navy-dark-har",
@@ -887,12 +887,12 @@
  {
   "id": "publicgoods-cleaning-refill-set-3-month-supply",
   "url": "https://publicgoods.com/products/cleaning-refill-set-3-month-supply",
-  "kind": "Personal care"
+  "kind": "Home"
  },
  {
   "id": "publicgoods-home-essentials-set",
   "url": "https://publicgoods.com/products/home-essentials-set",
-  "kind": "Personal care"
+  "kind": "Home"
  },
  {
   "id": "cometeer-the-big-chlebowski-bundle",
@@ -916,7 +916,7 @@
  },
  {
   "id": "counterculturecoffee-the-bambino",
-  "url": "https://counterculturecoffee.com/products/the-bambino\u2122",
+  "url": "https://counterculturecoffee.com/products/the-bambino™",
   "kind": "Kitchen"
  },
  {

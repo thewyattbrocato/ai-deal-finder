@@ -153,6 +153,33 @@ def _ship_from_lines(lines):
     return {"k": "threshold", "over": over, "members": mem, "t": quote}
 
 
+_PRE_ORDER = re.compile(r"(?i)\bpre-?orders?\b")
+_PRE_SHIP = re.compile(r"(?i)\b(?:start|begin|will)?\s*ship(?:s|ping)?\b")
+
+
+def _pre_from_lines(lines):
+    """A stated pre-order shipping line, quoted as the page wrote it.
+
+    Only a line that says "pre-order" and talks about shipping counts; the
+    emoji or "Shipping:" label in front of it is dropped, the rest is the
+    page's own words. Two different pre-order lines mean unknown.
+    """
+    found = []
+    for g in [g.strip() for l in lines or [] for g in re.split(r"\s[|•]\s", l)]:
+        if not (_PRE_ORDER.search(g) and _PRE_SHIP.search(g)):
+            continue
+        q = re.sub(r"^[^A-Za-z0-9]+", "", g)
+        q = re.sub(r"(?i)^shipping:\s*", "", q).strip()
+        if q and q not in found:
+            found.append(q)
+    if len(found) != 1:
+        return None
+    q = found[0]
+    m = re.search(r"(?i)\bstart\w* shipping\b.*$", q)
+    return {"t": "“" + q + "”",
+            "when": "“" + (m.group(0) if m else q) + "”"}
+
+
 def _sub_from_lines(lines):
     hits = [l for l in (lines or [])
             if _SUB_OFFER.search(l) and not _SUB_SKIP.search(l)]
@@ -242,7 +269,10 @@ def from_evidence(ev, kind):
         out["ship"] = ship
     if r_sub:
         out["sub"] = r_sub
-    if src and (ship or r_sub):
+    pre = _pre_from_lines((ev.get("conditions") or {}).get("ship"))
+    if pre:
+        out["pre"] = pre
+    if src and (ship or r_sub or pre):
         out["src"] = src
     return out
 
