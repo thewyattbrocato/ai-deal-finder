@@ -1,0 +1,52 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:05Z",
+  "ship": [
+   "Free Shipping $50+",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport",
+ "http_status": 200,
+ "id": "knockaround-wm-phoenix-fast-lanes-sport",
+ "image_file": "knockaround-wm-phoenix-fast-lanes-sport.jpg",
+ "image_sha256": "621ea5a24100d251df5f7b4036dbc1e3bfff5242177143cbc227ebff14f5a276",
+ "image_source": "http://knockaround.com/cdn/shop/files/knockaround-phoenix-open-fastlanes-sport-flyover.jpg?v=1765212559&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Knockaround"
+   },
+   "category": "Sunglasses",
+   "description": "Dark green frames built for the loudest hole in golf and the longest days in the desert. Polarized smoke lenses cut the glare as the sun climbs and the crowd gets rowdy, while embedded rubber nose pads keep everything locked in from first tee to last cheer. Finished with a desert outline on the arms and a 16th hole lens etch, this pair is made for fairways, grandstands, and whatever happens after the final putt drops. Equal parts grit and gold because at TPC Scottsdale, subtlety never wins. Limited edition. When the tournament\u2019s over, so are these.\n\nPolarized smoke lenses\nFull UV400 eye protection\nEmbedded green rubber nose pads\nDark green frame with desert outline on arms\n16th hole logo lens etch\nRubberized finish\nGold K logos\nMicrofiber lens cleaning pouch included\nFDA compliant impact resistant lenses\n",
+   "gtin": "810093768615",
+   "image": "https://knockaround.com/cdn/shop/files/knockaround-phoenix-open-fastlanes-sport-flyover.jpg?v=1765212559&width=1920",
+   "name": "WM Phoenix Open Fast Lanes Sport",
+   "offers": {
+    "@id": "/products/wm-phoenix-fast-lanes-sport?variant=42507992039529#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "20.00",
+    "priceCurrency": "USD",
+    "url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport?variant=42507992039529"
+   },
+   "sku": "SPRO3027",
+   "url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:17:59Z",
+ "og_image": "http://knockaround.com/cdn/shop/files/knockaround-phoenix-open-fastlanes-sport-flyover.jpg?v=1765212559",
+ "page_sha256": "209346a14476ca9335f2a984124a99e5d0a76626457c1c3ec125c18dc3d39f60",
+ "rendered_checked": true,
+ "title": "WM Phoenix Open Fast Lanes Sport Sunglasses | Knockaround.com",
+ "url": "https://knockaround.com/products/wm-phoenix-fast-lanes-sport"
+}

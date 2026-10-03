@@ -1,0 +1,86 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:29Z",
+  "ship": [
+   "Free ground shipping on orders $400+",
+   "Free standard shipping everyday",
+   "Delivery, Returns & Warranty"
+  ],
+  "size": [
+   "size"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371",
+ "http_status": 200,
+ "id": "timex-easy-reader-25mm-expansion-band-watch-t2h371",
+ "image_file": "timex-easy-reader-25mm-expansion-band-watch-t2h371.png",
+ "image_sha256": "076351d23f86750834112bdbffda0dde7d91eefe191d9d800166c1566976a910",
+ "image_source": "http://timex.com/cdn/shop/files/T2H371_9fbfe56e-c4a3-46fd-9592-d34ab5afbf1d.png?v=1773815696&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "TIMEX"
+   },
+   "description": "Elevate your wrist game with the Easy Reader\u00ae 25mm Expansion Band Watch. Learn more about its features, here at Timex!",
+   "image": [
+    "https://timex.com/cdn/shop/files/T2H371_9fbfe56e-c4a3-46fd-9592-d34ab5afbf1d.png?v=1773815696&width=1000"
+   ],
+   "name": "Easy Reader\u00ae 25mm Expansion Band Watch",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "itemCondition": "NewCondition",
+     "price": "83.0",
+     "priceCurrency": "USD",
+     "sku": "T2H3719J",
+     "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371?variant=40430866497619"
+    }
+   ],
+   "sku": "T2H3719J",
+   "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "439"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "TIMEX"
+   },
+   "description": "IT TAKES A LICKING AND KEEPS ON TICKING\u00ae. The direct descendant of our 1960's televised torture test survivors, today's Easy Reader\u00ae is as durable as it is classically cool.",
+   "image": [
+    "https://timex.com/cdn/shop/files/T2H371_9fbfe56e-c4a3-46fd-9592-d34ab5afbf1d.png?v=1773815696&width=480"
+   ],
+   "name": "Easy Reader\u00ae 25mm Expansion Band Watch",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "83.0",
+    "priceCurrency": "USD",
+    "sku": "T2H3719J",
+    "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371?variant=40430866497619"
+   },
+   "sku": "T2H3719J"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:14Z",
+ "og_image": "http://timex.com/cdn/shop/files/T2H371_9fbfe56e-c4a3-46fd-9592-d34ab5afbf1d.png?v=1773815696",
+ "page_sha256": "5fcdb433745a6e2471b9313966e553134a2533b0bc707665ce4865a3e8df3d80",
+ "rendered_checked": true,
+ "title": "Easy Reader\u00ae 25mm Expansion Band Watch - T2H371 | Timex US",
+ "url": "https://timex.com/products/easy-reader-25mm-expansion-band-watch-t2h371"
+}

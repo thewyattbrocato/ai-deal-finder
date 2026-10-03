@@ -1,0 +1,77 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:43Z",
+  "ship": [
+   "Shipping:",
+   "Free Standard Shipping",
+   "SHIPPING",
+   "Shipping is included in the price of your plant. To protect your plant during cold temperatures, a heat pack will be included when necessary.",
+   "Refunds/Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE"
+  ],
+  "sub": [],
+  "url": "https://costafarms.com/products/brasil-philodendron-medium"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://costafarms.com/products/brasil-philodendron-medium",
+ "http_status": 200,
+ "id": "costafarms-brasil-philodendron-medium",
+ "image_file": "costafarms-brasil-philodendron-medium.jpg",
+ "image_sha256": "93927df5a3da202176d8302e61bc3e9074611468857011f36e8a5f7dfcc958bf",
+ "image_source": "http://costafarms.com/cdn/shop/files/2000_x_2000-6.6in_Brazil_Philodendron_in_Hanging_Basket_BBG.jpg?v=1784308864&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://costafarms.com/products/brasil-philodendron-medium#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Costa Farms"
+   },
+   "category": "Indoor HousePlant",
+   "description": "Looking for a classic plant with a bit \u00a0more color? Brasil Philodendron combines easy-care growth with variegated foliage that adds brightness and contrast to your space.\nThis variety features heart-shaped leaves with streaks of green and golden-yellow, creating a lively, high-contrast look along the trailing vines. The variegation adds visual interest while still maintaining the familiar, natural feel philodendrons are known for.\nWith its naturally trailing habit, Brasil Philodendron is idea...",
+   "image": [
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-6.6in_Brazil_Philodendron_in_Hanging_Basket_BBG_1000x.jpg?v=1784308864",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-_6.6in_Brazil_Philodendron_in_Hanging_Basket_Lifestyle_1000x.jpg?v=1784308864",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-6.6in_Brazil_Philodendron_in_Hanging_Basket_Detail-bio-image-desktop_1000x.jpg?v=1784308883",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-_6.6in_Brazil_Philodendron_in_Hanging_Basket_Delight_1000x.jpg?v=1784308863",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-25CF_-_Costa_Farms_Tabletop_Plant_Scale_Chart_Diagram_1000x.jpg?v=1776708010"
+   ],
+   "name": "Brasil Philodendron | medium",
+   "offers": [
+    {
+     "@id": "https://costafarms.com/products/brasil-philodendron-medium?variant=54047640813936",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://costafarms.com/cdn/shop/files/2000_x_2000-6.6in_Brazil_Philodendron_in_Hanging_Basket_BBG_1000x.jpg?v=1784308864",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Brasil Philodendron | medium - Hanging Basket / Medium",
+     "price": "49.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@id": "https://costafarms.com/#organization"
+     },
+     "sku": "M-PLB-G-HGP-01-CF",
+     "url": "https://costafarms.com/products/brasil-philodendron-medium?variant=54047640813936"
+    }
+   ],
+   "productID": "15187378471280",
+   "publisher": {
+    "@id": "https://costafarms.com/#organization"
+   },
+   "sku": "M-PLB-G-HGP-01-CF",
+   "url": "https://costafarms.com/products/brasil-philodendron-medium"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:18:05Z",
+ "og_image": "http://costafarms.com/cdn/shop/files/2000_x_2000-6.6in_Brazil_Philodendron_in_Hanging_Basket_BBG.jpg?v=1784308864",
+ "page_sha256": "103d142cd3c96698ed0782392cc374908f447218d808d58165b144b2a87f6a51",
+ "rendered_checked": true,
+ "title": "Brasil Philodendron | medium \u2013 Costa Farms",
+ "url": "https://costafarms.com/products/brasil-philodendron-medium"
+}

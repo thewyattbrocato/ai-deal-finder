@@ -1,0 +1,52 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:47Z",
+  "ship": [
+   "Free U.S. Shipping",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://flairespresso.com/products/the-flair-classic"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://flairespresso.com/products/the-flair-classic",
+ "http_status": 200,
+ "id": "flair-the-flair-classic",
+ "image_file": "flair-the-flair-classic.jpg",
+ "image_sha256": "ae5dc4e6343059e149896ea32392731c1054c51044ec4fc6ea6582191c58afcd",
+ "image_source": "http://flairespresso.com/cdn/shop/files/flair_classic_shopify_hero.jpg?crop=center&height=1200&v=1781893589&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/the-flair-classic#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Flair Espresso"
+   },
+   "category": "Espresso Machines",
+   "description": "The Flair Classic is an affordable way to craft rich, full-bodied, caf\u00e9-quality espresso from the comfort of your home. The first Flair Espresso Maker ever designed, the Classic is an all manual lever espresso maker, providing a pressure gauge and two different portafilters, one for convenience and one for control.",
+   "gtin": "797822791673",
+   "image": "https://flairespresso.com/cdn/shop/files/flair_classic_shopify_hero.jpg?v=1781893589&width=1920",
+   "name": "Flair Classic",
+   "offers": {
+    "@id": "/products/the-flair-classic?variant=51984957047086#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "159.00",
+    "priceCurrency": "USD",
+    "url": "https://flairespresso.com/products/the-flair-classic?variant=51984957047086"
+   },
+   "sku": "0C119161N",
+   "url": "https://flairespresso.com/products/the-flair-classic"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:26Z",
+ "og_image": "http://flairespresso.com/cdn/shop/files/flair_classic_shopify_hero.jpg?crop=center&height=1200&v=1781893589&width=1200",
+ "page_sha256": "f263446e7b72e9db12184c037bfa1b679865fe2868845a47ec5658c5702e7e3f",
+ "rendered_checked": true,
+ "title": "Flair Classic | The Original Manual Espresso Maker | Flair Espresso",
+ "url": "https://flairespresso.com/products/the-flair-classic"
+}

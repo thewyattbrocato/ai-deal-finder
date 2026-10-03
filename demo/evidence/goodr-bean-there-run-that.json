@@ -1,0 +1,120 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:31:04Z",
+  "ship": [
+   "FREE U.S. STANDARD SHIPPING ON ORDERS $60+"
+  ],
+  "size": [
+   "SIZE:"
+  ],
+  "sub": [],
+  "url": "https://goodr.com/products/bean-there-run-that"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://goodr.com/products/bean-there-run-that",
+ "http_status": 200,
+ "id": "goodr-bean-there-run-that",
+ "image_file": "goodr-bean-there-run-that.png",
+ "image_sha256": "df135454f8ccffd1ad179c502f765551312f5894549fee79c6d2ca1356686647",
+ "image_source": "https://goodr.com/cdn/shop/files/1_RunCityChicago_SideTransparent_1200x675.png?v=1788983204&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "2"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "goodr sunglasses"
+   },
+   "description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span></span><span></span><span>Have you Bean There, Run That?! Now you can, with these Chicago-inspired shades. Featuring a geometric pattern in the city's flag colors and burnt orange lenses. Perfect for marathon miles, or just admiring your reflection at The Bean!!!</span></p>",
+   "image": "https://goodr.com/cdn/shop/files/1_RunCityChicago_SideTransparent_1024x1024.png?v=1788983204",
+   "mpn": "840467613678",
+   "name": "Bean There, Run That",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "merchantReturnDays": 30,
+     "returnFees": "FreeReturn",
+     "returnMethod": "ReturnByMail",
+     "returnPolicyCategory": "MerchantReturnFiniteReturnWindow"
+    },
+    "price": 35.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "goodr sunglasses"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "freeShippingThreshold": 50,
+     "shippingCharges": [
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 8,
+         "minValue": 3,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 999999999,
+       "minimumOrderValue": 50,
+       "shippingOptionName": "Free Shipping",
+       "shippingRate": 0
+      },
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 8,
+         "minValue": 4,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 49.99,
+       "minimumOrderValue": 0,
+       "shippingOptionName": "Standard Shipping",
+       "shippingRate": 5
+      },
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 6,
+         "minValue": 3,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 49.99,
+       "minimumOrderValue": 0,
+       "shippingOptionName": "Express Shipping",
+       "shippingRate": 15
+      }
+     ]
+    },
+    "url": "https://goodr.com/products/bean-there-run-that?variant=41580117819450"
+   },
+   "sku": "G01093-OG-01"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:02Z",
+ "og_image": "https://goodr.com/cdn/shop/files/1_RunCityChicago_SideTransparent_1200x675.png?v=1788983204",
+ "page_sha256": "f4f8d8593f5d4a7ca63c810c811060a568e3479a8bb8b70e8050611403348b5d",
+ "rendered_checked": true,
+ "title": "Chicago Sunglasses | Bean There, Run That | goodr \u2014 goodr sunglasses",
+ "url": "https://goodr.com/products/bean-there-run-that"
+}

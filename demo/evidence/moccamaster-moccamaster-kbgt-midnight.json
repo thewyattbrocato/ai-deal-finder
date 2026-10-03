@@ -1,0 +1,64 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:23Z",
+  "ship": [
+   "Free Ground Shipping on Brewers & Grinders | Orders Ship Next Business Day"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://us.moccamaster.com/products/moccamaster-kbgt-midnight"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://us.moccamaster.com/products/moccamaster-kbgt-midnight",
+ "http_status": 200,
+ "id": "moccamaster-moccamaster-kbgt-midnight",
+ "image_file": "moccamaster-moccamaster-kbgt-midnight.png",
+ "image_sha256": "069fee3fc4a854d0875df3eb2b0733cbf85c10508d82590936d1a044d5bbf274",
+ "image_source": "http://us.moccamaster.com/cdn/shop/files/Moccamaster_Set_79315_KBGT_Black_Midnight_600x.png?v=1773954326&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "13"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Moccamaster USA"
+   },
+   "description": "<p data-start=\"96\" data-end=\"209\">Introducing Moccamaster Midnight,\u00a0the first time a Moccamaster has ever been finished with a black carafe.</p>\n<p data-start=\"216\" data-end=\"620\">Designed for those who brew a full carafe and value simplicity, Midnight keeps the process effortless: add your coffee grounds and water, then flip the switch. The automatic brew basket stops the flow of coffee when the carafe is removed, keeping every pour clean and controlled. Inside the sleek black stainless steel exterior, a borosilicate glass lining helps retain heat, keeping your coffee hotter, longer.</p>\n<!-- split -->\n<div class=\"specs-wrapper\">\n<p>Weight: 6.25 lbs</p>\n<p>Dimensions: 16.00\" H x 11.50\" W x 6.75\" D</p>\n<p>Volts: 120 V</p>\n<p>Watts: 1400 W</p>\n<p>Volume: 1.25 L / 40 oz / 10 cups</p>\n<p>Power Switch: <meta charset=\"utf-8\">Power Switch: <span><span dir=\"ltr\" class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\">This brewer will power off automatically 12 minutes after brewing</span></span></p>\n<p>Brew Basket Style: Automatic drip-stop</p>\n<p>Body Style: Rectangular</p>\n<p>Material: Metal / BPA, BPS, BPF, and phthalate-free plastic</p>\n<p>Warranty: 5 years</p>\n<p>Certifications: ECBC certified and SCA approved to meet and exceed the golden cup standard</p>\n<p>All Moccamaster coffee brewers are handmade at the Technivorm factory in the Netherlands.</p>\n<p>We build our coffee brewers to last. Replacement parts are available for all models, and our on-site Service Technicians will repair any Moccamaster for the life of the brewer. With proper care and maintenance, this should be the last coffee brewer you ever need to buy.</p>\n</div>",
+   "image": "https://us.moccamaster.com/cdn/shop/files/Moccamaster_Set_79315_KBGT_Black_Midnight_1024x1024.png?v=1773954326",
+   "mpn": "8712072793156",
+   "name": "Moccamaster KBGT Midnight",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 359.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Moccamaster USA"
+    },
+    "url": "https://us.moccamaster.com/products/moccamaster-kbgt-midnight?variant=47286340780195"
+   },
+   "review": {
+    "@type": "Review",
+    "reviewRating": {
+     "@type": "Rating",
+     "ratingValue": "4.8"
+    }
+   },
+   "sku": "79315"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:16Z",
+ "og_image": "http://us.moccamaster.com/cdn/shop/files/Moccamaster_Set_79315_KBGT_Black_Midnight_600x.png?v=1773954326",
+ "page_sha256": "61de3bca57f52004ef54560be3535e5f717cc813308025bf3621cedae5937689",
+ "rendered_checked": true,
+ "title": "Pour Over Automatic Drip-Stop Coffee Maker: Moccamaster KBGT Brewer - Moccamaster USA",
+ "url": "https://us.moccamaster.com/products/moccamaster-kbgt-midnight"
+}

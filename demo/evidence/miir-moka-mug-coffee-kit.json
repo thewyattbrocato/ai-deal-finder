@@ -1,0 +1,91 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:40Z",
+  "ship": [
+   "\ud83d\udce3 \ud83d\udce6 Become a MiiR VIP and unlock FREE US GROUND SHIPPING on your first online order \ud83d\udce6 \ud83d\udce3",
+   "Shipping & Returns",
+   "Free Shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.miir.com/products/moka-mug-coffee-kit"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.miir.com/products/moka-mug-coffee-kit",
+ "http_status": 200,
+ "id": "miir-moka-mug-coffee-kit",
+ "image_file": "miir-moka-mug-coffee-kit.jpg",
+ "image_sha256": "771fa8fbf39a78288020e2e15310d4fcfa898356f24fd0d3cb5eb29c0b95643b",
+ "image_source": "http://www.miir.com/cdn/shop/files/ceramics-bundle-moka.jpg?v=1790104264&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.miir.com/products/moka-mug-coffee-kit",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "MiiR.com"
+   },
+   "description": "The perfect cup to start your morning. An effortless pick-me-up in the afternoon. Made for two, the Moka Mug Coffee Kit delivers the best brew at any hour.\u00a0\nWith tapered angles that mirror the classic Moka Pot, the ceramic Moka Mug offers a clean, quiet aesthetic for everyday sipping at home or at work. Handcrafted and high-fired for strength, this microwave-safe mug is responsibly made from New Bone China for superior heat retention.\u00a0\nA timeless classic made modern, the Moka Pot easily brews cafe-quality espresso in a flash. Made from durable, non-corrosive stainless steel and post-consumer recycled components, the Moka Pot ensures every cup of joe comes with a more responsible footprint.",
+   "image": [
+    "https:files/ceramics-bundle-moka.jpg"
+   ],
+   "name": "Moka Mug Coffee Kit",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "itemCondition": "https://schema.org/NewCondition",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 75.0,
+     "priceCurrency": "USD",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "deliveryTime": {
+       "@type": "ShippingDeliveryTime",
+       "handlingTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 2,
+        "minValue": 0,
+        "unitCode": "DAY"
+       },
+       "transitTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 7,
+        "minValue": 2,
+        "unitCode": "DAY"
+       }
+      },
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US"
+      },
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "9.95"
+      }
+     },
+     "url": "https://www.miir.com/products/moka-mug-coffee-kit?variant=50531564552266"
+    }
+   ],
+   "url": "https://www.miir.com/products/moka-mug-coffee-kit"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:59:50Z",
+ "og_image": "http://www.miir.com/cdn/shop/files/ceramics-bundle-moka.jpg?v=1790104264",
+ "page_sha256": "a33eff7f77ab9d704c0eacc686bb045ae268026915c1a3c3ebd20db94f7f4906",
+ "rendered_checked": true,
+ "title": "Moka Pot and Ceramic Mug Coffee Kit \u2013 MiiR.com",
+ "url": "https://miir.com/products/moka-mug-coffee-kit"
+}

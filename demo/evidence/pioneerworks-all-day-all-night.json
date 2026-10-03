@@ -1,0 +1,54 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:15Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter."
+  ],
+  "url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night",
+ "http_status": 200,
+ "id": "pioneerworks-all-day-all-night",
+ "image_file": "pioneerworks-all-day-all-night.jpg",
+ "image_sha256": "0f07449f0c5529e26ef87baadb1630f77f7f15d67f9046156f5c4e4ece49e6ac",
+ "image_source": "http://store.pioneerworks.org/cdn/shop/files/christine-sun-kim-all-day-all-night-30.jpg?v=1789758951&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Pioneer Works"
+   },
+   "category": "",
+   "description": "This volume surveys Christine Sun Kim's works across painting, sculpture, drawing, moving image, performance, large-scale murals and collaborations with other artists made between 2011 and 2024. Kim's practice considers how sound operates in society, deconstructing the politics of sound and exploring how oral languages operate as social currency. Identifying as Deaf and Korean American, Kim draws on musical notation, written language, infographics, American Sign Language (ASL) and the use of the body, strategically deploying humor to examine communication with her family and her community and to create new channels of dialogue with wide audiences. Published alongside the traveling exhibition,\u00a0All Day All Night\u00a0is brimming with supplementary texts from curators, artists and scholars, including an interview between Christine Sun Kim and exhibition curators Tom Finkelpearl, Jennie Goldstein and Pavel S. Pys; scholarly contributions by Seth Kim-Cohen, Jeffrey Yasuo Mansfield and Park McArthur; and an intimate artist timeline compiled by Brandon Eng and Rose Pallone. A substantial plate section follows these enriching text contributions.",
+   "image": [
+    "https://store.pioneerworks.org/cdn/shop/files/christine-sun-kim-all-day-all-night-30.jpg?v=1789758951&width=773"
+   ],
+   "name": "Christine Sun Kim: All Day All Night",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "name": "Default Title",
+     "price": 60.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night?variant=41662114070586"
+    }
+   ],
+   "productId": 7613776068666,
+   "url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night"
+  }
+ ],
+ "kind": "Books",
+ "observed_at": "2026-10-03T22:21:24Z",
+ "og_image": "http://store.pioneerworks.org/cdn/shop/files/christine-sun-kim-all-day-all-night-30.jpg?v=1789758951",
+ "page_sha256": "12617272f540a6c1885730a9094bebf546b2d9f50860e08f80129581e3043a08",
+ "rendered_checked": true,
+ "title": "Christine Sun Kim: All Day All Night \u2013 Pioneer Works",
+ "url": "https://store.pioneerworks.org/products/christine-sun-kim-all-day-all-night"
+}

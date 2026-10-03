@@ -47,7 +47,7 @@ def text(fragment):
 
 class StoreLabelTest(unittest.TestCase):
     def test_every_card_label_is_the_merchant_label_for_its_host(self):
-        self.assertEqual(len(ROWS), 281)
+        self.assertEqual(len(ROWS), 335)
         for r in ROWS:
             host = host_of(r["u"])
             self.assertIn(host, MERCHANTS, r["n"])
@@ -195,7 +195,7 @@ class KindTest(unittest.TestCase):
                 self.assertEqual(r["k"], "Accessories", r["n"])
 
     def test_every_kind_is_an_existing_kind(self):
-        self.assertEqual(len({r["k"] for r in ROWS}), 16)
+        self.assertEqual(len({r["k"] for r in ROWS}), 17)
 
 
 class AppleWordingTest(unittest.TestCase):

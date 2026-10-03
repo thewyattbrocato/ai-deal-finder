@@ -1,0 +1,93 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:48Z",
+  "ship": [
+   "\ud83d\udce3 \ud83d\udce6 Become a MiiR VIP and unlock FREE US GROUND SHIPPING on your first online order \ud83d\udce6 \ud83d\udce3",
+   "Shipping & Returns",
+   "Free Shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler",
+ "http_status": 200,
+ "id": "miir-shogo-ota-16oz-tumbler",
+ "image_file": "miir-shogo-ota-16oz-tumbler.jpg",
+ "image_sha256": "8edcab87dba3a26599ce97f19f339128d880dbb98d92445a6a02c4098f0e884e",
+ "image_source": "http://www.miir.com/cdn/shop/files/SHOGO_Ota_16oz_Tumbler_TUSL1SV16443_FRONT.jpg?v=1787070455&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "MiiR.com"
+   },
+   "description": "Inspired by travel, the limited-edition Shogo Ota Artist Series 16oz Tumbler is the ideal companion for your daily adventures. The artist\u2019s eye-catching designs are the perfect pairing to the coffee tumbler\u2019s sleek silhouette and glorious powder-coat finish.\nCrafted from durable 18/8 stainless steel, this insulated tumbler flexes to any beverage you fancy, ensuring your drinks stay hot or cold. Fits comfortably in cupholders and daily routines alike. Pair with the Press-Fit Slide Lid for splash-proof sips.",
+   "image": [
+    "https:files/SHOGO_Ota_16oz_Tumbler_TUSL1SV16443_FRONT.jpg"
+   ],
+   "name": "Shogo Ota Artist Series 16oz Tumbler",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "itemCondition": "https://schema.org/NewCondition",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 40.0,
+     "priceCurrency": "USD",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "deliveryTime": {
+       "@type": "ShippingDeliveryTime",
+       "handlingTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 2,
+        "minValue": 0,
+        "unitCode": "DAY"
+       },
+       "transitTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 7,
+        "minValue": 2,
+        "unitCode": "DAY"
+       }
+      },
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US"
+      },
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "9.95"
+      }
+     },
+     "sku": "TUSL1SV16443",
+     "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler?variant=43824817864778"
+    }
+   ],
+   "sku": "TUSL1SV16443",
+   "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:59:48Z",
+ "og_image": "http://www.miir.com/cdn/shop/files/SHOGO_Ota_16oz_Tumbler_TUSL1SV16443_FRONT.jpg?v=1787070455",
+ "page_sha256": "bb2ebe63e5313fac445b27dc40b804cea5f958a93fea54ad581ea1165853017f",
+ "rendered_checked": true,
+ "title": "Shogo Ota Artist Series 16oz Tumbler - Sandstone White | Limited Edition Artist Design \u2013 MiiR.com",
+ "url": "https://miir.com/products/miir-x-shogo-ota-artist-series-16oz-tumbler"
+}

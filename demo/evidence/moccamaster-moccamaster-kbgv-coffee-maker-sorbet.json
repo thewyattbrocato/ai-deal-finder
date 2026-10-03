@@ -1,0 +1,64 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:32:30Z",
+  "ship": [
+   "Free Ground Shipping on Brewers & Grinders | Orders Ship Next Business Day"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://us.moccamaster.com/products/moccamaster-kbgv-coffee-maker-sorbet"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://us.moccamaster.com/products/moccamaster-kbgv-coffee-maker-sorbet",
+ "http_status": 200,
+ "id": "moccamaster-moccamaster-kbgv-coffee-maker-sorbet",
+ "image_file": "moccamaster-moccamaster-kbgv-coffee-maker-sorbet.png",
+ "image_sha256": "28349ab663ddf99624224332071436347f69f897ead966652fc0f22053da70a8",
+ "image_source": "http://us.moccamaster.com/cdn/shop/files/Moccamaster_53634_KBGV_Sorbet_Silo_bf46dcd1-ec76-4596-ac02-e77d80810342_600x.png?v=1773954801&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.64",
+    "reviewCount": "22"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Moccamaster USA"
+   },
+   "description": "<p><span>Bright and refreshingly sweet, our 2026 Color of the Year is here to bring a splash\u00a0of optimistic energy to your morning\u00a0</span><span>cup of coffee.\u00a0</span><br></p>\n<p data-pm-slice=\"1 1 []\"><span>The Moccamaster KBGV Coffee Maker is a premium SCA-certified filter coffee brewer designed to brew pour-over-quality coffee at home. Handmade in the Netherlands, the KBGV delivers precise brewing temperature, even water distribution, and exceptional durability.</span></p>\n<p><span>The brew basket automatically stops the flow of coffee when removing the carafe. The selector switch allows you to choose between a full or half carafe, automatically adjusting the brewing process for the selected volume. The KBGV is the only coffee brewer certified by the Specialty Coffee Association (SCA) &amp; European Centre of Brewer Coffee (ECBC) to meet its rigorous brewing standards for both a full and half carafe.</span></p>\n<p><span>All glass carafe brewers feature a hotplate with an independent heating element that holds your coffee at the perfect temperature.</span></p>\n<p>Weight: 6.00 lbs</p>\n<p>Dimensions: 14.00\" H x 12.75\" W x 6.50\" D</p>\n<p>Volts: 120 V</p>\n<p>Watts: 1475 W</p>\n<p>Volume: 1.25 L / 40 oz / 10 cups</p>\n<p>Power Switch: Auto-Off at 100 minutes</p>\n<p>Brew Basket Style: Automatic drip-stop</p>\n<p>Body Style: Rectangular</p>\n<p>Material: Metal / BPA, BPS, BPF, and phthalate-free plastic</p>\n<p>Warranty: 5 years</p>\n<p>Certifications: ECBC certified and SCA approved to meet and exceed the golden cup standard</p>\n<p>All Moccamaster coffee brewers are handmade at the Technivorm factory in the Netherlands.</p>\n<p>We build our coffee brewers to last. Replacement parts are available for all models, and our on-site Service Technicians will repair any Moccamaster for the life of the brewer. With proper care and maintenance, this should be the last coffee brewer you ever need to buy.</p>\n<p>\u00a0</p>",
+   "image": "https://us.moccamaster.com/cdn/shop/files/Moccamaster_53634_KBGV_Sorbet_Silo_bf46dcd1-ec76-4596-ac02-e77d80810342_1024x1024.png?v=1773954801",
+   "mpn": "8712072536340",
+   "name": "Moccamaster KBGV Coffee Maker \u2013 Sorbet (2026 Color of the Year) SCA/ECBC Certified Filter Brewer",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 369.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "Moccamaster USA"
+    },
+    "url": "https://us.moccamaster.com/products/moccamaster-kbgv-coffee-maker-sorbet?variant=45642075439267"
+   },
+   "review": {
+    "@type": "Review",
+    "reviewRating": {
+     "@type": "Rating",
+     "ratingValue": "4.64"
+    }
+   },
+   "sku": "53634"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:18Z",
+ "og_image": "http://us.moccamaster.com/cdn/shop/files/Moccamaster_53634_KBGV_Sorbet_Silo_bf46dcd1-ec76-4596-ac02-e77d80810342_600x.png?v=1773954801",
+ "page_sha256": "0ac6e76c22c3dc94a266c175b3631922664ae4b1da96d93f0ad14b7762aeba11",
+ "rendered_checked": true,
+ "title": "Moccamaster KBGV Coffee Maker \u2013 Sorbet (2026 Color of the Year) - Moccamaster USA",
+ "url": "https://us.moccamaster.com/products/moccamaster-kbgv-coffee-maker-sorbet"
+}

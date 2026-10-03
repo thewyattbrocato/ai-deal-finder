@@ -1,0 +1,108 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:28:04Z",
+  "ship": [
+   "Free Shipping over $55*",
+   "Free shipping over $55 | Easy Returns",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscriptions"
+  ],
+  "url": "https://aeropress.com/products/aeropress-manual-coffee-grinder"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://aeropress.com/products/aeropress-manual-coffee-grinder",
+ "http_status": 200,
+ "id": "aeropress-aeropress-manual-coffee-grinder",
+ "image_file": "aeropress-aeropress-manual-coffee-grinder.png",
+ "image_sha256": "59ab825eb3b85a865b2a2eab5edae74f84bb8b52cd83340b645ec398516f5d13",
+ "image_source": "http://aeropress.com/cdn/shop/files/AP_GRINDER_PDP_ATF_1_1200x1200.png?v=1761596158&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.65,
+    "reviewCount": 40
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "AeroPress"
+   },
+   "category": "Coffee Grinder",
+   "description": "Built for coffee lovers who demand caf\u00e9-quality performance anywhere they brew, the AeroPress Manual Coffee Grinder combines high performance grind precision with an ultra-slim, travel-ready design.\u00a0\n\nItalian-made, Titanium-Coated Conical Burrs \u2013 Made in Italy, our premium stainless steel burrs with titanium coating ensure long-lasting durability and precise, consistent grinding of coffee beans. This manual coffee grinder offers the control and consistency coffee lovers expect from top electric coffee grinders\u2014without the cords.\n\n60+ Adjustable Grind Settings \u2013 Fine-tune your grind size from espresso-fine to coarse.\u00a0 Dial in and customize for AeroPress, pour-over, French press, cold brew, or drip coffee. \u00a0 Comes preset to medium-fine for AeroPress.\n\n\nCompact &amp; Travel-Ready Design \u2013 Portable hand coffee grinder features an ultra slim, durable all metal build and a magnetic hand crank that slides into the body of the grinder so the entire assembly fits neatly inside an AeroPress coffee maker.\u00a0 Inch for inch the most compact, high-performance grinder on the market\u00a0 - perfect for travel, camping, or at home.\n\n\nSmooth Hand Crank Coffee Grinder Operation \u2013 Easy-Grind\u2122 ergonomic handle with dual bearings ensures fast, smooth grinding and comfortable operation. Compatible with an optional Power Drill Adapter for ultra-fast grinding when you need extra speed.\u00a0 \n\n\nLimited Lifetime Warranty -\u00a0 Lifetime warranty covers the burr set for normal use, and a one-year warranty applies to the rest of the grinder.\u00a0\n\n",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "description": "Returns accepted within 30 days of delivery on unused AeroPress items; customer pays return shipping.",
+    "inStoreReturnsOffered": false,
+    "merchantReturnDays": 30,
+    "name": "30-day returns (global)",
+    "returnFees": "https://schema.org/ReturnShippingFees",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyUrl": "/policies/return-policy"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "name": "AeroPress Manual Coffee Grinder",
+    "url": "https://aeropress.com/cdn/shop/files/AP_GRINDER_PDP_ATF_1_1024x.png?v=1761596158",
+    "width": "1024"
+   },
+   "name": "AeroPress Manual Coffee Grinder",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "description": "Returns accepted within 30 days of delivery on unopened items, and on opened but unused items. Customer pays return shipping.",
+      "inStoreReturnsOffered": false,
+      "merchantReturnDays": 30,
+      "name": "30-day returns (U.S.)",
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "returnPolicyUrl": "/policies/return-policy"
+     },
+     "name": "Default Title",
+     "price": 199.95,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "description": "Free standard shipping within the contiguous U.S. on orders over $55 (before taxes and discounts).",
+      "name": "Free Shipping Offer (U.S.)",
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US",
+       "name": "United States"
+      },
+      "shippingLabel": "Free shipping on U.S. orders over $55",
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "0"
+      }
+     },
+     "sku": "MG001",
+     "url": "/products/aeropress-manual-coffee-grinder?variant=47911524630771"
+    }
+   ],
+   "sku": "MG001",
+   "url": "/products/aeropress-manual-coffee-grinder"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:23Z",
+ "og_image": "http://aeropress.com/cdn/shop/files/AP_GRINDER_PDP_ATF_1_1200x1200.png?v=1761596158",
+ "page_sha256": "504339a052dd3af924a0cd274e1cfe4a33b0661d715250f032cbdfdcd96a85ea",
+ "rendered_checked": true,
+ "title": "AeroPress Manual Coffee Grinder | Compact Travel Grinder",
+ "url": "https://aeropress.com/products/aeropress-manual-coffee-grinder"
+}

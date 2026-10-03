@@ -1,0 +1,103 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:28:13Z",
+  "ship": [
+   "Free Shipping over $55*",
+   "Free shipping over $55 | Easy Returns",
+   "Shipping Policy"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe",
+   "Subscriptions"
+  ],
+  "url": "https://aeropress.com/products/aeropress-steel-coffee-press-stainless-limited-edition"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://aeropress.com/products/aeropress-steel-coffee-press-stainless-limited-edition",
+ "http_status": 200,
+ "id": "aeropress-aeropress-steel-coffee-press-stainless-limited-edition",
+ "image_file": "aeropress-aeropress-steel-coffee-press-stainless-limited-edition.png",
+ "image_sha256": "ccac4ff74a17ac257f737ace19f5db83b6f19b9aff9306f9dde75aa3b0fb5faf",
+ "image_source": "https://cdn.shopify.com/s/files/1/0601/8783/6659/files/Premium_Walnut_URL.png?v=1790698763&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "AeroPress"
+   },
+   "category": "Coffee Maker",
+   "description": "",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "description": "Returns accepted within 30 days of delivery on unused AeroPress items; customer pays return shipping.",
+    "inStoreReturnsOffered": false,
+    "merchantReturnDays": 30,
+    "name": "30-day returns (global)",
+    "returnFees": "https://schema.org/ReturnShippingFees",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyUrl": "/policies/return-policy"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "name": null,
+    "url": "https://aeropress.com/cdn/shop/files/Premium_Walnut_URL_1024x.png?v=1790698763",
+    "width": "1024"
+   },
+   "name": "AeroPress Steel Coffee Press - Black Stainless - Limited Edition",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "description": "Returns accepted within 30 days of delivery on unopened items, and on opened but unused items. Customer pays return shipping.",
+      "inStoreReturnsOffered": false,
+      "merchantReturnDays": 30,
+      "name": "30-day returns (U.S.)",
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "returnPolicyUrl": "/policies/return-policy"
+     },
+     "name": "Default Title",
+     "price": 199.95,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "description": "Free standard shipping within the contiguous U.S. on orders over $55 (before taxes and discounts).",
+      "name": "Free Shipping Offer (U.S.)",
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US",
+       "name": "United States"
+      },
+      "shippingLabel": "Free shipping on U.S. orders over $55",
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "0"
+      }
+     },
+     "sku": "SSBK01-LE",
+     "url": "/products/aeropress-steel-coffee-press-stainless-limited-edition?variant=49973720056051"
+    }
+   ],
+   "sku": "SSBK01-LE",
+   "url": "/products/aeropress-steel-coffee-press-stainless-limited-edition"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:25Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/0601/8783/6659/files/Premium_Walnut_URL.png?v=1790698763",
+ "page_sha256": "11e1e1db81774b51777148e52c89153284ea60080463dd6c0b704bbeb67e0894",
+ "rendered_checked": true,
+ "title": "AeroPress Steel Coffee Press - Black Stainless - Limited Edition",
+ "url": "https://aeropress.com/products/aeropress-steel-coffee-press-stainless-limited-edition"
+}

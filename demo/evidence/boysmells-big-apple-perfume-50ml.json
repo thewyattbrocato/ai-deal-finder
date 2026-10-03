@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:03Z",
+  "ship": [
+   "Enjoy Free Shipping on All US Orders Over $50",
+   "Shipping Policy",
+   "You are $50.00 away from FREE SHIPPING !"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://boysmells.com/products/big-apple-perfume-50ml"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://boysmells.com/products/big-apple-perfume-50ml",
+ "http_status": 200,
+ "id": "boysmells-big-apple-perfume-50ml",
+ "image_file": "boysmells-big-apple-perfume-50ml.png",
+ "image_sha256": "0ae28af935a2198ca0a8ed3f8927af4c37be10edda831c14f876f2abc6f81784",
+ "image_source": "http://boysmells.com/cdn/shop/files/Untitled_design_22.png?v=1787683885&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@id": "/products/big-apple-perfume-50ml#Product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Boy Smells"
+   },
+   "description": "Orders containing Big Apple with ship on 8/28/2026\nSweet, ripe and ready to be savored, Big Apple is our New York City pop-up store exclusive\u2014a crisp, juicy blend of blood orange and green apple, softened by rose water and vanilla orchid and grounded with elevated woods. It\u2019s the scent of golden hour in the city, of fresh starts and bold bites. Wear it when you\u2019re feeling like a snack.\n\u00a0",
+   "image": [
+    "https://boysmells.com/cdn/shop/files/Untitled_design_22.png?v=1787683885&width=2000"
+   ],
+   "name": "BIG APPLE",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 78.0,
+     "priceCurrency": "USD",
+     "sku": "LEFF50BAP",
+     "url": "https://boysmells.com/products/big-apple-perfume-50ml?variant=42629693833283"
+    }
+   ],
+   "sku": "LEFF50BAP",
+   "url": "https://boysmells.com/products/big-apple-perfume-50ml"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T22:17:49Z",
+ "og_image": "http://boysmells.com/cdn/shop/files/Untitled_design_22.png?v=1787683885&width=1024",
+ "page_sha256": "98f4d3d4dadfa32f87eafc2d23b093e8762d83c23f15826318d7fa771dfba48a",
+ "rendered_checked": true,
+ "title": "Big Apple: Scented Perfume Fine Fragrance | Boy Smells",
+ "url": "https://boysmells.com/products/big-apple-perfume-50ml"
+}

@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:20Z",
+  "ship": [
+   "Enjoy Free Shipping on All US Orders Over $50",
+   "Shipping Policy",
+   "You are $50.00 away from FREE SHIPPING !"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://boysmells.com/products/herbaceous-classic-candle-9oz"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://boysmells.com/products/herbaceous-classic-candle-9oz",
+ "http_status": 200,
+ "id": "boysmells-herbaceous-classic-candle-9oz",
+ "image_file": "boysmells-herbaceous-classic-candle-9oz.png",
+ "image_sha256": "deef2e848a5e3f6ca4efdb9e171532d4a7a2124e942ba7b67f718263c550b43a",
+ "image_source": "http://boysmells.com/cdn/shop/files/Herbaceous-Transparent_Shadow.png?v=1786404807&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@id": "/products/herbaceous-classic-candle-9oz#Product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Boy Smells"
+   },
+   "description": "We've tapped the fan favorite Farm to Candle collection to bring back Herbaceous\u2014reharvested for your pleasure. It opens with zesty bright bergamot, then softens into the scent of freshly-cut grass. To ground it out, we end with sage, which creates a clean, earthy experience with a touch of overgrown wildness. Cosplay your farmer slash fancy garden fantasies\u2014without all the heavy work.\u00a0",
+   "image": [
+    "https://boysmells.com/cdn/shop/files/Herbaceous-Transparent_Shadow.png?v=1786404807&width=2000"
+   ],
+   "name": "HERBACEOUS",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 44.0,
+     "priceCurrency": "USD",
+     "sku": "HRCL9HBC",
+     "url": "https://boysmells.com/products/herbaceous-classic-candle-9oz?variant=43142060703811"
+    }
+   ],
+   "sku": "HRCL9HBC",
+   "url": "https://boysmells.com/products/herbaceous-classic-candle-9oz"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:17:45Z",
+ "og_image": "http://boysmells.com/cdn/shop/files/Herbaceous-Transparent_Shadow.png?v=1786404807&width=1024",
+ "page_sha256": "f78b0682bbd08b823ff30b88838879c1e51e9398aea4035a89881289824414e6",
+ "rendered_checked": true,
+ "title": "Herbaceous: Soy Blend Scented Candles | Boy Smells",
+ "url": "https://boysmells.com/products/herbaceous-classic-candle-9oz"
+}

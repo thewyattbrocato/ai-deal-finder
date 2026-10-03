@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:29Z",
+  "ship": [
+   "Enjoy Free Shipping on All US Orders Over $50",
+   "Shipping Policy",
+   "You are $50.00 away from FREE SHIPPING !"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://boysmells.com/products/les-perfume-50ml"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://boysmells.com/products/les-perfume-50ml",
+ "http_status": 200,
+ "id": "boysmells-les-perfume-50ml",
+ "image_file": "boysmells-les-perfume-50ml.png",
+ "image_sha256": "ee84669ba3bbf72f7044ad46e90103bc4e8e4a4b43969ca868edcb5b6441462b",
+ "image_source": "http://boysmells.com/cdn/shop/files/BS_PDP_Fragrance-Bottle_Scent-Name-Lowered---LES.png?v=1764206181&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@id": "/products/les-perfume-50ml#Product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Boy Smells"
+   },
+   "description": "\nOrders containing LES with ship on 8/28/2026\nA fruity floral scent with summer in the city energy.\nOriginally released in 2018, LES became an instant Boy Smells icon\u2014known for its bold florals and fruitful zest. It was created as an ode to one of our favorite neighborhoods in NYC, the Lower East Side. LES bursts with bright bergamot and juicy black currant, bustles with peony and peach blossoms, and hits with soft vanilla and cedarwood.",
+   "image": [
+    "https://boysmells.com/cdn/shop/files/BS_PDP_Fragrance-Bottle_Scent-Name-Lowered---LES.png?v=1764206181&width=1950"
+   ],
+   "name": "LES",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 78.0,
+     "priceCurrency": "USD",
+     "sku": "LEFF50LES",
+     "url": "https://boysmells.com/products/les-perfume-50ml?variant=42681873006659"
+    }
+   ],
+   "sku": "LEFF50LES",
+   "url": "https://boysmells.com/products/les-perfume-50ml"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T22:17:50Z",
+ "og_image": "http://boysmells.com/cdn/shop/files/BS_PDP_Fragrance-Bottle_Scent-Name-Lowered---LES.png?v=1764206181&width=1024",
+ "page_sha256": "835c1ada8cc82c1ce0e0fad414e035a407a9628b1678251251a3fc4a76dc98c4",
+ "rendered_checked": true,
+ "title": "LES: Eau de Parfum & Fine Fragrance | Boy Smells",
+ "url": "https://boysmells.com/products/les-perfume-50ml"
+}

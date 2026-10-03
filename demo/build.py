@@ -700,6 +700,7 @@ KIND_WORDS = {
     "Personal care": ["personal", "care", "bath"],
     "Wellness": ["wellness", "scent"],
     "Office": ["office", "desk"],
+    "Books": ["books", "book", "reading"],
 }
 # A plain product-type word a kind must not hand to every product in it: it is
 # added to a product only when that product's own stored page (title and name; for dog and cat also its description) says so.

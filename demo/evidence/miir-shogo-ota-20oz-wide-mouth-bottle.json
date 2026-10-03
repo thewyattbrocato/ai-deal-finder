@@ -1,0 +1,93 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:56Z",
+  "ship": [
+   "\ud83d\udce3 \ud83d\udce6 Become a MiiR VIP and unlock FREE US GROUND SHIPPING on your first online order \ud83d\udce6 \ud83d\udce3",
+   "Shipping & Returns",
+   "Free Shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle",
+ "http_status": 200,
+ "id": "miir-shogo-ota-20oz-wide-mouth-bottle",
+ "image_file": "miir-shogo-ota-20oz-wide-mouth-bottle.jpg",
+ "image_sha256": "4b6679930a47cb7e4c3238c21b59306caf75d934243620d87698828bf2f420fc",
+ "image_source": "http://www.miir.com/cdn/shop/files/SHOGO_20oz_Wide_Mouth_Bottle_Sandstone_Migratory-Animals_WMB1SV20467_FRONT.jpg?v=1787070267&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "MiiR.com"
+   },
+   "description": "Exclusively designed for MiiR,\u00a0 the Shogo Ota Artist Series 20oz Wide Mouth Bottle brings the beauty of the natural world to life. From orcas to ocean waves, the bold artwork inspires adventure - and taking the time to soak up each moment.\u00a0\nWith its patented leakproof lid and double-wall vacuum insulation that keeps beverages hot or cold for hours, the 20oz Wide Mouth Bottle is designed for on-the-go-lifestyles - whether at home, at work, in the mountains or at the sea.",
+   "image": [
+    "https:files/SHOGO_20oz_Wide_Mouth_Bottle_Sandstone_Migratory-Animals_WMB1SV20467_FRONT.jpg"
+   ],
+   "name": "Shogo Ota Artist Series 20oz Wide Mouth Bottle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "itemCondition": "https://schema.org/NewCondition",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 40.0,
+     "priceCurrency": "USD",
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "deliveryTime": {
+       "@type": "ShippingDeliveryTime",
+       "handlingTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 2,
+        "minValue": 0,
+        "unitCode": "DAY"
+       },
+       "transitTime": {
+        "@type": "QuantitativeValue",
+        "maxValue": 7,
+        "minValue": 2,
+        "unitCode": "DAY"
+       }
+      },
+      "shippingDestination": {
+       "@type": "DefinedRegion",
+       "addressCountry": "US"
+      },
+      "shippingRate": {
+       "@type": "MonetaryAmount",
+       "currency": "USD",
+       "value": "9.95"
+      }
+     },
+     "sku": "WMB1SV20467",
+     "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle?variant=43824830447690"
+    }
+   ],
+   "sku": "WMB1SV20467",
+   "url": "https://www.miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T22:59:45Z",
+ "og_image": "http://www.miir.com/cdn/shop/files/SHOGO_20oz_Wide_Mouth_Bottle_Sandstone_Migratory-Animals_WMB1SV20467_FRONT.jpg?v=1787070267",
+ "page_sha256": "07fdf15ce83418436b2757ece3a5bf8689bfa4c9c0dd84f8f1e2b138a345de31",
+ "rendered_checked": true,
+ "title": "Shogo Ota Artist Series 20oz Wide Mouth Bottle - Sandstone White | Limited Edition Artist Design \u2013 MiiR.com",
+ "url": "https://miir.com/products/miir-x-shogo-ota-artist-series-20oz-wide-mouth-bottle"
+}

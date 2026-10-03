@@ -1,0 +1,76 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:30:31Z",
+  "ship": [
+   "Shipping calculated at checkout.",
+   "SHIPPING AT CHECKOUT"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://ember.com/products/ember-travel-mug-2"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://ember.com/products/ember-travel-mug-2",
+ "http_status": 200,
+ "id": "ember-ember-travel-mug-2",
+ "image_file": "ember-ember-travel-mug-2.jpg",
+ "image_sha256": "d3c27c6843128adcb86f7bcd5bab4eb0158a0081e588d66146086119d98b1d52",
+ "image_source": "https://ember.com/cdn/shop/files/ember_TM1912_00-black_F_hero.jpg?v=1762439501&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/ember-travel-mug-2#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Ember"
+   },
+   "category": "Mugs",
+   "description": "New! Travel Mug 2+ with\u00a0Apple\u00ae Find My\nThe Apple Find My network provides an easy, secure way to locate your Ember Travel Mug 2+ on a map using the Find My app on your iPhone, iPad, or Mac, or the Find Items app on your Apple Watch.\nAvailable only in Black.\n\nDesigned to be used on-the-go, the Ember Travel Mug\u00a02\u00a0does more than simply keep your coffee hot. Our smart heated travel mug allows you to set an exact drinking temperature and keeps it there for up to 3 hours, so your coffee is never too hot, or too cold.\nEmber Travel Mug\u00a02\u00a0is easy to clean and is safe to hand wash and submersible up to 1 meter in water. The leak-proof lid is dishwasher safe.",
+   "hasVariant": [
+    {
+     "@id": "/products/ember-travel-mug-2?variant=43227608580281#variant",
+     "@type": "Product",
+     "gtin": "810011402355",
+     "image": "https://ember.com/cdn/shop/files/ember_TM2312_00-black-MFI_F_hero.jpg?v=1684887922&width=1920",
+     "name": "Ember Travel Mug 2 - Travel Mug 2+ with Apple Find My / Black",
+     "offers": {
+      "@id": "/products/ember-travel-mug-2?variant=43227608580281#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "199.95",
+      "priceCurrency": "USD",
+      "url": "https://ember.com/products/ember-travel-mug-2?variant=43227608580281"
+     },
+     "sku": "TM231200AP"
+    }
+   ],
+   "name": "Ember Travel Mug 2",
+   "productGroupID": "4182569975893",
+   "url": "https://ember.com/products/ember-travel-mug-2"
+  },
+  {
+   "@id": "/products/ember-travel-mug-2?variant=43227608580281#variant",
+   "@type": "Product",
+   "gtin": "810011402355",
+   "image": "https://ember.com/cdn/shop/files/ember_TM2312_00-black-MFI_F_hero.jpg?v=1684887922&width=1920",
+   "name": "Ember Travel Mug 2 - Travel Mug 2+ with Apple Find My / Black",
+   "offers": {
+    "@id": "/products/ember-travel-mug-2?variant=43227608580281#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "199.95",
+    "priceCurrency": "USD",
+    "url": "https://ember.com/products/ember-travel-mug-2?variant=43227608580281"
+   },
+   "sku": "TM231200AP"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T22:17:35Z",
+ "og_image": "https://ember.com/cdn/shop/files/ember_TM1912_00-black_F_hero.jpg?v=1762439501&width=1200",
+ "page_sha256": "3aadd32f447bdb91cf949b04e5f3a4be30eb167301b6d3c26ed04f1b11dedddf",
+ "rendered_checked": true,
+ "title": "Ember Travel Mug 2 | Heated Travel Mug 12oz | Ember\u00ae",
+ "url": "https://ember.com/products/ember-travel-mug-2"
+}

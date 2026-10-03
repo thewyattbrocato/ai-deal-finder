@@ -1,0 +1,115 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:31:12Z",
+  "ship": [
+   "FREE U.S. STANDARD SHIPPING ON ORDERS $60+"
+  ],
+  "size": [
+   "SIZE:"
+  ],
+  "sub": [],
+  "url": "https://goodr.com/products/what-lurks-in-the-shadows"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://goodr.com/products/what-lurks-in-the-shadows",
+ "http_status": 200,
+ "id": "goodr-what-lurks-in-the-shadows",
+ "image_file": "goodr-what-lurks-in-the-shadows.png",
+ "image_sha256": "2f2891cb8c75df9a62acd2854cbfab209fd3ed8b3883d34f23bf585b4d386a5b",
+ "image_source": "https://goodr.com/cdn/shop/files/Halloween_PDP-3_1200x1200.png?v=1790269829&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "goodr sunglasses"
+   },
+   "description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span></span><span></span><span>When the sun goes down, the shadows come alive. Eerie green eyes glow in the darkness, keeping watch. Grab these frightfully fun, limited-edition, glow-in-the-dark shades with creepy custom packaging before they scurry into the night. EEK!</span></p>",
+   "image": "https://goodr.com/cdn/shop/files/Halloween_PDP-3_1024x1024.png?v=1790269829",
+   "mpn": "840467613593",
+   "name": "What Lurks in the Shadows",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "merchantReturnDays": 30,
+     "returnFees": "FreeReturn",
+     "returnMethod": "ReturnByMail",
+     "returnPolicyCategory": "MerchantReturnFiniteReturnWindow"
+    },
+    "price": 35.0,
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-3",
+    "seller": {
+     "@type": "Organization",
+     "name": "goodr sunglasses"
+    },
+    "shippingDetails": {
+     "@type": "OfferShippingDetails",
+     "freeShippingThreshold": 50,
+     "shippingCharges": [
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 8,
+         "minValue": 3,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 999999999,
+       "minimumOrderValue": 50,
+       "shippingOptionName": "Free Shipping",
+       "shippingRate": 0
+      },
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 8,
+         "minValue": 4,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 49.99,
+       "minimumOrderValue": 0,
+       "shippingOptionName": "Standard Shipping",
+       "shippingRate": 5
+      },
+      {
+       "@type": "ShippingRateSettings",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 6,
+         "minValue": 3,
+         "unitCode": "d"
+        }
+       },
+       "maximumOrderValue": 49.99,
+       "minimumOrderValue": 0,
+       "shippingOptionName": "Express Shipping",
+       "shippingRate": 15
+      }
+     ]
+    },
+    "url": "https://goodr.com/products/what-lurks-in-the-shadows?variant=41600460324922"
+   },
+   "sku": "G01087-OG-01"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:00Z",
+ "og_image": "https://goodr.com/cdn/shop/files/Halloween_PDP-3_1200x1200.png?v=1790269829",
+ "page_sha256": "05b6ba40fe3cec2b44501682260fb30baa881ed53ada0707bd460bd04651f004",
+ "rendered_checked": true,
+ "title": "Halloween Sunglasses | What Lurks in the Shadows | goodr \u2014 goodr sunglasses",
+ "url": "https://goodr.com/products/what-lurks-in-the-shadows"
+}

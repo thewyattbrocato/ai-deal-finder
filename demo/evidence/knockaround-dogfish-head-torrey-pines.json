@@ -1,0 +1,52 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:31:46Z",
+  "ship": [
+   "Free Shipping $50+",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://knockaround.com/products/dogfish-head-torrey-pines"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://knockaround.com/products/dogfish-head-torrey-pines",
+ "http_status": 200,
+ "id": "knockaround-dogfish-head-torrey-pines",
+ "image_file": "knockaround-dogfish-head-torrey-pines.jpg",
+ "image_sha256": "91bcb8c23711968ac73f12285bc92ca28d3849d529a2c34c74f46f43af4d73fe",
+ "image_source": "http://knockaround.com/cdn/shop/files/affordable-sunglasses-dogfish-head_torreypines-sport_flyover.jpg?v=1781104338&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://knockaround.com/products/dogfish-head-torrey-pines",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Knockaround"
+   },
+   "category": "Sunglasses",
+   "description": "The Knockaround x Dogfish Head Torrey Pines Sport brings polarized aviator green lenses with anti saltwater coating and full UV400 protection to the craft beer faithful and saltwater devotees alike. Built to last from the cooler to the coast, these matte green frames are designed for those with larger faces and feature custom Dogfish Head detailing, white K logos, and metal spring hinges. FDA compliant, impact resistant, and ready for whatever the day reels in. Includes a custom microfiber cleaning pouch!\n\nPolarized aviator green lenses with anti salt water coating\nFull UV400 eye protection\nGreen frame with Dogfish Head design\nMatte finish\nWhite K logos\nMetal spring hinges\nMicrofiber lens cleaning pouch included\nFDA compliant impact resistant lenses\n",
+   "gtin": "810093769544",
+   "image": "https://knockaround.com/cdn/shop/files/affordable-sunglasses-dogfish-head_torreypines-sport_flyover.jpg?v=1781104338&width=1920",
+   "name": "Dogfish Head Torrey Pines Sport",
+   "offers": {
+    "@id": "/products/dogfish-head-torrey-pines?variant=42794793304169#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "45.00",
+    "priceCurrency": "USD",
+    "url": "https://knockaround.com/products/dogfish-head-torrey-pines?variant=42794793304169"
+   },
+   "sku": "COLB3280",
+   "url": "https://knockaround.com/products/dogfish-head-torrey-pines"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:17:57Z",
+ "og_image": "http://knockaround.com/cdn/shop/files/affordable-sunglasses-dogfish-head_torreypines-sport_flyover.jpg?v=1781104338",
+ "page_sha256": "b27e3539f420711e3dcf953e807517c78b6dc3715542ba9802b6bcb95e85e647",
+ "rendered_checked": true,
+ "title": "Dogfish Head Torrey Pines Sport Sunglasses | Knockaround.com",
+ "url": "https://knockaround.com/products/dogfish-head-torrey-pines"
+}

@@ -1,0 +1,117 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:57Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $50",
+   "Free shipping on orders over $50",
+   "SHIPPING POLICY"
+  ],
+  "size": [
+   "SELECT SIZE",
+   "Available Sizes: 5.5 oz, 14 oz"
+  ],
+  "sub": [
+   "USE HELLO20 FOR 20% OFF 1ST SUBSCRIBE & SAVE ORDER",
+   "Save an additional 20% on your first subscription order with discount code: HELLO20",
+   "Subscribe & Save",
+   "Subscribe"
+  ],
+  "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-venison"
+ },
+ "coupon_snippets": [
+  "nts and Nutritional Information --> Select Size 14oz Variant sold out or unavailable $3.93/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $54.99 Subscribe & Save Popular $54.99 Select frequency Every 4 weeks Every week Every 2 weeks Every 3 weeks Every 6 weeks Every 8",
+  "ALMON RECIPE PORK RECIPE RABBIT RECIPE TURKEY RECIPE VENISON RECIPE SELECT SIZE 14oz $3.93/oz Save an additional 20% on your first subscription order with discount code: HELLO20 One-Time Purchase $54.99 Subscribe & Save 5% Popular $54.99 $52.24 QUANTITY Decrease quantity for Freeze-Dried Raw Nuggets Cat Food - Venison Recipe "
+ ],
+ "final_url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-venison",
+ "http_status": 200,
+ "id": "primalpetfoods-feline-freeze-dried-nuggets-venison",
+ "image_file": "primalpetfoods-feline-freeze-dried-nuggets-venison.png",
+ "image_sha256": "33fab08bc8561e2cbf886cbb406825b5ae1c0a0053d856bd110ba77f41bea570",
+ "image_source": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Venison_5oz_1143-2_Frnt.png?v=1730961597&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/feline-freeze-dried-nuggets-venison#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "12",
+    "ratingValue": "2.8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "description": "Made with grass-fed venison raised without antibiotics, steroids, or added hormones\n\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nEasy to serve - simply portion, crumble and hydrate\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Venison_5oz_1143-2_Frnt_450x450.png?v=1730961597",
+   "mpn": "9767484178",
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Venison Recipe",
+   "offers": {
+    "@type": "Offer",
+    "availability": "InStock",
+    "price": "54.99",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Primal Pet Foods"
+    }
+   },
+   "url": "/products/feline-freeze-dried-nuggets-venison"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/feline-freeze-dried-nuggets-venison#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "PrimalPetFood"
+   },
+   "category": "Nuggets Cat",
+   "description": "\nMade with grass-fed venison raised without antibiotics, steroids, or added hormones\n\nFreeze-dried and minimally processed to preserve vital nutrients\u00a0\n\nEasy to serve - simply portion, crumble and hydrate\nServe as a full meal, topper or mix-in\nWhole food nutrition with no synthetic vitamins or minerals\n\nAvailable Sizes: 5.5 oz, 14 oz",
+   "hasVariant": [
+    {
+     "@id": "/products/feline-freeze-dried-nuggets-venison?variant=43920620683491#variant",
+     "@type": "Product",
+     "gtin": "895135000601",
+     "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Venison_5oz_1143-2_Frnt.png?v=1730961597&width=1920",
+     "name": "Freeze-Dried Raw Nuggets Cat Food - Venison Recipe - 14oz",
+     "offers": {
+      "@id": "/products/feline-freeze-dried-nuggets-venison?variant=43920620683491#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "54.99",
+      "priceCurrency": "USD",
+      "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-venison?variant=43920620683491"
+     },
+     "sku": "FVF14-FD/4"
+    }
+   ],
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Venison Recipe",
+   "productGroupID": "9767484178",
+   "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-venison"
+  },
+  {
+   "@id": "/products/feline-freeze-dried-nuggets-venison?variant=43920620683491#variant",
+   "@type": "Product",
+   "gtin": "895135000601",
+   "image": "https://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Venison_5oz_1143-2_Frnt.png?v=1730961597&width=1920",
+   "name": "Freeze-Dried Raw Nuggets Cat Food - Venison Recipe - 14oz",
+   "offers": {
+    "@id": "/products/feline-freeze-dried-nuggets-venison?variant=43920620683491#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "54.99",
+    "priceCurrency": "USD",
+    "url": "https://www.primalpetfoods.com/products/feline-freeze-dried-nuggets-venison?variant=43920620683491"
+   },
+   "sku": "FVF14-FD/4"
+  }
+ ],
+ "kind": "Pets",
+ "observed_at": "2026-10-03T22:17:42Z",
+ "og_image": "http://www.primalpetfoods.com/cdn/shop/files/Primal_FDR_Nuggets_Cat_Venison_5oz_1143-2_Frnt.png?v=1730961597",
+ "page_sha256": "b117de59a9949664e515d93973578b2248e382ec10e344ab880b0ea0fef4bd72",
+ "rendered_checked": true,
+ "title": "Freeze-Dried Raw Nuggets Cat Food\u2013 Venison Recipe \u2013 Primal Pet Foods",
+ "url": "https://primalpetfoods.com/products/feline-freeze-dried-nuggets-venison"
+}

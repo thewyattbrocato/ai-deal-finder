@@ -1,0 +1,57 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:34:47Z",
+  "ship": [
+   "Free ground shipping on orders $400+",
+   "Free standard shipping everyday",
+   "Delivery, Returns & Warranty"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900",
+ "http_status": 200,
+ "id": "timex-timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900",
+ "image_file": "timex-timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900.png",
+ "image_sha256": "efba0f3ede19a182adc5bd34ae5e3bd0a0a2e037dd204648fc3d6893e8c8b0a3",
+ "image_source": "http://timex.com/cdn/shop/files/TW2Y27900_52d4736e-55e6-4643-bc28-1b0eb13d1731.png?v=1785857382&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "TIMEX"
+   },
+   "description": "Elevate your wrist game with the Timex Legacy 36mm Stainless Steel Bracelet Watch. Learn more about its features, here at Timex!",
+   "image": [
+    "https://timex.com/cdn/shop/files/TW2Y27900_52d4736e-55e6-4643-bc28-1b0eb13d1731.png?v=1785857382&width=1000"
+   ],
+   "name": "Timex Legacy 36mm Stainless Steel Bracelet Watch",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "itemCondition": "NewCondition",
+     "price": "127.5",
+     "priceCurrency": "USD",
+     "sku": "TW2Y27900VQ",
+     "url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900?variant=42633641853011"
+    }
+   ],
+   "sku": "TW2Y27900VQ",
+   "url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:18Z",
+ "og_image": "http://timex.com/cdn/shop/files/TW2Y27900_52d4736e-55e6-4643-bc28-1b0eb13d1731.png?v=1785857382",
+ "page_sha256": "8243e6d195875214e7232358b68a2c6d36397bc5f7e61dcb29bfb1693ed08dd5",
+ "rendered_checked": true,
+ "title": "Timex Legacy 36mm Stainless Steel Bracelet Watch - TW2Y27900 | Timex US",
+ "url": "https://timex.com/products/timex-legacy-36mm-stainless-steel-bracelet-watch-tw2y27900"
+}

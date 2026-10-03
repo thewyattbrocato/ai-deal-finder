@@ -1,0 +1,84 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:08Z",
+  "ship": [
+   "$7 SHIPPING* OR FREE ON ORDERS $80+ | LEARN MORE",
+   "Free Shipping on orders over $80",
+   "Shipping + Returns",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle",
+ "http_status": 200,
+ "id": "pfcandleco-celestial-teakwood-tobacco-standard-candle",
+ "image_file": "pfcandleco-celestial-teakwood-tobacco-standard-candle.jpg",
+ "image_sha256": "6a65aa6190fd427f4c58b9b561b8a4b4309790114ec94520f1404e223b2195e3",
+ "image_source": "http://pfcandleco.com/cdn/shop/files/TeakwoodTobaccoCelestialEcomm-2.jpg?v=1785953412&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Size",
+     "value": "7.2 oz"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Material",
+     "value": "Smoky grey glass jar"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Dimensions",
+     "value": "2.9\u201dW x 3.5\u201dH"
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://pfcandleco.com/cdn/shop/files/logo_updated_2025.svg?v=1743537426&width=600"
+    },
+    "name": "P.F. Candle Co."
+   },
+   "description": "Leather, teak, and orange. Our forever best-seller, dressed up in special edition packaging for the first time ever. Warm and cozy, like worn teak library shelves filled with leather-bound classics.\u00a0\nFrom our limited edition Celestial Collection, poured into smoky grey glass jars with black lids and labels adorned with metallic motifs.\nTOP\norange, leather\nMID\nblack tea, pepper, tobacco leaf\nBASE\nsandalwood, teak, patchouli, musk, amber",
+   "image": [
+    "https://pfcandleco.com/cdn/shop/files/TeakwoodTobaccoCelestialEcomm-2.jpg?v=1785953412&width=3800",
+    "https://pfcandleco.com/cdn/shop/files/teakwood_tobacco_SC_celestial_lifestyle_3800px.jpg?v=1786468906&width=3800",
+    "https://pfcandleco.com/cdn/shop/files/CelestialTeakwood_Tobacco_SC.jpg?v=1787253761&width=3000"
+   ],
+   "name": "Celestial Teakwood & Tobacco \u2013 Standard Candle",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "P. F. Candle Co.",
+      "url": "https://pfcandleco.com"
+     },
+     "sku": "XC32",
+     "url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle?variant=55096666554740"
+    }
+   ],
+   "sku": "XC32",
+   "url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:17:53Z",
+ "og_image": "http://pfcandleco.com/cdn/shop/files/TeakwoodTobaccoCelestialEcomm-2.jpg?v=1785953412",
+ "page_sha256": "adcb77907db301d1cd1e4fe87f241efd90c4b5fd573e9ca5cc4ba12ad7fa10be",
+ "rendered_checked": true,
+ "title": "P.F. Candle Co. Celestial Teakwood & Tobacco Standard Candle \u2013 P. F. Candle Co.",
+ "url": "https://pfcandleco.com/products/celestial-teakwood-tobacco-standard-candle"
+}

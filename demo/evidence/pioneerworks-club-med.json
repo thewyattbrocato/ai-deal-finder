@@ -1,0 +1,56 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:28Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter."
+  ],
+  "url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic",
+ "http_status": 200,
+ "id": "pioneerworks-club-med",
+ "image_file": "pioneerworks-club-med.png",
+ "image_sha256": "33221580c009e8597a4ef330d951cf38b975f8020c840178ccc3b9a4790521e6",
+ "image_source": "http://store.pioneerworks.org/cdn/shop/files/1787164011-900.png?v=1789755745&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Pioneer Works"
+   },
+   "category": "",
+   "description": "\nAmerica runs on Adderall. From Silicon Valley to Wall Street, through the Pentagon and the White House, in ad agencies and magazines, many of our most powerful minds are flying on prescription-grade amphetamine. What are the cultural side effects of this incredibly upbeat epidemic? We asked 11 of our favorite writers to reflect on this question from a variety of discrete angles, creating the most detailed portrait yet of the Adderall generation. Edited by L\u00e9on Dische Becker.\n",
+   "gtin13": 9781945711268,
+   "image": [
+    "https://store.pioneerworks.org/cdn/shop/files/1787164011-900.png?v=1789755745&width=900"
+   ],
+   "name": "Club Med: Dispatches From The Adderall Epidemic",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin13": 9781945711268,
+     "name": "Default Title",
+     "price": 20.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic?variant=41662064885818"
+    }
+   ],
+   "productId": "9781945711268",
+   "url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic"
+  }
+ ],
+ "kind": "Books",
+ "observed_at": "2026-10-03T22:21:21Z",
+ "og_image": "http://store.pioneerworks.org/cdn/shop/files/1787164011-900.png?v=1789755745",
+ "page_sha256": "f2f1c472ba9cf621b78d8c3e53ccf63a20ec1dfa1f2c3c7d46d918068138d8a6",
+ "rendered_checked": true,
+ "title": "Club Med: Dispatches From The Adderall Epidemic \u2013 Pioneer Works",
+ "url": "https://store.pioneerworks.org/products/club-med-dispatches-from-the-adderall-epidemic"
+}

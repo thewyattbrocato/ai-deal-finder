@@ -1,0 +1,77 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:36Z",
+  "ship": [
+   "Shipping:",
+   "Free Standard Shipping",
+   "SHIPPING",
+   "Shipping is included in the price of your plant. To protect your plant during cold temperatures, a heat pack will be included when necessary.",
+   "Refunds/Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE"
+  ],
+  "sub": [],
+  "url": "https://costafarms.com/products/anthurium-hookeri-dark-medium"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://costafarms.com/products/anthurium-hookeri-dark-medium",
+ "http_status": 200,
+ "id": "costafarms-anthurium-hookeri-dark-medium",
+ "image_file": "costafarms-anthurium-hookeri-dark-medium.jpg",
+ "image_sha256": "2802968873cf11773dc866976e4dbf2dbe35e3626e846c773e09395cf2003a3d",
+ "image_source": "http://costafarms.com/cdn/shop/files/2000_x_2000-5in_Anthurium_Hookeri_Dark_in_Livia_Pot_Pink_Background.jpg?v=1790254543&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://costafarms.com/products/anthurium-hookeri-dark-medium#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Costa Farms"
+   },
+   "category": "Indoor HousePlant",
+   "description": "Anthurium Hookeri Dark makes a bold first impression with its deep green foliage and strong, upright form. Broad leaves emerge from the center of the plant, gradually building a full, rounded rosette. The darker coloring brings additional depth to the layered display and gives this bird\u2019s-nest anthurium a rich, substantial appearance.\u00a0\nIts long, paddle-shaped leaves have a leathery texture and prominent veins that add definition from base to tip. Each new leaf builds on the plant\u2019s sculptural...",
+   "image": [
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-5in_Anthurium_Hookeri_Dark_in_Livia_Pot_Pink_Background_1000x.jpg?v=1790254543",
+    "https://costafarms.com/cdn/shop/files/2000x2000-5inAnthuriumHookeriDarkinLiviaPotLifestyle_1_1000x.jpg?v=1790254495",
+    "https://costafarms.com/cdn/shop/files/2000x2000-5inAnthuriumHookeriDarkinLiviaPotDetail-bio-image-desktop_1000x.jpg?v=1790710696",
+    "https://costafarms.com/cdn/shop/files/2000x2000-5inAnthuriumHookeriDarkinLiviaPotLifestyle_1000x.jpg?v=1790254495",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-25CF_-_Livia_Luzia_Pot_Infographics_3_1000x.jpg?v=1776805685"
+   ],
+   "name": "Anthurium Hookeri Dark | medium",
+   "offers": [
+    {
+     "@id": "https://costafarms.com/products/anthurium-hookeri-dark-medium?variant=54364268069232",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://costafarms.com/cdn/shop/files/2000_x_2000-5in_Anthurium_Hookeri_Dark_in_Livia_Pot_Pink_Background_1000x.jpg?v=1790254543",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Anthurium Hookeri Dark | medium - Medium / Self-Watering",
+     "price": "49.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@id": "https://costafarms.com/#organization"
+     },
+     "sku": "M-AHD-V1-LVZ-01-CF",
+     "url": "https://costafarms.com/products/anthurium-hookeri-dark-medium?variant=54364268069232"
+    }
+   ],
+   "productID": "15290739065200",
+   "publisher": {
+    "@id": "https://costafarms.com/#organization"
+   },
+   "sku": "M-AHD-V1-LVZ-01-CF",
+   "url": "https://costafarms.com/products/anthurium-hookeri-dark-medium"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:18:03Z",
+ "og_image": "http://costafarms.com/cdn/shop/files/2000_x_2000-5in_Anthurium_Hookeri_Dark_in_Livia_Pot_Pink_Background.jpg?v=1790254543",
+ "page_sha256": "380c5d6ab11529fd61eba982e00a36632d05e4608a9283f14e982fad1d3d53a1",
+ "rendered_checked": true,
+ "title": "Anthurium Hookeri Dark | medium \u2013 Costa Farms",
+ "url": "https://costafarms.com/products/anthurium-hookeri-dark-medium"
+}

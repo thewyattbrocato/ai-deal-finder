@@ -1,0 +1,139 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:28:21Z",
+  "ship": [
+   "Free Shipping on Lower 48 Orders $99+",
+   "Shipping",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [
+   "Archer & Olive Subscriptions",
+   "Quarterly Subscription Box",
+   "Kit Box Subscription",
+   "Exclusive themed kits filled with surprises to fuel your creativity, only for subscribers.",
+   "Subscription Box",
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3",
+ "http_status": 200,
+ "id": "archerandolive-b6-softcover-notebooks-set-of-3",
+ "image_file": "archerandolive-b6-softcover-notebooks-set-of-3.jpg",
+ "image_sha256": "740b6e789db016a4e6f0c6828b7dc5813d0b74a6a2f6b25d1c04e3cfe87e7c70",
+ "image_source": "http://www.archerandolive.com/cdn/shop/files/SoftcoverBooks-2.jpg?v=1780595479&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3#product_sp_schemaplus",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Tags",
+     "value": [
+      "discount_eligible",
+      "New",
+      "Product Type: Notebook",
+      "Sunset Sale 2026"
+     ]
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "Archer and Olive",
+    "url": "https://www.archerandolive.com/collections/vendors?q=Archer%20and%20Olive"
+   },
+   "description": "Bring floral beauty to your everyday notes with this coordinated set of three B6 softcover notebooks, featuring artwork inspired by the beloved Wildflowers Collection.\nEach notebook showcases a distinct design while coordinating beautifully together:\n\n\nCream Floral Bouquet Lined \u2013 Soft ivory background with vibrant hand-painted blooms and lush greenery.\n\nWildflower Meadow Graph \u2013 A rich, dark floral pattern bursting with colorful blossoms reminiscent of a summer garden.\n\nPeriwinkle Stripe Dot Grid \u2013 Delicate blue stripes accented with petite floral sprigs for a fresh, vintage-inspired look.\n\nWith three complementary floral designs ranging from bright botanical bouquets to soft vintage florals, this notebook set adds a touch of garden-inspired charm wherever your ideas take root.\nThese soft cover books can also be paired with our Soft Cover Set",
+   "gtin12": "810208871513",
+   "image": [
+    "https://www.archerandolive.com/cdn/shop/files/SoftcoverBooks-2.jpg?v=1780595479&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/refillsoftcovers_2d153144-b432-4485-bb26-2dd8003a48e6.gif?v=1781109017&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/Softcover_Books-3.jpg?v=1780595505&width=1200",
+    "https://www.archerandolive.com/cdn/shop/files/SoftcoverBooks.jpg?v=1780595479&width=1200"
+   ],
+   "itemCondition": "https://schema.org/NewCondition",
+   "mainEntityOfPage": {
+    "@id": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3#webpage_sp_schemaplus",
+    "@type": "WebPage",
+    "sdDatePublished": "2026-06-24T09:04:30Z",
+    "sdPublisher": {
+     "@context": "https://schema.org",
+     "@id": "https://schemaplus.io",
+     "@type": "Organization",
+     "name": "SchemaPlus App",
+     "url": "https://schemaplus.io"
+    }
+   },
+   "mpn": "810208871513",
+   "name": "B6 Softcover Notebooks - Set of 3",
+   "offers": {
+    "@id": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "inventoryLevel": {
+     "@type": "QuantitativeValue",
+     "value": "7"
+    },
+    "price": 29.0,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "price": 29.0,
+      "priceCurrency": "USD"
+     }
+    ],
+    "priceValidUntil": "2030-12-21",
+    "seller": {
+     "@id": "https://www.archerandolive.com#organization_sp_schemaplus",
+     "@type": "Organization",
+     "name": "Archer and Olive"
+    },
+    "shippingDetails": [],
+    "validFrom": "2026-06-24T09:04:30-0500"
+   },
+   "productID": "9004442255515",
+   "sku": "B6SC301",
+   "url": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitCode": "LBR",
+    "value": "0.8"
+   }
+  },
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/b6-softcover-notebooks-set-of-3#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Archer and Olive"
+   },
+   "category": "",
+   "description": "Bring floral beauty to your everyday notes with this coordinated set of three B6 softcover notebooks, featuring artwork inspired by the beloved Wildflowers Collection.\nEach notebook showcases a distinct design while coordinating beautifully together:\n\n\nCream Floral Bouquet Lined \u2013 Soft ivory background with vibrant hand-painted blooms and lush greenery.\n\nWildflower Meadow Graph \u2013 A rich, dark floral pattern bursting with colorful blossoms reminiscent of a summer garden.\n\nPeriwinkle Stripe Dot Grid \u2013 Delicate blue stripes accented with petite floral sprigs for a fresh, vintage-inspired look.\n\nWith three complementary floral designs ranging from bright botanical bouquets to soft vintage florals, this notebook set adds a touch of garden-inspired charm wherever your ideas take root.\nThese soft cover books can also be paired with our Soft Cover Set",
+   "gtin": "810208871513",
+   "image": "https://www.archerandolive.com/cdn/shop/files/SoftcoverBooks-2.jpg?v=1780595479&width=1920",
+   "name": "B6 Softcover Notebooks - Set of 3",
+   "offers": {
+    "@id": "/products/b6-softcover-notebooks-set-of-3?variant=48383801458843#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "29.00",
+    "priceCurrency": "USD",
+    "url": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3?variant=48383801458843"
+   },
+   "sku": "B6SC301",
+   "url": "https://www.archerandolive.com/products/b6-softcover-notebooks-set-of-3"
+  }
+ ],
+ "kind": "Office",
+ "observed_at": "2026-10-03T22:21:32Z",
+ "og_image": "http://www.archerandolive.com/cdn/shop/files/SoftcoverBooks-2.jpg?v=1780595479",
+ "page_sha256": "a477b29dfb745e6cbc7d0537bed1bcb7c421035b3095a2c9440e11b4beed0395",
+ "rendered_checked": true,
+ "title": "B6 Softcover Notebooks - Set of 3 \u2013 Archer and Olive",
+ "url": "https://archerandolive.com/products/b6-softcover-notebooks-set-of-3"
+}

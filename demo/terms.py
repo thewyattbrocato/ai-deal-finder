@@ -289,6 +289,31 @@ def for_id(ev_id, kind, evidence_dir=EVIDENCE_DIR):
 SEARCH_WORDS = {
     # "The Breville Bambino": an espresso machine (kind Kitchen, Counter Culture)
     "counterculturecoffee-the-bambino": ["espresso"],
+    # Each word below is printed in that product's own stored page title,
+    # description or address (tests/test_coverage_q2.py checks it is).
+    "flair-the-flair-classic": ["espresso", "maker"],
+    "flair-the-royal-grinder": ["espresso"],
+    "wacaco-picopresso": ["espresso", "machine"],
+    "wacaco-minipresso-gr2": ["espresso", "maker"],
+    "moccamaster-kb": ["coffee", "brewer"],
+    "moccamaster-moccamaster-kbgt-midnight": ["coffee", "maker"],
+    "moccamaster-moccamaster-kbgv-coffee-maker-sorbet": ["coffee", "maker"],
+    "aeropress-aeropress-manual-coffee-grinder": ["coffee", "grinder"],
+    "goodr-what-lurks-in-the-shadows": ["sunglasses"],
+    "goodr-bean-there-run-that": ["sunglasses"],
+    "knockaround-sunburst-stratocaster-fort-knocks": ["sunglasses"],
+    "knockaround-dogfish-head-torrey-pines": ["sunglasses"],
+    "knockaround-wm-phoenix-fast-lanes-sport": ["sunglasses"],
+    "boysmells-hard-wood-classic-candle-9oz": ["candle"],
+    "boysmells-herbaceous-classic-candle-9oz": ["candle"],
+    "costafarms-anthurium-hookeri-dark-medium": ["plant"],
+    "costafarms-brasil-philodendron-medium": ["plant"],
+    "costafarms-large-pachira-parent": ["plant"],
+    "eaglecreek-pack-it-dry-cube-m": ["travel"],
+    "eaglecreek-cargo-hauler-tote-65l": ["travel"],
+    "manduka-ratio-relaxation-mat": ["yoga"],
+    "boysmells-big-apple-perfume-50ml": ["perfume", "fragrance"],
+    "boysmells-les-perfume-50ml": ["perfume", "fragrance"],
 }
 
 

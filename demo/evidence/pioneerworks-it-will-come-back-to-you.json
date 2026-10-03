@@ -1,0 +1,56 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:33:34Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter."
+  ],
+  "url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez",
+ "http_status": 200,
+ "id": "pioneerworks-it-will-come-back-to-you",
+ "image_file": "pioneerworks-it-will-come-back-to-you.jpg",
+ "image_sha256": "5b09302701f945f27837883a7eb2b281b5265e085af21bb56297576cd6d7d615",
+ "image_source": "http://store.pioneerworks.org/cdn/shop/files/9798217179152.jpg?v=1789151184&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Pioneer Works"
+   },
+   "category": "",
+   "description": "\nOver the course of thirty years, Sigrid Nunez has become one of contemporary fiction\u2019s most distinctive voices, producing nine penetrating, profound novels celebrated by fans and critics alike. Revered for their warm, unadorned style, Nunez\u2019s books are \u201cas sophisticated as they are straightforward\u201d (New York Times Magazine), melding a \u201cwry, withering wit\u201d (NPR) with \u201cexplosions of pathos\u201d (Washington Post) to conjure \u201cworld[s] of insight into death, grief, art, and love\u201d (Wall Street Journal).But she has not, until now, produced a book of stories. In\u00a0It Will Come Back to You, Nunez brings together thirteen of her best stories from the decades-long sweep of her career, tracing the origins of her style and her remarkable artistic range. Moving from the momentous to the mundane, Nunez maintains her expert balance between gravity and levity while probing the philosophical questions that illuminate her work.What\u00a0New York Times\u00a0critic Dwight Garner says of Nunez\u2019s novels is true of these stories as well: \u201cThey are . . . wise, provocative, funny\u2014good and strong company.\u201d\n",
+   "gtin13": 9798217179152,
+   "image": [
+    "https://store.pioneerworks.org/cdn/shop/files/9798217179152.jpg?v=1789151184&width=298"
+   ],
+   "name": "It Will Come Back To You by Sigrid Nunez",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin13": 9798217179152,
+     "name": "Default Title",
+     "price": 29.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez?variant=41644938625082"
+    }
+   ],
+   "productId": "9798217179152",
+   "url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez"
+  }
+ ],
+ "kind": "Books",
+ "observed_at": "2026-10-03T22:21:22Z",
+ "og_image": "http://store.pioneerworks.org/cdn/shop/files/9798217179152.jpg?v=1789151184",
+ "page_sha256": "4e0f841c4101bef97caea3d39aef2a0dd3f9671a8948b1b9892ff8931ef33316",
+ "rendered_checked": true,
+ "title": "It Will Come Back To You by Sigrid Nunez \u2013 Pioneer Works",
+ "url": "https://store.pioneerworks.org/products/it-will-come-back-to-you-by-sigrid-nunez"
+}

@@ -1,0 +1,52 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:31:56Z",
+  "ship": [
+   "Free Shipping $50+",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks",
+ "http_status": 200,
+ "id": "knockaround-sunburst-stratocaster-fort-knocks",
+ "image_file": "knockaround-sunburst-stratocaster-fort-knocks.jpg",
+ "image_sha256": "8a7f505373343f9553804dba48d8e1bfa871f9f83b03dabad0d03edec5d7126e",
+ "image_source": "http://knockaround.com/cdn/shop/files/affordable-sunglasses-fender-starburst-stratocaster-fortknocks-flyover.jpg?v=1781818594&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Knockaround"
+   },
+   "category": "Sunglasses",
+   "description": "The Fort Knocks takes the legendary Sunburst finish of the Fender\u00ae Stratocaster\u2122 and puts it where the spotlight hits hardest, right on your face. Polarized smoke lenses with full UV400 protection, guitar fret-patterned arms, bright chrome hardware, and a glossy finish that's stage-ready from day one. FDA compliant, impact resistant, and backed by metal spring hinges built to handle every encore. Microfiber pouch included.\n\nPolarized smoke lenses\nFull UV400 eye protection\nSunburst colored front frame with guitar fret patterned arms\nGlossy finish\nBright chrome hardware\nMetal spring hinges\nMicrofiber lens cleaning pouch included\nFDA compliant impact resistant lenses\n",
+   "gtin": "810093769674",
+   "image": "https://knockaround.com/cdn/shop/files/affordable-sunglasses-fender-starburst-stratocaster-fortknocks-flyover.jpg?v=1781818594&width=1920",
+   "name": "Sunburst Stratocaster\u2122 Fort Knocks",
+   "offers": {
+    "@id": "/products/sunburst-stratocaster-fort-knocks?variant=42972911829097#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "45.00",
+    "priceCurrency": "USD",
+    "url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks?variant=42972911829097"
+   },
+   "sku": "COLB3279",
+   "url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:17:55Z",
+ "og_image": "http://knockaround.com/cdn/shop/files/affordable-sunglasses-fender-starburst-stratocaster-fortknocks-flyover.jpg?v=1781818594",
+ "page_sha256": "fab8e7d4a7543ca0665dfe3f2b97969f117247e426451185777faff06e8e6448",
+ "rendered_checked": true,
+ "title": "Sunburst Stratocaster\u2122 Fort Knocks Sunglasses \u2013 Knockaround",
+ "url": "https://knockaround.com/products/sunburst-stratocaster-fort-knocks"
+}

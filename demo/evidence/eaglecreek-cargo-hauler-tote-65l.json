@@ -1,0 +1,100 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:58Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $99+",
+   "Free Shipping On Orders $99+",
+   "Shipping",
+   "You are $99.00 away from FREE SHIPPING*"
+  ],
+  "size": [
+   "Size: Tote"
+  ],
+  "sub": [
+   "Subscribe To Our Emails",
+   "SUBSCRIBE"
+  ],
+  "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://eaglecreek.com/products/cargo-hauler-tote-65l",
+ "http_status": 200,
+ "id": "eaglecreek-cargo-hauler-tote-65l",
+ "image_file": "eaglecreek-cargo-hauler-tote-65l.jpg",
+ "image_sha256": "2b5b4c5e8a9dd6f1e7c93c01ea54c52743a79e23e5789ae5445cda2561e33d8c",
+ "image_source": "http://eaglecreek.com/cdn/shop/files/EC040604_010_6397.jpg?v=1781542926&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Backpacks"
+   },
+   "description": "Your story is often written in the white space between destinations\u2014the spontaneous beach\u00a0stops\u00a0and the quick gear shuffles. The Cargo Hauler 65L Tote is built for the traveler who needs a catch-all\u00a0that\u2019s\u00a0as tough as a duffel. With a compression-molded bottom for extra structure and protection against damp ground, this tote stands on its own for easy loading. Built with our high-tenacity refreshed fabrics, it features a small exterior pocket for your keys and phone, and rugged grab handles that are chomping at the bit to carry the next haul.\u00a0",
+   "image": [
+    "https://eaglecreek.com/cdn/shop/files/EC040604_010_6397.jpg?v=1781542926&width=1200"
+   ],
+   "name": "Cargo Hauler 65L Tote",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "810174991390",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Black",
+     "price": 99.0,
+     "priceCurrency": "USD",
+     "seller": {
+      "@type": "Organization",
+      "name": "Eagle Creek",
+      "url": "https://eaglecreek.com/"
+     },
+     "sku": "EC040604010",
+     "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l?variant=45406188077193"
+    }
+   ],
+   "sku": "EC040604010",
+   "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "1"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Backpacks"
+   },
+   "description": "Your story is often written in the white space between destinations\u2014the spontaneous beach\u00a0stops\u00a0and the quick gear shuffles. The Cargo Hauler 65L Tote is built for the traveler who needs a catch-all\u00a0that\u2019s\u00a0as tough as a duffel. With a compression-molded bottom for extra structure and protection against damp ground, this tote stands on its own for easy loading. Built with our high-tenacity refreshed fabrics, it features a small exterior pocket for your keys and phone, and rugged grab handles that are chomping at the bit to carry the next haul.\u00a0",
+   "image": [
+    "https://eaglecreek.com/cdn/shop/files/EC040604_010_6397.jpg?v=1781542926&width=480"
+   ],
+   "name": "Cargo Hauler 65L Tote",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.0",
+    "priceCurrency": "USD",
+    "sku": "EC040604010",
+    "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l?variant=45406188077193"
+   },
+   "sku": "EC040604010"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T22:18:12Z",
+ "og_image": "http://eaglecreek.com/cdn/shop/files/EC040604_010_6397.jpg?v=1781542926",
+ "page_sha256": "4762642eed6e761e5f89c418b6b29add32c70c91a9a8f9b609ccd9f393ae6629",
+ "rendered_checked": true,
+ "title": "Cargo Hauler 65L Adventure Tote Bag | Eagle Creek",
+ "url": "https://eaglecreek.com/products/cargo-hauler-tote-65l"
+}

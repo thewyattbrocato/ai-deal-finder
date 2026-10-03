@@ -1,0 +1,87 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T23:01:31Z",
+  "ship": [
+   "Free Economy Shipping on Orders Over $140.",
+   "Free economy shipping on orders $140+",
+   "Extra large mats will have additional shipping charges.",
+   "Shipping",
+   "You are $140.00 away from FREE SHIPPING."
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.manduka.com/products/ratio-wool-relaxation-mat"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.manduka.com/products/ratio-wool-relaxation-mat",
+ "http_status": 200,
+ "id": "manduka-ratio-relaxation-mat",
+ "image_file": "manduka-ratio-relaxation-mat.jpg",
+ "image_sha256": "8c69cb074986e4221de32175d7353c31f21508343fe561f0435058ada8134812",
+ "image_source": "http://www.manduka.com/cdn/shop/files/1F401A857_RATIORELAXATIONMAT-WOOL_01.jpg?v=1764565776&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 3
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Manduka"
+   },
+   "description": "",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "Color": "Natural",
+     "gtin12": "840104833698",
+     "image": "https://www.manduka.com/cdn/shop/files/1F401A857_RATIORELAXATIONMAT-WOOL_02.jpg?v=1764565799&width=871",
+     "name": "Natural",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "160.00",
+      "priceCurrency": "USD",
+      "url": "https://www.manduka.com/products/ratio-wool-relaxation-mat?variant=41115414921274"
+     },
+     "sku": "1F401A857"
+    }
+   ],
+   "image": [
+    "https://www.manduka.com/cdn/shop/files/1F401A857_RATIORELAXATIONMAT-WOOL_02.jpg?v=1764565799&width=871"
+   ],
+   "name": "Ratio Relaxation Mat",
+   "productGroupID": 7480057888826,
+   "sku": "1F401A857",
+   "url": "https://www.manduka.com/products/ratio-wool-relaxation-mat",
+   "variesBy": [
+    "https://schema.org/Color"
+   ]
+  },
+  {
+   "@type": "Product",
+   "Color": "Natural",
+   "gtin12": "840104833698",
+   "image": "https://www.manduka.com/cdn/shop/files/1F401A857_RATIORELAXATIONMAT-WOOL_02.jpg?v=1764565799&width=871",
+   "name": "Natural",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "160.00",
+    "priceCurrency": "USD",
+    "url": "https://www.manduka.com/products/ratio-wool-relaxation-mat?variant=41115414921274"
+   },
+   "sku": "1F401A857"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T22:59:54Z",
+ "og_image": "http://www.manduka.com/cdn/shop/files/1F401A857_RATIORELAXATIONMAT-WOOL_01.jpg?v=1764565776",
+ "page_sha256": "4700e9cadc75321c170192830eca6c5967a272520fdee58cfa20ccba32e939bc",
+ "rendered_checked": true,
+ "title": "Ratio Relaxation Mat | Merino Wool for Restorative Yoga | Manduka",
+ "url": "https://manduka.com/products/ratio-wool-relaxation-mat"
+}

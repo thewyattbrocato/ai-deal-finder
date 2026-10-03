@@ -1,0 +1,77 @@
+{
+ "conditions": {
+  "read_at": "2026-10-03T22:29:50Z",
+  "ship": [
+   "Shipping:",
+   "Free Standard Shipping",
+   "SHIPPING",
+   "Shipping is included in the price of your plant. To protect your plant during cold temperatures, a heat pack will be included when necessary.",
+   "Refunds/Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE"
+  ],
+  "sub": [],
+  "url": "https://costafarms.com/products/large-pachira-parent"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://costafarms.com/products/large-pachira-parent",
+ "http_status": 200,
+ "id": "costafarms-large-pachira-parent",
+ "image_file": "costafarms-large-pachira-parent.jpg",
+ "image_sha256": "9a5454ac2dccf007dce6d59d71672d5deab9a29c9ffba989bbf8457dfdfd098a",
+ "image_source": "http://costafarms.com/cdn/shop/files/Pachira_Money_Tree_in_Weave_pot.jpg?v=1753108761&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://costafarms.com/products/large-pachira-parent#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Costa Farms"
+   },
+   "category": "Indoor HousePlant",
+   "description": "Money tree is a fabulous indoor plant that features several trunks braided together and large compound, hand-shaped leaves. In a bright spot, it\u2019s a relatively fast grower, so you can enjoy it as a lovely floor plant for your home or office. It is grown and shipped fresh from our farm direct to your front door.\n\nBecause it likes to stay moist, money tree is a good choice if you have tended to overwater your houseplants in the past.\nCan grow more than 10 feet tall over time.\n\n[bio]\nPlant Bio\nP...",
+   "image": [
+    "https://costafarms.com/cdn/shop/files/Pachira_Money_Tree_in_Weave_pot_1000x.jpg?v=1753108761",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-10in_Pachira_Money_Tree_in_Two_Tone_Weave_Rope_1000x.jpg?v=1759255287",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-Pachira_Money_Tree_Detail_a6f70e27-071d-45d8-94fc-fade97b781ce_1000x.jpg?v=1759255287",
+    "https://costafarms.com/cdn/shop/files/1500_x_1500-10in_Pachira_Money_Tree_in_Two_Tone_Weave_Rope-bio-image-desktop_1000x.jpg?v=1759255287",
+    "https://costafarms.com/cdn/shop/files/2000_x_2000-25CF_-_Costa_Farms_Floor_Plants_Plant_Scale_Chart_Diagram_1000x.jpg?v=1761839510"
+   ],
+   "name": "Money Tree | large",
+   "offers": [
+    {
+     "@id": "https://costafarms.com/products/large-pachira-parent?variant=39463490158664",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://costafarms.com/cdn/shop/files/Pachira_Money_Tree_in_Weave_pot_1000x.jpg?v=1753108761",
+     "itemCondition": "https://schema.org/NewCondition",
+     "name": "Money Tree | large - Large / Weave Basket",
+     "price": "79.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@id": "https://costafarms.com/#organization"
+     },
+     "sku": "L-PAC-P-WBT-01-CF",
+     "url": "https://costafarms.com/products/large-pachira-parent?variant=39463490158664"
+    }
+   ],
+   "productID": "6621091430472",
+   "publisher": {
+    "@id": "https://costafarms.com/#organization"
+   },
+   "sku": "L-PAC-P-WBT-01-CF",
+   "url": "https://costafarms.com/products/large-pachira-parent"
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T22:18:06Z",
+ "og_image": "http://costafarms.com/cdn/shop/files/Pachira_Money_Tree_in_Weave_pot.jpg?v=1753108761",
+ "page_sha256": "07195c757ca7e5f92ff9b07299c8f9a5071791ab8ee4cab1f93a0b47a9db5028",
+ "rendered_checked": true,
+ "title": "Money Tree | large \u2013 Costa Farms",
+ "url": "https://costafarms.com/products/large-pachira-parent"
+}
