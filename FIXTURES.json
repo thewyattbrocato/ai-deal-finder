@@ -369,6 +369,70 @@
       "summary": "Email, card number, SSN-shaped or URL-secret text in a field that would be sent to the judgment service.",
       "must_hold": ["private values are rejected before any judgment request is built"],
       "expected_verdict": "error: input rejected, nothing sent (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-001",
+      "kind": "region-mismatch",
+      "severity": "S1",
+      "summary": "Cheapest offer is sold for a different region than the shopper asked for.",
+      "must_hold": ["an offer for another region is left out of the ranking and labelled, never ranked as the same purchase", "the next offer that matches the region wins on its own evidence"],
+      "expected_verdict": "buy the region-matched offer; verify if none matches (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-002",
+      "kind": "currency-mismatch",
+      "severity": "S2",
+      "summary": "Cheapest offer is priced in a different currency than the shopper asked for.",
+      "must_hold": ["a price in another currency is never compared or converted; it is left out and labelled"],
+      "expected_verdict": "buy the same-currency offer; verify if none matches (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-003",
+      "kind": "condition-mismatch",
+      "severity": "S1",
+      "summary": "Cheapest offer is refurbished or open-box and the shopper accepts only new.",
+      "must_hold": ["a condition outside the shopper's stated acceptable conditions is left out and labelled", "with no stated condition nothing is guessed and the offers compare as before"],
+      "expected_verdict": "buy the acceptable-condition offer; verify if none matches (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-004",
+      "kind": "eligibility-gated-price",
+      "severity": "S1",
+      "summary": "Price that holds only for first-order, member or student shoppers.",
+      "must_hold": ["a winner whose price needs unconfirmed eligibility is refused with one question for the shopper", "once the shopper confirms, the condition is labelled beside the price"],
+      "expected_verdict": "verify until eligibility is confirmed; buy after confirmation (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-005",
+      "kind": "coupon-terms-on-another-page",
+      "severity": "S1",
+      "summary": "A code whose terms sit on a page that was not read.",
+      "must_hold": ["a counted discount whose terms were not read is refused", "an uncounted code is labelled and stays out of the total"],
+      "expected_verdict": "verify when counted; label only when not counted (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-006",
+      "kind": "shipping-cancels-saving",
+      "severity": "S2",
+      "summary": "A lower item price loses once its known shipping fee is added.",
+      "must_hold": ["ranking uses amount due including shipping, never the headline price"],
+      "expected_verdict": "buy the offer with the lower amount due (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-007",
+      "kind": "pack-size-mismatch",
+      "severity": "S1",
+      "summary": "Cheapest offer is a different pack size than the requested item.",
+      "must_hold": ["an offer that is not an exact match is excluded, never ranked as the same item", "no per-unit price is inferred from free-text quantity"],
+      "expected_verdict": "buy the exact-size offer (engine rule; requires independent relabel)"
+    },
+    {
+      "case_id": "TF-008",
+      "kind": "subscription-only-price",
+      "severity": "S2",
+      "summary": "Lower price needs a subscription or a minimum-spend threshold the shopper has not met.",
+      "must_hold": ["subscription-only pricing is excluded even when lower", "a free-shipping threshold left as a shipping range keeps the ranking unproven"],
+      "expected_verdict": "buy the one-time offer; verify when a threshold leaves shipping as an unresolved range (engine rule; requires independent relabel)"
     }
   ]
 }

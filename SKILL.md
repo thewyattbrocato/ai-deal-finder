@@ -48,6 +48,10 @@ Add the optional fields below to the evidence JSON (field list in `README.md`'s 
 | "Was" price with no dated history (`reference_price.dated_history` false) | **Labelled**; never subtracted, never shown as a saving. The saving stays unknown. |
 | Seller marked unverified or with red flags (`seller_verified` false, `seller_red_flags`) | **Refused**: `verify` with a seller check. A marketplace seller nobody checked is **labelled** unknown; say nothing about its safety. |
 | Affiliate-linked or sponsored offer (`affiliate_link`, `sponsored`) | A winner like this is **refused**; a losing one is **labelled**. The disclosure changes from "no affiliate links" to say so. |
+| Offer for another region, or priced in another currency (`region`, `currency`) | **Left out** of the ranking and **labelled** "not comparable"; prices are never converted. No match left means `verify`. |
+| Condition the shopper does not accept (`request.acceptable_conditions`, for example refurbished or open-box when only new is accepted) | **Left out** and **labelled**. With no stated conditions nothing is guessed. |
+| Price that needs first-order, member or student eligibility (`eligibility_condition`, `eligibility_confirmed`) | **Refused** with one question for the shopper until they confirm; once confirmed it is **labelled** beside the price. |
+| Counted code whose terms sit on a page that was not read (`coupon.terms_on_other_page`) | **Refused** if its discount is counted; otherwise **labelled** and left out of the total. |
 | Email, card number, SSN-shaped text, or a login or token inside a URL anywhere in the evidence | **Rejected** before anything is sent to Jev or any other service; only the product, offer and region facts leave your context. |
 
 Read the `labels` list in the output and put each label beside the claim it limits. A label never raises or lowers a verdict by itself; a refusal always returns `verify` with the one check that would resolve it.
