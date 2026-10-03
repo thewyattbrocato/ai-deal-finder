@@ -1,4 +1,15 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:26:03Z",
+  "ship": [
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "By entering your email and clicking below, you agree to our Terms of Use and acknowledge our Privacy Policy. Unsubscribe at any time."
+  ],
+  "url": "https://baronfig.com/products/squire-click-ink-refills"
+ },
  "coupon_snippets": [],
  "final_url": "https://baronfig.com/products/squire-click-ink-refills",
  "http_status": 200,

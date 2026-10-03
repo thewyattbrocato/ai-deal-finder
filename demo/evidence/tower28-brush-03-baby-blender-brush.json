@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:30:08Z",
+  "ship": [
+   "FREE U.S shipping on orders $30+",
+   "Shipping & Returns"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.tower28beauty.com/products/brush-03-baby-blender-brush"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.tower28beauty.com/products/brush-03-baby-blender-brush",
  "http_status": 200,

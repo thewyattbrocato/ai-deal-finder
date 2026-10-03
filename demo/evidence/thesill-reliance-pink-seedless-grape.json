@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:29:47Z",
+  "ship": [
+   "Not warehouse-held.Acclimated before shipping.",
+   "Free Shipping Over $99"
+  ],
+  "size": [
+   "Pick a Size: 2 Gallon"
+  ],
+  "sub": [],
+  "url": "https://www.thesill.com/products/reliance-pink-seedless-grape"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.thesill.com/products/reliance-pink-seedless-grape",
  "http_status": 200,

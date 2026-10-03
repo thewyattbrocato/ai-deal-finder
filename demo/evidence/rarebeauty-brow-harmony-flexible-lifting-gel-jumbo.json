@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:28:58Z",
+  "ship": [
+   "Shipping & Returns",
+   "FREE STANDARD SHIPPING W/ $50 ORDER."
+  ],
+  "size": [],
+  "sub": [
+   "By entering your email address and clicking \u201cJoin Us\u201d you agree to receive marketing email messages from Rare Beauty at the email address provided. Unsubscribe at any time. View our Privacy Policy & Terms of Service."
+  ],
+  "url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.rarebeauty.com/products/brow-harmony-flexible-lifting-gel-jumbo",
  "http_status": 200,

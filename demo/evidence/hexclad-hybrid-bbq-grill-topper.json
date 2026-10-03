@@ -1,4 +1,17 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:27:10Z",
+  "ship": [
+   "FREE SHIPPING"
+  ],
+  "size": [
+   "Select A Size: BBQ Grill Topper, 16\u201d"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://hexclad.com/products/hybrid-bbq-grill-topper"
+ },
  "coupon_snippets": [],
  "final_url": "https://hexclad.com/products/hybrid-bbq-grill-topper",
  "http_status": 200,

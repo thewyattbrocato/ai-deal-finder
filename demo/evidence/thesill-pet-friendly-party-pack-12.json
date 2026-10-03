@@ -1,4 +1,14 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:29:39Z",
+  "ship": [
+   "Not warehouse-held.Acclimated before shipping.",
+   "Free Shipping Over $99"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.thesill.com/products/pet-friendly-party-pack-12"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.thesill.com/products/pet-friendly-party-pack-12",
  "http_status": 200,

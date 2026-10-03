@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:28:14Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $15+",
+   "SHIPPING & RETURNS"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE 25%"
+  ],
+  "url": "https://www.nativecos.com/products/mini-shampoo-sensitive"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.nativecos.com/products/mini-shampoo-sensitive",
  "http_status": 200,

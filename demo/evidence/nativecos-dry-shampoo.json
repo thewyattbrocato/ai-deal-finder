@@ -1,4 +1,16 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:28:05Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $15+",
+   "SHIPPING & RETURNS"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE & SAVE 25%"
+  ],
+  "url": "https://www.nativecos.com/products/dry-shampoo"
+ },
  "coupon_snippets": [],
  "final_url": "https://www.nativecos.com/products/dry-shampoo",
  "http_status": 200,

@@ -1,4 +1,20 @@
 {
+ "conditions": {
+  "read_at": "2026-10-03T15:26:45Z",
+  "ship": [
+   "Free shipping $100+, 30-day trial, free returns",
+   "Free shipping on orders over $100",
+   "FREE standard US shipping for orders over $100",
+   "Shipping, Return, & Discount Policy",
+   "TermsShipping PolicyCareersPrivacy",
+   "You're $100.00 away from FREE SHIPPING!"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to save!"
+  ],
+  "url": "https://greatjonesgoods.com/products/deep-cut-base-only"
+ },
  "coupon_snippets": [],
  "final_url": "https://greatjonesgoods.com/products/deep-cut-base-only",
  "http_status": 200,
