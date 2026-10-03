@@ -7,7 +7,7 @@ required blocking the build.
 ## What V1 is
 
 - Deterministic rules engine (`deal_finder/`, stdlib-only Python) + public
-  skill (`SKILL.md`) + 53-test unittest suite (`tests/`). No network, no
+  skill (`SKILL.md`) + unittest suite (`tests/`). No network, no
   model calls, no credentials, no affiliate links, no tracking.
 - Judgment layer ships as a **rules-only mirror** of `JUDGMENT_ENGINE.md`
   (`deal_finder/judgment.py`): same composition order, deterministic fit/
