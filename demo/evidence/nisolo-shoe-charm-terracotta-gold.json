@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:03:12Z",
+  "read_at": "2026-10-03T22:19:46Z",
   "ship": [
    "Free shipping on $150+",
    "SHIPPING & RETURNS",
@@ -16,6 +16,61 @@
  },
  "coupon_snippets": [],
  "final_url": "https://nisolo.com/products/shoe-charm-terracotta-gold",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:03:12Z",
+    "ship": [
+     "Free shipping on $150+",
+     "SHIPPING & RETURNS",
+     "Shipping policy",
+     "You are $150.00 away from Free Shipping!"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS",
+     "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
+    ],
+    "url": "https://nisolo.com/products/shoe-charm-terracotta-gold"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://nisolo.com/products/shoe-charm-terracotta-gold",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Nisolo"
+     },
+     "description": "Our newest shoe charms have arrived just in time for fall. Slightly larger in scale, these charms offer an effortless way to personalize your favorite huaraches\u2014and even some of our newest boots. Each charm features a sleek hinge clasp that attaches seamlessly, making thoughtful customization easy. From delicate pops of color to polished metallic accents, these versatile charms add a considered finishing touch and transform every pair into a style statement all your own.",
+     "image": [
+      "https://nisolo.com/cdn/shop/files/AA-2626-TER.jpg?v=1790274845&width=1920"
+     ],
+     "name": "Shoe Charm Terracotta/Gold",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "gtin12": 840493712468,
+       "price": 28.0,
+       "priceCurrency": "USD",
+       "sku": "AA-00243WY",
+       "url": "https://nisolo.com/products/shoe-charm-terracotta-gold?variant=53377088028853"
+      }
+     ],
+     "sku": "AA-00243WY",
+     "url": "https://nisolo.com/products/shoe-charm-terracotta-gold"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:36Z",
+   "og_image": "http://nisolo.com/cdn/shop/files/AA-2626-TER.jpg?v=1790274845",
+   "page_sha256": "0faae9c7cbf4ace6a730cd54ef27455f7b3e139aba36cd9f8c8d810113405c47",
+   "rendered_checked": true,
+   "title": "Shoe Charm Terracotta/Gold \u2013 Nisolo"
+  }
+ ],
  "http_status": 200,
  "id": "nisolo-shoe-charm-terracotta-gold",
  "image_file": "nisolo-shoe-charm-terracotta-gold.jpg",
@@ -50,9 +105,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T20:05:36Z",
+ "observed_at": "2026-10-03T22:19:32Z",
  "og_image": "http://nisolo.com/cdn/shop/files/AA-2626-TER.jpg?v=1790274845",
- "page_sha256": "0faae9c7cbf4ace6a730cd54ef27455f7b3e139aba36cd9f8c8d810113405c47",
+ "page_sha256": "b9cc08e148fa68be534b18dedc6bb21af51e9726bf7ee6079be825a52d5bb026",
  "rendered_checked": true,
  "title": "Shoe Charm Terracotta/Gold \u2013 Nisolo",
  "url": "https://nisolo.com/products/shoe-charm-terracotta-gold"

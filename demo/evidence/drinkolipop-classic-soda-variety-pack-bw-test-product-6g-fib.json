@@ -1,6 +1,71 @@
 {
- "coupon_snippets": [],
+ "coupon_snippets": [
+  "! Add me to the store mailing list Submit We'll notify you when this product is in stock. We won't share your address with anybody else. Your 20% off discount code GOBLUE will auto-apply at checkout. 30% off subscriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-a",
+  "ur 20% off discount code GOBLUE will auto-apply at checkout. 30% off subscriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-apply at checkout. 20% off Tropical Punch with code PUNCH20 will auto-apply at checkout. Your 15% off discount code DREAMY15 will auto-appl",
+  "scriptions when you resubscribe with code 30RESUB . 30% off Shirley & Friends with code SHIRLEY30 will auto-apply at checkout. 20% off Tropical Punch with code PUNCH20 will auto-apply at checkout. Your 15% off discount code DREAMY15 will auto-apply at checkout. Early access 30% off with code EARLY30 will auto-apply"
+ ],
  "final_url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/classic-soda-variety-pack-bw-test-product-6g-fiber#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "OLIPOP"
+     },
+     "category": "Soda",
+     "description": "\nNon-Refrigerated\n\nA lineup of true soda staples, Vintage Cola, Cream Soda, Classic Root Beer, and Ginger Ale, because timeless flavors never go out of style.\u00a0With 6g of fiber and no need for fridge storage, our non-refrigerated formula can hang anywhere cool and dry. Just give it some ice or fridge time before sipping!",
+     "hasVariant": [
+      {
+       "@id": "/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431#variant",
+       "@type": "Product",
+       "gtin": "850062639355",
+       "image": "https://drinkolipop.com/cdn/shop/files/VP-Classic-Soda_cgi-main-image_47ab46bd-7064-4659-902f-9ff8e9d0d412.webp?v=1749502169&width=1920",
+       "name": "Classic Soda Variety Pack - NBW test product - 12",
+       "offers": {
+        "@id": "/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "35.99",
+        "priceCurrency": "USD",
+        "url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431"
+       },
+       "sku": "OP-VP2-12-A"
+      }
+     ],
+     "name": "Classic Soda Variety Pack - NBW test product",
+     "productGroupID": "10901171241119",
+     "url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber"
+    },
+    {
+     "@id": "/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431#variant",
+     "@type": "Product",
+     "gtin": "850062639355",
+     "image": "https://drinkolipop.com/cdn/shop/files/VP-Classic-Soda_cgi-main-image_47ab46bd-7064-4659-902f-9ff8e9d0d412.webp?v=1749502169&width=1920",
+     "name": "Classic Soda Variety Pack - NBW test product - 12",
+     "offers": {
+      "@id": "/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "35.99",
+      "priceCurrency": "USD",
+      "url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber?variant=62757639094431"
+     },
+     "sku": "OP-VP2-12-A"
+    }
+   ],
+   "observed_at": "2026-10-02T20:03:58Z",
+   "og_image": "http://drinkolipop.com/cdn/shop/files/VP-Classic-Soda_cgi-main-image_47ab46bd-7064-4659-902f-9ff8e9d0d412_1200x1200.webp?v=1749502169",
+   "page_sha256": "a55e5b298132ffd8ea24fcde690e2c479236dc5b69ca25dc8355fa3c34105fd1",
+   "title": "Classic Prebiotic Soda Variety 12-Pack | OLIPOP"
+  }
+ ],
  "http_status": 200,
  "id": "drinkolipop-classic-soda-variety-pack-bw-test-product-6g-fib",
  "image_file": "drinkolipop-classic-soda-variety-pack-bw-test-product-6g-fib.png",
@@ -57,9 +122,9 @@
   }
  ],
  "kind": "Drinks",
- "observed_at": "2026-10-02T20:03:58Z",
+ "observed_at": "2026-10-03T22:25:54Z",
  "og_image": "http://drinkolipop.com/cdn/shop/files/VP-Classic-Soda_cgi-main-image_47ab46bd-7064-4659-902f-9ff8e9d0d412_1200x1200.webp?v=1749502169",
- "page_sha256": "a55e5b298132ffd8ea24fcde690e2c479236dc5b69ca25dc8355fa3c34105fd1",
+ "page_sha256": "b6377d30e41d32da8c663db0ad9db65bb9031d6c4f6434f25c37055af661cf4e",
  "title": "Classic Prebiotic Soda Variety 12-Pack | OLIPOP",
  "url": "https://drinkolipop.com/products/classic-soda-variety-pack-bw-test-product-6g-fiber"
 }

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:11:37Z",
+  "read_at": "2026-10-03T22:36:06Z",
   "ship": [
    "Free shipping on all orders over $45"
   ],
@@ -16,6 +16,68 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stumptowncoffee.com/products/wilderness-field-notes",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:11:37Z",
+    "ship": [
+     "Free shipping on all orders over $45"
+    ],
+    "size": [
+     "- sheet size: 3\u201d x 5\u201d"
+    ],
+    "sub": [
+     "Save 15% on your first 5 subscription shipments with code 15OFF5",
+     "Subscribe",
+     "Why Subscribe?"
+    ],
+    "url": "https://www.stumptowncoffee.com/products/wilderness-field-notes"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stumptowncoffee.com/products/wilderness-field-notes",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.stumptowncoffee.com/products/wilderness-field-notes",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stumptown Coffee"
+     },
+     "description": "Inspiration waits for no one. Keep this limited-edition Wilderness Field Notes memo book close at hand to capture all your wild ideas. Inspired by WILDWOOD and created for wanderers, musers, and adventure-seekers.",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Notepad_Front_72DPI.png?v=1790104679",
+     "mpn": "100779",
+     "name": "Wilderness Field Notes",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Notepad_Front_72DPI.png?v=1790104679",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "100779",
+       "price": "14.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Stumptown Coffee"
+       },
+       "sku": "100779",
+       "url": "https://www.stumptowncoffee.com/products/wilderness-field-notes/products/wilderness-field-notes?variant=56033607254184"
+      }
+     ],
+     "sku": "100779",
+     "url": "https://www.stumptowncoffee.com/products/wilderness-field-notes"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:19Z",
+   "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Notepad_Front_72DPI.png?v=1790104679",
+   "page_sha256": "5b6ae3b69d5ad954c0cb26b6632e602b96f5494189dccd4248ab657fc8f4220f",
+   "rendered_checked": true,
+   "title": "Wilderness Field Notes | Stumptown Coffee Roasters"
+  }
+ ],
  "http_status": 200,
  "id": "stumptowncoffee-wilderness-field-notes",
  "image_file": "stumptowncoffee-wilderness-field-notes.png",
@@ -43,7 +105,7 @@
      "mpn": "100779",
      "price": "14.00",
      "priceCurrency": "USD",
-     "priceValidUntil": "2027-10-02",
+     "priceValidUntil": "2027-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Stumptown Coffee"
@@ -57,9 +119,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:19Z",
+ "observed_at": "2026-10-03T22:35:47Z",
  "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Notepad_Front_72DPI.png?v=1790104679",
- "page_sha256": "5b6ae3b69d5ad954c0cb26b6632e602b96f5494189dccd4248ab657fc8f4220f",
+ "page_sha256": "8b68898302b06df3873073e395613c06d4a121c8e7e6bface724ab22af600e13",
  "rendered_checked": true,
  "title": "Wilderness Field Notes | Stumptown Coffee Roasters",
  "url": "https://stumptowncoffee.com/products/wilderness-field-notes"

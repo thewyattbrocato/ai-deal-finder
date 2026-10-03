@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:06:44Z",
+  "read_at": "2026-10-03T22:06:02Z",
   "ship": [
    "Shipping"
   ],
@@ -10,6 +10,58 @@
  },
  "coupon_snippets": [],
  "final_url": "https://ruffwear.com/products/rogue-long-line-leash",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:06:44Z",
+    "ship": [
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://ruffwear.com/products/rogue-long-line-leash"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://ruffwear.com/products/rogue-long-line-leash",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/rogue-long-line-leash#product",
+     "@type": "ProductGroup",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "12",
+      "ratingValue": "4.5"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Ruff Wear Inc"
+     },
+     "description": "The Rogue\u2122\ufe0f Long Line gives your dog room to roam while keeping them connected. Designed for recall training, loose leash walks, and fieldwork, it provides extra range and independence for dogs in a variety of settings.\nThis 20 ft/6.1 m leash line is built from our lightweight Tubelok\u2122\ufe0f webbing and features a lockable carabiner for a secure, dependable clip. With no handle to snag or tangle, it can be used as a drag line that allows them to move freely while still on a leash.Length: 20 ft (6.1 m)Width: 3/4 in (20mm)\n\u00a0",
+     "image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_450x450.png?v=1781564824",
+     "mpn": "8024194351187",
+     "name": "Rogue\u2122 Long Line",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "34.99",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Ruffwear"
+      }
+     },
+     "url": "/products/rogue-long-line-leash"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:00Z",
+   "og_image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_882x589.png?v=1781564824",
+   "page_sha256": "b8a72ad58fa28fdaae44080824fcf4cf8e61af459ddba2771e29db36b6221d4a",
+   "rendered_checked": true,
+   "title": "Rogue\u2122 Long Line | Ruffwear"
+  }
+ ],
  "http_status": 200,
  "id": "ruffwear-rogue-long-line-leash",
  "image_file": "ruffwear-rogue-long-line-leash.png",
@@ -47,9 +99,9 @@
   }
  ],
  "kind": "Pets",
- "observed_at": "2026-10-02T19:59:00Z",
+ "observed_at": "2026-10-03T22:05:49Z",
  "og_image": "https://ruffwear.com/cdn/shop/files/Compressed_PNG-4044_Rouge-Long-Line_Blaze-Orange_Main_studio_882x589.png?v=1781564824",
- "page_sha256": "b8a72ad58fa28fdaae44080824fcf4cf8e61af459ddba2771e29db36b6221d4a",
+ "page_sha256": "f8a26a01aa06aa8e15a7a1bace37f28cf9be4cdc839841a29c5c048a34ac30f5",
  "rendered_checked": true,
  "title": "Rogue\u2122 Long Line | Ruffwear",
  "url": "https://ruffwear.com/products/rogue-long-line-leash"

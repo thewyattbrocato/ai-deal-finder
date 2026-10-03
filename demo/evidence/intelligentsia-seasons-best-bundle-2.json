@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.intelligentsia.com/products/seasons-best-bundle-2",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.intelligentsia.com/products/seasons-best-bundle-2",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T19:58:26Z",
+   "og_image": "http://www.intelligentsia.com/cdn/shop/files/SBB_Sept26_1024x1024.png?v=1790106717",
+   "page_sha256": "c32dd170d6a71d08f282168a9b267feb575a78dc0f8a3c89e066b567c10eef81",
+   "title": "Season's Best Bundle"
+  }
+ ],
  "http_status": 200,
  "id": "intelligentsia-seasons-best-bundle-2",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:26Z",
+ "observed_at": "2026-10-03T22:30:07Z",
  "og_image": "http://www.intelligentsia.com/cdn/shop/files/SBB_Sept26_1024x1024.png?v=1790106717",
- "page_sha256": "c32dd170d6a71d08f282168a9b267feb575a78dc0f8a3c89e066b567c10eef81",
+ "page_sha256": "53fd4d1662bc909a707db8c1cba54c41c65cb104aa515e52c54501081238a86f",
  "title": "Season's Best Bundle",
  "url": "https://intelligentsia.com/products/seasons-best-bundle-2"
 }

@@ -1,7 +1,9 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:52:13Z",
-  "ship": [],
+  "read_at": "2026-10-03T22:23:01Z",
+  "ship": [
+   "Enjoy Free US Shipping on Orders $90+."
+  ],
   "size": [],
   "sub": [
    "Subscribe"
@@ -10,6 +12,76 @@
  },
  "coupon_snippets": [],
  "final_url": "https://brightland.co/products/the-fall-flavor-duo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:52:13Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://brightland.co/products/the-fall-flavor-duo"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://brightland.co/products/the-fall-flavor-duo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/the-fall-flavor-duo#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Brightland"
+     },
+     "category": "Olive Oil",
+     "description": "The warm, comforting flavors of Fall,\u00a0bottled.\u00a0\nThe Fall Flavor Duo includes:\n\nRosette Garlic Olive Oil:  warm, savory, and deeply aromatic, reminiscent of garlic just beginning to caramelize\nLucid Lemon Olive Oil:  aromas of fresh lemon zest, fragrant and slightly sweet, balanced and elegant\n\nAlways made with the finest extra virgin olive oil infused with pure extract. We never use artificial flavoring or fillers. Spouts sold separately.",
+     "image": "https://brightland.co/cdn/shop/files/Winter_Flavor_Duo_-_1150x1400_2385242b-ba67-479e-b962-68aa1e6390af.jpg?v=1788839066&width=1920",
+     "name": "The Fall Flavor Duo",
+     "offers": {
+      "@id": "/products/the-fall-flavor-duo?variant=43798806855743#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "80.00",
+      "priceCurrency": "USD",
+      "url": "https://brightland.co/products/the-fall-flavor-duo?variant=43798806855743"
+     },
+     "sku": "FALL-FLAVOR-DUO",
+     "url": "https://brightland.co/products/the-fall-flavor-duo"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/the-fall-flavor-duo#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Brightland"
+     },
+     "description": "The warm, comforting flavors of Fall,\u00a0bottled.\u00a0\nThe Fall Flavor Duo includes:\n\nRosette Garlic Olive Oil:  warm, savory, and deeply aromatic, reminiscent of garlic just beginning to caramelize\nLucid Lemon Olive Oil:  aromas of fresh lemon zest, fragrant and slightly sweet, balanced and elegant\n\nAlways made with the finest extra virgin olive oil infused with pure extract. We never use artificial flavoring or fillers. Spouts sold separately.",
+     "image": "https://brightland.co/cdn/shop/files/Winter_Flavor_Duo_-_1150x1400_2385242b-ba67-479e-b962-68aa1e6390af_450x450.jpg?v=1788839066",
+     "mpn": "8328083931199",
+     "name": "The Fall Flavor Duo",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "80.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Brightland"
+      }
+     },
+     "url": "/products/the-fall-flavor-duo"
+    }
+   ],
+   "observed_at": "2026-10-02T20:03:52Z",
+   "og_image": "http://brightland.co/cdn/shop/files/Winter_Flavor_Duo_-_1150x1400_2385242b-ba67-479e-b962-68aa1e6390af.jpg?v=1788839066&width=2048",
+   "page_sha256": "f033dd9460f7346e648a957f6cd8d95dd6c69fa54dc2790bb2bfcbd0edf7d1ee",
+   "rendered_checked": true,
+   "title": "The Fall Flavor Duo"
+  }
+ ],
  "http_status": 200,
  "id": "brightland-the-fall-flavor-duo",
  "image_file": "brightland-the-fall-flavor-duo.jpg",
@@ -32,7 +104,7 @@
     "@id": "/products/the-fall-flavor-duo?variant=43798806855743#offer",
     "@type": "Offer",
     "availability": "http://schema.org/InStock",
-    "price": "80.00",
+    "price": "72.00",
     "priceCurrency": "USD",
     "url": "https://brightland.co/products/the-fall-flavor-duo?variant=43798806855743"
    },
@@ -54,7 +126,7 @@
    "offers": {
     "@type": "Offer",
     "availability": "InStock",
-    "price": "80.0",
+    "price": "72.0",
     "priceCurrency": "USD",
     "seller": {
      "@type": "Organization",
@@ -65,9 +137,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:03:52Z",
+ "observed_at": "2026-10-03T22:22:48Z",
  "og_image": "http://brightland.co/cdn/shop/files/Winter_Flavor_Duo_-_1150x1400_2385242b-ba67-479e-b962-68aa1e6390af.jpg?v=1788839066&width=2048",
- "page_sha256": "f033dd9460f7346e648a957f6cd8d95dd6c69fa54dc2790bb2bfcbd0edf7d1ee",
+ "page_sha256": "c05ed217b5ac0a02ce199710ddba7c7b4caa215b7519291cf451b62eeb2050e4",
  "rendered_checked": true,
  "title": "The Fall Flavor Duo",
  "url": "https://brightland.co/products/the-fall-flavor-duo"

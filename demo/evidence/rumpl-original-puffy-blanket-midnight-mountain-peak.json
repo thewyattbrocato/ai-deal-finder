@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:07:34Z",
+  "read_at": "2026-10-03T22:31:20Z",
   "ship": [
    "Free Shipping $75+ | 60-Day Guarantee",
    "Is my order eligible for free shipping?"
@@ -16,6 +16,131 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:07:34Z",
+    "ship": [
+     "Free Shipping $75+ | 60-Day Guarantee",
+     "Is my order eligible for free shipping?"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak#product",
+     "@type": "ProductGroup",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": 4655
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rumpl"
+     },
+     "category": "Outdoor Blankets",
+     "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Midnight Mountain Peak. Designed for high-elevation seekers, this print features towering, snow-capped summits rising against a deep slate sky, framed by silhouetted pine forests and icy teal valleys.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a dur...",
+     "hasVariant": [
+      {
+       "@id": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819#variant",
+       "@type": "Product",
+       "gtin12": "810203130561",
+       "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725.png?v=1784537114&width=1200",
+       "name": "Original Puffy Blanket - Midnight Mountain Peak - 1-Person",
+       "offers": {
+        "@id": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819#offer",
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": "99.95",
+        "priceCurrency": "USD",
+        "url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819"
+       },
+       "sku": "RU01011061P"
+      }
+     ],
+     "image": [
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725.png?v=1784537114&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335828.jpg?v=1785264488&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335822.jpg?v=1785264428&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335823.jpg?v=1785264369&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335827.jpg?v=1785264310&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335826.jpg?v=1785264247&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335825.jpg?v=1785264191&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1251335824.jpg?v=1785264129&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1252568141.jpg?v=1785744611&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1252568140.jpg?v=1785744550&width=1200"
+     ],
+     "name": "Original Puffy Blanket - Midnight Mountain Peak",
+     "productGroupID": 15060355416427,
+     "url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak"
+    },
+    {
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819#variant",
+     "@type": "Product",
+     "gtin12": "810203130561",
+     "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725.png?v=1784537114&width=1200",
+     "name": "Original Puffy Blanket - Midnight Mountain Peak - 1-Person",
+     "offers": {
+      "@id": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "url": "https://www.rumpl.com/products/original-puffy-blanket-midnight-mountain-peak?variant=53375264915819"
+     },
+     "sku": "RU01011061P"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/original-puffy-blanket-midnight-mountain-peak#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "4655",
+      "ratingValue": "4.9"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rumpl"
+     },
+     "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Midnight Mountain Peak. Designed for high-elevation seekers, this print features towering, snow-capped summits rising against a deep slate sky, framed by silhouetted pine forests and icy teal valleys.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free Cape Clip\u00ae, the Original Puffy Blanket is designed to be enjoyed everywhere from camping and cabins to tailgates and tournaments.",
+     "image": "https://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725_450x450.png?v=1784537114",
+     "mpn": "15060355416427",
+     "name": "Original Puffy Blanket - Midnight Mountain Peak",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Rumpl"
+      }
+     },
+     "url": "/products/original-puffy-blanket-midnight-mountain-peak"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:52Z",
+   "og_image": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725.png?v=1784537114",
+   "page_sha256": "caab4cbe68d67d3347bc6025f12f13d33d11ec4d17229cb34c7950ccac0c236f",
+   "rendered_checked": true,
+   "title": "Original Puffy Blanket - Midnight Mountain Peak | Rumpl Blankets For Everywhere"
+  }
+ ],
  "http_status": 200,
  "id": "rumpl-original-puffy-blanket-midnight-mountain-peak",
  "image_file": "rumpl-original-puffy-blanket-midnight-mountain-peak.png",
@@ -29,7 +154,7 @@
    "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": 4655
+    "reviewCount": 4657
    },
    "brand": {
     "@type": "Brand",
@@ -95,7 +220,7 @@
    "@type": "Product",
    "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingCount": "4655",
+    "ratingCount": "4657",
     "ratingValue": "4.9"
    },
    "brand": {
@@ -120,9 +245,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:52Z",
+ "observed_at": "2026-10-03T22:31:06Z",
  "og_image": "http://www.rumpl.com/cdn/shop/files/rumpl-printed-original-1-person-original-puffy-blanket-midnight-mountain-peak-ru01011061p-1250013725.png?v=1784537114",
- "page_sha256": "caab4cbe68d67d3347bc6025f12f13d33d11ec4d17229cb34c7950ccac0c236f",
+ "page_sha256": "3126017246309bf699e4645f5e343dcc2226460d73c30030a9e9e2cb4e8d926a",
  "rendered_checked": true,
  "title": "Original Puffy Blanket - Midnight Mountain Peak | Rumpl Blankets For Everywhere",
  "url": "https://rumpl.com/products/original-puffy-blanket-midnight-mountain-peak"

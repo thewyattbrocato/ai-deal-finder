@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:12:41Z",
+  "read_at": "2026-10-03T22:11:23Z",
   "ship": [
    "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
    "Get member pricing, free shipping, and 2x rewards today.",
@@ -17,6 +17,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:12:41Z",
+    "ship": [
+     "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
+     "Get member pricing, free shipping, and 2x rewards today.",
+     "Free Shipping on all orders for VIP Members",
+     "Free Shipping on $150+ for Non-Members",
+     "Shipping & Returns",
+     "Free Shipping on"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tea Forte"
+     },
+     "description": "NEW GIFT BUNDLE\u00a0The perfect stocking stuffer or table setting, now in sets of ten. Give as thank-you gifts for friends, family, and everyone on your \"good\" list. Each tree-shaped box contains four Warming Joy pyramid tea infusers, one of each: Ginger Snap (black tea),\u00a0Sweet Orange Spice (black tea), White Ginger Pear (white tea), and\u00a0Winter Chai (herbal tea). All teas are Kosher Certified. Pairs perfectly with our\u00a0Caf\u00e9 Cups. Save when you buy as a bundle!\nThe Warming Joy Petite Tea Tree Set of 10 Gift Bundle is a $150 value and includes:\n\nTen Warming Joy Petite Tea Trees, 4 pyramid tea infusers in each\n\nEach pyramid infuser steeps 8-12 ounces of tea\nEach box measures 3.5L x 7.0D x 1.8H\"\n\nPlease note: Pyramid infusers are not microwave-safe\n\n\nAll teas in this bundle are Kosher Certified",
+     "image": [
+      "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_PTT10.jpg?v=1790098341&width=1400"
+     ],
+     "mainEntityOfPage": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
+     "name": "Petite Tea Trees - Set of 10",
+     "offers": [
+      {
+       "@id": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle?variant=48939725062333#offer",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition",
+       "price": 135.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@id": "https://teaforte.com/#organization"
+       },
+       "url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle?variant=48939725062333"
+      }
+     ],
+     "url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:03Z",
+   "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_PTT10.jpg?v=1790098341",
+   "page_sha256": "a89b42ec29e9a4bbf0ae39bf6fdbbc1f569fe8b4c4e156cc10f3dc8a807c19ed",
+   "rendered_checked": true,
+   "title": "Petite Tea Trees - Set of 10 | Gift Bundle"
+  }
+ ],
  "http_status": 200,
  "id": "teaforte-tea-gifts-petite-tea-trees-set-of-10-2026-bundle",
  "image_file": "teaforte-tea-gifts-petite-tea-trees-set-of-10-2026-bundle.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Tea",
- "observed_at": "2026-10-02T20:02:03Z",
+ "observed_at": "2026-10-03T22:11:06Z",
  "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_PTT10.jpg?v=1790098341",
- "page_sha256": "a89b42ec29e9a4bbf0ae39bf6fdbbc1f569fe8b4c4e156cc10f3dc8a807c19ed",
+ "page_sha256": "ae03482cfc9fdf303e9725c17c77366412e50cb9ab107debef221a84fd3ff30f",
  "rendered_checked": true,
  "title": "Petite Tea Trees - Set of 10 | Gift Bundle",
  "url": "https://teaforte.com/products/tea-gifts-petite-tea-trees-set-of-10-2026-bundle"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:11:47Z",
+  "read_at": "2026-10-03T22:36:28Z",
   "ship": [
    "Free shipping on all orders over $45"
   ],
@@ -14,6 +14,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:11:47Z",
+    "ship": [
+     "Free shipping on all orders over $45"
+    ],
+    "size": [],
+    "sub": [
+     "Save 15% on your first 5 subscription shipments with code 15OFF5",
+     "Subscribe",
+     "Why Subscribe?"
+    ],
+    "url": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stumptown Coffee"
+     },
+     "description": "Stick it to the ordinary; these limited-edition WILDWOOD stickers are for those who expect the extraordinary.\u00a0",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Sticker_A_72DPI.png?v=1790116248",
+     "mpn": "100753",
+     "name": "WILDWOOD Sticker Crow",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Sticker_A_72DPI.png?v=1790116248",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "100753",
+       "price": "3.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Stumptown Coffee"
+       },
+       "sku": "100753",
+       "url": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow/products/wildwood-sticker-crow?variant=56034063384744"
+      }
+     ],
+     "sku": "100753",
+     "url": "https://www.stumptowncoffee.com/products/wildwood-sticker-crow"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:23Z",
+   "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Sticker_A_72DPI.png?v=1790116248",
+   "page_sha256": "3231cac080a373c6af4c2fc4acf5cdb310354e423cf4d55fed8c19d37c7d8899",
+   "rendered_checked": true,
+   "title": "WILDWOOD Sticker Crow | Stumptown Coffee Roasters"
+  }
+ ],
  "http_status": 200,
  "id": "stumptowncoffee-wildwood-sticker-crow",
  "image_file": "stumptowncoffee-wildwood-sticker-crow.png",
@@ -41,7 +101,7 @@
      "mpn": "100753",
      "price": "3.00",
      "priceCurrency": "USD",
-     "priceValidUntil": "2027-10-02",
+     "priceValidUntil": "2027-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Stumptown Coffee"
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:23Z",
+ "observed_at": "2026-10-03T22:36:09Z",
  "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_Sticker_A_72DPI.png?v=1790116248",
- "page_sha256": "3231cac080a373c6af4c2fc4acf5cdb310354e423cf4d55fed8c19d37c7d8899",
+ "page_sha256": "ee3c1112fa8cd12e36197d6a82761bca3ed819a0a95773872d59e470e84633e3",
  "rendered_checked": true,
  "title": "WILDWOOD Sticker Crow | Stumptown Coffee Roasters",
  "url": "https://stumptowncoffee.com/products/wildwood-sticker-crow"

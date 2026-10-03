@@ -1,6 +1,51 @@
 {
  "coupon_snippets": [],
  "final_url": "https://bokksu.com/products/gift-wrap",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://bokksu.com/products/gift-wrap",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@type": "Product",
+     "brand": "Bokksu",
+     "category": "",
+     "description": "",
+     "image": {
+      "@type": "ImageObject",
+      "height": 1024,
+      "image": "https://bokksu.com/cdn/shop/files/ChatGPT-2511_Xmas_Wrapping_3_1024x1024.png?v=1778486027",
+      "name": "Gift Wrap with Personalized Card",
+      "url": "https://bokksu.com/cdn/shop/files/ChatGPT-2511_Xmas_Wrapping_3_1024x1024.png?v=1778486027",
+      "width": 1024
+     },
+     "mpn": "725065727",
+     "name": "Gift Wrap with Personalized Card",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 15.0,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-12",
+       "sku": "GIFT-WRAP-CARD",
+       "url": "https://bokksu.com/products/gift-wrap?variant=43471000862806"
+      }
+     ],
+     "productId": "725065727",
+     "sku": "GIFT-WRAP-CARD",
+     "url": "https://bokksu.com/products/gift-wrap"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:06Z",
+   "og_image": "http://bokksu.com/cdn/shop/files/ChatGPT-2511_Xmas_Wrapping_3.png?v=1778486027",
+   "page_sha256": "35aad1afb59dc9e25fba1b5d5f0866d60021d2b0d456624aa940201e122454ab",
+   "rendered_checked": true,
+   "title": "Gift Wrap with Personalized Card"
+  }
+ ],
  "http_status": 200,
  "id": "bokksu-gift-wrap",
  "image_file": "bokksu-gift-wrap.png",
@@ -29,7 +74,7 @@
      "availability": "http://schema.org/InStock",
      "price": 15.0,
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-12",
+     "priceValidUntil": "2026-10-13",
      "sku": "GIFT-WRAP-CARD",
      "url": "https://bokksu.com/products/gift-wrap?variant=43471000862806"
     }
@@ -40,9 +85,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:05:06Z",
+ "observed_at": "2026-10-03T22:16:38Z",
  "og_image": "http://bokksu.com/cdn/shop/files/ChatGPT-2511_Xmas_Wrapping_3.png?v=1778486027",
- "page_sha256": "35aad1afb59dc9e25fba1b5d5f0866d60021d2b0d456624aa940201e122454ab",
+ "page_sha256": "e3e1ffed108635fa9b03313e9e595286ed534943e222984a5b53c93aee0139d3",
  "rendered_checked": true,
  "title": "Gift Wrap with Personalized Card",
  "url": "https://bokksu.com/products/gift-wrap"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:54:27Z",
+  "read_at": "2026-10-03T22:25:20Z",
   "ship": [
    "Promotions, shipping & taxes calculated at checkout.",
    "Free Standard Shipping On Orders $99+",
@@ -14,6 +14,57 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.cotopaxi.com/products/zen-garden-tech-5-panel-hat-1",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:54:27Z",
+    "ship": [
+     "Promotions, shipping & taxes calculated at checkout.",
+     "Free Standard Shipping On Orders $99+",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "By signing up, you will receive offers, promotions, and more updates about Cotopaxi. You are also agreeing to Cotopaxi's Privacy Policy. You may unsubscribe at any time."
+    ],
+    "url": "https://www.cotopaxi.com/products/zen-garden-tech-5-panel-hat-1"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.cotopaxi.com/products/zen-garden-tech-5-panel-hat-1",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Cotopaxi"
+     },
+     "description": "That 5-panel silhouette you love with the features you need for active pursuits in the summer sun.",
+     "image": [
+      "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-azure-f.png?v=1771942661",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-azure-b.png?v=1771942661",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-husk-f.png?v=1771942661",
+      "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-husk-b.png?v=1771942661"
+     ],
+     "name": "Zen Garden Tech 5-Panel Hat",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "24.0",
+      "priceCurrency": "USD",
+      "url": "https://www.cotopaxi.com/products/zen-garden-tech-5-panel-hat-1"
+     },
+     "sku": "ZGT-S26-AZU"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:39Z",
+   "og_image": "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-azure-f_1200x630.png?v=1771942661",
+   "page_sha256": "91a20e0d8589bcf75b1cf9484d18288cf0feaafc4a6e136cb8a8d78480646cfa",
+   "rendered_checked": true,
+   "title": "Zen Garden Tech 5-Panel Hat \u2013 Cotopaxi"
+  }
+ ],
  "http_status": 200,
  "id": "cotopaxi-zen-garden-tech-5-panel-hat-1",
  "image_file": "cotopaxi-zen-garden-tech-5-panel-hat-1.png",
@@ -46,9 +97,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:39Z",
+ "observed_at": "2026-10-03T22:25:03Z",
  "og_image": "https://www.cotopaxi.com/cdn/shop/files/s26-u-zen-garden-tech-5-panel-hat-azure-f_1200x630.png?v=1771942661",
- "page_sha256": "91a20e0d8589bcf75b1cf9484d18288cf0feaafc4a6e136cb8a8d78480646cfa",
+ "page_sha256": "a81788fa294ebbc344288dc17806237664a4d0c14ff8bc497ce4cf19eb7afa3c",
  "rendered_checked": true,
  "title": "Zen Garden Tech 5-Panel Hat \u2013 Cotopaxi",
  "url": "https://cotopaxi.com/products/zen-garden-tech-5-panel-hat-1"

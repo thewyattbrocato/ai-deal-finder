@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:03:37Z",
+  "read_at": "2026-10-03T22:17:55Z",
   "ship": [
    "Free Shipping on Orders $125+",
    "Free Shipping over $125 and Easy Returns",
@@ -20,6 +20,405 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:03:37Z",
+    "ship": [
+     "Free Shipping on Orders $125+",
+     "Free Shipping over $125 and Easy Returns",
+     "Shipping Info"
+    ],
+    "size": [
+     "Size /",
+     "Size Guide",
+     "Select Size",
+     "Select Your Size:"
+    ],
+    "sub": [
+     "Catalog Unsubscribe",
+     "Subscribe"
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Outerknown"
+     },
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333547",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XS",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911137464"
+       },
+       "size": "XS",
+       "sku": "2510074-WLU-XX-XS"
+      },
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333554",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / S",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911170232"
+       },
+       "size": "S",
+       "sku": "2510074-WLU-XX-S"
+      },
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333561",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / M",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911203000"
+       },
+       "size": "M",
+       "sku": "2510074-WLU-XX-M"
+      },
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333578",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / L",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911235768"
+       },
+       "size": "L",
+       "sku": "2510074-WLU-XX-L"
+      },
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333585",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XL",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911268536"
+       },
+       "size": "XL",
+       "sku": "2510074-WLU-XX-XL"
+      },
+      {
+       "@type": "Product",
+       "color": "Wild Mushroom",
+       "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+       "gtin": "196333333592",
+       "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+       },
+       "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XXL",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 348.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 348.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911301304"
+       },
+       "size": "XXL",
+       "sku": "2510074-WLU-XX-XXL"
+      }
+     ],
+     "image": [
+      "https://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/OK_FW26_FINAL_EDITS_PDP_942-retouched_6f73af65-7604-479f-bb5f-a62f1881b62d.jpg?crop=center&height=1080&v=1790890721&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/OK_FW26_FINAL_EDITS_PDP_938-retouched_78467b82-e661-4206-99ac-6e551fe5180d.jpg?crop=center&height=1080&v=1790890721&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2240028_Women-s-Hightide-Sweatshirt_Heather-Beachwood_HBZ_2790006_Hightide-Wide-Leg-Pant_Heather-Beachwood_HBZ_11368_010502d8-64c6-4eca-8e10-2e0853de4f09.jpg?crop=center&height=1080&v=1790890721&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2240028_Women-s-Hightide-Sweatshirt_Heather-Beachwood_HBZ_2790006_Hightide-Wide-Leg-Pant_Heather-Beachwood_HBZ_11396.jpg?crop=center&height=1080&v=1790723820&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510074_The_Woolaroo_Cocoon_Jacket_WLU_0199.jpg?crop=center&height=1080&v=1790789688&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510074_The_Woolaroo_Cocoon_Jacket_WLU_0200.jpg?crop=center&height=1080&v=1790723821&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510074_The_Woolaroo_Cocoon_Jacket_WLU_0168_641b9a43-22c6-4acc-b474-442de0dc2f1c.jpg?crop=center&height=1080&v=1790890721&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/WLU_SWT_2510074_The_Woolaroo_Cocoon_Jacket_WLU_0168.png?crop=center&height=1080&v=1782942461&width=1920"
+     ],
+     "name": "The Woolaroo Cocoon Jacket",
+     "productGroupID": "10424765382840",
+     "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom",
+     "variesBy": [
+      "color",
+      "size"
+     ]
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333547",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XS",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911137464"
+     },
+     "size": "XS",
+     "sku": "2510074-WLU-XX-XS"
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333554",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / S",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911170232"
+     },
+     "size": "S",
+     "sku": "2510074-WLU-XX-S"
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333561",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / M",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911203000"
+     },
+     "size": "M",
+     "sku": "2510074-WLU-XX-M"
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333578",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / L",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911235768"
+     },
+     "size": "L",
+     "sku": "2510074-WLU-XX-L"
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333585",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911268536"
+     },
+     "size": "XL",
+     "sku": "2510074-WLU-XX-XL"
+    },
+    {
+     "@type": "Product",
+     "color": "Wild Mushroom",
+     "description": "<div class=\"ewa-rteLine\">Cocoon in the warmth of real wool\u2014then take flight, you beautiful butterfly, you\u2026 Indeed, wool fleece hits different. Unlike traditional fleece made from plastic, our Woolaroo Cocoon Jacket is woven from luxurious all-natural wool yarn, giving you easy, wear-anywhere warmth for all your travels.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">A collarless jacket with feminine lines, designed with a soft cocoon silhouette and blouson sleeves, the Woolaroo Cocoon Jacket is roomy enough to layer, keeping you warm when the breeze picks up, while nice and breathable, thanks to its natural fibers.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">We\u2019re proud of our new natural wool fleece hoodie that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<ul>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">Details include natural corozo nut buttons, hidden on-seam zip pockets, and delicate braided trim. Fully lined with 100% organic cotton for comfort you can feel good about.</div>\n</li>\n<li class=\"ewa-rteLine\">\n<div class=\"ewa-rteLine\">OK logo embroidery above cuff.</div>\n</li>\n</ul>",
+     "gtin": "196333333592",
+     "image": "//www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?crop=center&height=1080&v=1790890721&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom#product-group"
+     },
+     "name": "The Woolaroo Cocoon Jacket:Wild Mushroom / XXL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 348.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 348.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom?variant=53527911301304"
+     },
+     "size": "XXL",
+     "sku": "2510074-WLU-XX-XXL"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:18Z",
+   "og_image": "http://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?v=1790890721",
+   "page_sha256": "ee74a66f317c80ac4bfde3d340d1555e82b81613018b9004b3fb4cf651f7bad3",
+   "rendered_checked": true,
+   "title": "The Woolaroo Cocoon Jacket - Wild Mushroom | Women's Wool Jacket | Outerknown"
+  }
+ ],
  "http_status": 200,
  "id": "outerknown-the-woolaroo-cocoon-jacket-wild-mushroom",
  "image_file": "outerknown-the-woolaroo-cocoon-jacket-wild-mushroom.jpg",
@@ -394,9 +793,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-02T20:05:18Z",
+ "observed_at": "2026-10-03T22:17:34Z",
  "og_image": "http://www.outerknown.com/cdn/shop/files/FW26_Female_PDP_8281_d434ae59-5143-4bca-91da-7795177452a6.jpg?v=1790890721",
- "page_sha256": "ee74a66f317c80ac4bfde3d340d1555e82b81613018b9004b3fb4cf651f7bad3",
+ "page_sha256": "aa382ef5de652fd0ac1b67f82c12892dad0b79ac4509c31efe7e34e3ecebb876",
  "rendered_checked": true,
  "title": "The Woolaroo Cocoon Jacket - Wild Mushroom | Women's Wool Jacket | Outerknown",
  "url": "https://outerknown.com/products/the-woolaroo-cocoon-jacket-wild-mushroom"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:56:02Z",
+  "read_at": "2026-10-03T22:20:51Z",
   "ship": [
    "Free shipping",
    "Shipping",
@@ -15,6 +15,274 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.ekster.com/products/ekster-wallet-pro",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:56:02Z",
+    "ship": [
+     "Free shipping",
+     "Shipping",
+     "Shipping & delivery",
+     "Shipping calculated at checkout"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://www.ekster.com/products/ekster-wallet-pro"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.ekster.com/products/ekster-wallet-pro",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/ekster-wallet-pro#product",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Ekster\u00ae"
+     },
+     "category": "Wallets",
+     "description": "Built from your feedback, the upgraded Ekster Wallet Pro has a secure metal button closure that keeps your minimalist wallet slimmer while holding all your cards and cash.\nOur flagship features remain: quick card access at the push of a button, built-in RFID protection, still the world\u2019s slimmest leather smart wallet.\n\nHolds 1-14 cards and folded bills\nMade from premium Vachetta leather\nBacked by a lifetime warranty\nAdd a Tracker Card to make it unlosable\n\n",
+     "hasVariant": [
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309131839#variant",
+       "@type": "Product",
+       "gtin": "8721325744661",
+       "image": "https://www.ekster.com/cdn/shop/files/WalletPro-BlackInfograph01_20fe9c91-6b14-43da-92c3-ea88a433d168.png?v=1787653847&width=1920",
+       "name": "Ekster Wallet Pro - Black",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309131839#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309131839"
+       },
+       "sku": "EK5-PAR-BLK"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309197375#variant",
+       "@type": "Product",
+       "gtin": "8721325744685",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Tan_Infograph_01_9d85f475-df53-45b1-89e3-24e00b812635.png?v=1787654884&width=1920",
+       "name": "Ekster Wallet Pro - Tan",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309197375#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309197375"
+       },
+       "sku": "EK5-PAR-TAN"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309230143#variant",
+       "@type": "Product",
+       "gtin": "8721325744692",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Navy_Infograph_01_81981376-d011-4d92-a46d-3a71c2aacce2.png?v=1787655188&width=1920",
+       "name": "Ekster Wallet Pro - Navy",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309230143#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309230143"
+       },
+       "sku": "EK5-PAR-NVY"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309262911#variant",
+       "@type": "Product",
+       "gtin": "8721325744722",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_AppleSkin_Infograph_01.png?v=1787655991&width=1920",
+       "name": "Ekster Wallet Pro - Apple Skin",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309262911#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309262911"
+       },
+       "sku": "EK5-PAR-APL"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309295679#variant",
+       "@type": "Product",
+       "gtin": "8721325744715",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Flare_red_Infograph_01_94adf31f-0bbb-4773-9899-f31e9725a95c.png?v=1787655500&width=1920",
+       "name": "Ekster Wallet Pro - Flare Red",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309295679#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309295679"
+       },
+       "sku": "EK5-PAR-PPR"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309328447#variant",
+       "@type": "Product",
+       "gtin": "8721325744708",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Volt_Infograph_01.png?v=1787655696&width=1920",
+       "name": "Ekster Wallet Pro - Volt",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309328447#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309328447"
+       },
+       "sku": "EK5-PAR-PPG"
+      },
+      {
+       "@id": "/products/ekster-wallet-pro?variant=43783309164607#variant",
+       "@type": "Product",
+       "gtin": "8721325744678",
+       "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Brown_Infograph_01_81f843e0-64e4-4add-be59-63ef99f68dd8.png?v=1787654682&width=1920",
+       "name": "Ekster Wallet Pro - Brown",
+       "offers": {
+        "@id": "/products/ekster-wallet-pro?variant=43783309164607#offer",
+        "@type": "Offer",
+        "availability": "http://schema.org/OutOfStock",
+        "price": "129.00",
+        "priceCurrency": "USD",
+        "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309164607"
+       },
+       "sku": "EK5-PAR-BRW"
+      }
+     ],
+     "name": "Ekster Wallet Pro",
+     "productGroupID": "8322497347647",
+     "url": "https://www.ekster.com/products/ekster-wallet-pro"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309131839#variant",
+     "@type": "Product",
+     "gtin": "8721325744661",
+     "image": "https://www.ekster.com/cdn/shop/files/WalletPro-BlackInfograph01_20fe9c91-6b14-43da-92c3-ea88a433d168.png?v=1787653847&width=1920",
+     "name": "Ekster Wallet Pro - Black",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309131839#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309131839"
+     },
+     "sku": "EK5-PAR-BLK"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309197375#variant",
+     "@type": "Product",
+     "gtin": "8721325744685",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Tan_Infograph_01_9d85f475-df53-45b1-89e3-24e00b812635.png?v=1787654884&width=1920",
+     "name": "Ekster Wallet Pro - Tan",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309197375#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309197375"
+     },
+     "sku": "EK5-PAR-TAN"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309230143#variant",
+     "@type": "Product",
+     "gtin": "8721325744692",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Navy_Infograph_01_81981376-d011-4d92-a46d-3a71c2aacce2.png?v=1787655188&width=1920",
+     "name": "Ekster Wallet Pro - Navy",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309230143#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309230143"
+     },
+     "sku": "EK5-PAR-NVY"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309262911#variant",
+     "@type": "Product",
+     "gtin": "8721325744722",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_AppleSkin_Infograph_01.png?v=1787655991&width=1920",
+     "name": "Ekster Wallet Pro - Apple Skin",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309262911#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309262911"
+     },
+     "sku": "EK5-PAR-APL"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309295679#variant",
+     "@type": "Product",
+     "gtin": "8721325744715",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Flare_red_Infograph_01_94adf31f-0bbb-4773-9899-f31e9725a95c.png?v=1787655500&width=1920",
+     "name": "Ekster Wallet Pro - Flare Red",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309295679#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309295679"
+     },
+     "sku": "EK5-PAR-PPR"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309328447#variant",
+     "@type": "Product",
+     "gtin": "8721325744708",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Volt_Infograph_01.png?v=1787655696&width=1920",
+     "name": "Ekster Wallet Pro - Volt",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309328447#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309328447"
+     },
+     "sku": "EK5-PAR-PPG"
+    },
+    {
+     "@id": "/products/ekster-wallet-pro?variant=43783309164607#variant",
+     "@type": "Product",
+     "gtin": "8721325744678",
+     "image": "https://www.ekster.com/cdn/shop/files/Wallet_Pro_-_Brown_Infograph_01_81f843e0-64e4-4add-be59-63ef99f68dd8.png?v=1787654682&width=1920",
+     "name": "Ekster Wallet Pro - Brown",
+     "offers": {
+      "@id": "/products/ekster-wallet-pro?variant=43783309164607#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "129.00",
+      "priceCurrency": "USD",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=43783309164607"
+     },
+     "sku": "EK5-PAR-BRW"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:53Z",
+   "og_image": "http://www.ekster.com/cdn/shop/files/WalletPro-BlackInfograph01_20fe9c91-6b14-43da-92c3-ea88a433d168.png?v=1787653847",
+   "page_sha256": "49b9f6d02c681061c7855b19d2a10931e12e8e5a150e19033bd435e7fbdbf9d6",
+   "rendered_checked": true,
+   "title": "Ekster Wallet Pro | Ekster\u00ae"
+  }
+ ],
  "http_status": 200,
  "id": "ekster-ekster-wallet-pro",
  "image_file": "ekster-ekster-wallet-pro.png",
@@ -263,9 +531,9 @@
   }
  ],
  "kind": "Accessories",
- "observed_at": "2026-10-02T20:05:53Z",
+ "observed_at": "2026-10-03T22:20:34Z",
  "og_image": "http://www.ekster.com/cdn/shop/files/WalletPro-BlackInfograph01_20fe9c91-6b14-43da-92c3-ea88a433d168.png?v=1787653847",
- "page_sha256": "49b9f6d02c681061c7855b19d2a10931e12e8e5a150e19033bd435e7fbdbf9d6",
+ "page_sha256": "3871d959b9e8071d8c3b6fd716190252f8f5ac423170f9af056594ea0a138a93",
  "rendered_checked": true,
  "title": "Ekster Wallet Pro | Ekster\u00ae",
  "url": "https://ekster.com/products/ekster-wallet-pro"

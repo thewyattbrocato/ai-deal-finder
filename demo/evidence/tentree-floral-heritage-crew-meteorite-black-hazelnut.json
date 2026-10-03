@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.tentree.com/products/floral-heritage-crew-meteorite-black-hazelnut",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.tentree.com/products/floral-heritage-crew-meteorite-black-hazelnut",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T20:01:02Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Women_s-Graphic-Sweatshirt-TCW6629-6591_1.png?v=1785365544",
+   "page_sha256": "7edb73bd935d1b5bdbd82b635c3eea1a2b2ed548a1bfb99a5e836250282bdd76",
+   "title": "Womens Floral Heritage Crew | Recycled Materials"
+  }
+ ],
  "http_status": 200,
  "id": "tentree-floral-heritage-crew-meteorite-black-hazelnut",
  "image_file": null,
  "json_ld": [],
  "kind": "Clothing",
- "observed_at": "2026-10-02T20:01:02Z",
+ "observed_at": "2026-10-03T22:37:08Z",
  "og_image": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Women_s-Graphic-Sweatshirt-TCW6629-6591_1.png?v=1785365544",
- "page_sha256": "7edb73bd935d1b5bdbd82b635c3eea1a2b2ed548a1bfb99a5e836250282bdd76",
+ "page_sha256": "9dba84fc5e301e833d331716b275d0e673d7b788cdbd50bb815d1ee4e4903399",
  "title": "Womens Floral Heritage Crew | Recycled Materials",
  "url": "https://tentree.com/products/floral-heritage-crew-meteorite-black-hazelnut"
 }

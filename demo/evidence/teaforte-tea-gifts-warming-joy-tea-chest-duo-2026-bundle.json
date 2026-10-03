@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:13:18Z",
+  "read_at": "2026-10-03T22:12:16Z",
   "ship": [
    "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
    "Get member pricing, free shipping, and 2x rewards today.",
@@ -17,6 +17,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:13:18Z",
+    "ship": [
+     "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
+     "Get member pricing, free shipping, and 2x rewards today.",
+     "Free Shipping on all orders for VIP Members",
+     "Free Shipping on $150+ for Non-Members",
+     "Shipping & Returns",
+     "Free Shipping on"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tea Forte"
+     },
+     "description": "NEW GIFT BUNDLE\u00a0Our most popular holiday gift in a set of two. Ideal for tea lovers, our acclaimed Warming Joy Tea Chest features our largest holiday collection of 40 festive pyramid infusers each, wrapped in their holiday best. The open lid reveals a detailed tasting menu offering a variety of tea types for everyone, including black, green, white and herbal teas, inviting the discovery of new favorites. Perfect for the holiday table or gifting to your most treasured tea lover.\nThe Warming Joy Tea Chest Duo Gift Bundle is a $176 value and includes:\n\nTwo Warming Joy Tea Chests of 40 assorted pyramid tea infusers, two of each blend\n\nEach pyramid infuser steeps 8-12 ounces of tea\nEach box measures 8.4L x 7.9D x 3.4H\"\nPlease note: Pyramid infusers are not microwave-safe\n\n\n\nAll teas in this bundle are Kosher Certified",
+     "image": [
+      "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCA_Duo.jpg?v=1790020305&width=1400"
+     ],
+     "mainEntityOfPage": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
+     "name": "Warming Joy Tea Chest Duo",
+     "offers": [
+      {
+       "@id": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle?variant=48934133530813#offer",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition",
+       "price": 158.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@id": "https://teaforte.com/#organization"
+       },
+       "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle?variant=48934133530813"
+      }
+     ],
+     "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:10Z",
+   "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCA_Duo.jpg?v=1790020305",
+   "page_sha256": "914971368c804653bbad528a6bbcece88e9826e2edfa51c874bf16a457d0bcbc",
+   "rendered_checked": true,
+   "title": "Warming JoyTea Chest Duo | Gift Bundle"
+  }
+ ],
  "http_status": 200,
  "id": "teaforte-tea-gifts-warming-joy-tea-chest-duo-2026-bundle",
  "image_file": "teaforte-tea-gifts-warming-joy-tea-chest-duo-2026-bundle.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Tea",
- "observed_at": "2026-10-02T20:02:10Z",
+ "observed_at": "2026-10-03T22:12:00Z",
  "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTCA_Duo.jpg?v=1790020305",
- "page_sha256": "914971368c804653bbad528a6bbcece88e9826e2edfa51c874bf16a457d0bcbc",
+ "page_sha256": "cbe0ea7d824c3332dbfc93cef8884a019b9c45f790c0d434ee7b8f961943f31c",
  "rendered_checked": true,
  "title": "Warming JoyTea Chest Duo | Gift Bundle",
  "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-duo-2026-bundle"

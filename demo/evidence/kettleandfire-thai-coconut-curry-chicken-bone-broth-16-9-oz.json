@@ -1,6 +1,47 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "https://www.kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Kettle & Fire"
+     },
+     "description": "Fragrant hints of ginger and lemongrass elevate classic chicken bone broth, beautifully balanced with mild chiles and slightly sweet coconut.",
+     "image": "https://www.kettleandfire.com/cdn/shop/files/Untitled_design_2_7ad62d05-6d64-4723-9846-4577ce6ef8cd_1024x1024.png?v=1782505316",
+     "mpn": "850010613284",
+     "name": "Thai Coconut Curry Chicken Bone Broth - 16.9 oz",
+     "sku": "1606KB09"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "https://www.kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Kettle & Fire"
+     },
+     "description": "Fragrant hints of ginger and lemongrass elevate classic chicken bone broth, beautifully balanced with mild chiles and slightly sweet coconut.",
+     "image": "https://www.kettleandfire.com/cdn/shop/files/Untitled_design_2_7ad62d05-6d64-4723-9846-4577ce6ef8cd_1024x1024.png?v=1782505316",
+     "mpn": "850010613284",
+     "name": "Thai Coconut Curry Chicken Bone Broth - 16.9 oz",
+     "sku": "1606KB09"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:57Z",
+   "og_image": "http://www.kettleandfire.com/cdn/shop/files/4._850010613284_Tom_Yum_Chicken_Bone_Broth_Ingredients_2670d4ae-edb3-42ae-bd27-0c53be7d1e55_600x600.png?v=1782413363",
+   "page_sha256": "ecf52763dbf7fc2e1cec9ebffc9894ad60e4f3d3c33df9602616687188c10873",
+   "title": "Thai Coconut Curry Chicken Bone Broth [Organic Bones | 10g Protein/cup] \u2013 Kettle & Fire"
+  }
+ ],
  "http_status": 200,
  "id": "kettleandfire-thai-coconut-curry-chicken-bone-broth-16-9-oz",
  "image_file": null,
@@ -35,9 +76,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:04:57Z",
+ "observed_at": "2026-10-03T22:16:30Z",
  "og_image": "http://www.kettleandfire.com/cdn/shop/files/4._850010613284_Tom_Yum_Chicken_Bone_Broth_Ingredients_2670d4ae-edb3-42ae-bd27-0c53be7d1e55_600x600.png?v=1782413363",
- "page_sha256": "ecf52763dbf7fc2e1cec9ebffc9894ad60e4f3d3c33df9602616687188c10873",
+ "page_sha256": "fafa1e452db4648b86b40b4eece4f9a9af611d957453149ff7b75586662e7b4f",
  "title": "Thai Coconut Curry Chicken Bone Broth [Organic Bones | 10g Protein/cup] \u2013 Kettle & Fire",
  "url": "https://kettleandfire.com/products/thai-coconut-curry-chicken-bone-broth-16-9-oz"
 }

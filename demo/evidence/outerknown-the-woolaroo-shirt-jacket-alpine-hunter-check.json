@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:04:00Z",
+  "read_at": "2026-10-03T22:17:31Z",
   "ship": [
    "Free Shipping on Orders $125+",
    "Free Shipping over $125 and Easy Returns",
@@ -21,6 +21,408 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:04:00Z",
+    "ship": [
+     "Free Shipping on Orders $125+",
+     "Free Shipping over $125 and Easy Returns",
+     "Shipping Info"
+    ],
+    "size": [
+     "Size /",
+     "Size Guide",
+     "Select Size",
+     "Select Your Size:",
+     "size"
+    ],
+    "sub": [
+     "Catalog Unsubscribe",
+     "Subscribe"
+    ],
+    "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Outerknown"
+     },
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333486",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XS",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911530680"
+       },
+       "size": "XS",
+       "sku": "2510070-AHC-XX-XS"
+      },
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333493",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / S",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911563448"
+       },
+       "size": "S",
+       "sku": "2510070-AHC-XX-S"
+      },
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333509",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / M",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911596216"
+       },
+       "size": "M",
+       "sku": "2510070-AHC-XX-M"
+      },
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333516",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / L",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911628984"
+       },
+       "size": "L",
+       "sku": "2510070-AHC-XX-L"
+      },
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333523",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XL",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911661752"
+       },
+       "size": "XL",
+       "sku": "2510070-AHC-XX-XL"
+      },
+      {
+       "@type": "Product",
+       "color": "Alpine Hunter Check",
+       "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+       "gtin": "196333333530",
+       "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+       "isVariantOf": {
+        "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+       },
+       "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XXL",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": 328.0,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+         {
+          "@type": "UnitPriceSpecification",
+          "price": 328.0,
+          "priceCurrency": "USD"
+         }
+        ],
+        "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911694520"
+       },
+       "size": "XXL",
+       "sku": "2510070-AHC-XX-XXL"
+      }
+     ],
+     "image": [
+      "https://www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/OK_FW26_FINAL_EDITS_PDP_1031.jpg?crop=center&height=1080&v=1790723385&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_2.jpg?crop=center&height=1080&v=1790891216&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The-Woolaroo-Shirt-Jacket_Alpine-Hunter-Check_AHC_8910.jpg?crop=center&height=1080&v=1788301959&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The-Woolaroo-Shirt-Jacket_Alpine-Hunter-Check_AHC_8934.jpg?crop=center&height=1080&v=1788301959&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The-Woolaroo-Shirt-Jacket_Alpine-Hunter-Check_AHC_8950.jpg?crop=center&height=1080&v=1788301959&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The-Woolaroo-Shirt-Jacket_Alpine-Hunter-Check_AHC_8925.jpg?crop=center&height=1080&v=1788301959&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The-Woolaroo-Shirt-Jacket_Alpine-Hunter-Check_AHC_8871.jpg?crop=center&height=1080&v=1788301959&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The_Woolaroo_Shirt_Jacket_AHC_0201.jpg?crop=center&height=1080&v=1788302045&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/2510070_The_Woolaroo_Shirt_Jacket_AHC_1120.jpg?crop=center&height=1080&v=1788302044&width=1920",
+      "https://www.outerknown.com/cdn/shop/files/AHC_SWT_2510070_The_Woolaroo_Shirt_Jacket_AHC_0169.png?crop=center&height=1080&v=1782942460&width=1920"
+     ],
+     "name": "The Woolaroo Shirt Jacket",
+     "productGroupID": "10424765448376",
+     "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check",
+     "variesBy": [
+      "color",
+      "size"
+     ]
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333486",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XS",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911530680"
+     },
+     "size": "XS",
+     "sku": "2510070-AHC-XX-XS"
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333493",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / S",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911563448"
+     },
+     "size": "S",
+     "sku": "2510070-AHC-XX-S"
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333509",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / M",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911596216"
+     },
+     "size": "M",
+     "sku": "2510070-AHC-XX-M"
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333516",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / L",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911628984"
+     },
+     "size": "L",
+     "sku": "2510070-AHC-XX-L"
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333523",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911661752"
+     },
+     "size": "XL",
+     "sku": "2510070-AHC-XX-XL"
+    },
+    {
+     "@type": "Product",
+     "color": "Alpine Hunter Check",
+     "description": "<div class=\"ewa-rteLine\">The industry uses plastic, we use wool. While the industry largely relies on polyester for fleece items, we\u2019re proud of our new natural wool fleece shirt jacket that's breathable, odor-resistant, and quick-drying.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">The Woolaroo\u2019s natural softness offers freedom of movement while keeping you warm.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">And yes, while wool does shed, it\u2019s a natural fiber that will break down rather than contribute to the plastic pollution problem.</div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li class=\"ewa-rteLine\">Sorted, recycled, spun, and woven in Italy, our partner Manteco created a plush fabric that is made completely of recycled wool, helping to divert pre- and post-consumer virgin wool textiles from landfills and putting this valuable fiber back into circulation.<br>\n</li>\n<li class=\"ewa-rteLine\">The color in this garment is made from combining recycled pre- and post-consumer waste, which helps to spare the use of any additional water or dyestuffs.<br>\n</li>\n<li class=\"ewa-rteLine\">A relaxed shirt jacket that's roomy enough for easy layering over all your cool-weather favorites.<br>\n</li>\n<li class=\"ewa-rteLine\">Oversized chest and side seam pockets and corozo nut button closure.<br>\n</li>\n<li class=\"ewa-rteLine\">Unlined, clean finished internal seams with organic cotton binding.</li>\n</ul>\n</div>",
+     "gtin": "196333333530",
+     "image": "//www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?crop=center&height=1080&v=1790891216&width=1920",
+     "isVariantOf": {
+      "@id": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check#product-group"
+     },
+     "name": "The Woolaroo Shirt Jacket:Alpine Hunter Check / XXL",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 328.0,
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": 328.0,
+        "priceCurrency": "USD"
+       }
+      ],
+      "url": "https://www.outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check?variant=53527911694520"
+     },
+     "size": "XXL",
+     "sku": "2510070-AHC-XX-XXL"
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:14Z",
+   "og_image": "http://www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?v=1790891216",
+   "page_sha256": "a24b40e01832bd12acacb98156fde5edb0649ad9b6198979e4f2ca595b5e76ca",
+   "rendered_checked": true,
+   "title": "The Woolaroo Shirt Jacket - Alpine Hunter Check | Women's Wool Jacket | Outerknown"
+  }
+ ],
  "http_status": 200,
  "id": "outerknown-the-woolaroo-shirt-jacket-alpine-hunter-check",
  "image_file": "outerknown-the-woolaroo-shirt-jacket-alpine-hunter-check.jpg",
@@ -397,9 +799,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-02T20:05:14Z",
+ "observed_at": "2026-10-03T22:17:10Z",
  "og_image": "http://www.outerknown.com/cdn/shop/files/outerknown_Woolaroo_Shirt_jacket_alpine_hunter_check_1.jpg?v=1790891216",
- "page_sha256": "a24b40e01832bd12acacb98156fde5edb0649ad9b6198979e4f2ca595b5e76ca",
+ "page_sha256": "a96c0daa469c0a064e2e48f9d88a2fba1c4617b7d0857893639c4cb7062e370b",
  "rendered_checked": true,
  "title": "The Woolaroo Shirt Jacket - Alpine Hunter Check | Women's Wool Jacket | Outerknown",
  "url": "https://outerknown.com/products/the-woolaroo-shirt-jacket-alpine-hunter-check"

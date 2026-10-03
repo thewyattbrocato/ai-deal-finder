@@ -1,22 +1,112 @@
 {
- "conditions": {
-  "read_at": "2026-10-03T15:05:56Z",
-  "ship": [
-   "Free shipping (no minimum for members who enroll today)",
-   "Shipping Policy"
-  ],
-  "size": [],
-  "sub": [
-   "Shop & Subscribe",
-   "Subscribe for 10% off your first order",
-   "Subscription",
-   "Subscribe for clean essentials and save 10% on your first order"
-  ],
-  "url": "https://www.publicgoods.com/products/better-together-membership"
- },
  "coupon_snippets": [],
  "excluded_reason": "paid membership, not a product with a shelf price to compare",
  "final_url": "https://www.publicgoods.com/products/better-together-membership",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:05:56Z",
+    "ship": [
+     "Free shipping (no minimum for members who enroll today)",
+     "Shipping Policy"
+    ],
+    "size": [],
+    "sub": [
+     "Shop & Subscribe",
+     "Subscribe for 10% off your first order",
+     "Subscription",
+     "Subscribe for clean essentials and save 10% on your first order"
+    ],
+    "url": "https://www.publicgoods.com/products/better-together-membership"
+   },
+   "coupon_snippets": [],
+   "excluded_reason": "paid membership, not a product with a shelf price to compare",
+   "final_url": "https://www.publicgoods.com/products/better-together-membership",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/better-together-membership#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "5",
+      "ratingValue": "4.2"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rivo"
+     },
+     "description": "With the Public Goods Membership, save 20% off everything, free shipping on all US orders, $80 in annual credits, and early access to new products.",
+     "image": "https://www.publicgoods.com/cdn/shop/files/publicgoods_logo_430x_4a20a1c8-e401-4528-becb-7791356cf40a_450x450.webp?v=1765903321",
+     "mpn": "8792632262794",
+     "name": "Public Goods Membership",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "65.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Public Goods"
+      }
+     },
+     "url": "/products/better-together-membership"
+    },
+    {
+     "@id": "https://www.publicgoods.com/products/better-together-membership#product",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Rivo"
+     },
+     "description": "With the Public Goods Membership, save 20% off everything, free shipping on all US orders, $80 in annual credits, and early access to new products.",
+     "image": [
+      "https://www.publicgoods.com/cdn/shop/files/publicgoods_logo_430x_4a20a1c8-e401-4528-becb-7791356cf40a.webp?v=1765903321&width=1400"
+     ],
+     "name": "Public Goods Membership",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@id": "https://www.publicgoods.com/#returns"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "65.00",
+      "priceCurrency": "USD",
+      "priceSpecification": [
+       {
+        "@type": "UnitPriceSpecification",
+        "price": "65.00",
+        "priceCurrency": "USD"
+       },
+       {
+        "@type": "UnitPriceSpecification",
+        "price": "52.00",
+        "priceCurrency": "USD",
+        "priceType": "https://schema.org/SalePrice",
+        "validForMemberTier": {
+         "@id": "https://www.publicgoods.com/membership#member-tier"
+        }
+       }
+      ],
+      "priceValidUntil": "2026-12-31",
+      "shippingDetails": {
+       "@id": "https://www.publicgoods.com/#shipping"
+      },
+      "url": "https://www.publicgoods.com/products/better-together-membership"
+     },
+     "sku": "M013",
+     "url": "https://www.publicgoods.com/products/better-together-membership"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:09Z",
+   "og_image": "http://www.publicgoods.com/cdn/shop/files/publicgoods_logo_430x_4a20a1c8-e401-4528-becb-7791356cf40a.webp?v=1765903321",
+   "page_sha256": "58d95adbc30c4cde2c90146fb9f36733c34097c6c50ce4752b1e9f4219ea62df",
+   "rendered_checked": true,
+   "title": "Public Goods Membership"
+  }
+ ],
  "http_status": 200,
  "id": "publicgoods-better-together-membership",
  "image_file": "publicgoods-better-together-membership.jpg",
@@ -100,10 +190,9 @@
   }
  ],
  "kind": "Personal care",
- "observed_at": "2026-10-02T20:06:09Z",
+ "observed_at": "2026-10-03T22:22:01Z",
  "og_image": "http://www.publicgoods.com/cdn/shop/files/publicgoods_logo_430x_4a20a1c8-e401-4528-becb-7791356cf40a.webp?v=1765903321",
- "page_sha256": "58d95adbc30c4cde2c90146fb9f36733c34097c6c50ce4752b1e9f4219ea62df",
- "rendered_checked": true,
+ "page_sha256": "6935f6fd61109debd29a3069dc5cc0a0a1dcb589f4d8a45d937f64879f0ba914",
  "title": "Public Goods Membership",
  "url": "https://publicgoods.com/products/better-together-membership"
 }

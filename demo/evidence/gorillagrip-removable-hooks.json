@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:57:47Z",
+  "read_at": "2026-10-03T22:08:23Z",
   "ship": [
    "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
    "Shipping calculated at checkout.",
@@ -18,6 +18,62 @@
  },
  "coupon_snippets": [],
  "final_url": "https://gorillagrip.com/products/removable-hooks",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:57:47Z",
+    "ship": [
+     "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
+     "Shipping calculated at checkout.",
+     "Free Shipping",
+     "We offer Free Shipping on all orders over $25. If you have any issues or questions with your order, please contact us directly at hello@gorillagrip.com and we will be happy to help.",
+     "Shipping & Returns"
+    ],
+    "size": [
+     "Size"
+    ],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://gorillagrip.com/products/removable-hooks"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://gorillagrip.com/products/removable-hooks",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Gorilla Grip"
+     },
+     "description": "POWERFUL GRIP, HOLDS 5 LBS: durable hooks feature high strength grippy backing built to withstand up to 5 lbs; unlike other hooks that break easily, our hooks are designed for long lasting performance\nRESIDUE FREE REMOVAL: easily remove from wall without damaging most smooth surfaces; enjoy a mess free experience and a spotless surface after removal\nNO TOOLS REQUIRED: installation is quick and easy; simply clean the surface, peel off protective film, and press firmly to desired location; no tools or drilling required\nMULTI SURFACE FRIENDLY USE: ideal for a variety of smooth surfaces including metal, plastic, glass, wood, marble, painted walls, and more; please note hooks are not suitable for wallpaper, wall cloth, rough surfaces, or tile with grooves\nEXTRA STRIPS INCLUDED FOR REUSE: pack comes with extra strips to use hooks multiple times; can reposition hooks whenever needed with included bonus strips; saves money as no need to purchase additional strips separately; pack includes 2 hooks and 3 strips",
+     "image": [
+      "https://gorillagrip.com/cdn/shop/files/GG_RemovableHooks_2pk_Hero_B.jpg?v=1761240989&width=1920"
+     ],
+     "name": "Wall Hooks",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 12.99,
+       "priceCurrency": "USD",
+       "sku": "GG-RemovableHooks-Plastic-2PK",
+       "url": "https://gorillagrip.com/products/removable-hooks?variant=52336012034364"
+      }
+     ],
+     "sku": "GG-RemovableHooks-Plastic-2PK",
+     "url": "https://gorillagrip.com/products/removable-hooks"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:25Z",
+   "og_image": "http://gorillagrip.com/cdn/shop/files/GG_RemovableHooks_2pk_Hero_B.jpg?v=1761240989",
+   "page_sha256": "27757d830c650617dcf603149a602c75de94f5c4bb950df398a378bab4b6e9f1",
+   "rendered_checked": true,
+   "title": "Wall Hooks \u2013 Gorilla Grip"
+  }
+ ],
  "http_status": 200,
  "id": "gorillagrip-removable-hooks",
  "image_file": "gorillagrip-removable-hooks.jpg",
@@ -51,9 +107,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-02T19:59:25Z",
+ "observed_at": "2026-10-03T22:08:12Z",
  "og_image": "http://gorillagrip.com/cdn/shop/files/GG_RemovableHooks_2pk_Hero_B.jpg?v=1761240989",
- "page_sha256": "27757d830c650617dcf603149a602c75de94f5c4bb950df398a378bab4b6e9f1",
+ "page_sha256": "b7fb8a8bb8268a9a85e9ba58910245933ac469b27ec368ed22572b0c5fe23579",
  "rendered_checked": true,
  "title": "Wall Hooks \u2013 Gorilla Grip",
  "url": "https://gorillagrip.com/products/removable-hooks"

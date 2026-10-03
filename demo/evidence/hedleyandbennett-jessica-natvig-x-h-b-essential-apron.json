@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:01:11Z",
+  "read_at": "2026-10-03T22:13:22Z",
   "ship": [
    "Free Shipping Over $150",
    "Shipping & Returns"
@@ -13,6 +13,54 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:01:11Z",
+    "ship": [
+     "Free Shipping Over $150",
+     "Shipping & Returns"
+    ],
+    "size": [
+     "Size Guide"
+    ],
+    "sub": [],
+    "url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Thing",
+      "name": "Hedley & Bennett"
+     },
+     "image": "https://cdn.shopify.com/s/files/1/0187/0608/files/Jessica-Natvig-Essential-Apron_2296-Square1.jpg?v=1790807444",
+     "name": "Jessica Natvig x H&B Essential Apron",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "96.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Hedley & Bennett"
+      },
+      "url": "https://www.hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron"
+     }
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:22Z",
+   "og_image": "[object Object]",
+   "page_sha256": "a527fccb942baa2e7a28638bc13e9baf08804cc412aa83780b97d8dfb9788c61",
+   "rendered_checked": true,
+   "title": "Essential Apron Creators - Jessica Natvig | Hedley & Bennett"
+  }
+ ],
  "http_status": 200,
  "id": "hedleyandbennett-jessica-natvig-x-h-b-essential-apron",
  "image_error": "unknown url type: '%5Bobject%20Object%5D'",
@@ -42,9 +90,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:04:22Z",
+ "observed_at": "2026-10-03T22:13:10Z",
  "og_image": "[object Object]",
- "page_sha256": "a527fccb942baa2e7a28638bc13e9baf08804cc412aa83780b97d8dfb9788c61",
+ "page_sha256": "b59220f860b6bc1dd4e58ebdadf3874d994202e9e6444ef84c03168ee0085a4a",
  "rendered_checked": true,
  "title": "Essential Apron Creators - Jessica Natvig | Hedley & Bennett",
  "url": "https://hedleyandbennett.com/products/jessica-natvig-x-h-b-essential-apron"

@@ -1,21 +1,84 @@
 {
- "conditions": {
-  "read_at": "2026-10-03T15:02:49Z",
-  "ship": [
-   "Free shipping on $150+",
-   "Shipping policy",
-   "You are $150.00 away from Free Shipping!"
-  ],
-  "size": [],
-  "sub": [
-   "SUBSCRIBE TO OUR EMAILS",
-   "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
-  ],
-  "url": "https://nisolo.com/products/nisolo-gift-card-100"
- },
  "coupon_snippets": [],
  "excluded_reason": "gift card at face value, not a product with a shelf price to compare",
  "final_url": "https://nisolo.com/products/nisolo-gift-card-100",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:02:49Z",
+    "ship": [
+     "Free shipping on $150+",
+     "Shipping policy",
+     "You are $150.00 away from Free Shipping!"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS",
+     "By subscribing or using our site, you agree to the Terms of Use & Privacy Policy."
+    ],
+    "url": "https://nisolo.com/products/nisolo-gift-card-100"
+   },
+   "coupon_snippets": [],
+   "excluded_reason": "gift card at face value, not a product with a shelf price to compare",
+   "final_url": "https://nisolo.com/products/nisolo-gift-card-100",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Rise.ai"
+     },
+     "description": "Shopping for someone else but not sure what to give them? Give the gift of choice with a gift card. Gift cards are delivered by email and contain checkout redemption instructions.\u00a0",
+     "image": [
+      "https://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264&width=1920"
+     ],
+     "name": "Nisolo Gift Card - $100",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 100.0,
+       "priceCurrency": "USD",
+       "url": "https://nisolo.com/products/nisolo-gift-card-100?variant=53408702791861"
+      }
+     ],
+     "url": "https://nisolo.com/products/nisolo-gift-card-100"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "1"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rise.ai"
+     },
+     "description": "Shopping for someone else but not sure what to give them? Give the gift of choice with a gift card. Gift cards are delivered by email and contain checkout redemption instructions.\u00a0",
+     "image": [
+      "https://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264&width=480"
+     ],
+     "name": "Nisolo Gift Card - $100",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "100.0",
+      "priceCurrency": "USD",
+      "url": "https://nisolo.com/products/nisolo-gift-card-100?variant=53408702791861"
+     }
+    }
+   ],
+   "observed_at": "2026-10-02T20:05:32Z",
+   "og_image": "http://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264",
+   "page_sha256": "e7adc318dd81b83e430334a0deb7ba064c0d93bbb21a7a5c1b4eb5261fdd204b",
+   "rendered_checked": true,
+   "title": "Nisolo Gift Card - $100"
+  }
+ ],
  "http_status": 200,
  "id": "nisolo-nisolo-gift-card-100",
  "image_file": "nisolo-nisolo-gift-card-100.jpg",
@@ -72,10 +135,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T20:05:32Z",
+ "observed_at": "2026-10-03T22:19:15Z",
  "og_image": "http://nisolo.com/cdn/shop/products/3469eeacad884d6c87536c5a68a72376.jpg?v=1739935264",
- "page_sha256": "e7adc318dd81b83e430334a0deb7ba064c0d93bbb21a7a5c1b4eb5261fdd204b",
- "rendered_checked": true,
+ "page_sha256": "0ac4d36bfe48154cc2166ef5258b438f99921a4f4fed39b27a5df83d1a43aa62",
  "title": "Nisolo Gift Card - $100",
  "url": "https://nisolo.com/products/nisolo-gift-card-100"
 }

@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.intelligentsia.com/products/ethiopia-gesha-village-oma-natural",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.intelligentsia.com/products/ethiopia-gesha-village-oma-natural",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T19:58:30Z",
+   "og_image": "http://www.intelligentsia.com/cdn/shop/files/EthiopiaGeshaVillageOmaNatural_1_1024x1024.png?v=1789142053",
+   "page_sha256": "009a47fdecea1bde2e3e623ca55981418749ab729c1e79b36955f7c499ed88ac",
+   "title": "Ethiopia Gesha Village Oma Natural 7oz"
+  }
+ ],
  "http_status": 200,
  "id": "intelligentsia-ethiopia-gesha-village-oma-natural",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:30Z",
+ "observed_at": "2026-10-03T22:30:00Z",
  "og_image": "http://www.intelligentsia.com/cdn/shop/files/EthiopiaGeshaVillageOmaNatural_1_1024x1024.png?v=1789142053",
- "page_sha256": "009a47fdecea1bde2e3e623ca55981418749ab729c1e79b36955f7c499ed88ac",
+ "page_sha256": "20500fe6facbd8f35c11e3c452d2173dbc85a0440e9c780112bea9ef8633992c",
  "title": "Ethiopia Gesha Village Oma Natural 7oz",
  "url": "https://intelligentsia.com/products/ethiopia-gesha-village-oma-natural"
 }

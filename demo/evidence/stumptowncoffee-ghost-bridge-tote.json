@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:11:06Z",
+  "read_at": "2026-10-03T22:35:43Z",
   "ship": [
    "Free shipping on all orders over $45"
   ],
@@ -14,6 +14,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:11:06Z",
+    "ship": [
+     "Free shipping on all orders over $45"
+    ],
+    "size": [],
+    "sub": [
+     "Save 15% on your first 5 subscription shipments with code 15OFF5",
+     "Subscribe",
+     "Why Subscribe?"
+    ],
+    "url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.stumptowncoffee.com/products/ghost-bridge-tote",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stumptown Coffee"
+     },
+     "description": "This limited-edition WILDWOOD tote is your trusty companion, the holder of your secrets, the carry-all for any adventure where magic and coffee reign supreme.",
+     "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+     "mpn": "100767",
+     "name": "Ghost Bridge Tote",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "100767",
+       "price": "25.00",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Stumptown Coffee"
+       },
+       "sku": "100767",
+       "url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote/products/ghost-bridge-tote?variant=56033620525224"
+      }
+     ],
+     "sku": "100767",
+     "url": "https://www.stumptowncoffee.com/products/ghost-bridge-tote"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:21Z",
+   "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
+   "page_sha256": "7771b15950ad346e66926e198a98d10d8c0fa6be9ea52b926921043d0a9f38e5",
+   "rendered_checked": true,
+   "title": "Ghost Bridge Tote | Stumptown Coffee Roasters"
+  }
+ ],
  "http_status": 200,
  "id": "stumptowncoffee-ghost-bridge-tote",
  "image_file": "stumptowncoffee-ghost-bridge-tote.png",
@@ -41,7 +101,7 @@
      "mpn": "100767",
      "price": "25.00",
      "priceCurrency": "USD",
-     "priceValidUntil": "2027-10-02",
+     "priceValidUntil": "2027-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Stumptown Coffee"
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:21Z",
+ "observed_at": "2026-10-03T22:35:14Z",
  "og_image": "http://www.stumptowncoffee.com/cdn/shop/files/SCR_Wildwood_TOTE_72DPI.png?v=1790104658",
- "page_sha256": "7771b15950ad346e66926e198a98d10d8c0fa6be9ea52b926921043d0a9f38e5",
+ "page_sha256": "984dc54f6a0cdcb67f334c9d060ee78d5941f323d9701f162acc11ff0a24a28b",
  "rendered_checked": true,
  "title": "Ghost Bridge Tote | Stumptown Coffee Roasters",
  "url": "https://stumptowncoffee.com/products/ghost-bridge-tote"

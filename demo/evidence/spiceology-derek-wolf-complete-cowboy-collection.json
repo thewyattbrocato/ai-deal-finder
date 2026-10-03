@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:09:02Z",
+  "read_at": "2026-10-03T22:33:05Z",
   "ship": [
    "Free Shipping on Orders $50+ (In Contiguous US)",
    "Shipping",
@@ -13,6 +13,70 @@
  },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:09:02Z",
+    "ship": [
+     "Free Shipping on Orders $50+ (In Contiguous US)",
+     "Shipping",
+     "Shipping calculated at checkout",
+     "You are $50.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "112"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Spiceology"
+     },
+     "description": "We created the Derek Wolf Complete Cowboy Collection so you can have it all: a smoky campfire foundation, a savory butter blend that does everything, and the sweet heat kick your life is missing.\n\n\nCowboy Butter \u2014 It took over a year to perfect this one. Rich butter, garlic, herbs, mustard, smoked paprika, vinegar and just a hint of cayenne \u2014 beautifully balanced, granular goodness you're going to reach for constantly. Keep it next to the grill, on the pantry shelf, anywhere within arm's reach. And yes, it's good for way more than just grilling.\n\n\nCowboy Candy \u2014 The beloved Texas BBQ condiment gets the Derek Wolf treatment. All the flavor of traditional candied jalape\u00f1os \u2014 jalapeno, brown sugar, vinegar, spices \u2014 minus the mess of pickling. Add fresh ground paprika, onion, garlic, mustard and more, and you've got a sweet heat with serious zing. The molasses and caramelized sugar granules? They build a killer crust on the grill.\n\n\nNEW! Cowboy Campfire \u2014 SPG is the holy trinity of grilling. Derek Wolf took the classic and added real hickory smoked salt for deep, authentic smoky flavor in every shake. Use it straight as your go-to foundational rub, or make it your launching pad \u2014 brown sugar for candy bark, coffee for competition brisket, citrus to wake it up for fish. This is SPG, elevated.\u00a0\n\n",
+     "image": "https://spiceology.com/cdn/shop/files/cowboy-bundle-front.jpg?v=1782241340&width=2000",
+     "name": "Derek Wolf | Complete Cowboy Collection",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "description": "We created the Derek Wolf Complete Cowboy Collection so you can have it all: a smoky campfire foundation, a savory butter blend that does everything, and the sweet heat kick your life is missing.\n\n\nCowboy Butter \u2014 It took over a year to perfect this one. Rich butter, garlic, herbs, mustard, smoked paprika, vinegar and just a hint of cayenne \u2014 beautifully balanced, granular goodness you're going to reach for constantly. Keep it next to the grill, on the pantry shelf, anywhere within arm's reach. And yes, it's good for way more than just grilling.\n\n\nCowboy Candy \u2014 The beloved Texas BBQ condiment gets the Derek Wolf treatment. All the flavor of traditional candied jalape\u00f1os \u2014 jalapeno, brown sugar, vinegar, spices \u2014 minus the mess of pickling. Add fresh ground paprika, onion, garlic, mustard and more, and you've got a sweet heat with serious zing. The molasses and caramelized sugar granules? They build a killer crust on the grill.\n\n\nNEW! Cowboy Campfire \u2014 SPG is the holy trinity of grilling. Derek Wolf took the classic and added real hickory smoked salt for deep, authentic smoky flavor in every shake. Use it straight as your go-to foundational rub, or make it your launching pad \u2014 brown sugar for candy bark, coffee for competition brisket, citrus to wake it up for fish. This is SPG, elevated.\u00a0\n\n",
+       "image": "https://spiceology.com/cdn/shop/files/cowboy-bundle-front.jpg?v=1782241340&width=2000",
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "Derek Wolf | Complete Cowboy Collection",
+       "price": "51.27",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Spiceology"
+       },
+       "sku": "46296384471236",
+       "url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection?variant=46296384471236"
+      }
+     ],
+     "productID": "8628073464004",
+     "sku": "46296384471236",
+     "url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:24Z",
+   "og_image": "http://spiceology.com/cdn/shop/files/cowboy-bundle-front.jpg?v=1782241340",
+   "page_sha256": "d5ff1e293f5f47a132ee2b4f6469944b4aa761e92a648dcadab72642faf3ba86",
+   "rendered_checked": true,
+   "title": "Derek Wolf | Complete Cowboy Collection \u2013 Spiceology"
+  }
+ ],
  "http_status": 200,
  "id": "spiceology-derek-wolf-complete-cowboy-collection",
  "image_file": "spiceology-derek-wolf-complete-cowboy-collection.jpg",
@@ -44,7 +108,7 @@
      "name": "Derek Wolf | Complete Cowboy Collection",
      "price": "51.27",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-02",
+     "priceValidUntil": "2026-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Spiceology"
@@ -59,9 +123,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:02:24Z",
+ "observed_at": "2026-10-03T22:32:49Z",
  "og_image": "http://spiceology.com/cdn/shop/files/cowboy-bundle-front.jpg?v=1782241340",
- "page_sha256": "d5ff1e293f5f47a132ee2b4f6469944b4aa761e92a648dcadab72642faf3ba86",
+ "page_sha256": "70589f0cc78cbf1aaedce48bbd3e77f8e96335428e5b28618a28165415a24057",
  "rendered_checked": true,
  "title": "Derek Wolf | Complete Cowboy Collection \u2013 Spiceology",
  "url": "https://spiceology.com/products/derek-wolf-complete-cowboy-collection"

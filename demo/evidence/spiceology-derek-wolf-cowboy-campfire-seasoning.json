@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:09:11Z",
+  "read_at": "2026-10-03T22:33:26Z",
   "ship": [
    "Free Shipping on Orders $50+ (In Contiguous US)",
    "Shipping",
@@ -13,6 +13,70 @@
  },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:09:11Z",
+    "ship": [
+     "Free Shipping on Orders $50+ (In Contiguous US)",
+     "Shipping",
+     "Shipping calculated at checkout",
+     "You are $50.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "16"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Spiceology"
+     },
+     "description": "A smoked salt, pepper, and garlic seasoning that brings real campfire flavor to steak, brisket, chicken, and veggies\nSPG (aka Salt-Pepper-Garlic) is the holy trinity of grilling, the foundational blend everyone reaches for. And while the OG version is delicious, Spiceology and Derek Wolf (@overthefirecooking) took this classic seasoning to the smoky place it was always destined to go.\u00a0\u00a0\nCowboy Campfire starts with that proven salt-pepper-garlic foundation and adds the one thing that makes everything taste like it's been cooking over a real fire all day: hickory-smoked salt. Not liquid smoke. Not smoke flavoring. Real smoked salt that delivers deep, authentic campfire flavor in every shake.\nThe result is the perfect amount of smoke on smoke.\nUse it straight as your go-to foundational rub. Or use it as a launching pad \u2014 add brown sugar for candy bark, coffee for competition-level brisket, fresh citrus to wake it up for fish. This is SPG elevated. And no, it\u2019s not too smoky.",
+     "image": "https://spiceology.com/cdn/shop/files/cowboy-campfire-front_1.jpg?v=1781796725&width=3000",
+     "name": "Derek Wolf | Cowboy Campfire Smoky SPG Seasoning",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "description": "A smoked salt, pepper, and garlic seasoning that brings real campfire flavor to steak, brisket, chicken, and veggies\nSPG (aka Salt-Pepper-Garlic) is the holy trinity of grilling, the foundational blend everyone reaches for. And while the OG version is delicious, Spiceology and Derek Wolf (@overthefirecooking) took this classic seasoning to the smoky place it was always destined to go.\u00a0\u00a0\nCowboy Campfire starts with that proven salt-pepper-garlic foundation and adds the one thing that makes everything taste like it's been cooking over a real fire all day: hickory-smoked salt. Not liquid smoke. Not smoke flavoring. Real smoked salt that delivers deep, authentic campfire flavor in every shake.\nThe result is the perfect amount of smoke on smoke.\nUse it straight as your go-to foundational rub. Or use it as a launching pad \u2014 add brown sugar for candy bark, coffee for competition-level brisket, fresh citrus to wake it up for fish. This is SPG elevated. And no, it\u2019s not too smoky.",
+       "image": "https://spiceology.com/cdn/shop/files/cowboy-campfire-front_1.jpg?v=1781796725&width=3000",
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "Derek Wolf | Cowboy Campfire Smoky SPG Seasoning",
+       "price": "18.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Spiceology"
+       },
+       "sku": "11974",
+       "url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning?variant=46262024241348"
+      }
+     ],
+     "productID": "8618595254468",
+     "sku": "11974",
+     "url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:26Z",
+   "og_image": "http://spiceology.com/cdn/shop/files/cowboy-campfire-front_1.jpg?v=1781796725",
+   "page_sha256": "97945188581e28658b0d3fd32e9e499ac55f573e13b419c152aca02a62691873",
+   "rendered_checked": true,
+   "title": "Derek Wolf Cowboy Campfire Smoky SPG Seasoning | Spiceology"
+  }
+ ],
  "http_status": 200,
  "id": "spiceology-derek-wolf-cowboy-campfire-seasoning",
  "image_file": "spiceology-derek-wolf-cowboy-campfire-seasoning.jpg",
@@ -44,7 +108,7 @@
      "name": "Derek Wolf | Cowboy Campfire Smoky SPG Seasoning",
      "price": "18.99",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-02",
+     "priceValidUntil": "2026-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Spiceology"
@@ -59,9 +123,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:02:26Z",
+ "observed_at": "2026-10-03T22:33:09Z",
  "og_image": "http://spiceology.com/cdn/shop/files/cowboy-campfire-front_1.jpg?v=1781796725",
- "page_sha256": "97945188581e28658b0d3fd32e9e499ac55f573e13b419c152aca02a62691873",
+ "page_sha256": "3abe5ce120dfde42853b0d17a7138002e92d897ce7b66f1d5c0c2355771dc07b",
  "rendered_checked": true,
  "title": "Derek Wolf Cowboy Campfire Smoky SPG Seasoning | Spiceology",
  "url": "https://spiceology.com/products/derek-wolf-cowboy-campfire-seasoning"

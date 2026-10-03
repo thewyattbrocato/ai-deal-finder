@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:13:09Z",
+  "read_at": "2026-10-03T22:11:58Z",
   "ship": [
    "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
    "Get member pricing, free shipping, and 2x rewards today.",
@@ -17,6 +17,66 @@
  },
  "coupon_snippets": [],
  "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:13:09Z",
+    "ship": [
+     "FREE SHIPPING FOR VIPS | $150+ FOR NON MEMBERS",
+     "Get member pricing, free shipping, and 2x rewards today.",
+     "Free Shipping on all orders for VIP Members",
+     "Free Shipping on $150+ for Non-Members",
+     "Shipping & Returns",
+     "Free Shipping on"
+    ],
+    "size": [],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Tea Forte"
+     },
+     "description": "NEW GIFT BUNDLE\u00a0Our most popular holiday gifts in a set of two. Ideal for tea lovers, our acclaimed Warming Joy Tea Chests features our largest holiday collection of 40 festive pyramid infusers each, wrapped in their holiday best. The Warming Joy Assorted Tea Chest (red) offers a detailed tasting menu under the lid of variety of tea types for everyone, including black, green, white and herbal teas, inviting the discovery of new favorites. The Warming Joy Herbal Tea Chest (green) offers an detailed tasting menu under the lid of 40 herbal teas, 2 of each, nearly all of which are caffeine-free. Our Tea Chests are the most comprehensive offering for the holiday table or gifting to your most treasured tea lover.\nThe Warming Joy Tea Chest Combo Gift Bundle is a $176 value and includes:\n\nOne Warming Joy Assorted Tea Chest of 40 assorted pyramid tea infusers, two of each blend\nOne\u00a0Warming Joy Herbal Tea Chest of 40 herbal pyramid tea infusers, two of each blend\n\nEach pyramid infuser steeps 8-12 ounces of tea\nEach box measures 8.0L x 8.0D x 3.75H\"\nPlease note: Pyramid infusers are not microwave-safe\n\n\nAll teas in this bundle are Kosher Certified",
+     "image": [
+      "https://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTC_Combo.jpg?v=1790022455&width=1400"
+     ],
+     "mainEntityOfPage": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
+     "name": "Warming Joy Tea Chest Combo",
+     "offers": [
+      {
+       "@id": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle?variant=48934447644861#offer",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition",
+       "price": 158.0,
+       "priceCurrency": "USD",
+       "seller": {
+        "@id": "https://teaforte.com/#organization"
+       },
+       "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle?variant=48934447644861"
+      }
+     ],
+     "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:08Z",
+   "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTC_Combo.jpg?v=1790022455",
+   "page_sha256": "a07afe99addf816ef402aeebfb25876f2dc1f5f8246c244c2605188c87344f2d",
+   "rendered_checked": true,
+   "title": "Warming Joy Tea Chest Combo | Gift Bundle"
+  }
+ ],
  "http_status": 200,
  "id": "teaforte-tea-gifts-warming-joy-tea-chest-combo-2026-bundle",
  "image_file": "teaforte-tea-gifts-warming-joy-tea-chest-combo-2026-bundle.jpg",
@@ -55,9 +115,9 @@
   }
  ],
  "kind": "Tea",
- "observed_at": "2026-10-02T20:02:08Z",
+ "observed_at": "2026-10-03T22:11:42Z",
  "og_image": "http://teaforte.com/cdn/shop/files/Hero_1400x1080_3C_Bundle_WJTC_Combo.jpg?v=1790022455",
- "page_sha256": "a07afe99addf816ef402aeebfb25876f2dc1f5f8246c244c2605188c87344f2d",
+ "page_sha256": "d65a28cd120366ed9cffc7da3c4e7ce8bbc78623add58ca56ce84f3435c19b3c",
  "rendered_checked": true,
  "title": "Warming Joy Tea Chest Combo | Gift Bundle",
  "url": "https://teaforte.com/products/tea-gifts-warming-joy-tea-chest-combo-2026-bundle"

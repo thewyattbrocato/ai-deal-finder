@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:01:40Z",
+  "read_at": "2026-10-03T22:01:53Z",
   "ship": [
    "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
    "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
@@ -14,11 +14,69 @@
   "url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo"
  },
  "coupon_snippets": [
-  "io for iPhone Duo $69.99 USD No reviews $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your",
-  " Dynamic Folio for iPhone Duo $69.99 USD $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your ",
-  "y-Enabled MagSafe Wallets MagSafe CollectionNEW Collections Shop All 0 Pre order Dynamic Folio for iPhone Duo $69.99 USD $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your order and the discount applies automatically. \ud83d\ude9a Shipping: Pre-orders start ship"
+  "PEN PHP PKR PLN QAR RON RSD SAR SEK SGD THB TWD UAH USD UYU UZS VND Dynamic Folio for iPhone Duo $69.99 USD No reviews $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your order and the discount applies automatically. \ud83d\ude9a Shipping: Pre-orders start shipp"
  ],
  "final_url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:01:40Z",
+    "ship": [
+     "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
+     "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
+     "\ud83d\ude9a Shipping: Pre-orders start shipping in Nov.",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo"
+   },
+   "coupon_snippets": [
+    "io for iPhone Duo $69.99 USD No reviews $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your",
+    " Dynamic Folio for iPhone Duo $69.99 USD $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your ",
+    "y-Enabled MagSafe Wallets MagSafe CollectionNEW Collections Shop All 0 Pre order Dynamic Folio for iPhone Duo $69.99 USD $10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout. Bundle & Save $20: Add Snap Fold for iPhone Duo to your order and the discount applies automatically. \ud83d\ude9a Shipping: Pre-orders start ship"
+   ],
+   "final_url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "MS030"
+     },
+     "description": "$10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout.Bundle &amp;amp; Save $20: Add Snap Fold for iPhone Duo to your order and the discount applies automatically.\ud83d\ude9a Shipping: Pre-orders start shipping in Nov.\u00a0",
+     "image": [
+      "https://www.moft.com/cdn/shop/files/MOFTDynamicFolioforiPhoneDuoFrame63325710.png?v=1789485689&width=1001"
+     ],
+     "mpn": "",
+     "name": "Dynamic Folio for iPhone Duo",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "mpn": "",
+      "price": "69.99",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-10-02",
+      "sku": "MS030-1-MCGYSPBU",
+      "url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo"
+     },
+     "productID": "7771773468759",
+     "sku": "MS030-1-MCGYSPBU",
+     "url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo"
+    }
+   ],
+   "observed_at": "2026-10-02T20:06:02Z",
+   "og_image": "http://www.moft.com/cdn/shop/files/MOFTDynamicFolioforiPhoneDuoFrame1384.png?v=1789485702",
+   "page_sha256": "575ec21fa0b40b94f9477024e3f7a4156610ae8defabf7c284af7ac2a490c515",
+   "rendered_checked": true,
+   "title": "Dynamic Folio Case for iPhone Duo \u2013 MOFT"
+  }
+ ],
  "http_status": 200,
  "id": "moft-dynamic-folio-for-iphone-duo",
  "image_file": "moft-dynamic-folio-for-iphone-duo.png",
@@ -45,7 +103,7 @@
     "mpn": "",
     "price": "69.99",
     "priceCurrency": "USD",
-    "priceValidUntil": "2027-10-02",
+    "priceValidUntil": "2027-10-03",
     "sku": "MS030-1-MCGYSPBU",
     "url": "https://www.moft.com/products/dynamic-folio-for-iphone-duo"
    },
@@ -55,9 +113,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-02T20:06:02Z",
+ "observed_at": "2026-10-03T22:01:43Z",
  "og_image": "http://www.moft.com/cdn/shop/files/MOFTDynamicFolioforiPhoneDuoFrame1384.png?v=1789485702",
- "page_sha256": "575ec21fa0b40b94f9477024e3f7a4156610ae8defabf7c284af7ac2a490c515",
+ "page_sha256": "1b566a8beb0ef405ffeb80636078860233140871eb74cdc609965360247c9196",
  "rendered_checked": true,
  "title": "Dynamic Folio Case for iPhone Duo \u2013 MOFT",
  "url": "https://moft.us/products/dynamic-folio-for-iphone-duo"

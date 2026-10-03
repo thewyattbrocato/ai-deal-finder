@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:08:44Z",
+  "read_at": "2026-10-03T22:32:24Z",
   "ship": [
    "Free Shipping on Orders $50+ (In Contiguous US)",
    "Shipping",
@@ -13,6 +13,70 @@
  },
  "coupon_snippets": [],
  "final_url": "https://spiceology.com/products/cajun-caesar-seasoning",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:08:44Z",
+    "ship": [
+     "Free Shipping on Orders $50+ (In Contiguous US)",
+     "Shipping",
+     "Shipping calculated at checkout",
+     "You are $50.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://spiceology.com/products/cajun-caesar-seasoning"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://spiceology.com/products/cajun-caesar-seasoning",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "1"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Spiceology"
+     },
+     "description": "Who says Caesar only belongs on salad? This dry blend packs all the punchy, cheesy, lemon-garlic magic of everyone\u2019s favorite classic dressing, then layers in smoky Cajun heat creating a deeper flavor.\nReal Parmesan, buttermilk, and nutritional yeast bring the umami richness, while lemon, Dijon, garlic, and onion round it out. Rub it on chicken and shrimp, toss it with fries, or shake it over popcorn for a cheesy Cajun kick.",
+     "image": "https://spiceology.com/cdn/shop/files/cajun-caesar-front.jpg?v=1784066838&width=3000",
+     "name": "Cajun Caesar Seasoning",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "description": "Who says Caesar only belongs on salad? This dry blend packs all the punchy, cheesy, lemon-garlic magic of everyone\u2019s favorite classic dressing, then layers in smoky Cajun heat creating a deeper flavor.\nReal Parmesan, buttermilk, and nutritional yeast bring the umami richness, while lemon, Dijon, garlic, and onion round it out. Rub it on chicken and shrimp, toss it with fries, or shake it over popcorn for a cheesy Cajun kick.",
+       "image": "https://spiceology.com/cdn/shop/files/cajun-caesar-front.jpg?v=1784066838&width=3000",
+       "itemCondition": "https://schema.org/NewCondition",
+       "name": "Cajun Caesar Seasoning",
+       "price": "26.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-02",
+       "seller": {
+        "@type": "Organization",
+        "name": "Spiceology"
+       },
+       "sku": "11984",
+       "url": "https://spiceology.com/products/cajun-caesar-seasoning?variant=46397273014468"
+      }
+     ],
+     "productID": "8651050385604",
+     "sku": "11984",
+     "url": "https://spiceology.com/products/cajun-caesar-seasoning"
+    }
+   ],
+   "observed_at": "2026-10-02T20:02:19Z",
+   "og_image": "http://spiceology.com/cdn/shop/files/cajun-caesar-front.jpg?v=1784066838",
+   "page_sha256": "8bd0df8ab1d9a4cb658134e705cd19736a1d671df10cfe6ec2b8b2682f34644c",
+   "rendered_checked": true,
+   "title": "Cajun Caesar Seasoning \u2013 Spiceology"
+  }
+ ],
  "http_status": 200,
  "id": "spiceology-cajun-caesar-seasoning",
  "image_file": "spiceology-cajun-caesar-seasoning.jpg",
@@ -44,7 +108,7 @@
      "name": "Cajun Caesar Seasoning",
      "price": "26.99",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-02",
+     "priceValidUntil": "2026-10-03",
      "seller": {
       "@type": "Organization",
       "name": "Spiceology"
@@ -59,9 +123,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:02:19Z",
+ "observed_at": "2026-10-03T22:32:07Z",
  "og_image": "http://spiceology.com/cdn/shop/files/cajun-caesar-front.jpg?v=1784066838",
- "page_sha256": "8bd0df8ab1d9a4cb658134e705cd19736a1d671df10cfe6ec2b8b2682f34644c",
+ "page_sha256": "6c1105e1fc0a17d0051db2e5510c7583ecb04d48bd0d370184bb6697f4b1868c",
  "rendered_checked": true,
  "title": "Cajun Caesar Seasoning \u2013 Spiceology",
  "url": "https://spiceology.com/products/cajun-caesar-seasoning"

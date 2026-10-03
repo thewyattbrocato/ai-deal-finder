@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:57:14Z",
+  "read_at": "2026-10-03T22:07:44Z",
   "ship": [
    "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
    "Shipping Information"
@@ -11,6 +11,50 @@
  },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:57:14Z",
+    "ship": [
+     "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+     "Shipping Information"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Fellow"
+     },
+     "name": "Opus Gen 2 Standard Outer Burr",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 20.0,
+      "priceCurrency": "USD",
+      "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr"
+     },
+     "sku": "1222-02",
+     "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:17Z",
+   "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
+   "page_sha256": "00fcffdfe116578fc2d7602199ba45de4036d6003a7553dd999ce38aba468c1c",
+   "rendered_checked": true,
+   "title": "Opus Gen 2 Standard Outer Burr"
+  }
+ ],
  "http_status": 200,
  "id": "fellowproducts-opus-gen-2-standard-outer-burr",
  "image_file": "fellowproducts-opus-gen-2-standard-outer-burr.jpg",
@@ -39,9 +83,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T19:59:17Z",
+ "observed_at": "2026-10-03T22:07:29Z",
  "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
- "page_sha256": "00fcffdfe116578fc2d7602199ba45de4036d6003a7553dd999ce38aba468c1c",
+ "page_sha256": "fcf0e4fd9ab1697ab8669a8f383d6cecfc55eba8b134d96f130ea1916fb2a66d",
  "rendered_checked": true,
  "title": "Opus Gen 2 Standard Outer Burr",
  "url": "https://fellowproducts.com/products/opus-gen-2-standard-outer-burr"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:59:50Z",
+  "read_at": "2026-10-03T22:28:41Z",
   "ship": [],
   "size": [],
   "sub": [
@@ -11,6 +11,182 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:59:50Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "Subscribe",
+     "Manage Subscription"
+    ],
+    "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Graza"
+     },
+     "description": "",
+     "image": [
+      "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE_1_Salt-Vinegar.jpg?v=1778611716&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE2_Salt-Vinegar.jpg?v=1778483387&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE3_Salt-Vinegar.jpg?v=1778483387&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE4_Salt-Vinegar.jpg?v=1778483388&width=1000",
+      "https://www.graza.co/cdn/shop/files/IMAGE5_Salt-Vinegar.jpg?v=1778483388&width=1000"
+     ],
+     "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "5.99",
+      "priceCurrency": "USD",
+      "shippingDetails": {
+       "@type": "OfferShippingDetails",
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+       }
+      },
+      "url": "/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742"
+     }
+    },
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips#json-ld-for-seo",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Graza"
+     },
+     "description": "",
+     "hasVariant": [
+      {
+       "@id": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Apparel & Accessories"
+       ],
+       "description": "",
+       "gtin": "850062393356",
+       "gtin12": "850062393356",
+       "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1296",
+       "inProductGroupWithID": "9350043828438",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "850062393356",
+       "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+       "offers": [
+        {
+         "@id": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "850062393356",
+         "gtin12": "850062393356",
+         "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1296",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "850062393356",
+         "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+         "price": "5.99",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2026-12-31",
+         "seller": {
+          "@type": "Organization",
+          "name": "Graza"
+         },
+         "sku": "CHP-SV55",
+         "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
+         "validFrom": "2026-10-01"
+        }
+       ],
+       "sku": "CHP-SV55",
+       "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 0.0
+       }
+      }
+     ],
+     "image": [
+      "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE_1_Salt-Vinegar.jpg?v=1778611716&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE2_Salt-Vinegar.jpg?v=1778483387&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE3_Salt-Vinegar.jpg?v=1778483387&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE4_Salt-Vinegar.jpg?v=1778483388&width=1296",
+      "https://www.graza.co/cdn/shop/files/IMAGE5_Salt-Vinegar.jpg?v=1778483388&width=1296"
+     ],
+     "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+     "productGroupID": "9350043828438",
+     "productID": "CHP-SV55",
+     "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips"
+    },
+    {
+     "@id": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Apparel & Accessories"
+     ],
+     "description": "",
+     "gtin": "850062393356",
+     "gtin12": "850062393356",
+     "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1296",
+     "inProductGroupWithID": "9350043828438",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "850062393356",
+     "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+     "offers": [
+      {
+       "@id": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "850062393356",
+       "gtin12": "850062393356",
+       "image": "https://www.graza.co/cdn/shop/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387&width=1296",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "850062393356",
+       "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
+       "price": "5.99",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-12-31",
+       "seller": {
+        "@type": "Organization",
+        "name": "Graza"
+       },
+       "sku": "CHP-SV55",
+       "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
+       "validFrom": "2026-10-01"
+      }
+     ],
+     "sku": "CHP-SV55",
+     "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:10Z",
+   "og_image": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387",
+   "page_sha256": "3c2678ff9e7f4f16710999de2a5c6138645e63b3b3bf31153ebeffc5513fa45a",
+   "rendered_checked": true,
+   "title": "Sea Salt & Vinegar Olive Oil Potato Chips | Graza"
+  }
+ ],
  "http_status": 200,
  "id": "graza-sea-salt-vinegar-olive-oil-potato-chips",
  "image_file": "graza-sea-salt-vinegar-olive-oil-potato-chips.jpg",
@@ -92,14 +268,14 @@
        "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
        "price": "5.99",
        "priceCurrency": "USD",
-       "priceValidUntil": "2026-12-31",
+       "priceValidUntil": "2027-01-01",
        "seller": {
         "@type": "Organization",
         "name": "Graza"
        },
        "sku": "CHP-SV55",
        "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
-       "validFrom": "2026-10-01"
+       "validFrom": "2026-10-02"
       }
      ],
      "sku": "CHP-SV55",
@@ -151,14 +327,14 @@
      "name": "Sea Salt & Vinegar Olive Oil Potato Chips",
      "price": "5.99",
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-12-31",
+     "priceValidUntil": "2027-01-01",
      "seller": {
       "@type": "Organization",
       "name": "Graza"
      },
      "sku": "CHP-SV55",
      "url": "https://www.graza.co/products/sea-salt-vinegar-olive-oil-potato-chips?variant=48239479062742",
-     "validFrom": "2026-10-01"
+     "validFrom": "2026-10-02"
     }
    ],
    "sku": "CHP-SV55",
@@ -171,9 +347,9 @@
   }
  ],
  "kind": "Pantry",
- "observed_at": "2026-10-02T20:04:10Z",
+ "observed_at": "2026-10-03T22:27:36Z",
  "og_image": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE1_Salt-Vinegar.jpg?v=1778483387",
- "page_sha256": "3c2678ff9e7f4f16710999de2a5c6138645e63b3b3bf31153ebeffc5513fa45a",
+ "page_sha256": "a8d5def32d886269727547f667661ed6dc663ad082277a71030c6ecf7ec39a8d",
  "rendered_checked": true,
  "title": "Sea Salt & Vinegar Olive Oil Potato Chips | Graza",
  "url": "https://graza.co/products/sea-salt-vinegar-olive-oil-potato-chips"

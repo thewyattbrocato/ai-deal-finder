@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:50:34Z",
+  "read_at": "2026-10-03T22:03:20Z",
   "ship": [
    "Free ground shipping on orders over $100",
    "Spend $100 more to earn free shipping!",
@@ -17,6 +17,1187 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:50:34Z",
+    "ship": [
+     "Free ground shipping on orders over $100",
+     "Spend $100 more to earn free shipping!",
+     "+ FREE SHIPPING",
+     "Free Shipping on Orders over $100"
+    ],
+    "size": [
+     "SELECT A SIZE"
+    ],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS"
+    ],
+    "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "#mens-cruiser-slip-on",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Allbirds"
+     },
+     "description": "Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=14"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 8",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=8"
+       },
+       "size": "8",
+       "sku": "A12642M080"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 8.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=8.5"
+       },
+       "size": "8.5",
+       "sku": "A12642M085"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 9",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=9"
+       },
+       "size": "9",
+       "sku": "A12642M090"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 9.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=9.5"
+       },
+       "size": "9.5",
+       "sku": "A12642M095"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 10",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=10"
+       },
+       "size": "10",
+       "sku": "A12642M100"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 10.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=10.5"
+       },
+       "size": "10.5",
+       "sku": "A12642M105"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 11",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=11"
+       },
+       "size": "11",
+       "sku": "A12642M110"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 11.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=11.5"
+       },
+       "size": "11.5",
+       "sku": "A12642M115"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 12",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=12"
+       },
+       "size": "12",
+       "sku": "A12642M120"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 12.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=12.5"
+       },
+       "size": "12.5",
+       "sku": "A12642M125"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 13",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=13"
+       },
+       "size": "13",
+       "sku": "A12642M130"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 13.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=13.5"
+       },
+       "size": "13.5",
+       "sku": "A12642M135"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-slip-on"
+       },
+       "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 14",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 100,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=14"
+       },
+       "size": "14",
+       "sku": "A12642M140"
+      }
+     ],
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "name": "Men's Cruiser Slip On",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black"
+     },
+     "productGroupID": "MENS_CRUISER_SLIP_ON",
+     "sku": "MENS_CRUISER_SLIP_ON",
+     "variesBy": [
+      "https://schema.org/size",
+      "https://schema.org/color"
+     ]
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-blizzard?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-burnt-olive?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mist?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-mushroom?size=14"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=8"
+     },
+     "size": "8",
+     "sku": "A12642M080"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=8.5"
+     },
+     "size": "8.5",
+     "sku": "A12642M085"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=9"
+     },
+     "size": "9",
+     "sku": "A12642M090"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=9.5"
+     },
+     "size": "9.5",
+     "sku": "A12642M095"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=10"
+     },
+     "size": "10",
+     "sku": "A12642M100"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=10.5"
+     },
+     "size": "10.5",
+     "sku": "A12642M105"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=11"
+     },
+     "size": "11",
+     "sku": "A12642M110"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=11.5"
+     },
+     "size": "11.5",
+     "sku": "A12642M115"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=12"
+     },
+     "size": "12",
+     "sku": "A12642M120"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=12.5"
+     },
+     "size": "12.5",
+     "sku": "A12642M125"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=13"
+     },
+     "size": "13",
+     "sku": "A12642M130"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 13.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=13.5"
+     },
+     "size": "13.5",
+     "sku": "A12642M135"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-slip-on"
+     },
+     "name": "Men's Cruiser Slip On - Natural Black (Blizzard Sole) - Size 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 100,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-slip-on-natural-black?size=14"
+     },
+     "size": "14",
+     "sku": "A12642M140"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:07Z",
+   "og_image": "http://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275",
+   "page_sha256": "bc3e7d52ba8b0683204ca5dc0f4b6713ff3efbd33cfd38982481ffd57a5a48b5",
+   "rendered_checked": true,
+   "title": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)"
+  }
+ ],
  "http_status": 200,
  "id": "allbirds-mens-cruiser-slip-on-natural-black",
  "image_file": "allbirds-mens-cruiser-slip-on-natural-black.png",
@@ -1176,9 +2357,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T19:58:07Z",
+ "observed_at": "2026-10-03T22:03:06Z",
  "og_image": "http://www.allbirds.com/cdn/shop/files/A12649_26Q1_Cruiser-Slip-On-Natural-Black-Blizzard-Sole_PDP_LEFT.png?v=1768947275",
- "page_sha256": "bc3e7d52ba8b0683204ca5dc0f4b6713ff3efbd33cfd38982481ffd57a5a48b5",
+ "page_sha256": "263c8115fd879fe809823da0ea263ffebbee67999e2e1f9dbba7b8911ab88e28",
  "rendered_checked": true,
  "title": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
  "url": "https://allbirds.com/products/mens-cruiser-slip-on-natural-black"

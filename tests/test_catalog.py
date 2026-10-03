@@ -274,6 +274,31 @@ class RereadHistoryTests(unittest.TestCase):
         self.assertIn("Enjoy Free US Shipping on Orders $90+.", ev["conditions"]["ship"])
         self.assertEqual(ev["history"][0]["conditions"]["ship"], [])
 
+    def test_second_batch_read_the_oldest_pages_again_and_kept_their_history(self):
+        again = [ev for ev in self.records() if ev.get("history")
+                 and ev["history"][-1]["observed_at"][:10] == "2026-10-02"]
+        self.assertGreaterEqual(len(again), 80)
+        self.assertGreaterEqual(len({e["final_url"].split("/")[2] for e in again}), 40)
+        for ev in again:
+            self.assertEqual(ev["observed_at"][:10], "2026-10-03", ev["id"])
+
+    def test_changed_price_is_what_the_page_now_prints_and_the_old_one_is_history(self):
+        path = os.path.join(ROOT, "demo", "evidence", "brightland-the-fall-flavor-duo.json")
+        with open(path) as f:
+            ev = json.load(f)
+        self.assertEqual(catalog.extract(ev)[1]["price"], 72.0)
+        old = copy.deepcopy(ev)
+        old.update(ev["history"][-1])
+        self.assertEqual(catalog.extract(old)[1]["price"], 80.0)
+
+    def test_a_coupon_still_printed_on_re_read_is_kept_and_one_not_printed_is_not_shown(self):
+        path = os.path.join(ROOT, "demo", "evidence", "mudwtr-psl-bundle.json")
+        with open(path) as f:
+            ev = json.load(f)
+        self.assertEqual(catalog.extract(ev)[1]["coupon"]["code"], "SAMANTHAJO")
+        ev["coupon_snippets"] = []
+        self.assertIsNone(catalog.extract(ev)[1]["coupon"])
+
 
 if __name__ == "__main__":
     unittest.main()

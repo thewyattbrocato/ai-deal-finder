@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:51:19Z",
+  "read_at": "2026-10-03T22:14:32Z",
   "ship": [
    "Free luxury shipping on US orders $100+",
    "SHIPPING, RETURNS & GUARANTEES",
@@ -12,6 +12,95 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:51:19Z",
+    "ship": [
+     "Free luxury shipping on US orders $100+",
+     "SHIPPING, RETURNS & GUARANTEES",
+     "LUXURY SHIPPING"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.54,
+      "reviewCount": 872
+     },
+     "brand": {
+      "name": "Beardbrand"
+     },
+     "category": "Sea Salt Spray",
+     "description": "Norse Winter Sea Salt Spray smells like December in Scandinavia \u2014 ancient evergreen forests and sacred resins burning in snow-covered wooden halls. Use it to add waves, volume, texture, and a touch of hold to your hair and beard. Infused with Dead Sea salt and kaolin. Warning: a few sprays of Sea Salt Spray will have you feeling like Poseidon. SIZE: 4 fl oz.",
+     "gtin12": "850045850623",
+     "image": {
+      "@type": "ImageObject",
+      "height": "1024",
+      "image": "https://www.beardbrand.com/cdn/shop/files/SSNW_1024x.jpg?v=1782739004",
+      "name": "A bottle of Norse Winter Sea Salt Spray with a sprayer dispenser against a grey background.",
+      "url": "https://www.beardbrand.com/cdn/shop/files/SSNW_1024x.jpg?v=1782739004",
+      "width": "1024"
+     },
+     "name": "Norse Winter Sea Salt Spray",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "eligibleRegion": {
+        "@type": "Country",
+        "name": "US"
+       },
+       "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees",
+        "returnFees": "https://schema.org/FreeReturn",
+        "returnMethod": "https://schema.org/ReturnByMail"
+       },
+       "name": "Norse Winter",
+       "price": 22.0,
+       "priceCurrency": "USD",
+       "priceValidUntil": "2026-10-12",
+       "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "doesNotShip": [
+         {
+          "@type": "Country",
+          "name": "Non-US"
+         }
+        ],
+        "freeShippingThreshold": {
+         "@type": "MonetaryAmount",
+         "currency": "USD",
+         "value": "100.00"
+        },
+        "shippingSettingsLink": "https://www.beardbrand.com/pages/shipping-returns-guarantees"
+       },
+       "sku": "7776671",
+       "url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray?variant=61810168332658"
+      }
+     ],
+     "productId": "850045850623",
+     "sku": "7776671",
+     "url": "https://www.beardbrand.com/products/norse-winter-sea-salt-spray"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:36Z",
+   "og_image": "https://www.beardbrand.com/cdn/shop/files/SSNW_1200x630.jpg?v=1782739004",
+   "page_sha256": "784dc6a3991370f7c905987091c86db20f3180d50bb0030a21304e3c1a811320",
+   "rendered_checked": true,
+   "title": "Norse Winter Sea Salt Spray Infused With Kaolin \u2013 Beardbrand"
+  }
+ ],
  "http_status": 200,
  "id": "beardbrand-norse-winter-sea-salt-spray",
  "image_file": "beardbrand-norse-winter-sea-salt-spray.jpg",
@@ -58,7 +147,7 @@
      "name": "Norse Winter",
      "price": 22.0,
      "priceCurrency": "USD",
-     "priceValidUntil": "2026-10-12",
+     "priceValidUntil": "2026-10-13",
      "shippingDetails": {
       "@type": "OfferShippingDetails",
       "doesNotShip": [
@@ -84,9 +173,9 @@
   }
  ],
  "kind": "Grooming",
- "observed_at": "2026-10-02T20:04:36Z",
+ "observed_at": "2026-10-03T22:14:20Z",
  "og_image": "https://www.beardbrand.com/cdn/shop/files/SSNW_1200x630.jpg?v=1782739004",
- "page_sha256": "784dc6a3991370f7c905987091c86db20f3180d50bb0030a21304e3c1a811320",
+ "page_sha256": "7dcf55e2743f231e1c7536b7498bdc002eef8631f312fff6c0f86ec449e081d0",
  "rendered_checked": true,
  "title": "Norse Winter Sea Salt Spray Infused With Kaolin \u2013 Beardbrand",
  "url": "https://beardbrand.com/products/norse-winter-sea-salt-spray"

@@ -1,14 +1,26 @@
 {
  "coupon_snippets": [],
  "final_url": "https://www.intelligentsia.com/products/5-pack-house-instant-coffee",
+ "history": [
+  {
+   "coupon_snippets": [],
+   "final_url": "https://www.intelligentsia.com/products/5-pack-house-instant-coffee",
+   "http_status": 200,
+   "json_ld": [],
+   "observed_at": "2026-10-02T19:58:25Z",
+   "og_image": "http://www.intelligentsia.com/cdn/shop/files/InstantHouse_1_2edc1fb7-58f3-42a2-8eb2-815491f1291d_1024x1024.png?v=1761579526",
+   "page_sha256": "9983d37ac04dfd5f548319918b70c9260d24fa2bfd7e3a61de3c0f12851aa14e",
+   "title": "Intelligentsia Instant Coffee | Direct Trade | Intelligentsia Coffee"
+  }
+ ],
  "http_status": 200,
  "id": "intelligentsia-5-pack-house-instant-coffee",
  "image_file": null,
  "json_ld": [],
  "kind": "Coffee",
- "observed_at": "2026-10-02T19:58:25Z",
+ "observed_at": "2026-10-03T22:29:53Z",
  "og_image": "http://www.intelligentsia.com/cdn/shop/files/InstantHouse_1_2edc1fb7-58f3-42a2-8eb2-815491f1291d_1024x1024.png?v=1761579526",
- "page_sha256": "9983d37ac04dfd5f548319918b70c9260d24fa2bfd7e3a61de3c0f12851aa14e",
+ "page_sha256": "417008107a7eeb19535f6d85e5ebcbb9a1ab7254f9ad310c3f8659d279fdeedc",
  "title": "Intelligentsia Instant Coffee | Direct Trade | Intelligentsia Coffee",
  "url": "https://intelligentsia.com/products/5-pack-house-instant-coffee"
 }

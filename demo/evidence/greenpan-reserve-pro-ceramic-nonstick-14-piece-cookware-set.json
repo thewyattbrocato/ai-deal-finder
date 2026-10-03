@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:00:54Z",
+  "read_at": "2026-10-03T22:14:16Z",
   "ship": [
    "Free Shipping Over $150 | Free Gift With Purchase",
    "SHIPPING, WARRANTY, RETURNS",
@@ -15,6 +15,375 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:00:54Z",
+    "ship": [
+     "Free Shipping Over $150 | Free Gift With Purchase",
+     "SHIPPING, WARRANTY, RETURNS",
+     "FREE SHIPPING",
+     "**Shipping Information",
+     "Free Shipping",
+     "You are $150.00 away from FREE SHIPPING!"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "merchantReturnDays": 60,
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "url": "https://www.greenpan.us/pages/returns"
+     },
+     "hasVariant": [
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Cream",
+       "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/ECOM0393-001-1_2400x.jpg?v=1790016498"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Cream",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0363-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream?variant=55519750324392"
+        }
+       ],
+       "sku": "ECOM0363-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Twilight",
+       "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/ECOM0394-001-1_2400x.jpg?v=1790017993"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Twilight",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0361-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight?variant=55521179205800"
+        }
+       ],
+       "sku": "ECOM0361-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Bordeaux",
+       "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/ECOM0396-001-1_2400x.jpg?v=1790018482"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Bordeaux",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0379-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux?variant=55813524324520"
+        }
+       ],
+       "sku": "ECOM0379-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Spruce",
+       "description": "Your go-to for flawless flipping, this crepe pan features low edges for perfectly thin crepes, golden pancakes, and delicate omelets. Part of the Reserve Pro collection, it pairs advanced PFAS-free ceramic nonstick with durable construction, and a sleek gold-tone handle for everyday performance.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/ECOM0397-001-1_2400x.jpg?v=1790019495"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Spruce",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0380-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce?variant=55813597692072"
+        }
+       ],
+       "sku": "ECOM0380-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Latte",
+       "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/ECOM0398-001-1_2400x.jpg?v=1790019906"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Latte",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0381-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte?variant=55813627084968"
+        }
+       ],
+       "sku": "ECOM0381-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte"
+      },
+      {
+       "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+       "@type": "Product",
+       "brand": {
+        "@type": "Brand",
+        "name": "Reserve Pro"
+       },
+       "color": "Black",
+       "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+       "image": [
+        "https://www.greenpan.us/cdn/shop/files/Reserve_Pro_Bundles_2_006_PlusEveryDayPan_black_v07-1200x1200-08b30f6_1200x.jpg?v=1790362403"
+       ],
+       "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Black",
+       "offers": [
+        {
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "price": 479.99,
+         "priceCurrency": "USD",
+         "sku": "ECOM0368-001",
+         "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black?variant=55589258035368"
+        }
+       ],
+       "sku": "ECOM0368-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black"
+      }
+     ],
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/Reserve_Pro_Bundles_2_006_PlusEveryDayPan_black_v07-1200x1200-08b30f6_1200x.jpg?v=1790362403"
+     ],
+     "name": "Reserve Pro 14pc Bundles",
+     "productGroupID": "reserve-pro-14pc-bundles",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+     "variesBy": [
+      "https://schema.org/color"
+     ]
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Cream",
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/ECOM0393-001-1_2400x.jpg?v=1790016498"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Cream",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0363-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream?variant=55519750324392"
+      }
+     ],
+     "sku": "ECOM0363-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-cream"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Twilight",
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/ECOM0394-001-1_2400x.jpg?v=1790017993"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Twilight",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0361-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight?variant=55521179205800"
+      }
+     ],
+     "sku": "ECOM0361-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-twilight"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Bordeaux",
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/ECOM0396-001-1_2400x.jpg?v=1790018482"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Bordeaux",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0379-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux?variant=55813524324520"
+      }
+     ],
+     "sku": "ECOM0379-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-bordeaux"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Spruce",
+     "description": "Your go-to for flawless flipping, this crepe pan features low edges for perfectly thin crepes, golden pancakes, and delicate omelets. Part of the Reserve Pro collection, it pairs advanced PFAS-free ceramic nonstick with durable construction, and a sleek gold-tone handle for everyday performance.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/ECOM0397-001-1_2400x.jpg?v=1790019495"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Spruce",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0380-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce?variant=55813597692072"
+      }
+     ],
+     "sku": "ECOM0380-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-spruce"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Latte",
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/ECOM0398-001-1_2400x.jpg?v=1790019906"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Latte",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0381-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte?variant=55813627084968"
+      }
+     ],
+     "sku": "ECOM0381-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-11-piece-cookware-set-latte"
+    },
+    {
+     "@id": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Reserve Pro"
+     },
+     "color": "Black",
+     "description": "A powerful blend of design and innovation, Reserve Pro delivers exceptional durability, stackable convenience, and oven-ready strength. Featuring our most advanced ceramic nonstick yet, this dynamic do-it-all set is the powerful upgrade your kitchen needs \u2013 from the scratch-resistant bodies to the gorgeous gold-tone handles.",
+     "image": [
+      "https://www.greenpan.us/cdn/shop/files/Reserve_Pro_Bundles_2_006_PlusEveryDayPan_black_v07-1200x1200-08b30f6_1200x.jpg?v=1790362403"
+     ],
+     "name": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Black",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "price": 479.99,
+       "priceCurrency": "USD",
+       "sku": "ECOM0368-001",
+       "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black?variant=55589258035368"
+      }
+     ],
+     "sku": "ECOM0368-001",
+     "url": "https://www.greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black"
+    }
+   ],
+   "observed_at": "2026-10-02T20:04:30Z",
+   "og_image": "http://www.greenpan.us/cdn/shop/files/Reserve_Pro_Bundles_2_006_PlusEveryDayPan_black_v07-1200x1200-08b30f6_medium.jpg?v=1790362403",
+   "page_sha256": "ff7563cd239f1fdf54e303d732aec65b49f03c3d92e95a6448c176bedb7691a5",
+   "rendered_checked": true,
+   "title": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Black | GreenPan US"
+  }
+ ],
  "http_status": 200,
  "id": "greenpan-reserve-pro-ceramic-nonstick-14-piece-cookware-set",
  "image_file": "greenpan-reserve-pro-ceramic-nonstick-14-piece-cookware-set.jpg",
@@ -364,9 +733,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:04:30Z",
+ "observed_at": "2026-10-03T22:13:59Z",
  "og_image": "http://www.greenpan.us/cdn/shop/files/Reserve_Pro_Bundles_2_006_PlusEveryDayPan_black_v07-1200x1200-08b30f6_medium.jpg?v=1790362403",
- "page_sha256": "ff7563cd239f1fdf54e303d732aec65b49f03c3d92e95a6448c176bedb7691a5",
+ "page_sha256": "d987f4df8bd43e7feadb0577d56e6fdead25c61ab042017ab4a84b78d9b334b7",
  "rendered_checked": true,
  "title": "Reserve Pro Ceramic Nonstick 14-Piece Cookware Set | Black | GreenPan US",
  "url": "https://greenpan.us/products/reserve-pro-ceramic-nonstick-14-piece-cookware-set-black"

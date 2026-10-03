@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:56:57Z",
+  "read_at": "2026-10-03T22:06:52Z",
   "ship": [
    "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
    "Shipping Information"
@@ -11,6 +11,50 @@
  },
  "coupon_snippets": [],
  "final_url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:56:57Z",
+    "ship": [
+     "Free US shipping on orders $75+ Shop Now\ud83d\ude80",
+     "Shipping Information"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Fellow"
+     },
+     "name": "Opus Gen 2 Cleaning Brush",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 7.95,
+      "priceCurrency": "USD",
+      "url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush"
+     },
+     "sku": "1222BA-07",
+     "url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:11Z",
+   "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
+   "page_sha256": "41e909ee1aaf978ae1d13b236f9b2d264fcbdc15e45d4d031100903cdf0838eb",
+   "rendered_checked": true,
+   "title": "Opus Gen 2 Cleaning Brush"
+  }
+ ],
  "http_status": 200,
  "id": "fellowproducts-opus-gen-2-cleaning-brush",
  "image_file": "fellowproducts-opus-gen-2-cleaning-brush.jpg",
@@ -39,9 +83,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T19:59:11Z",
+ "observed_at": "2026-10-03T22:06:36Z",
  "og_image": "http://fellowproducts.com/cdn/shop/files/Fellow-Web-Share-v2.jpg?v=1773786600",
- "page_sha256": "41e909ee1aaf978ae1d13b236f9b2d264fcbdc15e45d4d031100903cdf0838eb",
+ "page_sha256": "670c1be3995916c6f251911d8b8ce54a16b790fb8864e8e665b8a0e83e5e3c9d",
  "rendered_checked": true,
  "title": "Opus Gen 2 Cleaning Brush",
  "url": "https://fellowproducts.com/products/opus-gen-2-cleaning-brush"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:09:49Z",
+  "read_at": "2026-10-03T22:34:07Z",
   "ship": [
    "Free Shipping Over $50",
    "Edit Your Shipping Zip Code"
@@ -16,6 +16,72 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:09:49Z",
+    "ship": [
+     "Free Shipping Over $50",
+     "Edit Your Shipping Zip Code"
+    ],
+    "size": [
+     "Size: 30 OZ"
+    ],
+    "sub": [
+     "SUBSCRIBE",
+     "Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). Privacy Policy & Terms."
+    ],
+    "url": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Stanley"
+     },
+     "description": "Every witch has her secrets. The Halloween Collection will keep yours. No questions asked.With the 30-ounce Quencher H2.0 Flowstate Tumbler, your drink stays ice-cold for hours, thanks to double-wall vacuum insulation. The Flowstate lid gives you three sip settings: straw opening, drink opening and full-cover top. Welcome to the season of the witch.&amp;nbsp;*Not Eligible For Promotions or Resell. Multiple &amp; Large Orders Are Subject To Cancellation.",
+     "image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler-30_oz_0.89_L-Purple_Dust_Spooky_Friends-Alt_Angle.png?v=1789081081&width=800",
+     "name": "Halloween Quencher\u00ae H2.0 Flowstate\u2122 Tumbler | 30 OZ",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+       "@id": "https://www.stanley1913.com/apps/returns",
+       "@type": "MerchantReturnPolicy",
+       "applicableCountry": "US",
+       "merchantReturnDays": 30,
+       "returnFees": "https://schema.org/ReturnShippingFees",
+       "returnMethod": "https://schema.org/ReturnByMail",
+       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2030-12-21",
+      "seller": {
+       "@type": "Organization",
+       "name": "Stanley 1913",
+       "url": "https://www.stanley1913.com"
+      },
+      "url": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts"
+     },
+     "sku": "100000155670",
+     "url": "https://www.stanley1913.com/products/halloween-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz-tts"
+    }
+   ],
+   "observed_at": "2026-10-02T20:03:49Z",
+   "og_image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler-30_oz_0.89_L-Purple_Dust_Spooky_Friends-Alt_Angle.png?v=1789081081",
+   "page_sha256": "ac599c351f5eb3ee959ce82ced0d045d8e04a1688c0a7fd55fbed3948ab407ba",
+   "rendered_checked": true,
+   "title": "Halloween Quencher H2.0 Flowstate Tumbler | 30oz | Stanley 1913 US"
+  }
+ ],
  "http_status": 200,
  "id": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-30-oz",
  "image_file": "stanley1913-halloween-quencher-h2-0-flowstate-tumbler-30-oz.png",
@@ -61,9 +127,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:03:49Z",
+ "observed_at": "2026-10-03T22:33:49Z",
  "og_image": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler-30_oz_0.89_L-Purple_Dust_Spooky_Friends-Alt_Angle.png?v=1789081081",
- "page_sha256": "ac599c351f5eb3ee959ce82ced0d045d8e04a1688c0a7fd55fbed3948ab407ba",
+ "page_sha256": "4fad2d378e358ec568f70d1f4022da5518df9b02643921f9673e204f606ea8f1",
  "rendered_checked": true,
  "title": "Halloween Quencher H2.0 Flowstate Tumbler | 30oz | Stanley 1913 US",
  "url": "https://stanley1913.com/products/halloween-quencher\u00ae-h2-0-flowstate\u2122-tumbler-30-oz-tts"

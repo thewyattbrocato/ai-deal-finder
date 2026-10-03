@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:50:26Z",
+  "read_at": "2026-10-03T22:03:40Z",
   "ship": [
    "Free ground shipping on orders over $100",
    "Spend $100 more to earn free shipping!",
@@ -16,6 +16,1394 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:50:26Z",
+    "ship": [
+     "Free ground shipping on orders over $100",
+     "Spend $100 more to earn free shipping!",
+     "Free Shipping on Orders over $100"
+    ],
+    "size": [
+     "SELECT A SIZE"
+    ],
+    "sub": [
+     "SUBSCRIBE TO OUR EMAILS"
+    ],
+    "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@id": "#mens-cruiser-canvas",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "Allbirds"
+     },
+     "description": "Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.",
+     "hasVariant": [
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=14"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 8",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=8"
+       },
+       "size": "8",
+       "sku": "A12486M080"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 8.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=8.5"
+       },
+       "size": "8.5",
+       "sku": "A12486M085"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 9",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=9"
+       },
+       "size": "9",
+       "sku": "A12486M090"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 9.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=9.5"
+       },
+       "size": "9.5",
+       "sku": "A12486M095"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 10",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=10"
+       },
+       "size": "10",
+       "sku": "A12486M100"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 10.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=10.5"
+       },
+       "size": "10.5",
+       "sku": "A12486M105"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 11",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=11"
+       },
+       "size": "11",
+       "sku": "A12486M110"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 11.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=11.5"
+       },
+       "size": "11.5",
+       "sku": "A12486M115"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 12",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=12"
+       },
+       "size": "12",
+       "sku": "A12486M120"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 12.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=12.5"
+       },
+       "size": "12.5",
+       "sku": "A12486M125"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 13",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=13"
+       },
+       "size": "13",
+       "sku": "A12486M130"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 13.5",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=13.5"
+       },
+       "size": "13.5",
+       "sku": "A12486M135"
+      },
+      {
+       "@type": "Product",
+       "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+       "image": [
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+        "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+       ],
+       "isVariantOf": {
+        "@id": "#mens-cruiser-canvas"
+       },
+       "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 14",
+       "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/OutOfStock",
+        "price": 75,
+        "priceCurrency": "USD",
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=14"
+       },
+       "size": "14",
+       "sku": "A12486M140"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=13.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=15"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=8"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=8.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=9"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=9.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=10"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=10.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=11"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=11.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=12"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=12.5"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=13"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=14"
+      },
+      {
+       "@type": "Product",
+       "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=15"
+      }
+     ],
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "name": "Men's Canvas Cruiser",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive"
+     },
+     "productGroupID": "MENS_CRUISER_CANVAS",
+     "sku": "MENS_CRUISER_CANVAS",
+     "variesBy": [
+      "https://schema.org/size",
+      "https://schema.org/color"
+     ]
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-canvas-cruiser-deep-navy-stripes?size=14"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=8"
+     },
+     "size": "8",
+     "sku": "A12486M080"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=8.5"
+     },
+     "size": "8.5",
+     "sku": "A12486M085"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=9"
+     },
+     "size": "9",
+     "sku": "A12486M090"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=9.5"
+     },
+     "size": "9.5",
+     "sku": "A12486M095"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=10"
+     },
+     "size": "10",
+     "sku": "A12486M100"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=10.5"
+     },
+     "size": "10.5",
+     "sku": "A12486M105"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=11"
+     },
+     "size": "11",
+     "sku": "A12486M110"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=11.5"
+     },
+     "size": "11.5",
+     "sku": "A12486M115"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=12"
+     },
+     "size": "12",
+     "sku": "A12486M120"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=12.5"
+     },
+     "size": "12.5",
+     "sku": "A12486M125"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=13"
+     },
+     "size": "13",
+     "sku": "A12486M130"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 13.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=13.5"
+     },
+     "size": "13.5",
+     "sku": "A12486M135"
+    },
+    {
+     "@type": "Product",
+     "color": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+     "image": [
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=300",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=600",
+      "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=900"
+     ],
+     "isVariantOf": {
+      "@id": "#mens-cruiser-canvas"
+     },
+     "name": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole) - Size 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 75,
+      "priceCurrency": "USD",
+      "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive?size=14"
+     },
+     "size": "14",
+     "sku": "A12486M140"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-auburn?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-warm-white?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=13.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-blizzard?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-mushroom?size=15"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=8"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=8.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=9"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=9.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=10"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=10.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=11"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=11.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=12"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=12.5"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=13"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=14"
+    },
+    {
+     "@type": "Product",
+     "url": "https://www.allbirds.com/products/mens-cruiser-canvas-port?size=15"
+    }
+   ],
+   "observed_at": "2026-10-02T19:58:10Z",
+   "og_image": "http://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185",
+   "page_sha256": "8f375406db87aefe6115486d6a2f4f717a3b33a63fb813209a638b718fd71765",
+   "rendered_checked": true,
+   "title": "Men\u2019s Cruiser Canvas Sneakers | Lightweight Everyday Comfort | Allbirds"
+  }
+ ],
  "http_status": 200,
  "id": "allbirds-mens-cruiser-canvas-burnt-olive",
  "image_file": "allbirds-mens-cruiser-canvas-burnt-olive.png",
@@ -1383,9 +2771,9 @@
   }
  ],
  "kind": "Shoes",
- "observed_at": "2026-10-02T19:58:10Z",
+ "observed_at": "2026-10-03T22:03:22Z",
  "og_image": "http://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185",
- "page_sha256": "8f375406db87aefe6115486d6a2f4f717a3b33a63fb813209a638b718fd71765",
+ "page_sha256": "d34bf8de41158594296bea0b015d80386272650e8aa4c82dc86460af6af4b6b1",
  "rendered_checked": true,
  "title": "Men\u2019s Cruiser Canvas Sneakers | Lightweight Everyday Comfort | Allbirds",
  "url": "https://allbirds.com/products/mens-cruiser-canvas-burnt-olive"

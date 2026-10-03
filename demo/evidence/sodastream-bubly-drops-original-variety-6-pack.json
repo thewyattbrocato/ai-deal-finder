@@ -1,19 +1,74 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:08:18Z",
+  "read_at": "2026-10-03T22:10:49Z",
   "ship": [],
   "size": [],
   "sub": [
    "Subscribe & Save",
    "up to $110 off your machine - when you subscribe to CO2Shop Now",
    "You can withdraw your consent and unsubscribe at any time. View terms and privacy. *Gas cylinder and cylinder exchange not eligible for discount Financial incentive notice",
-   "Subscribe and Save",
-   "You can unsubscribe at any time. Privacy Policy."
+   "Subscribe and Save"
   ],
   "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
  },
  "coupon_snippets": [],
  "final_url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:08:18Z",
+    "ship": [],
+    "size": [],
+    "sub": [
+     "Subscribe & Save",
+     "up to $110 off your machine - when you subscribe to CO2Shop Now",
+     "You can withdraw your consent and unsubscribe at any time. View terms and privacy. *Gas cylinder and cylinder exchange not eligible for discount Financial incentive notice",
+     "Subscribe and Save",
+     "You can unsubscribe at any time. Privacy Policy."
+    ],
+    "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org/",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": "5",
+      "ratingCount": "348",
+      "ratingValue": "4.6",
+      "worstRating": "1"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Sodastream"
+     },
+     "description": "Buy the bubly drops \u2122 Original Variety 6-Pack flavors on SodaStream. Make your own fruit flavored sparkling water at home. No calories. No sweeteners.",
+     "gtin": "810055450404",
+     "image": "https://sodastream.com/cdn/shop/files/Bubly_Variety_Pack_MHRI_transparent_large.png?v=1757269800",
+     "mpn": "1102774011",
+     "name": "Sodastream bubly drops\u00ae Tropical Original Variety Natural Flavor Essence 6 Pack 40ml - final sale",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "15.0",
+      "priceCurrency": "USD",
+      "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"
+     },
+     "sku": "1102774011"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:26Z",
+   "og_image": "http://sodastream.com/cdn/shop/files/Bubly_Variety_6_Pack-sh2.jpg?v=1757946581&width=1200",
+   "page_sha256": "8f5dda0eb3acf3e507d107ee369c7523133ce95590be2d4b8a846b980463febe",
+   "rendered_checked": true,
+   "title": "SodaStream bubly drops \u2122 Original Variety 6-Pack Flavors"
+  }
+ ],
  "http_status": 200,
  "id": "sodastream-bubly-drops-original-variety-6-pack",
  "image_file": "sodastream-bubly-drops-original-variety-6-pack.jpg",
@@ -51,9 +106,9 @@
   }
  ],
  "kind": "Kitchen",
- "observed_at": "2026-10-02T20:01:26Z",
+ "observed_at": "2026-10-03T22:10:36Z",
  "og_image": "http://sodastream.com/cdn/shop/files/Bubly_Variety_6_Pack-sh2.jpg?v=1757946581&width=1200",
- "page_sha256": "8f5dda0eb3acf3e507d107ee369c7523133ce95590be2d4b8a846b980463febe",
+ "page_sha256": "b4de5c8026fd4767a8bb788fccd445fd8508ee920b12d89f2e91887968a14d8c",
  "rendered_checked": true,
  "title": "SodaStream bubly drops \u2122 Original Variety 6-Pack Flavors",
  "url": "https://sodastream.com/products/bubly-drops-original-variety-6-pack"

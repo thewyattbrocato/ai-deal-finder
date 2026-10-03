@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T14:57:28Z",
+  "read_at": "2026-10-03T22:08:10Z",
   "ship": [
    "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
    "Shipping calculated at checkout.",
@@ -18,6 +18,62 @@
  },
  "coupon_snippets": [],
  "final_url": "https://gorillagrip.com/products/bento-box",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T14:57:28Z",
+    "ship": [
+     "FREE SHIPPING ON ALL ORDERS OVER $25 | SHOP NOW",
+     "Shipping calculated at checkout.",
+     "Free Shipping",
+     "We offer Free Shipping on all orders over $25. If you have any issues or questions with your order, please contact us directly at hello@gorillagrip.com and we will be happy to help.",
+     "Shipping & Returns"
+    ],
+    "size": [
+     "Size"
+    ],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://gorillagrip.com/products/bento-box"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://gorillagrip.com/products/bento-box",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Gorilla Grip"
+     },
+     "description": "MODULAR DESIGN FOR HOT AND COLD FOOD: choose the size that fits your appetite; 5 cup bento lunch box is divided into 3 compartments; spacious 10 cup bento lunch box features an additional tier and is designed to help keep hot and cold meals separate to fuel your day; top tier has 2 compartments\nSECURE, LEAKPROOF CONSTRUCTION: tight fitting lids feature silicone gaskets and heavy duty locking clasps to help prevent leaks; whether you're commuting, working long hours, or meal prepping, helps keep your food preserved\nBPA FREE, MICROWAVE, FREEZER &amp; DISHWASHER SAFE: bento lunch box is constructed from food safe, BPA free materials; container is microwave safe for heating up food like leftovers or weekly meal preps; freezer safe and convenient to store; dishwasher safe on the top rack for an easy clean; safe for children 3 and up\nEASY CARRY LID INCLUDES SPOON AND FORK: bento lunch box comes with a fork and spoon that conveniently fit into the dedicated space in the lid so you always have utensils on hand; ergonomic handle on the top lid is comfortable to carry; bento box measures 8.7 inches by 6.5 inches\n5 CUP BENTO BOX: this bento box for kids holds 5 cups and can fit a full lunch; largest compartment fits a sandwich made with most standard size bread; smaller compartments are perfectly sized for side salads, fruit, snacks or even a sweet treat; helps with portion control, meal prep and packing breakfast, lunch, or dinner for work\n10 CUP BENTO BOX: this bento lunch box holds 10 cups and features 2 tiers to pack multiple meals; top tier compartments fit a sandwich made with most standard size bread and two smaller compartments that are generously sized for side salads, fruit, snacks or even a sweet treat; second tier provides space for a second hot or cold meal",
+     "image": [
+      "https://gorillagrip.com/cdn/shop/files/GG_BentoBox_10Cups_White_HERO.jpg?v=1765401522&width=1920"
+     ],
+     "name": "Bento Box",
+     "offers": [
+      {
+       "@type": "Offer",
+       "availability": "http://schema.org/InStock",
+       "price": 14.99,
+       "priceCurrency": "USD",
+       "sku": "GG-BentoBox-10Cup-White",
+       "url": "https://gorillagrip.com/products/bento-box?variant=52542274470204"
+      }
+     ],
+     "sku": "GG-BentoBox-10Cup-White",
+     "url": "https://gorillagrip.com/products/bento-box"
+    }
+   ],
+   "observed_at": "2026-10-02T19:59:24Z",
+   "og_image": "http://gorillagrip.com/cdn/shop/files/GG_BentoBox_5Cups_Black_HERO.jpg?v=1765319307",
+   "page_sha256": "8c8bb5501042eb5e520d821563a0d125317dea053a4ee312837b56c5d1f6c9a4",
+   "rendered_checked": true,
+   "title": "Bento Box \u2013 Gorilla Grip"
+  }
+ ],
  "http_status": 200,
  "id": "gorillagrip-bento-box",
  "image_file": "gorillagrip-bento-box.jpg",
@@ -51,9 +107,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-02T19:59:24Z",
+ "observed_at": "2026-10-03T22:07:59Z",
  "og_image": "http://gorillagrip.com/cdn/shop/files/GG_BentoBox_5Cups_Black_HERO.jpg?v=1765319307",
- "page_sha256": "8c8bb5501042eb5e520d821563a0d125317dea053a4ee312837b56c5d1f6c9a4",
+ "page_sha256": "73385043484f28dae1514af8bc92a8dbdb87c5d91d312060cd50179767845679",
  "rendered_checked": true,
  "title": "Bento Box \u2013 Gorilla Grip",
  "url": "https://gorillagrip.com/products/bento-box"

@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T15:07:42Z",
+  "read_at": "2026-10-03T22:31:38Z",
   "ship": [
    "Free Shipping $75+ | 60-Day Guarantee",
    "Is my order eligible for free shipping?"
@@ -16,6 +16,130 @@
  },
  "coupon_snippets": [],
  "final_url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green",
+ "history": [
+  {
+   "conditions": {
+    "read_at": "2026-10-03T15:07:42Z",
+    "ship": [
+     "Free Shipping $75+ | 60-Day Guarantee",
+     "Is my order eligible for free shipping?"
+    ],
+    "size": [
+     "Size",
+     "Size Guide"
+    ],
+    "sub": [
+     "SUBSCRIBE"
+    ],
+    "url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green"
+   },
+   "coupon_snippets": [],
+   "final_url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green#product",
+     "@type": "ProductGroup",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": 4655
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rumpl"
+     },
+     "category": "Outdoor Blankets",
+     "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Mountain Green, a classic forest green framed with a pop of neon green trim. The color of dense pine needles, cool mountain shade, and endless tree lines. It\u2019s an instant ticket to the outdoorsman's happy place.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Feat...",
+     "hasVariant": [
+      {
+       "@id": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355#variant",
+       "@type": "Product",
+       "gtin12": "810203130370",
+       "image": "https://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold.png?v=1784536691&width=1200",
+       "name": "Original Puffy Blanket - Mountain Green - 1-Person",
+       "offers": {
+        "@id": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355#offer",
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": "99.95",
+        "priceCurrency": "USD",
+        "url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355"
+       },
+       "sku": "RU01013211P"
+      }
+     ],
+     "image": [
+      "https://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold.png?v=1784536691&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335819.jpg?v=1785264072&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335821.jpg?v=1785264007&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335820.jpg?v=1785263952&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335818.jpg?v=1785263891&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335817.jpg?v=1785263829&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335816.jpg?v=1785263771&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1251335815.jpg?v=1785263710&width=1200",
+      "https://www.rumpl.com/cdn/shop/files/rumpl-solid-original-1-person-original-puffy-blanket-mountain-green-ru01013211p-1252568138.jpg?v=1785744429&width=1200"
+     ],
+     "name": "Original Puffy Blanket - Mountain Green",
+     "productGroupID": 15060355481963,
+     "url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green"
+    },
+    {
+     "@id": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355#variant",
+     "@type": "Product",
+     "gtin12": "810203130370",
+     "image": "https://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold.png?v=1784536691&width=1200",
+     "name": "Original Puffy Blanket - Mountain Green - 1-Person",
+     "offers": {
+      "@id": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "url": "https://www.rumpl.com/products/original-puffy-blanket-mountain-green?variant=53375264981355"
+     },
+     "sku": "RU01013211P"
+    },
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/original-puffy-blanket-mountain-green#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "4655",
+      "ratingValue": "4.9"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "Rumpl"
+     },
+     "description": "Meet the blanket that launched a brand \u2013 the original \"blanket for everywhere,\" Rumpl's most iconic silhouette, and number one bestseller. Now in Mountain Green, a classic forest green framed with a pop of neon green trim. The color of dense pine needles, cool mountain shade, and endless tree lines. It\u2019s an instant ticket to the outdoorsman's happy place.\nMade for outdoor recreation in all its forms, the Original Puffy is designed to be durable, packable, and warm beyond any expectation. Featuring a durable VersaWeave\u2122 shell and liner for debris and weather resistance, corner staking loops, and a hands-free Cape Clip\u00ae, the Original Puffy Blanket is designed to be enjoyed everywhere from camping and cabins to tailgates and tournaments.",
+     "image": "https://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold_450x450.png?v=1784536691",
+     "mpn": "15060355481963",
+     "name": "Original Puffy Blanket - Mountain Green",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "99.95",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "Rumpl"
+      }
+     },
+     "url": "/products/original-puffy-blanket-mountain-green"
+    }
+   ],
+   "observed_at": "2026-10-02T20:01:49Z",
+   "og_image": "http://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold.png?v=1784536691",
+   "page_sha256": "95d0d74d696007c9740d0d1d4ed0adb14a9ad44b4781ddb764b4e5e38adcb54d",
+   "rendered_checked": true,
+   "title": "Original Puffy Blanket - Mountain Green | Rumpl Blankets For Everywhere"
+  }
+ ],
  "http_status": 200,
  "id": "rumpl-original-puffy-blanket-mountain-green",
  "image_file": "rumpl-original-puffy-blanket-mountain-green.png",
@@ -29,7 +153,7 @@
    "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": 4655
+    "reviewCount": 4657
    },
    "brand": {
     "@type": "Brand",
@@ -94,7 +218,7 @@
    "@type": "Product",
    "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingCount": "4655",
+    "ratingCount": "4657",
     "ratingValue": "4.9"
    },
    "brand": {
@@ -119,9 +243,9 @@
   }
  ],
  "kind": "Outdoors",
- "observed_at": "2026-10-02T20:01:49Z",
+ "observed_at": "2026-10-03T22:31:24Z",
  "og_image": "http://www.rumpl.com/cdn/shop/files/MountainGreen_OG_PUFFY_1P_Corner-Fold.png?v=1784536691",
- "page_sha256": "95d0d74d696007c9740d0d1d4ed0adb14a9ad44b4781ddb764b4e5e38adcb54d",
+ "page_sha256": "67d341494e146938de66957f991ed15a441f6780cdfb5dd2e4b12fd89d58ba5c",
  "rendered_checked": true,
  "title": "Original Puffy Blanket - Mountain Green | Rumpl Blankets For Everywhere",
  "url": "https://rumpl.com/products/original-puffy-blanket-mountain-green"
