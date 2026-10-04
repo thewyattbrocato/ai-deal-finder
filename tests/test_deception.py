@@ -77,7 +77,7 @@ class StaleTest(unittest.TestCase):  # DC-001
         winner = value["candidates"][0]
         winner["observed_at"] = "2026-09-19T13:00:00Z"
         winner["immediate_discount"] = "5.00"
-        winner["coupon"] = {"code": "SAVE5", "status": "applied-in-anonymous-cart", "observed_at": "2026-09-17T12:00:00Z"}
+        winner["coupon"] = {"code": "SAVE5", "status": "shopper-confirmed-at-checkout", "observed_at": "2026-09-17T12:00:00Z"}
         result = run(value)
         self.assertEqual(result["verdict"], "verify")
         self.assertIn("coupon evidence", result["reason"])
@@ -87,7 +87,7 @@ class StaleTest(unittest.TestCase):  # DC-001
         value["request"]["freshness_window_hours"] = 6
         winner = value["candidates"][0]
         winner["immediate_discount"] = "5.00"
-        winner["coupon"] = {"code": "SAVE5", "status": "applied-in-anonymous-cart"}
+        winner["coupon"] = {"code": "SAVE5", "status": "shopper-confirmed-at-checkout"}
         self.assertIn("observation time is missing", run(value)["reason"])
 
 
@@ -140,7 +140,7 @@ class CouponConditionTest(unittest.TestCase):  # DC-005
         value = fresh()
         winner = value["candidates"][0]
         winner["immediate_discount"] = "5.00"
-        winner["coupon"] = {"code": "SAVE5", "status": "applied-in-anonymous-cart", "conditions_unstated": True}
+        winner["coupon"] = {"code": "SAVE5", "status": "shopper-confirmed-at-checkout", "conditions_unstated": True}
         result = run(value)
         self.assertEqual(result["verdict"], "verify")
         self.assertIn("condition the page did not state", result["reason"])

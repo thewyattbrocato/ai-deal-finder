@@ -26,17 +26,16 @@ class EvidenceState(str, Enum):
 
 # States that count as verification for a price-determining claim.
 # buy minimums (DECISION_TABLE.md) require decisive claims to be one of these.
-VERIFIED_STATES = frozenset(
-    {
-        EvidenceState.OBSERVED_NOW,
-        EvidenceState.APPLIED_IN_ANONYMOUS_CART,
-    }
-)
+# applied-in-anonymous-cart stays a known state so old evidence parses, but it
+# is never verification: cart-applied checks are disabled until the consent
+# link is redesigned (CONSENT.md).
+VERIFIED_STATES = frozenset({EvidenceState.OBSERVED_NOW})
 
 # States that must never be silently treated as verification (ACCEPTANCE.md
 # Evidence gate: zero upgrades without matching proof).
 NEVER_VERIFIED_ALONE = frozenset(
     {
+        EvidenceState.APPLIED_IN_ANONYMOUS_CART,
         EvidenceState.RETAILER_STATED,
         EvidenceState.THIRD_PARTY_HISTORICAL,
         EvidenceState.USER_PROVIDED,
@@ -70,20 +69,22 @@ class Coupon:
 
     code: str
     merchant: str
-    # One of: applied-in-anonymous-cart, retailer-stated, unverified, rejected,
-    # shopper-confirmed (user safely supplied a checkout result).
+    # One of: retailer-stated, unverified, rejected, shopper-confirmed (the
+    # shopper safely supplied a checkout result). applied-in-anonymous-cart is
+    # no longer accepted: the skill tries no code in a cart.
     status: str
     observed_at: str = ""
     reject_reason: str = ""
     terms_source: str = ""
 
     def may_count_in_landed_cost(self) -> bool:
-        """A code counts only if cart-tested or shopper-confirmed at checkout.
+        """A code counts only if the shopper confirmed it at checkout.
 
         retailer-stated or unverified codes must never decide a buy verdict
-        (fixtures CP-002, CP-003); rejected codes are excluded (CP-004).
+        (fixtures CP-002, CP-003); rejected codes are excluded (CP-004); a
+        cart-applied status is not accepted (cart checks are disabled).
         """
-        return self.status in ("applied-in-anonymous-cart", "shopper-confirmed")
+        return self.status == "shopper-confirmed"
 
 
 def check_no_upgrade(claims: "list[Claim]") -> "list[str]":
@@ -94,6 +95,11 @@ def check_no_upgrade(claims: "list[Claim]") -> "list[str]":
     """
     violations = []
     for claim in claims:
+        if claim.state == EvidenceState.APPLIED_IN_ANONYMOUS_CART:
+            violations.append(
+                "cart-applied evidence is not accepted (cart checks are disabled "
+                f"until the consent link is redesigned): {claim.text[:80]}"
+            )
         if claim.state in NEVER_VERIFIED_ALONE and not claim.has_provenance():
             violations.append(
                 f"claim lacks provenance and must stay {claim.state.value}: "

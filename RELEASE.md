@@ -99,4 +99,4 @@ the store page* and *Not compared with other stores*.
 
 - The V1 decision batch D1-D6 in `ASSUMPTIONS.md`.
 - The per-unit versus bundle pricing call.
-- The skill consent question.
+- The consent-link redesign (cart-applied checks are off until then; `CONSENT.md`).

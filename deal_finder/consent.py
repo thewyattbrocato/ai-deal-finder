@@ -6,6 +6,10 @@ stop. Anonymous-cart coupon testing only; logged-out; pre-payment totals only.
 
 Authoritative rules: CONSENT.md, VISION.md ("Verification Stops Before
 Identity Or Purchase"), ACCEPTANCE.md S0 class, fixture CS-001.
+
+DISABLED: the skill never performs or authorizes a cart action. The record
+format below is kept as the design for the redesign (a consent record that
+binds merchant, attempt and action); nothing here can open a cart test.
 """
 
 from dataclasses import dataclass, field
@@ -20,6 +24,8 @@ class ConsentStatus(str, Enum):
 
 
 CONSENT_SCOPE = "anonymous-cart coupon test only"
+
+CART_DISABLED_MESSAGE = "cart-applied checks are disabled until the consent link is redesigned"
 
 
 @dataclass
@@ -66,6 +72,7 @@ class AttemptBudget:
 
 
 class StopReason(str, Enum):
+    CART_DISABLED = CART_DISABLED_MESSAGE
     COMPLETED = "completed"
     NO_CONSENT = "no consent on record; research-only verification used"
     REVOKED = "consent revoked mid-run; further actions halted"
@@ -108,19 +115,11 @@ class CartTestGate:
     merchant_terms_ambiguous: bool = False
 
     def authorize(self) -> "tuple[bool, StopReason]":
-        """Authorize (or refuse) a cart test run. Refusals are correct
-        behavior, not failures: the caller falls back to research-only claims.
+        """Always refuses: cart-applied checks are disabled until the consent
+        link is redesigned. The caller falls back to research-only claims.
+        CONSENT.md keeps the record format as the design for the redesign.
         """
-        if not self.consent.covers(self.merchant):
-            return False, StopReason.NO_CONSENT
-        if not self.browser_tools_available:
-            return False, StopReason.NO_BROWSER_TOOLS
-        # Ambiguous terms mean no test (determined conservatively).
-        if self.merchant_rules_prohibit or self.merchant_terms_ambiguous:
-            return False, StopReason.MERCHANT_RULES_PROHIBIT
-        if self.budget.remaining() <= 0:
-            return False, StopReason.BUDGET_EXCEEDED
-        return True, StopReason.COMPLETED
+        return False, StopReason.CART_DISABLED
 
     def check_revoked(self) -> "tuple[bool, StopReason]":
         """Mid-run revocation check: revocation halts further actions."""

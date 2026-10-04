@@ -97,13 +97,13 @@ def _refusals(candidate: dict[str, Any], now: datetime, window: timedelta | None
                 found.append(
                     (
                         "coupon discount is counted but its observation time is missing",
-                        "Re-test the code in a logged-out anonymous cart (with consent) and record the time.",
+                        "Check the code at checkout yourself and note the time you saw it, then re-run.",
                     )
                 )
             else:
                 problem = _age_problem(coupon["observed_at"], now, window, "coupon evidence")
                 if problem:
-                    found.append((problem, "Re-test the code in a logged-out anonymous cart (with consent), then re-run."))
+                    found.append((problem, "Check the code at checkout yourself and note the time you saw it, then re-run."))
         if coupon.get("terms_on_other_page"):
             found.append(
                 (

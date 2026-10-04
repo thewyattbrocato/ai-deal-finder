@@ -3,6 +3,15 @@
 Status: **specification draft for Captain review. No consent exists; no cart
 action has been taken or observed.**
 
+**Disabled: cart-applied checks are disabled until the consent link is redesigned.** The skill
+never performs or authorizes a cart action, `consent` and `cart-check` refuse,
+and evidence in the state `applied-in-anonymous-cart` is never accepted as
+verification or as grounds for a discount. The record format below is kept as
+the design for the redesign; it was never shown to bind a consent to one
+specific merchant, attempt and action, and nothing reads or writes such a
+record today. What would reopen it: a redesigned consent record that binds
+merchant, attempt and action. The similar-products mode never uses a cart.
+
 One stored approval must never become blanket permission. Every cart mutation
 must trace to a visible consent record, and every run must end in a recorded
 stop.
