@@ -707,8 +707,10 @@ class SearchFirstTest(unittest.TestCase):
             self.assertRegex(c["age"], AGE_RE)
             for word in ("fresh", "stale", "old", "expired", "recent", "outdated", "valid"):
                 self.assertNotIn(word, c["age"].lower())
-        self.assertIn("Checked 2 days ago, 2026-10-02", seen)
+        # the three coffee hand cards were re-read 2026-10-04: no card reads days old
+        self.assertIn("Checked 38 hours ago, 2026-10-04T00:56:40Z", seen)
         self.assertIn("Checked 39 hours ago, 2026-10-03T23:15:06Z", seen)
+        self.assertFalse([a for a in seen if "days ago" in a], seen)
 
     def test_the_age_line_counts_hours_under_48_and_whole_days_after_from_the_stored_time(self):
         # AirPods Pro 3 was stored at 2026-10-03T23:15:06Z; the clock is pinned for each run
