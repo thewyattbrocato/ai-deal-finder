@@ -1,0 +1,76 @@
+{
+ "id": "hcr",
+ "name": "Midnight Axes dark roast",
+ "page_url": "https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr",
+ "seller": "Honest Coffee Roasters",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-02T15:00:17Z",
+   "shelf_price": 18.0,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [],
+   "shipping": [],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md HCR-1"
+  },
+  {
+   "observed_at": "2026-10-02T22:10:43Z",
+   "shelf_price": 18.0,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12oz",
+     18.0,
+     13.5
+    ],
+    [
+     "2lb",
+     38.0,
+     28.5
+    ],
+    [
+     "5lb",
+     95.0,
+     71.25
+    ]
+   ],
+   "shipping": [],
+   "subscribe": [
+    "Subscribe option with a sale price per size"
+   ],
+   "source": "LIVE_VERIFICATION.md T-HCR"
+  },
+  {
+   "observed_at": "2026-10-04T00:56:40Z",
+   "shelf_price": 18.0,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12oz",
+     18.0,
+     13.5
+    ],
+    [
+     "2lb",
+     38.0,
+     28.5
+    ],
+    [
+     "5lb",
+     95.0,
+     71.25
+    ]
+   ],
+   "shipping": [],
+   "subscribe": [
+    "Subscribe: Sale Price $13.50, Original Price $18.00 (12oz)"
+   ],
+   "source": "live page, this re-read (unchanged): no promo, coupon or code text; no shipping text"
+  }
+ ]
+}

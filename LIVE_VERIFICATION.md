@@ -433,3 +433,42 @@ among pages not yet re-read (no history entry). The 60 oldest (first collected
 All 60 pages loaded; none changed in price, coupon text, shipping, subscribe or
 size lines, and none was removed or unreadable. Each earlier observation is
 kept in the record's `history`.
+
+## Coffee hand cards and every stored coupon read again (2026-10-04, display only)
+
+The three coffee hand cards (Honest, Well, Counter Culture) were the oldest
+checks (2026-10-02T15:00Z to 15:04Z) and were about to pass 36 hours. Their
+pages, the three Lavazza pages and the Old Navy page were read again in a
+read-only, anonymous real-browser session (nothing added to a cart, no code
+tried, no email given; size and purchase-mode radios only were switched to read
+the price each shows). The 15 catalog pages that print a coupon were read again
+with `demo/catalog.py reread` (read-only GET, then the browser promo, shipping,
+subscribe and size pass). Each read is a new dated observation; the earlier
+ones stay as history (`demo/evidence/handcards/{hcr,wel,ccc,oldnavy}.json`,
+`demo/evidence/lavazza/*.json`, and `history` in each catalog record).
+
+| ID | Source | Read at (UTC) | What the page printed now | Change from the earlier read |
+| --- | --- | --- | --- | --- |
+| R-HCR | `https://www.honest.coffee/shop-3Ooj8/p/nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr` | 2026-10-04T00:56:40Z | "Midnight Axes", one-time $18.00 / $38.00 / $95.00 (12oz / 2lb / 5lb), Subscribe sale price $13.50 / $28.50 / $71.25; no promo, coupon or code text; no shipping text | none |
+| R-WEL | `https://wellcoffeeroasters.com/products/watershed` | 2026-10-04T00:57:19Z | "Watershed", one-time $20.50 / $51.50 / $119.00, Subscribe & Save ("Save up to 10%") $18.45 / $46.35 / $107.10; "Free Shipping On All Orders $75+", "Shipping calculated at checkout."; after about 9 s a popup "Save 10% Off Your First Purchase … Sign up for a discount code towards your first purchase." (needs an email, prints no code) | none (the signup offer is still not a coupon) |
+| R-CCC | `https://counterculturecoffee.com/collections/coffee/products/big-trouble` | 2026-10-04T00:58:19Z | "Big Trouble", one-time $19.50 / $37.50 / $101.00 (12 oz / 24 oz / 5 lb), Subscribe + Save $17.50 / $33.66 / $90.65; "Free shipping on $30 & up!"; no coupon or code text | none |
+| R-LAV-3 / R-LAV-2 / R-LAV-1 | `https://www.lavazzausa.com/en/whole-bean-coffee/dolcevita-classico`, `…/qualita-rossa`, `…/super-crema.4202` | 2026-10-04T01:00:06Z, 00:59:59Z, 00:59:51Z | $13.99, $24.99, $26.99; banner "AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 \| Extra Savings on Orders $49+"; "Free delivery on orders over $50"; "SUBSCRIBE AND SAVE 25%" | none (AS20 still printed, never tried) |
+| R-ON | `https://oldnavy.gap.com/browse/product.do?pid=777363182` | 2026-10-04T01:00:22Z | $25.00, was $36.99; "Extra 30% Off with Code: EXTRA"; banner "… Extra 30% Off Purchase SHOP NOW Code: EXTRA Exclusions apply."; sizes XS to 4X, none marked not selectable; "Free fast shipping on $50+ for Rewards Members" | none (EXTRA still printed, never tried) |
+
+Catalog pages with a stored coupon, read 2026-10-04T01:00Z to 01:05Z: every
+code is still printed, with the same text, and no price changed.
+
+| Cards | Code(s) still printed | Price now (was) | Window or conditions now |
+| --- | --- | --- | --- |
+| MOFT Dynamic Folio for iPhone Duo (`moft-dynamic-folio-for-iphone-duo`) | DYNAMIC10 | $69.99 ($69.99) | "$10 OFF Early Bird Offer: Use code DYNAMIC10 at checkout."; no date; same text |
+| MOFT Snap Fold (`moft-snap-fold-magsafe-compatible`) | FOLD10 | $49.99 ($49.99) | "$10 OFF Early Bird Offer: Use code FOLD10 at checkout."; no date; same text |
+| MUDWTR Coffee Tin PSL, PSL Bag, PSL Bundle | SAMANTHAJO | $70.00, $20.00, $40.00 (same) | "Get $5 off with code SAMANTHAJO"; no date; same text |
+| Open Farm Calming Chews, Rustic Blend Cat Pack, Rustic Stew Dog Pack, Skin & Coat Chews | DMAS78935 (and the other codes printed on the same pages) | $32.99, $43.88, $55.88, $32.99 (same) | "25% off your first Autoship order with code 'DMAS78935'"; same text; autoship-gated, unchanged |
+| UNTUCKit Blackwald Hoodie, Newbury Quarter-Zip, Normand, Northwell, Quinnell, Valois | NOIRON | $128.00, $128.00, $99.50, $105.00, $105.00, $99.50 (same) | still prints "Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores … Cannot be combined with any offers or promotions" on all six; the window had not closed at the read (9 PM ET on 10/3), and the date logic on the page ends it after 10/4 |
+
+Result: no coffee, Lavazza, Old Navy or catalog price moved; no code was removed,
+so every card that showed a coupon still shows it, labelled as seen and never
+tried; no stored coffee card shows a coupon. The only text dated by a page is the
+NOIRON window above. Left unknown: shipping for Honest (the page prints none),
+exact Well shipping under $75, any terms behind the Lavazza "*" and Old
+Navy "Exclusions apply".

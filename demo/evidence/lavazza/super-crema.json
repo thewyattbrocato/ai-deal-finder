@@ -24,6 +24,21 @@
    "conditions": "banner prints \"Extra Savings on Orders $49+\"; the * after \"Coffee\" has no matching footnote in the page text, so no exclusions or terms are known",
    "code_tried": false,
    "source": "live page, this recheck"
+  },
+  {
+   "observed_at": "2026-10-04T00:59:51Z",
+   "shelf_price": 26.99,
+   "banner": "AUTUMN SAVINGS EVENT: 20% OFF Coffee* with code AS20 | Extra Savings on Orders $49+",
+   "code": "AS20",
+   "conditions": "banner prints \"Extra Savings on Orders $49+\"; the * after \"Coffee\" has no matching footnote in the page text, so no exclusions or terms are known",
+   "code_tried": false,
+   "source": "live page, this re-read (unchanged): still AS20, same price",
+   "shipping": [
+    "Fast delivery on all orders. Free delivery on orders over $50"
+   ],
+   "subscribe": [
+    "SUBSCRIBE AND SAVE 25%"
+   ]
   }
  ]
 }

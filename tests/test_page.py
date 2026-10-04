@@ -790,7 +790,7 @@ class SearchFirstTest(unittest.TestCase):
             if "Midnight Axes" in c or "Watershed" in c or "Big Trouble" in c:
                 self.assertIn('data-coupon="no"', c)
 
-    def test_lavazza_records_carry_the_2026_10_03_observation(self):
+    def test_lavazza_records_carry_the_2026_10_04_observation_and_keep_history(self):
         import glob
         files = sorted(glob.glob(os.path.join(ROOT, "demo", "evidence", "lavazza", "*.json")))
         self.assertEqual(len(files), 3)
@@ -801,7 +801,10 @@ class SearchFirstTest(unittest.TestCase):
             first, latest = rec["observations"][0], rec["observations"][-1]
             # the earlier CAFE20 read stays as dated history, never deleted
             self.assertEqual((first["code"], first["observed_at"][:10]), ("CAFE20", "2026-10-01"), fn)
-            self.assertEqual((latest["code"], latest["observed_at"][:10]), ("AS20", "2026-10-03"), fn)
+            # the 2026-10-03 AS20 read stays as history; the card shows 2026-10-04
+            self.assertEqual((rec["observations"][1]["code"], rec["observations"][1]["observed_at"][:10]),
+                             ("AS20", "2026-10-03"), fn)
+            self.assertEqual((latest["code"], latest["observed_at"][:10]), ("AS20", "2026-10-04"), fn)
             self.assertIn("AS20", latest["banner"])
             self.assertFalse(latest["code_tried"])
             self.assertEqual(latest["shelf_price"], first["shelf_price"])

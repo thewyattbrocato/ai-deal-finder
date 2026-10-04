@@ -320,9 +320,9 @@ def run_specific_super_crema():
     return run_cof1()
 
 
-TS_HCR = "2026-10-02T15:00:17Z"
-TS_WEL = "2026-10-02T15:01:25Z"
-TS_CCC = "2026-10-02T15:03:57Z"
+TS_HCR = handcard_latest("hcr")["observed_at"]
+TS_WEL = handcard_latest("wel")["observed_at"]
+TS_CCC = handcard_latest("ccc")["observed_at"]
 HCR_URL = ("https://www.honest.coffee/shop-3Ooj8/p/"
            "nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr")
 WEL_URL = "https://wellcoffeeroasters.com/products/watershed"

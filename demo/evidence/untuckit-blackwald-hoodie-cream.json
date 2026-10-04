@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T23:23:32Z",
+  "read_at": "2026-10-04T01:03:35Z",
   "ship": [
    "Free Shipping On $110+ | Free U.S. Returns",
    "Add $110.00 For FREE SHIPPING!",
@@ -611,6 +611,598 @@
    "page_sha256": "9aef13021a1d67f93bd8d1da80a4431cc5ae67e7aa4c3017d2225ef98c7e6782",
    "rendered_checked": true,
    "title": "Waffle-Knit Hoodie Sweater Cream | UNTUCKit"
+  },
+  {
+   "conditions": {
+    "read_at": "2026-10-03T23:23:32Z",
+    "ship": [
+     "Free Shipping On $110+ | Free U.S. Returns",
+     "Add $110.00 For FREE SHIPPING!",
+     "Free Shipping on orders $110+. Free Returns online and at 80+ stores within the US.",
+     "Shipping"
+    ],
+    "size": [
+     "Size & Fit Guide",
+     "SIZE",
+     "Size Chart"
+    ],
+    "sub": [],
+    "url": "https://www.untuckit.com/products/blackwald-hoodie-cream"
+   },
+   "coupon_snippets": [
+    "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
+   ],
+   "final_url": "https://www.untuckit.com/products/blackwald-hoodie-cream",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream#json-ld-for-seo",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "UNTUCKit"
+     },
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "hasVariant": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405714099",
+       "gtin12": "193405714099",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714099",
+       "name": "Waffle-Knit Hoodie Sweater Small / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405714099",
+         "gtin12": "193405714099",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405714099",
+         "name": "Waffle-Knit Hoodie Sweater Small / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegSM",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegSM",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405714075",
+       "gtin12": "193405714075",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714075",
+       "name": "Waffle-Knit Hoodie Sweater Medium / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405714075",
+         "gtin12": "193405714075",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405714075",
+         "name": "Waffle-Knit Hoodie Sweater Medium / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegMD",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegMD",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405714051",
+       "gtin12": "193405714051",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714051",
+       "name": "Waffle-Knit Hoodie Sweater Large / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405714051",
+         "gtin12": "193405714051",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405714051",
+         "name": "Waffle-Knit Hoodie Sweater Large / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegLG",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegLG",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405992381",
+       "gtin12": "193405992381",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405992381",
+       "name": "Waffle-Knit Hoodie Sweater X-Large / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405992381",
+         "gtin12": "193405992381",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405992381",
+         "name": "Waffle-Knit Hoodie Sweater X-Large / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegXL",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405545921",
+       "gtin12": "193405545921",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405545921",
+       "name": "Waffle-Knit Hoodie Sweater XX-Large / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405545921",
+         "gtin12": "193405545921",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405545921",
+         "name": "Waffle-Knit Hoodie Sweater XX-Large / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegXXL",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegXXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+       "gtin": "193405956789",
+       "gtin12": "193405956789",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "inProductGroupWithID": "7828464631886",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405956789",
+       "name": "Waffle-Knit Hoodie Sweater XXX-Large / Regular Fit / White",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405956789",
+         "gtin12": "193405956789",
+         "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405956789",
+         "name": "Waffle-Knit Hoodie Sweater XXX-Large / Regular Fit / White",
+         "price": "128.0",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42346WhiRegXXXL",
+         "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42346WhiRegXXXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      }
+     ],
+     "image": [
+      "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-2_e7dd1519-53fe-43af-b8a2-84bb97c63c80.jpg?v=1789481494&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-3_d36f7a4d-50cd-4a86-95f2-070b4cb397d2.jpg?v=1789481494&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-4_5143b782-8529-4a4a-9b54-8ab1a77b5b4d.jpg?v=1789481494&width=1667"
+     ],
+     "name": "Waffle-Knit Hoodie Sweater",
+     "productGroupID": "7828464631886",
+     "productID": "42346WhiRegSM",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream"
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405714099",
+     "gtin12": "193405714099",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405714099",
+     "name": "Waffle-Knit Hoodie Sweater Small / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405714099",
+       "gtin12": "193405714099",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714099",
+       "name": "Waffle-Knit Hoodie Sweater Small / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegSM",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegSM",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258190926",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405714075",
+     "gtin12": "193405714075",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405714075",
+     "name": "Waffle-Knit Hoodie Sweater Medium / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405714075",
+       "gtin12": "193405714075",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714075",
+       "name": "Waffle-Knit Hoodie Sweater Medium / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegMD",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegMD",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258223694",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405714051",
+     "gtin12": "193405714051",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405714051",
+     "name": "Waffle-Knit Hoodie Sweater Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405714051",
+       "gtin12": "193405714051",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405714051",
+       "name": "Waffle-Knit Hoodie Sweater Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegLG",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegLG",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258256462",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405992381",
+     "gtin12": "193405992381",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405992381",
+     "name": "Waffle-Knit Hoodie Sweater X-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405992381",
+       "gtin12": "193405992381",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405992381",
+       "name": "Waffle-Knit Hoodie Sweater X-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegXL",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258289230",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405545921",
+     "gtin12": "193405545921",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405545921",
+     "name": "Waffle-Knit Hoodie Sweater XX-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405545921",
+       "gtin12": "193405545921",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405545921",
+       "name": "Waffle-Knit Hoodie Sweater XX-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegXXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegXXL",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258321998",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "A soft waffle-knit hoodie sweater is just the right call when it's breezy outside. It has the cozy feel of a slub-textured sweatshirt with the clean, put-together look of a sweater, so it works just as well thrown over a tee as it does holding its own.\n\nThe adjustable hood is there when you need it, and the waffle texture keeps it from ever feeling bulky. Throw one on over a tee or Henley and pair it with our Classic Chino Pants for an easygoing autumn look.\n\nFEATURES\n\n\u25cf Hooded\n\u25cf SKU #42346WHI\n\nFABRICS\n\n\u25cf [confirm fabric content]\n\u25cf Imported",
+     "gtin": "193405956789",
+     "gtin12": "193405956789",
+     "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+     "inProductGroupWithID": "7828464631886",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405956789",
+     "name": "Waffle-Knit Hoodie Sweater XXX-Large / Regular Fit / White",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405956789",
+       "gtin12": "193405956789",
+       "image": "https://www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba.jpg?v=1789481494&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405956789",
+       "name": "Waffle-Knit Hoodie Sweater XXX-Large / Regular Fit / White",
+       "price": "128.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42346WhiRegXXXL",
+       "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42346WhiRegXXXL",
+     "url": "https://www.untuckit.com/products/blackwald-hoodie-cream?variant=43445258354766",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T23:23:18Z",
+   "og_image": "//www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba_grande.jpg?v=1789481494",
+   "page_sha256": "948e5942679e821a717a978973d7e0a67185bc2522b3d96d444b45abf6335fc8",
+   "rendered_checked": true,
+   "title": "Waffle-Knit Hoodie Sweater Cream | UNTUCKit"
   }
  ],
  "http_status": 200,
@@ -1183,9 +1775,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-03T23:23:18Z",
+ "observed_at": "2026-10-04T01:03:21Z",
  "og_image": "//www.untuckit.com/cdn/shop/files/BLACKWALD-UNTUCKIT-42346Whi-HOODIE-CREAM-1_463a14e9-b516-4b65-b2e6-1b13ba2010ba_grande.jpg?v=1789481494",
- "page_sha256": "948e5942679e821a717a978973d7e0a67185bc2522b3d96d444b45abf6335fc8",
+ "page_sha256": "838c944efdbe875887be5608946affa937de0bab68a67078f3dc9222be04acb5",
  "rendered_checked": true,
  "title": "Waffle-Knit Hoodie Sweater Cream | UNTUCKit",
  "url": "https://www.untuckit.com/products/blackwald-hoodie-cream"

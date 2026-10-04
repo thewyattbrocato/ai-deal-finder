@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T23:24:15Z",
+  "read_at": "2026-10-04T01:04:04Z",
   "ship": [
    "Free Shipping On $110+ | Free U.S. Returns",
    "Add $110.00 For FREE SHIPPING!",
@@ -1061,6 +1061,1048 @@
    "page_sha256": "d660c617c8fc5d0fe9afaf8b00ab2763cd63d59f0965bc676f2a37509448f8c9",
    "rendered_checked": true,
    "title": "Vintage Wash Short-Sleeve Normand Shirt Navy | UNTUCKit"
+  },
+  {
+   "conditions": {
+    "read_at": "2026-10-03T23:24:15Z",
+    "ship": [
+     "Free Shipping On $110+ | Free U.S. Returns",
+     "Add $110.00 For FREE SHIPPING!",
+     "Free Shipping on orders $110+. Free Returns online and at 80+ stores within the US.",
+     "Shipping"
+    ],
+    "size": [
+     "Size & Fit Guide",
+     "SIZE",
+     "Size Chart"
+    ],
+    "sub": [],
+    "url": "https://www.untuckit.com/products/normand"
+   },
+   "coupon_snippets": [
+    "e-Free Styles Wrinkle-Free Sale: Offer valid 10/1/2026 at 12:00 AM ET through 10/4/2026 at 11:59 PM ET, valid online and in-stores. To redeem online, enter code NOIRON at checkout. Cannot be combined with any offers or promotions. Offer has no cash value and is not valid on previous purchases, or purchases of gift c"
+   ],
+   "final_url": "https://www.untuckit.com/products/normand",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@id": "https://www.untuckit.com/products/normand#json-ld-for-seo",
+     "@type": "ProductGroup",
+     "brand": {
+      "@type": "Brand",
+      "name": "UNTUCKit"
+     },
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "hasVariant": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812677198#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405576567",
+       "gtin12": "193405576567",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405576567",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812677198#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405576567",
+         "gtin12": "193405576567",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405576567",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegSM",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812677198",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegSM",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812677198",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812709966#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745680",
+       "gtin12": "193405745680",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745680",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812709966#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745680",
+         "gtin12": "193405745680",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745680",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Slim Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavSlmSM",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812709966",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavSlmSM",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812709966",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 2.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812742734#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405486583",
+       "gtin12": "193405486583",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405486583",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812742734#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405486583",
+         "gtin12": "193405486583",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405486583",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegMD",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812742734",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegMD",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812742734",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812775502#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745666",
+       "gtin12": "193405745666",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745666",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812775502#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745666",
+         "gtin12": "193405745666",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745666",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Slim Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavSlmMD",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812775502",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavSlmMD",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812775502",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 3.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812808270#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405486569",
+       "gtin12": "193405486569",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405486569",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812808270#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405486569",
+         "gtin12": "193405486569",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405486569",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegLG",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812808270",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegLG",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812808270",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812841038#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745642",
+       "gtin12": "193405745642",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745642",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812841038#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745642",
+         "gtin12": "193405745642",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745642",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Slim Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavSlmLG",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812841038",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavSlmLG",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812841038",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 4.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812873806#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405720618",
+       "gtin12": "193405720618",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720618",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812873806#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405720618",
+         "gtin12": "193405720618",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405720618",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegXL",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812873806",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812873806",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812906574#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745628",
+       "gtin12": "193405745628",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745628",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444812906574#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745628",
+         "gtin12": "193405745628",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745628",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Slim Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavSlmXL",
+         "url": "https://www.untuckit.com/products/normand?variant=43444812906574",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavSlmXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812906574",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 5.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813103182#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405720595",
+       "gtin12": "193405720595",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720595",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444813103182#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405720595",
+         "gtin12": "193405720595",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405720595",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegXXL",
+         "url": "https://www.untuckit.com/products/normand?variant=43444813103182",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813103182",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813135950#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745604",
+       "gtin12": "193405745604",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745604",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Slim Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444813135950#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745604",
+         "gtin12": "193405745604",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745604",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Slim Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavSlmXXL",
+         "url": "https://www.untuckit.com/products/normand?variant=43444813135950",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavSlmXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813135950",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 6.0
+       }
+      },
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813168718#json-ld-for-seo-product",
+       "@type": "Product",
+       "category": [
+        "Uncategorized"
+       ],
+       "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+       "gtin": "193405745703",
+       "gtin12": "193405745703",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "inProductGroupWithID": "7828359249998",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745703",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XXX-Large / Regular Fit / Navy",
+       "offers": [
+        {
+         "@id": "https://www.untuckit.com/products/normand?variant=43444813168718#json-ld-for-seo-variant",
+         "@type": "Offer",
+         "availability": "https://schema.org/InStock",
+         "gtin": "193405745703",
+         "gtin12": "193405745703",
+         "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+         "itemCondition": "https://schema.org/NewCondition",
+         "mpn": "193405745703",
+         "name": "Vintage Wash Short-Sleeve Normand Shirt XXX-Large / Regular Fit / Navy",
+         "price": "99.5",
+         "priceCurrency": "USD",
+         "priceValidUntil": "2027-01-01",
+         "seller": {
+          "@type": "Organization",
+          "name": "UNTUCKit"
+         },
+         "sku": "42282NavRegXXXL",
+         "url": "https://www.untuckit.com/products/normand?variant=43444813168718",
+         "validFrom": "2026-10-02"
+        }
+       ],
+       "sku": "42282NavRegXXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813168718",
+       "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "lb",
+        "value": 1.0
+       }
+      }
+     ],
+     "image": [
+      "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-3_2cad30db-a328-4518-960b-b0ed4d50d726.jpg?v=1789487426&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-2_f9d51e4e-edab-4746-845d-f2262470ef95.jpg?v=1789487426&width=1667",
+      "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-4_bb060427-cdb2-4482-9d23-9bf8d64a4425.jpg?v=1789487426&width=1667"
+     ],
+     "name": "Vintage Wash Short-Sleeve Normand Shirt",
+     "productGroupID": "7828359249998",
+     "productID": "42282NavRegSM",
+     "url": "https://www.untuckit.com/products/normand"
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812677198#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405576567",
+     "gtin12": "193405576567",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405576567",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812677198#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405576567",
+       "gtin12": "193405576567",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405576567",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegSM",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812677198",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegSM",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812677198",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812709966#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745680",
+     "gtin12": "193405745680",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745680",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812709966#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745680",
+       "gtin12": "193405745680",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745680",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Small / Slim Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavSlmSM",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812709966",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavSlmSM",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812709966",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812742734#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405486583",
+     "gtin12": "193405486583",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405486583",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812742734#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405486583",
+       "gtin12": "193405486583",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405486583",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegMD",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812742734",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegMD",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812742734",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812775502#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745666",
+     "gtin12": "193405745666",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745666",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812775502#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745666",
+       "gtin12": "193405745666",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745666",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Medium / Slim Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavSlmMD",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812775502",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavSlmMD",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812775502",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 3.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812808270#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405486569",
+     "gtin12": "193405486569",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405486569",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812808270#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405486569",
+       "gtin12": "193405486569",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405486569",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegLG",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812808270",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegLG",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812808270",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812841038#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745642",
+     "gtin12": "193405745642",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745642",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812841038#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745642",
+       "gtin12": "193405745642",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745642",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt Large / Slim Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavSlmLG",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812841038",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavSlmLG",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812841038",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 4.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812873806#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405720618",
+     "gtin12": "193405720618",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405720618",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812873806#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405720618",
+       "gtin12": "193405720618",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720618",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812873806",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegXL",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812873806",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444812906574#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745628",
+     "gtin12": "193405745628",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745628",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444812906574#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745628",
+       "gtin12": "193405745628",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745628",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt X-Large / Slim Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavSlmXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444812906574",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavSlmXL",
+     "url": "https://www.untuckit.com/products/normand?variant=43444812906574",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 5.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444813103182#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405720595",
+     "gtin12": "193405720595",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405720595",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813103182#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405720595",
+       "gtin12": "193405720595",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405720595",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813103182",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegXXL",
+     "url": "https://www.untuckit.com/products/normand?variant=43444813103182",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444813135950#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745604",
+     "gtin12": "193405745604",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745604",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Slim Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813135950#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745604",
+       "gtin12": "193405745604",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745604",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XX-Large / Slim Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavSlmXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813135950",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavSlmXXL",
+     "url": "https://www.untuckit.com/products/normand?variant=43444813135950",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 6.0
+     }
+    },
+    {
+     "@id": "https://www.untuckit.com/products/normand?variant=43444813168718#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "We've recreated the feeling of your favorite lived-in shirt with our new Vintage Wash styles. Given a special treatment that breaks down fibers for a soft feel from the very first wear, this all-cotton shirt has a fun geo print that's perfect for the weekend and warm-weather getaways alike.\n \n A Stay-Put Collar, unbreakable buttons, and single-needle side seams give this shirt a refined feel that holds up wear after wear. Designed to move seamlessly from casual days to dressed-up moments, it pairs easily with our Stretch Chino Shorts for a relaxed, confident look that always feels put-together.\n \n FEATURES \n \n \u2022 Spread collar\n \u2022 Short sleeves\n \u2022 Navy signature sail\n \u2022 SKU #42282Nav\n \n FABRICS\n \n \u2022 100% Cotton\n \u2022 Imported",
+     "gtin": "193405745703",
+     "gtin12": "193405745703",
+     "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+     "inProductGroupWithID": "7828359249998",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "193405745703",
+     "name": "Vintage Wash Short-Sleeve Normand Shirt XXX-Large / Regular Fit / Navy",
+     "offers": [
+      {
+       "@id": "https://www.untuckit.com/products/normand?variant=43444813168718#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "193405745703",
+       "gtin12": "193405745703",
+       "image": "https://www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b.jpg?v=1789487426&width=1667",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "193405745703",
+       "name": "Vintage Wash Short-Sleeve Normand Shirt XXX-Large / Regular Fit / Navy",
+       "price": "99.5",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "UNTUCKit"
+       },
+       "sku": "42282NavRegXXXL",
+       "url": "https://www.untuckit.com/products/normand?variant=43444813168718",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "42282NavRegXXXL",
+     "url": "https://www.untuckit.com/products/normand?variant=43444813168718",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 1.0
+     }
+    }
+   ],
+   "observed_at": "2026-10-03T23:24:02Z",
+   "og_image": "//www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b_grande.jpg?v=1789487426",
+   "page_sha256": "dd79a35071d29b975d19e3a7fd58c121c4012f54db527de59e1362c2c41d6201",
+   "rendered_checked": true,
+   "title": "Vintage Wash Short-Sleeve Normand Shirt Navy | UNTUCKit"
   }
  ],
  "http_status": 200,
@@ -2083,9 +3125,9 @@
   }
  ],
  "kind": "Clothing",
- "observed_at": "2026-10-03T23:24:02Z",
+ "observed_at": "2026-10-04T01:03:51Z",
  "og_image": "//www.untuckit.com/cdn/shop/files/NORMAND-UNTUCKIT-42282Nav-VINTAGE-WASH-BLUE-1_3a88b39d-ace2-4253-a50a-594ff23eab0b_grande.jpg?v=1789487426",
- "page_sha256": "dd79a35071d29b975d19e3a7fd58c121c4012f54db527de59e1362c2c41d6201",
+ "page_sha256": "2d91233d5f476f02cbdd77923069447b5d97599138cfc572ec068f2306bff546",
  "rendered_checked": true,
  "title": "Vintage Wash Short-Sleeve Normand Shirt Navy | UNTUCKit",
  "url": "https://www.untuckit.com/products/normand"

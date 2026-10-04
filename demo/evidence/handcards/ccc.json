@@ -1,0 +1,82 @@
+{
+ "id": "ccc",
+ "name": "Big Trouble medium-dark roast",
+ "page_url": "https://counterculturecoffee.com/collections/coffee/products/big-trouble",
+ "seller": "Counter Culture Coffee",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-02T15:03:57Z",
+   "shelf_price": 19.5,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [],
+   "shipping": [],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md CCC-1"
+  },
+  {
+   "observed_at": "2026-10-02T22:13:21Z",
+   "shelf_price": 19.5,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12 oz",
+     19.5,
+     17.5
+    ],
+    [
+     "24 oz",
+     37.5,
+     33.66
+    ],
+    [
+     "5 lb",
+     101.0,
+     90.65
+    ]
+   ],
+   "shipping": [
+    "Free shipping on $30 & up!"
+   ],
+   "subscribe": [
+    "Subscribe + Save"
+   ],
+   "source": "LIVE_VERIFICATION.md T-CCC"
+  },
+  {
+   "observed_at": "2026-10-04T00:58:19Z",
+   "shelf_price": 19.5,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12 oz",
+     19.5,
+     17.5
+    ],
+    [
+     "24 oz",
+     37.5,
+     33.66
+    ],
+    [
+     "5 lb",
+     101.0,
+     90.65
+    ]
+   ],
+   "shipping": [
+    "Free shipping on $30 & up!"
+   ],
+   "subscribe": [
+    "Subscribe + Save $2.00 (12 oz)",
+    "Subscribe + Save $3.84 (24 oz)",
+    "Subscribe + Save $10.35 (5 lb)"
+   ],
+   "source": "live page, this re-read (unchanged): no coupon or code text; the newsletter 'promotions' line and the 'Code of Business' footer are not codes"
+  }
+ ]
+}
