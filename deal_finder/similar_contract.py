@@ -3,8 +3,8 @@
 `validate(answer)` checks one answer JSON against SIMILAR_OUTPUT.md and returns
 violation messages (empty = the answer follows the contract). `render(answer)`
 prints the markdown answer in the template's fixed order. Pure functions: no
-network, no model, no credentials, no unit-price arithmetic (that belongs to
-deal_finder/unit_price.py; this module only checks when a unit price is allowed).
+network, no model, no credentials. Unit prices are recomputed with
+deal_finder/unit_price.py, never here.
 
 Authoritative rules: SIMILAR_OUTPUT.md, SKILL.md ("Similar products and their
 offers"), VISION.md (evidence states, no affiliate links), README.md ("What the
@@ -18,6 +18,7 @@ from decimal import ROUND_HALF_UP, Decimal, InvalidOperation
 from typing import Any
 from urllib.parse import parse_qsl, urlsplit
 
+from . import unit_price as units
 from .decision import BANNED_PHRASES
 from .deception import parse_time
 from .evidence import EvidenceState
@@ -242,8 +243,43 @@ def _printed(size: Any) -> bool:
     return isinstance(size, dict) and _text(size.get("text")) and _text(size.get("quote"))
 
 
+def _printed_size(size: dict[str, Any]) -> units.Size | str:
+    """The one size in the size text, checked against the page's words; or why it cannot be used."""
+    parsed, quoted = units.parse_size_checked(size["text"]), units.parse_size_checked(size["quote"])
+    if not isinstance(parsed, units.Size):
+        return f"'{size['text']}' is not one printed size" + (f" ({parsed.reason})" if parsed else "")
+    if isinstance(quoted, units.SizeRefusal):
+        return f"the page's words '{size['quote']}' give no single size ({quoted.reason})"
+    if quoted is None or abs(quoted.base_total() - parsed.base_total()) > (
+        parsed.base_total() * units.CONSISTENT_WITHIN
+    ):
+        return f"size '{size['text']}' is not the size in the page's words '{size['quote']}'; never guess a size"
+    return parsed
+
+
+def _unit_problem(item: dict[str, Any], reference: dict[str, Any], unit: dict[str, Any]) -> str:
+    """Empty when the unit price is shelf price / printed size as deal_finder/unit_price.py computes it."""
+    sizes = [_printed_size(owner["size"]) for owner in (item, reference)]
+    reasons = [size for size in sizes if isinstance(size, str)]
+    if reasons:
+        return reasons[0] + "; write 'not comparable: <reason>'"
+    if sizes[0].family != sizes[1].family:
+        return f"different units ({sizes[0].family} vs {sizes[1].family}); write 'not comparable: different units'"
+    try:
+        price = units.Price.of(item["shelf_price"]["amount"], item["shelf_price"]["currency"])
+        value = units.unit_price(price, sizes[0], units.normalize_unit(unit["per"]))
+    except (KeyError, TypeError, ValueError, InvalidOperation):
+        return f"per must be a unit deal_finder/unit_price.py uses ({', '.join(units.FAMILY)}) beside a shelf price"
+    if isinstance(value, units.NotComparable):
+        return value.reason
+    expected = value.display().split()[0]
+    if _money(unit.get("amount")) != Decimal(expected):
+        return f"unit price must be shelf price / printed size, {expected} per {value.unit} (deal_finder/unit_price.py)"
+    return ""
+
+
 def _check_unit_prices(items: list[dict[str, Any]], reference: dict[str, Any]) -> list[str]:
-    problems, units = [], set()
+    problems, per = [], set()
     for item in items:
         unit = item.get("unit_price")
         both_printed = _printed(item.get("size")) and _printed(reference.get("size"))
@@ -253,15 +289,15 @@ def _check_unit_prices(items: list[dict[str, Any]], reference: dict[str, Any]) -
                     f"{item.get('id')}: a unit price needs both sizes printed on their pages; "
                     f"write '{SIZE_NOT_STATED}'"
                 )
-            if _money(unit.get("amount")) is None or not _text(unit.get("per")):
-                problems.append(f"{item.get('id')}.unit_price needs amount (decimal string) and per (the unit)")
-            units.add(unit.get("per"))
+            elif _unit_problem(item, reference, unit):
+                problems.append(f"{item.get('id')}.unit_price: {_unit_problem(item, reference, unit)}")
+            per.add(unit.get("per"))
         elif not both_printed and unit != SIZE_NOT_STATED:
             problems.append(f"{item.get('id')}.unit_price must be exactly '{SIZE_NOT_STATED}'")
         elif both_printed and not (isinstance(unit, str) and unit.startswith("not comparable: ")):
             problems.append(f"{item.get('id')}.unit_price must be an object or 'not comparable: <reason>'")
-    if len(units) > 1:
-        problems.append(f"unit prices must use one stated unit, not {sorted(map(str, units))}")
+    if len(per) > 1:
+        problems.append(f"unit prices must use one stated unit, not {sorted(map(str, per))}")
     return problems
 
 

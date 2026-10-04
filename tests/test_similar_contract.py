@@ -97,6 +97,25 @@ class RequiredFailuresTest(unittest.TestCase):
         candidate(answer, "C4")["unit_price"] = SIZE_NOT_STATED
         self.assertEqual(validate(answer), [])
 
+    def test_a_size_that_is_not_the_page_size_fails(self):
+        answer = example()
+        candidate(answer, "C4")["size"]["text"] = "12 oz"
+        self.assertFails(answer, "is not the size in the page's words")
+
+    def test_a_unit_price_is_recomputed_with_unit_price_py(self):
+        answer = example()
+        candidate(answer, "C4")["unit_price"]["amount"] = "2.08"
+        self.assertFails(answer, "3.57 per oz (deal_finder/unit_price.py)")
+        answer = example()
+        for item in [answer["reference"]] + answer["candidates"]:
+            item["unit_price"]["per"] = "100 g"
+        self.assertFails(answer, "per must be a unit deal_finder/unit_price.py uses")
+
+    def test_several_printed_sizes_with_none_chosen_fail(self):
+        answer = example()
+        answer["reference"]["size"] = {"text": "12 oz", "quote": "SIZE 12 oz 24 oz 5 lb"}
+        self.assertFails(answer, "several sizes and no variant chosen")
+
     def test_an_unsourced_candidate_fails(self):
         for field in ("url", "checked_at", "shelf_price"):
             answer = example()

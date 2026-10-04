@@ -61,13 +61,16 @@ code qualifies, the code line reads `none.` and says why.
   evidence state (`deal_finder/evidence.py`): `observed-now` when read on that
   page during this run. A search-result snippet price is `unverified` and never
   compared.
-- **Size and unit price.** `size` quotes the page, or is `null`. A unit price
-  (per ounce, per 100 g, per count; one unit for the whole answer) appears only
-  when **both** the item's and the reference's sizes are printed on their pages;
-  otherwise `unit_price` is exactly `not comparable: size not stated`. Never
-  guess a size. The number is shelf price ÷ printed size, computed by
-  `deal_finder/unit_price.py`; this contract checks only when it is allowed.
-  (The stored catalog's exact-size rule is separate and unchanged.)
+- **Size and unit price.** `size` quotes the page (`quote`) and states that
+  one size (`text`), or is `null`. A unit price (one unit for the whole answer:
+  `oz`, `lb`, `g`, `kg`, `fl oz`, `ml`, `l` or `ct`) appears only when **both**
+  the item's and the reference's sizes are printed on their pages; otherwise
+  `unit_price` is exactly `not comparable: size not stated` (or `not
+  comparable: <reason>` for different units or a page printing several sizes).
+  Never guess a size. The number is shelf price ÷ printed size as
+  `deal_finder/unit_price.py` computes it (2 decimals, 3 below 1.00, half up);
+  the checker recomputes it. (The stored catalog's exact-size rule is separate
+  and unchanged.)
 - **Similarity.** `attributes_used` lists the quality attributes, each marked
   must-have or may-vary and sourced (`page` with a quote, `shopper`, or
   `assumed` with why). Each candidate's `checks` marks every attribute `same`,
@@ -109,7 +112,7 @@ A real answer, read on 2026-10-04 (UTC) with the page reader and a browser,
 nothing added to a cart. The reference and the Brookshire's page came from one
 web search; The Well, Honest Coffee and Intelligentsia were picked from the
 repo's stored coffee pages and read again live. Prices may have changed since.
-Unit prices are shelf price ÷ printed ounces, rounded to the cent.
+Unit prices are shelf price ÷ printed ounces from `deal_finder/unit_price.py`.
 
 ```json
 {
