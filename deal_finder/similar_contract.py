@@ -1,9 +1,10 @@
 """Output contract for the skill's "similar products and their offers" mode.
 
-`validate(answer)` checks one answer JSON against SIMILAR_OUTPUT.md and returns
-violation messages (empty = the answer follows the contract). `render(answer)`
-prints the markdown answer in the template's fixed order. Pure functions: no
-network, no model, no credentials. Unit prices are recomputed with
+`validate(answer, now=None)` checks one answer JSON against SIMILAR_OUTPUT.md and
+returns violation messages (empty = the answer follows the contract); `now`, when
+given, is the checker's clock, so a finish time ahead of it is caught.
+`render(answer)` prints the markdown answer in the template's fixed order. Pure
+functions: no network, no model, no credentials. Unit prices are computed with
 deal_finder/unit_price.py, never here.
 
 Authoritative rules: SIMILAR_OUTPUT.md, SKILL.md ("Similar products and their
@@ -14,6 +15,7 @@ evidence rules mean": a seen code is never a lower price).
 from __future__ import annotations
 
 import re
+from datetime import datetime
 from decimal import ROUND_HALF_UP, Decimal, InvalidOperation
 from typing import Any
 from urllib.parse import parse_qsl, urlsplit
@@ -23,18 +25,32 @@ from .decision import BANNED_PHRASES
 from .deception import parse_time
 from .evidence import EvidenceState
 
-CONTRACT = "similar-v1"
+CONTRACT = "similar-v2"
 CODE_LABEL = "not tried, may not work"
 SIZE_NOT_STATED = "not comparable: size not stated"
+NO_UNIT = "none"  # the kind is sold one item at a time (shoes, earbuds): no size, no unit price
+MATERIAL = Decimal("0.02")  # a gap under 2% of the shopper's price is no meaningful saving
 MAX_PAGES = 10
 STATES = {state.value for state in EvidenceState}
 OFFER_STATES = {"retailer-stated", "unverified", "rejected"}
-OFFER_KINDS = {"code", "sale", "subscribe", "signup", "shipping-threshold", "other"}
+OFFER_KINDS = {"code", "sale", "subscribe", "autoship", "signup", "shipping-threshold", "bundle", "bulk", "other"}
 OFFER_WHERE = {"product page", "site banner", "store page"}
 GATES = {"none", "email", "sms", "first-order", "subscription", "member", "store-card", "app", "other"}
 STATUSES = {"compared", "flagged", "excluded"}
-CHECKS = {"same", "differs", "unknown"}
+CHECKS = {"same", "differs", "unknown", "not-read"}
 ATTRIBUTE_SOURCES = {"page", "shopper", "assumed"}
+PAGE_TEXT = "page-text"
+READS = {PAGE_TEXT, "reader-summary", "listing-page", "search-snippet"}
+READ_WORDS = {
+    PAGE_TEXT: "the page's own text",
+    "reader-summary": "a page reader's summary",
+    "listing-page": "a store listing, not the product's own page",
+    "search-snippet": "a search result's text",
+    "shopper": "you",
+}
+AVAILABILITY = {"in-stock", "out-of-stock", "not-stated"}
+UNITS = set(units.FAMILY) | {NO_UNIT}
+FROM_OR_RANGE = re.compile(r"\bfrom\s*:?\s*\$?\s*\d|\d\s*(?:-|–|—|\bto\b)\s*\$\s*\d", re.IGNORECASE)
 TRACKING_PARAM = re.compile(
     r"^(utm_.*|_gsid|gclid|gbraid|wbraid|fbclid|msclkid|mc_[a-z]+|_ga|ref|ref_|tag|aff.*|affiliate.*|irclickid|clickid|srsltid)$",
     re.IGNORECASE,
@@ -75,6 +91,11 @@ def _text(value: Any) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
 
+def _label(item: dict[str, Any], fallback: str) -> str:
+    """Name an item by its id in messages, so each problem points at the item that is wrong."""
+    return item["id"] if _text(item.get("id")) else fallback
+
+
 def url_problem(url: Any) -> str:
     """Empty when the URL is a plain http(s) link with no tracking or affiliate parameter."""
     if not _text(url) or urlsplit(url).scheme not in ("http", "https") or not urlsplit(url).hostname:
@@ -99,13 +120,14 @@ def code_price(shelf: Decimal, offer: dict[str, Any]) -> Decimal | None:
 
 
 def _code_offers(item: dict[str, Any]) -> list[dict[str, Any]]:
-    """Codes that may form the 'if a printed code applies' line: printed by the store, ungated."""
+    """Codes that may form the 'if a printed code applies' line: printed by the store, read in its text, ungated."""
     return [
         offer
         for offer in item.get("offers") or []
         if isinstance(offer, dict)
         and offer.get("kind") == "code"
         and offer.get("state") == "retailer-stated"
+        and offer.get("read") == PAGE_TEXT
         and offer.get("gate") == "none"
     ]
 
@@ -115,17 +137,113 @@ def _shelf(item: dict[str, Any]) -> Decimal | None:
     return _money(price.get("amount")) if isinstance(price, dict) else None
 
 
-def _eligible(answer: dict[str, Any]) -> list[dict[str, Any]]:
-    """Items the two lowest lines may name: compared, read on their own page now, in the asked currency."""
-    reference = dict(answer.get("reference") or {}, status="compared")
+def _size(item: dict[str, Any]) -> units.Size | str | None:
+    """The item's one printed size; a string saying why it cannot be used; None when no size is given."""
+    size = item.get("size")
+    if size is None:
+        return None
+    if not (isinstance(size, dict) and _text(size.get("text")) and _text(size.get("quote"))):
+        return "must quote the page's own words (quote) and state one size (text); never guess a size (use null)"
+    parsed, quoted = units.parse_size_checked(size["text"]), units.parse_size_checked(size["quote"])
+    if not isinstance(parsed, units.Size):
+        reason = f" ({parsed.reason})" if parsed else ""
+        return f"'{size['text']}' is not one size{reason}; write it with {units.ACCEPTED_UNITS}"
+    if isinstance(quoted, units.SizeRefusal):
+        return f"the page's words '{size['quote']}' give no single size ({quoted.reason}); never guess a size"
+    if quoted is None or abs(quoted.base_total() - parsed.base_total()) > parsed.base_total() * units.CONSISTENT_WITHIN:
+        return f"size '{size['text']}' is not the size in the page's words '{size['quote']}'; never guess a size"
+    return parsed
+
+
+def _confirmed_size(item: dict[str, Any]) -> units.Size | None:
+    """A size that may decide a comparison: read in the page's own text (or given by the shopper)."""
+    size = _size(item)
+    read = (item.get("size") or {}).get("read") if isinstance(item.get("size"), dict) else None
+    return size if isinstance(size, units.Size) and read in (PAGE_TEXT, "shopper") else None
+
+
+def _why_not_counted(item: dict[str, Any], currency: str) -> list[tuple[str, str]]:
+    """Why this item's price cannot enter a lowest line, as (code, the shopper's words); empty = it can."""
+    reasons = []
+    price = item.get("shelf_price") if isinstance(item.get("shelf_price"), dict) else {}
+    if _shelf(item) is None:
+        return [("price", "no price could be read on its page")]
+    if price.get("currency") != currency:
+        reasons.append(("currency", f"priced in {price.get('currency')}; prices are never converted"))
+    if price.get("state") != "observed-now":
+        reasons.append(("state", "its price was not read on its own page during this run"))
+    if price.get("read") != PAGE_TEXT:
+        words = READ_WORDS.get(price.get("read"), "a read it does not state")
+        reasons.append(("read", f"its price comes from {words}, not confirmed in the page's own text"))
+    if FROM_OR_RANGE.search(price.get("quote") or ""):
+        reasons.append(("range", "its page prints a 'from' price or a range, not one price for one size"))
+    stock = item.get("availability") if isinstance(item.get("availability"), dict) else {}
+    if stock.get("state") == "out-of-stock":
+        reasons.append(("out", f"out of stock on its page: \"{stock.get('quote', '')}\""))
+    elif stock.get("read") != PAGE_TEXT and stock.get("state") != "not-stated":
+        words = READ_WORDS.get(stock.get("read"), "a read it does not state")
+        reasons.append(("stock-read", f"its stock comes from {words}, not confirmed in the page's own text"))
+    return reasons
+
+
+def reference_reason(answer: dict[str, Any]) -> str:
+    """Why the shopper's own product is not counted in the lowest lines; empty when it is."""
+    reference = answer.get("reference") or {}
+    if reference.get("from") == "description":
+        return "described by you; no page was read"
+    reasons = _why_not_counted(reference, (answer.get("request") or {}).get("currency"))
+    return reasons[0][1] if reasons else ""
+
+
+def _counted(answer: dict[str, Any]) -> list[dict[str, Any]]:
+    """Items the lowest lines may name: compared, priced and in stock in the page's own text, in the asked currency."""
     currency = (answer.get("request") or {}).get("currency")
+    reference = answer.get("reference") or {}
+    pool = [] if reference.get("from") == "description" else [reference]
+    pool += [c for c in answer.get("candidates") or [] if isinstance(c, dict) and c.get("status") == "compared"]
+    return [item for item in pool if not _why_not_counted(item, currency)]
+
+
+def _same_quantity(item: dict[str, Any], answer: dict[str, Any]) -> bool | None:
+    """True when the item is the same size as the shopper's; None when either size is unknown."""
+    if answer.get("unit") == NO_UNIT:
+        return True
+    mine, theirs = _confirmed_size(answer.get("reference") or {}), _confirmed_size(item)
+    if mine is None or theirs is None:
+        return None
+    return mine.family == theirs.family and (
+        abs(mine.base_total() - theirs.base_total()) <= mine.base_total() * units.CONSISTENT_WITHIN
+    )
+
+
+def _unit_amount(item: dict[str, Any], answer: dict[str, Any]) -> Decimal | None:
+    unit = item.get("unit_price")
+    if not isinstance(unit, dict) or unit.get("currency") != (answer.get("request") or {}).get("currency"):
+        return None
+    try:
+        if units.normalize_unit(str(unit.get("per"))) != answer.get("unit"):
+            return None
+    except ValueError:
+        return None
+    return _money(unit.get("amount"))
+
+
+def _unit_counted(answer: dict[str, Any]) -> list[dict[str, Any]]:
     return [
-        item
-        for item in [reference] + [c for c in answer.get("candidates") or [] if isinstance(c, dict)]
-        if item.get("status") == "compared"
-        and _shelf(item) is not None
-        and item["shelf_price"].get("state") == "observed-now"
-        and item["shelf_price"].get("currency") == currency
+        item for item in _counted(answer)
+        if _unit_amount(item, answer) is not None and _confirmed_size(item) is not None
+    ]
+
+
+def _lower_not_counted(answer: dict[str, Any], bar: Decimal | None, amount, keep) -> list[str]:
+    """Ids of candidates not counted whose amount is under the bar: each must be named with why."""
+    if bar is None:
+        return []
+    counted = {id(item) for item in _counted(answer)}
+    return [
+        c.get("id")
+        for c in answer.get("candidates") or []
+        if isinstance(c, dict) and id(c) not in counted and amount(c) is not None and amount(c) < bar and keep(c)
     ]
 
 
@@ -141,12 +259,17 @@ def _walk_words(value: Any, key: str = "") -> list[str]:
     return []
 
 
+def _check_read(where: str, value: Any, extra: tuple[str, ...] = ()) -> list[str]:
+    allowed = sorted(READS | set(extra))
+    return [] if value in allowed else [f"{where}.read must say how it was read, one of {allowed}"]
+
+
 def _check_offer(where: str, offer: Any) -> list[str]:
     if not isinstance(offer, dict):
         return [f"{where} must be an object"]
     problems = []
     if offer.get("kind") not in OFFER_KINDS:
-        problems.append(f"{where}.kind must be one of {sorted(OFFER_KINDS)}")
+        problems.append(f"{where}.kind must be one of {sorted(OFFER_KINDS)}; anything else is 'other' with the page's words")
     if not _text(offer.get("quote")):
         problems.append(f"{where} needs the page's own words in quote")
     if offer.get("where") not in OFFER_WHERE:
@@ -155,12 +278,20 @@ def _check_offer(where: str, offer: Any) -> list[str]:
         problems.append(f"{where}.state must be one of {sorted(OFFER_STATES)}; nothing was tried in a cart")
     if offer.get("gate") not in GATES:
         problems.append(f"{where}.gate must be one of {sorted(GATES)}")
+    problems.extend(_check_read(where, offer.get("read")))
+    if offer.get("read") == "search-snippet" and offer.get("state") != "unverified":
+        problems.append(f"{where} comes from a search result's text, so its state is 'unverified'")
     if not _time(offer.get("seen_at")):
-        problems.append(f"{where}.seen_at must be an absolute timestamp")
+        problems.append(f"{where}.seen_at must be an absolute timestamp from date -u")
     if offer.get("kind") == "code":
         code = offer.get("code")
         if not _text(code) or code.lower() not in (offer.get("quote") or "").lower():
             problems.append(f"{where} code must appear in the page's own words (quote)")
+    if "discount" in offer and not (
+        isinstance(offer["discount"], dict)
+        and (_money(offer["discount"].get("percent")) is not None or _money(offer["discount"].get("amount")) is not None)
+    ):
+        problems.append(f"{where}.discount must be {{\"percent\": \"20\"}} or {{\"amount\": \"5.00\"}} as printed")
     return problems
 
 
@@ -177,12 +308,19 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
         if problem:
             problems.append(f"{where} is unsourced: url {problem}")
         if not _time(item.get("checked_at")):
-            problems.append(f"{where} is unsourced: checked_at must be an absolute timestamp")
+            problems.append(f"{where} is unsourced: checked_at must be an absolute timestamp from date -u")
+        stock = item.get("availability")
+        if not isinstance(stock, dict) or stock.get("state") not in AVAILABILITY:
+            problems.append(f"{where}.availability.state must be one of {sorted(AVAILABILITY)}, as its page prints it")
+        else:
+            if stock["state"] != "not-stated" and not _text(stock.get("quote")):
+                problems.append(f"{where}.availability needs the page's own words in quote")
+            problems.extend(_check_read(f"{where}.availability", stock.get("read")))
     if not reference and not _text(item.get("found_via")):
         problems.append(f"{where}.found_via must say how it was found")
 
     price = item.get("shelf_price")
-    if price is None and not described:
+    if price is None and not reference:
         problems.append(f"{where} is unsourced: shelf_price is required")
     elif not isinstance(price, dict) and price is not None:
         problems.append(f"{where}.shelf_price must be an object")
@@ -199,10 +337,17 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
             problems.append(f"{where}.shelf_price.state must be an evidence state")
         if not _text(price.get("currency")):
             problems.append(f"{where}.shelf_price.currency is required")
+        problems.extend(_check_read(f"{where}.shelf_price", price.get("read")))
+        if price.get("read") == "search-snippet":
+            problems.append(f"{where}.shelf_price comes from a search result: a snippet price never enters the answer")
 
     size = item.get("size")
-    if size is not None and not _printed(size):
-        problems.append(f"{where}.size must quote the page's own words; never guess a size (use null)")
+    if size is not None:
+        found = _size(item)
+        if isinstance(found, str):
+            problems.append(f"{where}.size: {found}")
+        if isinstance(size, dict):
+            problems.extend(_check_read(f"{where}.size", size.get("read"), ("shopper",) if reference else ()))
 
     offers = item.get("offers")
     if not isinstance(offers, list):
@@ -215,6 +360,8 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
         if item.get("from") not in ("page", "description"):
             problems.append(f"{where}.from must be 'page' or 'description'")
         return problems
+    if "same_product" in item and not isinstance(item["same_product"], bool):
+        problems.append(f"{where}.same_product must be true or false")
     status = item.get("status")
     if status not in STATUSES:
         problems.append(f"{where}.status must be one of {sorted(STATUSES)}")
@@ -224,145 +371,202 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
     for name in names:
         if checks.get(name) not in CHECKS:
             problems.append(f"{where}.checks['{name}'] must be one of {sorted(CHECKS)}")
-    if any(checks.get(name) == "differs" for name in musts) and status != "excluded":
+    fails_must = any(checks.get(name) == "differs" for name in musts)
+    if fails_must and status != "excluded":
         problems.append(f"{where} fails a must-have attribute and must be excluded")
-    elif any(checks.get(name) == "unknown" for name in musts) and status == "compared":
-        problems.append(f"{where} has a must-have its page does not show; flag it, do not compare it")
-    if status == "compared" and isinstance(price, dict) and price.get("state") != "observed-now":
-        problems.append(f"{where} is compared but its shelf price was not read on its own page now")
-    if status != "excluded" and isinstance(price, dict) and price.get("currency") != currency:
+    elif any(checks.get(name) in ("unknown", "not-read") for name in musts) and status == "compared":
+        problems.append(f"{where} has a must-have its page does not show (or you did not read); flag it, do not compare it")
+    reasons = dict(_why_not_counted(item, currency)) if isinstance(price, dict) else {}
+    stock = item.get("availability") if isinstance(item.get("availability"), dict) else {}
+    other_currency = "currency" in reasons
+    if other_currency and status != "excluded":
         problems.append(f"{where} is in another currency; exclude it (prices are never converted)")
+    if stock.get("state") == "out-of-stock":
+        if stock.get("read") == PAGE_TEXT and status != "excluded":
+            problems.append(f"{where} is out of stock on its page (\"{stock.get('quote', '')}\"); exclude it")
+        elif stock.get("read") != PAGE_TEXT and status != "flagged" and not (fails_must or other_currency):
+            problems.append(
+                f"{where}'s out-of-stock state comes from {READ_WORDS.get(stock.get('read'), 'an unstated read')}; "
+                "confirm it in the page's own text (browser text or raw HTML) or flag it"
+            )
+    if status == "compared":
+        if "state" in reasons:
+            problems.append(f"{where} is compared but its shelf price was not read on its own page now")
+        if "read" in reasons:
+            problems.append(f"{where} is compared but {reasons['read']}; confirm the price in the page's own text "
+                            "(browser text or raw HTML) or flag it")
+        if "range" in reasons:
+            problems.append(f"{where} is compared but {reasons['range']}; open the size you compare and quote "
+                            "that price, or flag it")
+        if "stock-read" in reasons:
+            problems.append(f"{where} is compared but {reasons['stock-read']}; confirm it or flag it")
     for field, label in (("similar_because", "similar-because reason"), ("not_comparable", "not-comparable reason")):
-        reasons = item.get(field)
-        if not isinstance(reasons, list) or not reasons or not all(_text(r) for r in reasons):
+        reasons_given = item.get(field)
+        if not isinstance(reasons_given, list) or not reasons_given or not all(_text(r) for r in reasons_given):
             problems.append(f"{where} is missing a {label} ({field} must be a non-empty list)")
     return problems
 
 
-def _printed(size: Any) -> bool:
-    return isinstance(size, dict) and _text(size.get("text")) and _text(size.get("quote"))
-
-
-def _printed_size(size: dict[str, Any]) -> units.Size | str:
-    """The one size in the size text, checked against the page's words; or why it cannot be used."""
-    parsed, quoted = units.parse_size_checked(size["text"]), units.parse_size_checked(size["quote"])
-    if not isinstance(parsed, units.Size):
-        return f"'{size['text']}' is not one printed size" + (f" ({parsed.reason})" if parsed else "")
-    if isinstance(quoted, units.SizeRefusal):
-        return f"the page's words '{size['quote']}' give no single size ({quoted.reason})"
-    if quoted is None or abs(quoted.base_total() - parsed.base_total()) > (
-        parsed.base_total() * units.CONSISTENT_WITHIN
-    ):
-        return f"size '{size['text']}' is not the size in the page's words '{size['quote']}'; never guess a size"
-    return parsed
-
-
-def _unit_problem(item: dict[str, Any], reference: dict[str, Any], unit: dict[str, Any]) -> str:
-    """Empty when the unit price is shelf price / printed size as deal_finder/unit_price.py computes it."""
-    sizes = [_printed_size(owner["size"]) for owner in (item, reference)]
-    reasons = [size for size in sizes if isinstance(size, str)]
-    if reasons:
-        return reasons[0] + "; write 'not comparable: <reason>'"
-    if sizes[0].family != sizes[1].family:
-        return f"different units ({sizes[0].family} vs {sizes[1].family}); write 'not comparable: different units'"
-    try:
-        price = units.Price.of(item["shelf_price"]["amount"], item["shelf_price"]["currency"])
-        value = units.unit_price(price, sizes[0], units.normalize_unit(unit["per"]))
-    except (KeyError, TypeError, ValueError, InvalidOperation):
-        return f"per must be a unit deal_finder/unit_price.py uses ({', '.join(units.FAMILY)}) beside a shelf price"
-    if isinstance(value, units.NotComparable):
-        return value.reason
-    expected = value.display().split()[0]
-    if _money(unit.get("amount")) != Decimal(expected):
-        return f"unit price must be shelf price / printed size, {expected} per {value.unit} (deal_finder/unit_price.py)"
-    return ""
-
-
-def _check_unit_prices(items: list[dict[str, Any]], reference: dict[str, Any]) -> list[str]:
-    problems, per = [], set()
-    for item in items:
-        unit = item.get("unit_price")
-        both_printed = _printed(item.get("size")) and _printed(reference.get("size"))
-        if isinstance(unit, dict):
-            if not both_printed:
+def _check_unit_prices(answer: dict[str, Any], items: list[tuple[str, dict[str, Any]]]) -> list[str]:
+    unit = answer.get("unit")
+    if unit not in UNITS:
+        return [
+            f"unit must be one of {sorted(UNITS)}: the one unit for the whole answer (US coffee: oz), "
+            "or 'none' when the kind is sold one item at a time (shoes, earbuds)"
+        ]
+    problems = []
+    for label, item in items:
+        given, size = item.get("unit_price"), _size(item)
+        if unit == NO_UNIT:
+            if item.get("size") is not None:
+                problems.append(f"{label}.size must be null when unit is 'none'; if its page prints a size or a "
+                                "count, the answer has a unit: use it")
+            if given is not None:
+                problems.append(f"{label}.unit_price must be left out when unit is 'none' (no unit applies)")
+            continue
+        words = isinstance(given, str) and given.startswith("not comparable: ") and len(given) > 16
+        if isinstance(size, str):
+            continue  # the size itself is reported broken
+        if size is None:
+            if isinstance(given, dict):
+                problems.append(f"{label}.unit_price needs a size printed on its page; leave it out or write "
+                                f"'{SIZE_NOT_STATED}'")
+            elif given is not None and not words:
+                problems.append(f"{label}.unit_price must be left out or 'not comparable: <reason>'")
+            continue
+        if units.FAMILY[size.unit] != units.FAMILY[unit]:
+            if not words:
+                problems.append(f"{label}.unit_price: its size is a {size.family} and the answer's unit is "
+                                f"'{unit}'; write 'not comparable: different units'")
+            continue
+        price = item.get("shelf_price") if isinstance(item.get("shelf_price"), dict) else {}
+        try:
+            value = units.unit_price(units.Price.of(price["amount"], price["currency"]), size, unit)
+        except (KeyError, TypeError, ValueError, InvalidOperation):
+            continue  # the shelf price itself is reported broken
+        expected = value.display().split()[0]
+        if isinstance(given, dict):
+            per = given.get("per")
+            try:
+                same_unit = units.normalize_unit(str(per)) == unit
+            except ValueError:
+                same_unit = False
+            if not same_unit:
+                problems.append(f"{label}.unit_price.per must be the answer's unit '{unit}', not {per!r}")
+            elif _money(given.get("amount")) != Decimal(expected) or given.get("currency") != price.get("currency"):
                 problems.append(
-                    f"{item.get('id')}: a unit price needs both sizes printed on their pages; "
-                    f"write '{SIZE_NOT_STATED}'"
+                    f"{label}.unit_price must be shelf price / printed size: {expected} {price.get('currency')} "
+                    f"per {unit} (2 decimals, 3 decimals under 1.00, half up; deal_finder/unit_price.py)"
                 )
-            elif _unit_problem(item, reference, unit):
-                problems.append(f"{item.get('id')}.unit_price: {_unit_problem(item, reference, unit)}")
-            per.add(unit.get("per"))
-        elif not both_printed and unit != SIZE_NOT_STATED:
-            problems.append(f"{item.get('id')}.unit_price must be exactly '{SIZE_NOT_STATED}'")
-        elif both_printed and not (isinstance(unit, str) and unit.startswith("not comparable: ")):
-            problems.append(f"{item.get('id')}.unit_price must be an object or 'not comparable: <reason>'")
-    if len(per) > 1:
-        problems.append(f"unit prices must use one stated unit, not {sorted(map(str, per))}")
+        elif price.get("currency") == (answer.get("request") or {}).get("currency"):
+            problems.append(
+                f"{label}.unit_price must be {{\"amount\": \"{expected}\", \"currency\": \"{price.get('currency')}\", "
+                f"\"per\": \"{unit}\"}}: its size is printed, so its unit price is shown"
+            )
+        elif not words:
+            problems.append(f"{label}.unit_price must be an object or 'not comparable: <reason>'")
     return problems
 
 
-def _check_lowest(answer: dict[str, Any], items: list[dict[str, Any]]) -> list[str]:
+def _check_lower(answer: dict[str, Any], key: str, required: list[str], ids: dict[str, Any]) -> list[str]:
+    entries = (answer.get("lowest") or {}).get(key)
+    if not isinstance(entries, list):
+        return [f"lowest.{key} must be a list (empty when nothing cheaper was left out)"]
+    counted = {id(item) for item in _counted(answer)}
+    problems, listed = [], set()
+    for index, entry in enumerate(entries):
+        item = ids.get(entry.get("id")) if isinstance(entry, dict) else None
+        if item is None or not _text(entry.get("why")):
+            problems.append(f"lowest.{key}[{index}] needs the id of an item in this answer and why it is not counted")
+        elif id(item) in counted:
+            problems.append(f"lowest.{key}[{index}] names {entry['id']}, which is counted; list only items not counted")
+        else:
+            listed.add(entry["id"])
+    missing = [item_id for item_id in required if item_id not in listed]
+    if missing:
+        problems.append(f"lowest.{key} must name each cheaper item that is not counted (flagged or excluded), "
+                        f"with why: {missing}")
+    return problems
+
+
+def _check_lowest(answer: dict[str, Any]) -> list[str]:
     lowest = answer.get("lowest")
     if not isinstance(lowest, dict):
-        return ["lowest is required (shelf, unit, if_code)"]
+        return ["lowest is required (shelf, shelf_lower_not_counted, unit, unit_lower_not_counted, if_code)"]
     problems = []
-    eligible = _eligible(answer)
-    by_id = {item.get("id"): item for item in eligible}
-    shelf = lowest.get("shelf")
-    if not eligible:
-        if shelf is not None:
-            problems.append("lowest.shelf must be null: no compared item has a shelf price read on its page")
-    elif not isinstance(shelf, dict) or shelf.get("id") not in by_id:
-        problems.append("lowest.shelf must name a compared item with a shelf price read on its page")
-    else:
-        floor = min(_shelf(item) for item in eligible)
-        if _money(shelf.get("amount")) != _shelf(by_id[shelf["id"]]) or _shelf(by_id[shelf["id"]]) != floor:
-            problems.append(
-                f"lowest.shelf must be the lowest compared shelf price ({floor}) exactly as its page printed it; "
-                "a printed code never lowers a price"
-            )
-        listed = {
-            entry.get("id")
-            for entry in shelf.get("also_lower_not_counted") or []
-            if isinstance(entry, dict) and _text(entry.get("why"))
-        }
-        hidden = [
-            item.get("id")
-            for item in items
-            if item.get("status") == "flagged" and _shelf(item) is not None and _shelf(item) < floor
-            and item["shelf_price"].get("currency") == (answer.get("request") or {}).get("currency")
-            and item.get("id") not in listed
-        ]
-        if hidden:
-            problems.append(f"lowest.shelf.also_lower_not_counted must name each cheaper flagged item and why: {hidden}")
+    currency = (answer.get("request") or {}).get("currency")
+    reference = answer.get("reference") or {}
+    ids = {item.get("id"): item for item in [reference] + list(answer.get("candidates") or []) if isinstance(item, dict)}
+    counted = _counted(answer)
+    unit = answer.get("unit")
 
-    unit = lowest.get("unit")
-    unit_prices = {
-        item.get("id"): _money(item["unit_price"].get("amount"))
-        for item in eligible
-        if isinstance(item.get("unit_price"), dict) and _money(item["unit_price"].get("amount")) is not None
-    }
-    if unit is not None and (
-        not isinstance(unit, dict)
-        or unit_prices.get(unit.get("id")) != _money(unit.get("amount"))
-        or _money(unit.get("amount")) != min(unit_prices.values(), default=None)
-    ):
-        problems.append("lowest.unit must be the lowest unit price among compared items with both sizes printed")
+    mine = _confirmed_size(reference)
+    pool = [item for item in counted if _same_quantity(item, answer) is True]
+    shelf = lowest.get("shelf")
+    if pool:
+        floor = min(_shelf(item) for item in pool)
+        chosen = ids.get(shelf.get("id")) if isinstance(shelf, dict) else None
+        if chosen is not None and any(chosen is item for item in counted) and _same_quantity(chosen, answer) is False:
+            problems.append(
+                f"lowest.shelf compares only items the same size as yours ({reference['size']['text']}); "
+                f"{shelf['id']} is {chosen['size']['text']}: it is compared per {unit} on the unit line"
+            )
+        elif chosen is None or not any(chosen is item for item in pool) or _money(shelf.get("amount")) != _shelf(chosen) \
+                or _shelf(chosen) != floor:
+            problems.append(
+                f"lowest.shelf must be the lowest counted shelf price at your size ({floor}), exactly as its page "
+                "printed it; a printed code never lowers a price"
+            )
+    elif shelf is not None:
+        if unit != NO_UNIT and mine is None:
+            why = "your product's size is not printed in its page's text: ask the shopper for it"
+        elif not counted:
+            why = "no item's price could be counted"
+        else:
+            why = f"no counted item is the same size as yours; compare them per {unit}"
+        problems.append(f"lowest.shelf must be null: {why}")
+    in_currency = lambda c: _shelf(c) if isinstance(c.get("shelf_price"), dict) and \
+        c["shelf_price"].get("currency") == currency else None
+    bar = min((_shelf(item) for item in pool), default=None)
+    if bar is None and reference.get("from") == "page" and (unit == NO_UNIT or mine is not None):
+        bar = in_currency(reference)  # nothing counted at your size: cheaper than yours is still named
+    required = _lower_not_counted(answer, bar, in_currency, lambda c: _same_quantity(c, answer) is not False)
+    problems.extend(_check_lower(answer, "shelf_lower_not_counted", required, ids))
+
+    by_unit = _unit_counted(answer)
+    floor_u = min((_unit_amount(item, answer) for item in by_unit), default=None)
+    unit_amount = lambda c: _unit_amount(c, answer)
+    lower_u = _lower_not_counted(answer, floor_u, unit_amount, lambda c: not any(c is item for item in by_unit))
+    needed = bool(by_unit) and (len(by_unit) > 1 or by_unit[0] is not reference or bool(lower_u))
+    line = lowest.get("unit")
+    if needed:
+        chosen = ids.get(line.get("id")) if isinstance(line, dict) else None
+        if chosen is None or not any(chosen is item for item in by_unit) or _money(line.get("amount")) != floor_u \
+                or unit_amount(chosen) != floor_u:
+            problems.append(
+                f"lowest.unit must be the lowest unit price among counted items with a printed size ({floor_u} per "
+                f"{unit})"
+            )
+    elif line is not None:
+        problems.append("lowest.unit must be null: no counted item other than yours has a unit price from a "
+                        "printed size, and nothing cheaper per unit was left out")
+    problems.extend(_check_lower(answer, "unit_lower_not_counted", lower_u if needed else [], ids))
 
     if_code = lowest.get("if_code")
-    priced_codes = [(code_price(_shelf(item), offer), item, offer) for item in eligible for offer in _code_offers(item)]
+    priced_codes = [(code_price(_shelf(item), offer), item, offer) for item in counted for offer in _code_offers(item)]
     options = [option for option in priced_codes if option[0] is not None]
     if if_code is None:
         if options:
-            problems.append("lowest.if_code is missing although a compared item prints an ungated code")
+            problems.append("lowest.if_code is missing although a counted item prints an ungated code with its "
+                            "discount in numbers")
         if not _text(lowest.get("if_code_none")):
             problems.append("lowest.if_code_none must say why there is no code line")
         return problems
     if not isinstance(if_code, dict) or if_code.get("label") != CODE_LABEL:
-        problems.append(f"lowest.if_code must carry the label '{CODE_LABEL}'")
+        problems.append(f"lowest.if_code must carry \"label\": \"{CODE_LABEL}\"")
         return problems
     match = [o for o in options if o[1].get("id") == if_code.get("id") and o[2].get("code") == if_code.get("code")]
-    item = next((i for i in items + [answer.get("reference") or {}] if i.get("id") == if_code.get("id")), {})
+    item = ids.get(if_code.get("id")) or {}
     used = next((o for o in item.get("offers") or [] if isinstance(o, dict) and o.get("code") == if_code.get("code")), {})
     if used and used.get("gate") != "none":
         problems.append(
@@ -371,7 +575,8 @@ def _check_lowest(answer: dict[str, Any], items: list[dict[str, Any]]) -> list[s
         )
     elif not match:
         problems.append(
-            "lowest.if_code must use an ungated code printed by the store on a compared item, with its discount stated"
+            "lowest.if_code must use an ungated code the store printed on a counted item, read in the page's own "
+            "text, with its discount stated in numbers (offer.discount)"
         )
     elif _money(if_code.get("amount")) != match[0][0] or match[0][0] != min(o[0] for o in options):
         problems.append(
@@ -381,12 +586,47 @@ def _check_lowest(answer: dict[str, Any], items: list[dict[str, Any]]) -> list[s
     return problems
 
 
-def validate(answer: Any) -> list[str]:
+def _check_times(answer: dict[str, Any], items: list[tuple[str, dict[str, Any]]], now: datetime | None) -> list[str]:
+    run = answer.get("run") if isinstance(answer.get("run"), dict) else {}
+    if not (_time(run.get("started_at")) and _time(run.get("finished_at"))):
+        return ["run.started_at and run.finished_at must be absolute timestamps from date -u"]
+    start, end = parse_time(run["started_at"]), parse_time(run["finished_at"])
+    if end < start:
+        return ["run.finished_at is before run.started_at"]
+    problems = []
+    if now is not None and end > now:
+        problems.append(f"run.finished_at ({run['finished_at']}) is later than now; copy times from date -u, "
+                        "never estimate them")
+    stamps = []
+    for label, item in items:
+        stamps.append((f"{label}.checked_at", item.get("checked_at")))
+        for index, offer in enumerate(item.get("offers") or []):
+            if isinstance(offer, dict):
+                stamps.append((f"{label}.offers[{index}].seen_at", offer.get("seen_at")))
+    for where, stamp in stamps:
+        if _time(stamp) and not start <= parse_time(stamp) <= end:
+            problems.append(f"{where} ({stamp}) is outside the run ({run['started_at']} to {run['finished_at']}); "
+                            "run date -u right after each read and copy it")
+    return problems
+
+
+def _rank(item: dict[str, Any]) -> tuple[bool, bool, int]:
+    same = sum(1 for v in (item.get("checks") or {}).values() if v == "same")
+    return (item.get("same_product") is not True, item.get("status") == "excluded", -same)
+
+
+def _describe_rank(item: dict[str, Any]) -> str:
+    same, excluded, count = _rank(item)
+    kind = "same product" if not same else "similar"
+    return f"{item.get('id')}: {kind}, {'excluded' if excluded else item.get('status')}, {-count} same"
+
+
+def validate(answer: Any, now: datetime | None = None) -> list[str]:
     """Return every way this answer breaks SIMILAR_OUTPUT.md (empty list = it follows the contract)."""
     if not isinstance(answer, dict):
         return ["answer must be a JSON object"]
     if answer.get("contract") != CONTRACT:
-        return [f"contract must be '{CONTRACT}'"]
+        return [f"contract must be '{CONTRACT}' (SIMILAR_OUTPUT.md)"]
     problems = []
     request = answer.get("request") if isinstance(answer.get("request"), dict) else {}
     currency = request.get("currency", "")
@@ -414,23 +654,33 @@ def validate(answer: Any) -> list[str]:
             problems.append(f"{where} comes from the page and must quote it")
 
     reference = answer.get("reference") if isinstance(answer.get("reference"), dict) else {}
-    problems.extend(_check_item("reference", reference, names, musts, currency, reference=True))
+    problems.extend(_check_item(_label(reference, "reference"), reference, names, musts, currency, reference=True))
     candidates = answer.get("candidates")
     if not isinstance(candidates, list):
         problems.append("candidates must be a list")
         candidates = []
+    labelled = []
     for index, candidate in enumerate(candidates):
-        problems.extend(_check_item(f"candidates[{index}]", candidate, names, musts, currency, reference=False))
-    items = [c for c in candidates if isinstance(c, dict)]
+        label = _label(candidate, f"candidates[{index}]") if isinstance(candidate, dict) else f"candidates[{index}]"
+        problems.extend(_check_item(label, candidate, names, musts, currency, reference=False))
+        if isinstance(candidate, dict):
+            labelled.append((label, candidate))
+    items = [c for _, c in labelled]
     ids = [reference.get("id")] + [c.get("id") for c in items]
     if len(set(ids)) != len(ids):
         problems.append("ids must be unique")
-    problems.extend(_check_unit_prices(([reference] if reference.get("from") == "page" else []) + items, reference))
+    paged = ([(_label(reference, "reference"), reference)] if reference.get("from") == "page" else []) + labelled
+    problems.extend(_check_unit_prices(answer, ([(_label(reference, "reference"), reference)]) + labelled))
 
-    order = [(c.get("status") == "excluded", -sum(1 for v in (c.get("checks") or {}).values() if v == "same")) for c in items]
-    if order != sorted(order):
-        problems.append("candidates must be ranked most similar first (count of 'same' checks), excluded ones last")
-    problems.extend(_check_lowest(answer, items))
+    for before, after in zip(items, items[1:]):
+        if _rank(before) > _rank(after):
+            problems.append(
+                "candidates must be ranked: the same product at another store first, then most 'same' checks, "
+                f"excluded last within each; {_describe_rank(after)} belongs before {_describe_rank(before)}"
+            )
+            break
+    if answer.get("unit") in UNITS:
+        problems.extend(_check_lowest(answer))
 
     blocked = answer.get("blocked")
     if not isinstance(blocked, list):
@@ -453,10 +703,7 @@ def validate(answer: Any) -> list[str]:
         problems.append(f"run.pages_read ({read}) is fewer than the distinct pages named ({len(urls)})")
     if not isinstance(run.get("searches"), list) or not run.get("searches"):
         problems.append("run.searches must list the searches made")
-    if not (_time(run.get("started_at")) and _time(run.get("finished_at"))) or (
-        parse_time(run["finished_at"]) < parse_time(run["started_at"])
-    ):
-        problems.append("run.started_at and run.finished_at must be absolute timestamps in order")
+    problems.extend(_check_times(answer, paged, now))
     for field in ("took", "cost", "stopped_because"):
         if not _text(run.get(field)):
             problems.append(f"run.{field} is required ('not reported' when the runtime does not say)")
@@ -476,20 +723,132 @@ def _price(amount: Any, currency: str) -> str:
     return f"${amount}" if currency == "USD" else f"{amount} {currency}"
 
 
-def _unit(item: dict[str, Any]) -> str:
+def _unit_text(item: dict[str, Any]) -> str:
     unit = item.get("unit_price")
     if isinstance(unit, dict):
         return f"{_price(unit['amount'], unit.get('currency', 'USD'))} per {unit['per']}"
-    return str(unit)
+    return str(unit) if unit else ""
 
 
-def _size(item: dict[str, Any]) -> str:
-    return item["size"]["text"] if isinstance(item.get("size"), dict) else "size not stated"
+def _size_text(item: dict[str, Any], answer: dict[str, Any]) -> str:
+    """' for 12 oz ($1.63 per oz)', ', size not stated', or '' when no unit applies."""
+    if answer["unit"] == NO_UNIT:
+        return ""
+    if not isinstance(item.get("size"), dict):
+        return ", size not stated"
+    unit = _unit_text(item)
+    return f" for {item['size']['text']}" + (f" ({unit})" if unit else "")
+
+
+def _price_text(item: dict[str, Any]) -> str:
+    price = item.get("shelf_price")
+    if not isinstance(price, dict):
+        return "no price read"
+    text = _price(price["amount"], price["currency"])
+    if price.get("read") != PAGE_TEXT:
+        text += f" (from {READ_WORDS.get(price.get('read'), 'an unstated read')}, not confirmed in the page's own text)"
+    return text
+
+
+def _stock_text(item: dict[str, Any]) -> str:
+    stock = item.get("availability") or {}
+    text = {"in-stock": f"in stock (\"{stock.get('quote', '')}\")",
+            "out-of-stock": f"out of stock (\"{stock.get('quote', '')}\")"}.get(stock.get("state"), "stock not stated")
+    if stock.get("read") not in (PAGE_TEXT, None) and stock.get("state") != "not-stated":
+        text += f", from {READ_WORDS.get(stock['read'], 'an unstated read')}"
+    return text
 
 
 def _offer(offer: dict[str, Any]) -> str:
     gate = "no sign-up needed" if offer["gate"] == "none" else f"gated: {offer['gate']}"
-    return f"{offer['kind']} \"{offer['quote']}\" ({offer['state']}, {gate}, {offer['where']})"
+    read = "" if offer.get("read") == PAGE_TEXT else f", from {READ_WORDS.get(offer.get('read'), 'an unstated read')}"
+    return f"{offer['kind']} \"{offer['quote']}\" ({offer['state']}, {gate}, {offer['where']}{read})"
+
+
+def _who(item: dict[str, Any], reference: dict[str, Any]) -> str:
+    if item is reference:
+        return "yours"
+    return "the same product" if item.get("same_product") else "a similar product"
+
+
+def _gap(lower: Decimal, mine: Decimal) -> tuple[Decimal, str, bool]:
+    """How far under the shopper's price, as (amount, percent text, meaningful)."""
+    gap = mine - lower
+    percent = (gap * 100 / mine).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP) if mine else Decimal(0)
+    return gap, f"{percent}%", gap >= mine * MATERIAL
+
+
+def _my_price(answer: dict[str, Any]) -> Decimal | None:
+    """The shopper's own price when it can be compared: read in its page's text, in the asked currency."""
+    reasons = {code for code, _ in _why_not_counted(answer["reference"], answer["request"]["currency"])}
+    return None if answer["reference"].get("from") != "page" or reasons - {"out", "stock-read"} else _shelf(answer["reference"])
+
+
+def _shelf_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> list[str]:
+    ref, lowest, currency, unit = answer["reference"], answer["lowest"], answer["request"]["currency"], answer["unit"]
+    mine = _confirmed_size(ref)
+    label = "**Lowest shelf price" + (f" for {ref['size']['text']}" if unit != NO_UNIT and mine else "") + ":**"
+    shelf = lowest.get("shelf")
+    if shelf:
+        item = items[shelf["id"]]
+        price = _price(shelf["amount"], currency)
+        unit_part = f", {_unit_text(item)}" if isinstance(item.get("unit_price"), dict) else ""
+        said = f"{price} at {item['store']}, {item['name']} ({_who(item, ref)}){unit_part}, read on its page at " \
+               f"{item['checked_at']}"
+        my_price = _my_price(answer)
+        if item is not ref and my_price is not None:
+            gap, percent, meaningful = _gap(_shelf(item), my_price)
+            if meaningful:
+                line = f"{label} {said}. This is the price: {_price(gap, currency)} ({percent}) below yours at " \
+                       f"{_price(my_price, currency)}."
+            else:
+                line = f"{label} no meaningful saving found. {said}, is {_price(gap, currency)} ({percent}) below " \
+                       f"yours at {_price(my_price, currency)}; a gap under 2% of your price is not counted as a saving."
+        else:
+            line = f"{label} {said}. This is the price."
+        hosts = {urlsplit(i["url"]).hostname for i in _counted(answer)}
+        if len(hosts) == 1:
+            line += f" Only {item['store']}'s price could be counted, so it is not shown to be lower than at other stores."
+    elif unit != NO_UNIT and mine is None:
+        line = (f"{label} not compared: your product's page prints no size. What size is yours? It is printed on "
+                "the bag or box; tell me and I will compare it." + (f" Until then, compare per {unit} below."
+                                                                     if lowest.get("unit") else ""))
+    elif _counted(answer):
+        line = f"{label} none counted at your size." + (f" Compare per {unit} below." if lowest.get("unit") else "")
+    else:
+        line = f"{label} none; no product had a price that could be counted."
+    lines = [line]
+    for entry in lowest.get("shelf_lower_not_counted") or []:
+        other = items[entry["id"]]
+        lines.append(f"- Lower but not counted: {other['name']} at {other['store']}, "
+                     f"{_price(other['shelf_price']['amount'], other['shelf_price']['currency'])}: {entry['why']}")
+    return lines + [""]
+
+
+def _unit_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> list[str]:
+    ref, lowest, currency, unit = answer["reference"], answer["lowest"], answer["request"]["currency"], answer["unit"]
+    if not lowest.get("unit"):
+        return []
+    line, item = lowest["unit"], items[lowest["unit"]["id"]]
+    amount = _price(line["amount"], currency)
+    said = f"{amount} at {item['store']}, {item['name']} ({_who(item, ref)}), {item['size']['text']} " \
+           f"({_price(item['shelf_price']['amount'], currency)})"
+    mine = _unit_amount(ref, answer) if _my_price(answer) is not None and _confirmed_size(ref) else None
+    if item is not ref and mine is not None:
+        _, percent, meaningful = _gap(_money(line["amount"]), mine)
+        if meaningful:
+            text = f"**Lowest price per {unit}:** {said}; yours is {_price(mine, currency)} per {unit}."
+        else:
+            text = (f"**Lowest price per {unit}:** no meaningful saving found. {said}, is {percent} below yours "
+                    f"({_price(mine, currency)} per {unit}); a gap under 2% is not counted as a saving.")
+    else:
+        text = f"**Lowest price per {unit}:** {said}."
+    lines = [text]
+    for entry in lowest.get("unit_lower_not_counted") or []:
+        other = items[entry["id"]]
+        lines.append(f"- Lower per {unit} but not counted: {other['name']} at {other['store']}, "
+                     f"{_unit_text(other)}: {entry['why']}")
+    return lines + [""]
 
 
 def render(answer: dict[str, Any]) -> str:
@@ -506,25 +865,15 @@ def render(answer: dict[str, Any]) -> str:
         f"Stopped because: {run['stopped_because']}",
         "",
     ]
-    shelf = lowest.get("shelf")
-    if shelf:
-        item = items[shelf["id"]]
-        lines.append(
-            f"**Lowest shelf price:** {_price(shelf['amount'], currency)} at {item['store']}, {item['name']}, "
-            f"{_size(item)} ({_unit(item)}), read on its page at {item['checked_at']}. This is the price."
-        )
-        for entry in shelf.get("also_lower_not_counted") or []:
-            other = items[entry["id"]]
-            lines.append(f"- Lower but not counted: {other['name']} at {other['store']}, "
-                         f"{_price(other['shelf_price']['amount'], currency)}: {entry['why']}")
-        lines.append("")
-    else:
-        lines += ["**Lowest shelf price:** none; no compared product had a shelf price read on its page.", ""]
-    if lowest.get("unit"):
-        unit, item = lowest["unit"], items[lowest["unit"]["id"]]
-        lines.append(f"**Lowest price per {item['unit_price']['per']} (both sizes printed):** "
-                     f"{_price(unit['amount'], currency)} at {item['store']}, {item['name']}, {_size(item)}.")
-        lines.append("")
+    why = reference_reason(answer)
+    if why:
+        lines += [f"**Your product:** {why}; it is not counted below.", ""]
+    qualified = [c for c in answer["candidates"] if c["status"] in ("compared", "flagged")]
+    if answer["candidates"] and not qualified:
+        lines += ["**Similar products:** none qualified; every product found was excluded, each listed below "
+                  "with why.", ""]
+    lines += _shelf_line(answer, items)
+    lines += _unit_line(answer, items)
     code = lowest.get("if_code")
     if code:
         item = items[code["id"]]
@@ -536,8 +885,9 @@ def render(answer: dict[str, Any]) -> str:
 
     lines += ["", "### What it was compared with", ""]
     where = ref.get("url") or "described by you, no page"
-    ref_price = _price(ref["shelf_price"]["amount"], currency) if ref.get("shelf_price") else "no price"
-    lines.append(f"{ref['name']} at {ref['store']}: {ref_price} for {_size(ref)}. {where}")
+    stock = _stock_text(ref)
+    stock = f" {stock[0].upper()}{stock[1:]} on its page." if ref.get("from") == "page" else ""
+    lines.append(f"{ref['name']} at {ref['store']}: {_price_text(ref)}{_size_text(ref, answer)}.{stock} {where}")
     lines.append("")
     for attribute in answer["attributes_used"]:
         need = "must have" if attribute["must_have"] else "may vary"
@@ -545,17 +895,20 @@ def render(answer: dict[str, Any]) -> str:
                   "assumed": f"assumed: {attribute.get('why', 'not stated')}"}[attribute["from"]]
         lines.append(f"- {attribute['name']}: {attribute['value']} ({need}; {source})")
 
-    lines += ["", "### Similar products, most similar first", ""]
+    heading = "Similar products, most similar first" if qualified or not answer["candidates"] else \
+        "Products looked at, none qualified"
+    lines += ["", f"### {heading}", ""]
     for rank, item in enumerate(answer["candidates"], 1):
         status = "Compared" if item["status"] == "compared" else f"{item['status'].capitalize()}: {item['status_reason']}"
-        lines.append(f"{rank}. **{item['name']}** at {item['store']}: "
-                     f"{_price(item['shelf_price']['amount'], item['shelf_price']['currency'])} for {_size(item)} "
-                     f"({_unit(item)}). {status}.")
+        same = "Same product at another store. " if item.get("same_product") else ""
+        lines.append(f"{rank}. **{item['name']}** at {item['store']}: {_price_text(item)}{_size_text(item, answer)}. "
+                     f"{same}{status}.")
         lines.append(f"   - Similar because: {'; '.join(item['similar_because'])}")
         lines.append(f"   - Not comparable: {'; '.join(item['not_comparable'])}")
         offers = "; ".join(_offer(o) for o in item["offers"]) or "none printed on the pages read"
         lines.append(f"   - Offers seen: {offers}")
-        lines.append(f"   - Checked {item['checked_at']}: {item['url']} (found via {item['found_via']})")
+        lines.append(f"   - Checked {item['checked_at']}, {_stock_text(item)}: {item['url']} "
+                     f"(found via {item['found_via']})")
 
     lines += ["", "### Pages that could not be read", ""]
     lines += [f"- {b['store']}: {b['what_happened']}. Check it yourself: {b['url']}" for b in answer["blocked"]] or ["- none"]

@@ -139,8 +139,24 @@ runs on your own Claude plan or API usage, a few searches and at most 10 page
 reads per question.
 
 **Claude Code.** Personal skills live in `~/.claude/skills/<skill-name>/SKILL.md`,
-and this skill's name is `deal-finder`. The similar-products mode needs only two
-files:
+and this skill's name is `deal-finder`. Install it with its answer checker,
+about 1 MB (a sparse clone that leaves out the stored catalog behind the live
+page; the checker needs Python 3):
+
+```sh
+git clone --depth 1 --filter=blob:none --sparse https://github.com/thewyattbrocato/ai-deal-finder ~/.claude/skills/deal-finder
+git -C ~/.claude/skills/deal-finder sparse-checkout set deal_finder scripts
+```
+
+The agent saves each answer as JSON beside its work (for example
+`deal-finder-answer.json`) and runs
+`~/.claude/skills/deal-finder/scripts/deal-finder similar-check deal-finder-answer.json --markdown`,
+which lists every broken rule or prints the answer.
+
+The similar-products mode also runs from two files alone, but then **nothing
+checks the answer**: the agent follows `SIMILAR_OUTPUT.md` by hand, and a
+mistake the checker would have caught (a wrong unit price, a missing field, a
+cheaper item left out) reaches you silently:
 
 ```sh
 mkdir -p ~/.claude/skills/deal-finder && cd ~/.claude/skills/deal-finder
@@ -148,13 +164,18 @@ curl -fsSLO https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/mai
 curl -fsSLO https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SIMILAR_OUTPUT.md
 ```
 
-For the purchase-decision mode and the `similar-check` checker, clone the whole
-repository there instead (about 95 MB, most of it the stored catalog behind the
-live page):
+For the purchase-decision mode and the stored catalog, clone the whole
+repository there instead (about 95 MB):
 
 ```sh
 git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder ~/.claude/skills/deal-finder
 ```
+
+**Reading tools.** The skill confirms every price, size, stock state and offer
+in the page's own text before quoting it, so give the agent a browser (for
+example a Chrome DevTools MCP server) or let it run `curl`. A page reader that
+summarises, such as Claude's WebFetch, finds pages, but its summaries can be
+wrong: a price only it gave is flagged and never counted.
 
 Then start `claude` and ask (examples below), or type `/deal-finder`. For one
 project only, use `.claude/skills/deal-finder` inside that project instead.
@@ -170,7 +191,8 @@ git archive --format=zip --prefix=deal-finder/ -o ../deal-finder.zip HEAD \
 ```
 
 In Claude, go to Customize > Skills, click "+", then "+ Create skill" and
-"Upload a skill", and choose `deal-finder.zip`. In each chat, turn on web
+"Upload a skill", and choose `deal-finder.zip`. The ZIP includes the checker
+(`scripts/deal-finder`, standard-library Python). In each chat, turn on web
 search ("+" button > "Web search"; the new Claude experience has no toggle and
 searches when it helps).
 
@@ -178,8 +200,9 @@ searches when it helps).
 open pages needs only two files. Paste them, attach them, or point it at
 `https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SKILL.md`
 and `.../main/SIMILAR_OUTPUT.md`, and say "Follow the Similar products and their
-offers mode." Tools that read the Agent Skills format (agentskills.io) can load
-the `deal-finder` folder as it is.
+offers mode." Nothing checks that agent's answer unless it can run Python
+with the checker above. Tools that read the Agent Skills format
+(agentskills.io) can load the `deal-finder` folder as it is.
 
 **From the repo link, with no install.** In Claude Code, or a Claude chat with
 web search on, start with: "Read
@@ -197,8 +220,9 @@ What it cannot do:
 - **Read stores that block page readers.** Amazon's robots.txt refuses
   Claude's page reader (`User-agent: Claude-User`, `Disallow: /`, read
   2026-10-04), and Claude honors robots.txt. Target and Walmart answered this
-  project's reads with challenge pages, Best Buy was unreachable
-  (`LIVE_VERIFICATION.md`), and ShopRite gave a 403 (`SIMILAR_OUTPUT.md`).
+  project's reads with challenge pages (Walmart's "Robot or human?" page is in
+  `SIMILAR_OUTPUT.md`'s example), Best Buy was unreachable
+  (`LIVE_VERIFICATION.md`), and ShopRite gave a 403 on 2026-10-04.
   Such pages are listed with their links for you to check yourself, never
   priced from a search snippet.
 - **Use coupons behind a sign-up.** Codes sent by email or SMS, first-order,

@@ -6,8 +6,11 @@ a size is never guessed, inferred from a title's typical value, or read from
 an image. The shelf price is always shown beside the unit price and is never
 changed by it.
 
-Families: mass (oz, lb, g, kg), volume (fl oz, ml, l), count (ct, pack, each).
-Nothing is converted across families, and a count is never turned into mass.
+Families: mass (oz, lb, g, kg), volume (fl oz, ml, l), count (ct and the
+count words in COUNT_WORDS). Nothing is converted across families, and a count
+is never turned into mass. A printed multipack counts its items: "12.5 oz (Case
+of 12)", "Case of 12, 12.5 oz", "12 x 12.5 oz" and "250 ml x 6" are each one
+size of `count` items.
 
 Exact arithmetic: prices and sizes are Decimals. Conversion factors are the
 exact table below. A unit price is computed at 50 significant digits and stored
@@ -55,19 +58,31 @@ _ALIASES = [
     ("g", r"g|gm|grams?"),
     ("ml", r"ml|milliliters?|millilitres?"),
     ("l", r"l|liters?|litres?"),
-    ("ct", r"ct\.?|counts?|packs?|pk|each|ea"),
+    (
+        "ct",
+        r"ct\.?|counts?|packs?|pk|each|ea|heads?|sachets?|tea\s*bags?|bags?|pods?|capsules?|cans?"
+        r"|cartridges?|filters?|refills?|pieces?|pcs\.?",
+    ),
 ]
+# What a size may say, for messages: every unit above, by its usual spelling.
+COUNT_WORDS = ("ct", "count", "each", "ea", "pack", "heads", "sachets", "tea bags", "bags", "pods",
+               "capsules", "cans", "cartridges", "filters", "refills", "pieces", "pcs")
+ACCEPTED_UNITS = "oz, lb, g, kg, fl oz, ml, l, or a count word (" + ", ".join(COUNT_WORDS) + ")"
 _UNIT = "|".join(pattern for _, pattern in _ALIASES)
 _NUM = r"(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?|\.\d+"
 _SEP = r"\s*-?\s*"
 _END = r"(?![A-Za-z])"
 _START = r"(?<![\w.])"
+_MULTI = r"(?:cases?|packs?|boxes|box|sets?|cartons?)"
 
 _SIZE_RE = re.compile(
     rf"{_START}(?P<c>{_NUM})\s*[x×]\s*(?P<mn>{_NUM}){_SEP}(?P<mu>{_UNIT}){_END}"
-    rf"|{_START}(?P<pc>\d+){_SEP}(?:packs?|pk|ct|count)\s+of\s+"
+    rf"|{_START}(?P<pc>\d+){_SEP}(?:packs?|pk|ct|count|cases?|boxes)\s+of\s+"
     rf"(?P<pn>{_NUM}){_SEP}(?P<pu>{_UNIT}){_END}"
-    rf"|{_START}pack\s+of\s+(?P<k>\d+)(?![\w.])"
+    rf"|{_START}{_MULTI}\s+of\s+(?P<lc>\d+)[\s,:;(\-–]*(?P<ln>{_NUM}){_SEP}(?P<lu>{_UNIT}){_END}"
+    rf"|{_START}(?P<qn>{_NUM}){_SEP}(?P<qu>{_UNIT})[\s,;(\-–]*{_MULTI}\s+of\s+(?P<qc>\d+)(?![\w.])"
+    rf"|{_START}(?P<xn>{_NUM}){_SEP}(?P<xu>{_UNIT})\s*[x×]\s*(?P<xc>\d+)(?![\w.])"
+    rf"|{_START}{_MULTI}\s+of\s+(?P<k>\d+)(?![\w.])"
     rf"|{_START}(?P<neg>-?)(?P<n>{_NUM}){_SEP}(?P<u>{_UNIT}){_END}",
     re.IGNORECASE,
 )
@@ -126,7 +141,7 @@ class Size:
 
     quantity: Decimal
     unit: str  # canonical: oz, lb, g, kg, fl oz, ml, l, ct
-    count: int  # multiplier from '12 x 2 oz' or '6 pack of 12 fl oz'; else 1
+    count: int  # multiplier from '12 x 2 oz', '6 pack of 12 fl oz' or '12.5 oz (Case of 12)'; else 1
     source_text: str  # the exact printed text this was read from
 
     @property
@@ -242,6 +257,12 @@ def parse_size_checked(text: Optional[str]) -> Union[Size, SizeRefusal, None]:
             count, quantity, unit = _num(match.group("c")), _num(match.group("mn")), match.group("mu")
         elif match.group("pc") is not None:
             count, quantity, unit = Decimal(match.group("pc")), _num(match.group("pn")), match.group("pu")
+        elif match.group("lc") is not None:
+            count, quantity, unit = Decimal(match.group("lc")), _num(match.group("ln")), match.group("lu")
+        elif match.group("qc") is not None:
+            count, quantity, unit = Decimal(match.group("qc")), _num(match.group("qn")), match.group("qu")
+        elif match.group("xc") is not None:
+            count, quantity, unit = Decimal(match.group("xc")), _num(match.group("xn")), match.group("xu")
         elif match.group("k") is not None:
             count, quantity, unit = Decimal(1), Decimal(match.group("k")), "ct"
         else:
