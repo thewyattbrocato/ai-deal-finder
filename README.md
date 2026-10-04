@@ -8,6 +8,8 @@
 
 Nothing to download or install. It runs in your browser.
 
+This page is a frozen set of examples, read once and no longer updated; the Deal Finder skill (see [Install and use](#install-and-use)) is the product.
+
 Deal Finder searches a set of store product pages that were opened and read
 ahead of time. For each product it shows the shelf price, and a coupon code only
 when that product's own page printed one. It never guesses a

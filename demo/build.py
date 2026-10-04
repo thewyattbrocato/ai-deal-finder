@@ -917,6 +917,7 @@ PAGE_SHELL = """<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
+{banner}
 <header class="top">
 <p class="brand">Deal Finder</p>
 <p class="lede">Only products whose store pages were actually read. <span id="range"></span></p>
@@ -985,12 +986,28 @@ PAGE_SHELL = """<!DOCTYPE html>
 """
 
 
-def page_html(cards, catalog, coffee_note):
+SKILL_URL = "https://github.com/thewyattbrocato/ai-deal-finder#install-and-use"
+
+
+def frozen_banner(entries):
+    """The quiet note above the search box. The count and the dates are computed
+    from the stored reads shown on the page, never typed."""
+    days = sorted(e["c"] for e in entries)
+    span = (days[0] if days[0] == days[-1] else days[0] + " and " + days[-1])
+    return ('<aside class="frozen" id="frozen" aria-label="About this page"><p>'
+            "A frozen set of examples: %d product pages read %s%s, no longer updated. "
+            "Each card shows how old its check is. To find similar products, their "
+            "offers and the lowest price across stores on the live web, use the "
+            '<a href="%s">Deal Finder skill</a>.</p></aside>'
+            % (len(entries), "on " if days[0] == days[-1] else "between ", span, SKILL_URL))
+
+
+def page_html(cards, catalog, coffee_note, banner=""):
     """The page: search first, every card written from stored evidence."""
     vals = {"css": _read("page.css"), "cards": cards, "catalog": catalog,
             "coffee_note": coffee_note, "engine": _read("engine.js"),
-            "view": _read("view.js")}
-    return re.sub(r"\{(css|cards|catalog|coffee_note|engine|view)\}",
+            "view": _read("view.js"), "banner": banner}
+    return re.sub(r"\{(css|cards|catalog|coffee_note|engine|view|banner)\}",
                   lambda m: vals[m.group(1)], PAGE_SHELL)
 
 
@@ -1190,7 +1207,8 @@ def build():
         + " did not. No code was tried, so every price here is the shelf price."
     )
 
-    page = page_html(all_cards, catalog_json(items.values()), coffee_note)
+    page = page_html(all_cards, catalog_json(items.values()), coffee_note,
+                     frozen_banner([catalog_entry(i) for i in items.values()]))
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(page)
