@@ -128,6 +128,76 @@ PY
   `ls demo/evidence/*.json | wc -l`) than the page shows; the page count above
   is the one that matters to a shopper.
 
+## Install and use
+
+Deal Finder is also a skill: a markdown file (`SKILL.md`) that your own AI
+agent follows. Give it a product (a link, a name or a description) and it
+searches the live web, reads each store's own page, and answers with similar
+products, the offers each page prints, and the lowest shelf price, in the shape
+`SIMILAR_OUTPUT.md` sets. Nothing is stored and there is no server or key: it
+runs on your own Claude plan or API usage, a few searches and at most 10 page
+reads per question.
+
+**Claude Code.** Personal skills live in `~/.claude/skills/<skill-name>/SKILL.md`,
+and this skill's name is `deal-finder`:
+
+```sh
+git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder ~/.claude/skills/deal-finder
+```
+
+Then start `claude` and ask (examples below), or type `/deal-finder`. For one
+project only, clone it to `.claude/skills/deal-finder` inside that project.
+
+**Claude app (claude.ai).** Skills need *Code execution and file creation*
+turned on (Settings > Capabilities; on Team and Enterprise plans an owner
+enables skills first). Upload a ZIP whose root is the `deal-finder` folder:
+
+```sh
+git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder && cd ai-deal-finder
+git archive --format=zip --prefix=deal-finder/ -o ../deal-finder.zip HEAD \
+  SKILL.md SIMILAR_OUTPUT.md DECISION_TABLE.md DISCOVERY.md LANDED_COST.md README.md scripts deal_finder
+```
+
+In Claude, go to Customize > Skills, click "+", then "+ Create skill" and
+"Upload a skill", and choose `deal-finder.zip`. In each chat, turn on web
+search ("+" button > "Web search"; the new Claude experience has no toggle and
+searches when it helps).
+
+**Any other agent, as plain markdown.** An agent that can search the web and
+open pages needs only two files. Paste them, attach them, or point it at
+`https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SKILL.md`
+and `.../main/SIMILAR_OUTPUT.md`, and say "Follow the Similar products and their
+offers mode." Tools that read the Agent Skills format (agentskills.io) can load
+the `deal-finder` folder as it is.
+
+**From the repo link, with no install.** In Claude Code, or a Claude chat with
+web search on, start with: "Read
+https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SKILL.md
+and SIMILAR_OUTPUT.md beside it, then follow the Similar products mode for: …".
+
+Example prompts:
+
+1. "I have this coffee bag: https://counterculturecoffee.com/collections/coffee/products/big-trouble. Find similar ones and their coupons."
+2. "I buy 12 oz bags of whole-bean, medium-dark specialty coffee. Find similar bags at several roasters, the lowest shelf price, and any code each store prints."
+3. "Find cast iron skillets similar to the Lodge 10.25 inch skillet at other stores, with the offers each store prints and the lowest price."
+
+What it cannot do:
+
+- **Read stores that block page readers.** Amazon's robots.txt refuses
+  Claude's page reader (`User-agent: Claude-User`, `Disallow: /`, read
+  2026-10-04), and Claude honors robots.txt. Target and Walmart answered this
+  project's reads with challenge pages, Best Buy was unreachable
+  (`LIVE_VERIFICATION.md`), and ShopRite gave a 403 (`SIMILAR_OUTPUT.md`).
+  Such pages are listed with their links for you to check yourself, never
+  priced from a search snippet.
+- **Use coupons behind a sign-up.** Codes sent by email or SMS, first-order,
+  member or app-only codes are listed as gated and never count. No code is ever
+  tried, and nothing goes in a cart: no cart, login, checkout or purchase.
+- **Price grocery pickup or signed-in pages.** A price tied to a store you have
+  not chosen, or shown only after login, is flagged or listed as unreadable.
+- **Stay current.** Every price carries its check time; the store's page has
+  the final say. It does not track prices.
+
 ## Use it as an agent skill
 
 For one evidence-backed `buy`, `wait`, `verify`, or `abstain` purchase decision,

@@ -469,7 +469,7 @@ class CLITests(unittest.TestCase):
             exit_code = main([])
         self.assertEqual(exit_code, 0)
         self.assertIn("description:", output.getvalue())
-        self.assertIn("commands[4]", output.getvalue())
+        self.assertIn("commands[5]", output.getvalue())
 
     def test_unknown_flag_is_structured_usage_error(self):
         output = StringIO()
