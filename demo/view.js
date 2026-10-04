@@ -35,16 +35,18 @@ var base = cards.map(function (c) {
   return { price: first(c, "data-price-text").textContent, shelf: first(c, "data-shelf-line").textContent };
 });
 
-// ---- how old each stored check is, from its stored time only: whole days, no verdict, no threshold
+// ---- how old each stored check is, from its stored timestamp only: hours while under 48 hours, whole days after; no verdict, no threshold
 var NOW = new Date();  // the one read of "today", for the age line and the printed windows
 function checkedAge(iso) {
-  var d = iso.slice(0, 10);
-  var then = Date.parse(d + "T00:00:00Z");
-  var today = Date.UTC(NOW.getUTCFullYear(), NOW.getUTCMonth(), NOW.getUTCDate());
-  var days = Math.round((today - then) / 86400000);
-  if (isNaN(days) || days < 0) return "Checked " + d;
-  if (days === 0) return "Checked today, " + d;
-  return "Checked " + days + (days === 1 ? " day" : " days") + " ago, " + d;
+  var hours = (NOW.getTime() - Date.parse(iso)) / 3600000;
+  if (isNaN(hours) || hours < 0) return "Checked " + iso.slice(0, 10);
+  if (hours < 1) return "Checked less than 1 hour ago, " + iso;
+  if (hours < 48) {
+    var h = Math.floor(hours);
+    return "Checked " + h + (h === 1 ? " hour" : " hours") + " ago, " + iso;
+  }
+  var days = Math.floor(hours / 24);
+  return "Checked " + days + " days ago, " + iso.slice(0, 10);
 }
 cards.forEach(function (c) {
   var el = first(c, "data-age");
@@ -338,7 +340,7 @@ function renderEmpty(cur) {
   }
   if (S.q && cur.m.rows.length && chipsOn) {
     box.appendChild(h("h2", { text: "“" + S.q + "” matches " + plural(cur.m.rows.length, "checked product", "checked products") + ", but none also fit your choices" }));
-    box.appendChild(h("p", { text: "Nothing is shown that doesn’t fit. Drop a choice to see what remains:" }));
+    box.appendChild(h("p", { text: (cur.unk.length ? "The pages that don’t say are listed below, apart from this empty result; they can’t be ruled in or out. Drop a choice to see what remains:" : "Nothing is shown that doesn’t fit. Drop a choice to see what remains:") }));
     var drops = h("ul", { class: "chiprow" });
     activeList().forEach(function (a) {
       var mod = { kind: { kind: null }, store: { store: null }, size: { size: null }, ship: { ship: null }, sub: { sub: false }, coupon: { coupon: false } }[a[0]];
@@ -350,8 +352,8 @@ function renderEmpty(cur) {
     return;
   }
   if (!S.q) {
-    box.appendChild(h("h2", { text: "No checked product fits these choices" }));
-    box.appendChild(h("p", { text: "Nothing is shown that doesn’t fit." }));
+    box.appendChild(h("h2", { text: "None of the checked products state a match for these choices" }));
+    box.appendChild(h("p", { text: cur.unk.length ? "The pages that don’t say are listed below, apart from this empty result. They can’t be ruled in or out." : "Nothing is shown that doesn’t fit." }));
     box.appendChild(h("ul", { class: "chiprow" }, [btn("Clear all choices", null, function () { S = E.blank(); q.value = ""; }, { "data-clearall": "1" })]));
     return;
   }
@@ -423,7 +425,7 @@ function render() {
   var cnt = $("count");
   cnt.textContent = cur.rows.length
     ? plural(cur.rows.length, "checked product", "checked products") + (S.q ? " for “" + S.q + "”" : "")
-    : (S.q && !cur.m.rows.length ? "No checked product matches “" + S.q + "”" : "No checked product fits these choices");
+    : (S.q && !cur.m.rows.length ? "No checked product matches “" + S.q + "”" : "None of the checked products state a match for these choices");
   show($("sortbox"), cur.rows.length > 1);
   var notes = $("notes");
   clear(notes);

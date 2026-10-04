@@ -275,8 +275,10 @@ class SearchFirstPageFindsThemTest(unittest.TestCase):
     def test_each_measured_search_lists_at_least_as_many_products_as_before(self):
         # The count each search listed on the page before this slice (measured on the live
         # page, 335 products) is a floor: adding products never made one answer less.
+        # ("wallet" was 27 only because every Accessories product carried that word; it is
+        # now the products whose own page prints it, see test_page's kind-synonym test.)
         before = {
-            "backpack": 2, "wallet": 27, "sneakers": 2, "running shoes": 0, "jeans": 1,
+            "backpack": 2, "wallet": 0, "sneakers": 2, "running shoes": 0, "jeans": 1,
             "socks": 1, "headphones": 1, "phone case": 8, "charger": 1, "water bottle": 0,
             "blender": 1, "knife": 0, "cookware": 5, "toothbrush": 0, "shampoo": 2,
             "moisturizer": 0, "sunscreen": 0, "vitamins": 0, "protein": 0, "snacks": 2,
