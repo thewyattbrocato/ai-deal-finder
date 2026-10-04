@@ -139,14 +139,25 @@ runs on your own Claude plan or API usage, a few searches and at most 10 page
 reads per question.
 
 **Claude Code.** Personal skills live in `~/.claude/skills/<skill-name>/SKILL.md`,
-and this skill's name is `deal-finder`:
+and this skill's name is `deal-finder`. The similar-products mode needs only two
+files:
+
+```sh
+mkdir -p ~/.claude/skills/deal-finder && cd ~/.claude/skills/deal-finder
+curl -fsSLO https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SKILL.md
+curl -fsSLO https://raw.githubusercontent.com/thewyattbrocato/ai-deal-finder/main/SIMILAR_OUTPUT.md
+```
+
+For the purchase-decision mode and the `similar-check` checker, clone the whole
+repository there instead (about 95 MB, most of it the stored catalog behind the
+live page):
 
 ```sh
 git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder ~/.claude/skills/deal-finder
 ```
 
 Then start `claude` and ask (examples below), or type `/deal-finder`. For one
-project only, clone it to `.claude/skills/deal-finder` inside that project.
+project only, use `.claude/skills/deal-finder` inside that project instead.
 
 **Claude app (claude.ai).** Skills need *Code execution and file creation*
 turned on (Settings > Capabilities; on Team and Enterprise plans an owner

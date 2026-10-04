@@ -55,7 +55,7 @@ class ExampleTest(unittest.TestCase):
         for label in labels:
             found = rendered.find(label.strip(), position)
             self.assertGreaterEqual(found, 0, label)
-            position = found
+            position = found + len(label.strip())
         self.assertIn(f"**If a printed code applies ({CODE_LABEL}):** none.", rendered)
         self.assertIn("This is the price.", rendered)
         self.assertTrue(rendered.rstrip().endswith("not by commission."))
@@ -302,7 +302,9 @@ class SkillAndReadmeTest(unittest.TestCase):
         self.assertIn("I have this coffee bag", section)
         self.assertEqual(len(re.findall(r"^\d\. \"", section, re.M)), 3)
         archived = re.search(r"HEAD \\\n\s+(.+)\n", section).group(1).split()
-        for path in archived:
+        raw = re.findall(r"raw\.githubusercontent\.com/thewyattbrocato/ai-deal-finder/main/([\w./-]+)", section)
+        self.assertIn("SIMILAR_OUTPUT.md", raw)
+        for path in archived + raw:
             self.assertTrue((ROOT / path).exists(), path)
 
 
