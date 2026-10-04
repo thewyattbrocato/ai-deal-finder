@@ -10,7 +10,9 @@ Families: mass (oz, lb, g, kg), volume (fl oz, ml, l), count (ct and the
 count words in COUNT_WORDS). Nothing is converted across families, and a count
 is never turned into mass. A printed multipack counts its items: "12.5 oz (Case
 of 12)", "Case of 12, 12.5 oz", "12 x 12.5 oz" and "250 ml x 6" are each one
-size of `count` items.
+size of `count` items. A printed total is the size ("6 Pack of 12oz bags (72oz
+total)" is 72 oz); a size printed twice is one size ("10ct - 10 CT"); "about"
+refuses only a size it qualifies ("10.93 oz (About 20 Cups)" is 10.93 oz).
 
 Exact arithmetic: prices and sizes are Decimals. Conversion factors are the
 exact table below. A unit price is computed at 50 significant digits and stored
@@ -60,12 +62,12 @@ _ALIASES = [
     ("l", r"l|liters?|litres?"),
     (
         "ct",
-        r"ct\.?|counts?|packs?|pk|each|ea|heads?|sachets?|tea\s*bags?|bags?|pods?|capsules?|cans?"
+        r"ct\.?|counts?|packs?|pk|each|ea|heads?|sachets?|tea\s*(?:bags?|sachets?)|bags?|pods?|capsules?|cans?"
         r"|cartridges?|filters?|refills?|pieces?|pcs\.?",
     ),
 ]
 # What a size may say, for messages: every unit above, by its usual spelling.
-COUNT_WORDS = ("ct", "count", "each", "ea", "pack", "heads", "sachets", "tea bags", "bags", "pods",
+COUNT_WORDS = ("ct", "count", "each", "ea", "pack", "heads", "sachets", "tea bags", "tea sachets", "bags", "pods",
                "capsules", "cans", "cartridges", "filters", "refills", "pieces", "pcs")
 ACCEPTED_UNITS = "oz, lb, g, kg, fl oz, ml, l, or a count word (" + ", ".join(COUNT_WORDS) + ")"
 _UNIT = "|".join(pattern for _, pattern in _ALIASES)
@@ -79,7 +81,7 @@ _SIZE_RE = re.compile(
     rf"{_START}(?P<c>{_NUM})\s*[x×]\s*(?P<mn>{_NUM}){_SEP}(?P<mu>{_UNIT}){_END}"
     rf"|{_START}(?P<pc>\d+){_SEP}(?:packs?|pk|ct|count|cases?|boxes)\s+of\s+"
     rf"(?P<pn>{_NUM}){_SEP}(?P<pu>{_UNIT}){_END}"
-    rf"|{_START}{_MULTI}\s+of\s+(?P<lc>\d+)[\s,:;(\-–]*(?P<ln>{_NUM}){_SEP}(?P<lu>{_UNIT}){_END}"
+    rf"|{_START}{_MULTI}\s+of\s+(?P<lc>\d+)(?!\d)[\s,:;(\-–]*(?P<ln>{_NUM}){_SEP}(?P<lu>{_UNIT}){_END}"
     rf"|{_START}(?P<qn>{_NUM}){_SEP}(?P<qu>{_UNIT})[\s,;(\-–]*{_MULTI}\s+of\s+(?P<qc>\d+)(?![\w.])"
     rf"|{_START}(?P<xn>{_NUM}){_SEP}(?P<xu>{_UNIT})\s*[x×]\s*(?P<xc>\d+)(?![\w.])"
     rf"|{_START}{_MULTI}\s+of\s+(?P<k>\d+)(?![\w.])"
@@ -92,9 +94,14 @@ _RANGE_RE = re.compile(
     rf"|\bbetween\s+(?P<ba>{_NUM})\s*(?:{_UNIT})?\s+and\s+(?P<bb>{_NUM})\s*(?:{_UNIT}){_END}",
     re.IGNORECASE,
 )
-_APPROX_RE = re.compile(
-    r"(?<![A-Za-z])(?:about|approx\.?|approximately|around|roughly|circa|est\.?|estimated)"
-    r"\s+(?:a\s+)?[\d.]|[~≈]\s*[\d.]",
+_APPROX_RE = re.compile(  # 'about' qualifies a size only when a unit follows its number
+    rf"(?:(?<![A-Za-z])(?:about|approx\.?|approximately|around|roughly|circa|est\.?|estimated)"
+    rf"\s+(?:a\s+)?|[~≈]\s*)(?:{_NUM}){_SEP}(?:{_UNIT}){_END}",
+    re.IGNORECASE,
+)
+_TOTAL_RE = re.compile(
+    rf"{_START}(?P<n>{_NUM}){_SEP}(?P<u>{_UNIT})\s+total\b"
+    rf"|\btotal(?:\s+(?:net\s+)?(?:weight|size|count))?\s*(?:of|:)?\s*(?P<tn>{_NUM}){_SEP}(?P<tu>{_UNIT}){_END}",
     re.IGNORECASE,
 )
 _VAGUE_RE = re.compile(
@@ -233,9 +240,9 @@ def _refuse(reason: str, text: str) -> SizeRefusal:
 def parse_size_checked(text: Optional[str]) -> Union[Size, SizeRefusal, None]:
     """Read the one size printed in `text`; None when no size is printed.
 
-    Refuses (SizeRefusal) rather than guesses: ranges, 'about'/'approx',
-    several different sizes (variant not chosen, mixed bundle, conflicting),
-    and zero or negative quantities.
+    Refuses (SizeRefusal) rather than guesses: ranges, 'about'/'approx'
+    before a size, several different sizes (variant not chosen, mixed bundle,
+    conflicting), and zero or negative quantities. A printed total wins.
     """
     if not text or not text.strip():
         return None
@@ -244,11 +251,24 @@ def parse_size_checked(text: Optional[str]) -> Union[Size, SizeRefusal, None]:
             return _refuse(f"range ({match.group(0).strip()})", text)
         first, second = match.group("au"), match.group("bu")
         if first is None or normalize_unit(first) == normalize_unit(second):
+            if _num(match.group("a")) == _num(match.group("b")):
+                continue  # the same size printed twice ('10ct - 10 CT') is not a range
             return _refuse(f"range ({match.group(0).strip()})", text)
     if _APPROX_RE.search(text):
         return _refuse("approximate size ('about'/'approx')", text)
     if _VAGUE_RE.search(text):
         return _refuse("sizes vary", text)
+    totals = {
+        (_num(m.group("n") or m.group("tn")), normalize_unit(m.group("u") or m.group("tu")), m.group(0).strip())
+        for m in _TOTAL_RE.finditer(text)
+    }
+    if totals:
+        sizes = [Size(quantity, unit, 1, snippet) for quantity, unit, snippet in sorted(totals)]
+        if any(s.quantity <= 0 for s in sizes):
+            return _refuse("zero or negative quantity", text)
+        if any(s.family != sizes[0].family or s.base_total() != sizes[0].base_total() for s in sizes):
+            return _refuse(f"conflicting totals ({' / '.join(s.source_text for s in sizes)})", text)
+        return sizes[0]
 
     found: List[Size] = []
     for match in _SIZE_RE.finditer(text):

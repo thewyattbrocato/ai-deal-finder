@@ -83,6 +83,15 @@ class ParseFormats(unittest.TestCase):
     def test_total(self):
         self.assertEqual(parse_size("12 x 2 oz").total, D(24))
 
+    # Round 2 (e2 run 2, a2 run 2): page wording around the number was refused or misread.
+    def test_box_of_n_count_word_after(self): self.check("Box of 10 sachets", "10", "ct")
+    def test_same_size_printed_twice_is_not_a_range(self): self.check("Rishi Tea Tea Vanilla Mint 10ct - 10 CT", "10", "ct")
+    def test_tea_sachets(self): self.check("Each HT tin contains 20 tea sachets.", "20", "ct")
+    def test_about_qualifies_cups_not_the_size(self): self.check("Standard: 10.93 oz (About 20 Cups)", "10.93", "oz")
+    def test_printed_total_is_the_size(self):
+        self.check("6 Pack contains six 12oz bags of whole bean coffee (72oz total)", "72", "oz")
+        self.check("Total weight: 150 oz", "150", "oz")
+
 
 class Refusals(unittest.TestCase):
     def refused(self, text, fragment):
@@ -103,6 +112,8 @@ class Refusals(unittest.TestCase):
     def test_bundle_mixes_sizes(self): self.refused("Bundle: 12 oz + 8 oz", "bundle mixes")
     def test_conflicting(self): self.refused("12 oz bag. Net weight 2 lb", "conflicting")
     def test_zero(self): self.refused("0 oz", "zero")
+    def test_two_different_totals(self): self.refused("72 oz total, total 4 lb", "conflicting totals")
+    def test_a_different_repeat_is_still_a_range(self): self.refused("10ct - 12 CT", "range")
     def test_negative(self): self.refused("-5 oz", "negative")
     def test_zero_multiplier(self): self.refused("0 x 2 oz", "zero")
     def test_assorted_sizes(self): self.refused("assorted sizes", "sizes vary")
