@@ -453,7 +453,10 @@ def savings_block(item):
         confirm_html.append('<span data-confirm-code>whether the code works and what it would take off</span>')
     parts = ["tax"]
     if not t.get("ship"):
-        parts.append("shipping cost (the page did not state it)")
+        parts.append("shipping cost (the page's printed shipping line was "
+                     "not read as a condition for this item)"
+                     if t.get("ship_quoted")
+                     else "shipping cost (the page did not state it)")
     confirm_text = esc("; ".join(parts))
     if confirm_html:
         confirm_text += "; " + "; ".join(confirm_html)
@@ -494,7 +497,10 @@ def facts_strip(item):
     else:
         size = unknown
     ship = t.get("ship")
-    if not ship:
+    if not ship and t.get("ship_quoted"):
+        # a printed line the extractor did not read: said, never counted
+        shipping = esc("page prints a shipping line, not read")
+    elif not ship:
         shipping = unknown
     elif ship["k"] == "free":
         # the short line repeats the page's own word (shipping or delivery)
@@ -633,19 +639,37 @@ def terms_block(item):
         have = [s["k"] for s in sizes if s["ok"] is not False]
         out = [s["k"] for s in sizes if s["ok"] is False]
         size_txt = "listed: " + ", ".join(s["k"] for s in sizes)
+        across = t.get("across")
+        if across:
+            what = " and ".join(across)
+            size_txt += (" (read across the page's " + what + ": a size counts "
+                         "as in stock if the page shows it in stock for any "
+                         "of them)")
         if out:
-            size_txt += " \u2014 not shown in stock when checked: " + ", ".join(out)
+            size_txt += (" \u2014 not shown in stock when checked"
+                         + (" in any of them" if across else "") + ": "
+                         + ", ".join(out))
         elif not have:
             size_txt += " \u2014 stock not stated"
     else:
         size_txt = unknown
     ship = t.get("ship")
     ship_txt = ship["t"] if ship else unknown
+    if not ship and t.get("ship_quoted"):
+        ship_txt = ("The page prints: "
+                    + " \u00b7 ".join("\u201c" + q + "\u201d"
+                                      for q in t["ship_quoted"])
+                    + ". Not read as a condition for this item; confirm at "
+                      "checkout.")
     pre = t.get("pre")
     if pre:
         ship_txt = ("Pre-order \u2014 the page says " + pre["t"]
                     + ", so it is not shipping now"
-                    + ("" if not ship else "; also: " + ship["t"]))
+                    + ("" if not ship else "; also: " + ship["t"])
+                    + ("" if ship or not t.get("ship_quoted") else
+                       "; the page also prints: " + " \u00b7 ".join(
+                           "\u201c" + q + "\u201d" for q in t["ship_quoted"])
+                       + ", not read as a condition for this item"))
     sub = t.get("sub")
     if sub:
         priced = [s for s in sizes if s.get("s") is not None]
@@ -722,6 +746,9 @@ PAGE_CAVEAT = ("Seen on the page but never tried out, so the price shown "
                "does not include it.")
 TAX_SHIP_UNKNOWN = ("Tax and shipping weren't shown for this item \u2014 check "
                     "the total at checkout.")
+TAX_SHIP_QUOTED = ("Tax wasn't shown for this item, and the shipping line the "
+                   "page prints was not read as a condition \u2014 check the "
+                   "total at checkout.")
 TAX_UNKNOWN = ("Tax wasn't shown for this item \u2014 check the total at "
                "checkout.")
 RECHECK = "Recheck the price before paying; store pages change."
@@ -730,7 +757,10 @@ RECHECK = "Recheck the price before paying; store pages change."
 def tax_ship_line(t):
     """Only what the stored evidence leaves unknown: tax always (no page
     shows it before checkout), shipping only when no shipping line is stored."""
-    return TAX_UNKNOWN if (t or {}).get("ship") else TAX_SHIP_UNKNOWN
+    t = t or {}
+    if t.get("ship"):
+        return TAX_UNKNOWN
+    return TAX_SHIP_QUOTED if t.get("ship_quoted") else TAX_SHIP_UNKNOWN
 
 
 # A SKU-like label: letters, digits and hyphens only, with a digit (MS030, F24-Semiannual).

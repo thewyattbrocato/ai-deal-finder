@@ -696,7 +696,10 @@ class SearchFirstTest(unittest.TestCase):
                 self.assertNotIn("shipping", line)
             else:
                 unknown += 1
-                self.assertIn("shipping cost (the page did not state it)", line)
+                self.assertRegex(
+                    line, r"shipping cost \(the page(?:&#x27;s printed shipping "
+                          r"line was not read as a condition for this item|"
+                          r" did not state it)\)")
             if 'data-coupon="yes"' in c:
                 self.assertIn("whether the code works and what it would take off", line)
             else:
