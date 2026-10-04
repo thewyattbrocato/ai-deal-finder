@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 
 from .deception import comparability_problem, parse_time, private_value, trust_review
+from . import similar_contract
 
 
 MODEL = "jev-1.13.0"
@@ -776,6 +777,10 @@ def _parser() -> argparse.ArgumentParser:
     cart_parser = subparsers.add_parser("cart-check", help="authorize a bounded cart test without performing it")
     cart_parser.add_argument("--consent", required=True, type=Path)
     cart_parser.add_argument("--run", required=True, type=Path)
+
+    similar_parser = subparsers.add_parser("similar-check", help="check a similar-products answer against SIMILAR_OUTPUT.md")
+    similar_parser.add_argument("input", type=Path)
+    similar_parser.add_argument("--markdown", action="store_true", help="print the markdown answer when it passes")
     return parser
 
 
@@ -790,7 +795,7 @@ def main(argv: list[str] | None = None) -> int:
             {
                 "bin": executable,
                 "description": "Validate evidence and enforce fail-closed Deal Finder policy without browsing or purchasing.",
-                "commands": ["evaluate", "jev-request", "consent", "cart-check"],
+                "commands": ["evaluate", "jev-request", "consent", "cart-check", "similar-check"],
                 "help": "Run deal-finder <command> --help for command-specific arguments.",
             }
         )
@@ -819,6 +824,16 @@ def main(argv: list[str] | None = None) -> int:
             _print_toon(revoke_consent(args.file))
         elif args.command == "cart-check":
             _print_toon(authorize_cart_test(_read_json(args.consent), _read_json(args.run)))
+        elif args.command == "similar-check":
+            answer = _read_json(args.input)
+            problems = similar_contract.validate(answer)
+            if problems:
+                _print_toon({"ok": False, "problems": problems, "help": "Fix each problem; SIMILAR_OUTPUT.md has the rules."})
+                return 1
+            if args.markdown:
+                print(similar_contract.render(answer), end="")
+            else:
+                _print_toon({"ok": True, "help": "Run deal-finder similar-check <answer.json> --markdown to print the answer."})
         return 0
     except DealFinderError as exc:
         _print_toon({"error": str(exc), "help": "Run deal-finder <command> --help for valid inputs."})
