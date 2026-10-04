@@ -13,10 +13,12 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 import unittest
 
+AGE_RE = r"^Checked (less than 1 hour ago, \d{4}-\d\d-\d\dT[\d:]+Z|\d+ hours? ago, \d{4}-\d\d-\d\dT[\d:]+Z|\d+ days ago, \d{4}-\d\d-\d\d|\d{4}-\d\d-\d\d)$"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DRIVER = os.path.join(ROOT, "tests", "page_driver.js")
 ENGINE = os.path.join(ROOT, "tests", "engine_driver.js")
@@ -95,6 +97,32 @@ class ShopperWordsTest(unittest.TestCase):
         self.assertTrue(dogs and cats)
         self.assertFalse(set(dogs) & set(cats))
         self.assertEqual(self.rows("dogs"), dogs)
+
+    def test_a_kind_synonym_is_not_handed_to_every_product_of_the_kind(self):
+        # every product a word finds prints it in its own name, stored page title or description,
+        # unless the whole search is the kind's own name or a word that names the kind
+        sys.path.insert(0, os.path.join(ROOT, "demo"))
+        import catalog
+        obs, _ = catalog.load_catalog()
+        said = {o["name"]: (o["name"] + " " + o.get("title", "") + " " + o.get("desc", "")).lower() for o in obs}
+        for word in ("wallet", "bag", "camping", "hiking", "bath", "scent", "cooking", "beard"):
+            rows = self.rows(word)
+            for n in rows:
+                if n in said:   # the ten hand-checked cards carry their own words
+                    self.assertRegex(said[n], r"\b" + word + r"(?:s|es)?\b", (word, n))
+        self.assertLess(len(self.rows("wallet")), 10)
+        self.assertEqual([n for n in self.rows("wallet") if "Wallet" in n or "Cardholder" in n][:1], ["Ekster Wallet Pro"])
+        for n in ("Deco Bracelet", "Death Grip Bottle Opener"):
+            self.assertFalse([r for r in self.rows("wallet") if r.startswith(n)], n)
+        # a bare kind name or a word that names the kind still returns the kind
+        kinds = self.eng["kinds"]
+        for word, kind in (("shoes", "Shoes"), ("footwear", "Shoes"), ("coffee", "Coffee"), ("tea", "Tea"),
+                           ("kitchen", "Kitchen"), ("apparel", "Clothing"), ("electronics", "Tech"),
+                           ("accessories", "Accessories"), ("grooming", "Grooming"), ("toys", "Toys")):
+            self.assertGreaterEqual(len(self.rows(word)), kinds[kind], word)
+        # but not as a word of a longer search: "coffee beans" is not every coffee product
+        self.assertLess(len(self.rows("coffee beans")), len(self.rows("coffee")))
+        self.assertTrue(self.rows("nike shoes"))
 
     def test_a_kind_word_is_not_handed_to_every_product_of_the_kind(self):
         # phone: only products whose own page names a phone, never bath strips
@@ -255,7 +283,7 @@ class SearchFirstTest(unittest.TestCase):
             for c in self.d["typed"][q]["main"]:
                 seen += 1
                 self.assertEqual(c["price"], c["priceLabel"], c["name"])
-                self.assertRegex(c["age"], r"^Checked (today|\d+ days?) ?(ago)?,? ?\d{4}-\d\d-\d\d$")
+                self.assertRegex(c["age"], AGE_RE)
                 self.assertRegex(c["facts"], r"^Size: .*Shipping: .*Subscribe: ")
                 self.assertTrue(c["href"].startswith("https://"), c["name"])
                 self.assertTrue(c["link"].startswith("See at "), c["name"])
@@ -478,7 +506,7 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(c["active"], [])
         self.assertEqual(names(c["main"]), ["AirPods Pro 3"])
         n = self.d["emptyNoQuery"]
-        self.assertIn("No checked product fits these choices", n["empty"]["text"])
+        self.assertIn("None of the checked products state a match for these choices", n["empty"]["text"])
         self.assertEqual(self.d["emptyNoQueryClear"]["active"], [])
 
     def test_state_lives_in_the_address_bar_so_back_and_refresh_work(self):
@@ -676,11 +704,29 @@ class SearchFirstTest(unittest.TestCase):
         seen = set()
         for c in self.d["load"]["all"]:
             seen.add(c["age"])
-            self.assertRegex(c["age"], r"^Checked (today|\d+ days?) ?(ago)?,? ?\d{4}-\d\d-\d\d$")
+            self.assertRegex(c["age"], AGE_RE)
             for word in ("fresh", "stale", "old", "expired", "recent", "outdated", "valid"):
                 self.assertNotIn(word, c["age"].lower())
-        self.assertIn("Checked 3 days ago, 2026-10-02", seen)
-        self.assertIn("Checked 2 days ago, 2026-10-03", seen)
+        self.assertIn("Checked 2 days ago, 2026-10-02", seen)
+        self.assertIn("Checked 39 hours ago, 2026-10-03T23:15:06Z", seen)
+
+    def test_the_age_line_counts_hours_under_48_and_whole_days_after_from_the_stored_time(self):
+        # AirPods Pro 3 was stored at 2026-10-03T23:15:06Z; the clock is pinned for each run
+        stamp = "2026-10-03T23:15:06Z"
+        cases = {
+            "2026-10-03T22:00:00Z": "Checked 2026-10-03",                       # before the check: no age
+            "2026-10-03T23:45:00Z": "Checked less than 1 hour ago, " + stamp,
+            # an hour after the check, just past 00:00 UTC: not "1 day ago"
+            "2026-10-04T00:16:00Z": "Checked 1 hour ago, " + stamp,
+            "2026-10-04T05:15:06Z": "Checked 6 hours ago, " + stamp,
+            "2026-10-05T23:15:05Z": "Checked 47 hours ago, " + stamp,
+            "2026-10-05T23:15:06Z": "Checked 2 days ago, 2026-10-03",
+            "2026-10-07T23:15:05Z": "Checked 3 days ago, 2026-10-03",
+        }
+        for now, want in cases.items():
+            card = [c for c in drive(os.path.join(ROOT, "demo", "index.html"), now=now, only_load=True)["load"]["all"]
+                    if c["name"] == "AirPods Pro 3"][0]
+            self.assertEqual(card["age"], want, now)
 
     def test_confirm_at_checkout_lists_only_what_the_stored_evidence_leaves_unknown(self):
         known = unknown = 0
@@ -1028,12 +1074,27 @@ class PageFixesR2Test(unittest.TestCase):
         self.assertIn("“hoodie” matches 3 checked products, but none also fit your choices", d["empty"]["text"])
         self.assertIn("Drop Size: ZZ 3 would show", d["empty"]["buttons"])
         self.assertNotIn("No checked product matches", d["count"])
-        self.assertIn("No checked product fits these choices", d["count"])
+        self.assertIn("None of the checked products state a match for these choices", d["count"])
         # the pages that don't say stay listed, apart and labelled, below the box
         self.assertEqual(len(d["unkCards"]), 2)
+        # the sentence above them must be literally true: they are not "shown as fitting"
+        self.assertNotIn("Nothing is shown that doesn’t fit", d["empty"]["text"])
+        self.assertIn("The pages that don’t say are listed below", d["empty"]["text"])
+        self.assertIn("can’t be ruled in or out", d["empty"]["text"])
+        self.assertIn("These pages don’t say, so they can’t be ruled in or out", self.page)
         self.assertIn("Not matches", d["unk"])
         self.assertIn("listed below", d["unk"])
         self.assertNotIn("Hide them", d["unk"])
+
+    def test_a_choice_alone_that_fits_nothing_does_not_claim_nothing_is_shown(self):
+        n = self.d["deepNoFitNoQuery"]
+        self.assertEqual(n["main"], [])
+        self.assertEqual(n["count"], "None of the checked products state a match for these choices")
+        self.assertIn("None of the checked products state a match for these choices", n["empty"]["text"])
+        self.assertNotIn("Nothing is shown that doesn’t fit", n["empty"]["text"])
+        self.assertIn("The pages that don’t say are listed below", n["empty"]["text"])
+        self.assertTrue(n["unkCards"])
+        self.assertIn("Not matches", n["unk"])
 
     def test_dropping_the_choice_lists_the_matches(self):
         d = self.d["deepNoFitDrop"]

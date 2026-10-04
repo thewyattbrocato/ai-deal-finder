@@ -4,7 +4,8 @@
  * tests/test_page.py runs this file on its own in node.
  *
  * Catalog entry (built from stored evidence by demo/build.py, never typed here):
- *   n name, m store, k kind, kw extra search words, pc shelf price in cents,
+ *   n name, m store, k kind, kw extra search words, ks the words that name the
+ *   whole kind (matched only when the search is exactly one of them), pc shelf price in cents,
  *   pl shelf price label, u store page url, c check date, cp printed coupon
  *   code or "", z page-listed sizes, sh page-stated shipping, sb page-stated
  *   subscribe option. Anything a page did not say is simply absent.
@@ -66,7 +67,7 @@ function tokens(q) {
   return words(typed(q)).filter(function (w) { return w.length > 1; });
 }
 
-var FIELDS = [["n", 10], ["k", 8], ["m", 6], ["w", 4]];
+var FIELDS = [["n", 10], ["k", 8], ["s", 8], ["m", 6], ["w", 4]];
 var MULT = { exact: 1, prefix: 0.8, typo: 0.5 };
 var SIZE_ORDER = ["XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL"];
 
@@ -88,7 +89,7 @@ function create(P) {
     return o;
   }
   P.forEach(function (p, idx) {
-    var f = { n: setOf(words(p.n)), k: setOf(words(p.k)), m: setOf(words(p.m)), w: setOf(words((p.kw || []).join(" "))) };
+    var f = { n: setOf(words(p.n)), k: setOf(words(p.k)), m: setOf(words(p.m)), s: setOf(words((p.ks || []).join(" "))), w: setOf(words((p.kw || []).join(" "))) };
     D.push(f);
     FIELDS.forEach(function (fl) {
       Object.keys(f[fl[0]]).forEach(function (w) {
@@ -184,9 +185,13 @@ function create(P) {
   function wordList(res) { return Object.keys(res.set).sort(); }
 
   /* ---- a product against the typed words ---- */
-  function hitWeight(idx, res) {
+  // The words that name a whole kind ("s") are never ordinary search words. They count only in
+  // the kind reading (see matchWith), where every typed word is the product's kind name or one of them.
+  function hitWeight(idx, res, kindOnly) {
     var f = D[idx], best = 0, fi, w, ws;
     for (fi = 0; fi < FIELDS.length; fi++) {
+      var fk = FIELDS[fi][0];
+      if (kindOnly ? (fk !== "k" && fk !== "s") : fk === "s") continue;
       ws = f[FIELDS[fi][0]];
       for (w in res.set) {
         if (ws[w]) {
@@ -214,12 +219,21 @@ function create(P) {
       }
       if (!ok) return;
       for (var i = 0; i < rs.length; i++) {
-        var h = rs[i].mode === "none" ? 0 : hitWeight(idx, rs[i]);
+        var h = rs[i].mode === "none" ? 0 : hitWeight(idx, rs[i], false);
         if (!h) { ok = false; break; }
         s += h;
         if (!inName(idx, rs[i])) nameAll = false;
       }
-      if (ok) out.push({ i: idx, s: s + (rs.length && nameAll ? 5 : 0) });
+      if (ok) { out.push({ i: idx, s: s + (rs.length && nameAll ? 5 : 0) }); return; }
+      // the kind reading: the whole search is the kind's name or words that name it ("coffee beans", "footwear")
+      if (!prices.length && rs.length) {
+        var ks = 0;
+        for (var j = 0; j < rs.length && ks >= 0; j++) {
+          var kh = rs[j].mode === "none" ? 0 : hitWeight(idx, rs[j], true);
+          ks = kh ? ks + kh : -1;
+        }
+        if (ks > 0) out.push({ i: idx, s: ks });
+      }
     });
     return out;
   }

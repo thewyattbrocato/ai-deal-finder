@@ -715,26 +715,34 @@ def item_dict(key, name, detail, seller, kind, image, price_cents,
     }
 
 
+# Words that name a whole kind ("shoes", "footwear" for Shoes). Only a search that is
+# exactly one of these words returns the kind's products (the "ks" field); a kind never
+# hands one to its products as an ordinary search word.
 KIND_WORDS = {
     "Shoes": ["shoes", "footwear"],
-    "Clothing": ["clothing", "clothes", "apparel", "wear"],
+    "Clothing": ["clothing", "clothes", "apparel"],
     "Home": ["home"],
     "Pets": ["pets", "pet"],
-    "Kitchen": ["kitchen", "cooking"],
-    "Outdoors": ["outdoors", "outdoor", "camping", "hiking"],
-    "Tea": ["tea", "drink"],
-    "Pantry": ["pantry", "food", "cooking"],
+    "Kitchen": ["kitchen"],
+    "Outdoors": ["outdoors", "outdoor"],
+    "Tea": ["tea"],
+    "Pantry": ["pantry", "food"],
     "Drinks": ["drinks", "drink", "beverage"],
     "Coffee": ["coffee", "beans"],
     "Tech": ["tech", "gadget", "electronics"],
-    "Accessories": ["accessories", "wallet", "bag"],
-    "Grooming": ["grooming", "beard", "care"],
-    "Personal care": ["personal", "care", "bath"],
-    "Wellness": ["wellness", "scent"],
-    "Office": ["office", "desk"],
-    "Books": ["books", "book", "reading"],
+    "Accessories": ["accessories"],
+    "Grooming": ["grooming"],
+    "Personal care": ["personal", "care"],
+    "Wellness": ["wellness"],
+    "Office": ["office"],
+    "Books": ["books", "book"],
     "Toys": ["toys", "toy"],
 }
+# Broader words the kinds used to hand to every product in them ("wallet" to every
+# Accessories product). A product gets one only when its own name, stored page title
+# or description prints it (whole word, plural allowed).
+KIND_TEXT_WORDS = ("bag", "wallet", "camping", "hiking", "bath", "scent", "cooking",
+                   "beard", "care", "wear", "desk", "reading", "drink")
 # A plain product-type word a kind must not hand to every product in it: it is
 # added to a product only when that product's own stored page (title and name; for dog and cat also its description) says so.
 TITLE_WORDS = (
@@ -808,10 +816,12 @@ def catalog_item(obs):
     # the page's own brand stays searchable (never a SKU-like code)
     brand = obs["brand"] if obs["brand"] and not SKU_LIKE.fullmatch(obs["brand"]) else ""
     words = set(re.findall(r"[a-z0-9]+", (obs["name"] + " " + seller + " " + brand).lower()))
-    words.update(KIND_WORDS.get(obs["kind"], [obs["kind"].lower()]))
-    words.add(obs["kind"].lower())
     words.update(terms.SEARCH_WORDS.get(obs["id"], []))
     said = obs.get("title", "") + " " + obs["name"]
+    own = said + " " + obs.get("desc", "")
+    for word in KIND_TEXT_WORDS:
+        if re.search(r"\b" + re.escape(word) + r"(?:s|es)?\b", own, re.I):
+            words.add(word)
     for word, pattern, in_desc in TITLE_WORDS:
         if re.search(pattern, said + (" " + obs.get("desc", "") if in_desc else ""), re.I):
             words.add(word)
@@ -873,7 +883,7 @@ def catalog_entry(item):
     ship = t.get("ship")
     return {
         "n": item["name"], "m": item["seller"], "k": item["kind"],
-        "kw": item["keywords"], "pc": item["price_cents"],
+        "kw": item["keywords"], "ks": KIND_WORDS.get(item["kind"], []), "pc": item["price_cents"],
         "pl": item["price_label"], "u": item["page_url"],
         "c": item["observed_at"][:10],
         "cp": item["coupon"]["code"] if item["coupon"] else "",
@@ -951,7 +961,7 @@ PAGE_SHELL = """<!DOCTYPE html>
 <div id="unk" style="display:none"></div>
 <div id="empty" class="empty" role="status" style="display:none"></div>
 <div id="results">
-<h2 id="unk-head" style="display:none">The page doesn’t say — listed separately</h2>
+<h2 id="unk-head" style="display:none">These pages don’t say, so they can’t be ruled in or out — listed separately</h2>
 {cards}
 </div>
 <button type="button" id="show-more" class="showmore" style="display:none">Show more</button>
