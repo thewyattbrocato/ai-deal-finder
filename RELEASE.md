@@ -25,6 +25,10 @@ changes on the final-cut branch: no code, tests, catalog or generated-page edits
 > - #35 fix(page): neutral price line on every card, phone Size list fits, empty box when nothing fits, favicon, coffee-only band, exact-price search
 > - #36 feat(evidence): re-read the 140 oldest product pages; changed price and shipping lines recorded, earlier observations kept as dated history
 > - #37 feat(catalog): 54 checked products from 19 new merchants (coffee and espresso makers, pet food, perfume, sunglasses, candles, plants, watches, books, stationery, travel, yoga)
+> - #38 docs: recompute README and RELEASE counts, scope RELEASE.md to the 2026-10-03 cut, state measured Python
+> - #39 fix(search): a joined or split word reading adds products, never replaces the typed words; every product is found by its name, words and word pairs
+> - #40 feat(evidence): re-read the four hand-checked cards (Gap sizes S and XL now not selectable) and the 60 oldest stored pages; earlier observations kept as dated history
+> - #41 feat(catalog): 55 checked products from 23 new merchants (backpacks, jeans, socks, headphones, chargers, knives, toothbrushes, moisturizer, sunscreen, protein, snacks, toys, lamps, running shoes)
 
 Live site: https://thewyattbrocato.github.io/ai-deal-finder/
 
@@ -46,24 +50,24 @@ body for the commands and their output).
 - 279 tests at commit e502a4b, all passing (`python3 -m unittest discover -s tests`).
 - 53 fixture cases in `FIXTURES.json`.
 
-## Current state (2026-10-03, commit `ee4d953`)
+## Current state (2026-10-03, commit `2700844`)
 
 Computed from the built page `demo/index.html`, the tests and `FIXTURES.json`
 at that commit. The commands are in the README section on what the numbers
-mean; the live page header reads "335 products, 88 stores".
+mean; the live page header reads "390 products, 111 stores".
 
-- 335 products on the page, each a stored read of the product's own page.
-- 88 stores: distinct store names (the catalog's merchant label), as the page
+- 390 products on the page, each a stored read of the product's own page.
+- 111 stores: distinct store names (the catalog's merchant label), as the page
   header counts them. A count of labels, not of websites.
-- 88 distinct page hosts: distinct host names of the 335 product pages. It now
+- 111 distinct page hosts: distinct host names of the 390 product pages. It
   equals the store count because #34 made the store label the merchant for the
   page's host.
 - 19 products with a coupon code printed on the product's own page.
-- 229 products with a known shipping condition the page stated.
-- 42 products with a known subscribe condition the page stated.
-- 28 products with known sizes.
-- 17 kinds.
-- 363 tests, all passing on Python 3.9.6 (`python3 -m unittest discover -s tests`).
+- 254 products with a known shipping condition the page stated.
+- 55 products with a known subscribe condition the page stated.
+- 32 products with known sizes.
+- 18 kinds.
+- 393 tests, all passing on Python 3.9.6 (`python3 -m unittest discover -s tests`).
 - 53 fixture cases in `FIXTURES.json`.
 
 The page no longer prints a verdict on a card: each card says *Price read from

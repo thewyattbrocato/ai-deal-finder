@@ -94,7 +94,7 @@ The page covers only products that were checked and stored in this repo
 there cannot be found, and prices may have changed since the check. The page is
 rebuilt offline from that stored evidence with `python3 demo/build.py`.
 
-What the numbers mean, as measured on 2026-10-03 at commit `ee4d953` (they will
+What the numbers mean, as measured on 2026-10-03 at commit `2700844` (they will
 drift as the catalog grows, so each comes with the command that recomputes it).
 Run the commands from the repo root; they read the built page, `demo/index.html`:
 
@@ -114,17 +114,17 @@ print("kinds", len({p["k"] for p in P}))
 PY
 ```
 
-- **335 products** on the page, each one stored read of that product's own
-  page. The page header says "335 products, 88 stores" (checked on the live page).
-- **88 stores** counts distinct store names as the catalog labels them (the
+- **390 products** on the page, each one stored read of that product's own
+  page. The page header says "390 products, 111 stores" (checked on the live page).
+- **111 stores** counts distinct store names as the catalog labels them (the
   merchant for the page's web address). It is a count of labels, not of
   websites; the page hosts count below is the check.
-- **88 distinct page hosts** (for example `www.untuckit.com`): distinct web
-  addresses of those 335 product pages.
-- **19** products carry a coupon code printed on their own page; **229** state a
-  shipping condition; **42** state a subscribe condition; **28** list sizes;
-  **17** kinds. Everything else on those lines is unknown, not zero.
-- `demo/evidence/` holds more stored page reads (361 files:
+- **111 distinct page hosts** (for example `www.untuckit.com`): distinct web
+  addresses of those 390 product pages.
+- **19** products carry a coupon code printed on their own page; **254** state a
+  shipping condition; **55** state a subscribe condition; **32** list sizes;
+  **18** kinds. Everything else on those lines is unknown, not zero.
+- `demo/evidence/` holds more stored page reads (416 files:
   `ls demo/evidence/*.json | wc -l`) than the page shows; the page count above
   is the one that matters to a shopper.
 
@@ -142,7 +142,7 @@ not mark any gate in `VALIDATION_RECORD.md` passed or establish effectiveness.
 
 Only the Python standard library is used. `pyproject.toml` declares
 `requires-python = ">=3.11"`, but the suite was measured only on Python 3.9.6
-(363 tests from `python3 -m unittest discover -s tests`, all passing, 2026-10-03); no lower or upper bound beyond that run is
+(393 tests from `python3 -m unittest discover -s tests`, all passing, 2026-10-03); no lower or upper bound beyond that run is
 claimed here.
 
 ```sh
