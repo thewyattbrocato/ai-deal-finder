@@ -2,7 +2,7 @@
 
 Every answer in `SKILL.md`'s *Similar products and their offers* mode follows
 this file: the markdown below, in this order, backed by one JSON record of the
-same facts (contract `similar-v2`). `deal_finder/similar_contract.py` checks the
+same facts (contract `similar-v3`). `deal_finder/similar_contract.py` checks the
 JSON (`validate`) and prints the markdown (`render`);
 `tests/test_similar_contract.py` holds both to this file.
 
@@ -16,22 +16,24 @@ guessing. A line in [square brackets] appears only when the rules below say so.
 
 Checked <start> to <end> · <N> of <budget> pages read · <N> searches · took <time or not reported> · cost <cost or not reported>
 Stopped because: <why the search stopped>
+This is one pass: results vary between runs because search results vary.
 
-[**Your product:** <out of stock on its page: "<quote>" | no price could be read on its page | ...>; it is not counted below.]
+[**Your product:** <out of stock on its page: "<quote>" | stock not stated on its page | no price could be read on its page | ...>; it is not counted below.]
 [**Similar products:** none qualified; every product found was excluded, each listed below with why.]
 
-**Lowest shelf price for <your size>:** <price> at <store>, <product> (<yours | the same product | a similar product>), <unit price>, read on its page at <time>. This is the price[: <amount> (<percent>) below yours at <your price>].
+**Lowest shelf price for <your size>:** <price> at <store>, <product> (<who>), <unit price>, read on its page at <time>. This is the price[: <amount> (<percent>) below yours at <your price>].[ Based on <N> stores (<stores>): a thin sample, so a lower price may exist that this pass did not count.]
 - Lower but not counted: <product> at <store>, <price>: <why it is not counted>
 
-**Lowest price per <unit>:** <unit price> at <store>, <product> (<yours | the same product | a similar product>), <size> (<shelf price>)[; yours is <your unit price> per <unit>].
+**Lowest price per <unit>:** <unit price> at <store>, <product> (<who>), <size> (<shelf price>)[; yours is <your unit price> per <unit>].
 - Lower per <unit> but not counted: <product> at <store>, <unit price>: <why it is not counted>
 
-**If a printed code applies (not tried, may not work):** <price> at <store> with code <CODE>: "<page's own words>". This is not the price.
+**If a printed code applies (not tried, may not work):** <price> at <store> with code <CODE>: "<page's own words>".[ Conditions: <conditions>.][ The asterisk means terms apply: it may not apply to this item.] <Expires "<page's words>" | No expiry printed>. This is not the price.
 
 ### What it was compared with
 
 <reference name> at <store>: <price> for <size> (<unit price>). <In stock ("quote") | Out of stock ("quote") | Stock not stated> on its page. <link, or described by you, no page>
 
+- Offers seen on its page: <kind> "<page's own words>" (<evidence state>, <gate>, <where>, <expiry>)
 - <attribute>: <value> (<must have | may vary>; <from the page: "quote" | from you | assumed: why>)
 
 ### Similar products, most similar first
@@ -39,57 +41,78 @@ Stopped because: <why the search stopped>
 1. **<product>** at <store>: <price> for <size> (<unit price or not comparable: reason>). [Same product at another store.] <Compared | Flagged: why | Excluded: why>.
    - Similar because: <reasons>
    - Not comparable: <reasons>
-   - Offers seen: <kind> "<page's own words>" (<evidence state>, <no sign-up needed | gated: email, sms, first-order, subscription, member, ...>, <where>)
-   - Checked <time>, <in stock ("quote") | out of stock ("quote") | stock not stated>: <link> (found via <search words or page>)
+   [- Taken from yours, not printed on its page: <attributes> (the same product)]
+   - Offers seen: <kind> "<page's own words>" (<evidence state>, <gate>, <where>, <expiry>)
+   - Checked <time>, <in stock ("quote") | out of stock ("quote") | stock not stated>: <link>; found via <search words or page>
 
-### Pages that could not be read
+### Pages that could not be read or priced
 
-- <store>: <what happened>. Check it yourself: <link>
+- <store>: <[not opened, known blocked: ]what happened>. Check it yourself: <link>
 
 ### Unknowns
 
 - <each thing no page stated: tax, shipping for one item, roast date, ...>
 
-No code was tried and nothing was added to a cart. A shelf price is the price; codes, subscribe prices and sign-up offers never lower it. No affiliate links; the order is by similarity, not by commission.
+No code was tried and nothing was added to a cart. A shelf price is the price; codes, subscribe prices and sign-up offers never lower it. Pop-ups and delayed offers do not show on every load, so a page may print an offer this pass did not see. No affiliate links; the order is by similarity, not by commission.
 ```
 
-When `unit` is `none`, sizes and unit prices are left out of every line. A
-price not read in the page's own text carries `(from a page reader's summary,
-not confirmed in the page's own text)` beside it. Leave out a *Lower …* line
-when there is none and the *Lowest price per* line when no counted item but
-yours has a unit price and nothing cheaper per unit was left out. When no code
-qualifies, the code line reads `none.` and says why. In your own words, name
-products, not ids.
+`<who>` is `yours`, `the same product` (adding `its page does not print <attributes>,
+taken from yours` for `inherited` checks), `a similar product` (every check
+`same`), or `a different product, not yours; differs: <attributes>; not shown
+on its page: <attributes>` (any other check): the line never calls a different
+product yours. `<gate>` is `no sign-up needed` or `gated: <gate>`; `<expiry>`
+is `expires "<page's words>"` or `no expiry printed`. When `unit` is `none`,
+sizes and unit prices are left out of every line. A price not read in the
+page's own text carries `(from <how it was read>, not confirmed in the page's
+own text)` beside it. Leave out a *Lower …* line when there is none and the
+*Lowest price per* line when no counted item but yours has a unit price and
+nothing cheaper per unit was left out (when one was left out, the per-unit line
+names the lowest counted unit price, yours included). When no code qualifies,
+the code line reads `none.` and says why. The thin-sample note appears when
+fewer than two counted products come from stores other than yours or fewer than
+three stores were counted. In your own words, name products, not ids.
 
 ## Rules each part must meet
 
 - **How each fact was read (`read`).** Every shelf price, size, stock state
-  and offer says how it was read: `page-text` (the product page's own text: a
-  browser's text after scripts run, or raw HTML from `curl`; where they differ,
-  the browser's visible text), `reader-summary` (a page-reader tool's summary,
-  such as WebFetch: it paraphrases and can be wrong), `listing-page` (a store's
-  search or category page, not the product's own page) or `search-snippet` (a
-  search result's text: offers only, with `state` `unverified`; a snippet price
-  never enters the answer). Your product's size may also be `shopper` (they told
-  you). Only `page-text` counts: an item whose price or stock was read another
-  way is flagged, never compared, and never names a lowest line.
+  and offer says how it was read: `page-text` (the text a browser shows after
+  scripts run: its visible text, or its accessibility snapshot when the visible
+  text misses a price), `raw-html` (the page's HTML from `curl` or a fetch: a
+  lead only, because it holds hidden and unrendered text; a Shopify page's raw
+  HTML can print "Sold out" on every size while the browser shows Add to Cart),
+  `reader-summary` (a page-reader tool's summary, such as WebFetch: it
+  paraphrases and can be wrong), `listing-page` (a store's search or category
+  page, not the product's own page) or `search-snippet` (a search result's
+  text: offers only, with `state` `unverified`; a snippet price never enters
+  the answer). Your product's size may also be `shopper` (they told you). Only
+  `page-text` counts: an item whose price or stock was read another way is
+  flagged, never compared, never excluded on that read, and never names a
+  lowest line.
 - **Times.** Copy each time from `date -u +%Y-%m-%dT%H:%M:%SZ`, run before the
   first search (`run.started_at`), right after each page read (`checked_at`, and
-  `seen_at` for that page's offers) and when the answer is written
-  (`run.finished_at`). Never estimate a time. The checker refuses a time outside
-  the run and a `finished_at` later than its own clock; inside the run it cannot
-  tell a copied time from a made-up one.
+  `seen_at` for that page's offers; a re-read that decides a fact carries the
+  re-read's time) and when the answer is written (`run.finished_at`). Never
+  estimate a time. The checker refuses a time outside the run and a
+  `finished_at` later than its own clock; inside the run it cannot tell a
+  copied time from a made-up one.
 - **Shelf price.** The price the product's own page printed for the size and
   option shown, quoted (`quote` contains `amount`), `state` `observed-now` when
   read during this run. A "from" price or a range (`from $18.00`, `$17.00 -
   $99.00`) is not a shelf price: open the option you compare (clicking a size
   or option is fine; adding to cart is not) and quote its price, or flag the
-  item. A price for pickup or delivery at a store the site picked, not the
-  shopper, is flagged.
+  item. A price shown with a code already applied ("$7.56 with code OCT26") is
+  not a shelf price: quote the price without the code, or flag the item. A
+  price for pickup or delivery at a store the site picked, not the shopper, is
+  flagged. A page that prints no currency has `currency` `not stated`:
+  flagged, never converted, and its `unit_price` is `not comparable: currency
+  not stated`.
 - **Stock (`availability`).** `in-stock` or `out-of-stock` with the page's
-  words (`Add to Cart`, `Sold out`) in `quote`, or `not-stated`. Out of stock in
-  the page's own text means excluded; out of stock only from a summary means
-  flagged until a page-text read confirms it.
+  words for the option you priced (`Add to Cart`, `Sold out`) in `quote`, or
+  `not-stated`. A buy button for that option is in stock; a size picker alone
+  ("SELECT A SIZE") is not. Out of stock in the page's own text means excluded;
+  out of stock read any other way means flagged until the browser confirms it.
+  `not-stated` means flagged: shown as a lead with "stock not stated", never on
+  a lowest line.
 - **Unit (`unit`).** One unit for the whole answer: `oz`, `lb`, `g`, `kg`,
   `fl oz`, `ml`, `l` or `ct` (US coffee `oz`; tea bags, brush heads, pods
   `ct`), or `none` when the kind is sold one item at a time (shoes, earbuds):
@@ -97,51 +120,65 @@ products, not ids.
 - **Size and unit price.** `size` quotes the page (`quote`), states one size
   (`text`) and says how it was read, or is `null`; never guess a size. A size is
   written with oz, lb, g, kg, fl oz, ml, l or a count word (ct, count, each, ea,
-  pack, heads, sachets, tea bags, bags, pods, capsules, cans, cartridges,
-  filters, refills, pieces, pcs); a printed multipack counts its items
-  (`12.5 oz (Case of 12)` is 12 x 12.5 oz). When an item's size is printed, its
-  `unit_price` is its shelf price ÷ that size in the answer's unit, as
-  `deal_finder/unit_price.py` computes it: 2 decimals, **3 decimals when under
-  1.00** (`0.767`), half up. Otherwise `unit_price` is left out or `not
-  comparable: <reason>` (`not comparable: size not stated`, different units,
-  another currency). (The stored catalog's exact-size rule is separate and
-  unchanged.)
+  pack, heads, sachets, tea bags, tea sachets, bags, pods, capsules, cans,
+  cartridges, filters, refills, pieces, pcs); a printed multipack counts its
+  items (`12.5 oz (Case of 12)` is 12 x 12.5 oz, `Box of 10` is 10 ct), a
+  printed total is the size (`(72oz total)`), and "about" refuses only the size
+  it qualifies (`10.93 oz (About 20 Cups)` is 10.93 oz). When a page prints the
+  count and the size apart ("Contains twelve (12) 12.5 oz cans"), quote a
+  printed total (`Weight: 150 oz`) or the words that hold both. When an item's
+  size is printed, its `unit_price` is its shelf price ÷ that size in the
+  answer's unit, as `deal_finder/unit_price.py` computes it: 2 decimals, **3
+  decimals when under 1.00** (`0.767`), half up. Otherwise `unit_price` is
+  left out or `not comparable: <reason>` (`not comparable: size not stated`,
+  different units, another currency). (The stored catalog's exact-size rule is
+  separate and unchanged.)
 - **Similarity.** `attributes_used` lists the quality attributes, each marked
   must-have or may-vary and sourced (`page` with a quote, `shopper`, or
   `assumed` with why). Each candidate's `checks` marks every attribute `same`,
-  `differs`, `unknown` (**the page does not say**) or `not-read` (**you did not
-  read that part of the page**). A must-have that `differs` means
-  **excluded**; one that is `unknown` or `not-read` means **flagged**. Every
-  candidate has at least one *similar because* and one *not comparable* reason.
+  `differs` (**the page prints another value**), `unknown` (**the page does not
+  say**, or says two things: quote both), `not-read` (**you did not read that
+  part of the page**) or `inherited` (**the same product, whose page does not
+  print it, so yours carries over**; only with `same_product: true`). An
+  adjacent level is another value: "medium-dark" against "medium" `differs`. A
+  must-have that `differs` means **excluded**; one that is `unknown` or
+  `not-read` means **flagged**; `inherited` counts as `same`. Every candidate
+  has at least one *similar because* and one *not comparable* reason.
   `same_product: true` marks the same product (same brand and name; size or
-  seller may differ) at another store. Order: the same product first, then most
-  `same` checks; excluded last within each.
+  seller may differ) at another store. Order: the same product first; then
+  compared, flagged, excluded; within each, most `same` checks first.
 - **Offers.** Only what the store itself printed and showed (`product page`,
-  `site banner` or another `store page`; text hidden in the HTML is not
-  printed), quoted, with `kind`: `code`, `sale` (already in the shelf price),
-  `subscribe`, `autoship` (the pet stores' word for subscribe), `signup`,
-  `shipping-threshold`, `bundle` (buy more, save more), `bulk` (a case or
-  multi-bag price) or `other` (anything else, in the page's words); `state`
+  `site banner`, another `store page`, or a `pop-up`; text hidden in the HTML
+  is not printed), quoted, with `kind`: `code`, `sale` (already in the shelf
+  price), `subscribe`, `autoship` (the pet stores' word for subscribe),
+  `signup`, `shipping-threshold`, `bundle` (buy more, save more), `bulk` (a case
+  or multi-bag price) or `other` (anything else, in the page's words); `state`
   `retailer-stated` (or `unverified` for indexed text of a page that could not
   be read, `rejected` for a code whose printed window has passed); `gate`:
   `none`, `email`, `sms`, `first-order`, `subscription`, `member`,
-  `store-card`, `app` or `other`; and `read`. A `code` must appear in its quote;
-  give its printed discount as `"discount": {"percent": "20"}` or `{"amount":
-  "5.00"}` and a printed minimum as `min_spend`. Codes from coupon or deal sites
-  are not listed.
-- **Your product first.** When your product is not counted (out of stock, no
-  price in its page's text, another currency, described with no page), the
-  answer says so before the lowest lines.
+  `store-card`, `app` or `other`; `read`; and `expires` with the page's words
+  when it prints an end ("Offer ends 10/31"), left out when it prints none. A
+  `code` must appear in its quote; give its printed discount as `"discount":
+  {"percent": "20"}` or `{"amount": "5.00"}`, a printed minimum as
+  `min_spend`, and its terms (or that an asterisk's terms are not printed) in
+  `conditions`. Codes from coupon or deal sites are not listed. Your product's
+  offers are shown under it: they answer what coupons your product has.
+- **Your product first.** When your product is not counted (out of stock or
+  stock not stated, no price in its page's text, another currency, described
+  with no page), the answer says so before the lowest lines; its price is still
+  the one a saving is measured against.
 - **Lowest shelf price.** Counted items are your product and `compared`
   candidates, priced and in stock in the page's own text, in the asked
   currency. The line compares only counted items **the same size as yours**
   (within 1%; with `unit` `none`, every item); a different size competes on the
   per-unit line. If your product's size is not printed, `shelf` is `null` and
-  the answer asks the shopper for it. Less than 2% below your price reads `no
-  meaningful saving found`, with both prices. When every counted price comes
-  from one store, the line says only that store could be counted.
-  `shelf_lower_not_counted` names each flagged or excluded item of your size (or
-  of unknown size) priced below the line, with why.
+  the answer asks the shopper for it; with no shopper to ask, `if_size`
+  (`{"size": "12 oz", "why": "<where that size is printed>", "id", "amount"}`)
+  gives the lowest counted shelf price for one printed size, so the answer
+  reads both ways. Less than 2% below your price reads `no meaningful saving
+  found`, with both prices. `shelf_lower_not_counted` names each flagged or
+  excluded item of your size (or of unknown size) priced below the line, with
+  why; an item of another size is named on the per-unit line only.
 - **Lowest price per unit.** The lowest unit price among counted items whose
   size is printed in the page's text; `null` when only yours has one and nothing
   cheaper per unit was left out. `unit_lower_not_counted` names each item not
@@ -152,33 +189,39 @@ products, not ids.
   counted item, read in the page's own text, with its discount stated in numbers
   (a printed minimum spend must be met by one item); never stacked; the lowest
   such price. A gated code is listed with its gate and never forms this line.
-  When none qualifies, `if_code` is `null` and `if_code_none` says why.
-- **Run.** `page_budget` at most 10. `pages_read` counts each distinct link
+  When none qualifies, `lowest.if_code` is `null` and `lowest.if_code_none`
+  says why.
+- **Run.** `page_budget` at most 10. `pages_read` counts each distinct page
   opened, blocked ones and 404s included (at most the budget, at least the
-  distinct pages named); re-reading a page already counted, to confirm it in a
-  browser or raw HTML, is free. At least one search; candidates and blocked
-  pages from at least two stores; start and end times; `took` and `cost` as the
-  runtime reported them, or `not reported`.
+  distinct pages named); a store's own `?variant=` link for an option is the
+  same page, and re-reading a page already counted, to confirm it in a browser,
+  is free. A link that redirects counts once, as the page shown: give that
+  page's link and say in `found_via` that it redirected. Amazon, Walmart and
+  Best Buy may be listed in `blocked` unopened (`"opened": false`; they spend no
+  page and count as no store). At least one search; candidates and opened
+  blocked pages from at least two stores; start and end times; `took` and
+  `cost` as the runtime reported them, or `not reported`.
 - **Links.** Plain store links taken from search results or the store's own
   menu, never built or guessed: no `utm_*`, `_gsid`, `gclid`, `fbclid`, `ref`,
   `tag`, `aff…` or other tracking or affiliate parameters.
 - **Wording.** None of `DECISION_TABLE.md`'s banned words (`safe`,
   `guaranteed`, `best ever`, `works`, `ending soon`, `lowest ever`) or
   "best deal", "great deal", "hurry", "act now", "don't miss" in your own
-  words. Page quotes stay as printed.
+  words. Page words you quote ('Be Aware for safe listening') stay as printed.
 
 ## JSON shape
 
-A real answer, read on 2026-10-04 (UTC) with `curl` (raw HTML) and a browser
-(page text), every time copied from `date -u`, nothing added to a cart. The
-three Kimbo pages were search results from an earlier run that day, read again
-live. Prices may have changed since. It shows the same product at two other
+A real answer, read on 2026-10-04 (UTC) in a browser (page text) and with
+`curl` (raw HTML, a lead only: the hidden ITALY10 block under Unknowns), every
+time copied from `date -u`, nothing added to a cart. The three Kimbo pages were
+search results from an earlier run that day, read again live. Prices may have
+changed since, and its links are not leads: take links from your own search. It shows the same product at two other
 stores, a cheaper excluded bag named under *Lower but not counted*, unit prices
 under $1.00, a printed code with its discount, and `not-read` beside `same`.
 
 ```json
 {
-  "contract": "similar-v2",
+  "contract": "similar-v3",
   "request": {"said": "I buy Lavazza Super Crema whole bean, 2.2 lb, medium roast: https://www.lavazzausa.com/en/whole-bean-coffee/super-crema.4202. Find the same or a similar bag, the coupons each store prints and the lowest price.", "region": "US", "currency": "USD"},
   "unit": "oz",
   "reference": {
