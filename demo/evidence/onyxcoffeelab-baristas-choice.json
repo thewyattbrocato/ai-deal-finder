@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:30:25Z, title \"Barista's Choice \u2013 Onyx Coffee Lab\") holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://onyxcoffeelab.com/products/baristas-choice",
  "history": [
   {

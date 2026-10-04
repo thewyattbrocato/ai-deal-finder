@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:30:07Z, title \"Season's Best Bundle\") holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.intelligentsia.com/products/seasons-best-bundle-2",
  "history": [
   {

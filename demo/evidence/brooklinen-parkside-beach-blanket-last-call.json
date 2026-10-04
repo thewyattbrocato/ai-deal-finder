@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:23:08Z, title 'Parkside Beach Blanket | Compact & Easy Carry | Brooklinen') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.brooklinen.com/products/parkside-beach-blanket-last-call",
  "history": [
   {

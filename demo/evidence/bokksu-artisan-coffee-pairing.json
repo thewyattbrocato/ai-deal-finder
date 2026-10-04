@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:16:37Z, title 'Artisan Coffee Pairing \u2013 Bokksu Snack Box') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://bokksu.com/products/artisan-coffee-pairing",
  "history": [
   {

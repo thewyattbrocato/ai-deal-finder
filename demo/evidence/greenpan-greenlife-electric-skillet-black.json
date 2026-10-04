@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored page lists 4 offers at different USD prices (34.99, 49.99), not one shelf price",
  "final_url": "https://www.greenpan.us/products/greenlife-electric-skillet-black",
  "history": [
   {

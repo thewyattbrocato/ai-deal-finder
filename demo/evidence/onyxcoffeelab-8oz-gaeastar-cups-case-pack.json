@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:30:21Z, title '8oz GaeaStar Cups Case Pack \u2013 Onyx Coffee Lab') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://onyxcoffeelab.com/products/8oz-gaeastar-cups-case-pack",
  "history": [
   {
