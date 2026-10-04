@@ -110,7 +110,7 @@ class CouponTermsTest(unittest.TestCase):
             winner["immediate_discount"] = "5.00"
         winner["coupon"] = {
             "code": "SAVE5",
-            "status": "applied-in-anonymous-cart" if counted else "retailer-stated",
+            "status": "shopper-confirmed-at-checkout" if counted else "retailer-stated",
             "terms_on_other_page": True,
         }
         return value

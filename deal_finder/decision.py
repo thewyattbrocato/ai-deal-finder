@@ -14,7 +14,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import List, Optional
 
-from .consent import ConsentRecord, ConsentStatus
+from .consent import CART_DISABLED_MESSAGE, ConsentRecord, ConsentStatus
 from .evidence import VERIFIED_STATES, Candidate, Coupon, EvidenceState
 from .landed_cost import RankedCandidate, ranking_is_robust
 
@@ -43,7 +43,7 @@ BANNED_PHRASES = (
     "safe",
     "guaranteed",
     "best ever",
-    "works",  # for coupon claims, unless cart-tested at a stated timestamp
+    "works",  # for coupon claims: no code is ever cart-tested
     "ending soon",
     "lowest ever",
 )
@@ -75,7 +75,6 @@ class DecisionInput:
     observation_stale: bool = False
     tamper_signs: bool = False
     sources_conflict: bool = False
-    conflict_resolved_by_cart_proof: bool = False
     deadline_or_stock_pressure: bool = False
     recheck_trigger: str = ""
 
@@ -179,11 +178,12 @@ def decide(inp: DecisionInput) -> Decision:
             "shows tampering/injection signs.",
             "tamper/injection signs in pasted or indexed content",
         )
-    if inp.sources_conflict and not inp.conflict_resolved_by_cart_proof:
+    if inp.sources_conflict:
         return downgrade(
-            "Reconcile the conflicting sources at cart level (anonymous cart total) "
-            "and re-run.",
-            "sources conflict and no cart-level proof resolves the conflict",
+            "Reconcile the conflicting sources on the merchant page (the shopper "
+            "can check the total at checkout) and re-run.",
+            "sources conflict and nothing observed resolves the conflict "
+            "(cart-applied proof is not accepted)",
         )
     if inp.mode == "non-browsing" and len(inp.candidates) < 2:
         return downgrade(
@@ -241,10 +241,17 @@ def decide(inp: DecisionInput) -> Decision:
     if any(s not in VERIFIED_STATES for s in decisive):
         states = ", ".join(sorted({s.value for s in decisive}))
         # Retailer-stated/user-provided/untested evidence cannot support buy.
+        if EvidenceState.APPLIED_IN_ANONYMOUS_CART in decisive:
+            return downgrade(
+                "Cart-applied checks are disabled. Open the merchant page and check "
+                "the code and the payable total at checkout yourself; the shelf "
+                "price stays the price until you do. Then re-run with what you saw.",
+                "cart-applied evidence is not accepted: " + CART_DISABLED_MESSAGE,
+            )
         if winner.evidence_state == EvidenceState.RETAILER_STATED:
             check = (
-                "Test the code/price in a logged-out anonymous cart (with consent) "
-                "or supply a checkout result, then re-run."
+                "Check the code at checkout yourself and supply the total you see "
+                "(shopper-confirmed), then re-run; the skill tries no code in a cart."
             )
         elif winner.evidence_state == EvidenceState.USER_PROVIDED:
             check = (
@@ -253,8 +260,8 @@ def decide(inp: DecisionInput) -> Decision:
             )
         else:
             check = (
-                "Obtain an observed-now or applied-in-anonymous-cart reading "
-                "for the exact item and cart, then re-run."
+                "Obtain an observed-now reading for the exact item from the "
+                "merchant page, then re-run."
             )
         return downgrade(check, f"decisive claims not verified (states: {states})")
 

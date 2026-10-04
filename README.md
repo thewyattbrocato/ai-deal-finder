@@ -245,8 +245,9 @@ What it cannot do:
 
 For one evidence-backed `buy`, `wait`, `verify`, or `abstain` purchase decision,
 `SKILL.md` is the operating contract. The Python runtime owns deterministic
-validation, landed-cost arithmetic, consent gates, and optional Jev
-composition. It does not browse, mutate carts, log in, or purchase.
+validation, landed-cost arithmetic, and optional Jev composition. It does not
+browse, mutate carts, log in, or purchase, and it refuses cart-applied checks
+(see "Cart-applied checks are off" below).
 
 The acceptance corpus is still authored draft evidence. Building the skill does
 not mark any gate in `VALIDATION_RECORD.md` passed or establish effectiveness.
@@ -318,17 +319,24 @@ provenance fields plus deterministic cost inputs:
 Costs are decimal strings, `null` for unknown, or `{"min":"0","max":"5"}`
 for a bounded range. Ranking follows `LANDED_COST.md`. `immediate_discount`
 tied to a coupon is accepted only when coupon status is
-`applied-in-anonymous-cart` or `shopper-confirmed-at-checkout`.
+`shopper-confirmed-at-checkout`. A candidate or coupon in the state
+`applied-in-anonymous-cart` is never accepted: it lowers no price, and a
+candidate in that state gets `verify` with the manual step below. The
+`consent` field is still required for compatibility, and is ignored.
 
-### Cart authorization
+### Cart-applied checks are off
 
-The CLI persists explicit consent, but performs no browser action. Consent
-grant records the merchant and coupon attempt the grant covers. `cart-check`
-requires a run JSON naming `merchant`, `attempt`, `session_id`, `browser_tools`,
-`merchant_rules` (`allow` only), `logged_out`, `cleanup_guaranteed`,
-`scarce_inventory`, `attempt_budget` (1-3), and `attempts_planned`. Consent for
-one merchant or attempt cannot authorize a different merchant's cart test. Any
-missing, false, ambiguous, or revoked prerequisite returns `research-only`.
+Cart-applied checks are disabled until the consent link is redesigned. The `consent` and `cart-check` commands print that
+message and exit non-zero; nothing is written or read. The skill never adds
+anything to a cart or tries a code in one, and a printed code stays *seen, not
+tried*: the shelf price stays the price. If you want a code checked, open the
+store's page and check it at checkout yourself, then tell the skill what you saw.
+
+Why: the stored consent record was never shown to authorize one specific
+merchant, attempt and action, so the skill declines a path it can only
+half-justify. What would reopen it: a redesigned consent record that binds
+merchant, attempt and action; `CONSENT.md` keeps the record format as that
+design. The similar-products mode never uses a cart.
 
 ## Policy and acceptance documents
 

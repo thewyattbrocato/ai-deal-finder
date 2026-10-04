@@ -22,7 +22,9 @@ required blocking the build.
    `decision`, `judgment`).
 2. **No browser automation in V1**: coupon cart-testing is modeled as
    consent/budget/stop records and action logs, not executed. Real cart
-   execution needs tool bindings that do not exist here yet.
+   execution needs tool bindings that do not exist here yet. Update
+   (captain's call, 2026-10-04): the cart path is now refused outright until
+   the consent link is redesigned; see `CONSENT.md`.
 3. **Timestamps are strings** (ISO-8601) with no staleness threshold in
    code; `observation_stale` is an input flag. A volatility-based
    threshold is a captain call (see below).

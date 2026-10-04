@@ -12,10 +12,10 @@ Two modes; evidence outranks deal volume in both.
 
 ## Hard boundaries
 
-- Never log in, enter checkout, submit payment or personal data, mutate an account, reserve scarce inventory, negotiate, or buy anything.
+- Never log in, enter checkout, submit payment or personal data, mutate an account, reserve scarce inventory, negotiate, or buy anything. Never add anything to a cart or try a code in one (see `## Coupon testing (off)`).
 - Never request a full address, credentials, payment data, government identifiers, or unrelated browsing history.
 - Never claim a seller is safe or a price is guaranteed, best ever, or urgent without scope-matched evidence.
-- Never count an untested coupon, delayed cash back, rebate, points, or gift card as money due today.
+- Never count an untested coupon, delayed cash back, rebate, points, or gift card as money due today; a coupon counts only when the shopper confirmed it at checkout.
 - V1 has no affiliate links. State that ranking is independent of commission.
 - For subscriptions, financial or medical products, controlled goods, resale speculation, or negotiation, abstain without ranking.
 
@@ -49,16 +49,15 @@ The shelf price is the price. A printed code seen but not tried never lowers it,
 5. Assemble input using `README.md`'s schema and run `scripts/deal-finder evaluate <input.json>`. Without Jev, the runtime intentionally returns `verify`. With a server-side `TYPESAFE_API_KEY`, use `--live-jev`; never expose or log the key. A saved Jev response can be supplied with `--judgment`.
 6. Present `buy`, `wait`, `verify`, or `abstain` exactly as defined in `DECISION_TABLE.md`. Put each caveat beside the claim it limits. In non-browsing mode, say live facts were not independently verified; one pasted offer cannot support buy or wait.
 
-## Coupon testing
+## Coupon testing (off)
 
-Coupon research is allowed without cart mutation. Testing in a cart is optional and requires the user's explicit yes.
+Cart-applied checks are disabled until the consent link is redesigned. The skill never adds anything to a cart, never tries a code in one, never records or asks for a cart-test consent, and `scripts/deal-finder consent` and `scripts/deal-finder cart-check` refuse with "cart-applied checks are disabled until the consent link is redesigned" and exit non-zero. Why: the stored consent record was never shown to authorize one specific merchant, attempt and action, so a path the skill can only half-justify stays closed.
 
-1. Ask once: "May I test public coupon codes in a logged-out anonymous cart? I will stop before login or checkout, use no personal or payment data, reserve no scarce inventory, and restore an empty cart plus clean up the browser session. You can revoke this at any time."
-2. Only after an actual yes, persist it with `scripts/deal-finder consent grant --file <consent.json> --session <session-id> --merchant <merchant> --attempt <attempt-id> --confirmed`. Never infer consent or add `--confirmed` without that yes. Each grant covers one merchant and one coupon attempt.
-3. Before every merchant run, create a run JSON and execute `scripts/deal-finder cart-check --consent <consent.json> --run <run.json>`. Proceed only when `allowed: true`.
-4. Use no more than the declared budget (maximum 3 combinations), prioritizing published terms. Stop immediately on login, checkout, personal-data, payment, account, reservation, budget, rule, or cleanup boundaries.
-5. Restore a visibly empty cart, clean the browser session, and record merchant, actions, budget used/declared, stop reason, and observed cleanup. Do not claim knowledge of merchant-side identifiers.
-6. Revoke immediately on request with `scripts/deal-finder consent revoke --file <consent.json>`. Any denial or uncertainty means research-only verification.
+- A code a product's own page prints is `seen, not tried`: list it beside the price, never in it. The shelf price stays the price.
+- Evidence in the state `applied-in-anonymous-cart` is never accepted: it is not verification, it lowers no price, and it cannot give `buy` or `wait`. The engine answers `verify` with this one manual step: the shopper opens the merchant page, checks the code and the payable total at checkout themselves, and tells you what they saw (a coupon is counted only as `shopper-confirmed-at-checkout`).
+- If the shopper asks you to test a code in a cart, say it is off and why, give that manual step, and answer `verify`. Do not ask for consent and do not offer to try.
+- The similar-products mode never uses a cart (one line: it reads pages only and applies nothing).
+- What would reopen it: a redesigned consent record that binds merchant, attempt and action (`CONSENT.md` keeps the record format as that design).
 
 ## Stale and deceptive deals
 
@@ -82,7 +81,7 @@ Read the `labels` list in the output and put each label beside the claim it limi
 
 ## Output contract
 
-Lead with the verdict and one next action. Show the winner and at most one decision-changing alternative. For every material claim include source, region, absolute timestamp, and one evidence state: `observed-now`, `applied-in-anonymous-cart`, `retailer-stated`, `third-party-historical`, `user-provided`, `unverified`, `rejected`, or `unknown`.
+Lead with the verdict and one next action. Show the winner and at most one decision-changing alternative. For every material claim include source, region, absolute timestamp, and one evidence state: `observed-now`, `applied-in-anonymous-cart` (never accepted; see `## Coupon testing (off)`), `retailer-stated`, `third-party-historical`, `user-provided`, `unverified`, `rejected`, or `unknown`.
 
 Rank known amount due today per `LANDED_COST.md`: item price minus immediate proven discount, plus shipping, mandatory fees, known tax, and required membership/bundle cost. Disclose delayed value and unproven checkout credit separately; they never enter the ranked total. Show unknowns or ranges. If ranges overlap or an unknown could flip the winner, return `verify` with exactly one check that would decide it.
 

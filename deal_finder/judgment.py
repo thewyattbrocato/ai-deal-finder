@@ -63,7 +63,7 @@ def evidence_strength_level(state_name: str, conflict: bool = False) -> int:
         "user-provided": 1,
         "third-party-historical": 2,
         "observed-now": 3,
-        "applied-in-anonymous-cart": 3,
+        "applied-in-anonymous-cart": 0,  # not accepted: cart checks are disabled
     }.get(state_name, 0)
 
 
@@ -113,8 +113,8 @@ def judge(inp: DecisionInput, gates: JudgmentGates = JudgmentGates()) -> Decisio
                 + ["judgment service unavailable: rules-only path cannot "
                      "upgrade unverified evidence to buy/wait"],
                 manual_check=(
-                    "Obtain an observed-now or applied-in-anonymous-cart "
-                    "reading for the exact item and cart, then re-run."
+                    "Obtain an observed-now reading for the exact item from "
+                    "the merchant page, then re-run."
                 ),
                 downgraded_from=decision.verdict.value,
             )

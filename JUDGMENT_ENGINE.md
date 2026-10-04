@@ -88,8 +88,8 @@ paths (e.g. `` `candidates[0].evidence_state` ``).
   strong is the current-market evidence for `candidates[i]`?" criteria (0–3):
   "Unverified or blocked-page discovery only" / "Retailer-stated or user-provided,
   untested" / "Third-party history plus retailer terms, no conflicts" /
-  "Observed-now or applied-in-anonymous-cart at a stated timestamp for the exact
-  item and cart". Code maps the winning candidate's level against the
+  "Observed-now at a stated timestamp for the exact
+  item" (a cart-applied reading is not accepted: cart checks are disabled until the consent link is redesigned, `CONSENT.md`). Code maps the winning candidate's level against the
   `DECISION_TABLE.md` minimums; any conflict downgrades to `verify`.
 - Scores are normalized (score ÷ top level) and combined with code-owned weights
   (composite-scoring pattern) for review prioritization only — not for ranking.
@@ -99,7 +99,7 @@ paths (e.g. `` `candidates[0].evidence_state` ``).
 `identity_exact` ("`candidates[i]` matches the requested variant, quantity,
 condition, bundle, seller, fulfillment, and region"); `in_stock_win` ("the
 leading candidate is in stock at `observed_at`"); `consent_covers_test` ("`consent`
-is granted and covers this merchant and attempt"); `history_supports_wait`
+is granted and covers this merchant and attempt"; no longer consumed by code while cart checks are disabled, kept for the redesign); `history_supports_wait`
 ("`history` names provider, coverage, region, window and favors waiting");
 `seller_flag_unresolved`; `primary_page_blocked`; `single_offer_only`;
 `tamper_signs` (pasted/indexed content shows injection or alteration signs).

@@ -95,12 +95,19 @@ class EvidenceTest(unittest.TestCase):
         self.assertEqual(len(violations), 1)
         self.assertIn("without provenance", violations[0])
 
+    def test_cart_applied_claim_is_not_verified_and_is_flagged(self):
+        c = Claim(text="total $199 with SAVE50", source="acme.example.com", region="US",
+                  observed_at="2026-09-30T12:00:00Z",
+                  state=EvidenceState.APPLIED_IN_ANONYMOUS_CART)
+        self.assertFalse(c.is_verified())
+        violations = check_no_upgrade([c])
+        self.assertTrue(any("cart-applied evidence is not accepted" in v for v in violations))
+
     def test_coupon_counting(self):
         self.assertTrue(Coupon(code="X", merchant="m",
-                              status="applied-in-anonymous-cart").may_count_in_landed_cost())
-        self.assertTrue(Coupon(code="X", merchant="m",
                               status="shopper-confirmed").may_count_in_landed_cost())
-        for s in ("retailer-stated", "unverified", "rejected"):
+        # Cart-applied is no longer accepted: the skill tries no code in a cart.
+        for s in ("applied-in-anonymous-cart", "retailer-stated", "unverified", "rejected"):
             self.assertFalse(Coupon(code="X", merchant="m", status=s).may_count_in_landed_cost(),
                              s)
 
@@ -163,25 +170,31 @@ class ConsentTest(unittest.TestCase):
                              session="s1", merchant="Acme",
                              last_changed_at="2026-09-30T11:00:00Z")
 
-    def test_absent_consent_refuses_cart_test(self):
-        gate = CartTestGate(consent=ConsentRecord(), budget=AttemptBudget(),
-                            merchant="Acme")
-        ok, reason = gate.authorize()
-        self.assertFalse(ok)
-        self.assertEqual(reason, StopReason.NO_CONSENT)
+    def test_every_cart_test_is_refused_while_the_consent_link_is_redesigned(self):
+        # Failing-then-passing: this used to authorize with a granted record.
+        budget_spent = AttemptBudget(declared_max=1)
+        budget_spent.spend()
+        cases = {
+            "granted": dict(consent=self.granted(), budget=AttemptBudget(), merchant="Acme"),
+            "absent": dict(consent=ConsentRecord(), budget=AttemptBudget(), merchant="Acme"),
+            "wrong merchant": dict(consent=self.granted(), budget=AttemptBudget(), merchant="Other"),
+            "ambiguous terms": dict(consent=self.granted(), budget=AttemptBudget(),
+                                    merchant="Acme", merchant_terms_ambiguous=True),
+            "no browser": dict(consent=self.granted(), budget=AttemptBudget(),
+                               merchant="Acme", browser_tools_available=False),
+            "budget spent": dict(consent=self.granted(), budget=budget_spent, merchant="Acme"),
+        }
+        for name, kwargs in cases.items():
+            with self.subTest(name):
+                ok, reason = CartTestGate(**kwargs).authorize()
+                self.assertFalse(ok)
+                self.assertEqual(reason, StopReason.CART_DISABLED)
+                self.assertEqual(reason.value, "cart-applied checks are disabled until the consent link is redesigned")
 
-    def test_granted_consent_authorizes(self):
-        gate = CartTestGate(consent=self.granted(), budget=AttemptBudget(),
-                            merchant="Acme")
-        ok, _ = gate.authorize()
-        self.assertTrue(ok)
-
-    def test_wrong_merchant_refused(self):
-        gate = CartTestGate(consent=self.granted(), budget=AttemptBudget(),
-                            merchant="Other")
-        ok, reason = gate.authorize()
-        self.assertFalse(ok)
-        self.assertEqual(reason, StopReason.NO_CONSENT)
+    def test_attempt_budget_still_counts(self):
+        budget = AttemptBudget(declared_max=1)
+        self.assertTrue(budget.spend())
+        self.assertFalse(budget.spend())
 
     def test_revocation_halts_mid_run(self):
         rec = self.granted()
@@ -190,29 +203,6 @@ class ConsentTest(unittest.TestCase):
         ok, reason = gate.check_revoked()
         self.assertFalse(ok)
         self.assertEqual(reason, StopReason.REVOKED)
-
-    def test_ambiguous_terms_means_no_test(self):
-        gate = CartTestGate(consent=self.granted(), budget=AttemptBudget(),
-                            merchant="Acme", merchant_terms_ambiguous=True)
-        ok, reason = gate.authorize()
-        self.assertFalse(ok)
-        self.assertEqual(reason, StopReason.MERCHANT_RULES_PROHIBIT)
-
-    def test_no_browser_tools_means_research_only(self):
-        gate = CartTestGate(consent=self.granted(), budget=AttemptBudget(),
-                            merchant="Acme", browser_tools_available=False)
-        ok, reason = gate.authorize()
-        self.assertFalse(ok)
-        self.assertEqual(reason, StopReason.NO_BROWSER_TOOLS)
-
-    def test_budget_exhaustion_falls_back(self):
-        budget = AttemptBudget(declared_max=1)
-        self.assertTrue(budget.spend())
-        self.assertFalse(budget.spend())
-        gate = CartTestGate(consent=self.granted(), budget=budget, merchant="Acme")
-        ok, reason = gate.authorize()
-        self.assertFalse(ok)
-        self.assertEqual(reason, StopReason.BUDGET_EXCEEDED)
 
     def test_action_log_records_budget_and_stop(self):
         log = ActionLog(merchant="Acme", declared_budget=3)
@@ -351,15 +341,40 @@ class DecisionTest(unittest.TestCase):
                                 ranked=[RankedCandidate("C1", cost(50))]))
         self.assertEqual(d.verdict, Verdict.VERIFY)
 
-    def test_conflict_without_cart_proof_downgrades(self):
-        d = decide(self.buy_input(sources_conflict=True,
-                                  conflict_resolved_by_cart_proof=False))
+    def test_conflicting_sources_downgrade(self):
+        d = decide(self.buy_input(sources_conflict=True))
+        self.assertEqual(d.verdict, Verdict.VERIFY)
+        self.assertIn("cart-applied proof is not accepted", " ".join(d.reasons))
+
+    def test_cart_proof_can_no_longer_resolve_a_conflict(self):
+        # Was test_conflict_resolved_by_cart_proof_buys; the input no longer exists.
+        with self.assertRaises(TypeError):
+            DecisionInput(sources_conflict=True, conflict_resolved_by_cart_proof=True)
+
+    def test_cart_applied_winner_cannot_buy(self):
+        c = full_candidate(evidence_state=EvidenceState.APPLIED_IN_ANONYMOUS_CART,
+                           price_determining_states=[EvidenceState.APPLIED_IN_ANONYMOUS_CART])
+        d = decide(DecisionInput(candidates=[c], ranked=[RankedCandidate("C1", cost(50))]))
+        self.assertEqual(d.verdict, Verdict.VERIFY)
+        self.assertEqual(d.winner_id, "")
+        self.assertIn("cart-applied checks are disabled", " ".join(d.reasons))
+        self.assertIn("yourself", d.manual_check)
+
+    def test_a_granted_consent_record_does_not_make_cart_evidence_count(self):
+        c = full_candidate(evidence_state=EvidenceState.APPLIED_IN_ANONYMOUS_CART,
+                           price_determining_states=[EvidenceState.APPLIED_IN_ANONYMOUS_CART])
+        granted = ConsentRecord(status=ConsentStatus.GRANTED, granted_at="2026-09-30T11:00:00Z",
+                                session="s1", merchant="Acme Store",
+                                last_changed_at="2026-09-30T11:00:00Z")
+        d = decide(DecisionInput(candidates=[c], ranked=[RankedCandidate("C1", cost(50))],
+                                 consent=granted))
         self.assertEqual(d.verdict, Verdict.VERIFY)
 
-    def test_conflict_resolved_by_cart_proof_buys(self):
-        d = decide(self.buy_input(sources_conflict=True,
-                                  conflict_resolved_by_cart_proof=True))
-        self.assertEqual(d.verdict, Verdict.BUY)
+    def test_cart_applied_coupon_never_counts_and_is_listed_as_excluded(self):
+        d = decide(DecisionInput(
+            candidates=[full_candidate()], ranked=[RankedCandidate("C1", cost(50))],
+            coupons=[Coupon(code="SAVE20", merchant="Acme", status="applied-in-anonymous-cart")]))
+        self.assertTrue(any("SAVE20" in r and "excluded" in r for r in d.reasons))
 
     def test_single_pasted_offer_is_verify(self):
         c = full_candidate(evidence_state=EvidenceState.USER_PROVIDED,
@@ -468,6 +483,7 @@ class JudgmentTest(unittest.TestCase):
         self.assertEqual(judgment.evidence_strength_level("observed-now"), 3)
         self.assertEqual(judgment.evidence_strength_level("retailer-stated"), 1)
         self.assertEqual(judgment.evidence_strength_level("unverified"), 0)
+        self.assertEqual(judgment.evidence_strength_level("applied-in-anonymous-cart"), 0)
         self.assertEqual(judgment.evidence_strength_level("observed-now", conflict=True), 1)
 
     def test_score_names_cover_catalog(self):
