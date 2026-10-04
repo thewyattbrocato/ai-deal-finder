@@ -400,6 +400,9 @@ function markName(c, p, res) {
 }
 function render() {
   var intent = E.hasIntent(S);
+  if (live.status !== "idle" && live.q !== S.q.trim()) liveReset();  // live results belong to the words they were fetched for
+  renderLive();
+  if (!intent) show($("live"), false);
   show($("start"), !intent);
   show($("hint"), !intent);
   show($("resultsArea"), intent);
@@ -480,6 +483,83 @@ function drawCard(r, res) {
   markName(c, p, res);
 }
 $("show-more").addEventListener("click", function () { limit += PAGE; render(); if (!shownEl($("show-more"))) focusResults(); });
+
+// ---- live search: an extra action beside the stored results; the stored path above is unchanged
+// The profile is this page's own ucp-agent.json (the catalog fetches it to see what the caller says it can do).
+var LIVE_PROFILE = "https://thewyattbrocato.github.io/ai-deal-finder/ucp-agent.json";
+var live = { status: "idle", q: "", cards: [], skipped: 0, at: "" }, liveSeq = 0;
+function liveReset() { liveSeq++; live = { status: "idle", q: "", cards: [], skipped: 0, at: "" }; }
+function liveTime() {
+  return new Date().toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+}
+function liveFail(seq) {
+  if (seq !== liveSeq) return;
+  live.status = "fail";
+  render();
+}
+function liveSearch() {
+  var query = S.q.trim();
+  if (!query || live.status === "loading") return;
+  var seq = ++liveSeq;
+  live = { status: "loading", q: query, cards: [], skipped: 0, at: "" };
+  render();
+  if (typeof fetch !== "function") { liveFail(seq); return; }
+  var req = DealFinderEngine.live.request(query, LIVE_PROFILE);
+  // a call that never answers ends as a failure after 15 seconds (no timer of the page's own)
+  if (typeof AbortSignal === "function" && AbortSignal.timeout) req.init.signal = AbortSignal.timeout(15000);
+  var go;
+  try { go = fetch(req.url, req.init); } catch (e) { liveFail(seq); return; }
+  go.then(function (r) { if (!r.ok) throw new Error("status"); return r.json(); })
+    .then(function (body) {
+      if (seq !== liveSeq) return;
+      var res = DealFinderEngine.live.parse(body);
+      if (!res.ok) { liveFail(seq); return; }
+      live = { status: "ok", q: query, cards: res.cards, skipped: res.skipped, at: liveTime() };
+      render();
+    })
+    .catch(function () { liveFail(seq); });
+}
+$("livebtn").addEventListener("click", liveSearch);
+var STOCK_TEXT = { in: "In stock", out: "Out of stock", unknown: "Stock not stated" };
+function liveCard(c) {
+  var kids = [
+    h("h3", { "data-live-title": "1", text: c.title }),
+    h("p", { "data-live-seller": "1", text: c.seller ? "Seller: " + c.seller : "Seller not stated" }),
+    h("p", { class: "liveprice", "data-live-price": "1", text: fmt(c.cents) }),
+    h("p", { "data-live-stock": "1", text: STOCK_TEXT[c.stock] })
+  ];
+  if (c.variants > 1) kids.push(h("p", { class: "hint", "data-live-variants": "1", text: "One of " + c.variants + " variants; the price and stock are for the one the link opens." }));
+  if (c.url) kids.push(h("p", {}, [h("a", { "data-live-link": "1", href: c.url, target: "_blank", rel: "noopener noreferrer", text: "See at " + (c.seller || "the store") + " →" })]));
+  kids.push(h("p", { class: "hint", "data-live-source": "1", text: "Price from the store’s Shopify catalog, read at " + live.at + " today" }));
+  kids.push(h("p", { class: "hint", "data-live-scope": "1", text: "Not compared with stores outside Shopify" }));
+  kids.push(h("p", { class: "hint", "data-live-coupon": "1", text: "Coupon: not checked" }));
+  kids.push(h("p", { class: "hint", "data-live-tax": "1", text: "Tax and shipping not shown" }));
+  return h("li", { class: "livecard", "data-live-card": "1" }, kids);
+}
+function renderLive() {
+  var box = $("live"), body = $("livebody"), btn = $("livebtn");
+  clear(body);
+  var has = !!S.q.trim();
+  show(box, has || live.status !== "idle");
+  show($("stored-head"), live.status !== "idle");
+  if (btn.removeAttribute) btn.removeAttribute("disabled");
+  if (live.status === "loading") btn.setAttribute("disabled", "disabled");
+  if (live.status === "idle") return;
+  if (live.status === "loading") {
+    body.appendChild(h("p", { role: "status", "data-live-status": "1", text: "Searching Shopify’s catalog for “" + live.q + "”…" }));
+  } else if (live.status === "fail") {
+    body.appendChild(h("p", { role: "status", "data-live-status": "1", text: "Live search is unavailable right now. The observed examples below were read earlier." }));
+  } else {
+    body.appendChild(h("h2", { class: "livehead", "data-live-count": "1", text: live.cards.length
+      ? "Live from Shopify’s catalog: " + plural(live.cards.length, "product", "products") + " for “" + live.q + "”"
+      : "Shopify’s catalog returned no products for “" + live.q + "”" }));
+    body.appendChild(h("p", { class: "hint", "data-live-note": "1", text: live.cards.length
+      ? "In the order Shopify’s catalog returned them. Shopify stores only; stores outside Shopify were not searched."
+      : "Nothing is guessed. Shopify stores only; stores outside Shopify were not searched." }));
+    if (live.skipped) body.appendChild(h("p", { class: "hint", "data-live-skipped": "1", text: plural(live.skipped, "result was", "results were") + " left out because the catalog gave no USD price for " + (live.skipped === 1 ? "it" : "them") + "." }));
+    if (live.cards.length) body.appendChild(h("ul", { class: "livelist" }, live.cards.map(liveCard)));
+  }
+}
 
 // ---- boot
 renderStart();

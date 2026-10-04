@@ -919,7 +919,7 @@ PAGE_SHELL = """<!DOCTYPE html>
 <div class="wrap">
 <header class="top">
 <p class="brand">Deal Finder</p>
-<p class="lede">Only products whose store pages were actually read. <span id="range"></span></p>
+<p class="lede">Products whose store pages were actually read, plus an optional live search of Shopify stores. <span id="range"></span></p>
 </header>
 <main>
 <label class="search-label" for="q">Search products, stores or kinds</label>
@@ -948,6 +948,12 @@ PAGE_SHELL = """<!DOCTYPE html>
 </section>
 
 <section id="resultsArea" aria-label="Results" style="display:none">
+<section id="live" class="live" aria-label="Live search" style="display:none">
+<button type="button" id="livebtn" class="livebtn">Search stores live</button>
+<p class="hint" id="liveprivacy">Live search sends your search words to Shopify’s catalog. Nothing you type is stored by this page.</p>
+<div id="livebody"></div>
+</section>
+<h2 id="stored-head" class="storedhead" style="display:none">Observed examples, read earlier</h2>
 <div id="active"></div>
 <details id="refine" class="refine"><summary>Refine results<span id="refine-count"></span></summary><div id="bar"></div></details>
 <div class="statusline">
@@ -1204,6 +1210,9 @@ def build():
         shutil.copy2(os.path.join(src_assets, fn), os.path.join(dst_assets, fn))
     with open(docs, "w", encoding="utf-8") as f:
         f.write(page)
+    # the live-search agent profile: a static file the page's catalog call points at
+    shutil.copy2(os.path.join(os.path.dirname(out), "ucp-agent.json"),
+                 os.path.join(os.path.dirname(docs), "ucp-agent.json"))
     print("wrote " + out)
     print("wrote " + docs)
     print("apple:", d1.verdict.value,
