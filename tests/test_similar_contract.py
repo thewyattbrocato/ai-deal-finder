@@ -43,15 +43,17 @@ def fails(answer, fragment, **kw):
 
 # --- fixtures from the live acceptance runs ------------------------------------------------
 
-def item(item_id, name, store, url, at, amount, quote, size=None, unit=None, stock=("in-stock", "Add to Cart"),
+def item(item_id, name, store, url, at, amount, quote, size=None, unit=None, stock=("not-stated", ""),
          read="page-text", currency="USD", **extra):
-    """One page as read: the facts the agent quoted, each read in the page's own text unless said."""
+    """One page as read: the facts the run recorded, each read in the page's own text unless said.
+
+    Stock is `not-stated` unless the run's report quoted the page's stock words."""
     made = {
         "id": item_id, "name": name, "store": store, "url": url, "checked_at": at,
         "shelf_price": {"amount": amount, "currency": currency, "quote": quote, "state": "observed-now", "read": read},
         "size": {"text": size[0], "quote": size[1], "read": "page-text"} if size else None,
-        "availability": {"state": stock[0], "quote": stock[1], "read": "page-text"} if stock[0] != "not-stated"
-        else {"state": "not-stated", "read": "page-text"},
+        "availability": {"state": stock[0], "quote": stock[1], "read": stock[2] if len(stock) > 2 else "page-text"}
+        if stock[0] != "not-stated" else {"state": "not-stated", "read": "page-text"},
         "offers": [],
     }
     if unit:
@@ -158,7 +160,7 @@ def open_farm(reference_unit="0.373"):
     reference = item("R", "Rustic Stew Variety Pack for Dogs", "Open Farm",
                      "https://openfarmpet.com/products/rustic-stew-variety-pack-for-dogs", "2026-10-04T20:38:40Z",
                      "55.88", "$55.88", ("12 x 12.5 oz", "12.5 oz (Case of 12)"), (reference_unit, "oz"),
-                     stock=("out-of-stock", "Currently out of stock"))
+                     stock=("out-of-stock", "Currently out of stock", "reader-summary"))
     names = ["wet food", "grain-free", "container size"]
     petsmart = compared(item("C1", "Open Farm Humanely Sourced Adult Wet Dog Food - Grass-Fed Beef Stew", "PetSmart",
                              "https://www.petsmart.com/dog/food/canned-food/open-farm-adult-wet-dog-food---human-"
@@ -169,11 +171,12 @@ def open_farm(reference_unit="0.373"):
                             "https://www.1800petmeds.com/dog/food/product/open-farm-grain-free-chicken-salmon-recipe-"
                             "rustic-stew/prod65512.html", "2026-10-04T20:38:55Z", "53.88", "$53.88",
                             ("12 x 12.5 oz", "12.5-oz, case of 12"), ("0.359", "oz"),
-                            stock=("out-of-stock", "Temporarily out of stock")),
-                       dict.fromkeys(names, "same"), status="excluded", reason="'Temporarily out of stock'")
+                            stock=("out-of-stock", "temporarily out of stock", "reader-summary")),
+                       dict.fromkeys(names, "same"), status="flagged",
+                       reason="out of stock according to the page reader; not confirmed in the page's text")
     return answer(
         "oz", reference, [attribute(n, n != "container size") for n in names], [petsmart, petmeds],
-        {"shelf_lower_not_counted": [{"id": "C2", "why": "'Temporarily out of stock'"}],
+        {"shelf_lower_not_counted": [{"id": "C2", "why": "out of stock according to the page reader"}],
          "unit": {"id": "C1", "amount": "0.359", "per": "oz"}},
         [{"store": "Walmart", "url": "https://www.walmart.com/ip/seort/2969048963", "what_happened": "a challenge page"}],
         "2026-10-04T20:38:06Z", "2026-10-04T20:41:00Z", 4,
@@ -260,7 +263,7 @@ class ExampleTest(unittest.TestCase):
     def test_each_conditional_line_of_the_template_is_rendered_where_it_applies(self):
         conditional = LABEL.findall("\n".join(line for line in TEMPLATE.splitlines() if line.startswith("[")))
         self.assertEqual(conditional, ["**Your product:", "**Similar products:"])
-        self.assertIn("**Your product:** out of stock on its page", render(open_farm()))
+        self.assertIn("**Your product:** out of stock on its page", render(allbirds()))
         self.assertIn("**Similar products:** none qualified", render(burst()))
         self.assertNotIn("**Your product:", render(example()))
         self.assertNotIn("**Similar products:", render(example()))
@@ -446,12 +449,14 @@ class PacksAndCountsTest(unittest.TestCase):
                                         "C1 is 12.5 oz: it is compared per oz on the unit line")
         self.assertTrue(found, problems)
         answer["lowest"].update(shelf={"id": "R", "amount": "55.88", "currency": "USD"},
-                                shelf_lower_not_counted=[{"id": "C2", "why": "'Temporarily out of stock'"}])
+                                shelf_lower_not_counted=[{"id": "C2", "why": "out of stock per the page reader"}])
         self.assertEqual(validate(answer), [])
 
     def test_the_render_says_nothing_counted_at_your_size_and_points_per_unit(self):
         rendered = render(open_farm())
         self.assertLess(rendered.index("**Your product:**"), rendered.index("**Lowest shelf price"))
+        self.assertIn("**Your product:** out of stock according to a page reader's summary (\"Currently out of "
+                      "stock\"), not confirmed in the page's own text; it is not counted below.", rendered)
         self.assertIn("**Lowest shelf price for 12 x 12.5 oz:** none counted at your size. Compare per oz below.",
                       rendered)
         self.assertIn("**Lowest price per oz:** $0.359 at PetSmart", rendered)

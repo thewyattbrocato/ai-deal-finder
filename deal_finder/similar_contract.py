@@ -178,8 +178,12 @@ def _why_not_counted(item: dict[str, Any], currency: str) -> list[tuple[str, str
     if FROM_OR_RANGE.search(price.get("quote") or ""):
         reasons.append(("range", "its page prints a 'from' price or a range, not one price for one size"))
     stock = item.get("availability") if isinstance(item.get("availability"), dict) else {}
-    if stock.get("state") == "out-of-stock":
+    if stock.get("state") == "out-of-stock" and stock.get("read") == PAGE_TEXT:
         reasons.append(("out", f"out of stock on its page: \"{stock.get('quote', '')}\""))
+    elif stock.get("state") == "out-of-stock":
+        words = READ_WORDS.get(stock.get("read"), "a read it does not state")
+        reasons.append(("out", f"out of stock according to {words} (\"{stock.get('quote', '')}\"), "
+                               "not confirmed in the page's own text"))
     elif stock.get("read") != PAGE_TEXT and stock.get("state") != "not-stated":
         words = READ_WORDS.get(stock.get("read"), "a read it does not state")
         reasons.append(("stock-read", f"its stock comes from {words}, not confirmed in the page's own text"))
