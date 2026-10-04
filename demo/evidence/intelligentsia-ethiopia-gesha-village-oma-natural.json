@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:30:00Z, title 'Ethiopia Gesha Village Oma Natural 7oz') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.intelligentsia.com/products/ethiopia-gesha-village-oma-natural",
  "history": [
   {

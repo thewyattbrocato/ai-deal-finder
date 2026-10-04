@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:30:04Z, title 'Honduras La Tortuga Batian 7oz') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.intelligentsia.com/products/honduras-la-tortuga-batian-7oz",
  "history": [
   {

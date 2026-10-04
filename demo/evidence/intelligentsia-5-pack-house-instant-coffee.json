@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:29:53Z, title 'Intelligentsia Instant Coffee | Direct Trade | Intelligentsia Coffee') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.intelligentsia.com/products/5-pack-house-instant-coffee",
  "history": [
   {

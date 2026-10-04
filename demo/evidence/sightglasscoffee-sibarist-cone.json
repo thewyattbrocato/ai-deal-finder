@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored page's only offer prints price '0.0' (InStock), not a shelf price",
  "final_url": "https://sightglasscoffee.com/products/sibarist-cone",
  "history": [
   {

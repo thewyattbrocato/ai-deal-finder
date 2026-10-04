@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:29:56Z, title 'Black Cat Espresso Capsules') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.intelligentsia.com/products/black-cat-espresso-capsules",
  "history": [
   {

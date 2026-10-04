@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:23:04Z, title 'Soft Cotton Robes For Bath | Spa-Like Comfort | Brooklinen') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.brooklinen.com/products/cotton-shorty-robe-last-call",
  "history": [
   {

@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:10:52Z, title 'Sodastream mix&go bubly Peach Mango 3pk | Liquid Water Enhancer \u2013 SodaStream') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://sodastream.com/products/bubly-squeeze-peach-mango-3pk",
  "history": [
   {

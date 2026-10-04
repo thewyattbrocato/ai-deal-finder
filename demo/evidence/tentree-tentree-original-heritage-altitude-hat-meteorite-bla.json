@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:37:16Z, title 'Ungendered Tentree Heritage Altitude Hat | Organic Cotton') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.tentree.com/products/tentree-original-heritage-altitude-hat-meteorite-black-meteorite-black",
  "history": [
   {

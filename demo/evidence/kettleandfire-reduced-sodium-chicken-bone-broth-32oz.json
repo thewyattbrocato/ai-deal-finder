@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:16:35Z) has product data (2 json_ld entries) but none carries an offer, so no price or stock was read",
  "final_url": "https://www.kettleandfire.com/products/reduced-sodium-chicken-bone-broth-32oz",
  "history": [
   {

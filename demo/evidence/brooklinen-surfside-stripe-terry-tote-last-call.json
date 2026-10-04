@@ -1,5 +1,6 @@
 {
  "coupon_snippets": [],
+ "excluded_reason": "the stored read of the page (HTTP 200, 2026-10-03T22:23:19Z, title 'Surfside Terry Tote | Sand-Proof Cotton | Brooklinen') holds no product data: json_ld is empty, so no name, price or stock was read",
  "final_url": "https://www.brooklinen.com/products/surfside-stripe-terry-tote-last-call",
  "history": [
   {
