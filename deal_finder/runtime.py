@@ -183,7 +183,8 @@ def landed_cost(candidate: dict[str, Any]) -> dict[str, Any]:
     coupon = candidate.get("coupon")
     if coupon is not None and not isinstance(coupon, dict):
         raise DealFinderError("coupon must be an object")
-    if discount and coupon and coupon.get("status") != "shopper-confirmed-at-checkout":
+    cart_applied = candidate.get("evidence_state") == "applied-in-anonymous-cart"
+    if discount and (cart_applied or (coupon and coupon.get("status") != "shopper-confirmed-at-checkout")):
         raise DealFinderError(
             "immediate coupon discount lacks accepted proof: only a coupon the shopper confirmed at "
             f"checkout can lower a price; {CART_DISABLED}"

@@ -175,6 +175,13 @@ class DecisionTests(unittest.TestCase):
         with self.assertRaisesRegex(DealFinderError, "lacks accepted proof"):
             evaluate(value, judgment())
 
+    def test_cart_applied_candidate_cannot_carry_a_discount_even_with_no_coupon_object(self):
+        value = state()
+        value["candidates"][0]["evidence_state"] = "applied-in-anonymous-cart"
+        value["candidates"][0]["immediate_discount"] = "5"
+        with self.assertRaisesRegex(DealFinderError, "lacks accepted proof"):
+            evaluate(value, judgment())
+
     def test_cart_applied_coupon_with_no_discount_is_labelled_and_the_shelf_price_stays(self):
         value = state()
         value["candidates"][1]["coupon"] = {"code": "SAVE5", "status": "applied-in-anonymous-cart"}
