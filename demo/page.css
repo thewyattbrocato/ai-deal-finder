@@ -160,3 +160,15 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
   .card{animation:fade .12s ease-out}
   @keyframes fade{from{opacity:.4}to{opacity:1}}
 }
+
+/* live search: an extra block above the stored results */
+.live{margin-top:16px}
+.livebtn{min-height:48px;padding:0 20px;border-radius:12px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font-size:1rem;font-weight:600;cursor:pointer}
+.livebtn[disabled]{opacity:.6;cursor:progress}
+.livehead{margin:16px 0 4px;font-size:1.2rem}
+.livelist{display:grid;gap:12px;margin:12px 0 0;padding:0;list-style:none}
+.livecard{padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.livecard h3{margin:0 0 4px;font-size:1.05rem}
+.livecard p{margin:2px 0}
+.liveprice{font-size:1.3rem;font-weight:700}
+.storedhead{margin:28px 0 0;font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}

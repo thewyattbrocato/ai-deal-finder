@@ -691,9 +691,11 @@ class SearchFirstTest(unittest.TestCase):
         for word in ("setinterval", "settimeout", "date.now"):
             self.assertNotIn(word, script)
 
-    def test_the_page_reads_the_date_once_for_the_age_line_only(self):
+    def test_the_page_reads_the_date_once_for_the_age_line_and_once_for_a_live_read_time(self):
         script = self.page[self.page.index("<script>"):]
-        self.assertEqual(script.count("new Date()"), 1)
+        self.assertEqual(script.count("new Date()"), 2)
+        live_time = script[script.index("function liveTime"):]
+        self.assertEqual(live_time[:live_time.index("}\n")].count("new Date()"), 1)
 
     def test_each_card_says_how_old_its_stored_check_is_in_plain_days(self):
         # the page script runs with "today" pinned to 2026-10-05
@@ -954,6 +956,193 @@ class PrintedWindowParserTest(unittest.TestCase):
                          ["Cannot be combined with any offers or promotions."])  # truncated tail is not quoted
         self.assertEqual(self.conditions("Use code X."), [])
 
+
+
+LIVE_FIXTURE = os.path.join(ROOT, "tests", "live_search_fixture.json")
+SAVING_WORDS = re.compile(r"sav(e|es|ed|ing|ings)\b|discount|\bdeal\b|\bcode\b|promo|coupon|\boff\b|\bwas\b|\bbest\b|\bonly \d|hurry|limited|endorse|recommend", re.I)
+
+
+def live(scenarios):
+    env = dict(os.environ, TZ="UTC", LIVE_FIXTURE=LIVE_FIXTURE, LIVE_SCENARIOS=json.dumps(scenarios))
+    proc = subprocess.run(["node", DRIVER, os.path.join(ROOT, "demo", "index.html")], check=False,
+                          capture_output=True, text=True, env=env)
+    if proc.returncode != 0:
+        raise AssertionError(proc.stderr or proc.stdout)
+    return json.loads(proc.stdout)
+
+
+class LiveSearchTest(unittest.TestCase):
+    """'Search stores live': Shopify's keyless catalog, called from the page, nothing stored.
+    The fixture is a real recorded reply (tests/live_search_fixture.json); a scripted fetch returns it."""
+
+    @classmethod
+    def setUpClass(cls):
+        with open(LIVE_FIXTURE, encoding="utf-8") as f:
+            cls.fx = json.load(f)
+        cls.products = cls.fx["response"]["result"]["structuredContent"]["products"]
+        cls.d = live({
+            "ok": {}, "noavail": {"mutate": "dropAvailability"}, "inject": {"mutate": "injectDiscountFields"},
+            "reject": {"fail": "reject"}, "status": {"fail": "status"}, "rpc": {"fail": "rpcError"},
+            "nofetch": {"noFetch": True}, "empty": {"empty": True}, "noprice": {"mutate": "dropPrice"},
+            "eur": {"mutate": "foreignCurrency"}, "moveon": {"thenType": "coffee"},
+        })
+
+    def test_the_fixture_is_a_real_recording_with_tracking_parameters_in_it(self):
+        self.assertEqual(len(self.products), 10)
+        self.assertRegex(self.fx["recorded_at"], r"^2026-10-04T")
+        urls = [p["variants"][0]["url"] for p in self.products]
+        self.assertTrue(all("_gsid=" in u or "utm_source=" in u for u in urls[:3]))
+
+    def test_the_call_is_the_one_the_design_specifies(self):
+        calls = self.d["ok"]["calls"]
+        self.assertEqual(len(calls), 1)
+        c = calls[0]
+        self.assertEqual(c["url"], "https://catalog.shopify.com/api/ucp/mcp")
+        self.assertEqual(c["init"]["method"], "POST")
+        self.assertEqual(c["init"]["headers"], {"Content-Type": "text/plain"})  # application/json fails the preflight
+        body = json.loads(c["init"]["body"])
+        self.assertEqual(body["method"], "tools/call")
+        self.assertEqual(body["params"]["name"], "search_catalog")
+        a = body["params"]["arguments"]
+        self.assertEqual(a["meta"]["ucp-agent"]["profile"], "https://thewyattbrocato.github.io/ai-deal-finder/ucp-agent.json")
+        self.assertEqual(a["catalog"]["query"], "waffle knit hoodie men")
+        self.assertEqual(a["catalog"]["context"], {"address_country": "US", "currency": "USD"})
+        self.assertEqual(a["catalog"]["pagination"], {"limit": 10})
+
+    def test_nothing_is_sent_until_the_shopper_asks_and_the_words_going_out_are_said(self):
+        b = self.d["ok"]["before"]
+        self.assertEqual(b["calls"], 0)
+        self.assertTrue(b["btnShown"])
+        self.assertIn("Live search sends your search words to Shopify", b["privacy"])
+
+    def test_each_card_shows_exactly_the_fixture_price_seller_and_title(self):
+        cards = self.d["ok"]["cards"]
+        self.assertEqual(len(cards), 10)
+        for card, p in zip(cards, self.products):
+            v = p["variants"][0]
+            self.assertEqual(card["price"], "$%d.%02d" % divmod(v["price"]["amount"], 100))
+            self.assertEqual(card["title"], p["title"].strip())
+            self.assertEqual(card["seller"], "Seller: " + v["seller"]["name"])
+        self.assertEqual(cards[0]["price"], "$105.00")
+        self.assertEqual(cards[3]["price"], "$85.00")
+        self.assertEqual(cards[4]["price"], "$34.00")
+
+    def test_stock_follows_the_catalog_and_missing_availability_says_not_stated(self):
+        got = [c["stock"] for c in self.d["ok"]["cards"]]
+        want = ["In stock" if p["variants"][0]["availability"]["available"] else "Out of stock" for p in self.products]
+        self.assertEqual(got, want)
+        self.assertIn("Out of stock", got)
+        self.assertIn("In stock", got)
+        self.assertEqual({c["stock"] for c in self.d["noavail"]["cards"]}, {"Stock not stated"})
+
+    def test_links_lose_the_tracking_parameters_and_keep_the_variant(self):
+        for card, p in zip(self.d["ok"]["cards"], self.products):
+            raw = p["variants"][0]["url"]
+            self.assertNotIn("_gsid", card["href"])
+            self.assertNotIn("utm_", card["href"])
+            self.assertTrue(raw.startswith(card["href"]), (raw, card["href"]))
+            if "variant=" in raw:
+                self.assertIn("variant=", card["href"])
+
+    def test_every_card_carries_its_four_plain_labels(self):
+        for c in self.d["ok"]["cards"]:
+            self.assertRegex(c["source"], r"^Price from the store.s Shopify catalog, read at .+ today$")
+            self.assertEqual(c["scope"], "Not compared with stores outside Shopify")
+            self.assertEqual(c["coupon"], "Coupon: not checked")
+            self.assertEqual(c["tax"], "Tax and shipping not shown")
+
+    def test_no_coupon_saving_or_endorsement_wording_appears(self):
+        allowed = ("Coupon: not checked",)
+        for name in ("ok", "noavail", "inject"):
+            for c in self.d[name]["cards"]:
+                text = c["text"]
+                for a in allowed:
+                    text = text.replace(a, "")
+                self.assertIsNone(SAVING_WORDS.search(text), (name, text))
+        panel = self.d["ok"]["liveText"]
+        for a in allowed:
+            panel = panel.replace(a, "")
+        self.assertIsNone(SAVING_WORDS.search(panel), panel)
+
+    def test_a_checkout_link_a_was_price_a_discount_or_a_description_is_never_shown(self):
+        injected = self.d["inject"]
+        self.assertEqual([c["price"] for c in injected["cards"]], [c["price"] for c in self.d["ok"]["cards"]])
+        for c in injected["cards"]:
+            self.assertNotIn("example.test", c["href"] or "")
+        for bad in ("example.test", "999.99", "50% off", "SAVE BIG"):
+            self.assertNotIn(bad, injected["liveText"])
+
+    def test_live_results_are_in_the_catalogs_order_with_no_sort_offered(self):
+        self.assertEqual([c["title"] for c in self.d["ok"]["cards"]], [p["title"].strip() for p in self.products])
+        page = read("demo", "index.html")
+        live_part = page[page.index('id="live"'):page.index('id="stored-head"')]
+        self.assertNotIn("<select", live_part)
+
+    def test_stored_results_are_labelled_observed_examples_beside_live_ones(self):
+        ok = self.d["ok"]
+        self.assertFalse(ok["before"]["storedHead"])
+        self.assertTrue(ok["storedHeadShown"])
+        self.assertEqual(ok["storedHeadText"], "Observed examples, read earlier")
+        # the stored list itself is the same as before the live search was asked for
+        self.assertEqual(ok["storedCount"], ok["before"]["stored"])
+
+    def test_the_stored_path_gains_no_click_or_key(self):
+        before = self.d["ok"]["before"]
+        self.assertEqual(before["calls"], 0)
+        page = drive(os.path.join(ROOT, "demo", "index.html"))
+        self.assertEqual(page["typed"]["coffee"]["areaShown"], True)
+        self.assertTrue(page["typed"]["coffee"]["main"])
+        self.assertEqual(self.d["moveon"]["before"]["calls"], 0)
+
+    def test_a_failed_call_says_so_and_the_stored_examples_stay(self):
+        for name in ("reject", "status", "rpc", "nofetch"):
+            d = self.d[name]
+            self.assertIn("Live search is unavailable right now", d["liveText"], name)
+            self.assertEqual(d["cards"], [], name)
+            self.assertTrue(d["storedHeadShown"], name)
+        # a reply that is not a product list is a failure, not an empty result
+        self.assertNotIn("returned no products", self.d["rpc"]["liveText"])
+
+    def test_an_empty_reply_says_nothing_was_returned_and_guesses_nothing(self):
+        t = self.d["empty"]["liveText"]
+        self.assertIn("returned no products", t)
+        self.assertIn("Nothing is guessed", t)
+        self.assertEqual(self.d["empty"]["cards"], [])
+
+    def test_a_result_without_a_usd_price_is_left_out_and_counted_not_priced(self):
+        for name in ("noprice", "eur"):
+            d = self.d[name]
+            self.assertEqual(len(d["cards"]), 9, name)
+            self.assertIn("1 result was left out because the catalog gave no USD price for it", d["liveText"], name)
+        self.assertNotIn(self.products[0]["title"], self.d["noprice"]["liveText"])
+
+    def test_live_results_do_not_outlive_the_words_they_were_fetched_for(self):
+        a = self.d["moveon"]["afterType"]
+        self.assertFalse(a["storedHead"])
+        self.assertNotIn("Live from Shopify", a["live"])
+        self.assertNotIn("Seller:", a["live"])
+
+    def test_nothing_is_stored_and_the_address_bar_does_not_carry_the_live_results(self):
+        self.assertNotIn("live", self.d["ok"]["hash"])
+        view = read("demo", "view.js")
+        for banned in ("localStorage", "sessionStorage", "indexedDB", "document.cookie"):
+            self.assertNotIn(banned, view)
+
+    def test_the_view_never_reads_checkout_or_inferred_fields(self):
+        eng = read("demo", "engine.js")
+        live_src = eng[eng.index("var LIVE_ENDPOINT"):]
+        parse_src = live_src[live_src.index("function liveParse"):live_src.index("return { create:")]
+        for banned in ("checkout_url", ".description", ".options", ".metadata", ".rating", ".condition", ".eligible"):
+            self.assertNotIn(banned, parse_src, banned)
+
+    def test_the_agent_profile_is_published_with_the_page_and_asks_for_search_and_lookup_only(self):
+        a = json.loads(read("docs", "ucp-agent.json"))
+        self.assertEqual(a, json.loads(read("demo", "ucp-agent.json")))
+        self.assertEqual(sorted(a["ucp"]["capabilities"]),
+                         ["dev.ucp.shopping.catalog.lookup", "dev.ucp.shopping.catalog.search"])
+        self.assertEqual(a["ucp"]["version"], "2026-08-25")
+        for banned in ("checkout", "cart", "order", "discount", "buyer_consent"):
+            self.assertNotIn(banned, " ".join(a["ucp"]["capabilities"]))
 
 if __name__ == "__main__":
     unittest.main()
