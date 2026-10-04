@@ -122,11 +122,14 @@ class D3TaxShipLineIsConditional(Base):
         stated = unknown = 0
         for n, _k, c in self.cards:
             says_both = "Tax and shipping weren&#x27;t shown" in c
+            quoted = "shipping line the page prints was not read" in c
             if card_terms(c).get("sh"):
                 stated += 1
                 self.assertFalse(says_both, n)
             elif "Members get free shipping over $50" in c:
                 continue  # Nike's own two sentences already say what is unknown
+            elif quoted:
+                self.assertFalse(says_both, n)  # a printed line is not "nothing shown"
             else:
                 unknown += 1
                 self.assertTrue(says_both, n)

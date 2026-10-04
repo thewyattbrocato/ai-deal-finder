@@ -21,6 +21,10 @@ Terms shape (all keys optional except "group"/"sizes"):
            "o": sort value, "ok": selectable when read | None, "d": default}]
   ship:  {"k": "free" | "threshold" | "cost", "over": cents, "rate": cents,
           "members": bool, "t": what the page said}
+  ship_quoted: [lines] shipping lines the page printed that were not read
+          as a condition (present only when "ship" is absent); shown as
+          printed, never counted as a known shipping fact
+  across: ["colours", ...] the sizes are read across these option groups
   sub:   {"t": what the page said}      (present only when offered)
 """
 
@@ -118,6 +122,27 @@ _SUB_SKIP = re.compile(
 _PCT = re.compile(r"(?i)\bsave (?:up to )?(\d{1,2})\s?%")
 
 
+_PLAIN_THRESHOLD = re.compile(
+    r"(?i)\W*free (?:shipping|delivery) (?:on orders )?(?:over|above) "
+    r"\$\s?(\d{2,4})(?:\.00)?[.!]?")
+_RETURNS_ONLY = re.compile(r"(?i)\W*(?:and )?free (?:returns?|exchanges?)[.!]?")
+
+
+def _plain_threshold(line):
+    """Cents of a plain "free shipping over $N" sentence, else None.
+
+    Only a line made of that one sentence (optionally followed by a bare
+    "free returns" sentence) counts. Anything else in the line (a member,
+    region, exception or returns condition) leaves it to the quote.
+    """
+    parts = [x for x in re.split(r"(?<=[.!])\s+", line.strip()) if x]
+    if not parts or not _PLAIN_THRESHOLD.fullmatch(parts[0]):
+        return None
+    if any(not _RETURNS_ONLY.fullmatch(x) for x in parts[1:]):
+        return None
+    return int(_PLAIN_THRESHOLD.fullmatch(parts[0]).group(1)) * 100
+
+
 def _ship_from_lines(lines):
     """Explicit shipping statements in the page's own stored lines.
 
@@ -132,6 +157,9 @@ def _ship_from_lines(lines):
         if _NON_MEMBER.search(line):
             continue
         if not _FREE_SHIP.search(line) or _SHIP_SKIP.search(line):
+            plain = _plain_threshold(line)
+            if plain:
+                found.append(("threshold", plain, False, line))
             continue
         mem = bool(_MEMBERS.search(line))
         m = _THRESHOLD.search(line)
@@ -151,6 +179,32 @@ def _ship_from_lines(lines):
     if k == "free":
         return {"k": "free", "t": quote}
     return {"k": "threshold", "over": over, "members": mem, "t": quote}
+
+
+_SHIP_STATEMENT = re.compile(
+    r"(?i)\bfree\b[^|]{0,40}\b(?:shipping|delivery)\b|\bships? free\b|"
+    r"\bflat[- ]rate\b|\bshipping\b[^|]{0,30}(?:\$\s?\d|at checkout|"
+    r"calculated)|\$\s?\d[^|]{0,30}\bshipping\b")
+
+
+def quoted_ship_lines(lines, limit=3):
+    """Stored shipping statements shown as printed, never read as a condition.
+
+    Used only when the extractor read nothing: a line that says something
+    about shipping cost (not a bare heading, a policy link or long legal
+    text) is kept word for word, so the card can say what the page printed
+    instead of that it stated nothing.
+    """
+    out, seen = [], set()
+    for l in lines or []:
+        for g in (x.strip() for x in re.split(r"\s[|\u2022]\s", l)):
+            key = g.lower()
+            if (not g or len(g) > 160 or key in seen
+                    or not _SHIP_STATEMENT.search(g)):
+                continue
+            seen.add(key)
+            out.append(g)
+    return out[:limit]
 
 
 _PRE_ORDER = re.compile(r"(?i)\bpre-?orders?\b")
@@ -238,6 +292,31 @@ def _sizes_from_offers(p):
     return out
 
 
+_AXIS_WORDS = {"color": "colours", "colour": "colours", "height": "heights",
+               "material": "materials", "pattern": "patterns",
+               "style": "styles"}
+
+
+def _size_axes(variants):
+    """Option groups besides size that vary across the variants a size spans.
+
+    A size listed for several variants (say several colours) is read across
+    all of them; the axis names say what the size reading is across.
+    """
+    by = {}
+    for v in variants:
+        if v.get("size"):
+            by.setdefault(str(v["size"]), []).append(v)
+    if not any(len(l) > 1 for l in by.values()):
+        return []
+    axes = []
+    for key, word in _AXIS_WORDS.items():
+        if len({str(v.get(key)) for l in by.values() for v in l
+                if v.get(key)}) > 1 and word not in axes:
+            axes.append(word)
+    return axes
+
+
 def from_evidence(ev, kind):
     """Stored evidence record -> terms dict (sizes/shipping only if stated)."""
     prods = ev.get("json_ld") or []
@@ -245,23 +324,33 @@ def from_evidence(ev, kind):
         return {"group": None, "sizes": []}
     p = prods[0]
     variants = p.get("hasVariant") or []
-    sizes, seen = [], set()
+    sizes, at = [], {}
     for v in variants:
         s = v.get("size")
-        if not s or str(s) in seen:
+        if not s:
             continue
-        seen.add(str(s))
         stocks = [str(o.get("availability", "")).endswith("InStock")
                   for o in _offers(v)]
-        sizes.append({"k": str(s), "c": None, "s": None, "sp": None,
-                      "o": _lead_number(str(s)),
-                      "ok": any(stocks) if stocks else None})
+        k = str(s)
+        if k not in at:
+            at[k] = len(sizes)
+            sizes.append({"k": k, "c": None, "s": None, "sp": None,
+                          "o": _lead_number(k), "ok": None})
+        # A size is in stock if the page shows it in stock for any variant
+        # (colour); out of stock only when every variant that states stock
+        # shows it out; unknown when none states it.
+        cur = sizes[at[k]]
+        if stocks:
+            cur["ok"] = True if (cur["ok"] or any(stocks)) else False
     if not sizes and p.get("size"):
         sizes = _sizes_from_offers(p)
     group = _size_group([s["k"] for s in sizes], kind)
     if group is None:
         sizes = []
     out = {"group": group, "sizes": sizes}
+    across = _size_axes(variants) if sizes else []
+    if across:
+        out["across"] = across
     ship = _shipping([p] + variants)
     r_ship, r_sub, src = conditions_from_evidence(ev)
     ship = ship or r_ship
@@ -269,10 +358,14 @@ def from_evidence(ev, kind):
         out["ship"] = ship
     if r_sub:
         out["sub"] = r_sub
-    pre = _pre_from_lines((ev.get("conditions") or {}).get("ship"))
+    ship_lines = (ev.get("conditions") or {}).get("ship")
+    pre = _pre_from_lines(ship_lines)
     if pre:
         out["pre"] = pre
-    if src and (ship or r_sub or pre):
+    quoted = [] if ship else quoted_ship_lines(ship_lines)
+    if quoted:
+        out["ship_quoted"] = quoted
+    if src and (ship or r_sub or pre or quoted):
         out["src"] = src
     return out
 
