@@ -171,11 +171,17 @@ repository there instead (about 95 MB):
 git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder ~/.claude/skills/deal-finder
 ```
 
-**Reading tools.** The skill confirms every price, size, stock state and offer
-in the page's own text before quoting it, so give the agent a browser (for
-example a Chrome DevTools MCP server) or let it run `curl`. A page reader that
-summarises, such as Claude's WebFetch, finds pages, but its summaries can be
-wrong: a price only it gave is flagged and never counted.
+**Reading tools.** Give the agent a browser (for example a Chrome DevTools MCP
+server or `chrome-devtools-axi`): only the text a browser shows after scripts
+run can count a price, stock state or offer. Raw HTML from `curl` and a page
+reader that summarises, such as Claude's WebFetch, find pages and links, but
+raw HTML holds hidden and unrendered text (a Shopify page's raw HTML printed
+"Sold out" on every size while the browser showed Add to Cart) and summaries
+can be wrong, so a fact read only that way is flagged and never counted;
+without a browser no lowest line is drawn. Give the agent a browser session of
+its own (with chrome-devtools-axi, `CHROME_DEVTOOLS_AXI_SESSION=<a name>`), so
+a shared browser cannot show another tab, and have it check `location.href`
+after each open.
 
 Then start `claude` and ask (examples below), or type `/deal-finder`. For one
 project only, use `.claude/skills/deal-finder` inside that project instead.

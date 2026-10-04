@@ -25,7 +25,7 @@ from .decision import BANNED_PHRASES
 from .deception import parse_time
 from .evidence import EvidenceState
 
-CONTRACT = "similar-v2"
+CONTRACT = "similar-v3"
 CODE_LABEL = "not tried, may not work"
 SIZE_NOT_STATED = "not comparable: size not stated"
 NO_UNIT = "none"  # the kind is sold one item at a time (shoes, earbuds): no size, no unit price
@@ -34,22 +34,29 @@ MAX_PAGES = 10
 STATES = {state.value for state in EvidenceState}
 OFFER_STATES = {"retailer-stated", "unverified", "rejected"}
 OFFER_KINDS = {"code", "sale", "subscribe", "autoship", "signup", "shipping-threshold", "bundle", "bulk", "other"}
-OFFER_WHERE = {"product page", "site banner", "store page"}
+OFFER_WHERE = {"product page", "site banner", "store page", "pop-up"}
 GATES = {"none", "email", "sms", "first-order", "subscription", "member", "store-card", "app", "other"}
 STATUSES = {"compared", "flagged", "excluded"}
-CHECKS = {"same", "differs", "unknown", "not-read"}
+CHECKS = {"same", "inherited", "differs", "unknown", "not-read"}
+SAME = {"same", "inherited"}  # inherited: the same product's page does not print it, so the shopper's value carries
 ATTRIBUTE_SOURCES = {"page", "shopper", "assumed"}
 PAGE_TEXT = "page-text"
-READS = {PAGE_TEXT, "reader-summary", "listing-page", "search-snippet"}
+READS = {PAGE_TEXT, "raw-html", "reader-summary", "listing-page", "search-snippet"}
 READ_WORDS = {
     PAGE_TEXT: "the page's own text",
+    "raw-html": "the page's raw HTML, not the text a browser shows",
     "reader-summary": "a page reader's summary",
     "listing-page": "a store listing, not the product's own page",
     "search-snippet": "a search result's text",
     "shopper": "you",
 }
 AVAILABILITY = {"in-stock", "out-of-stock", "not-stated"}
+CURRENCY_NOT_STATED = "not stated"  # the page prints a price with no currency: flagged, never converted
+STATUS_ORDER = {"compared": 0, "flagged": 1, "excluded": 2}
+# Stores SKILL.md names as refusing an agent's reader: they may be listed unopened, without spending a page.
+KNOWN_BLOCKED = ("amazon.com", "walmart.com", "bestbuy.com")
 UNITS = set(units.FAMILY) | {NO_UNIT}
+CODED = re.compile(r"\b(?:with|use|using|enter|apply)\s+(?:the\s+)?code\b|\bcode\s+applied\b", re.IGNORECASE)
 FROM_OR_RANGE = re.compile(r"\bfrom\s*:?\s*\$?\s*\d|\d\s*(?:-|–|—|\bto\b)\s*\$\s*\d", re.IGNORECASE)
 TRACKING_PARAM = re.compile(
     r"^(utm_.*|_gsid|gclid|gbraid|wbraid|fbclid|msclkid|mc_[a-z]+|_ga|ref|ref_|tag|aff.*|affiliate.*|irclickid|clickid|srsltid)$",
@@ -58,8 +65,9 @@ TRACKING_PARAM = re.compile(
 EXTRA_BANS = ("best deal", "great deal", "hurry", "act now", "don't miss", "lowest price guaranteed")
 WORDING = re.compile(r"\b(" + "|".join(re.escape(p) for p in BANNED_PHRASES + EXTRA_BANS) + r")\b", re.IGNORECASE)
 # Page text and page-copied identities may contain any words; only the
-# agent's own wording is held to the language bans.
-NOT_AGENT_WORDS = {"quote", "url", "code", "name", "store", "said"}
+# agent's own wording is held to the language bans, outside the page words it quotes.
+NOT_AGENT_WORDS = {"quote", "url", "code", "name", "store", "said", "expires"}
+QUOTED = re.compile(r"(?<![A-Za-z])'(?:[^']|'(?=[A-Za-z]))*?'(?![A-Za-z])|\"[^\"]*\"|“[^”]*”|‘[^’]*’")
 
 
 def _money(value: Any) -> Decimal | None:
@@ -102,6 +110,23 @@ def url_problem(url: Any) -> str:
         return "is not an http(s) link"
     dirty = [key for key, _ in parse_qsl(urlsplit(url).query) if TRACKING_PARAM.match(key)]
     return f"keeps tracking or affiliate parameters ({', '.join(dirty)})" if dirty else ""
+
+
+def _page(url: str) -> str:
+    """One page per product: a store's own `?variant=` link for an option is the page it belongs to."""
+    parts = urlsplit(url)
+    query = "&".join(f"{k}={v}" for k, v in parse_qsl(parts.query) if k != "variant")
+    return parts._replace(query=query, fragment="").geturl()
+
+
+def _host(url: Any) -> str:
+    host = (urlsplit(url).hostname or "") if _text(url) else ""
+    return host[4:] if host.startswith("www.") else host
+
+
+def _known_blocked(url: Any) -> bool:
+    host = _host(url)
+    return any(host == store or host.endswith("." + store) for store in KNOWN_BLOCKED)
 
 
 def code_price(shelf: Decimal, offer: dict[str, Any]) -> Decimal | None:
@@ -168,7 +193,9 @@ def _why_not_counted(item: dict[str, Any], currency: str) -> list[tuple[str, str
     price = item.get("shelf_price") if isinstance(item.get("shelf_price"), dict) else {}
     if _shelf(item) is None:
         return [("price", "no price could be read on its page")]
-    if price.get("currency") != currency:
+    if price.get("currency") == CURRENCY_NOT_STATED:
+        reasons.append(("currency-unstated", "its page prints no currency; prices are never converted"))
+    elif price.get("currency") != currency:
         reasons.append(("currency", f"priced in {price.get('currency')}; prices are never converted"))
     if price.get("state") != "observed-now":
         reasons.append(("state", "its price was not read on its own page during this run"))
@@ -177,6 +204,8 @@ def _why_not_counted(item: dict[str, Any], currency: str) -> list[tuple[str, str
         reasons.append(("read", f"its price comes from {words}, not confirmed in the page's own text"))
     if FROM_OR_RANGE.search(price.get("quote") or ""):
         reasons.append(("range", "its page prints a 'from' price or a range, not one price for one size"))
+    if CODED.search(price.get("quote") or ""):
+        reasons.append(("coded", "its quoted price is shown with a code applied, which is not a shelf price"))
     stock = item.get("availability") if isinstance(item.get("availability"), dict) else {}
     if stock.get("state") == "out-of-stock" and stock.get("read") == PAGE_TEXT:
         reasons.append(("out", f"out of stock on its page: \"{stock.get('quote', '')}\""))
@@ -184,7 +213,9 @@ def _why_not_counted(item: dict[str, Any], currency: str) -> list[tuple[str, str
         words = READ_WORDS.get(stock.get("read"), "a read it does not state")
         reasons.append(("out", f"out of stock according to {words} (\"{stock.get('quote', '')}\"), "
                                "not confirmed in the page's own text"))
-    elif stock.get("read") != PAGE_TEXT and stock.get("state") != "not-stated":
+    elif stock.get("state") == "not-stated":
+        reasons.append(("stock-unstated", "stock not stated on its page"))
+    elif stock.get("read") != PAGE_TEXT:
         words = READ_WORDS.get(stock.get("read"), "a read it does not state")
         reasons.append(("stock-read", f"its stock comes from {words}, not confirmed in the page's own text"))
     return reasons
@@ -208,6 +239,12 @@ def _counted(answer: dict[str, Any]) -> list[dict[str, Any]]:
     return [item for item in pool if not _why_not_counted(item, currency)]
 
 
+def _equal(mine: units.Size, theirs: units.Size) -> bool:
+    return mine.family == theirs.family and (
+        abs(mine.base_total() - theirs.base_total()) <= mine.base_total() * units.CONSISTENT_WITHIN
+    )
+
+
 def _same_quantity(item: dict[str, Any], answer: dict[str, Any]) -> bool | None:
     """True when the item is the same size as the shopper's; None when either size is unknown."""
     if answer.get("unit") == NO_UNIT:
@@ -215,9 +252,7 @@ def _same_quantity(item: dict[str, Any], answer: dict[str, Any]) -> bool | None:
     mine, theirs = _confirmed_size(answer.get("reference") or {}), _confirmed_size(item)
     if mine is None or theirs is None:
         return None
-    return mine.family == theirs.family and (
-        abs(mine.base_total() - theirs.base_total()) <= mine.base_total() * units.CONSISTENT_WITHIN
-    )
+    return _equal(mine, theirs)
 
 
 def _unit_amount(item: dict[str, Any], answer: dict[str, Any]) -> Decimal | None:
@@ -287,6 +322,8 @@ def _check_offer(where: str, offer: Any) -> list[str]:
         problems.append(f"{where} comes from a search result's text, so its state is 'unverified'")
     if not _time(offer.get("seen_at")):
         problems.append(f"{where}.seen_at must be an absolute timestamp from date -u")
+    if "expires" in offer and not _text(offer["expires"]):
+        problems.append(f"{where}.expires must quote the page's words for when it ends, or be left out")
     if offer.get("kind") == "code":
         code = offer.get("code")
         if not _text(code) or code.lower() not in (offer.get("quote") or "").lower():
@@ -375,6 +412,10 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
     for name in names:
         if checks.get(name) not in CHECKS:
             problems.append(f"{where}.checks['{name}'] must be one of {sorted(CHECKS)}")
+    inherited = [name for name in names if checks.get(name) == "inherited"]
+    if inherited and item.get("same_product") is not True:
+        problems.append(f"{where}.checks {inherited} are 'inherited', which only the same product at another store "
+                        "may use; a different product's page must show it (or it is 'unknown')")
     fails_must = any(checks.get(name) == "differs" for name in musts)
     if fails_must and status != "excluded":
         problems.append(f"{where} fails a must-have attribute and must be excluded")
@@ -391,19 +432,27 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
         elif stock.get("read") != PAGE_TEXT and status != "flagged" and not (fails_must or other_currency):
             problems.append(
                 f"{where}'s out-of-stock state comes from {READ_WORDS.get(stock.get('read'), 'an unstated read')}; "
-                "confirm it in the page's own text (browser text or raw HTML) or flag it"
+                "confirm it in the page's text in a browser or flag it"
             )
     if status == "compared":
         if "state" in reasons:
             problems.append(f"{where} is compared but its shelf price was not read on its own page now")
         if "read" in reasons:
-            problems.append(f"{where} is compared but {reasons['read']}; confirm the price in the page's own text "
-                            "(browser text or raw HTML) or flag it")
+            problems.append(f"{where} is compared but {reasons['read']}; confirm the price in the page's text in "
+                            "a browser or flag it")
         if "range" in reasons:
             problems.append(f"{where} is compared but {reasons['range']}; open the size you compare and quote "
                             "that price, or flag it")
         if "stock-read" in reasons:
             problems.append(f"{where} is compared but {reasons['stock-read']}; confirm it or flag it")
+        if "stock-unstated" in reasons:
+            problems.append(f"{where} is compared but its page states no stock (no stock words and no buy button "
+                            "for the option priced); flag it: stock not stated never names a lowest line")
+        if "currency-unstated" in reasons:
+            problems.append(f"{where} is compared but {reasons['currency-unstated']}; flag it")
+        if "coded" in reasons:
+            problems.append(f"{where} is compared but {reasons['coded']}; quote the price without the code, "
+                            "or flag it")
     for field, label in (("similar_because", "similar-because reason"), ("not_comparable", "not-comparable reason")):
         reasons_given = item.get(field)
         if not isinstance(reasons_given, list) or not reasons_given or not all(_text(r) for r in reasons_given):
@@ -444,6 +493,11 @@ def _check_unit_prices(answer: dict[str, Any], items: list[tuple[str, dict[str, 
                                 f"'{unit}'; write 'not comparable: different units'")
             continue
         price = item.get("shelf_price") if isinstance(item.get("shelf_price"), dict) else {}
+        if price.get("currency") == CURRENCY_NOT_STATED:
+            if not words:
+                problems.append(f"{label}.unit_price: its page prints no currency; write 'not comparable: "
+                                "currency not stated'")
+            continue
         try:
             value = units.unit_price(units.Price.of(price["amount"], price["currency"]), size, unit)
         except (KeyError, TypeError, ValueError, InvalidOperation):
@@ -484,6 +538,9 @@ def _check_lower(answer: dict[str, Any], key: str, required: list[str], ids: dic
             problems.append(f"lowest.{key}[{index}] needs the id of an item in this answer and why it is not counted")
         elif id(item) in counted:
             problems.append(f"lowest.{key}[{index}] names {entry['id']}, which is counted; list only items not counted")
+        elif key == "shelf_lower_not_counted" and _same_quantity(item, answer) is False:
+            problems.append(f"lowest.{key}[{index}] names {entry['id']}, which is {item['size']['text']}, not your "
+                            "size; a different size is named on the per-unit line only")
         else:
             listed.add(entry["id"])
     missing = [item_id for item_id in required if item_id not in listed]
@@ -491,6 +548,28 @@ def _check_lower(answer: dict[str, Any], key: str, required: list[str], ids: dic
         problems.append(f"lowest.{key} must name each cheaper item that is not counted (flagged or excluded), "
                         f"with why: {missing}")
     return problems
+
+
+def _check_if_size(answer: dict[str, Any], if_size: Any, ids: dict[str, Any]) -> list[str]:
+    """The shelf answer for one printed size, when your page prints none and no shopper could be asked."""
+    if if_size is None:
+        return []
+    unit = answer.get("unit")
+    if unit == NO_UNIT or _confirmed_size(answer.get("reference") or {}) is not None:
+        return ["lowest.if_size is only for a product whose page prints no size (leave it out)"]
+    size = units.parse_size_checked(if_size.get("size")) if isinstance(if_size, dict) else None
+    if not isinstance(size, units.Size) or size.family != units.FAMILY.get(unit) or not _text(if_size.get("why")):
+        return [f"lowest.if_size needs size (one size, in the answer's unit '{unit}') and why (where that size is "
+                "printed, such as the store's other bags)"]
+    pool = [i for i in _counted(answer) if _confirmed_size(i) is not None and _equal(size, _confirmed_size(i))]
+    if not pool:
+        return [f"lowest.if_size: no counted item is {if_size['size']}; leave it out"]
+    floor = min(_shelf(i) for i in pool)
+    chosen = ids.get(if_size.get("id"))
+    if chosen is None or not any(chosen is i for i in pool) or _money(if_size.get("amount")) != floor \
+            or _shelf(chosen) != floor:
+        return [f"lowest.if_size must be the lowest counted shelf price for {if_size['size']} ({floor}), with its id"]
+    return []
 
 
 def _check_lowest(answer: dict[str, Any]) -> list[str]:
@@ -529,6 +608,7 @@ def _check_lowest(answer: dict[str, Any]) -> list[str]:
         else:
             why = f"no counted item is the same size as yours; compare them per {unit}"
         problems.append(f"lowest.shelf must be null: {why}")
+    problems.extend(_check_if_size(answer, lowest.get("if_size"), ids))
     in_currency = lambda c: _shelf(c) if isinstance(c.get("shelf_price"), dict) and \
         c["shelf_price"].get("currency") == currency else None
     bar = min((_shelf(item) for item in pool), default=None)
@@ -614,15 +694,14 @@ def _check_times(answer: dict[str, Any], items: list[tuple[str, dict[str, Any]]]
     return problems
 
 
-def _rank(item: dict[str, Any]) -> tuple[bool, bool, int]:
-    same = sum(1 for v in (item.get("checks") or {}).values() if v == "same")
-    return (item.get("same_product") is not True, item.get("status") == "excluded", -same)
+def _rank(item: dict[str, Any]) -> tuple[bool, int, int]:
+    same = sum(1 for v in (item.get("checks") or {}).values() if v in SAME)
+    return (item.get("same_product") is not True, STATUS_ORDER.get(item.get("status"), 3), -same)
 
 
 def _describe_rank(item: dict[str, Any]) -> str:
-    same, excluded, count = _rank(item)
-    kind = "same product" if not same else "similar"
-    return f"{item.get('id')}: {kind}, {'excluded' if excluded else item.get('status')}, {-count} same"
+    other, _, count = _rank(item)
+    return f"{item.get('id')}: {'similar' if other else 'same product'}, {item.get('status')}, {-count} same"
 
 
 def validate(answer: Any, now: datetime | None = None) -> list[str]:
@@ -679,8 +758,9 @@ def validate(answer: Any, now: datetime | None = None) -> list[str]:
     for before, after in zip(items, items[1:]):
         if _rank(before) > _rank(after):
             problems.append(
-                "candidates must be ranked: the same product at another store first, then most 'same' checks, "
-                f"excluded last within each; {_describe_rank(after)} belongs before {_describe_rank(before)}"
+                "candidates must be ranked: the same product at another store first; then compared, flagged, "
+                f"excluded; most 'same' checks first within each; {_describe_rank(after)} belongs before "
+                f"{_describe_rank(before)}"
             )
             break
     if answer.get("unit") in UNITS:
@@ -695,10 +775,16 @@ def validate(answer: Any, now: datetime | None = None) -> list[str]:
             problems.append(f"blocked[{index}] needs store and what_happened")
         elif url_problem(page.get("url")):
             problems.append(f"blocked[{index}].url {url_problem(page.get('url'))}")
+        elif "opened" in page and not isinstance(page["opened"], bool):
+            problems.append(f"blocked[{index}].opened must be true or false")
+        elif page.get("opened") is False and not _known_blocked(page["url"]):
+            problems.append(f"blocked[{index}] is listed unopened, which only a known-blocked store "
+                            f"({', '.join(KNOWN_BLOCKED)}) may be; open it (it counts as a page) or leave it out")
+    opened = [b for b in blocked if isinstance(b, dict) and b.get("opened") is not False]
 
     run = answer.get("run") if isinstance(answer.get("run"), dict) else {}
     budget, read = run.get("page_budget"), run.get("pages_read")
-    urls = {i.get("url") for i in [reference] + items + [b for b in blocked if isinstance(b, dict)] if _text(i.get("url"))}
+    urls = {_page(i["url"]) for i in [reference] + items + opened if _text(i.get("url"))}
     if not (isinstance(budget, int) and 0 < budget <= MAX_PAGES):
         problems.append(f"run.page_budget must be a whole number from 1 to {MAX_PAGES}")
     elif not isinstance(read, int) or read > budget:
@@ -711,19 +797,32 @@ def validate(answer: Any, now: datetime | None = None) -> list[str]:
     for field in ("took", "cost", "stopped_because"):
         if not _text(run.get(field)):
             problems.append(f"run.{field} is required ('not reported' when the runtime does not say)")
-    hosts = {urlsplit(u).hostname for u in urls if u != reference.get("url")}
+    hosts = {_host(u) for u in urls if not _text(reference.get("url")) or u != _page(reference["url"])}
     if len(hosts) < 2:
         problems.append("candidates and blocked pages must span at least two stores; never search one store only")
     if not isinstance(answer.get("unknowns"), list) or not answer.get("unknowns"):
         problems.append("unknowns must name what stayed unknown (tax at least)")
 
     for text in _walk_words(answer):
-        for match in WORDING.finditer(text):
+        for match in WORDING.finditer(QUOTED.sub(" ", text)):
             problems.append(f"no endorsement or urgency wording: '{match.group(0)}' in \"{text[:60]}\"")
     return problems
 
 
+def _clean(text: Any) -> str:
+    """Words as one line: newlines and runs of spaces copied from a page collapse to one space."""
+    return " ".join(str(text).split())
+
+
+def _sentence(text: Any) -> str:
+    """Words that follow a full stop: a capital letter first and a full stop last."""
+    text = _clean(text)
+    return text[:1].upper() + text[1:] + ("" if text.endswith((".", "!", "?")) else ".")
+
+
 def _price(amount: Any, currency: str) -> str:
+    if currency == CURRENCY_NOT_STATED:
+        return f"{amount} (currency not stated)"
     return f"${amount}" if currency == "USD" else f"{amount} {currency}"
 
 
@@ -756,8 +855,9 @@ def _price_text(item: dict[str, Any]) -> str:
 
 def _stock_text(item: dict[str, Any]) -> str:
     stock = item.get("availability") or {}
-    text = {"in-stock": f"in stock (\"{stock.get('quote', '')}\")",
-            "out-of-stock": f"out of stock (\"{stock.get('quote', '')}\")"}.get(stock.get("state"), "stock not stated")
+    quote = _clean(stock.get("quote", ""))
+    text = {"in-stock": f"in stock (\"{quote}\")",
+            "out-of-stock": f"out of stock (\"{quote}\")"}.get(stock.get("state"), "stock not stated")
     if stock.get("read") not in (PAGE_TEXT, None) and stock.get("state") != "not-stated":
         text += f", from {READ_WORDS.get(stock['read'], 'an unstated read')}"
     return text
@@ -765,14 +865,30 @@ def _stock_text(item: dict[str, Any]) -> str:
 
 def _offer(offer: dict[str, Any]) -> str:
     gate = "no sign-up needed" if offer["gate"] == "none" else f"gated: {offer['gate']}"
+    ends = f"expires \"{_clean(offer['expires'])}\"" if _text(offer.get("expires")) else "no expiry printed"
     read = "" if offer.get("read") == PAGE_TEXT else f", from {READ_WORDS.get(offer.get('read'), 'an unstated read')}"
-    return f"{offer['kind']} \"{offer['quote']}\" ({offer['state']}, {gate}, {offer['where']}{read})"
+    return f"{offer['kind']} \"{_clean(offer['quote'])}\" ({offer['state']}, {gate}, {offer['where']}, {ends}{read})"
+
+
+def _offers(item: dict[str, Any]) -> str:
+    return "; ".join(_offer(o) for o in item.get("offers") or []) or "none printed on the pages read"
 
 
 def _who(item: dict[str, Any], reference: dict[str, Any]) -> str:
+    """How a lowest line names an item: yours, the same product, a similar product or a different product."""
     if item is reference:
         return "yours"
-    return "the same product" if item.get("same_product") else "a similar product"
+    checks = item.get("checks") or {}
+    if item.get("same_product"):
+        carried = [name for name, value in checks.items() if value == "inherited"]
+        return "the same product" + (f"; its page does not print {', '.join(carried)}, taken from yours" if carried else "")
+    differs = [name for name, value in checks.items() if value == "differs"]
+    unseen = [name for name, value in checks.items() if value in ("unknown", "not-read")]
+    if not differs and not unseen:
+        return "a similar product"
+    parts = ([f"differs: {', '.join(differs)}"] if differs else []) + \
+        ([f"not shown on its page: {', '.join(unseen)}"] if unseen else [])
+    return "a different product, not yours; " + "; ".join(parts)
 
 
 def _gap(lower: Decimal, mine: Decimal) -> tuple[Decimal, str, bool]:
@@ -785,7 +901,40 @@ def _gap(lower: Decimal, mine: Decimal) -> tuple[Decimal, str, bool]:
 def _my_price(answer: dict[str, Any]) -> Decimal | None:
     """The shopper's own price when it can be compared: read in its page's text, in the asked currency."""
     reasons = {code for code, _ in _why_not_counted(answer["reference"], answer["request"]["currency"])}
-    return None if answer["reference"].get("from") != "page" or reasons - {"out", "stock-read"} else _shelf(answer["reference"])
+    stock_only = {"out", "stock-read", "stock-unstated"}
+    return None if answer["reference"].get("from") != "page" or reasons - stock_only else _shelf(answer["reference"])
+
+
+def _sample(answer: dict[str, Any]) -> str:
+    """' Based on N stores ...' when the counted items are a thin sample; '' otherwise."""
+    counted, reference = _counted(answer), answer["reference"]
+    stores: dict[str, str] = {}
+    for item in counted:
+        stores.setdefault(_host(item["url"]), item["store"])
+    others = [item for item in counted if item is not reference and _host(item["url"]) != _host(reference.get("url"))]
+    if len(stores) == 1:
+        return (f" Based on 1 store: only prices at {next(iter(stores.values()))} could be counted, so they are not "
+                "shown to be lower than at other stores.")
+    if stores and (len(others) < 2 or len(stores) < 3):
+        return (f" Based on {len(stores)} stores ({', '.join(stores.values())}): a thin sample, so a lower price may "
+                "exist that this pass did not count.")
+    return ""
+
+
+def _if_size_text(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> str:
+    if_size, currency = answer["lowest"].get("if_size"), answer["request"]["currency"]
+    if not if_size:
+        return ""
+    item = items[if_size["id"]]
+    text = (f" If yours is {if_size['size']} ({_clean(if_size['why'])}): {_price(if_size['amount'], currency)} at "
+            f"{item['store']}, {item['name']} ({_who(item, answer['reference'])}), read on its page at "
+            f"{item['checked_at']}")
+    my_price = _my_price(answer)
+    if my_price is not None:
+        gap, percent, meaningful = _gap(_shelf(item), my_price)
+        text += (f", {_price(gap, currency)} ({percent}) below yours at {_price(my_price, currency)}" if meaningful
+                 else f"; no meaningful saving against yours at {_price(my_price, currency)}")
+    return text + "."
 
 
 def _shelf_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> list[str]:
@@ -810,22 +959,19 @@ def _shelf_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> lis
                        f"yours at {_price(my_price, currency)}; a gap under 2% of your price is not counted as a saving."
         else:
             line = f"{label} {said}. This is the price."
-        hosts = {urlsplit(i["url"]).hostname for i in _counted(answer)}
-        if len(hosts) == 1:
-            line += f" Only {item['store']}'s price could be counted, so it is not shown to be lower than at other stores."
     elif unit != NO_UNIT and mine is None:
         line = (f"{label} not compared: your product's page prints no size. What size is yours? It is printed on "
-                "the bag or box; tell me and I will compare it." + (f" Until then, compare per {unit} below."
-                                                                     if lowest.get("unit") else ""))
+                "the bag or box; tell me and I will compare it." + _if_size_text(answer, items)
+                + (f" Until then, compare per {unit} below." if lowest.get("unit") else ""))
     elif _counted(answer):
         line = f"{label} none counted at your size." + (f" Compare per {unit} below." if lowest.get("unit") else "")
     else:
         line = f"{label} none; no product had a price that could be counted."
-    lines = [line]
+    lines = [line + _sample(answer)]
     for entry in lowest.get("shelf_lower_not_counted") or []:
         other = items[entry["id"]]
         lines.append(f"- Lower but not counted: {other['name']} at {other['store']}, "
-                     f"{_price(other['shelf_price']['amount'], other['shelf_price']['currency'])}: {entry['why']}")
+                     f"{_price(other['shelf_price']['amount'], other['shelf_price']['currency'])}: {_clean(entry['why'])}")
     return lines + [""]
 
 
@@ -851,14 +997,30 @@ def _unit_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> list
     for entry in lowest.get("unit_lower_not_counted") or []:
         other = items[entry["id"]]
         lines.append(f"- Lower per {unit} but not counted: {other['name']} at {other['store']}, "
-                     f"{_unit_text(other)}: {entry['why']}")
+                     f"{_unit_text(other)}: {_clean(entry['why'])}")
     return lines + [""]
+
+
+def _code_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> str:
+    lowest, currency = answer["lowest"], answer["request"]["currency"]
+    code = lowest.get("if_code")
+    if not code:
+        return f"**If a printed code applies ({CODE_LABEL}):** none. {_sentence(lowest['if_code_none'])}"
+    item = items[code["id"]]
+    offer = next(o for o in item["offers"] if o.get("code") == code["code"])
+    line = (f"**If a printed code applies ({CODE_LABEL}):** {_price(code['amount'], currency)} at {item['store']} "
+            f"with code {code['code']}: \"{_clean(offer['quote'])}\".")
+    if _text(offer.get("conditions")):
+        line += f" Conditions: {_clean(offer['conditions']).rstrip('.')}."
+    if "*" in offer["quote"]:
+        line += " The asterisk means terms apply: it may not apply to this item."
+    line += f" Expires \"{_clean(offer['expires'])}\"." if _text(offer.get("expires")) else " No expiry printed."
+    return line + " This is not the price."
 
 
 def render(answer: dict[str, Any]) -> str:
     """The markdown answer, in SIMILAR_OUTPUT.md's template order. Call validate() first."""
-    currency = answer["request"]["currency"]
-    run, ref, lowest = answer["run"], answer["reference"], answer["lowest"]
+    run, ref = answer["run"], answer["reference"]
     items = {i["id"]: i for i in [ref] + answer["candidates"]}
     lines = [
         f"## Similar products and their offers: {ref['name']} ({ref['store']})",
@@ -866,7 +1028,8 @@ def render(answer: dict[str, Any]) -> str:
         f"Checked {run['started_at']} to {run['finished_at']} · {run['pages_read']} of {run['page_budget']} pages read"
         f" · {len(run['searches'])} search{'es' if len(run['searches']) != 1 else ''} · took {run['took']}"
         f" · cost {run['cost']}",
-        f"Stopped because: {run['stopped_because']}",
+        f"Stopped because: {_clean(run['stopped_because'])}",
+        "This is one pass: results vary between runs because search results vary.",
         "",
     ]
     why = reference_reason(answer)
@@ -878,14 +1041,7 @@ def render(answer: dict[str, Any]) -> str:
                   "with why.", ""]
     lines += _shelf_line(answer, items)
     lines += _unit_line(answer, items)
-    code = lowest.get("if_code")
-    if code:
-        item = items[code["id"]]
-        quote = next(o["quote"] for o in item["offers"] if o.get("code") == code["code"])
-        lines.append(f"**If a printed code applies ({CODE_LABEL}):** {_price(code['amount'], currency)} at "
-                     f"{item['store']} with code {code['code']}: \"{quote}\". This is not the price.")
-    else:
-        lines.append(f"**If a printed code applies ({CODE_LABEL}):** none. {lowest['if_code_none']}")
+    lines.append(_code_line(answer, items))
 
     lines += ["", "### What it was compared with", ""]
     where = ref.get("url") or "described by you, no page"
@@ -893,33 +1049,41 @@ def render(answer: dict[str, Any]) -> str:
     stock = f" {stock[0].upper()}{stock[1:]} on its page." if ref.get("from") == "page" else ""
     lines.append(f"{ref['name']} at {ref['store']}: {_price_text(ref)}{_size_text(ref, answer)}.{stock} {where}")
     lines.append("")
+    offers = _offers(ref) if ref.get("from") == "page" else "none; no page was read"
+    lines.append(f"- Offers seen on its page: {offers}")
     for attribute in answer["attributes_used"]:
         need = "must have" if attribute["must_have"] else "may vary"
-        source = {"page": f"from the page: \"{attribute.get('quote', '')}\"", "shopper": "from you",
-                  "assumed": f"assumed: {attribute.get('why', 'not stated')}"}[attribute["from"]]
+        source = {"page": f"from the page: \"{_clean(attribute.get('quote', ''))}\"", "shopper": "from you",
+                  "assumed": f"assumed: {_clean(attribute.get('why', 'not stated'))}"}[attribute["from"]]
         lines.append(f"- {attribute['name']}: {attribute['value']} ({need}; {source})")
 
     heading = "Similar products, most similar first" if qualified or not answer["candidates"] else \
         "Products looked at, none qualified"
     lines += ["", f"### {heading}", ""]
     for rank, item in enumerate(answer["candidates"], 1):
-        status = "Compared" if item["status"] == "compared" else f"{item['status'].capitalize()}: {item['status_reason']}"
+        status = "Compared" if item["status"] == "compared" else \
+            f"{item['status'].capitalize()}: {_clean(item['status_reason'])}"
         same = "Same product at another store. " if item.get("same_product") else ""
         lines.append(f"{rank}. **{item['name']}** at {item['store']}: {_price_text(item)}{_size_text(item, answer)}. "
                      f"{same}{status}.")
-        lines.append(f"   - Similar because: {'; '.join(item['similar_because'])}")
-        lines.append(f"   - Not comparable: {'; '.join(item['not_comparable'])}")
-        offers = "; ".join(_offer(o) for o in item["offers"]) or "none printed on the pages read"
-        lines.append(f"   - Offers seen: {offers}")
-        lines.append(f"   - Checked {item['checked_at']}, {_stock_text(item)}: {item['url']} "
-                     f"(found via {item['found_via']})")
+        lines.append(f"   - Similar because: {'; '.join(_clean(r) for r in item['similar_because'])}")
+        lines.append(f"   - Not comparable: {'; '.join(_clean(r) for r in item['not_comparable'])}")
+        carried = [name for name, value in (item.get("checks") or {}).items() if value == "inherited"]
+        if carried:
+            lines.append(f"   - Taken from yours, not printed on its page: {', '.join(carried)} (the same product)")
+        lines.append(f"   - Offers seen: {_offers(item)}")
+        lines.append(f"   - Checked {item['checked_at']}, {_stock_text(item)}: {item['url']}; found via "
+                     f"{_clean(item['found_via'])}")
 
-    lines += ["", "### Pages that could not be read", ""]
-    lines += [f"- {b['store']}: {b['what_happened']}. Check it yourself: {b['url']}" for b in answer["blocked"]] or ["- none"]
-    lines += ["", "### Unknowns", ""] + [f"- {u}" for u in answer["unknowns"]]
+    lines += ["", "### Pages that could not be read or priced", ""]
+    lines += [f"- {b['store']}: {'not opened, known blocked: ' if b.get('opened') is False else ''}"
+              f"{_clean(b['what_happened']).rstrip('.')}. Check it yourself: {b['url']}" for b in answer["blocked"]] \
+        or ["- none"]
+    lines += ["", "### Unknowns", ""] + [f"- {_clean(u)}" for u in answer["unknowns"]]
     lines += [
         "",
         "No code was tried and nothing was added to a cart. A shelf price is the price; codes, subscribe prices "
-        "and sign-up offers never lower it. No affiliate links; the order is by similarity, not by commission.",
+        "and sign-up offers never lower it. Pop-ups and delayed offers do not show on every load, so a page may "
+        "print an offer this pass did not see. No affiliate links; the order is by similarity, not by commission.",
     ]
     return "\n".join(lines) + "\n"
