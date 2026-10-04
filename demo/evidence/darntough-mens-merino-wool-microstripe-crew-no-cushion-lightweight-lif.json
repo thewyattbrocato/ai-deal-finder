@@ -1,0 +1,183 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:06:03Z",
+  "ship": [
+   "FREE SHIPPING",
+   "Free shipping on orders $50+",
+   "Shipping",
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more."
+  ],
+  "size": [
+   "SIZE \u2014 Size chart",
+   "Size Chart"
+  ],
+  "sub": [
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more.",
+   "SUBSCRIBE"
+  ],
+  "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks",
+ "http_status": 200,
+ "id": "darntough-mens-merino-wool-microstripe-crew-no-cushion-lightweight-lif",
+ "image_file": "darntough-mens-merino-wool-microstripe-crew-no-cushion-lightweight-lif.png",
+ "image_sha256": "197fcb4a31edf01577e6353dcb8cd56125d2eb1933891499cd713f1aa697d5f3",
+ "image_source": "http://darntough.com/cdn/shop/files/6134_Moss.png?v=1780667815&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 38,
+    "ratingValue": 4.8
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "category": "",
+   "description": "When macro stripes feel like too much, the Microstripe steps in. Subtle, tight-knit stripes give you just enough detail without overdoing it (and they pair perfectly with those three identical pairs of solid pants in your closet). Plain? Never. Durable, breathable, and knit to outlast the multiple-day outfit streak you throw at them.",
+   "gtin12": "642249244168",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "US",
+    "merchantReturnDays": 90,
+    "returnFees": "https://schema.org/FreeReturn",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyCountry": "US"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": 1024,
+    "image": "https://darntough.com/cdn/shop/files/6134_Moss_1024x1024.png?v=1780667815",
+    "name": "Men's Microstripe Crew Lightweight Lifestyle Socks",
+    "url": "https://darntough.com/cdn/shop/files/6134_Moss_1024x1024.png?v=1780667815",
+    "width": 1024
+   },
+   "name": "Men's Microstripe Crew Lightweight Lifestyle Socks",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_ECLIPSE_M_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557182138"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_ECLIPSE_L_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557214906"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_ECLIPSE_XL_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557247674"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_MOSS_M_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557280442"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_MOSS_L_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557313210"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_MOSS_XL_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557345978"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_CHARCOAL_M_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557378746"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_CHARCOAL_L_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557411514"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 24.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6134_CHARCOAL_XL_DARN",
+     "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557444282"
+    }
+   ],
+   "productId": "642249244168",
+   "sku": "6134_ECLIPSE_M_DARN",
+   "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "38"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "description": "When macro stripes feel like too much, the Microstripe steps in. Subtle, tight-knit stripes give you just enough detail without overdoing it (and they pair perfectly with those three identical pairs of solid pants in your closet). Plain? Never. Durable, breathable, and knit to outlast the multiple-day outfit streak you throw at them.",
+   "image": [
+    "https://darntough.com/cdn/shop/files/6134_Moss.png?v=1780667815&width=480"
+   ],
+   "name": "Men&#39;s Microstripe Crew Lightweight Lifestyle Socks",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "24.0",
+    "priceCurrency": "USD",
+    "sku": "6134_ECLIPSE_M_DARN",
+    "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks?variant=45954557182138"
+   },
+   "sku": "6134_ECLIPSE_M_DARN"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:52:59Z",
+ "og_image": "http://darntough.com/cdn/shop/files/6134_Moss.png?v=1780667815",
+ "page_sha256": "b432725bca0044f6d79c408f94bddb1f50c7e88f9eda6dd9f5772acb26867ae9",
+ "rendered_checked": true,
+ "title": "Men's Microstripe Crew No Cushion Lifestyle Socks \u2013 Darn Tough",
+ "url": "https://darntough.com/products/mens-merino-wool-microstripe-crew-no-cushion-lightweight-lifestyle-socks"
+}

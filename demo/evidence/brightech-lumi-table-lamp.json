@@ -1,0 +1,126 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:03:51Z",
+  "ship": [
+   "SHIPPING",
+   "FREE SHIPPING OVER $99. FREE RETURNS.",
+   "Free shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://brightech.com/products/lumi-table-lamp"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://brightech.com/products/lumi-table-lamp",
+ "http_status": 200,
+ "id": "brightech-lumi-table-lamp",
+ "image_file": "brightech-lumi-table-lamp.png",
+ "image_sha256": "11738f3b1d531b32e33bf57e371e59f124d8239cbecfe4af2949d59b720c78ad",
+ "image_source": "http://brightech.com/cdn/shop/files/Brightech_LumiTableLamp_Glass_Chrome.png?v=1785516285&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://brightech.com/products/lumi-table-lamp",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Color",
+     "value": "Black"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Length",
+     "unitCode": "INH",
+     "value": 59.88
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Bulb Type",
+     "value": "Standard LED"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Wattage",
+     "unitText": "WTT",
+     "value": 9.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Lumens",
+     "unitText": "LUM",
+     "value": 800.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Color Temperature",
+     "unitText": "Kelvin",
+     "value": 3000.0
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightech"
+   },
+   "depth": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 4.8
+   },
+   "description": "Small but mighty. If you asked us to describe the Lumi, we'd say it speaks for itself (but we're going to speak for it anyway). It pairs a pleated frosted glass shade with a refined polished chrome base \u2014 a sculptural little silhouette that looks right at home in Scandinavian, contemporary, and modern classic spaces. The frosted glass softens its 3000K LED into a warm, calming glow, and the built-in rotary dimmer lets you dial in the exact mood. It arrives fully assembled, so the only problem you'll have with this lamp will be deciding where to put it.",
+   "height": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 7.36
+   },
+   "image": [
+    "https://brightech.com/cdn/shop/files/Brightech_LumiTableLamp_Glass_Chrome_1200x.png?v=1785516285"
+   ],
+   "material": "Metal",
+   "name": "Lumi Table Lamp",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": "850068315956",
+     "hasMerchantReturnPolicy": {
+      "@id": "#return_policy"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "TL-LUMI-CRM",
+     "price": 84.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": {
+      "@id": "#shipping_policy"
+     },
+     "sku": "TL-LUMI-CRM",
+     "url": "https://brightech.com/products/lumi-table-lamp?variant=51197171761188",
+     "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": {
+       "@type": "QuantitativeValue",
+       "unitCode": "ANN",
+       "value": 5
+      }
+     }
+    }
+   ],
+   "sku": "TL-LUMI-CRM",
+   "url": "https://brightech.com/products/lumi-table-lamp",
+   "width": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 6.97
+   }
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T23:54:16Z",
+ "og_image": "http://brightech.com/cdn/shop/files/Brightech_LumiTableLamp_Glass_Chrome.png?v=1785516285",
+ "page_sha256": "d902d1f0ee008f970cb765e4d9f07b732ca1cf2ee5610c7620f0c05c51419516",
+ "rendered_checked": true,
+ "title": "Lumi Table Lamp \u2013 Brightech",
+ "url": "https://brightech.com/products/lumi-table-lamp"
+}

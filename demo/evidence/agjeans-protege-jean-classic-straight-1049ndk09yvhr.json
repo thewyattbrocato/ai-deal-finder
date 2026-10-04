@@ -1,0 +1,288 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:02:48Z",
+  "ship": [
+   "Free & Fast 2-Day Shipping on All U.S. Orders!",
+   "FAST & FREE 2-DAY SHIPPING ON ALL U.S. ORDERS",
+   "Free 2-day shipping on all U.S. orders",
+   "SHIPPING",
+   "Free 2-Day Shipping",
+   "Shipping Info",
+   "Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE",
+   "SELECT SIZE"
+  ],
+  "sub": [],
+  "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr",
+ "http_status": 200,
+ "id": "agjeans-protege-jean-classic-straight-1049ndk09yvhr",
+ "image_file": "agjeans-protege-jean-classic-straight-1049ndk09yvhr.jpg",
+ "image_sha256": "95bea4e14c7d5ba4430509377453d8027620d26006dc461a51b307b198521242",
+ "image_source": "http://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "AG Jeans"
+   },
+   "description": "Prot\u00e9g\u00e9 is our signature silhouette crafted from New Union Dark Denim. This classic straight jean features an easy fit through the thighs and clean finish at the leg opening. Prot\u00e9g\u00e9 is our signature silhouette crafted from Timeless Comfort Stretch Denim. This classic straight jean features an easy fit through the thighs and clean finish at the leg opening. Designed in our tinted medium blue wash, 14 Years Notes, and finished to emulate 14 years of AG-ed\u2122 wear through fading, gold and tonal stitching, and whiskering on the front and behind the knees.",
+   "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+   "mpn": "1049NDK09YVHR3228",
+   "name": "Prot\u00e9g\u00e9 Jean",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293203688&quantity=1",
+     "gtin12": "199882121085",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3228",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3228",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293203688"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293236456&quantity=1",
+     "gtin12": "199882121092",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3229",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3229",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293236456"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293269224&quantity=1",
+     "gtin12": "199882121108",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3230",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3230",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293269224"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293301992&quantity=1",
+     "gtin12": "199882121115",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3231",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3231",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293301992"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293334760&quantity=1",
+     "gtin12": "199882121122",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3232",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3232",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293334760"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293367528&quantity=1",
+     "gtin12": "199882121139",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3233",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3233",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293367528"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293400296&quantity=1",
+     "gtin12": "199882121146",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3234",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3234",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293400296"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293433064&quantity=1",
+     "gtin12": "199882121153",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3235",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3235",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293433064"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293465832&quantity=1",
+     "gtin12": "199882121160",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3236",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3236",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293465832"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293498600&quantity=1",
+     "gtin12": "199882121177",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3238",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3238",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293498600"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293531368&quantity=1",
+     "gtin12": "199882121184",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3240",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3240",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293531368"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293564136&quantity=1",
+     "gtin12": "199882121191",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3242",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3242",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293564136"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661293596904&quantity=1",
+     "gtin12": "199882121207",
+     "image": "https://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1049NDK09YVHR3244",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1049NDK09YVHR3244",
+     "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr?variant=48661293596904"
+    }
+   ],
+   "sku": "1049NDK09YVHR3228",
+   "url": "https://www.agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:53:06Z",
+ "og_image": "http://www.agjeans.com/cdn/shop/files/1049NDK09YVHR_9.jpg?v=1790784195&width=800",
+ "page_sha256": "5211d0419761b9874421af4b12931cc1e4a09754b4428c96a2e651f7f66768cd",
+ "rendered_checked": true,
+ "title": "Men Prot\u00e9g\u00e9 Jean 9 Years Vinyl Hour at AG Jeans Official Store",
+ "url": "https://agjeans.com/products/protege-jean-classic-straight-1049ndk09yvhr"
+}

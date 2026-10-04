@@ -1,0 +1,75 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:00Z",
+  "ship": [
+   "10% off + free shipping on every delivery",
+   "Free Shipping on Orders $50+",
+   "Spend $50.00 for free shipping!"
+  ],
+  "size": [
+   "SIZE 1.4 oz.",
+   "Size"
+  ],
+  "sub": [
+   "Subscribe & Save",
+   "Discount codes not applicable to Subscribe & Save unless otherwise specified."
+  ],
+  "url": "https://supergoop.com/products/play-everyday-stick-spf-50"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://supergoop.com/products/play-everyday-stick-spf-50",
+ "http_status": 200,
+ "id": "supergoop-play-everyday-stick-spf-50",
+ "image_file": "supergoop-play-everyday-stick-spf-50.jpg",
+ "image_sha256": "a542f311b65a3509beec4f7f671b35851756c5e6bb103027ba0fed79628dc24d",
+ "image_source": "https://cdn.shopify.com/s/files/1/1503/5658/files/supergoop-play-sunscreen-stick-spf-50-product-and-texture.jpg?v=1744295444&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "185"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Supergoop"
+   },
+   "description": "An easy-to-apply sunscreen stick that glides on smoothly, applies clear and is water- and sweat-resistant with a weightless feel and natural, fresh scent.",
+   "gtin12": "816218029074",
+   "image": [
+    "https://supergoop.com/cdn/shop/files/supergoop-play-sunscreen-stick-spf-50-product-and-texture.jpg?v=1744295444&width=1200",
+    "https://supergoop.com/cdn/shop/files/supergoop-play-sunscreen-stick-spf-50-open.jpg?v=1744295444&width=1200",
+    "https://supergoop.com/cdn/shop/files/supergoop-play-sunscreen-stick-spf-50-texture.jpg?v=1744295444&width=1200",
+    "https://supergoop.com/cdn/shop/files/supergoop-play-face-lotion-model-before-and-after.jpg?v=1744295444&width=1200",
+    "https://supergoop.com/cdn/shop/files/supergoop-play-sunscreen-stick-spf-50-model-application-ear.jpg?v=1745951525&width=1200"
+   ],
+   "name": "PLAY Everyday Sunscreen Stick SPF 50",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@id": "#return_policy"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "22.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Supergoop"
+    },
+    "url": "https://supergoop.com/products/play-everyday-stick-spf-50?variant=41845450768482"
+   },
+   "sku": "9074",
+   "url": "https://supergoop.com/products/play-everyday-stick-spf-50"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:54Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/1503/5658/files/supergoop-play-sunscreen-stick-spf-50-product-and-texture.jpg?v=1744295444",
+ "page_sha256": "03ca64e18b436c06b6fd23105963725bcefa92dbf94f13705e8a03d38c02996d",
+ "rendered_checked": true,
+ "title": "PLAY Everyday Sunscreen Stick SPF 50",
+ "url": "https://supergoop.com/products/play-everyday-stick-spf-50"
+}

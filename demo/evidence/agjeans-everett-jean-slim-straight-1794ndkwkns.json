@@ -1,0 +1,288 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:02:39Z",
+  "ship": [
+   "Free & Fast 2-Day Shipping on All U.S. Orders!",
+   "FAST & FREE 2-DAY SHIPPING ON ALL U.S. ORDERS",
+   "Free 2-day shipping on all U.S. orders",
+   "SHIPPING",
+   "Free 2-Day Shipping",
+   "Shipping Info",
+   "Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE",
+   "SELECT SIZE"
+  ],
+  "sub": [],
+  "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns",
+ "http_status": 200,
+ "id": "agjeans-everett-jean-slim-straight-1794ndkwkns",
+ "image_file": "agjeans-everett-jean-slim-straight-1794ndkwkns.jpg",
+ "image_sha256": "e0deb75fcd86f4a8c443c77b86a83db742847bd9ba4b5d791a9084758af42f63",
+ "image_source": "http://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "AG Jeans"
+   },
+   "description": "Crafted from New Union Dark Denim, Everett is a slim straight jean with a relaxed fit from hip to knee that gently tapers at the leg opening. Designed in our tinted medium blue wash, Watkins, and finished with fading, warm gold and tonal stitching, whiskering on the front and behind the knees, and a lived-in patina with pigment accents on the seams and creases.",
+   "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+   "mpn": "1794NDKWKNS3228",
+   "name": "Everett Jean",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319057640&quantity=1",
+     "gtin12": "199882114520",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3228",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3228",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319057640"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319090408&quantity=1",
+     "gtin12": "199882114537",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3229",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3229",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319090408"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319123176&quantity=1",
+     "gtin12": "199882114544",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3230",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3230",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319123176"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319155944&quantity=1",
+     "gtin12": "199882114551",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3231",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3231",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319155944"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319188712&quantity=1",
+     "gtin12": "199882114568",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3232",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3232",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319188712"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319221480&quantity=1",
+     "gtin12": "199882114575",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3233",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3233",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319221480"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319254248&quantity=1",
+     "gtin12": "199882114582",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3234",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3234",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319254248"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319287016&quantity=1",
+     "gtin12": "199882114599",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3235",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3235",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319287016"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319319784&quantity=1",
+     "gtin12": "199882114605",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3236",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3236",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319319784"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319352552&quantity=1",
+     "gtin12": "199882114612",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3238",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3238",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319352552"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319385320&quantity=1",
+     "gtin12": "199882114629",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3240",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3240",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319385320"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319418088&quantity=1",
+     "gtin12": "199882114636",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3242",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3242",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319418088"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661319450856&quantity=1",
+     "gtin12": "199882114643",
+     "image": "https://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1794NDKWKNS3244",
+     "price": "235.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1794NDKWKNS3244",
+     "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns?variant=48661319450856"
+    }
+   ],
+   "sku": "1794NDKWKNS3228",
+   "url": "https://www.agjeans.com/products/everett-jean-slim-straight-1794ndkwkns"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:53:05Z",
+ "og_image": "http://www.agjeans.com/cdn/shop/files/1794NDKWKNS_9.jpg?v=1790869369&width=800",
+ "page_sha256": "e0566a3365301daa758fa05fb04d16d8e49311e5e9f642719f98f6d41fc18e48",
+ "rendered_checked": true,
+ "title": "Men Everett Jean Watkins at AG Jeans Official Store",
+ "url": "https://agjeans.com/products/everett-jean-slim-straight-1794ndkwkns"
+}

@@ -1,0 +1,62 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:04:25Z",
+  "ship": [
+   "Free shipping on orders $50+",
+   "free shipping",
+   "subscribe for (8% off) + free us shipping",
+   "Your subsequent (second) subscription will process at 8% off + free US shipping, cancel anytime.",
+   "FREE U.S. SHIPPING ON ORDERS $50+",
+   "shipping + delivery faqs"
+  ],
+  "size": [],
+  "sub": [
+   "subscription",
+   "subscribe for (8% off) + free us shipping",
+   "Your subsequent (second) subscription will process at 8% off + free US shipping, cancel anytime.",
+   "subscribe"
+  ],
+  "url": "https://www.cocokind.com/products/retinol-body-cream"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.cocokind.com/products/retinol-body-cream",
+ "http_status": 200,
+ "id": "cocokind-retinol-body-cream",
+ "image_file": "cocokind-retinol-body-cream.png",
+ "image_sha256": "1285ca5be214dcfb34347bd12a92c3f56527f979dfdd77ff1ce53c9dc4c7d7ae",
+ "image_source": "http://www.cocokind.com/cdn/shop/products/retinol-body-cream-887005.png?v=1762440100&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "cocokind"
+   },
+   "description": "This lightweight body moisturizer with 0.05% retinol helps firm skin\u2019s appearance and improves the look of uneven tone and texture. Squalane and ceramide NP work together to deliver hydration and lock it in, keeping skin moisturized and comfortable. The fragrance-free cream absorbs instantly and leaves skin feeling silky and soft, never sticky or greasy. This formula has been clinically tested for sensitive skin.\n8\u00a0fl oz / 236 ml",
+   "image": [
+    "https://www.cocokind.com/cdn/shop/products/retinol-body-cream-887005_1403x.png?v=1762440100"
+   ],
+   "name": "retinol body cream",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/ InStock",
+     "price": 21.0,
+     "priceCurrency": "USD",
+     "sku": "FG60813",
+     "url": "https://www.cocokind.com/products/retinol-body-cream?variant=43076947247280"
+    }
+   ],
+   "sku": "FG60813",
+   "url": "https://www.cocokind.com/products/retinol-body-cream"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:54:00Z",
+ "og_image": "http://www.cocokind.com/cdn/shop/products/retinol-body-cream-887005.png?v=1762440100",
+ "page_sha256": "ad4ded81cfeeeaa8fddafd06413fb1ad3a1afef432a199f7f808265f5c8e1f13",
+ "rendered_checked": true,
+ "title": "retinol body cream \u2013 cocokind",
+ "url": "https://cocokind.com/products/retinol-body-cream"
+}

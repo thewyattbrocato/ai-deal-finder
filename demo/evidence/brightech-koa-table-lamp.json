@@ -1,0 +1,174 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:03:44Z",
+  "ship": [
+   "SHIPPING",
+   "FREE SHIPPING OVER $99. FREE RETURNS.",
+   "Free shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://brightech.com/products/koa-table-lamp"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://brightech.com/products/koa-table-lamp",
+ "http_status": 200,
+ "id": "brightech-koa-table-lamp",
+ "image_file": "brightech-koa-table-lamp.jpg",
+ "image_sha256": "30afa6783137c5e87d31bf46228935810faa9c5d2082cc73f5129cee994c39d3",
+ "image_source": "http://brightech.com/cdn/shop/files/Brightech_KoaTableLamp_Wood_Brown1.jpg?v=1784220960&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://brightech.com/products/koa-table-lamp",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "description": "2 of 2 reviewers recommend this product",
+     "name": "Percent of reviewers who recommend this product",
+     "unitText": "PERCENT",
+     "value": 100
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Color",
+     "value": "Black"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Length",
+     "unitCode": "INH",
+     "value": 59.88
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Bulb Type",
+     "value": "Standard LED"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Wattage",
+     "unitText": "WTT",
+     "value": 9.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Lumens",
+     "unitText": "LUM",
+     "value": 800.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Color Temperature",
+     "unitText": "Kelvin",
+     "value": 3000.0
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightech"
+   },
+   "depth": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 8.86
+   },
+   "description": "Grounded by a cylindrical Koa wood column and crowned with a clean triangular shade silhouette, the Koa Table Lamp brings warmth and quiet structure to any space. Its cotton shade softens the light into a gentle, ambient glow, while the rich grain of the Koa base adds organic depth\u2014an effortless fit for modern, Japandi, or mid-century interiors where natural materials and minimal form take center stage.",
+   "height": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 20.0
+   },
+   "image": [
+    "https://brightech.com/cdn/shop/files/Brightech_KoaTableLamp_Wood_Brown1_1200x.jpg?v=1784220960"
+   ],
+   "material": "Wood",
+   "name": "Koa Table Lamp",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": "850068315932",
+     "hasMerchantReturnPolicy": {
+      "@id": "#return_policy"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "TL-KOA-WNT",
+     "price": 119.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": {
+      "@id": "#shipping_policy"
+     },
+     "sku": "TL-KOA-WNT",
+     "url": "https://brightech.com/products/koa-table-lamp?variant=44223397003300",
+     "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": {
+       "@type": "QuantitativeValue",
+       "unitCode": "ANN",
+       "value": 5
+      }
+     }
+    }
+   ],
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "KP123"
+     },
+     "datePublished": "2026-09-14",
+     "name": "Bedside table lamp",
+     "reviewBody": "My bedside table needed a lamp and I thought this one looked pretty fun to put there. I think it looks good! As a plus, I like how tactile the on and off switch is.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Lampguy"
+     },
+     "datePublished": "2026-09-14",
+     "name": "Great lamp",
+     "reviewBody": "This lamp came in good condition and was simple to assemble.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ],
+   "sku": "TL-KOA-WNT",
+   "url": "https://brightech.com/products/koa-table-lamp",
+   "width": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 14.17
+   }
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T23:54:18Z",
+ "og_image": "http://brightech.com/cdn/shop/files/Brightech_KoaTableLamp_Wood_Brown1.jpg?v=1784220960",
+ "page_sha256": "b14c11146c7d908ccf16e282a5119433567af892cd0d53a1e11939a2d48c1056",
+ "rendered_checked": true,
+ "title": "Koa Wood Table Lamp for Bedroom & Living Room | Brightech",
+ "url": "https://brightech.com/products/koa-table-lamp"
+}

@@ -1,0 +1,2628 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:54Z",
+  "ship": [
+   "Shipping Info",
+   "Free Shipping $99+"
+  ],
+  "size": [
+   "Size 6.5",
+   "Size Guide",
+   "Size Fit",
+   "Size Conversion"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://xeroshoes.com/products/360-rally-men"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://xeroshoes.com/products/360-rally-men",
+ "http_status": 200,
+ "id": "xeroshoes-360-rally-men",
+ "image_file": "xeroshoes-360-rally-men.jpg",
+ "image_sha256": "eab652e117d9095d4b7274d67a316a6c5e62814e04cfdde703968143288300e3",
+ "image_source": "http://xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://xeroshoes.com/products/360-rally-men#productGroup",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.03,
+    "reviewCount": 79,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Xero Shoes"
+   },
+   "description": "Get the competitive edge on the court and beyond. The 360 Rally is a lightweight, minimal training shoe made for quick pivots, precise footwork, and explosive movements, whether you\u2019re in the training gym or the pickleball court.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "6.5",
+     "sku": "TSRM-WHAP-M06.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191625906"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7",
+     "sku": "TSRM-WHAP-M07",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191658674"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7.5",
+     "sku": "TSRM-WHAP-M07.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191691442"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8",
+     "sku": "TSRM-WHAP-M08",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191724210"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8.5",
+     "sku": "TSRM-WHAP-M08.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191756978"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9",
+     "sku": "TSRM-WHAP-M09",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191789746"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9.5",
+     "sku": "TSRM-WHAP-M09.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191822514"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10",
+     "sku": "TSRM-WHAP-M10",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191855282"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10.5",
+     "sku": "TSRM-WHAP-M10.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191888050"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11",
+     "sku": "TSRM-WHAP-M11",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191920818"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11.5",
+     "sku": "TSRM-WHAP-M11.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191953586"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12",
+     "sku": "TSRM-WHAP-M12",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191986354"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12.5",
+     "sku": "TSRM-WHAP-M12.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192019122"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "13",
+     "sku": "TSRM-WHAP-M13",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192051890"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "14",
+     "sku": "TSRM-WHAP-M14",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192084658"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Asphalt",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - White - Asphalt - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "15",
+     "sku": "TSRM-WHAP-M15",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192117426"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "6.5",
+     "sku": "TSRM-AMGN-M06.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190053042"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7",
+     "sku": "TSRM-AMGN-M07",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190085810"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7.5",
+     "sku": "TSRM-AMGN-M07.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190118578"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8",
+     "sku": "TSRM-AMGN-M08",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190151346"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8.5",
+     "sku": "TSRM-AMGN-M08.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190184114"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9",
+     "sku": "TSRM-AMGN-M09",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190216882"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9.5",
+     "sku": "TSRM-AMGN-M09.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190249650"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10",
+     "sku": "TSRM-AMGN-M10",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190282418"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10.5",
+     "sku": "TSRM-AMGN-M10.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190315186"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11",
+     "sku": "TSRM-AMGN-M11",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190347954"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11.5",
+     "sku": "TSRM-AMGN-M11.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190380722"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12",
+     "sku": "TSRM-AMGN-M12",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190413490"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12.5",
+     "sku": "TSRM-AMGN-M12.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190446258"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "13",
+     "sku": "TSRM-AMGN-M13",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190479026"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "14",
+     "sku": "TSRM-AMGN-M14",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190511794"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Army Green - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "15",
+     "sku": "TSRM-AMGN-M15",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190544562"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "6.5",
+     "sku": "TSRM-WHNV-M06.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192150194"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7",
+     "sku": "TSRM-WHNV-M07",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192182962"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7.5",
+     "sku": "TSRM-WHNV-M07.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192215730"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8",
+     "sku": "TSRM-WHNV-M08",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192248498"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8.5",
+     "sku": "TSRM-WHNV-M08.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192281266"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9",
+     "sku": "TSRM-WHNV-M09",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192314034"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9.5",
+     "sku": "TSRM-WHNV-M09.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192346802"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10",
+     "sku": "TSRM-WHNV-M10",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192379570"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10.5",
+     "sku": "TSRM-WHNV-M10.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192412338"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11",
+     "sku": "TSRM-WHNV-M11",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192445106"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11.5",
+     "sku": "TSRM-WHNV-M11.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192477874"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12",
+     "sku": "TSRM-WHNV-M12",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192510642"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12.5",
+     "sku": "TSRM-WHNV-M12.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192543410"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "13",
+     "sku": "TSRM-WHNV-M13",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192576178"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "14",
+     "sku": "TSRM-WHNV-M14",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192608946"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Navy",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+     "name": "360 Rally - Men - White - Navy - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "15",
+     "sku": "TSRM-WHNV-M15",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192641714"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "6.5",
+     "sku": "TSRM-STGY-M06.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191101618"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7",
+     "sku": "TSRM-STGY-M07",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191134386"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7.5",
+     "sku": "TSRM-STGY-M07.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191167154"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8",
+     "sku": "TSRM-STGY-M08",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191199922"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8.5",
+     "sku": "TSRM-STGY-M08.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191232690"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9",
+     "sku": "TSRM-STGY-M09",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191265458"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9.5",
+     "sku": "TSRM-STGY-M09.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191298226"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10",
+     "sku": "TSRM-STGY-M10",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191330994"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10.5",
+     "sku": "TSRM-STGY-M10.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191363762"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11",
+     "sku": "TSRM-STGY-M11",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191396530"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11.5",
+     "sku": "TSRM-STGY-M11.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191429298"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12",
+     "sku": "TSRM-STGY-M12",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191462066"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12.5",
+     "sku": "TSRM-STGY-M12.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191494834"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "13",
+     "sku": "TSRM-STGY-M13",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191527602"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "14",
+     "sku": "TSRM-STGY-M14",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191560370"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+     "name": "360 Rally - Men - Steel Gray - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "15",
+     "sku": "TSRM-STGY-M15",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191593138"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "6.5",
+     "sku": "TSRM-BLCK-M06.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190577330"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7",
+     "sku": "TSRM-BLCK-M07",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190610098"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "7.5",
+     "sku": "TSRM-BLCK-M07.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190642866"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8",
+     "sku": "TSRM-BLCK-M08",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190675634"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "8.5",
+     "sku": "TSRM-BLCK-M08.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190708402"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9",
+     "sku": "TSRM-BLCK-M09",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190741170"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "9.5",
+     "sku": "TSRM-BLCK-M09.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190773938"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10",
+     "sku": "TSRM-BLCK-M10",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190806706"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "10.5",
+     "sku": "TSRM-BLCK-M10.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190839474"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11",
+     "sku": "TSRM-BLCK-M11",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190872242"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "11.5",
+     "sku": "TSRM-BLCK-M11.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190905010"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12",
+     "sku": "TSRM-BLCK-M12",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190937778"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "12.5",
+     "sku": "TSRM-BLCK-M12.5",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190970546"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "13",
+     "sku": "TSRM-BLCK-M13",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191003314"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "14",
+     "sku": "TSRM-BLCK-M14",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191036082"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+     "name": "360 Rally - Men - Black - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "129.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/360-rally-men"
+     },
+     "size": "15",
+     "sku": "TSRM-BLCK-M15",
+     "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191068850"
+    }
+   ],
+   "image": [
+    "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+    "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+    "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+    "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+    "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048"
+   ],
+   "name": "360 Rally - Men",
+   "productGroupID": "8701026697394",
+   "url": "https://xeroshoes.com/products/360-rally-men",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "6.5",
+   "sku": "TSRM-WHAP-M06.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191625906"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7",
+   "sku": "TSRM-WHAP-M07",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191658674"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7.5",
+   "sku": "TSRM-WHAP-M07.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191691442"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8",
+   "sku": "TSRM-WHAP-M08",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191724210"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8.5",
+   "sku": "TSRM-WHAP-M08.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191756978"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9",
+   "sku": "TSRM-WHAP-M09",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191789746"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9.5",
+   "sku": "TSRM-WHAP-M09.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191822514"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10",
+   "sku": "TSRM-WHAP-M10",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191855282"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10.5",
+   "sku": "TSRM-WHAP-M10.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191888050"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11",
+   "sku": "TSRM-WHAP-M11",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191920818"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11.5",
+   "sku": "TSRM-WHAP-M11.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191953586"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12",
+   "sku": "TSRM-WHAP-M12",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191986354"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12.5",
+   "sku": "TSRM-WHAP-M12.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192019122"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "13",
+   "sku": "TSRM-WHAP-M13",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192051890"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "14",
+   "sku": "TSRM-WHAP-M14",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192084658"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Asphalt",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - White - Asphalt - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "15",
+   "sku": "TSRM-WHAP-M15",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192117426"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "6.5",
+   "sku": "TSRM-AMGN-M06.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190053042"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7",
+   "sku": "TSRM-AMGN-M07",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190085810"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7.5",
+   "sku": "TSRM-AMGN-M07.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190118578"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8",
+   "sku": "TSRM-AMGN-M08",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190151346"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8.5",
+   "sku": "TSRM-AMGN-M08.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190184114"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9",
+   "sku": "TSRM-AMGN-M09",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190216882"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9.5",
+   "sku": "TSRM-AMGN-M09.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190249650"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10",
+   "sku": "TSRM-AMGN-M10",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190282418"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10.5",
+   "sku": "TSRM-AMGN-M10.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190315186"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11",
+   "sku": "TSRM-AMGN-M11",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190347954"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11.5",
+   "sku": "TSRM-AMGN-M11.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190380722"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12",
+   "sku": "TSRM-AMGN-M12",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190413490"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12.5",
+   "sku": "TSRM-AMGN-M12.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190446258"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "13",
+   "sku": "TSRM-AMGN-M13",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190479026"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "14",
+   "sku": "TSRM-AMGN-M14",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190511794"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-AMGN_360-Rally_Army-Green_Right-Side_0100_30bd8d96-38db-4c25-9c86-fc604bcfd574.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Army Green - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "15",
+   "sku": "TSRM-AMGN-M15",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190544562"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "6.5",
+   "sku": "TSRM-WHNV-M06.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192150194"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7",
+   "sku": "TSRM-WHNV-M07",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192182962"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7.5",
+   "sku": "TSRM-WHNV-M07.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192215730"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8",
+   "sku": "TSRM-WHNV-M08",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192248498"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8.5",
+   "sku": "TSRM-WHNV-M08.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192281266"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9",
+   "sku": "TSRM-WHNV-M09",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192314034"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9.5",
+   "sku": "TSRM-WHNV-M09.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192346802"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10",
+   "sku": "TSRM-WHNV-M10",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192379570"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10.5",
+   "sku": "TSRM-WHNV-M10.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192412338"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11",
+   "sku": "TSRM-WHNV-M11",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192445106"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11.5",
+   "sku": "TSRM-WHNV-M11.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192477874"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12",
+   "sku": "TSRM-WHNV-M12",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192510642"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12.5",
+   "sku": "TSRM-WHNV-M12.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192543410"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "13",
+   "sku": "TSRM-WHNV-M13",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192576178"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "14",
+   "sku": "TSRM-WHNV-M14",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192608946"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Navy",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-WHNV-M_360Rally_WhiteNavy_Lateral_7ba47cd9-9cc7-432e-8896-6ea3918f3627.jpg?v=1776777898&width=2048",
+   "name": "360 Rally - Men - White - Navy - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "15",
+   "sku": "TSRM-WHNV-M15",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919192641714"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "6.5",
+   "sku": "TSRM-STGY-M06.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191101618"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7",
+   "sku": "TSRM-STGY-M07",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191134386"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7.5",
+   "sku": "TSRM-STGY-M07.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191167154"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8",
+   "sku": "TSRM-STGY-M08",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191199922"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8.5",
+   "sku": "TSRM-STGY-M08.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191232690"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9",
+   "sku": "TSRM-STGY-M09",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191265458"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9.5",
+   "sku": "TSRM-STGY-M09.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191298226"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10",
+   "sku": "TSRM-STGY-M10",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191330994"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10.5",
+   "sku": "TSRM-STGY-M10.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191363762"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11",
+   "sku": "TSRM-STGY-M11",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191396530"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11.5",
+   "sku": "TSRM-STGY-M11.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191429298"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12",
+   "sku": "TSRM-STGY-M12",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191462066"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12.5",
+   "sku": "TSRM-STGY-M12.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191494834"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "13",
+   "sku": "TSRM-STGY-M13",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191527602"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "14",
+   "sku": "TSRM-STGY-M14",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191560370"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-STGY-M_360Rally_SteelGray_Lateral_e790ed2a-215d-4977-b930-7482ce53ac94.jpg?v=1776777885&width=2048",
+   "name": "360 Rally - Men - Steel Gray - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "15",
+   "sku": "TSRM-STGY-M15",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191593138"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "6.5",
+   "sku": "TSRM-BLCK-M06.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190577330"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7",
+   "sku": "TSRM-BLCK-M07",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190610098"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "7.5",
+   "sku": "TSRM-BLCK-M07.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190642866"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8",
+   "sku": "TSRM-BLCK-M08",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190675634"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "8.5",
+   "sku": "TSRM-BLCK-M08.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190708402"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9",
+   "sku": "TSRM-BLCK-M09",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190741170"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "9.5",
+   "sku": "TSRM-BLCK-M09.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190773938"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10",
+   "sku": "TSRM-BLCK-M10",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190806706"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "10.5",
+   "sku": "TSRM-BLCK-M10.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190839474"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11",
+   "sku": "TSRM-BLCK-M11",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190872242"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "11.5",
+   "sku": "TSRM-BLCK-M11.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190905010"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12",
+   "sku": "TSRM-BLCK-M12",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190937778"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "12.5",
+   "sku": "TSRM-BLCK-M12.5",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919190970546"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "13",
+   "sku": "TSRM-BLCK-M13",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191003314"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "14",
+   "sku": "TSRM-BLCK-M14",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191036082"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/TSRM-BLCK_360-Rally-Black_Right-Side_0066_32bbd87b-4012-4b44-bcf0-a370a5e99d3d.jpg?v=1779415394&width=2048",
+   "name": "360 Rally - Men - Black - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "129.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/360-rally-men"
+   },
+   "size": "15",
+   "sku": "TSRM-BLCK-M15",
+   "url": "https://xeroshoes.com/products/360-rally-men?variant=46919191068850"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-03T23:54:21Z",
+ "og_image": "http://xeroshoes.com/cdn/shop/files/TSRM-WHAP_360-Rally_White-Asphalt_Right-Side_0085_84a68b89-7329-46ef-ba5b-2361ebd51926.jpg?v=1779415394",
+ "page_sha256": "3f7e74cfe88a3dca201483adf7a1af87275dc12341d36307af7230162dd157bc",
+ "rendered_checked": true,
+ "title": "Xero Shoes 360 Rally Men Court Sneaker for Natural Movement - Xero Shoes",
+ "url": "https://xeroshoes.com/products/360-rally-men"
+}

@@ -1,0 +1,2628 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:13:03Z",
+  "ship": [
+   "Shipping Info",
+   "Free Shipping $99+"
+  ],
+  "size": [
+   "Size 7.5",
+   "Size Guide",
+   "Size Fit",
+   "Size Conversion"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://xeroshoes.com/products/hfs-men-original"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://xeroshoes.com/products/hfs-men-original",
+ "http_status": 200,
+ "id": "xeroshoes-hfs-men-original",
+ "image_file": "xeroshoes-hfs-men-original.jpg",
+ "image_sha256": "a6f924c75bde5a95d0f1328dc83ab9153504329dafa5f42ef6ebeed845a1aa0f",
+ "image_source": "http://xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://xeroshoes.com/products/hfs-men-original#productGroup",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.64,
+    "reviewCount": 4079,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Xero Shoes"
+   },
+   "description": "The original, best-selling, road running shoe. Enjoy the wider, foot-shaped toe box, low-to-the-ground design, and great ground feel for a barefoot-friendly experience.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "6.5",
+     "sku": "HFM-XOMU-M06.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310842034"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7",
+     "sku": "HFM-XOMU-M07",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310874802"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7.5",
+     "sku": "HFM-XOMU-M07.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310907570"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8",
+     "sku": "HFM-XOMU-M08",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310940338"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8.5",
+     "sku": "HFM-XOMU-M08.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310973106"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9",
+     "sku": "HFM-XOMU-M09",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311005874"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9.5",
+     "sku": "HFM-XOMU-M09.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311038642"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10",
+     "sku": "HFM-XOMU-M10",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311071410"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10.5",
+     "sku": "HFM-XOMU-M10.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311104178"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11",
+     "sku": "HFM-XOMU-M11",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311136946"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11.5",
+     "sku": "HFM-XOMU-M11.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311169714"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12",
+     "sku": "HFM-XOMU-M12",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311202482"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12.5",
+     "sku": "HFM-XOMU-M12.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311235250"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "13",
+     "sku": "HFM-XOMU-M13",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311268018"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "14",
+     "sku": "HFM-XOMU-M14",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311300786"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Xero Multi - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "15",
+     "sku": "HFM-XOMU-M15",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311333554"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "6.5",
+     "sku": "HFM-SGIO-M06.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434004658"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7",
+     "sku": "HFM-SGIO-M07",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434037426"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7.5",
+     "sku": "HFM-SGIO-M07.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434070194"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8",
+     "sku": "HFM-SGIO-M08",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434102962"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8.5",
+     "sku": "HFM-SGIO-M08.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434135730"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9",
+     "sku": "HFM-SGIO-M09",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434168498"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9.5",
+     "sku": "HFM-SGIO-M09.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434201266"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10",
+     "sku": "HFM-SGIO-M10",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434234034"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10.5",
+     "sku": "HFM-SGIO-M10.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434266802"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11",
+     "sku": "HFM-SGIO-M11",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434299570"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11.5",
+     "sku": "HFM-SGIO-M11.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434332338"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12",
+     "sku": "HFM-SGIO-M12",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434365106"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12.5",
+     "sku": "HFM-SGIO-M12.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434397874"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "13",
+     "sku": "HFM-SGIO-M13",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434430642"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "14",
+     "sku": "HFM-SGIO-M14",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434463410"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Steel Gray - Blue Iolite - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "15",
+     "sku": "HFM-SGIO-M15",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434496178"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "6.5",
+     "sku": "HFM-EGRT-M06.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296912050"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7",
+     "sku": "HFM-EGRT-M07",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296944818"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7.5",
+     "sku": "HFM-EGRT-M07.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296977586"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8",
+     "sku": "HFM-EGRT-M08",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297010354"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8.5",
+     "sku": "HFM-EGRT-M08.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297043122"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9",
+     "sku": "HFM-EGRT-M09",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297075890"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9.5",
+     "sku": "HFM-EGRT-M09.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297108658"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10",
+     "sku": "HFM-EGRT-M10",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297141426"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10.5",
+     "sku": "HFM-EGRT-M10.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297174194"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11",
+     "sku": "HFM-EGRT-M11",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297206962"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11.5",
+     "sku": "HFM-EGRT-M11.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297239730"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12",
+     "sku": "HFM-EGRT-M12",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297272498"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12.5",
+     "sku": "HFM-EGRT-M12.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297305266"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "13",
+     "sku": "HFM-EGRT-M13",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297338034"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "14",
+     "sku": "HFM-EGRT-M14",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297370802"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+     "name": "HFS Original - Men - Egret - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "15",
+     "sku": "HFM-EGRT-M15",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297403570"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "6.5",
+     "sku": "HFM-LGIO-M06.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034584242"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7",
+     "sku": "HFM-LGIO-M07",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035075762"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7.5",
+     "sku": "HFM-LGIO-M07.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035042994"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8",
+     "sku": "HFM-LGIO-M08",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035010226"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8.5",
+     "sku": "HFM-LGIO-M08.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034977458"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9",
+     "sku": "HFM-LGIO-M09",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034944690"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9.5",
+     "sku": "HFM-LGIO-M09.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034911922"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10",
+     "sku": "HFM-LGIO-M10",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034879154"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10.5",
+     "sku": "HFM-LGIO-M10.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034846386"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11",
+     "sku": "HFM-LGIO-M11",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034813618"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11.5",
+     "sku": "HFM-LGIO-M11.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034780850"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12",
+     "sku": "HFM-LGIO-M12",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034748082"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12.5",
+     "sku": "HFM-LGIO-M12.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034715314"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "13",
+     "sku": "HFM-LGIO-M13",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034682546"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "14",
+     "sku": "HFM-LGIO-M14",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034649778"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Light Gray - Blue Iolite - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "15",
+     "sku": "HFM-LGIO-M15",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034617010"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "6.5",
+     "sku": "HFM-BLCK-M06.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035108530"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7",
+     "sku": "HFM-BLCK-M07",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035600050"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "7.5",
+     "sku": "HFM-BLCK-M07.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035567282"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8",
+     "sku": "HFM-BLCK-M08",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035534514"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "8.5",
+     "sku": "HFM-BLCK-M08.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035501746"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9",
+     "sku": "HFM-BLCK-M09",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035468978"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "9.5",
+     "sku": "HFM-BLCK-M09.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035436210"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10",
+     "sku": "HFM-BLCK-M10",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035403442"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "10.5",
+     "sku": "HFM-BLCK-M10.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035370674"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11",
+     "sku": "HFM-BLCK-M11",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035337906"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "11.5",
+     "sku": "HFM-BLCK-M11.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035305138"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12",
+     "sku": "HFM-BLCK-M12",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035272370"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "12.5",
+     "sku": "HFM-BLCK-M12.5",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035239602"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "13",
+     "sku": "HFM-BLCK-M13",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035206834"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "14",
+     "sku": "HFM-BLCK-M14",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035174066"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+     "name": "HFS Original - Men - Black - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-men-original"
+     },
+     "size": "15",
+     "sku": "HFM-BLCK-M15",
+     "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035141298"
+    }
+   ],
+   "image": [
+    "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048"
+   ],
+   "name": "HFS Original - Men",
+   "productGroupID": "8568603246770",
+   "url": "https://xeroshoes.com/products/hfs-men-original",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "6.5",
+   "sku": "HFM-XOMU-M06.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310842034"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7",
+   "sku": "HFM-XOMU-M07",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310874802"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7.5",
+   "sku": "HFM-XOMU-M07.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310907570"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8",
+   "sku": "HFM-XOMU-M08",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310940338"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8.5",
+   "sku": "HFM-XOMU-M08.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891310973106"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9",
+   "sku": "HFM-XOMU-M09",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311005874"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9.5",
+   "sku": "HFM-XOMU-M09.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311038642"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10",
+   "sku": "HFM-XOMU-M10",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311071410"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10.5",
+   "sku": "HFM-XOMU-M10.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311104178"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11",
+   "sku": "HFM-XOMU-M11",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311136946"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11.5",
+   "sku": "HFM-XOMU-M11.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311169714"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12",
+   "sku": "HFM-XOMU-M12",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311202482"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12.5",
+   "sku": "HFM-XOMU-M12.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311235250"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "13",
+   "sku": "HFM-XOMU-M13",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311268018"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "14",
+   "sku": "HFM-XOMU-M14",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311300786"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Xero Multi - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "15",
+   "sku": "HFM-XOMU-M15",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=46891311333554"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "6.5",
+   "sku": "HFM-SGIO-M06.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434004658"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7",
+   "sku": "HFM-SGIO-M07",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434037426"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7.5",
+   "sku": "HFM-SGIO-M07.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434070194"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8",
+   "sku": "HFM-SGIO-M08",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434102962"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8.5",
+   "sku": "HFM-SGIO-M08.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434135730"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9",
+   "sku": "HFM-SGIO-M09",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434168498"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9.5",
+   "sku": "HFM-SGIO-M09.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434201266"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10",
+   "sku": "HFM-SGIO-M10",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434234034"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10.5",
+   "sku": "HFM-SGIO-M10.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434266802"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11",
+   "sku": "HFM-SGIO-M11",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434299570"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11.5",
+   "sku": "HFM-SGIO-M11.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434332338"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12",
+   "sku": "HFM-SGIO-M12",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434365106"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12.5",
+   "sku": "HFM-SGIO-M12.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434397874"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "13",
+   "sku": "HFM-SGIO-M13",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434430642"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "14",
+   "sku": "HFM-SGIO-M14",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434463410"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-SGIO-M_HFS_SteelGrayBlueIolite_Lateral_93324682-542c-4495-8372-1ef8f8aa2637.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Steel Gray - Blue Iolite - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "15",
+   "sku": "HFM-SGIO-M15",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47331434496178"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "6.5",
+   "sku": "HFM-EGRT-M06.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296912050"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7",
+   "sku": "HFM-EGRT-M07",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296944818"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7.5",
+   "sku": "HFM-EGRT-M07.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014296977586"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8",
+   "sku": "HFM-EGRT-M08",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297010354"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8.5",
+   "sku": "HFM-EGRT-M08.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297043122"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9",
+   "sku": "HFM-EGRT-M09",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297075890"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9.5",
+   "sku": "HFM-EGRT-M09.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297108658"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10",
+   "sku": "HFM-EGRT-M10",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297141426"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10.5",
+   "sku": "HFM-EGRT-M10.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297174194"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11",
+   "sku": "HFM-EGRT-M11",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297206962"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11.5",
+   "sku": "HFM-EGRT-M11.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297239730"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12",
+   "sku": "HFM-EGRT-M12",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297272498"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12.5",
+   "sku": "HFM-EGRT-M12.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297305266"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "13",
+   "sku": "HFM-EGRT-M13",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297338034"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "14",
+   "sku": "HFM-EGRT-M14",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297370802"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-EGRT-M_HFS_I_Egret_Lateral-2_2eadbce1-e331-4665-b46d-fa638e6d1bc1.jpg?v=1777226606&width=2048",
+   "name": "HFS Original - Men - Egret - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "15",
+   "sku": "HFM-EGRT-M15",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=47014297403570"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "6.5",
+   "sku": "HFM-LGIO-M06.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034584242"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7",
+   "sku": "HFM-LGIO-M07",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035075762"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7.5",
+   "sku": "HFM-LGIO-M07.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035042994"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8",
+   "sku": "HFM-LGIO-M08",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035010226"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8.5",
+   "sku": "HFM-LGIO-M08.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034977458"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9",
+   "sku": "HFM-LGIO-M09",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034944690"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9.5",
+   "sku": "HFM-LGIO-M09.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034911922"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10",
+   "sku": "HFM-LGIO-M10",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034879154"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10.5",
+   "sku": "HFM-LGIO-M10.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034846386"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11",
+   "sku": "HFM-LGIO-M11",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034813618"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11.5",
+   "sku": "HFM-LGIO-M11.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034780850"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12",
+   "sku": "HFM-LGIO-M12",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034748082"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12.5",
+   "sku": "HFM-LGIO-M12.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034715314"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "13",
+   "sku": "HFM-LGIO-M13",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034682546"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "14",
+   "sku": "HFM-LGIO-M14",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034649778"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-LGIO_HFS_Light-Gray-Blue-Iolite_Right-Side_3119_WEB_313c4f44-88ed-4764-9f13-0843b4fbbb75.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Light Gray - Blue Iolite - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "15",
+   "sku": "HFM-LGIO-M15",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761034617010"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "6.5",
+   "sku": "HFM-BLCK-M06.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035108530"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7",
+   "sku": "HFM-BLCK-M07",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035600050"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "7.5",
+   "sku": "HFM-BLCK-M07.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035567282"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8",
+   "sku": "HFM-BLCK-M08",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035534514"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "8.5",
+   "sku": "HFM-BLCK-M08.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035501746"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9",
+   "sku": "HFM-BLCK-M09",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035468978"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "9.5",
+   "sku": "HFM-BLCK-M09.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035436210"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10",
+   "sku": "HFM-BLCK-M10",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035403442"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "10.5",
+   "sku": "HFM-BLCK-M10.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035370674"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11",
+   "sku": "HFM-BLCK-M11",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035337906"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "11.5",
+   "sku": "HFM-BLCK-M11.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035305138"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12",
+   "sku": "HFM-BLCK-M12",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035272370"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "12.5",
+   "sku": "HFM-BLCK-M12.5",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035239602"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "13",
+   "sku": "HFM-BLCK-M13",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035206834"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "14",
+   "sku": "HFM-BLCK-M14",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035174066"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFM-BLCK_HFS_Black_Right-Side_1049_WEB_9b1b417a-13e6-47fa-b653-a6de8175d76f.jpg?v=1777226605&width=2048",
+   "name": "HFS Original - Men - Black - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-men-original"
+   },
+   "size": "15",
+   "sku": "HFM-BLCK-M15",
+   "url": "https://xeroshoes.com/products/hfs-men-original?variant=45761035141298"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-03T23:54:20Z",
+ "og_image": "http://xeroshoes.com/cdn/shop/files/HFM-XOMU-M09_HFS-I_Xero-Multi_Right-Side_0344_b47cc79a-cf20-4ab1-bff0-9dd2ffb97f34.jpg?v=1777226606",
+ "page_sha256": "2caabdddb81dbaadc36aa4a60a8001845cc51179ee1ba92c86cdbfb22d33b462",
+ "rendered_checked": true,
+ "title": "Xero Shoes Men's HFS Original Lightweight Running Shoe - Xero Shoes",
+ "url": "https://xeroshoes.com/products/hfs-men-original"
+}

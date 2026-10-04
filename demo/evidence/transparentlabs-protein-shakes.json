@@ -1,0 +1,634 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:46Z",
+  "ship": [
+   "Free USA Shipping Over $99",
+   "Free Shipping",
+   "Shipping & Returns",
+   "Click here for the full shipping and delivery guide \u00bb",
+   "If you are not satisfied with your product, we will offer you a full refund or store credit for the value of the item within 45 days of delivery.",
+   "Shipping, Tracking & Delivery",
+   "Shipping and Returns: 1551 S 400 E #2, American Fork, Utah 84003, United States"
+  ],
+  "size": [
+   "Size:"
+  ],
+  "sub": [
+   "Subscribe and Save $5",
+   "Subscribe & Save"
+  ],
+  "url": "https://www.transparentlabs.com/products/protein-shakes"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.transparentlabs.com/products/protein-shakes",
+ "http_status": 200,
+ "id": "transparentlabs-protein-shakes",
+ "image_file": "transparentlabs-protein-shakes.png",
+ "image_sha256": "6ef391c901af20fb1912ab6e09c6a84e75bc84edfbbaca405cee38fc81a4b0d0",
+ "image_source": "http://www.transparentlabs.com/cdn/shop/files/TL-Label-265_PRTD_SL_Chocolate_2_11_FRONT_DTC.png?v=1787231105&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/protein-shakes#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Transparent Labs"
+   },
+   "category": "PROTEINSERIES",
+   "description": "",
+   "hasVariant": [
+    {
+     "@id": "/products/protein-shakes?variant=43503198142557#variant",
+     "@type": "Product",
+     "gtin": "874659002643",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-265_PRTD_SL_Chocolate_2_11_FRONT_DTC.png?v=1787231105&width=1920",
+     "name": "Grass-Fed Protein Shake - 12 Pack / Chocolate",
+     "offers": {
+      "@id": "/products/protein-shakes?variant=43503198142557#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198142557"
+     },
+     "sku": "TPL093501"
+    },
+    {
+     "@id": "/products/protein-shakes?variant=43503198175325#variant",
+     "@type": "Product",
+     "gtin": "874659002636",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-266_TL_PRTD_SL_Vanilla_2_11_FRONT_DTC.png?v=1787231104&width=1920",
+     "name": "Grass-Fed Protein Shake - 12 Pack / Vanilla",
+     "offers": {
+      "@id": "/products/protein-shakes?variant=43503198175325#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198175325"
+     },
+     "sku": "TPL093502"
+    },
+    {
+     "@id": "/products/protein-shakes?variant=43503198208093#variant",
+     "@type": "Product",
+     "gtin": "874659002650",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-267_PRTD_SL_SaltedCaramel_2_13_FRONT_DTC.png?v=1787231104&width=1920",
+     "name": "Grass-Fed Protein Shake - 12 Pack / Salted Caramel",
+     "offers": {
+      "@id": "/products/protein-shakes?variant=43503198208093#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198208093"
+     },
+     "sku": "TPL093503"
+    }
+   ],
+   "name": "Grass-Fed Protein Shake",
+   "productGroupID": "7931416150109",
+   "url": "https://www.transparentlabs.com/products/protein-shakes"
+  },
+  {
+   "@id": "/products/protein-shakes?variant=43503198142557#variant",
+   "@type": "Product",
+   "gtin": "874659002643",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-265_PRTD_SL_Chocolate_2_11_FRONT_DTC.png?v=1787231105&width=1920",
+   "name": "Grass-Fed Protein Shake - 12 Pack / Chocolate",
+   "offers": {
+    "@id": "/products/protein-shakes?variant=43503198142557#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198142557"
+   },
+   "sku": "TPL093501"
+  },
+  {
+   "@id": "/products/protein-shakes?variant=43503198175325#variant",
+   "@type": "Product",
+   "gtin": "874659002636",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-266_TL_PRTD_SL_Vanilla_2_11_FRONT_DTC.png?v=1787231104&width=1920",
+   "name": "Grass-Fed Protein Shake - 12 Pack / Vanilla",
+   "offers": {
+    "@id": "/products/protein-shakes?variant=43503198175325#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198175325"
+   },
+   "sku": "TPL093502"
+  },
+  {
+   "@id": "/products/protein-shakes?variant=43503198208093#variant",
+   "@type": "Product",
+   "gtin": "874659002650",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL-Label-267_PRTD_SL_SaltedCaramel_2_13_FRONT_DTC.png?v=1787231104&width=1920",
+   "name": "Grass-Fed Protein Shake - 12 Pack / Salted Caramel",
+   "offers": {
+    "@id": "/products/protein-shakes?variant=43503198208093#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "49.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-shakes?variant=43503198208093"
+   },
+   "sku": "TPL093503"
+  },
+  {
+   "@context": "https://schema.org/",
+   "@id": "/products/protein-shakes#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": "4.90",
+    "reviewCount": 49,
+    "worstRating": 1
+   },
+   "image": "https://cdn.shopify.com/s/files/1/0866/7664/files/TL-Label-265_PRTD_SL_Chocolate_2_11_FRONT_DTC.png?v=1787231105",
+   "name": "Grass-Fed Protein Shake",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jenni M."
+     },
+     "datePublished": "2026-04-19T15:57:46Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1776614266__image__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "Taste is great! I am definitely going to keep ordering the salted caramel ones. I love to use it as a creamer in my coffee also.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Lance G."
+     },
+     "datePublished": "2026-09-29T18:28:31Z",
+     "reviewBody": "Good clean taste, no aftertaste or chalk. Flavorful and a good choice for protein drinks and shakes",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Mark"
+     },
+     "datePublished": "2026-09-25T17:33:37Z",
+     "reviewBody": "Amazing product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jorge M."
+     },
+     "datePublished": "2026-09-22T16:56:16Z",
+     "reviewBody": "Clean protein",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Abel B."
+     },
+     "datePublished": "2026-09-15T13:16:32Z",
+     "reviewBody": "Great flavor! Vastly improved since first batch, which was very lumpy. You seemed to have solved that issue. Great product for on the go. Great job working on the improvements.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Maureen O."
+     },
+     "datePublished": "2026-09-15T10:17:06Z",
+     "reviewBody": "The flavor is great! Love that it can be kept in the fridge for multiple days. Wish there were cinnamon and mocha latte flavors.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Phil M."
+     },
+     "datePublished": "2026-09-08T23:13:32Z",
+     "reviewBody": "Excellent taste and does not bloat my stomach. And I like the 30 proteins and the ingredients are few.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Samantha G."
+     },
+     "datePublished": "2026-09-08T18:33:36Z",
+     "reviewBody": "I highly recommend this product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Garret M."
+     },
+     "datePublished": "2026-09-08T13:19:06Z",
+     "reviewBody": "It\u2019s the best tasting protein shake I\u2019ve had \ud83d\udc4d definitely worth a shot!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Brian"
+     },
+     "datePublished": "2026-07-24T17:05:13Z",
+     "reviewBody": "Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Bring it back! Please?",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Heather"
+     },
+     "datePublished": "2026-06-30T13:52:58Z",
+     "reviewBody": "So easy to get quality protein in before a WO on the go!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jamie"
+     },
+     "datePublished": "2026-06-15T22:52:40Z",
+     "reviewBody": "We really love these, but we're having to turn to other brands because these have been out of stock for SO long. When will you have more inventory??",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-05-24T13:40:17Z",
+     "reviewBody": "Enjoy this product, easy to use",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-05-13T10:57:18Z",
+     "reviewBody": "I love your protein shakes I just wish there were more flavors",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Donovan D."
+     },
+     "datePublished": "2026-05-12T00:21:02Z",
+     "reviewBody": "Good quality protein . Flavor was ok. Much better than a lot of RTD proteins out there. More and better flavors would lean to a better review.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Chris"
+     },
+     "datePublished": "2026-05-05T20:14:27Z",
+     "reviewBody": "Taste is average but macros are awesome",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Nicky A."
+     },
+     "datePublished": "2026-05-03T14:40:49Z",
+     "reviewBody": "Chocolate was your best flavor and I am so sad to not see it available. I check every day.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Toddman W."
+     },
+     "datePublished": "2026-05-01T09:33:05Z",
+     "reviewBody": "This is the best protein shake that I have ever had it\u2019s my new go too shake I\u2019m definitely ordering some more!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jamie"
+     },
+     "datePublished": "2026-04-30T17:29:12Z",
+     "reviewBody": "We've used Transparent Labs products for years, and they are honestly the best. These new shakes taste even better that their grass-fed powder proteins. The Salted Caramel is not overpowering, it's light and smooth. Definitely worth a try especially for the convenience of just pulling it out of the fridge.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Stefanie"
+     },
+     "datePublished": "2026-04-27T18:32:44Z",
+     "reviewBody": "I purchased the Chocolate flavor and it is GREAT! This is a great way to get a good amount of protein in your diet and it is fast and convenient. I can be very picky about protein and the taste but TL is fantastic.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Dona"
+     },
+     "datePublished": "2026-04-23T17:16:46Z",
+     "reviewBody": "The chocolate tastes like the SlimFast shake I drank many years ago, but I really like it. I also love that the ingredients are cleaner than others. Can\u2019t wait to try other flavors, but wish they had a strawberry one!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Alexander V."
+     },
+     "datePublished": "2026-04-21T06:24:53Z",
+     "reviewBody": "The chocolate shake is very good in all respects except in that it has a little after taste.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Douglas L.E."
+     },
+     "datePublished": "2026-04-18T16:27:21Z",
+     "reviewBody": "I have had other Protein Shakes different flavors, this taste a little different and I think might be because of the Grass-Fed, which is OK.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-04-18T16:02:27Z",
+     "reviewBody": "Taste is great and love the 30grms of protein. My grab item, when I am running errands so I don't grab something unhealthy when I get a little hungry!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Rodney R."
+     },
+     "datePublished": "2026-04-18T15:41:19Z",
+     "reviewBody": "Taste good & doesn\u2019t upset my stomach.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Geoffrey R.M."
+     },
+     "datePublished": "2026-04-12T04:55:11Z",
+     "reviewBody": "Great tasting, clean ingredient protein bar.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Geoffrey"
+     },
+     "datePublished": "2026-04-12T00:55:11Z",
+     "reviewBody": "Great tasting, clean ingredient protein bar.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Rodney D."
+     },
+     "datePublished": "2026-04-08T20:36:06Z",
+     "reviewBody": "Fantastic flavor and great protein.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Rodney"
+     },
+     "datePublished": "2026-04-08T16:36:06Z",
+     "reviewBody": "Fantastic flavor and great protein.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Ben G."
+     },
+     "datePublished": "2026-04-07T18:32:15Z",
+     "reviewBody": "Really high quality and clean ingredients. Delivered on time. Impressive.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Ben"
+     },
+     "datePublished": "2026-04-07T14:32:15Z",
+     "reviewBody": "Really high quality and clean ingredients. Delivered on time. Impressive.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T23:54:02Z",
+ "og_image": "http://www.transparentlabs.com/cdn/shop/files/TL-Label-265_PRTD_SL_Chocolate_2_11_FRONT_DTC.png?v=1787231105",
+ "page_sha256": "5bb8af404bc5ac64a8b18a504564f8ea5d09370a60ffa359d4dddfc9358f417a",
+ "rendered_checked": true,
+ "title": "Grass-Fed Protein Shakes by Transparent Labs | 30g of Protein",
+ "url": "https://transparentlabs.com/products/protein-shakes"
+}

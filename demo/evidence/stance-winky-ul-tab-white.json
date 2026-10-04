@@ -1,0 +1,112 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:33Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $49+",
+   "Shipping calculated at checkout.",
+   "Shipping"
+  ],
+  "size": [
+   "SIZE:",
+   "SIZE GUIDE"
+  ],
+  "sub": [],
+  "url": "https://www.stance.com/products/winky-ul-tab-white"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.stance.com/products/winky-ul-tab-white",
+ "http_status": 200,
+ "id": "stance-winky-ul-tab-white",
+ "image_file": "stance-winky-ul-tab-white.png",
+ "image_sha256": "a931141b98dda924c313196929bd9cc4c7e2ec1f10d1d3b1ef370e4c826ab4c5",
+ "image_source": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/winky-ul-tab-white#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stance"
+   },
+   "category": "socks",
+   "description": "A \u201cNo-Sock\u201d Feel With Two-Layer Heel Tab Blister Protection Get the ultimate feeling of freedom with our lightest knit available, designed for all-day breathability and immediate connection to your shoe and for high-responsiveness in any terrain. Features Infiknit\u2122 reinforced heels and toes with Freshtek\u2122 moisture and odor control. Backed by our All Good Guarantee.",
+   "hasVariant": [
+    {
+     "@id": "/products/winky-ul-tab-white?variant=54759493435730#variant",
+     "@type": "Product",
+     "gtin": "190107684743",
+     "image": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101&width=1920",
+     "name": "WINKY UL TAB - WHITE / S",
+     "offers": {
+      "@id": "/products/winky-ul-tab-white?variant=54759493435730#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "15.99",
+      "priceCurrency": "USD",
+      "url": "https://www.stance.com/products/winky-ul-tab-white?variant=54759493435730"
+     },
+     "sku": "190107684743"
+    },
+    {
+     "@id": "/products/winky-ul-tab-white?variant=54759493468498#variant",
+     "@type": "Product",
+     "gtin": "190107684750",
+     "image": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101&width=1920",
+     "name": "WINKY UL TAB - WHITE / M",
+     "offers": {
+      "@id": "/products/winky-ul-tab-white?variant=54759493468498#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "15.99",
+      "priceCurrency": "USD",
+      "url": "https://www.stance.com/products/winky-ul-tab-white?variant=54759493468498"
+     },
+     "sku": "190107684750"
+    }
+   ],
+   "name": "WINKY UL TAB",
+   "productGroupID": "11156040319314",
+   "url": "https://www.stance.com/products/winky-ul-tab-white"
+  },
+  {
+   "@id": "/products/winky-ul-tab-white?variant=54759493435730#variant",
+   "@type": "Product",
+   "gtin": "190107684743",
+   "image": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101&width=1920",
+   "name": "WINKY UL TAB - WHITE / S",
+   "offers": {
+    "@id": "/products/winky-ul-tab-white?variant=54759493435730#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "15.99",
+    "priceCurrency": "USD",
+    "url": "https://www.stance.com/products/winky-ul-tab-white?variant=54759493435730"
+   },
+   "sku": "190107684743"
+  },
+  {
+   "@id": "/products/winky-ul-tab-white?variant=54759493468498#variant",
+   "@type": "Product",
+   "gtin": "190107684750",
+   "image": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101&width=1920",
+   "name": "WINKY UL TAB - WHITE / M",
+   "offers": {
+    "@id": "/products/winky-ul-tab-white?variant=54759493468498#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "15.99",
+    "priceCurrency": "USD",
+    "url": "https://www.stance.com/products/winky-ul-tab-white?variant=54759493468498"
+   },
+   "sku": "190107684750"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:53:03Z",
+ "og_image": "https://www.stance.com/cdn/shop/files/W218D26WIN_WHT_M_90751d02-c4f7-458f-ab59-98115ba8d7ce.png?v=1789674101",
+ "page_sha256": "c46c20af7877d2ae8564b1167130a86ad8119cd961396f3145d5b6b30d82d946",
+ "rendered_checked": true,
+ "title": "WINKY UL TAB \u2013 Stance US",
+ "url": "https://stance.com/products/winky-ul-tab-white"
+}

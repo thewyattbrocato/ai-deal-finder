@@ -1,0 +1,58 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:07:39Z",
+  "ship": [
+   "Free shipping on orders over $50",
+   "Free Shipping On All Orders $50+",
+   "$50.00 Away From Free Shipping"
+  ],
+  "size": [
+   "Serving Size: 0.50oz (14g)"
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE"
+  ],
+  "url": "https://epicprovisions.com/products/sea-salt-vinegar-pork-rinds"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://epicprovisions.com/products/sea-salt-vinegar-pork-rinds",
+ "http_status": 200,
+ "id": "epicprovisions-sea-salt-vinegar-pork-rinds",
+ "image_file": "epicprovisions-sea-salt-vinegar-pork-rinds.png",
+ "image_sha256": "31f2dba9a775d10ff70962e70a116a3e6d7eea28295cbe25508da44e2018afbb",
+ "image_source": "http://epicprovisions.com/cdn/shop/files/SSV_B2B_1200x1200.png?v=1684946974&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "EPIC Provisions"
+   },
+   "description": "This listing is for 12 2.5oz bags of the Sea Salt &amp; Vinegar Rinds\nA wholesome version of an iconic American snack food, our pork skins are created using traditional methods inspired by our grandparent\u2019s generation.\u00a0A blend of organic, non-gmo, pastured, and pork raised without antibiotics combined with simple seasonings are the foundation for this simple, yet nourishing approach to creating enchanting food that is both time tested and trusted by consumers.\u00a0combined with simple seasonings are the foundation for this simple, yet nourishing approach to creating enchanting food that is both time tested and trusted by consumers.\nWhat is a rind?\u00a0A rind is a fried pork skin taken from either the belly or back of a hog. This skin is softer in texture and has more subcutaneous fat when compared to the shoulder. As a result, when cooked, these parts of the hog have a fluffy texture and are often considered \u201cporkier\u201d than pork \u201ccracklings\u201d. Additionally, pork rinds have very little meat cooked into the product. The end result is the perfect lightweight snack that melts in your mouth.\nThe Whole Animal Project:\u00a0In efforts to honor the brilliant animals EPIC Provisions sources, our\u00a0pork skins\u00a0allow us to use more of the whole animal. This \u201csnout to tail\u201d commitment creates more nourishing food from spectacular creatures and produces less waste. Eat EPIC.",
+   "image": [
+    "https://epicprovisions.com/cdn/shop/files/SSV_B2B_600x.png?v=1684946974"
+   ],
+   "name": "Sea Salt & Vinegar Pork Rinds (Box of 12)",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 34.8,
+     "priceCurrency": "USD",
+     "sku": "FG112468000",
+     "url": "https://epicprovisions.com/products/sea-salt-vinegar-pork-rinds?variant=39949224804405"
+    }
+   ],
+   "sku": "FG112468000",
+   "url": "https://epicprovisions.com/products/sea-salt-vinegar-pork-rinds"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T23:54:09Z",
+ "og_image": "http://epicprovisions.com/cdn/shop/files/SSV_B2B_1200x1200.png?v=1684946974",
+ "page_sha256": "c703c3d2d87c6ce0a56fdba5d0c6d8d8b290562682307828b896678da573f0a0",
+ "rendered_checked": true,
+ "title": "Sea Salt & Vinegar Pork Rinds - 12 Pack of Pork Skins - EPIC \u2013 EPIC Provisions",
+ "url": "https://epicprovisions.com/products/sea-salt-vinegar-pork-rinds"
+}

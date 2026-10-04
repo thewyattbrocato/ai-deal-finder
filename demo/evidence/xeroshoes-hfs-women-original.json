@@ -1,0 +1,2974 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:17:51Z",
+  "ship": [
+   "Shipping Info",
+   "Free Shipping $99+"
+  ],
+  "size": [
+   "Size 5.5",
+   "Size Guide",
+   "Size Fit",
+   "Size Conversion"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://xeroshoes.com/products/hfs-women-original"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://xeroshoes.com/products/hfs-women-original",
+ "http_status": 200,
+ "id": "xeroshoes-hfs-women-original",
+ "image_file": "xeroshoes-hfs-women-original.jpg",
+ "image_sha256": "677baa3f31b0a4b502c49341c80747dc0fc5b73110c5ef13c4becf6ddf0ca087",
+ "image_source": "http://xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://xeroshoes.com/products/hfs-women-original#productGroup",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.69,
+    "reviewCount": 2789,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Xero Shoes"
+   },
+   "description": "The original, best-selling, road running shoe. Enjoy the wider, foot-shaped toe box, low-to-the-ground design, and great ground feel for a barefoot-friendly experience.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-XOMU-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310350514"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-XOMU-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310383282"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-XOMU-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310416050"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-XOMU-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310448818"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-XOMU-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310481586"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-XOMU-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310514354"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-XOMU-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310547122"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-XOMU-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310579890"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-XOMU-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310612658"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-XOMU-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310645426"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-XOMU-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310678194"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-XOMU-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310710962"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-XOMU-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310743730"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-XOMU-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310776498"
+    },
+    {
+     "@type": "Product",
+     "color": "Xero Multi",
+     "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+     "name": "HFS Original - Women - Xero Multi - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-XOMU-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310809266"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-LRSC-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428139186"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-LRSC-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428171954"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-LRSC-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428204722"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-LRSC-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428237490"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-LRSC-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428270258"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-LRSC-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428303026"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-LRSC-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428335794"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-LRSC-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428368562"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-LRSC-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428401330"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-LRSC-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428434098"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-LRSC-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428466866"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-LRSC-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428499634"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-LRSC-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428532402"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-LRSC-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428565170"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Sunset Coral",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+     "name": "HFS Original - Women - Lunar - Sunset Coral - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-LRSC-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428597938"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-WHIO-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428630706"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-WHIO-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428663474"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-WHIO-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428696242"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-WHIO-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428729010"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-WHIO-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428761778"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-WHIO-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428794546"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-WHIO-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428827314"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-WHIO-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428860082"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-WHIO-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428892850"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-WHIO-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428925618"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-WHIO-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428958386"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-WHIO-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428991154"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-WHIO-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429023922"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-WHIO-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429056690"
+    },
+    {
+     "@type": "Product",
+     "color": "White / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+     "name": "HFS Original - Women - White - Blue Iolite - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-WHIO-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429089458"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-EGRT-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295830706"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-EGRT-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295863474"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-EGRT-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295896242"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-EGRT-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295929010"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-EGRT-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295961778"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-EGRT-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295994546"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-EGRT-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296027314"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-EGRT-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296060082"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-EGRT-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296092850"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-EGRT-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296125618"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-EGRT-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296158386"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-EGRT-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296191154"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-EGRT-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296223922"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-EGRT-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296256690"
+    },
+    {
+     "@type": "Product",
+     "color": "Egret",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+     "name": "HFS Original - Women - Egret - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-EGRT-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296289458"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-BLCK-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033961650"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-BLCK-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034420402"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-BLCK-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034387634"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-BLCK-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034354866"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-BLCK-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034322098"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-BLCK-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034289330"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-BLCK-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034256562"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-BLCK-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034223794"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-BLCK-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034191026"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-BLCK-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034158258"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-BLCK-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034125490"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-BLCK-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034092722"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-BLCK-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034059954"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-BLCK-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034027186"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+     "name": "HFS Original - Women - Black - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-BLCK-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033994418"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5",
+     "sku": "HFW-LGPS-W05",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033470130"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 5.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "5.5",
+     "sku": "HFW-LGPS-W05.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033928882"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 6",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6",
+     "sku": "HFW-LGPS-W06",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033896114"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "6.5",
+     "sku": "HFW-LGPS-W06.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033863346"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7",
+     "sku": "HFW-LGPS-W07",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033830578"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "7.5",
+     "sku": "HFW-LGPS-W07.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033797810"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8",
+     "sku": "HFW-LGPS-W08",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033765042"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "8.5",
+     "sku": "HFW-LGPS-W08.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033732274"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9",
+     "sku": "HFW-LGPS-W09",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033699506"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "9.5",
+     "sku": "HFW-LGPS-W09.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033666738"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10",
+     "sku": "HFW-LGPS-W10",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033633970"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "10.5",
+     "sku": "HFW-LGPS-W10.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033601202"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11",
+     "sku": "HFW-LGPS-W11",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033568434"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "11.5",
+     "sku": "HFW-LGPS-W11.5",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033535666"
+    },
+    {
+     "@type": "Product",
+     "color": "Light Gray / Pink Sand",
+     "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+     "name": "HFS Original - Women - Light Gray - Pink Sand - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": "119.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/hfs-women-original"
+     },
+     "size": "12",
+     "sku": "HFW-LGPS-W12",
+     "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033502898"
+    }
+   ],
+   "image": [
+    "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_SideR_0169_a91d166c-9e5b-43a1-bcdb-a8ebac672f6e.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_AngleR_0163_4c5d53ae-8441-4171-9b55-22e166959f59.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Back_0179_3450eb52-afd3-4bc3-83a4-03951a36cac6.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Front_0175_e636b2d3-64f1-41e4-a6b7-b36bb3d18fdf.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Pair1_0190_27a2d24a-ed54-4f7f-8d91-0276f8c86894.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Pair2_0186_7e9132a3-02cb-4e4f-a83f-ed7818735851.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_SideL_0172_c2995b2e-1959-40aa-9d1f-305da3581c96.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Sole_0181_4bcfeb00-5856-4eeb-ba60-5a7faba27ad6.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-AGY_HFS-Aurora-Gray_Top_0184_6718ae56-c8f9-46ae-add1-188c3c287f99.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_AngleR_0866-72dpi_94a059e4-50cc-4378-901a-f2c6749ded35.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_SideR_0275-72dpi_77ef0ce7-ee0c-4a32-a8fa-b3bb02fa54ee.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_Top_0244-72dpi_2ba2c2c3-2c57-47e3-8851-b401a5774a4e.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_Front_0238-72dpi_5c7f7eb3-9a79-4208-9c9b-13fb5f1c89e1.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_Back_0246-72dpi_3280efae-2a89-4486-9fb9-6c1f0b04ac07.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtolLBlue_SoleR_0251-72dpi_6dfcd04e-5c70-47d2-8e92-20b9523342a4.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_Pair_0254-72dpi_eb1743d3-3cb3-4d14-b66c-28eb4b34de74.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-ATB_HFS-AtollBlue_Roll_3040_880e8adb-9c0b-4bfb-af66-39353f6a586e.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_AngleR_0873-72dpi_ac0528e5-3e44-4cbd-b39a-823bbe146a7d.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_SideR_0264-72dpi_fae17c6f-3358-427f-8ef2-9b36c3ca928e.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_Top_0191-72dpi_0f0717a9-773f-442f-bef1-5f90650850f2.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_Front_0173-72dpi_fd7ea836-ee60-46d9-b49b-7d8bf542ad45.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_Back_0196-72dpi_011d8e32-bd05-4628-b0af-30d6ea648343.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_SoleR_0182-72dpi_99b0d327-e9ca-410d-a280-9e1701c18957.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_Pair_0188-72dpi_4917806f-5e64-430a-8250-0d78e12e6f67.jpg?v=1775518151&width=2048",
+    "//xeroshoes.com/cdn/shop/files/HFW-STG_HFS-SteelGray_Roll_3049_d34aa666-41d1-4450-b690-21253a9066db.jpg?v=1775518151&width=2048"
+   ],
+   "name": "HFS Original - Women",
+   "productGroupID": "8568603115698",
+   "url": "https://xeroshoes.com/products/hfs-women-original",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-XOMU-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310350514"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-XOMU-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310383282"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-XOMU-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310416050"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-XOMU-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310448818"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-XOMU-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310481586"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-XOMU-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310514354"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-XOMU-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310547122"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-XOMU-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310579890"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-XOMU-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310612658"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-XOMU-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310645426"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-XOMU-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310678194"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-XOMU-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310710962"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-XOMU-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310743730"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-XOMU-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310776498"
+  },
+  {
+   "@type": "Product",
+   "color": "Xero Multi",
+   "image": "//xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926&width=2048",
+   "name": "HFS Original - Women - Xero Multi - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-XOMU-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=46891310809266"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-LRSC-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428139186"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-LRSC-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428171954"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-LRSC-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428204722"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-LRSC-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428237490"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-LRSC-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428270258"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-LRSC-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428303026"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-LRSC-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428335794"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-LRSC-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428368562"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-LRSC-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428401330"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-LRSC-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428434098"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-LRSC-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428466866"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-LRSC-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428499634"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-LRSC-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428532402"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-LRSC-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428565170"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Sunset Coral",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LRSC-W_HFS_LunarSunsetCoral_Lateral.jpg?v=1777227135&width=2048",
+   "name": "HFS Original - Women - Lunar - Sunset Coral - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-LRSC-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428597938"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-WHIO-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428630706"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-WHIO-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428663474"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-WHIO-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428696242"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-WHIO-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428729010"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-WHIO-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428761778"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-WHIO-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428794546"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-WHIO-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428827314"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-WHIO-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428860082"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-WHIO-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428892850"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-WHIO-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428925618"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-WHIO-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428958386"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-WHIO-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331428991154"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-WHIO-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429023922"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-WHIO-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429056690"
+  },
+  {
+   "@type": "Product",
+   "color": "White / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-WHIO-W_HFS_WhiteBlueIolite_Lateral.jpg?v=1777227221&width=2048",
+   "name": "HFS Original - Women - White - Blue Iolite - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-WHIO-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47331429089458"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-EGRT-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295830706"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-EGRT-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295863474"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-EGRT-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295896242"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-EGRT-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295929010"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-EGRT-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295961778"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-EGRT-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014295994546"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-EGRT-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296027314"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-EGRT-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296060082"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-EGRT-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296092850"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-EGRT-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296125618"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-EGRT-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296158386"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-EGRT-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296191154"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-EGRT-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296223922"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-EGRT-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296256690"
+  },
+  {
+   "@type": "Product",
+   "color": "Egret",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-EGRT-W_HFS_I_Egret_Lateral_52e4bcc4-d928-45e5-b310-8ffb8da17c09.jpg?v=1777227034&width=2048",
+   "name": "HFS Original - Women - Egret - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-EGRT-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=47014296289458"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-BLCK-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033961650"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-BLCK-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034420402"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-BLCK-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034387634"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-BLCK-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034354866"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-BLCK-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034322098"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-BLCK-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034289330"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-BLCK-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034256562"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-BLCK-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034223794"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-BLCK-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034191026"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-BLCK-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034158258"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-BLCK-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034125490"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-BLCK-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034092722"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-BLCK-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034059954"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-BLCK-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761034027186"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-BLCK_HFS_Black_Right-Side_4161_WEB_52f00642-199f-4cae-8347-cbb7db95b825.jpg?v=1777227007&width=2048",
+   "name": "HFS Original - Women - Black - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-BLCK-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033994418"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5",
+   "sku": "HFW-LGPS-W05",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033470130"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 5.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "5.5",
+   "sku": "HFW-LGPS-W05.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033928882"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 6",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6",
+   "sku": "HFW-LGPS-W06",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033896114"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "6.5",
+   "sku": "HFW-LGPS-W06.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033863346"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7",
+   "sku": "HFW-LGPS-W07",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033830578"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "7.5",
+   "sku": "HFW-LGPS-W07.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033797810"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8",
+   "sku": "HFW-LGPS-W08",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033765042"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "8.5",
+   "sku": "HFW-LGPS-W08.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033732274"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9",
+   "sku": "HFW-LGPS-W09",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033699506"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "9.5",
+   "sku": "HFW-LGPS-W09.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033666738"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10",
+   "sku": "HFW-LGPS-W10",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033633970"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "10.5",
+   "sku": "HFW-LGPS-W10.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033601202"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11",
+   "sku": "HFW-LGPS-W11",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033568434"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "11.5",
+   "sku": "HFW-LGPS-W11.5",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033535666"
+  },
+  {
+   "@type": "Product",
+   "color": "Light Gray / Pink Sand",
+   "image": "//xeroshoes.com/cdn/shop/files/HFW-LGPS_HFS_Light-Gray-Pink-Sand_Right-Side_4176_WEB_f0759553-c278-47f3-8b42-e5cf63adaab7.jpg?v=1777227070&width=2048",
+   "name": "HFS Original - Women - Light Gray - Pink Sand - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": "119.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/hfs-women-original"
+   },
+   "size": "12",
+   "sku": "HFW-LGPS-W12",
+   "url": "https://xeroshoes.com/products/hfs-women-original?variant=45761033502898"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-04T00:17:36Z",
+ "og_image": "http://xeroshoes.com/cdn/shop/files/HFMW-XOMU-W09_HFS-I_Xero-Multi_Right-Side_0362.jpg?v=1777226926",
+ "page_sha256": "22cb91f10e5a1b3db01a57b72b01e83d07deaf6d1523429fa5b1fae869ce6211",
+ "rendered_checked": true,
+ "title": "Xero Shoes Women's HFS Original Lightweight Running Shoe - Xero Shoes",
+ "url": "https://xeroshoes.com/products/hfs-women-original"
+}

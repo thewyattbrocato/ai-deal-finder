@@ -314,6 +314,27 @@ SEARCH_WORDS = {
     "manduka-ratio-relaxation-mat": ["yoga"],
     "boysmells-big-apple-perfume-50ml": ["perfume", "fragrance"],
     "boysmells-les-perfume-50ml": ["perfume", "fragrance"],
+    # Slice t1: each word below is printed in that product's own stored page
+    # title, description or address (tests/test_coverage_t1.py checks it is).
+    "topodesigns-daypack-classic-navy": ["backpack"],
+    "xeroshoes-hfs-men-original": ["running"],
+    "xeroshoes-hfs-women-original": ["running"],
+    "cocokind-electrolyte-water-cream": ["moisturizer"],
+    "cocokind-retinol-body-cream": ["moisturizer"],
+    "supergoop-city-sunscreen-serum": ["moisturizer"],
+    "burstoralcare-pro-brush-replacement-head-3-pack": ["toothbrush"],
+    "skullcandy-crusher-720-headphones": ["headphones"],
+    "skullcandy-icon-180-wired": ["headphones"],
+    "skullcandy-session-540": ["speaker"],
+    "transparentlabs-multivitamin": ["vitamins", "supplement"],
+    "perfectsnacks-oaties-brownie-batter": ["snacks", "protein"],
+    "perfectsnacks-pumpkin-pie": ["snacks", "protein"],
+    "epicprovisions-maple-bacon-pork-cracklings": ["snack"],
+    "epicprovisions-sea-salt-vinegar-pork-rinds": ["snack"],
+    "cuddleandkind-tiny-baby-mouse": ["dolls"],
+    "cuddleandkind-tiny-baby-puppy": ["dolls"],
+    "cuddleandkind-tiny-baby-skeleton": ["dolls"],
+    "cuddleandkind-tiny-honey-bear": ["dolls"],
 }
 
 

@@ -1,0 +1,53 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:05:23Z",
+  "ship": [
+   "Shipping",
+   "Shipping policy"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://cuddleandkind.com/products/tiny-honey-bear"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://cuddleandkind.com/products/tiny-honey-bear",
+ "http_status": 200,
+ "id": "cuddleandkind-tiny-honey-bear",
+ "image_file": "cuddleandkind-tiny-honey-bear.jpg",
+ "image_sha256": "234e0e8e343e1213ed6ea31cc8694f7cb1b4f2eb0e467fe6c52a8313f845fa3d",
+ "image_source": "http://cuddleandkind.com/cdn/shop/files/01_Tinybabybear_7f078e82-d07e-428d-bf9a-5fc174090dae.jpg?v=1755553894&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Cuddleandkind"
+   },
+   "description": "\nAbout Tiny babies\nLovingly handcrafted to bring family play to life, our Tiny babies are made to pair perfectly with Tiny dolls to create the most heartwarming hand-knit families.\nEvery heirloom-quality Tiny baby is a work of art, hand-knit from natural Peruvian cotton yarn and filled with the teeniest, most thoughtful details. At just under 2.5\u201d tall, each one comes nestled in a magical wildflower bed, ready to bring joy from the moment they arrive.\nWith four impossibly adorable Tiny babies to choose from, you and your little one will love collecting them all!\nChoose any two Tiny dolls and get a free Tiny baby ($25 value). It\u2019s as simple as that! Mix and match to your hearts content. The only way to get them is FREE!\nEvery tiny baby is handmade and will slightly vary. We hope you\u2019ll treasure the special details that make your Tiny baby one-of-a-kind.\nFabric and Features:\n\nHand knit doll with premium 100% cotton, non-toxic, yarn\nSafe + non-toxic: Tiny dolls US + Canadian safety standard certified newborn and Tiny homes are safety certified 3+\nHandmade in Peru using sustainable, fair trade practices\nTiny babies are approximately 2.5\u201d in height\nHigh stitch count for softness and durability\nStuffed with hypoallergenic polyfill\nEvery Tiny wildflower bed is made of premium FSC-certified, environmentally conscious materials\n\n",
+   "image": [
+    "https://cuddleandkind.com/cdn/shop/files/01_Tinybabybear_7f078e82-d07e-428d-bf9a-5fc174090dae.jpg?v=1755553894&width=1920"
+   ],
+   "name": "Tiny baby honey bear",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "sku": "TINYBBYHBR5",
+     "url": "https://cuddleandkind.com/products/tiny-honey-bear?variant=43016613527654"
+    }
+   ],
+   "sku": "TINYBBYHBR5",
+   "url": "https://cuddleandkind.com/products/tiny-honey-bear"
+  }
+ ],
+ "kind": "Toys",
+ "observed_at": "2026-10-03T23:54:39Z",
+ "og_image": "http://cuddleandkind.com/cdn/shop/files/01_Tinybabybear_7f078e82-d07e-428d-bf9a-5fc174090dae.jpg?v=1755553894",
+ "page_sha256": "988ff106b7fbc2b39bd92c438cda14f3c9c85f31059b570c54c88271b6939fad",
+ "rendered_checked": true,
+ "title": "Tiny baby honey bear \u2013 cuddle+kind",
+ "url": "https://cuddleandkind.com/products/tiny-honey-bear"
+}

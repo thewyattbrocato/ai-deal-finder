@@ -1,0 +1,70 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:10:54Z",
+  "ship": [
+   "Free Shipping on Orders Over $30",
+   "How many days should I expect for shipping?",
+   "Standard shipping orders average 4-8 business days from the time of shipment in the contiguous US.",
+   "Shipping"
+  ],
+  "size": [
+   "Select Size: 36oz",
+   "Size"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://www.simplemodern.com/products/roam-bottle-36oz-24"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.simplemodern.com/products/roam-bottle-36oz-24",
+ "http_status": 200,
+ "id": "simplemodern-roam-bottle-36oz-24",
+ "image_file": "simplemodern-roam-bottle-36oz-24.jpg",
+ "image_sha256": "32b0d9c794047949028b7b31c89938e7b0f51812ed8bd50348bf5eb2eaa05e9d",
+ "image_source": "https://www.simplemodern.com/cdn/shop/files/ROM-36-BUDU-M_1.jpg?v=1790094174&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.simplemodern.com/products/roam-bottle-36oz-24",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 20,
+    "ratingValue": 4.8
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Simple Modern"
+   },
+   "description": "Double Wall Vacuum Insulated:\u00a0This 36oz (4.5 cups)\u00a0thermos keeps beverages hot or cold for hoursLeakproof: Insulated lid prevents leaks and spills and is designed to pour from four different directionsTwo Mugs: 12oz mugs are double-walled and thread onto thermos bottleDurable: Stainless steel body and sturdy handle for easy pouringPatent Pending",
+   "gtin": 191719328797,
+   "image": "https://www.simplemodern.com/cdn/shop/files/ROM-36-BUDU-M_1.jpg?crop=center&height=1500&v=1790094174&width=1500",
+   "name": "Roam Bottle",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "description": "Double Wall Vacuum Insulated:\u00a0This 36oz (4.5 cups)\u00a0thermos keeps beverages hot or cold for hoursLeakproof: Insulated lid prevents leaks and spills and is designed to pour from four different directionsTwo Mugs: 12oz mugs are double-walled and thread onto thermos bottleDurable: Stainless steel body and sturdy handle for easy pouringPatent Pending",
+    "gtin": 191719328797,
+    "image": "https://www.simplemodern.com/cdn/shop/files/ROM-36-BUDU-M_1.jpg?crop=center&height=1500&v=1790094174&width=1500",
+    "itemCondition": "https://schema.org/NewCondition",
+    "name": "Roam Bottle",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "ROM-36-BUDU-M",
+    "url": "https://www.simplemodern.com/products/roam-bottle-36oz-24?variant=41361481760840"
+   },
+   "productID": "7132838101064",
+   "sku": "ROM-36-BUDU-M",
+   "url": "https://www.simplemodern.com/products/roam-bottle-36oz-24"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T23:52:53Z",
+ "og_image": "//www.simplemodern.com/cdn/shop/files/ROM-36-BUDU-M_1.jpg?v=1790094174&width=1200",
+ "page_sha256": "f0750780d2cb6f161989c4deb216d88d4bd53b708a167fb879994ab91e557da6",
+ "rendered_checked": true,
+ "title": "Roam Bottle \u2013 Simple Modern",
+ "url": "https://simplemodern.com/products/roam-bottle-36oz-24"
+}

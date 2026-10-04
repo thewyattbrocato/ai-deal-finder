@@ -1,0 +1,60 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:07:31Z",
+  "ship": [
+   "Free shipping on orders over $50",
+   "Free Shipping On All Orders $50+",
+   "$50.00 Away From Free Shipping"
+  ],
+  "size": [
+   "Serving Size: 0.50oz (14g)"
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "SUBSCRIBE & SAVE 10%",
+   "Subscription details"
+  ],
+  "url": "https://epicprovisions.com/products/maple-bacon-pork-cracklings"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://epicprovisions.com/products/maple-bacon-pork-cracklings",
+ "http_status": 200,
+ "id": "epicprovisions-maple-bacon-pork-cracklings",
+ "image_file": "epicprovisions-maple-bacon-pork-cracklings.png",
+ "image_sha256": "4d7ed318c3d6d212343e77df264e89ddc6c62f994938e9fb3595ff8048c55671",
+ "image_source": "http://epicprovisions.com/cdn/shop/products/MapleCracklings_4Bags_1200x1200.png?v=1669835384&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Epic"
+   },
+   "description": "Our Maple Bacon Pork Cracklings are a decadent balance of sweet &amp; savory\u2014 made with skins from pork raised without antibiotics, seasoned with maple and coconut sugar, and fried in pork fat. Unlike pork rinds, cracklings contain small pieces of fat that adhere to the skin when cooked, adding extra flavor to this melt-in-your-mouth snack with less than 1 gram of total carbs per serving.\n\n5 grams of protein per serving\nLess than 1 gram of total carbs per serving\nLess than 1 gram of sugar per serving\nPork skins raised without antibiotics\nFried in pork fat\n",
+   "image": [
+    "https://epicprovisions.com/cdn/shop/products/MapleCracklings_4Bags_600x.png?v=1669835384"
+   ],
+   "name": "Maple Bacon Pork Cracklings",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 16.99,
+     "priceCurrency": "USD",
+     "sku": "FG9009",
+     "url": "https://epicprovisions.com/products/maple-bacon-pork-cracklings?variant=27423374598"
+    }
+   ],
+   "sku": "FG9009",
+   "url": "https://epicprovisions.com/products/maple-bacon-pork-cracklings"
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T23:54:08Z",
+ "og_image": "http://epicprovisions.com/cdn/shop/products/MapleCracklings_4Bags_1200x1200.png?v=1669835384",
+ "page_sha256": "c26cd6ea073810c8e918f3a3149a7b505fc94b369ca8568f9ae74f00073b2808",
+ "rendered_checked": true,
+ "title": "Maple Bacon Pork Crackling - 4 Pack Pork Rinds - EPIC \u2013 EPIC Provisions",
+ "url": "https://epicprovisions.com/products/maple-bacon-pork-cracklings"
+}

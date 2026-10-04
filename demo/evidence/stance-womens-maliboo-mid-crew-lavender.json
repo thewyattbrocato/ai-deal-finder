@@ -1,0 +1,112 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:41Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS $49+",
+   "Shipping calculated at checkout.",
+   "Shipping"
+  ],
+  "size": [
+   "SIZE:",
+   "SIZE GUIDE"
+  ],
+  "sub": [],
+  "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender",
+ "http_status": 200,
+ "id": "stance-womens-maliboo-mid-crew-lavender",
+ "image_file": "stance-womens-maliboo-mid-crew-lavender.png",
+ "image_sha256": "135c936f8266ed056fcdb4e3ebc2145f49b554d20472f9f14f9c8f5d0ed599a1",
+ "image_source": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/womens-maliboo-mid-crew-lavender#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Stance"
+   },
+   "category": "socks",
+   "description": "A \u201cMaximum Support\u201d Feel In A Classic Crew Height For Full Style Support. Maximize your comfort with Medium cushioning, designed for all-day support and immediate connection to your shoe and for high-responsiveness in any terrain. Features Infiknit\u2122 reinforced heels and toes with Freshtek\u2122 moisture and odor control. Backed by our All Good Guarantee.",
+   "hasVariant": [
+    {
+     "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796946770#variant",
+     "@type": "Product",
+     "gtin": "190107674591",
+     "image": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195&width=1920",
+     "name": "WOMENS MALIBOO MID CREW - LAVENDER / S",
+     "offers": {
+      "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796946770#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/OutOfStock",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender?variant=53800796946770"
+     },
+     "sku": "190107674591"
+    },
+    {
+     "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796979538#variant",
+     "@type": "Product",
+     "gtin": "190107674607",
+     "image": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195&width=1920",
+     "name": "WOMENS MALIBOO MID CREW - LAVENDER / M",
+     "offers": {
+      "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796979538#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender?variant=53800796979538"
+     },
+     "sku": "190107674607"
+    }
+   ],
+   "name": "WOMENS MALIBOO MID CREW",
+   "productGroupID": "10884703387986",
+   "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender"
+  },
+  {
+   "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796946770#variant",
+   "@type": "Product",
+   "gtin": "190107674591",
+   "image": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195&width=1920",
+   "name": "WOMENS MALIBOO MID CREW - LAVENDER / S",
+   "offers": {
+    "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796946770#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/OutOfStock",
+    "price": "19.99",
+    "priceCurrency": "USD",
+    "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender?variant=53800796946770"
+   },
+   "sku": "190107674591"
+  },
+  {
+   "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796979538#variant",
+   "@type": "Product",
+   "gtin": "190107674607",
+   "image": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195&width=1920",
+   "name": "WOMENS MALIBOO MID CREW - LAVENDER / M",
+   "offers": {
+    "@id": "/products/womens-maliboo-mid-crew-lavender?variant=53800796979538#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "19.99",
+    "priceCurrency": "USD",
+    "url": "https://www.stance.com/products/womens-maliboo-mid-crew-lavender?variant=53800796979538"
+   },
+   "sku": "190107674607"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:53:01Z",
+ "og_image": "https://www.stance.com/cdn/shop/files/W458C26WMB_LAV_M_38c16fc4-97a8-4ce0-b7e4-ff3ca0dd14b4.png?v=1781908195",
+ "page_sha256": "0d0758bcd050078deafe5fb0843109eeda231071d4f44d2b90e77c7d6288b0be",
+ "rendered_checked": true,
+ "title": "WOMENS MALIBOO MID CREW \u2013 Stance US",
+ "url": "https://stance.com/products/womens-maliboo-mid-crew-lavender"
+}

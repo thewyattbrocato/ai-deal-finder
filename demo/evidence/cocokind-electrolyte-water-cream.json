@@ -1,0 +1,62 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:04:17Z",
+  "ship": [
+   "Free shipping on orders $50+",
+   "free shipping",
+   "subscribe for (8% off) + free us shipping",
+   "Your subsequent (second) subscription will process at 8% off + free US shipping, cancel anytime.",
+   "FREE U.S. SHIPPING ON ORDERS $50+",
+   "shipping + delivery faqs"
+  ],
+  "size": [],
+  "sub": [
+   "subscription",
+   "subscribe for (8% off) + free us shipping",
+   "Your subsequent (second) subscription will process at 8% off + free US shipping, cancel anytime.",
+   "subscribe"
+  ],
+  "url": "https://www.cocokind.com/products/electrolyte-water-cream"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.cocokind.com/products/electrolyte-water-cream",
+ "http_status": 200,
+ "id": "cocokind-electrolyte-water-cream",
+ "image_file": "cocokind-electrolyte-water-cream.png",
+ "image_sha256": "bafd586965d29510987a7a55416e357ad0a43593db5d527af8d1b182996a7048",
+ "image_source": "http://www.cocokind.com/cdn/shop/files/electrolyte-water-cream_allure-best-of-beauty-award-1_bd271cb5-8dc6-4043-ad65-4547e57dacf0.png?v=1758077719&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "cocokind"
+   },
+   "description": "Allure Best of Beauty Winner! \nLightweight, breathable hydration - without the breakouts. Our electrolyte-powered moisturizer combines magnesium PCA, sodium PCA, and zinc PCA to support the skin's natural moisturizing factors, helping calm stressed, irritated skin, visibly reduce redness, balance moisture, and control shine. Beta-glucan and glycerin add extra hydration to keep skin soft and soothed, while microalgae peptides provide additional protection against stress and redness. It\u2019s a fast-absorbing, non-pilling formula that layers seamlessly under makeup. Perfect for combo, oily, and blemish-prone skin, daytime skin prep, or anytime you want a weightless, smooth finish.\n1.7 fl oz\n [pick-description]\nIDEAL FOR\n\u00a0\n\u00a0",
+   "image": [
+    "https://www.cocokind.com/cdn/shop/files/electrolyte-water-cream_allure-best-of-beauty-award-1_bd271cb5-8dc6-4043-ad65-4547e57dacf0_2000x.png?v=1758077719"
+   ],
+   "name": "electrolyte water cream",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/ InStock",
+     "price": 20.0,
+     "priceCurrency": "USD",
+     "sku": "FG61179",
+     "url": "https://www.cocokind.com/products/electrolyte-water-cream?variant=44021874884784"
+    }
+   ],
+   "sku": "FG61179",
+   "url": "https://www.cocokind.com/products/electrolyte-water-cream"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:58Z",
+ "og_image": "http://www.cocokind.com/cdn/shop/files/electrolyte-water-cream_allure-best-of-beauty-award-1_bd271cb5-8dc6-4043-ad65-4547e57dacf0.png?v=1758077719",
+ "page_sha256": "3fe398ddf8fb97a33e81761625f05fc00c6136467609706844e909867d2a3fdc",
+ "rendered_checked": true,
+ "title": "Electrolyte Water Cream | Lightweight Gel Moisturizer \u2013 cocokind",
+ "url": "https://cocokind.com/products/electrolyte-water-cream"
+}

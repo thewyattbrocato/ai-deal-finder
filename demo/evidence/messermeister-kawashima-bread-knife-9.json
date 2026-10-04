@@ -1,0 +1,93 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:41Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $99 TO THE CONTIGUOUS US*",
+   "SHIPPING POLICY"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter on our homepage & follow us on social media for the latest in culinary news & special offers.",
+   "SUBSCRIBE"
+  ],
+  "url": "https://www.messermeister.com/products/kawashima-bread-knife-9"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.messermeister.com/products/kawashima-bread-knife-9",
+ "http_status": 200,
+ "id": "messermeister-kawashima-bread-knife-9",
+ "image_file": "messermeister-kawashima-bread-knife-9.png",
+ "image_sha256": "9b477da432bbac3d1216e3515fd950dbfc78ed88753f3d44ef64dfaf410f1c13",
+ "image_source": "http://www.messermeister.com/cdn/shop/files/Kawashima-Bread-Hero-V.png?v=1778257151&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Messermeister"
+   },
+   "description": "A great loaf deserves better than being crushed on the cutting board. The Kawashima 9\" Bread Knife pairs Japanese craftsmanship with a razor-sharp serrated edge that glides through crackly sourdough crusts while leaving the tender crumb inside beautifully intact. Its long blade makes quick work of baguettes, brioche, sandwiches, ripe tomatoes, and anything else that benefits from a clean, confident slice. Handcrafted in Seki, Japan, this Japanese bread knife is finished with an elegant walnut Pakkawood handle that feels balanced and comfortable in hand. Beautiful enough to leave out and sharp enough to earn a permanent spot in your rotation, it turns slicing the morning loaf into one of the more satisfying jobs in the kitchen.",
+   "image": "https://www.messermeister.com/cdn/shop/files/Kawashima-Bread-Hero-V_2000x.png?v=1778257151",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "098872530091",
+   "name": "Kawashima Bread Knife - 9\"",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "098872530091",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "098872530091",
+     "price": "249.95",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-11-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Messermeister"
+     },
+     "sku": "KE-09",
+     "url": "https://www.messermeister.com/products/kawashima-bread-knife-9?variant=50191437758657"
+    }
+   ],
+   "sku": "KE-09",
+   "url": "https://www.messermeister.com/products/kawashima-bread-knife-9"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Messermeister"
+   },
+   "description": "A great loaf deserves better than being crushed on the cutting board. The Kawashima 9\" Bread Knife pairs Japanese craftsmanship with a razor-sharp serrated edge that glides through crackly sourdough crusts while leaving the tender crumb inside beautifully intact. Its long blade makes quick work of baguettes, brioche, sandwiches, ripe tomatoes, and anything else that benefits from a clean, confident slice. Handcrafted in Seki, Japan, this Japanese bread knife is finished with an elegant walnut Pakkawood handle that feels balanced and comfortable in hand. Beautiful enough to leave out and sharp enough to earn a permanent spot in your rotation, it turns slicing the morning loaf into one of the more satisfying jobs in the kitchen.",
+   "gtin12": "098872530091",
+   "image": "https://www.messermeister.com/cdn/shop/files/Kawashima-Bread-Hero-V_grande.png?v=1778257151",
+   "name": "Kawashima Bread Knife - 9&quot;",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "A great loaf deserves better than being crushed on the cutting board. The Kawashima 9\" Bread Knife pairs Japanese craftsmanship with a razor-sharp serrated edge that glides through crackly sourdough crusts while leaving the tender crumb inside beautifully intact. Its long blade makes quick work of baguettes, brioche, sandwiches, ripe tomatoes, and anything else that benefits from a clean, confident slice. Handcrafted in Seki, Japan, this Japanese bread knife is finished with an elegant walnut Pakkawood handle that feels balanced and comfortable in hand. Beautiful enough to leave out and sharp enough to earn a permanent spot in your rotation, it turns slicing the morning loaf into one of the more satisfying jobs in the kitchen.",
+    "gtin12": "098872530091",
+    "image": "https://www.messermeister.com/cdn/shop/files/Kawashima-Bread-Hero-V_grande.png?v=1778257151",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Kawashima Bread Knife - 9&quot;",
+    "price": "249.95",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "KE-09",
+    "url": "https://www.messermeister.com/products/kawashima-bread-knife-9?variant=50191437758657"
+   },
+   "productID": "10969309348033",
+   "sku": "KE-09",
+   "url": "https://www.messermeister.com/products/kawashima-bread-knife-9"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T23:54:27Z",
+ "og_image": "http://www.messermeister.com/cdn/shop/files/Kawashima-Bread-Hero-V.png?v=1778257151",
+ "page_sha256": "0459d0303a03eb39fc81e42f835e04875222414e90052d0113660db115b08257",
+ "rendered_checked": true,
+ "title": "Kawashima Bread Knife - 9\"",
+ "url": "https://messermeister.com/products/kawashima-bread-knife-9"
+}

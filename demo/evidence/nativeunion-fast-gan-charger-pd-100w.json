@@ -1,0 +1,111 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:59Z",
+  "ship": [
+   "Unlock Power Delivery for Type-C laptops, tablets, phones, weather stations & more",
+   "Supports Samsung Super Fast Charging* & Power Delivery to charge your iPhone or Samsung up to 50% in under 30 minutes",
+   "Shipping Info"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to receive first-hand brand updates, access to exclusive deals, and 15% discount off your first order."
+  ],
+  "url": "https://www.nativeunion.com/products/fast-gan-charger-pd-100w"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.nativeunion.com/products/fast-gan-charger-pd-100w",
+ "http_status": 200,
+ "id": "nativeunion-fast-gan-charger-pd-100w",
+ "image_file": "nativeunion-fast-gan-charger-pd-100w.jpg",
+ "image_sha256": "0e78952cedf1354ce18d5df047f83d03e01ea777cf5eecab748a39b35a9cdde1",
+ "image_source": "http://www.nativeunion.com/cdn/shop/files/0003_GaN100W3C1A_US_White_Packagingartwork.jpg?v=1755163581&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5.0",
+    "ratingValue": "5.0",
+    "reviewCount": "2",
+    "worstRating": "1.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "category": "Power Adapters",
+   "description": "Super compact yet incredibly powerful. Designed for life on the move, this GaN charger combines 100W high-speed charging with four versatile ports, so you can fuel all your devices at once without compromise.\u00a0\nLearn more about GaN technology.\n\n\n\nUnlock Power Delivery for Type-C laptops, tablets, phones, weather stations &amp; more\n\n\nCharge up to 4 devices at once with 3 USB-C ports &amp; 1 USB-A port\n\n\nDynamic power allocation automatically optimizes power distribution between your devices\n\n\nAdvanced 100W GaN technology supports faster charging in smaller &amp; lighter form\n\n\n100W PD-enabled USB-C port supports full-speed charging for your MacBook Pro 14\"\"\n\n\nSupports Samsung Super Fast Charging* &amp; Power Delivery to charge your iPhone or Samsung up to 50% in under 30 minutes\n\n\nSafeguard your battery with overvoltage, overcurrent &amp; overheating protection\n\n\n\nWARNING for customers in California (USA)\n\n\n\n\n\n\n\n\n\n2-Year Limited Warranty\n14-Day Returns\nSecure Checkout\n\n\n\nCompare every GaN charger in the range.",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://www.nativeunion.com/cdn/shop/files/0003_GaN100W3C1A_US_White_Packagingartwork.jpg?v=1755163581&width=1024",
+    "name": "#model_US/CA Plug",
+    "url": "https://www.nativeunion.com/cdn/shop/files/0003_GaN100W3C1A_US_White_Packagingartwork.jpg?v=1755163581&width=1024",
+    "width": "1024"
+   },
+   "name": "Fast GaN Charger PD 100W",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654086638",
+     "name": "US/CA Plug / White",
+     "price": 79.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "FAST-PD100-WHT-US",
+     "url": "/products/fast-gan-charger-pd-100w?variant=43815888421003"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "gtin12": "846654086638",
+     "name": "EU Plug / White",
+     "price": 79.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "FAST-PD100-WHT-EU",
+     "url": "/products/fast-gan-charger-pd-100w?variant=43815888486539"
+    }
+   ],
+   "productID": 7880562180235,
+   "sku": "FAST-PD100-WHT-US",
+   "url": "/products/fast-gan-charger-pd-100w"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "2"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "description": "Super compact yet incredibly powerful. Designed for life on the move, this GaN charger combines 100W high-speed charging with four versatile ports, so you can fuel all your devices at once without compromise.\u00a0\nLearn more about GaN technology.\n\n\n\nUnlock Power Delivery for Type-C laptops, tablets, phones, weather stations &amp; more\n\n\nCharge up to 4 devices at once with 3 USB-C ports &amp; 1 USB-A port\n\n\nDynamic power allocation automatically optimizes power distribution between your devices\n\n\nAdvanced 100W GaN technology supports faster charging in smaller &amp; lighter form\n\n\n100W PD-enabled USB-C port supports full-speed charging for your MacBook Pro 14\"\"\n\n\nSupports Samsung Super Fast Charging* &amp; Power Delivery to charge your iPhone or Samsung up to 50% in under 30 minutes\n\n\nSafeguard your battery with overvoltage, overcurrent &amp; overheating protection\n\n\n\nWARNING for customers in California (USA)\n\n\n\n\n\n\n\n\n\n2-Year Limited Warranty\n14-Day Returns\nSecure Checkout\n\n\n\nCompare every GaN charger in the range.",
+   "image": [
+    "https://www.nativeunion.com/cdn/shop/files/0003_GaN100W3C1A_US_White_Packagingartwork.jpg?v=1755163581&width=480"
+   ],
+   "name": "Fast GaN Charger PD 100W",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "79.99",
+    "priceCurrency": "USD",
+    "sku": "FAST-PD100-WHT-US",
+    "url": "https://www.nativeunion.com/products/fast-gan-charger-pd-100w?variant=43815888421003"
+   },
+   "sku": "FAST-PD100-WHT-US"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:27Z",
+ "og_image": "http://www.nativeunion.com/cdn/shop/files/0003_GaN100W3C1A_US_White_Packagingartwork.jpg?v=1755163581",
+ "page_sha256": "6797a66b546191ac66f04825526b5e9a916703702a98cf3787075adebbfb1509",
+ "rendered_checked": true,
+ "title": "Native Union - Fast GaN Charger PD 100W",
+ "url": "https://nativeunion.com/products/fast-gan-charger-pd-100w"
+}

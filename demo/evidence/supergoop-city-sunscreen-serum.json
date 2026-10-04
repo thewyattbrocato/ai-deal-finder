@@ -1,0 +1,72 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:51Z",
+  "ship": [
+   "Free Shipping on Orders $50+",
+   "Help with delivery",
+   "Spend $50.00 for free shipping!"
+  ],
+  "size": [
+   "SIZE 2.0 fl. oz.",
+   "Size"
+  ],
+  "sub": [
+   "Subscribe & Save"
+  ],
+  "url": "https://supergoop.com/products/city-sunscreen-serum"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://supergoop.com/products/city-sunscreen-serum",
+ "http_status": 200,
+ "id": "supergoop-city-sunscreen-serum",
+ "image_file": "supergoop-city-sunscreen-serum.jpg",
+ "image_sha256": "1e26aea764bb6676ef09d61762c9da9b777257600ff4857491dbe75c3326bd8f",
+ "image_source": "https://cdn.shopify.com/s/files/1/1503/5658/files/CitySerum_Img1_new.jpg?v=1716986273&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "224"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Supergoop"
+   },
+   "description": "A morning lotion that preps &amp;amp; protects skin with a natural finish.",
+   "gtin12": "857250005428",
+   "image": [
+    "https://supergoop.com/cdn/shop/files/CitySerum_Img1_new.jpg?v=1716986273&width=1200",
+    "https://supergoop.com/cdn/shop/files/CitySerum_Img2_new.jpg?v=1716986273&width=1200",
+    "https://supergoop.com/cdn/shop/files/CitySerum_Img3_6489f3aa-456d-4580-8f9b-60002c937348.jpg?v=1716986273&width=1200"
+   ],
+   "name": "City Sunscreen Serum SPF 30",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+     "@id": "#return_policy"
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "price": "48.0",
+    "priceCurrency": "USD",
+    "seller": {
+     "@type": "Organization",
+     "name": "Supergoop"
+    },
+    "url": "https://supergoop.com/products/city-sunscreen-serum?variant=731871641616"
+   },
+   "sku": "5428",
+   "url": "https://supergoop.com/products/city-sunscreen-serum"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:56Z",
+ "og_image": "https://cdn.shopify.com/s/files/1/1503/5658/files/CitySerum_Img1_new.jpg?v=1716986273",
+ "page_sha256": "253deabd1ac78088f1693430c4f3a34abd0ad8754bf8d92f8b537b8118b6b52a",
+ "rendered_checked": true,
+ "title": "City Sunscreen Serum SPF 30 | Antioxidant Facial Moisturizer | Supergoop!",
+ "url": "https://supergoop.com/products/city-sunscreen-serum"
+}

@@ -1,0 +1,327 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:19Z",
+  "ship": [
+   "Save $80 on Crusher 1080 ANC | Free shipping on orders over $175",
+   "Become a member to earn 18 points & FREE SHIPPING on orders $49+",
+   "Members get free shipping on orders $49+ or $175+"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.skullcandy.com/products/icon-180-wired"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.skullcandy.com/products/icon-180-wired",
+ "http_status": 200,
+ "id": "skullcandy-icon-180-wired",
+ "image_file": "skullcandy-icon-180-wired.png",
+ "image_sha256": "977e5b8057eaddf281e90b3c87371d794cdee72ee7eeb7816c98149b99eea249",
+ "image_source": "http://www.skullcandy.com/cdn/shop/files/Icon180Wired_Black_1.png?v=1782850425&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Returns",
+     "value": "Easy returns"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "1-Year Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Shipping",
+     "value": "Members Get Free Shipping on orders of $49+"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_CrazyPink_1.png?v=1782850442&width=2000"
+     ],
+     "name": "Icon\u00ae 180 Wired - Crazy Pink",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+     },
+     "sku": "S5IIW-U046"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_Black_1.png?v=1782850425&width=2000"
+     ],
+     "name": "Icon\u00ae 180 Wired - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514122809"
+     },
+     "sku": "S5IIW-U740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_Cement_1.png?v=1782850435&width=2000"
+     ],
+     "name": "Icon\u00ae 180 Wired - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514155577"
+     },
+     "sku": "S5IIW-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_CrazyPink_1.png?v=1782850442&width=2000"
+   ],
+   "name": "Icon\u00ae 180 Wired",
+   "productGroupID": 8317667606585,
+   "sku": "S5IIW-U046",
+   "url": "https://www.skullcandy.com/products/icon-180-wired",
+   "variesBy": "https://schema.org/color"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_CrazyPink_1.png?v=1782850442&width=2000"
+   ],
+   "name": "Icon\u00ae 180 Wired - Crazy Pink",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+   },
+   "sku": "S5IIW-U046"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_Black_1.png?v=1782850425&width=2000"
+   ],
+   "name": "Icon\u00ae 180 Wired - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514122809"
+   },
+   "sku": "S5IIW-U740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_Cement_1.png?v=1782850435&width=2000"
+   ],
+   "name": "Icon\u00ae 180 Wired - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514155577"
+   },
+   "sku": "S5IIW-U993"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "6"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "name": "Icon\u00ae 180 Wired - Crazy Pink",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+     },
+     "sku": "S5IIW-U046"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "name": "Icon\u00ae 180 Wired - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514122809"
+     },
+     "sku": "S5IIW-U740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+     "name": "Icon\u00ae 180 Wired - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 18.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514155577"
+     },
+     "sku": "S5IIW-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Icon180Wired_CrazyPink_1.png?v=1782850442&width=2000"
+   ],
+   "isVariantOf": {
+    "@type": "ProductGroup",
+    "name": "Icon\u00ae 180 Wired",
+    "productGroupID": 8317667606585,
+    "url": "https://www.skullcandy.com/products/icon-180-wired"
+   },
+   "name": "Icon\u00ae 180 Wired - Crazy Pink",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+   },
+   "sku": "S5IIW-U046",
+   "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "name": "Icon\u00ae 180 Wired - Crazy Pink",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514188345"
+   },
+   "sku": "S5IIW-U046"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "name": "Icon\u00ae 180 Wired - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514122809"
+   },
+   "sku": "S5IIW-U740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "SAFE SOUND, SIMPLE COMFORTIcon 180 is your everyday essential headphone\u2014lightweight, comfortable, and simple by design. With an adjustable fit for all ages and a reliable wired connection, it\u2019s ready for school, work, travel, and everything in between. Just plug in and press play for safe, easy listening whenever you need it.",
+   "name": "Icon\u00ae 180 Wired - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/icon-180-wired?variant=46134514155577"
+   },
+   "sku": "S5IIW-U993"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:24Z",
+ "og_image": "http://www.skullcandy.com/cdn/shop/files/Icon180Wired_Black_1.png?v=1782850425",
+ "page_sha256": "24e2053ead222695fc53a3b6c9597e0da71ac560f87a204ba772d0934b504499",
+ "rendered_checked": true,
+ "title": "Icon\u00ae 180 Wired - Over-Ear Wired Headphones | 3.5mm AUX | Built-in Microphone | Flat Folding Design",
+ "url": "https://skullcandy.com/products/icon-180-wired"
+}

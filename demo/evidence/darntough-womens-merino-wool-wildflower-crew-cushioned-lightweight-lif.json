@@ -1,0 +1,183 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:17:17Z",
+  "ship": [
+   "FREE SHIPPING",
+   "Free shipping on orders $50+",
+   "Shipping",
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more."
+  ],
+  "size": [
+   "SIZE \u2014 Size chart",
+   "Size Chart"
+  ],
+  "sub": [
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more.",
+   "SUBSCRIBE"
+  ],
+  "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks",
+ "http_status": 200,
+ "id": "darntough-womens-merino-wool-wildflower-crew-cushioned-lightweight-lif",
+ "image_file": "darntough-womens-merino-wool-wildflower-crew-cushioned-lightweight-lif.png",
+ "image_sha256": "01a414088d1298bd6dd107a648953a027681739a868bbf5ec2003c9efb1acf63",
+ "image_source": "http://darntough.com/cdn/shop/files/6139_Midnight.png?v=1780667816&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 20,
+    "ratingValue": 4.9
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "category": "",
+   "description": "You belong\u2026in this sock. Wrapped in wildflowers, you\u2019re ready to run away and let your feet be your guide. When you slip into these Merino Wool socks, you\u2019ll be far away from restricting cotton that leaves you worried about blisters. You'll feel free. We promise, you have seen no other floral sock that compares to the Wildflower Sock.",
+   "gtin12": "642249244878",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "US",
+    "merchantReturnDays": 90,
+    "returnFees": "https://schema.org/FreeReturn",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyCountry": "US"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": 1024,
+    "image": "https://darntough.com/cdn/shop/files/6139_Midnight_1024x1024.png?v=1780667816",
+    "name": "Women's Wildflower Crew Lightweight Lifestyle Socks",
+    "url": "https://darntough.com/cdn/shop/files/6139_Midnight_1024x1024.png?v=1780667816",
+    "width": 1024
+   },
+   "name": "Women's Wildflower Crew Lightweight Lifestyle Socks",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_BLACK_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560524474"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_BLACK_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560557242"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_BLACK_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560590010"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_MIDNIGHT_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560622778"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_MIDNIGHT_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560655546"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_MIDNIGHT_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560688314"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_ASH_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560721082"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_ASH_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560753850"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6139_ASH_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560786618"
+    }
+   ],
+   "productId": "642249244878",
+   "sku": "6139_BLACK_S_DARN",
+   "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "20"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "description": "You belong\u2026in this sock. Wrapped in wildflowers, you\u2019re ready to run away and let your feet be your guide. When you slip into these Merino Wool socks, you\u2019ll be far away from restricting cotton that leaves you worried about blisters. You'll feel free. We promise, you have seen no other floral sock that compares to the Wildflower Sock.",
+   "image": [
+    "https://darntough.com/cdn/shop/files/6139_Midnight.png?v=1780667816&width=480"
+   ],
+   "name": "Women&#39;s Wildflower Crew Lightweight Lifestyle Socks",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "25.0",
+    "priceCurrency": "USD",
+    "sku": "6139_BLACK_S_DARN",
+    "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks?variant=45954560524474"
+   },
+   "sku": "6139_BLACK_S_DARN"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-04T00:16:06Z",
+ "og_image": "http://darntough.com/cdn/shop/files/6139_Midnight.png?v=1780667816",
+ "page_sha256": "5209349974662b42ab01a72c56db8ff2ce0abdc838b65bb83abe2348b29cb800",
+ "rendered_checked": true,
+ "title": "Women's Wildflower Crew Cushioned Lifestyle Socks \u2013 Darn Tough",
+ "url": "https://darntough.com/products/womens-merino-wool-wildflower-crew-cushioned-lightweight-lifestyle-socks"
+}

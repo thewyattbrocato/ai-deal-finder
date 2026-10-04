@@ -1,0 +1,662 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:38Z",
+  "ship": [
+   "Free USA Shipping Over $99",
+   "Free Shipping",
+   "Shipping & Returns",
+   "Click here for the full shipping and delivery guide \u00bb",
+   "If you are not satisfied with your product, we will offer you a full refund or store credit for the value of the item within 45 days of delivery.",
+   "Shipping, Tracking & Delivery",
+   "Shipping and Returns: 1551 S 400 E #2, American Fork, Utah 84003, United States"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe and Save $4",
+   "Receive a premium TL Frother ($29 value) with your first Protein Coffee subscription!",
+   "Subscribe & Save"
+  ],
+  "url": "https://www.transparentlabs.com/products/protein-coffee"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.transparentlabs.com/products/protein-coffee",
+ "http_status": 200,
+ "id": "transparentlabs-protein-coffee",
+ "image_file": "transparentlabs-protein-coffee.png",
+ "image_sha256": "445063904ef02e56661a1995859cb1ac3d565a7514f85e27b17da2686b022461",
+ "image_source": "http://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_IL_1_7.png?v=1775653436&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/protein-coffee#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Transparent Labs"
+   },
+   "category": "Vitamins & Supplements",
+   "description": "",
+   "hasVariant": [
+    {
+     "@id": "/products/protein-coffee?variant=44346557038685#variant",
+     "@type": "Product",
+     "gtin": "874659003510",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_IL_1_7.png?v=1775653436&width=1920",
+     "name": "Protein Coffee - Iced Latte",
+     "offers": {
+      "@id": "/products/protein-coffee?variant=44346557038685#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-coffee?variant=44346557038685"
+     },
+     "sku": "TPL101104"
+    },
+    {
+     "@id": "/products/protein-coffee?variant=67587114336349#variant",
+     "@type": "Product",
+     "gtin": "874659004333",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_PS_1_2_FRONT_DTC.png?v=1789492033&width=1920",
+     "name": "Protein Coffee - Pumpkin Spice",
+     "offers": {
+      "@id": "/products/protein-coffee?variant=67587114336349#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-coffee?variant=67587114336349"
+     },
+     "sku": "TPL101106"
+    },
+    {
+     "@id": "/products/protein-coffee?variant=44346557071453#variant",
+     "@type": "Product",
+     "gtin": "874659003534",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_SCCB_1_7.png?v=1775653435&width=1920",
+     "name": "Protein Coffee - Sweet Cream Cold Brew",
+     "offers": {
+      "@id": "/products/protein-coffee?variant=44346557071453#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-coffee?variant=44346557071453"
+     },
+     "sku": "TPL101102"
+    },
+    {
+     "@id": "/products/protein-coffee?variant=43918541324381#variant",
+     "@type": "Product",
+     "gtin": "874659003527",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL-338_ProteinCoffee_15S_M_1_10.png?v=1775653436&width=1920",
+     "name": "Protein Coffee - Mocha",
+     "offers": {
+      "@id": "/products/protein-coffee?variant=43918541324381#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/protein-coffee?variant=43918541324381"
+     },
+     "sku": "TPL101101"
+    }
+   ],
+   "name": "Protein Coffee",
+   "productGroupID": "8041765175389",
+   "url": "https://www.transparentlabs.com/products/protein-coffee"
+  },
+  {
+   "@id": "/products/protein-coffee?variant=44346557038685#variant",
+   "@type": "Product",
+   "gtin": "874659003510",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_IL_1_7.png?v=1775653436&width=1920",
+   "name": "Protein Coffee - Iced Latte",
+   "offers": {
+    "@id": "/products/protein-coffee?variant=44346557038685#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-coffee?variant=44346557038685"
+   },
+   "sku": "TPL101104"
+  },
+  {
+   "@id": "/products/protein-coffee?variant=67587114336349#variant",
+   "@type": "Product",
+   "gtin": "874659004333",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_PS_1_2_FRONT_DTC.png?v=1789492033&width=1920",
+   "name": "Protein Coffee - Pumpkin Spice",
+   "offers": {
+    "@id": "/products/protein-coffee?variant=67587114336349#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-coffee?variant=67587114336349"
+   },
+   "sku": "TPL101106"
+  },
+  {
+   "@id": "/products/protein-coffee?variant=44346557071453#variant",
+   "@type": "Product",
+   "gtin": "874659003534",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_SCCB_1_7.png?v=1775653435&width=1920",
+   "name": "Protein Coffee - Sweet Cream Cold Brew",
+   "offers": {
+    "@id": "/products/protein-coffee?variant=44346557071453#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-coffee?variant=44346557071453"
+   },
+   "sku": "TPL101102"
+  },
+  {
+   "@id": "/products/protein-coffee?variant=43918541324381#variant",
+   "@type": "Product",
+   "gtin": "874659003527",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL-338_ProteinCoffee_15S_M_1_10.png?v=1775653436&width=1920",
+   "name": "Protein Coffee - Mocha",
+   "offers": {
+    "@id": "/products/protein-coffee?variant=43918541324381#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/protein-coffee?variant=43918541324381"
+   },
+   "sku": "TPL101101"
+  },
+  {
+   "@context": "https://schema.org/",
+   "@id": "/products/protein-coffee#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": "4.55",
+    "reviewCount": 121,
+    "worstRating": 1
+   },
+   "image": "https://cdn.shopify.com/s/files/1/0866/7664/files/TL_ProteinCoffee_15S_IL_1_7.png?v=1775653436",
+   "name": "Protein Coffee",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jason"
+     },
+     "datePublished": "2026-08-21T14:35:35Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1787322936__4740__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "Recieved my protein coffee yesterday and tried it out this morning. I got the sweet cream and it is DELICIOUS! I just mixed it with plain water and it was rich and creamy. Nice to have another easy protein boost first thing in the morning before the gym. Definitely recommend!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Abigail D.S."
+     },
+     "datePublished": "2026-08-11T22:20:24Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1786486824__img_9415__original.jpeg?quality=80&width=1024"
+     ],
+     "reviewBody": "Glad i purchased this im a coffee lover and this is superb i get my coffee fix and clean protein at the same time ! \ud83d\udc99\ud83d\udc99",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Harold H."
+     },
+     "datePublished": "2026-06-27T16:04:30Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1782576270__img_4503__original.jpeg?quality=80&width=1024"
+     ],
+     "reviewBody": "For someone who doesn\u2019t like coffee but trying to get away from energy drinks, protein coffee mocha is delish! Not a strong coffee taste in my opinion, and when adding 8oz of Fairlife Ultra-filtered nonfat milk, it makes it have a smooth and creamy rich taste! I just hope that they keep it in stock for the subscribers!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Windy Z."
+     },
+     "datePublished": "2026-05-17T11:26:49Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1779017210__1854__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "The two flavors I have tried have been amazing. It has a good coffee flavor and enough caffeine to get me going. I have started using this pre-workout as well.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Shalee P."
+     },
+     "datePublished": "2026-05-05T16:19:37Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1777997978__image__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "Better than my usual morning coffee! I recently started looking for better options for my morning coffee after I realized how many calories I was consuming in coffee creamer daily, but was unwilling to give up coffee all together. My doctor recommended the Transparent Labs brand to me, and behold, they have protein coffee in my beloved sweet cream flavor. I was skeptical, as whey protein typically has a taste I cannot stand. Imagine my shock when I took the first sip of this protein coffee and it was actually GOOD. Like delicious, without the nasty Whey protein after taste I am used to from protein loaded foods. It also dissolves insanely well and leaves behind no grainy residue. I look forward to drinking this coffee every morning AND I\u2019m not consuming an insane amount of calories in creamer. Overall, a win! I couldn\u2019t be happier with this product and will be repurchasing!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Forrest"
+     },
+     "datePublished": "2026-10-02T00:19:20Z",
+     "reviewBody": "Very good taste! Price on the high side.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-09-30T10:21:21Z",
+     "reviewBody": "Protein Coffee is outstanding!!! ... Would really like it to come in a 30-45 day supply...then it would be perfect ...",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jeanie"
+     },
+     "datePublished": "2026-09-24T20:40:29Z",
+     "reviewBody": "I love this coffee!! I\u2019ve tried Javy and Javy creamer \ud83e\udd22 Way more protein to start my day too!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Pierce"
+     },
+     "datePublished": "2026-09-24T09:56:04Z",
+     "reviewBody": "Taste good and works well",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Brent"
+     },
+     "datePublished": "2026-09-23T22:52:52Z",
+     "reviewBody": "Pretty pretty good",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Shelby"
+     },
+     "datePublished": "2026-09-23T01:07:07Z",
+     "reviewBody": "Latte flavor is the most similar to actual coffee/cold brew. I added some caramel sauce to mine to make it a caramel latte. It was delicious, smooth, not gritty, and didn\u2019t make me \u201con edge\u201d like regular coffee does\u2026 maybe it\u2019s because there\u2019s protien in it? I will say, after you mix it, the vitamin/supplement smell DOES NOT reflect the taste. It\u2019s odd because you think you\u2019d be tasting that supplemental chalk but it really does taste like a mom n pop coffee shop brewed coffee. After a few sips, it was pretty good. I\u2019d buy this flavor again. It\u2019s smooth and a great base to add flavor/sauces too if you like flavored coffee",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jen"
+     },
+     "datePublished": "2026-09-22T08:27:02Z",
+     "reviewBody": "Love this stuff! I hope you guys come out with some new flavors! :)",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Elliot"
+     },
+     "datePublished": "2026-09-20T19:14:40Z",
+     "reviewBody": "Taste great",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Tonni D."
+     },
+     "datePublished": "2026-09-18T16:25:01Z",
+     "reviewBody": "Love",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Tonia B."
+     },
+     "datePublished": "2026-09-16T13:13:10Z",
+     "reviewBody": "This is great as a iced coffee or my new favorite in yogurt!! Wow just wow!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Abhi"
+     },
+     "datePublished": "2026-09-13T01:59:50Z",
+     "reviewBody": "It smells really bad either you mix it with water or milk.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 1,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Daniel"
+     },
+     "datePublished": "2026-09-12T22:52:06Z",
+     "reviewBody": "Taste could be much better but it\u2019s okay",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 3,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-09-09T11:14:53Z",
+     "reviewBody": "I love the taste . I will order protein coffee again",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Colleen W."
+     },
+     "datePublished": "2026-09-08T20:50:00Z",
+     "reviewBody": "Very good makes good ice coffee",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Dana"
+     },
+     "datePublished": "2026-09-04T17:31:32Z",
+     "reviewBody": "So good!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Dana"
+     },
+     "datePublished": "2026-09-04T17:31:21Z",
+     "reviewBody": "Great taste, disolves well. Has replace my morning coffee!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Ron M."
+     },
+     "datePublished": "2026-09-02T03:24:35Z",
+     "reviewBody": "Love this stuff.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-09-01T14:42:15Z",
+     "reviewBody": "Creamy wth no artificial aftertaste. Yummy!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Tyler G."
+     },
+     "datePublished": "2026-08-25T13:49:58Z",
+     "reviewBody": "The flavor is amazing and mixes well.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Diane F."
+     },
+     "datePublished": "2026-08-25T13:14:16Z",
+     "reviewBody": "i mix with nonfat plain greek yogurt cold coffee and ice - blend and you have best coffee shake and tons of program",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Miguel"
+     },
+     "datePublished": "2026-08-21T20:51:54Z",
+     "reviewBody": "Great quality brand",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Sarah"
+     },
+     "datePublished": "2026-08-20T14:52:37Z",
+     "reviewBody": "So so good!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-08-20T12:46:08Z",
+     "reviewBody": "This Protein Coffee is one of the better ones that I've tried. It has good coffee flavor but can be a little sweet for my taste. The TL protein powders always mix in well so there's no clumping in milk, water or whatever else you use. The price is a little hefty for only 15 servings, so I space this out to make it last a little longer.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Michael"
+     },
+     "datePublished": "2026-08-19T16:54:48Z",
+     "reviewBody": "Best protein shake ive ever had",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Miguel C."
+     },
+     "datePublished": "2026-08-19T15:32:52Z",
+     "reviewBody": "Great taste",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T23:54:04Z",
+ "og_image": "http://www.transparentlabs.com/cdn/shop/files/TL_ProteinCoffee_15S_IL_1_7.png?v=1775653436",
+ "page_sha256": "5de5c12984493e1e35de9b69c279b96bc8b871e0d4de5a51240781267ddab278",
+ "rendered_checked": true,
+ "title": "Premium Protein Coffee - 20g Protein Per Serving \u2013 Transparent Labs",
+ "url": "https://transparentlabs.com/products/protein-coffee"
+}

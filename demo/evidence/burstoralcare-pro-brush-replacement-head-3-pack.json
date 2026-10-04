@@ -1,0 +1,168 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:04:08Z",
+  "ship": [
+   "\ud83d\udce6 FREE SHIPPING ON ALL U.S. ORDERS $50+",
+   "FAQ/Shipping"
+  ],
+  "size": [
+   "Select your pack size:"
+  ],
+  "sub": [
+   "SUBSCRIBE AND SAVE"
+  ],
+  "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack",
+ "http_status": 200,
+ "id": "burstoralcare-pro-brush-replacement-head-3-pack",
+ "image_file": "burstoralcare-pro-brush-replacement-head-3-pack.png",
+ "image_sha256": "aafce802f603ce0cc4e6b1c0c01705ef430595a1a3d4928e56a7cf660e37ae1b",
+ "image_source": "http://burstoralcare.com/cdn/shop/files/Property1_1_368a37ea-5522-4528-9f6e-4ddd626a5b46.png?v=1776174773&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/pro-brush-replacement-head-3-pack#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "BURST Oral Care"
+   },
+   "category": "Toothbrush Replacement Heads",
+   "description": "",
+   "hasVariant": [
+    {
+     "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338409115#variant",
+     "@type": "Product",
+     "image": "https://burstoralcare.com/cdn/shop/files/Property1_1_368a37ea-5522-4528-9f6e-4ddd626a5b46.png?v=1776174773&width=1920",
+     "name": "Pro Brush Replacement Heads 3 Pack - Black",
+     "offers": {
+      "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338409115#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338409115"
+     },
+     "sku": "BRST-Heads-PR-BLK-3PK"
+    },
+    {
+     "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338441883#variant",
+     "@type": "Product",
+     "image": "https://burstoralcare.com/cdn/shop/files/Property1_2_5fd562aa-5298-43c9-acd0-e33dc7244438.png?v=1776174774&width=1920",
+     "name": "Pro Brush Replacement Heads 3 Pack - White",
+     "offers": {
+      "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338441883#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338441883"
+     },
+     "sku": "BRST-Heads-PR-WT-3PK"
+    },
+    {
+     "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338474651#variant",
+     "@type": "Product",
+     "image": "https://burstoralcare.com/cdn/shop/files/Property1_3_0d36a10d-c7d8-49a1-bd25-c5edf4d0194e.png?v=1776174773&width=1920",
+     "name": "Pro Brush Replacement Heads 3 Pack - Rose Gold",
+     "offers": {
+      "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338474651#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338474651"
+     },
+     "sku": "BRST-Heads-PR-RG-3PK"
+    },
+    {
+     "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338605723#variant",
+     "@type": "Product",
+     "image": "https://burstoralcare.com/cdn/shop/files/Property1_4_e056ea78-8763-4c54-9c76-dcd7121b5139.png?v=1776174774&width=1920",
+     "name": "Pro Brush Replacement Heads 3 Pack - Marine Teal",
+     "offers": {
+      "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338605723#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "24.00",
+      "priceCurrency": "USD",
+      "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338605723"
+     },
+     "sku": "BRST-Heads-PR-TEA-3PK"
+    }
+   ],
+   "name": "Pro Brush Replacement Heads 3 Pack",
+   "productGroupID": "8989418815643",
+   "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack"
+  },
+  {
+   "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338409115#variant",
+   "@type": "Product",
+   "image": "https://burstoralcare.com/cdn/shop/files/Property1_1_368a37ea-5522-4528-9f6e-4ddd626a5b46.png?v=1776174773&width=1920",
+   "name": "Pro Brush Replacement Heads 3 Pack - Black",
+   "offers": {
+    "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338409115#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338409115"
+   },
+   "sku": "BRST-Heads-PR-BLK-3PK"
+  },
+  {
+   "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338441883#variant",
+   "@type": "Product",
+   "image": "https://burstoralcare.com/cdn/shop/files/Property1_2_5fd562aa-5298-43c9-acd0-e33dc7244438.png?v=1776174774&width=1920",
+   "name": "Pro Brush Replacement Heads 3 Pack - White",
+   "offers": {
+    "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338441883#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338441883"
+   },
+   "sku": "BRST-Heads-PR-WT-3PK"
+  },
+  {
+   "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338474651#variant",
+   "@type": "Product",
+   "image": "https://burstoralcare.com/cdn/shop/files/Property1_3_0d36a10d-c7d8-49a1-bd25-c5edf4d0194e.png?v=1776174773&width=1920",
+   "name": "Pro Brush Replacement Heads 3 Pack - Rose Gold",
+   "offers": {
+    "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338474651#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338474651"
+   },
+   "sku": "BRST-Heads-PR-RG-3PK"
+  },
+  {
+   "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338605723#variant",
+   "@type": "Product",
+   "image": "https://burstoralcare.com/cdn/shop/files/Property1_4_e056ea78-8763-4c54-9c76-dcd7121b5139.png?v=1776174774&width=1920",
+   "name": "Pro Brush Replacement Heads 3 Pack - Marine Teal",
+   "offers": {
+    "@id": "/products/pro-brush-replacement-head-3-pack?variant=48321338605723#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "24.00",
+    "priceCurrency": "USD",
+    "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack?variant=48321338605723"
+   },
+   "sku": "BRST-Heads-PR-TEA-3PK"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:37Z",
+ "og_image": "http://burstoralcare.com/cdn/shop/files/Property1_1_368a37ea-5522-4528-9f6e-4ddd626a5b46.png?v=1776174773",
+ "page_sha256": "9c30aad6801f9bc9323ec49e028733ccebda1e8deebaa2960af809b1bb7f7ff2",
+ "rendered_checked": true,
+ "title": "Replacement Toothbrush Heads for Gentle, Effective Cleaning \u2013 Burst Oral Care",
+ "url": "https://burstoralcare.com/products/pro-brush-replacement-head-3-pack"
+}

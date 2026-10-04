@@ -1,0 +1,165 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:06Z",
+  "ship": [
+   "FREE GROUND SHIPPING*",
+   "Enjoy free ground shipping on all orders +$75.",
+   "SHIPPING, RETURNS & WARRANTY",
+   "Shipping",
+   "Free ground shipping on orders over $75.",
+   "Shipping Policy",
+   "You are $75.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE: OS"
+  ],
+  "sub": [
+   "Subscribe for early access to exclusive discounts, partnerships, and drops.",
+   "Subscribe",
+   "By subscribing, you agree to receive emails from Herschel Supply Co. You may unsubscribe at any time. See our"
+  ],
+  "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack",
+ "http_status": 200,
+ "id": "herschel-herschel-heritage-ripstop-reflective-backpack",
+ "image_file": "herschel-herschel-heritage-ripstop-reflective-backpack.jpg",
+ "image_sha256": "9054e8cf532d38c7ab80b850fe33b4308c7b5ee7af8e845d6e4ffb41ee0cef31",
+ "image_source": "http://herschel.com/cdn/shop/files/11841-00165-OS_01.jpg?v=1789436159&width=420",
+ "json_ld": [
+  {
+   "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "category": "Bags",
+   "description": "Ready to go, day or night. Designed with durable ripstop and reflective stitching, this Herschel Heritage\u2122 Backpack showcases a relaxed silhouette with stand-out details made for today's journeys.",
+   "hasVariant": [
+    {
+     "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156#variant",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Herschel Supply Co."
+     },
+     "gtin": "828432744244",
+     "image": "https://herschel.com/cdn/shop/files/11841-00165-OS_01.jpg?v=1789436159&width=1920",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "11841-00165-OS",
+     "name": "Herschel Heritage\u2122 Ripstop Reflective Backpack - Black/Black / OS",
+     "offers": {
+      "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 90.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@id": "https://herschel.com#organization"
+      },
+      "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156"
+     },
+     "sku": "11841-00165-OS",
+     "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156"
+    },
+    {
+     "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924#variant",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Herschel Supply Co."
+     },
+     "gtin": "828432744251",
+     "image": "https://herschel.com/cdn/shop/files/11841-08262-OS_01.jpg?v=1789436159&width=1920",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "11841-08262-OS",
+     "name": "Herschel Heritage\u2122 Ripstop Reflective Backpack - Ultimate Gray/Stone Mountain / OS",
+     "offers": {
+      "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 90.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@id": "https://herschel.com#organization"
+      },
+      "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924"
+     },
+     "sku": "11841-08262-OS",
+     "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924"
+    }
+   ],
+   "image": [
+    "https://herschel.com/cdn/shop/files/11841-00165-OS_01.jpg?v=1789436159&width=1920"
+   ],
+   "itemCondition": "https://schema.org/NewCondition",
+   "mainEntityOfPage": {
+    "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack#webpage"
+   },
+   "name": "Herschel Heritage\u2122 Ripstop Reflective Backpack",
+   "productGroupID": 9461667430652,
+   "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack"
+  },
+  {
+   "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156#variant",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "gtin": "828432744244",
+   "image": "https://herschel.com/cdn/shop/files/11841-00165-OS_01.jpg?v=1789436159&width=1920",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "11841-00165-OS",
+   "name": "Herschel Heritage\u2122 Ripstop Reflective Backpack - Black/Black / OS",
+   "offers": {
+    "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 90.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@id": "https://herschel.com#organization"
+    },
+    "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156"
+   },
+   "sku": "11841-00165-OS",
+   "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309246972156"
+  },
+  {
+   "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924#variant",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "gtin": "828432744251",
+   "image": "https://herschel.com/cdn/shop/files/11841-08262-OS_01.jpg?v=1789436159&width=1920",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "11841-08262-OS",
+   "name": "Herschel Heritage\u2122 Ripstop Reflective Backpack - Ultimate Gray/Stone Mountain / OS",
+   "offers": {
+    "@id": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 90.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@id": "https://herschel.com#organization"
+    },
+    "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924"
+   },
+   "sku": "11841-08262-OS",
+   "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack?variant=51309247004924"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T23:53:14Z",
+ "og_image": "http://herschel.com/cdn/shop/files/11841-00165-OS_01.jpg?v=1789436159&width=2000",
+ "page_sha256": "fef03e49c99a25a9f7eb730bddd6551ef029ac8a338748ef58364247db618a89",
+ "rendered_checked": true,
+ "title": "Herschel Heritage\u2122 Ripstop Reflective Backpack \u2013 Herschel Supply Co. USA",
+ "url": "https://herschel.com/products/herschel-heritage-ripstop-reflective-backpack"
+}

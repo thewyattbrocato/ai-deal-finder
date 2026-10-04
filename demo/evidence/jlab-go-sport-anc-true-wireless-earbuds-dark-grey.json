@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:15Z",
+  "ship": [
+   "FREE SHIPPING",
+   "Get it via Standard Delivery",
+   "Shipping to Your Location Change",
+   "Shipping",
+   "International Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.jlab.com/products/go-sport-anc-true-wireless-earbuds-dark-grey"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.jlab.com/products/go-sport-anc-true-wireless-earbuds-dark-grey",
+ "http_status": 200,
+ "id": "jlab-go-sport-anc-true-wireless-earbuds-dark-grey",
+ "image_file": "jlab-go-sport-anc-true-wireless-earbuds-dark-grey.jpg",
+ "image_sha256": "10abbe272768202116fd4487b3842b46626abf139ccda1606181e53dcceb6880",
+ "image_source": "https://www.jlab.com/cdn/shop/files/2_GOSportANC_Graphite.jpg?v=1781809694&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/go-sport-anc-true-wireless-earbuds-dark-grey#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "JLab"
+   },
+   "category": "In-Ear Headphones",
+   "description": "\nThe GO Sport ANC True Wireless Earbuds are sport ear-hook earbuds built for workouts and commutes, with active noise canceling, Be Aware mode, and an IP55 rating. They come in 4 colorways.\nActive Noise Canceling blocks out gym or commute noise to help you stay focused, while Be Aware mode lets outside sound through on demand for safety during outdoor runs, without pausing playback. Wind Noise Reduction, available in the JLab App, filters out wind noise on the move.\nSoft, bendable ear hooks combined with 3 sets of gel ear tips (small, medium, large) lock the earbuds in place through movement, reducing slipping during workouts.\nAn IP55 rating protects against sweat, splash, and dust, so the earbuds hold up through rain, sweat, or heavy effort.\n10mm dynamic drivers with neodymium magnets deliver a 20Hz to 20kHz frequency response, with built-in Lab Spatial Audio EQ for a fuller soundstage. Output is rated at 104dB \u00b1 3dB.\nTwo MEMS microphones with noise canceling pick up voice clearly during calls, cutting through gym or traffic noise.\u00a0\nBluetooth 6 connects with a 30+ foot range, and Bluetooth Multipoint pairs two devices at once, letting the earbuds switch from a laptop to a phone without re-pairing. Google Fast Pair speeds up setup on Android, and Microsoft Swift Pair does the same on Windows.\nThe JLab App adds custom EQ, touch control customization, ANC and Be Aware toggling, Spatial Audio, Wind Noise Reduction, and a built-in workout timer.\nEach earbud lasts 8.5+ hours per charge, with the charging case extending total playtime to 35+ hours, or 24+ hours with ANC on. The case charges via USB-C in 2 hours, and a 10 minute rapid charge adds 1 hour of playtime.\nIncludes: GO Sport ANC earbuds, a charging case, 3 sets of gel tips (small, medium, large), and a JLab 2 year limited warranty.\nSpecifications\nAudioDriver: 10mm dynamic, neodymium magnetFrequency response: 20Hz to 20kHzImpedance: 32 ohmsOutput: 104dB \u00b1 3dBSpatial Audio: Yes (Lab Spatial Audio EQ)\nNoise cancelingActive Noise Canceling: YesBe Aware: YesWind Noise Reduction: Yes (via app)\nMicrophoneTotal microphones: 2 x MEMSNoise canceling: Yes\nConnectivityBluetooth: 6Codecs: AAC, SBCRange: 30+ ftSupport protocols: HSP/HFP/A2DP/AVRCPMultipoint: YesGoogle Fast Pair: YesMicrosoft Swift Pair: Yes\nBatteryEarbud battery: 45mAh 3.8V LiPoSingle earbud playtime: 8.5+ hoursTotal playtime: 35+ hours (24+ with ANC on)Earbud charge time: 2 hours (in case)Rapid charge: 10 min = 1 hourCase battery: 400mAh LiPoCase charge time: 2 hoursCharge port: USB-C\nFit and comfortEar hook: Yes, soft and bendableEar tip sizes: Small, medium, largeIP rating: IP55\nFeaturesControls: Touch\nApp (JLab App)Custom EQ: YesCustom controls: YesANC toggle: YesBe Aware toggle: YesSpatial Audio: YesWind Noise Reduction: YesWorkout timer: Yes\nIn the boxGO Sport ANC earbuds \u00b7 Charging case \u00b7 3 sets gel tips (S/M/L) \u00b7 JLab 2 year limited warranty\n",
+   "gtin": "810119077011",
+   "image": "https://www.jlab.com/cdn/shop/files/2_GOSportANC_Graphite.jpg?v=1781809694&width=1920",
+   "name": "GO Sport ANC True Wireless Earbuds Dark Grey",
+   "offers": {
+    "@id": "/products/go-sport-anc-true-wireless-earbuds-dark-grey?variant=41163824103496#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "42.99",
+    "priceCurrency": "USD",
+    "url": "https://www.jlab.com/products/go-sport-anc-true-wireless-earbuds-dark-grey?variant=41163824103496"
+   },
+   "sku": "EBGSPTNCGPH50WEB",
+   "url": "https://www.jlab.com/products/go-sport-anc-true-wireless-earbuds-dark-grey"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:17Z",
+ "og_image": "https://www.jlab.com/cdn/shop/files/2_GOSportANC_Graphite.jpg?v=1781809694&width=1200",
+ "page_sha256": "5583f287ab891474c62eb3da6e4741f95a65575b9696c7cc1f3d072eb8aceb07",
+ "rendered_checked": true,
+ "title": "JLab GO Sport ANC True Wireless Earbuds Dark Grey",
+ "url": "https://jlab.com/products/go-sport-anc-true-wireless-earbuds-dark-grey"
+}

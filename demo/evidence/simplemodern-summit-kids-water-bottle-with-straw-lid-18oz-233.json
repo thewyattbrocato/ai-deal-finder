@@ -1,0 +1,70 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:02Z",
+  "ship": [
+   "Free Shipping on Orders Over $30",
+   "How many days should I expect for shipping?",
+   "Standard shipping orders average 4-8 business days from the time of shipment in the contiguous US.",
+   "Shipping"
+  ],
+  "size": [
+   "Select Size: 18oz",
+   "Size"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://www.simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233",
+ "http_status": 200,
+ "id": "simplemodern-summit-kids-water-bottle-with-straw-lid-18oz-233",
+ "image_file": "simplemodern-summit-kids-water-bottle-with-straw-lid-18oz-233.jpg",
+ "image_sha256": "4d86d7150760838f8cbcf65f111c92d04b7399f2457e253226fd1ab95180eb87",
+ "image_source": "https://www.simplemodern.com/cdn/shop/files/SM2-S-18-WYGH-M_d03ec2bd-4628-456d-8118-6c2f52d196e5.jpg?v=1755721616&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://www.simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 128,
+    "ratingValue": 4.6
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Simple Modern"
+   },
+   "description": "\nVacuum Insulated:\u00a0Keep your drink cold for hours with the double-walled, insulated stainless steel water bottle for kids.\n\n\nLeak Proof Straw Lid:\u00a0Our BPA-free straw lid is leak-proof when the nozzle is in the closed position.\n\n\nCupholder Friendly:\u00a0The 10oz-22oz Summit water bottles fit in most cup holders.\u00a0\n\n\nNot intended for Hot Liquids:\u00a0Pressure may build in the bottle causing leaks or spills.\n\n\nNot for children under 3 years old.\nUS Patent Pending",
+   "gtin": 191719297178,
+   "image": "https://www.simplemodern.com/cdn/shop/files/SM2-S-18-WYGH-M_d03ec2bd-4628-456d-8118-6c2f52d196e5.jpg?crop=center&height=1500&v=1755721616&width=1500",
+   "name": "Summit Water Bottle with Straw Lid",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "description": "\nVacuum Insulated:\u00a0Keep your drink cold for hours with the double-walled, insulated stainless steel water bottle for kids.\n\n\nLeak Proof Straw Lid:\u00a0Our BPA-free straw lid is leak-proof when the nozzle is in the closed position.\n\n\nCupholder Friendly:\u00a0The 10oz-22oz Summit water bottles fit in most cup holders.\u00a0\n\n\nNot intended for Hot Liquids:\u00a0Pressure may build in the bottle causing leaks or spills.\n\n\nNot for children under 3 years old.\nUS Patent Pending",
+    "gtin": 191719297178,
+    "image": "https://www.simplemodern.com/cdn/shop/files/SM2-S-18-WYGH-M_d03ec2bd-4628-456d-8118-6c2f52d196e5.jpg?crop=center&height=1500&v=1755721616&width=1500",
+    "itemCondition": "https://schema.org/NewCondition",
+    "name": "Summit Water Bottle with Straw Lid",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "SM2-S-18-WYGH-M",
+    "url": "https://www.simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233?variant=40657409179720"
+   },
+   "productID": "6983923138632",
+   "sku": "SM2-S-18-WYGH-M",
+   "url": "https://www.simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233"
+  }
+ ],
+ "kind": "Outdoors",
+ "observed_at": "2026-10-03T23:52:54Z",
+ "og_image": "//www.simplemodern.com/cdn/shop/files/SM2-S-18-WYGH-M_d03ec2bd-4628-456d-8118-6c2f52d196e5.jpg?v=1755721616&width=1200",
+ "page_sha256": "e14b71beea74181175c4445219bb225e4f9fab39af3cd6407e3bfcd92b8c7e7a",
+ "rendered_checked": true,
+ "title": "Summit Water Bottle with Straw Lid \u2013 Simple Modern",
+ "url": "https://simplemodern.com/products/summit-kids-water-bottle-with-straw-lid-18oz-233"
+}
