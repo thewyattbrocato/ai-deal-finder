@@ -1,0 +1,194 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:07:23Z",
+  "ship": [
+   "Free shipping",
+   "Free Shipping Over $55",
+   "Orders ship in 1\u20132 business days. U.S. shipping typically takes 3\u20137 days to your door."
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe today!",
+   "SUBSCRIBE",
+   "Subscribe & Save",
+   "Build My Subscription",
+   "Subscribe"
+  ],
+  "url": "https://www.drsquatch.com/products/oceanside-orchard-deodorant"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.drsquatch.com/products/oceanside-orchard-deodorant",
+ "http_status": 200,
+ "id": "drsquatch-oceanside-orchard-deodorant",
+ "image_file": "drsquatch-oceanside-orchard-deodorant.png",
+ "image_sha256": "acc670a3e8fb9e54ac3f69af6a368f66f324682dc370c7a0541c96f25d839661",
+ "image_source": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Carousel-Scent-Bar-Soap-Placement--3.png?v=1785166801&width=420&height=1200&crop=center",
+ "json_ld": [
+  {
+   "@id": "https://www.drsquatch.com/products/oceanside-orchard-deodorant#product",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Scent",
+     "value": "Oceanside Orchard"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Net Weight",
+     "value": "4.8 oz"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "reviewCount": 14
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Dr. Squatch"
+   },
+   "description": "Oceanside Orchard is a natural deodorant for men with coastal apple, sea salt & cedarwood. Aluminum-free, fresh-meets-fruity confidence.",
+   "image": [
+    {
+     "@type": "ImageObject",
+     "caption": "Oceanside Orchard Deodorant",
+     "height": 675,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Carousel-Scent-Bar-Soap-Placement--3.png?v=1785166801&width=1200&height=1200&crop=center",
+     "width": 1200
+    },
+    {
+     "@type": "ImageObject",
+     "caption": "Oceanside Orchard Deodorant",
+     "height": 900,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Carousel-Scent-Bar-Soap-Placement--3.png?v=1785166801&width=1200&height=900&crop=center",
+     "width": 1200
+    },
+    {
+     "@type": "ImageObject",
+     "caption": "Oceanside Orchard Deodorant",
+     "height": 675,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Carousel-Scent-Bar-Soap-Placement--3.png?v=1785166801&width=1200&height=675&crop=center",
+     "width": 1200
+    }
+   ],
+   "name": "Oceanside Orchard Deodorant",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": "13.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "shippingDetails": [
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 5,
+         "minValue": 3,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "maxValue": 152,
+        "minValue": 4.49
+       }
+      },
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 5,
+         "minValue": 3,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "price": 55,
+        "priceCurrency": "USD"
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 1
+       }
+      }
+     ],
+     "sku": "DEO-OCD-01",
+     "url": "https://www.drsquatch.com/products/oceanside-orchard-deodorant"
+    }
+   ],
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Nate"
+     },
+     "datePublished": "2026-09-19T14:41:15.000Z",
+     "reviewBody": "Love this product.",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "RYAN"
+     },
+     "datePublished": "2026-09-09T13:52:40.000Z",
+     "reviewBody": "The smell is lovely and it last all day",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5
+     }
+    }
+   ],
+   "sku": "DEO-OCD-01",
+   "url": "https://www.drsquatch.com/products/oceanside-orchard-deodorant"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T23:53:43Z",
+ "og_image": null,
+ "page_sha256": "0d739d390a68fa900aa2653fcdc594b35257007d7ad39f8a67f10a31c99072ca",
+ "rendered_checked": true,
+ "title": "Oceanside Orchard Natural Deodorant for Men | Dr. Squatch",
+ "url": "https://drsquatch.com/products/oceanside-orchard-deodorant"
+}

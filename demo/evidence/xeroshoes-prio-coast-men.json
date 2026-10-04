@@ -1,0 +1,2130 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:13:11Z",
+  "ship": [
+   "Shipping Info",
+   "Free Shipping $99+"
+  ],
+  "size": [
+   "Size 6.5",
+   "Size Guide",
+   "Size Fit",
+   "Size Conversion"
+  ],
+  "sub": [
+   "Subscribe"
+  ],
+  "url": "https://xeroshoes.com/products/prio-coast-men"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://xeroshoes.com/products/prio-coast-men",
+ "http_status": 200,
+ "id": "xeroshoes-prio-coast-men",
+ "image_file": "xeroshoes-prio-coast-men.jpg",
+ "image_sha256": "824e2bcc7e64db7efbd79100cca460d6c101ac88409cbe7c4b1b891ecd5c6c13",
+ "image_source": "http://xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org/",
+   "@id": "https://xeroshoes.com/products/prio-coast-men#productGroup",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": 4.44,
+    "reviewCount": 62,
+    "worstRating": 1
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Xero Shoes"
+   },
+   "description": "Effortless by design. The Prio Coast brings barefoot freedom to a classic slip-on,blending everyday style with natural comfort you\u2019ll never want to take off.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "6.5",
+     "sku": "PRCM-STGY-M06.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963234482"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7",
+     "sku": "PRCM-STGY-M07",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963267250"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7.5",
+     "sku": "PRCM-STGY-M07.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963300018"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8",
+     "sku": "PRCM-STGY-M08",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963332786"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8.5",
+     "sku": "PRCM-STGY-M08.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963365554"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9",
+     "sku": "PRCM-STGY-M09",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963398322"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9.5",
+     "sku": "PRCM-STGY-M09.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963431090"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10",
+     "sku": "PRCM-STGY-M10",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963463858"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10.5",
+     "sku": "PRCM-STGY-M10.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963496626"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11",
+     "sku": "PRCM-STGY-M11",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963529394"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11.5",
+     "sku": "PRCM-STGY-M11.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963562162"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12",
+     "sku": "PRCM-STGY-M12",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963594930"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12.5",
+     "sku": "PRCM-STGY-M12.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963627698"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "13",
+     "sku": "PRCM-STGY-M13",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963660466"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "14",
+     "sku": "PRCM-STGY-M14",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963693234"
+    },
+    {
+     "@type": "Product",
+     "color": "Steel Gray",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+     "name": "Prio Coast - Men - Steel Gray - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "15",
+     "sku": "PRCM-STGY-M15",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963726002"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "6.5",
+     "sku": "PRCM-AMGN-M06.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961661618"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7",
+     "sku": "PRCM-AMGN-M07",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961694386"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7.5",
+     "sku": "PRCM-AMGN-M07.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961727154"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8",
+     "sku": "PRCM-AMGN-M08",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961759922"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8.5",
+     "sku": "PRCM-AMGN-M08.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961792690"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9",
+     "sku": "PRCM-AMGN-M09",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961825458"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9.5",
+     "sku": "PRCM-AMGN-M09.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961858226"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10",
+     "sku": "PRCM-AMGN-M10",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961890994"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10.5",
+     "sku": "PRCM-AMGN-M10.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961923762"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11",
+     "sku": "PRCM-AMGN-M11",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961956530"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11.5",
+     "sku": "PRCM-AMGN-M11.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961989298"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12",
+     "sku": "PRCM-AMGN-M12",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962022066"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12.5",
+     "sku": "PRCM-AMGN-M12.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962054834"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "13",
+     "sku": "PRCM-AMGN-M13",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962087602"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "14",
+     "sku": "PRCM-AMGN-M14",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962120370"
+    },
+    {
+     "@type": "Product",
+     "color": "Army Green",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Army Green - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "15",
+     "sku": "PRCM-AMGN-M15",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962153138"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "6.5",
+     "sku": "PRCM-LRIO-M06.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962710194"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7",
+     "sku": "PRCM-LRIO-M07",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962742962"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7.5",
+     "sku": "PRCM-LRIO-M07.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962775730"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8",
+     "sku": "PRCM-LRIO-M08",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962808498"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8.5",
+     "sku": "PRCM-LRIO-M08.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962841266"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9",
+     "sku": "PRCM-LRIO-M09",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962874034"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9.5",
+     "sku": "PRCM-LRIO-M09.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962906802"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10",
+     "sku": "PRCM-LRIO-M10",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962939570"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10.5",
+     "sku": "PRCM-LRIO-M10.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962972338"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11",
+     "sku": "PRCM-LRIO-M11",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963005106"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11.5",
+     "sku": "PRCM-LRIO-M11.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963037874"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12",
+     "sku": "PRCM-LRIO-M12",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963070642"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12.5",
+     "sku": "PRCM-LRIO-M12.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963103410"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "13",
+     "sku": "PRCM-LRIO-M13",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963136178"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "14",
+     "sku": "PRCM-LRIO-M14",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963168946"
+    },
+    {
+     "@type": "Product",
+     "color": "Lunar / Blue Iolite",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+     "name": "Prio Coast - Men - Lunar - Blue Iolite - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "15",
+     "sku": "PRCM-LRIO-M15",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963201714"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 6.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "6.5",
+     "sku": "PRCM-BLCK-M06.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962185906"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 7",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7",
+     "sku": "PRCM-BLCK-M07",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962218674"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 7.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "7.5",
+     "sku": "PRCM-BLCK-M07.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962251442"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 8",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8",
+     "sku": "PRCM-BLCK-M08",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962284210"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 8.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "8.5",
+     "sku": "PRCM-BLCK-M08.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962316978"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 9",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9",
+     "sku": "PRCM-BLCK-M09",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962349746"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 9.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "9.5",
+     "sku": "PRCM-BLCK-M09.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962382514"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 10",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10",
+     "sku": "PRCM-BLCK-M10",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962415282"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 10.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "10.5",
+     "sku": "PRCM-BLCK-M10.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962448050"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 11",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11",
+     "sku": "PRCM-BLCK-M11",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962480818"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 11.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "11.5",
+     "sku": "PRCM-BLCK-M11.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962513586"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 12",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12",
+     "sku": "PRCM-BLCK-M12",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962546354"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 12.5",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "12.5",
+     "sku": "PRCM-BLCK-M12.5",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962579122"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 13",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "13",
+     "sku": "PRCM-BLCK-M13",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962611890"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 14",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "14",
+     "sku": "PRCM-BLCK-M14",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962644658"
+    },
+    {
+     "@type": "Product",
+     "color": "Black",
+     "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+     "name": "Prio Coast - Men - Black - 15",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "99.99",
+      "priceCurrency": "USD",
+      "url": "https://xeroshoes.com/products/prio-coast-men"
+     },
+     "size": "15",
+     "sku": "PRCM-BLCK-M15",
+     "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962677426"
+    }
+   ],
+   "image": [
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Back_0177_034e7e8b-82f1-4ef9-8808-69414d6726df.jpg?v=1777647108&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Bottom_0178_b0b21cc3-9cb2-4dc8-8b05-5ccecf557637.jpg?v=1777647108&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Front_0175_49435734-14f9-483f-a1ec-fc46e801ade8.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Left-Side_0176_d0c29bf2-1807-4bff-9a87-02326496fd25.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Top_0180_7555df82-be75-4ef7-88cc-ea31b26909ff.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_Back_0165_e8a8bbbe-eaa9-49e0-a96a-f94405ee1b1b.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_Bottom_0166_5a35a1dd-38a0-4e85-87cc-10584aa89dad.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_Front_0163_4d8afcb9-6d02-4bf2-82e8-ad1e8dedceda.jpg?v=1777647108&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_Left-Side0164_4a2b187a-d1d8-4d58-bb17-e8ed95136483.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_Top_0169_de7c0611-7607-4bcc-8f6a-35b6e31ae00b.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Back_0189_daa5cbc3-b873-4715-9266-007e2cb29200.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Bottom_0190_fe515eec-42d1-460d-90d4-5e3a9011c3e3.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Bottom_0191_f2f19b19-34e1-4025-9e74-6a01ba508992.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Front_0186_f54fac5d-52bf-4ae7-b7a7-758cc7bb00ae.jpg?v=1777647107&width=2048",
+    "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Left-Side_0187_acc23a95-888a-4d45-9eca-d39554f7b4c1.jpg?v=1777647107&width=2048"
+   ],
+   "name": "Prio Coast - Men",
+   "productGroupID": "8730153975986",
+   "url": "https://xeroshoes.com/products/prio-coast-men",
+   "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+   ]
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "6.5",
+   "sku": "PRCM-STGY-M06.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963234482"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7",
+   "sku": "PRCM-STGY-M07",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963267250"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7.5",
+   "sku": "PRCM-STGY-M07.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963300018"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8",
+   "sku": "PRCM-STGY-M08",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963332786"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8.5",
+   "sku": "PRCM-STGY-M08.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963365554"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9",
+   "sku": "PRCM-STGY-M09",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963398322"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9.5",
+   "sku": "PRCM-STGY-M09.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963431090"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10",
+   "sku": "PRCM-STGY-M10",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963463858"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10.5",
+   "sku": "PRCM-STGY-M10.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963496626"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11",
+   "sku": "PRCM-STGY-M11",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963529394"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11.5",
+   "sku": "PRCM-STGY-M11.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963562162"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12",
+   "sku": "PRCM-STGY-M12",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963594930"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12.5",
+   "sku": "PRCM-STGY-M12.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963627698"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "13",
+   "sku": "PRCM-STGY-M13",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963660466"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "14",
+   "sku": "PRCM-STGY-M14",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963693234"
+  },
+  {
+   "@type": "Product",
+   "color": "Steel Gray",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107&width=2048",
+   "name": "Prio Coast - Men - Steel Gray - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "15",
+   "sku": "PRCM-STGY-M15",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963726002"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "6.5",
+   "sku": "PRCM-AMGN-M06.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961661618"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7",
+   "sku": "PRCM-AMGN-M07",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961694386"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7.5",
+   "sku": "PRCM-AMGN-M07.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961727154"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8",
+   "sku": "PRCM-AMGN-M08",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961759922"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8.5",
+   "sku": "PRCM-AMGN-M08.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961792690"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9",
+   "sku": "PRCM-AMGN-M09",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961825458"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9.5",
+   "sku": "PRCM-AMGN-M09.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961858226"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10",
+   "sku": "PRCM-AMGN-M10",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961890994"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10.5",
+   "sku": "PRCM-AMGN-M10.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961923762"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11",
+   "sku": "PRCM-AMGN-M11",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961956530"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11.5",
+   "sku": "PRCM-AMGN-M11.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039961989298"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12",
+   "sku": "PRCM-AMGN-M12",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962022066"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12.5",
+   "sku": "PRCM-AMGN-M12.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962054834"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "13",
+   "sku": "PRCM-AMGN-M13",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962087602"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "14",
+   "sku": "PRCM-AMGN-M14",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962120370"
+  },
+  {
+   "@type": "Product",
+   "color": "Army Green",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-AMGN-M09_Prio-Coast_Army-Green_Right-Side_0174_07e87d1e-3e4d-4c97-b45b-ada17851620a.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Army Green - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "15",
+   "sku": "PRCM-AMGN-M15",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962153138"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "6.5",
+   "sku": "PRCM-LRIO-M06.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962710194"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7",
+   "sku": "PRCM-LRIO-M07",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962742962"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7.5",
+   "sku": "PRCM-LRIO-M07.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962775730"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8",
+   "sku": "PRCM-LRIO-M08",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962808498"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8.5",
+   "sku": "PRCM-LRIO-M08.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962841266"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9",
+   "sku": "PRCM-LRIO-M09",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962874034"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9.5",
+   "sku": "PRCM-LRIO-M09.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962906802"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10",
+   "sku": "PRCM-LRIO-M10",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962939570"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10.5",
+   "sku": "PRCM-LRIO-M10.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962972338"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11",
+   "sku": "PRCM-LRIO-M11",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963005106"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11.5",
+   "sku": "PRCM-LRIO-M11.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963037874"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12",
+   "sku": "PRCM-LRIO-M12",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963070642"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12.5",
+   "sku": "PRCM-LRIO-M12.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963103410"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "13",
+   "sku": "PRCM-LRIO-M13",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963136178"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "14",
+   "sku": "PRCM-LRIO-M14",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963168946"
+  },
+  {
+   "@type": "Product",
+   "color": "Lunar / Blue Iolite",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-LRIO-M_PrioCoast_LunarBlueIolite_Lateral.jpg?v=1780958719&width=2048",
+   "name": "Prio Coast - Men - Lunar - Blue Iolite - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "15",
+   "sku": "PRCM-LRIO-M15",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039963201714"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 6.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "6.5",
+   "sku": "PRCM-BLCK-M06.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962185906"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 7",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7",
+   "sku": "PRCM-BLCK-M07",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962218674"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 7.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "7.5",
+   "sku": "PRCM-BLCK-M07.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962251442"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 8",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8",
+   "sku": "PRCM-BLCK-M08",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962284210"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 8.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "8.5",
+   "sku": "PRCM-BLCK-M08.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962316978"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 9",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9",
+   "sku": "PRCM-BLCK-M09",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962349746"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 9.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "9.5",
+   "sku": "PRCM-BLCK-M09.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962382514"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 10",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10",
+   "sku": "PRCM-BLCK-M10",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962415282"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 10.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "10.5",
+   "sku": "PRCM-BLCK-M10.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962448050"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 11",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11",
+   "sku": "PRCM-BLCK-M11",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962480818"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 11.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "11.5",
+   "sku": "PRCM-BLCK-M11.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962513586"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 12",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12",
+   "sku": "PRCM-BLCK-M12",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962546354"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 12.5",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "12.5",
+   "sku": "PRCM-BLCK-M12.5",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962579122"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 13",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "13",
+   "sku": "PRCM-BLCK-M13",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962611890"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 14",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "14",
+   "sku": "PRCM-BLCK-M14",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962644658"
+  },
+  {
+   "@type": "Product",
+   "color": "Black",
+   "image": "//xeroshoes.com/cdn/shop/files/PRCM-BLCK-M09_Prio-Coast_Black_RIght-Side_0161_91fa6a13-fc2c-47ee-8463-06ae7dbe65fb.jpg?v=1777647108&width=2048",
+   "name": "Prio Coast - Men - Black - 15",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "99.99",
+    "priceCurrency": "USD",
+    "url": "https://xeroshoes.com/products/prio-coast-men"
+   },
+   "size": "15",
+   "sku": "PRCM-BLCK-M15",
+   "url": "https://xeroshoes.com/products/prio-coast-men?variant=47039962677426"
+  }
+ ],
+ "kind": "Shoes",
+ "observed_at": "2026-10-03T23:54:23Z",
+ "og_image": "http://xeroshoes.com/cdn/shop/files/PRCM-STGY-M09_Prio-Coast_Steel-Gray_Right-Side_0185_2e9be751-e910-4304-96f6-955de2e28f3b.jpg?v=1777647107",
+ "page_sha256": "e192c88511629edb6ad43daf89125682e21a4fc7e58bee1e0547cf5dd492af5d",
+ "rendered_checked": true,
+ "title": "Prio Coast Hands-Free Barefoot Shoe - Xero Shoes - Xero Shoes",
+ "url": "https://xeroshoes.com/products/prio-coast-men"
+}

@@ -1,0 +1,104 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:21Z",
+  "ship": [
+   "Free U.S. Shipping on $100+ & Exchanges",
+   "Free Shipping on $100+",
+   "Returns & Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://topodesigns.com/products/daypack-classic-navy"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://topodesigns.com/products/daypack-classic-navy",
+ "http_status": 200,
+ "id": "topodesigns-daypack-classic-navy",
+ "image_file": "topodesigns-daypack-classic-navy.jpg",
+ "image_sha256": "d56809928cb36bb3e012c86f31f4980f15868e703a7403a966c894fd170018d3",
+ "image_source": "https://topodesigns.com/cdn/shop/files/Daypack_Classic_Navy_3_45.14.11PM.jpg?crop=center&height=628&v=1774463785&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/daypack-classic-navy#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Topo Designs"
+   },
+   "category": "Backpacks",
+   "description": "Our classic Daypack. An ideal travel companion, workmate or pack mule for the daily hike in the hills. We use 1000D Cordura\u00ae for the exterior and coated pack cloth for an entirely lined inner compartment. Our natural leather lash tabs are perfect for securing extra gear or attaching a bike light.\nAll of our Daypacks are handmade here in Colorado.\nFeatures\n\nNatural leather lash tab\nHeavy-duty hardware\nComfortable contoured padded shoulder straps\nZippered exterior pocket\nInner organizer pocket and laptop sleeve\nFits most 15\" laptops\n\nMaterials\n1000D Cordura\u00ae fabric outer, coated pack cloth liner\nDimensions\n13\"w x 19\"h x 8\"d\nVolume\n1220 cu. in. / 20 L\nWeight\n23.04 oz., Leather 27.36 oz., Ballistic 33.28 oz.\nOrigin\nMade in USA",
+   "hasVariant": [
+    {
+     "@id": "/products/daypack-classic-navy?variant=45988955258933#variant",
+     "@type": "Product",
+     "gtin": "840336839857",
+     "image": "https://topodesigns.com/cdn/shop/files/Daypack_Classic_Navy_3_45.14.11PM.jpg?v=1774463785&width=1920",
+     "name": "Daypack Classic - Navy",
+     "offers": {
+      "@id": "/products/daypack-classic-navy?variant=45988955258933#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "109.00",
+      "priceCurrency": "USD",
+      "url": "https://topodesigns.com/products/daypack-classic-navy?variant=45988955258933"
+     },
+     "sku": "932416410000"
+    }
+   ],
+   "name": "Daypack Classic",
+   "productGroupID": "8235489591349",
+   "url": "https://topodesigns.com/products/daypack-classic-navy"
+  },
+  {
+   "@id": "/products/daypack-classic-navy?variant=45988955258933#variant",
+   "@type": "Product",
+   "gtin": "840336839857",
+   "image": "https://topodesigns.com/cdn/shop/files/Daypack_Classic_Navy_3_45.14.11PM.jpg?v=1774463785&width=1920",
+   "name": "Daypack Classic - Navy",
+   "offers": {
+    "@id": "/products/daypack-classic-navy?variant=45988955258933#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "109.00",
+    "priceCurrency": "USD",
+    "url": "https://topodesigns.com/products/daypack-classic-navy?variant=45988955258933"
+   },
+   "sku": "932416410000"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "177"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Topo Designs"
+   },
+   "description": "Our classic Daypack. An ideal travel companion, workmate or pack mule for the daily hike in the hills. We use 1000D Cordura\u00ae for the exterior and coated pack cloth for an entirely lined inner compartment. Our natural leather lash tabs are perfect for securing extra gear or attaching a bike light.\nAll of our Daypacks are handmade here in Colorado.\nFeatures\n\nNatural leather lash tab\nHeavy-duty hardware\nComfortable contoured padded shoulder straps\nZippered exterior pocket\nInner organizer pocket and laptop sleeve\nFits most 15\" laptops\n\nMaterials\n1000D Cordura\u00ae fabric outer, coated pack cloth liner\nDimensions\n13\"w x 19\"h x 8\"d\nVolume\n1220 cu. in. / 20 L\nWeight\n23.04 oz., Leather 27.36 oz., Ballistic 33.28 oz.\nOrigin\nMade in USA",
+   "image": [
+    "https://topodesigns.com/cdn/shop/files/Daypack_Classic_Navy_3_45.14.11PM.jpg?v=1774463785&width=480"
+   ],
+   "name": "Daypack Classic",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "109.0",
+    "priceCurrency": "USD",
+    "sku": "932416410000",
+    "url": "https://topodesigns.com/products/daypack-classic-navy?variant=45988955258933"
+   },
+   "sku": "932416410000"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T23:53:10Z",
+ "og_image": "https://topodesigns.com/cdn/shop/files/Daypack_Classic_Navy_3_45.14.11PM.jpg?crop=center&height=628&v=1774463785&width=1200",
+ "page_sha256": "0393b9b28d0a9c76a3be59b369831681cd730a1b7c7b76499f4ca605489c3519",
+ "rendered_checked": true,
+ "title": "Daypack | Classic Backpack for Everyday Adventures | Topo Designs",
+ "url": "https://topodesigns.com/products/daypack-classic-navy"
+}

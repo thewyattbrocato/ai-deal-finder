@@ -1,0 +1,189 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:07:08Z",
+  "ship": [],
+  "size": [],
+  "sub": [
+   "Subscribe today!",
+   "SUBSCRIBE",
+   "Subscribe"
+  ],
+  "url": "https://www.drsquatch.com/products/drunkn-pumpkin-deodorant"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.drsquatch.com/products/drunkn-pumpkin-deodorant",
+ "http_status": 200,
+ "id": "drsquatch-drunkn-pumpkin-deodorant",
+ "image_file": "drsquatch-drunkn-pumpkin-deodorant.png",
+ "image_sha256": "61e934c7e413dedc210ebb8a6cbd6baebbe80d81b289806ff860cf245f80c277",
+ "image_source": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Drunk_n-Pumpkin-Deo-01-Product-Card-CXWT.png?v=1758843025&width=420&height=1200&crop=center",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Scent",
+     "value": "Drunk'n Pumpkin"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Net Weight",
+     "value": "4.8 oz"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7,
+    "reviewCount": 76
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Dr. Squatch"
+   },
+   "description": "Featuring earthy notes of pumpkin, apple, fresh ginger, and spices.",
+   "gtin12": "810095596742",
+   "image": [
+    {
+     "@type": "ImageObject",
+     "caption": "Drunk'n Pumpkin Deodorant",
+     "height": 675,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Drunk_n-Pumpkin-Deo-01-Product-Card-CXWT.png?v=1758843025&width=1200&height=1200&crop=center",
+     "width": 1200
+    },
+    {
+     "@type": "ImageObject",
+     "caption": "Drunk'n Pumpkin Deodorant",
+     "height": 900,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Drunk_n-Pumpkin-Deo-01-Product-Card-CXWT.png?v=1758843025&width=1200&height=900&crop=center",
+     "width": 1200
+    },
+    {
+     "@type": "ImageObject",
+     "caption": "Drunk'n Pumpkin Deodorant",
+     "height": 675,
+     "url": "https://cdn.shopify.com/s/files/1/0275/7784/3817/files/Drunk_n-Pumpkin-Deo-01-Product-Card-CXWT.png?v=1758843025&width=1200&height=675&crop=center",
+     "width": 1200
+    }
+   ],
+   "name": "Drunk'n Pumpkin Deodorant",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "price": "13.50",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "shippingDetails": [
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 5,
+         "minValue": 3,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "maxValue": 152,
+        "minValue": 4.49
+       }
+      },
+      {
+       "@type": "OfferShippingDetails",
+       "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 5,
+         "minValue": 3,
+         "unitCode": "DAY"
+        },
+        "transitTime": {
+         "@type": "QuantitativeValue",
+         "maxValue": 7,
+         "minValue": 3,
+         "unitCode": "DAY"
+        }
+       },
+       "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "price": 55,
+        "priceCurrency": "USD"
+       },
+       "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+       },
+       "shippingRate": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": 1
+       }
+      }
+     ],
+     "sku": "DEO-PMK-01",
+     "url": "https://www.drsquatch.com/products/drunkn-pumpkin-deodorant"
+    }
+   ],
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Brian"
+     },
+     "datePublished": "2026-10-01T10:00:56.000Z",
+     "reviewBody": "Who doesn't want to smell like a pumpkin during October?",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jonathan"
+     },
+     "datePublished": "2026-09-30T16:09:53.000Z",
+     "reviewBody": "Always enjoy the scents. And I was worried about the deodorant because I work in a glass plant, but I was under extreme heat yesterday and the deodorant worked amazingly!",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5
+     }
+    }
+   ],
+   "sku": "DEO-PMK-01",
+   "url": "https://www.drsquatch.com/products/drunkn-pumpkin-deodorant"
+  }
+ ],
+ "kind": "Grooming",
+ "observed_at": "2026-10-03T23:53:41Z",
+ "og_image": null,
+ "page_sha256": "d39f8a23054bde6b6adfb87a2366afdcc095818387f2703fc302a202b88d1089",
+ "rendered_checked": true,
+ "title": "Drunk'n Pumpkin Deodorant",
+ "url": "https://drsquatch.com/products/drunkn-pumpkin-deodorant"
+}

@@ -1,0 +1,175 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:10:07Z",
+  "ship": [
+   "Shipping Info"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to receive first-hand brand updates, access to exclusive deals, and 15% discount off your first order."
+  ],
+  "url": "https://www.nativeunion.com/products/pop-cable"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.nativeunion.com/products/pop-cable",
+ "http_status": 200,
+ "id": "nativeunion-pop-cable",
+ "image_file": "nativeunion-pop-cable.png",
+ "image_sha256": "5fd73726623b715e76af24b85523ad0920d41d5ae236e857b55f2c8bfd342c80",
+ "image_source": "http://www.nativeunion.com/cdn/shop/files/PopCable-AlarmRed.png?v=1766482350&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5.0",
+    "ratingValue": "4.9",
+    "reviewCount": "11",
+    "worstRating": "1.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "category": "Cables",
+   "description": "A nostalgic twist on modern charging. Pop Cable combines the classic, coiled design of landline phones with today's universal USB-C standard. Retracting from a compact 1ft to an extended 4ft, it delivers tangle-free, Power Delivery charging up to 60W for all your devices.\n\nFor Samsung Galaxy, Google Pixel, iPhone 15 and later, tablets, laptops &amp; all your USB-C devices\nCoiled, retractable design enables a tangle-free charging experience &amp; a flexible length between 1ft to 4ft*\nHigh-speed charging up to 60W for USB-C laptops &amp; fast-charges your iPhone up to 50% iPhone in under 30 mins\nMade better for the Earth with 100% recycled TPU\n\nAlso available in POP Cable XL\n\n\n*Recommended usable length up to 4ft\n\n\n",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://www.nativeunion.com/cdn/shop/files/PopCable-AlarmRed.png?v=1766482350&width=1024",
+    "name": "#color_Alarm Red",
+    "url": "https://www.nativeunion.com/cdn/shop/files/PopCable-AlarmRed.png?v=1766482350&width=1024",
+    "width": "1024"
+   },
+   "name": "POP Cable",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "SandStone",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-SAN",
+     "url": "/products/pop-cable?variant=45025688191115"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Alarm Red",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-ARD",
+     "url": "/products/pop-cable?variant=45025662468235"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Pine",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-PIN",
+     "url": "/products/pop-cable?variant=45025688125579"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Black",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-BLK",
+     "url": "/products/pop-cable?variant=45025688158347"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Lemon",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-LMO",
+     "url": "/products/pop-cable?variant=45025662501003"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Candy",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-CDY",
+     "url": "/products/pop-cable?variant=45025688223883"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Azur",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-AZR",
+     "url": "/products/pop-cable?variant=45025688256651"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654091908",
+     "name": "Slate Green",
+     "price": 19.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "POP-C-GRN",
+     "url": "/products/pop-cable?variant=45025688289419"
+    }
+   ],
+   "productID": 8029318709387,
+   "sku": "POP-C-SAN",
+   "url": "/products/pop-cable"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "11"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "description": "A nostalgic twist on modern charging. Pop Cable combines the classic, coiled design of landline phones with today's universal USB-C standard. Retracting from a compact 1ft to an extended 4ft, it delivers tangle-free, Power Delivery charging up to 60W for all your devices.\n\nFor Samsung Galaxy, Google Pixel, iPhone 15 and later, tablets, laptops &amp; all your USB-C devices\nCoiled, retractable design enables a tangle-free charging experience &amp; a flexible length between 1ft to 4ft*\nHigh-speed charging up to 60W for USB-C laptops &amp; fast-charges your iPhone up to 50% iPhone in under 30 mins\nMade better for the Earth with 100% recycled TPU\n\nAlso available in POP Cable XL\n\n\n*Recommended usable length up to 4ft\n\n\n",
+   "image": [
+    "https://www.nativeunion.com/cdn/shop/files/PopCable-AlarmRed.png?v=1766482350&width=480"
+   ],
+   "name": "POP Cable",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "19.99",
+    "priceCurrency": "USD",
+    "sku": "POP-C-SAN",
+    "url": "https://www.nativeunion.com/products/pop-cable?variant=45025688191115"
+   },
+   "sku": "POP-C-SAN"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:31Z",
+ "og_image": "http://www.nativeunion.com/cdn/shop/files/PopCable-AlarmRed.png?v=1766482350",
+ "page_sha256": "6916fd3623234384031a8b1cb9deb99ecce710de2a4ccf65d15229d2918ed6a8",
+ "rendered_checked": true,
+ "title": "Native Union - POP Cable | Charging Cable",
+ "url": "https://nativeunion.com/products/pop-cable"
+}

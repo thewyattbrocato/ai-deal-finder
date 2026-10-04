@@ -1,0 +1,475 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:11Z",
+  "ship": [
+   "Save $80 on Crusher 1080 ANC | Free shipping on orders over $175",
+   "Become a member to earn 209 points today. Members enjoy FREE SHIPPING over $49+.",
+   "Members get free shipping on orders $49+ or $175+"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.skullcandy.com/products/crusher-720-headphones"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.skullcandy.com/products/crusher-720-headphones",
+ "http_status": 200,
+ "id": "skullcandy-crusher-720-headphones",
+ "image_file": "skullcandy-crusher-720-headphones.png",
+ "image_sha256": "362fa8ca73525c916b837a561d52000770d4f15621985f1533dfbffb0d6de924",
+ "image_source": "http://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Returns",
+     "value": "Easy returns"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "1-Year Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Shipping",
+     "value": "Members Get Free Shipping on orders of $49+"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "79"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625&width=2000"
+     ],
+     "name": "Crusher\u00ae 720 - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+     },
+     "sku": "S6CEW-T740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Primer_S6CEW-U987_Web_Buy_Boxes_1.png?v=1782366681&width=2000"
+     ],
+     "name": "Crusher\u00ae 720 - Primer",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077629366329"
+     },
+     "sku": "S6CEW-U987"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Future_S6CEW-U043_Web_Buy_Boxes_1.png?v=1782366206&width=2000"
+     ],
+     "name": "Crusher\u00ae 720 - Future",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077605969977"
+     },
+     "sku": "S6CEW-U043"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Plasma_S6CEW-U995_Web_Buy_Boxes_1.png?v=1782365980&width=2000"
+     ],
+     "name": "Crusher\u00ae 720 - Plasma",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077587750969"
+     },
+     "sku": "S6CEW-U995"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Cement_S6CEW-U993_Web_Buy_Boxes_1.png?v=1782366450&width=2000"
+     ],
+     "name": "Crusher\u00ae 720 - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077618749497"
+     },
+     "sku": "S6CEW-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625&width=2000"
+   ],
+   "name": "Crusher\u00ae 720",
+   "productGroupID": 8311500865593,
+   "sku": "S6CEW-T740",
+   "url": "https://www.skullcandy.com/products/crusher-720-headphones",
+   "variesBy": "https://schema.org/color"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625&width=2000"
+   ],
+   "name": "Crusher\u00ae 720 - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+   },
+   "sku": "S6CEW-T740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Primer_S6CEW-U987_Web_Buy_Boxes_1.png?v=1782366681&width=2000"
+   ],
+   "name": "Crusher\u00ae 720 - Primer",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077629366329"
+   },
+   "sku": "S6CEW-U987"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Future_S6CEW-U043_Web_Buy_Boxes_1.png?v=1782366206&width=2000"
+   ],
+   "name": "Crusher\u00ae 720 - Future",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077605969977"
+   },
+   "sku": "S6CEW-U043"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Plasma_S6CEW-U995_Web_Buy_Boxes_1.png?v=1782365980&width=2000"
+   ],
+   "name": "Crusher\u00ae 720 - Plasma",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077587750969"
+   },
+   "sku": "S6CEW-U995"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_Cement_S6CEW-U993_Web_Buy_Boxes_1.png?v=1782366450&width=2000"
+   ],
+   "name": "Crusher\u00ae 720 - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077618749497"
+   },
+   "sku": "S6CEW-U993"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "79"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "name": "Crusher\u00ae 720 - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+     },
+     "sku": "S6CEW-T740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "name": "Crusher\u00ae 720 - Primer",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077629366329"
+     },
+     "sku": "S6CEW-U987"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "name": "Crusher\u00ae 720 - Future",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077605969977"
+     },
+     "sku": "S6CEW-U043"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "name": "Crusher\u00ae 720 - Plasma",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077587750969"
+     },
+     "sku": "S6CEW-U995"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+     "name": "Crusher\u00ae 720 - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 209.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077618749497"
+     },
+     "sku": "S6CEW-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625&width=2000"
+   ],
+   "isVariantOf": {
+    "@type": "ProductGroup",
+    "name": "Crusher\u00ae 720",
+    "productGroupID": 8311500865593,
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones"
+   },
+   "name": "Crusher\u00ae 720 - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+   },
+   "sku": "S6CEW-T740",
+   "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "name": "Crusher\u00ae 720 - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46049432731705"
+   },
+   "sku": "S6CEW-T740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "name": "Crusher\u00ae 720 - Primer",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077629366329"
+   },
+   "sku": "S6CEW-U987"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "name": "Crusher\u00ae 720 - Future",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077605969977"
+   },
+   "sku": "S6CEW-U043"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "name": "Crusher\u00ae 720 - Plasma",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077587750969"
+   },
+   "sku": "S6CEW-U995"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": "THE MOST INTENSE CRUSHER BASS EXPERIENCE YET\nMeet the next generation of Crusher. Crusher 720 takes everything you loved about Crusher Evo and turns it up with our most intense Crusher\u00ae Bass experience yet. Deeper and smoother than ever, the bass maintains Evo\u2019s signature intensity while delivering more clarity, detail, and musicality. A redesigned Crusher wheel gives you more precise control over the bass, while THX\u00ae Spatial Audio creates a wider, more immersive listening experience. Deeper, softer ear cushions and an improved headband deliver a more comfortable fit, making it easier to listen longer. Add smarter controls, new features, and up to 65 hours of battery life for a Crusher experience that hits harder than ever.",
+   "name": "Crusher\u00ae 720 - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 209.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/crusher-720-headphones?variant=46077618749497"
+   },
+   "sku": "S6CEW-U993"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:22Z",
+ "og_image": "http://www.skullcandy.com/cdn/shop/files/26B_Crusher_720_True_Black_S6CEW-T740_Web_Buy_Boxes_1.png?v=1782329625",
+ "page_sha256": "45589210fb84a1c9fc9cdeb5556fd30934463c3d297bc965e7392d796f5c4404",
+ "rendered_checked": true,
+ "title": "Crusher 720 - Bass Headphones with THX\u00ae Spatial Audio | 65-Hour Battery",
+ "url": "https://skullcandy.com/products/crusher-720-headphones"
+}

@@ -1,0 +1,63 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:08:36Z",
+  "ship": [
+   "Free shipping on your first subscription order - shop now!",
+   "Shipping & Returns",
+   "Tax and shipping calculates at checkout"
+  ],
+  "size": [],
+  "sub": [
+   "Free shipping on your first subscription order - shop now!",
+   "Freshen your routine with a $5 Daily Strengthening Toothpaste automatically added when you start your subscription. (Terms & conditions apply)",
+   "Subscribe",
+   "Freshen your routine with a $5 Daily Strengthening Toothpaste automatically added when you start your subscription"
+  ],
+  "url": "https://www.getquip.com/products/rev-smart-oscillating-toothbrush"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.getquip.com/products/rev-smart-oscillating-toothbrush",
+ "http_status": 200,
+ "id": "getquip-rev-smart-oscillating-toothbrush",
+ "image_file": "getquip-rev-smart-oscillating-toothbrush.jpg",
+ "image_sha256": "3840947789ed4606ab59adaf8a9ef0fe4f946e32fb68192319f24a21cdc8b065",
+ "image_source": "http://www.getquip.com/cdn/shop/files/2604_DTC_RevSmart_PDP_Carousel__1.jpg?v=1780949581&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://www.getquip.com/products/rev-smart-oscillating-toothbrush",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "reviewCount": "562"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "quip"
+   },
+   "description": "Intelligence in motion \u2014 for smarter brushing every day.\n\nUp to 11x more plaque removal between teeth*\n\nUp to 2x more whitening starting day 1\u2020\n\nAuto-track, coaching, rewards with the quip app\n\n4 modes: Extra Gentle, Gentle, Daily, Deep Clean\n\nOscillating brush head rotates &amp; pulsates\u00a0\nGuiding pressure sensor light &amp; alerts\n2-min timer, 30-sec pulses, auto shutoff\nUp to a 30-day charge\u2021\n\nIs this the right brush for your mouth? Take our quiz.\nThe Rev Smart Oscillating Toothbrush has a limited\u00a02-year warranty.",
+   "gtin12": null,
+   "name": "Rev Smart Oscillating Toothbrush",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 70.0,
+     "priceCurrency": "USD",
+     "sku": "900-00568",
+     "url": "https://www.getquip.com/products/rev-smart-oscillating-toothbrush?variant=43667673317450"
+    }
+   ],
+   "sku": "900-00568",
+   "url": "https://www.getquip.com/products/rev-smart-oscillating-toothbrush"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:35Z",
+ "og_image": "http://www.getquip.com/cdn/shop/files/2604_DTC_RevSmart_PDP_Carousel__1.jpg?v=1780949581",
+ "page_sha256": "37b5a1052a648add234a69f0574610e22a33ecd818a7408cca65f539d62648dd",
+ "rendered_checked": true,
+ "title": "quip Rev Smart Oscillating Toothbrush",
+ "url": "https://getquip.com/products/rev-smart-oscillating-toothbrush"
+}

@@ -1,0 +1,702 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:10:23Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS WITH 2+ BOXES",
+   "*See nutrition information on package for fat and saturated fat content. For full details on discounts, promotions, and shipping policies (free shipping excludes Hawaii & Alaska), reference our Terms & Conditions."
+  ],
+  "size": [
+   "SIZE:"
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscribe & Save",
+   "Subscription Details",
+   "*By completing this form you are signing up to receive our emails and can unsubscribe at any time.",
+   "Subscriptions"
+  ],
+  "url": "https://perfectsnacks.com/products/oaties-brownie-batter"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://perfectsnacks.com/products/oaties-brownie-batter",
+ "http_status": 200,
+ "id": "perfectsnacks-oaties-brownie-batter",
+ "image_file": "perfectsnacks-oaties-brownie-batter.jpg",
+ "image_sha256": "4cab80ff3096390fc19eb10189a80b6170402cac9fdb028ab40f82ff81ddb992",
+ "image_source": "http://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Perfect Snacks"
+   },
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": [
+    "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=1920"
+   ],
+   "name": "Oaties Brownie Batter",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin14": 20855569220802,
+     "price": 29.0,
+     "priceCurrency": "USD",
+     "sku": "220802",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191"
+    }
+   ],
+   "sku": "220802",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter"
+  },
+  {
+   "@context": "https://schema.org",
+   "@id": "https://perfectsnacks.com/products/oaties-brownie-batter#json-ld-for-seo",
+   "@type": "ProductGroup",
+   "aggregateRating": {
+    "@id": "https://perfectsnacks.com/products/oaties-brownie-batter#json-ld-for-seo-product-reviews"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Perfect Snacks"
+   },
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "hasVariant": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "gtin": "20855569220802",
+     "gtin14": "20855569220802",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802",
+     "name": "Oaties Brownie Batter 12 Bars",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "20855569220802",
+       "gtin14": "20855569220802",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802",
+       "name": "Oaties Brownie Batter 12 Bars",
+       "price": "29.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598900759",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 4 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-598900759",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 4 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-598900759",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-598900759",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598933527",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 5 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-598933527",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 5 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-598933527",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-598933527",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598966295",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 6 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-598966295",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 6 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-598966295",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-598966295",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598999063",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 7 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-598999063",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 7 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-598999063",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-598999063",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-599031831",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 8 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-599031831",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 8 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-599031831",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-599031831",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Cereal & Granola Bars",
+      "Snack Foods",
+      "Food Items",
+      "Food, Beverages & Tobacco"
+     ],
+     "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "inProductGroupWithID": "8855003987991",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-11014995991",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 12 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "20855569220802-11014995991",
+       "name": "Oaties Brownie Batter 12 Bars Delivery every 12 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "220802-11014995991",
+       "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "220802-11014995991",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 0.0
+     }
+    }
+   ],
+   "image": [
+    "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_Texture_BB_2.jpg?v=1783963783&width=3000",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_CertsClaims_BB.jpg?v=1782925705&width=3000",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_RealIngredients_BB_1.jpg?v=1782925705&width=3000",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_OnTheGo_BB.jpg?v=1782925706&width=3000",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_NFP_BB_B.jpg?v=1782925705&width=3000",
+    "https://perfectsnacks.com/cdn/shop/files/PS_Oaties_PDPImages_RFAR_BB.jpg?v=1782925705&width=3000"
+   ],
+   "name": "Oaties Brownie Batter",
+   "productGroupID": "8855003987991",
+   "productID": "220802",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter"
+  },
+  {
+   "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "gtin": "20855569220802",
+   "gtin14": "20855569220802",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802",
+   "name": "Oaties Brownie Batter 12 Bars",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "20855569220802",
+     "gtin14": "20855569220802",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802",
+     "name": "Oaties Brownie Batter 12 Bars",
+     "price": "29.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-598900759",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 4 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598900759",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 4 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-598900759",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-598900759",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598900759",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-598933527",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 5 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598933527",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 5 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-598933527",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-598933527",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598933527",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-598966295",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 6 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598966295",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 6 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-598966295",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-598966295",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598966295",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-598999063",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 7 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-598999063",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 7 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-598999063",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-598999063",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=598999063",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-599031831",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 8 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-599031831",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 8 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-599031831",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-599031831",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=599031831",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Cereal & Granola Bars",
+    "Snack Foods",
+    "Food Items",
+    "Food, Beverages & Tobacco"
+   ],
+   "description": "Rich, fudgy, and brownie-batter irresistible! The refrigerated protein bar the whole family can agree on: 8g of protein, real ingredients, nothing artificial.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+   "inProductGroupWithID": "8855003987991",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "20855569220802-11014995991",
+   "name": "Oaties Brownie Batter 12 Bars Delivery every 12 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973&width=2624",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "20855569220802-11014995991",
+     "name": "Oaties Brownie Batter 12 Bars Delivery every 12 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "220802-11014995991",
+     "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "220802-11014995991",
+   "url": "https://perfectsnacks.com/products/oaties-brownie-batter?variant=45208082055191&selling_plan=11014995991",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 0.0
+   }
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T23:54:13Z",
+ "og_image": "http://perfectsnacks.com/cdn/shop/files/Oaties_PDP_BrownieBatter_a16841f9-d6db-4135-b5a6-7901eba9253f.jpg?v=1783458973",
+ "page_sha256": "c64fa24a3556925ec146bf4384bba36a3ab818a609dccde026111b5ff5f5d192",
+ "rendered_checked": true,
+ "title": "Oaties Brownie Batter | 8g Protein | Perfect Snacks",
+ "url": "https://perfectsnacks.com/products/oaties-brownie-batter"
+}

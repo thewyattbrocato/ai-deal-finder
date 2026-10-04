@@ -1,0 +1,126 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:03:37Z",
+  "ship": [
+   "SHIPPING",
+   "FREE SHIPPING OVER $99. FREE RETURNS.",
+   "Free shipping",
+   "Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://brightech.com/products/carter-desk"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://brightech.com/products/carter-desk",
+ "http_status": 200,
+ "id": "brightech-carter-desk",
+ "image_file": "brightech-carter-desk.png",
+ "image_sha256": "88fa2188018fa8ca1ceb95d83a480940d4de3397252b18459f6d3f6282dec27c",
+ "image_source": "http://brightech.com/cdn/shop/files/Brightech_CarterTableLamp_Wood_Brown2.png?v=1786640939&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://brightech.com/products/carter-desk",
+   "@type": "Product",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Color",
+     "value": "Clear"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Cord Length",
+     "unitCode": "INH",
+     "value": 79.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Bulb Type",
+     "value": "Standard LED"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Wattage",
+     "unitText": "WTT",
+     "value": 9.5
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Lumens",
+     "unitText": "LUM",
+     "value": 800.0
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Color Temperature",
+     "unitText": "Kelvin",
+     "value": 3000.0
+    }
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "Brightech"
+   },
+   "depth": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 12.0
+   },
+   "description": "The Carter LED Side Table &amp; Desk Lamp works well with a variety of interior design schemes such as urban, contemporary, mid-century modern, minimalist, traditional, and industrial styles. This lamp adds a touch of elegance to your home or office with its neutral linen lamp shade that perfectly complements its Walnut Eucalyptus Wood Finish stem with brass accents. The Carter is one of the most versatile floor lamps that will look great on a side table or desk.",
+   "height": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 26.0
+   },
+   "image": [
+    "https://brightech.com/cdn/shop/files/Brightech_CarterTableLamp_Wood_Brown2_1200x.png?v=1786640939"
+   ],
+   "material": "Metal",
+   "name": "Carter Table Lamp",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": "858100007098",
+     "hasMerchantReturnPolicy": {
+      "@id": "#return_policy"
+     },
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "4J-SZVU-Z17W",
+     "price": 79.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-12-31",
+     "shippingDetails": {
+      "@id": "#shipping_policy"
+     },
+     "sku": "4J-SZVU-Z17W",
+     "url": "https://brightech.com/products/carter-desk?variant=8039750041636",
+     "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": {
+       "@type": "QuantitativeValue",
+       "unitCode": "ANN",
+       "value": 5
+      }
+     }
+    }
+   ],
+   "sku": "4J-SZVU-Z17W",
+   "url": "https://brightech.com/products/carter-desk",
+   "width": {
+    "@type": "QuantitativeValue",
+    "unitCode": "INH",
+    "value": 12.0
+   }
+  }
+ ],
+ "kind": "Home",
+ "observed_at": "2026-10-03T23:54:15Z",
+ "og_image": "http://brightech.com/cdn/shop/files/Brightech_CarterTableLamp_Wood_Brown2.png?v=1786640939",
+ "page_sha256": "13a3c600a468b5e3cb8d195eef6afcdd1799ef3409d32252c4a855d2d83e9811",
+ "rendered_checked": true,
+ "title": "Carter LED Desk and Table Lamp for Bedrooms Vintage Look Shade \u2013 Brightech",
+ "url": "https://brightech.com/products/carter-desk"
+}

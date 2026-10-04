@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:23Z",
+  "ship": [
+   "FREE SHIPPING",
+   "Get it via Standard Delivery",
+   "Shipping to Your Location Change",
+   "Shipping",
+   "International Shipping"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.jlab.com/products/jbuds-lux-anc-jelle-headphones-royal-caviar"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.jlab.com/products/jbuds-lux-anc-jelle-headphones-royal-caviar",
+ "http_status": 200,
+ "id": "jlab-jbuds-lux-anc-jelle-headphones-royal-caviar",
+ "image_file": "jlab-jbuds-lux-anc-jelle-headphones-royal-caviar.jpg",
+ "image_sha256": "ce801e6b02c8e3e0f5d2fee738734e617a2b8452554269aaf0aa6a6b6b9e1639",
+ "image_source": "https://www.jlab.com/cdn/shop/files/1JBudsLuxJelleRoyalCaviar.jpg?v=1781819522&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/jbuds-lux-anc-jelle-headphones-royal-caviar#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "JLab"
+   },
+   "category": "Over-Ear Headphones",
+   "description": "The JBuds Lux ANC Jelle Headphones are part of the Jelle Collection, JLab's first fashion-forward product line, developed in collaboration with Orly, one of the most iconic names in nail polish. Five shimmer shades, each one designed to coordinate directly with a matching Orly nail polish shade, so the color is as intentional as the sound.\n\nThis Royal Caviar finish is a deep navy shimmer, dark and quietly powerful, paired with a deep navy gel Orly nail polish as its mani match.\n\nHybrid ANC uses both exterior and interior microphones to reduce ambient noise by up to 35dB. Switch to Be Aware mode to let the world back in without taking the headphones off.\n\nLab Spatial Audio shapes the 40mm driver's output into a three-dimensional soundstage that wraps around the listener, paired with Hybrid ANC for a more immersive listening experience.\n\nForm-fit earcups are shaped to the natural outline of the ear, padded with 1 inch Cloud Foam cushions. Adjustable hinges and a foldable, lightweight design support all-day wear.\n\nFive condenser microphones with 3-mic ENC pick up voice while reducing background sound on calls.\n\nThe headphones connect over Bluetooth 5.4 with SBC and AAC codec support and a 30+ foot range, supporting the HSP, HFP, A2DP, and AVRCP protocols. A USB-C cable also supports wired charging and wired audio playback. Google Fast Pair speeds up initial setup on Android devices. Bluetooth multipoint keeps the headphones connected to two devices at once, and Wireless Share Mode lets two pairs of JBuds Lux ANC headphones share audio from one device simultaneously.\n\nThe JLab App unlocks custom EQ, ANC and Be Aware toggling, custom touch controls, and safe hearing limits. Choose from JLab Signature, Balanced, and Bass Boost EQ presets, or dial in a custom setting.\n\nThe headphones weigh 235 grams and measure 7.47 inches tall, 6.13 inches long, and 3.23 inches wide. Battery life is rated at 70 hours with ANC off or 40 hours with ANC on, with talk time rated at 40 hours. A 2.5 hour charge time and a quick charge option add 7.5 hours of playtime from a 10 minute charge. Standby time is rated at 500+ hours.\n\nIncludes: JBuds Lux ANC Headset, a USB-C charging and audio cable, and a JLab 2 year limited warranty.\n\nSpecifications\n\nAudioDriver: 40mm dynamicFrequency response: 20Hz to 20kHzImpedance: 16 ohmsOutput: 98dB \u00b1 2dBEQ3 sound: YesSpatial Audio: Yes\n\nNoise cancelingANC type: HybridANC noise reduction: 35 dBBe Aware: Yes\n\nMicrophoneNoise canceling: 3-mic ENCTotal microphones: 5 x condensersMicrophone sensitivity: -32dB \u00b1 1dB\n\nConnectivityBluetooth: 5.4Codecs: SBC, AACRange: 30+ ftSupport protocols: HSP/HFP/A2DP/AVRCPLatency (Movie Mode): &lt;200msLatency (Music): &gt;200msWired: Yes, C to CWired playback: YesMultipoint: YesWireless Share Mode: YesGoogle Fast Pair: YesVoice assistance: Yes\n\nBatteryBattery type: 600mAh 3.7V LiPoTotal playtime (ANC off): 70 hoursTotal playtime (ANC on): 40 hoursTalk time: 40 hoursStandby time: 500+ hoursCharge time: 2.5 hoursQuick charge: 10 min = 7.5 hoursCharge cable: USB-CInput power: DC 5V, 1A\n\nComfort and featuresEar cushion type: Cloud FoamFoldable: YesControls: ButtonsCollection: Jelle (JLab x Orly)Finish: Deep navy shimmerMani match: Deep navy gel nail polish\n\nApp (JLab App)App support: YesCustom controls: YesCustom EQ: YesMusic / Movie Mode: YesMy JLab: YesNoise control: YesOTA updates: YesSafe hearing: Yes\n\nDimensionsHeight: 7.47 inLength: 6.13 inWidth: 3.23 inWeight: 235 g\n\nIn the boxJBuds Lux ANC Headset \u00b7 USB-C charging and audio cable \u00b7 JLab 2 year limited warranty",
+   "gtin": "810119078469",
+   "image": "https://www.jlab.com/cdn/shop/files/1JBudsLuxJelleRoyalCaviar.jpg?v=1781819522&width=1920",
+   "name": "JBuds Lux ANC Jelle Headphones Royal Caviar",
+   "offers": {
+    "@id": "/products/jbuds-lux-anc-jelle-headphones-royal-caviar?variant=41163856248904#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "84.99",
+    "priceCurrency": "USD",
+    "url": "https://www.jlab.com/products/jbuds-lux-anc-jelle-headphones-royal-caviar?variant=41163856248904"
+   },
+   "sku": "HBJLUXANCBLUJEL10WEB",
+   "url": "https://www.jlab.com/products/jbuds-lux-anc-jelle-headphones-royal-caviar"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:20Z",
+ "og_image": "https://www.jlab.com/cdn/shop/files/1JBudsLuxJelleRoyalCaviar.jpg?v=1781819522&width=1200",
+ "page_sha256": "78310ac9f2af425146868d8d665ab87f3e45e534c54930f6553027c2184a0ef4",
+ "rendered_checked": true,
+ "title": "JLab JBuds Lux ANC J\u00e9lle Headphones Royal Caviar",
+ "url": "https://jlab.com/products/jbuds-lux-anc-jelle-headphones-royal-caviar"
+}

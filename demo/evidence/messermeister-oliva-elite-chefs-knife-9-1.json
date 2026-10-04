@@ -1,0 +1,124 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:50Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS OVER $99 TO THE CONTIGUOUS US*",
+   "SHIPPING POLICY"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to our newsletter on our homepage & follow us on social media for the latest in culinary news & special offers."
+  ],
+  "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1",
+ "http_status": 200,
+ "id": "messermeister-oliva-elite-chefs-knife-9-1",
+ "image_file": "messermeister-oliva-elite-chefs-knife-9-1.png",
+ "image_sha256": "71b1bf6dc6327433aa2cd5ff45125c49eaa41a3b6b9a3584fd10a1dc5beafa07",
+ "image_source": "http://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero.png?v=1776458685&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.911764705882353,
+    "reviewCount": 34
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Messermeister"
+   },
+   "description": "The Oliva Elite 9\" Chef\u2019s Knife pairs a sleek, stealth blade with a gorgeous olive wood handle for razor-sharp slicing, dicing, and mincing. Hand-forged with Messermeister\u2019s signature stealth blade\u201425% thinner and 10% lighter than traditional western chef\u2019s knives\u2014the lighter weight offers unmatched precision and reduced fatigue during long prep sessions. The elegant Mediterranean olive wood handle adds a natural, luxurious touch while providing a secure, ergonomic grip. Balanced, lightweight, and visually stunning, this blade does it all and looks good doing it.",
+   "image": "https://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero_2000x.png?v=1776458685",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "098872668695",
+   "name": "Oliva Elite Chef's Knife - 9\"",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "098872668695",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "098872668695",
+     "price": "219.95",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-11-02",
+     "seller": {
+      "@type": "Organization",
+      "name": "Messermeister"
+     },
+     "sku": "E/6686-9S",
+     "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1?variant=47655830388929"
+    }
+   ],
+   "sku": "E/6686-9S",
+   "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Thing",
+    "name": "Messermeister"
+   },
+   "description": "The Oliva Elite 9\" Chef\u2019s Knife pairs a sleek, stealth blade with a gorgeous olive wood handle for razor-sharp slicing, dicing, and mincing. Hand-forged with Messermeister\u2019s signature stealth blade\u201425% thinner and 10% lighter than traditional western chef\u2019s knives\u2014the lighter weight offers unmatched precision and reduced fatigue during long prep sessions. The elegant Mediterranean olive wood handle adds a natural, luxurious touch while providing a secure, ergonomic grip. Balanced, lightweight, and visually stunning, this blade does it all and looks good doing it.",
+   "gtin12": "098872668695",
+   "image": "https://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero_grande.png?v=1776458685",
+   "name": "Oliva Elite Chef&#39;s Knife - 9&quot;",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "description": "The Oliva Elite 9\" Chef\u2019s Knife pairs a sleek, stealth blade with a gorgeous olive wood handle for razor-sharp slicing, dicing, and mincing. Hand-forged with Messermeister\u2019s signature stealth blade\u201425% thinner and 10% lighter than traditional western chef\u2019s knives\u2014the lighter weight offers unmatched precision and reduced fatigue during long prep sessions. The elegant Mediterranean olive wood handle adds a natural, luxurious touch while providing a secure, ergonomic grip. Balanced, lightweight, and visually stunning, this blade does it all and looks good doing it.",
+    "gtin12": "098872668695",
+    "image": "https://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero_grande.png?v=1776458685",
+    "itemCondition": "http://schema.org/NewCondition",
+    "name": "Oliva Elite Chef&#39;s Knife - 9&quot;",
+    "price": "219.95",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2027-10-03",
+    "sku": "E/6686-9S",
+    "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1?variant=47655830388929"
+   },
+   "productID": "10159169077441",
+   "sku": "E/6686-9S",
+   "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "8"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Messermeister"
+   },
+   "description": "The Oliva Elite 9\" Chef\u2019s Knife pairs a sleek, stealth blade with a gorgeous olive wood handle for razor-sharp slicing, dicing, and mincing. Hand-forged with Messermeister\u2019s signature stealth blade\u201425% thinner and 10% lighter than traditional western chef\u2019s knives\u2014the lighter weight offers unmatched precision and reduced fatigue during long prep sessions. The elegant Mediterranean olive wood handle adds a natural, luxurious touch while providing a secure, ergonomic grip. Balanced, lightweight, and visually stunning, this blade does it all and looks good doing it.",
+   "image": [
+    "https://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero.png?v=1776458685&width=480"
+   ],
+   "name": "Oliva Elite Chef&#39;s Knife - 9&quot;",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "219.95",
+    "priceCurrency": "USD",
+    "sku": "E/6686-9S",
+    "url": "https://www.messermeister.com/products/oliva-elite-chefs-knife-9-1?variant=47655830388929"
+   },
+   "sku": "E/6686-9S"
+  }
+ ],
+ "kind": "Kitchen",
+ "observed_at": "2026-10-03T23:54:25Z",
+ "og_image": "http://www.messermeister.com/cdn/shop/files/Messermeister_Oliva_Elite_Chefs_Knife_9_Hero.png?v=1776458685",
+ "page_sha256": "44515c6f1c69010a7b9bbe29f6d6b9a0f7a116efbff1cb954138b17ff23ba00b",
+ "rendered_checked": true,
+ "title": "Oliva Elite | Stealth Chef Knives | Messermeister\u00ae",
+ "url": "https://messermeister.com/products/oliva-elite-chefs-knife-9-1"
+}

@@ -1,0 +1,109 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:10:15Z",
+  "ship": [
+   "Shipping Info"
+  ],
+  "size": [],
+  "sub": [
+   "Subscribe to receive first-hand brand updates, access to exclusive deals, and 15% discount off your first order."
+  ],
+  "url": "https://www.nativeunion.com/products/rise-3-in-1-magnetic-wireless-charger"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.nativeunion.com/products/rise-3-in-1-magnetic-wireless-charger",
+ "http_status": 200,
+ "id": "nativeunion-rise-3-in-1-magnetic-wireless-charger",
+ "image_file": "nativeunion-rise-3-in-1-magnetic-wireless-charger.png",
+ "image_sha256": "676961d6da2136774a0f8cd6fcb8771d4974ebca483571fa616ff5444109e4fc",
+ "image_source": "http://www.nativeunion.com/cdn/shop/files/3in1Side_Black.png?v=1755767349&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5.0",
+    "ratingValue": "4.9",
+    "reviewCount": "29",
+    "worstRating": "1.0"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "category": "Wireless Chargers",
+   "description": "A do-it-all solution to charge all your devices and complement all interior styles, Rise 3-in-1 Magnetic Wireless Charger brings design and performance center stage. Advanced Qi2 charging, adjustable angles, and a multi-device setup ensure high functionality; while the modern finish and leather-like detail deliver on a statement design piece for any space.\n\nFoldable multi-device charging stand to charge all your tech at once\n\n Charge your iPhone flat, or simultaneously with your AirPods &amp; Apple Watch in stand mode\n\nQi2 certified &amp; MagSafe compatible for a fast, safe &amp; efficient charge up to 15W\nBuilt-in official Apple Watch charger to fast charge your Apple Watch Series 9 from 0-80% in around 45 minutes\n\n  Adjust the angle for a hands-free display stand for your iPhone - stream, surf or use StandBy mode\n\n\n Compact, space-saving build keeps your space sleek &amp; neat\n\nWeighted metal base enables easy one-hand detachment - just grab &amp; go\nModern, minimalist design complements your desk, coffee table, or nightstand\nKnow when your devices are charging with discreet LED indicator\nComes with a 6.5ft / 2m USB-C to USB-C cable &amp; a 35W wall charger with international adapters\n\nDiscover more magnetic wireless charger options.\n\n\n\n\n\n\n\n\n\n2-Year Limited Warranty\n14-Day Returns\nSecure Checkout\n\n\n\n",
+   "image": {
+    "@type": "ImageObject",
+    "height": "1024",
+    "image": "https://www.nativeunion.com/cdn/shop/files/3in1Side_Black.png?v=1755767349&width=1024",
+    "name": "#color_black",
+    "url": "https://www.nativeunion.com/cdn/shop/files/3in1Side_Black.png?v=1755767349&width=1024",
+    "width": "1024"
+   },
+   "name": "Rise 3-in-1 Magnetic Wireless Charger",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654083958",
+     "name": "Black",
+     "price": 139.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "RS-3IN1-BLK-INT",
+     "url": "/products/rise-3-in-1-magnetic-wireless-charger?variant=42909309567115"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin12": "846654083958",
+     "name": "Sandstone",
+     "price": 139.99,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-14",
+     "sku": "RS-3IN1-SAN-INT",
+     "url": "/products/rise-3-in-1-magnetic-wireless-charger?variant=42909309599883"
+    }
+   ],
+   "productID": 7544441176203,
+   "sku": "RS-3IN1-BLK-INT",
+   "url": "/products/rise-3-in-1-magnetic-wireless-charger"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "29"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Native Union"
+   },
+   "description": "A do-it-all solution to charge all your devices and complement all interior styles, Rise 3-in-1 Magnetic Wireless Charger brings design and performance center stage. Advanced Qi2 charging, adjustable angles, and a multi-device setup ensure high functionality; while the modern finish and leather-like detail deliver on a statement design piece for any space.\n\nFoldable multi-device charging stand to charge all your tech at once\n\n Charge your iPhone flat, or simultaneously with your AirPods &amp; Apple Watch in stand mode\n\nQi2 certified &amp; MagSafe compatible for a fast, safe &amp; efficient charge up to 15W\nBuilt-in official Apple Watch charger to fast charge your Apple Watch Series 9 from 0-80% in around 45 minutes\n\n  Adjust the angle for a hands-free display stand for your iPhone - stream, surf or use StandBy mode\n\n\n Compact, space-saving build keeps your space sleek &amp; neat\n\nWeighted metal base enables easy one-hand detachment - just grab &amp; go\nModern, minimalist design complements your desk, coffee table, or nightstand\nKnow when your devices are charging with discreet LED indicator\nComes with a 6.5ft / 2m USB-C to USB-C cable &amp; a 35W wall charger with international adapters\n\nDiscover more magnetic wireless charger options.\n\n\n\n\n\n\n\n\n\n2-Year Limited Warranty\n14-Day Returns\nSecure Checkout\n\n\n\n",
+   "image": [
+    "https://www.nativeunion.com/cdn/shop/files/3in1Side_Black.png?v=1755767349&width=480"
+   ],
+   "name": "Rise 3-in-1 Magnetic Wireless Charger",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "139.99",
+    "priceCurrency": "USD",
+    "sku": "RS-3IN1-BLK-INT",
+    "url": "https://www.nativeunion.com/products/rise-3-in-1-magnetic-wireless-charger?variant=42909309567115"
+   },
+   "sku": "RS-3IN1-BLK-INT"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:29Z",
+ "og_image": "http://www.nativeunion.com/cdn/shop/files/3in1Side_Black.png?v=1755767349",
+ "page_sha256": "2bdaac3cb25297efdff8f1d27e81785b78cb5fc6ec41083483c45e04323a3948",
+ "rendered_checked": true,
+ "title": "Native Union - Rise 3-in-1 Magnetic Wireless Charger",
+ "url": "https://nativeunion.com/products/rise-3-in-1-magnetic-wireless-charger"
+}

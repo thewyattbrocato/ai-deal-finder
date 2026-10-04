@@ -1,0 +1,165 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:08:58Z",
+  "ship": [
+   "FREE GROUND SHIPPING*",
+   "Enjoy free ground shipping on all orders +$75.",
+   "SHIPPING, RETURNS & WARRANTY",
+   "Shipping",
+   "Free ground shipping on orders over $75.",
+   "Shipping Policy",
+   "You are $75.00 away from FREE SHIPPING!"
+  ],
+  "size": [
+   "SIZE: OS"
+  ],
+  "sub": [
+   "Subscribe for early access to exclusive discounts, partnerships, and drops.",
+   "Subscribe",
+   "By subscribing, you agree to receive emails from Herschel Supply Co. You may unsubscribe at any time. See our"
+  ],
+  "url": "https://herschel.com/products/city-backpack-twill"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://herschel.com/products/city-backpack-twill",
+ "http_status": 200,
+ "id": "herschel-city-backpack-twill",
+ "image_file": "herschel-city-backpack-twill.jpg",
+ "image_sha256": "a75f82861f2147e38bf059cee215bb26c01bb95b5b582a91c59234e0583d829a",
+ "image_source": "http://herschel.com/cdn/shop/files/11899-05711-OS_01.jpg?v=1789434617&width=420",
+ "json_ld": [
+  {
+   "@id": "https://herschel.com/products/city-backpack-twill#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "category": "Bags",
+   "description": "Light, fast and made to get to work. This streamlined backpack has the pockets to organize your work tools and a sleek profile that moves effortlessly through busy sidewalks and crowded subways. Made with twill fabric for a textured feel.",
+   "hasVariant": [
+    {
+     "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249396988#variant",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Herschel Supply Co."
+     },
+     "gtin": "828432744893",
+     "image": "https://herschel.com/cdn/shop/files/11899-05711-OS_01.jpg?v=1789434617&width=1920",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "11899-05711-OS",
+     "name": "City Backpack Twill - Black/Grey / OS",
+     "offers": {
+      "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249396988#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@id": "https://herschel.com#organization"
+      },
+      "url": "https://herschel.com/products/city-backpack-twill?variant=51309249396988"
+     },
+     "sku": "11899-05711-OS",
+     "url": "https://herschel.com/products/city-backpack-twill?variant=51309249396988"
+    },
+    {
+     "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249429756#variant",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Herschel Supply Co."
+     },
+     "gtin": "828432744909",
+     "image": "https://herschel.com/cdn/shop/files/11899-08260-OS_01.jpg?v=1789434618&width=1920",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "11899-08260-OS",
+     "name": "City Backpack Twill - Rosette Tonal / OS",
+     "offers": {
+      "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249429756#offer",
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 80.0,
+      "priceCurrency": "USD",
+      "seller": {
+       "@id": "https://herschel.com#organization"
+      },
+      "url": "https://herschel.com/products/city-backpack-twill?variant=51309249429756"
+     },
+     "sku": "11899-08260-OS",
+     "url": "https://herschel.com/products/city-backpack-twill?variant=51309249429756"
+    }
+   ],
+   "image": [
+    "https://herschel.com/cdn/shop/files/11899-05711-OS_01.jpg?v=1789434617&width=1920"
+   ],
+   "itemCondition": "https://schema.org/NewCondition",
+   "mainEntityOfPage": {
+    "@id": "https://herschel.com/products/city-backpack-twill#webpage"
+   },
+   "name": "City Backpack Twill",
+   "productGroupID": 9461668544764,
+   "url": "https://herschel.com/products/city-backpack-twill"
+  },
+  {
+   "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249396988#variant",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "gtin": "828432744893",
+   "image": "https://herschel.com/cdn/shop/files/11899-05711-OS_01.jpg?v=1789434617&width=1920",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "11899-05711-OS",
+   "name": "City Backpack Twill - Black/Grey / OS",
+   "offers": {
+    "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249396988#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@id": "https://herschel.com#organization"
+    },
+    "url": "https://herschel.com/products/city-backpack-twill?variant=51309249396988"
+   },
+   "sku": "11899-05711-OS",
+   "url": "https://herschel.com/products/city-backpack-twill?variant=51309249396988"
+  },
+  {
+   "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249429756#variant",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Herschel Supply Co."
+   },
+   "gtin": "828432744909",
+   "image": "https://herschel.com/cdn/shop/files/11899-08260-OS_01.jpg?v=1789434618&width=1920",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "11899-08260-OS",
+   "name": "City Backpack Twill - Rosette Tonal / OS",
+   "offers": {
+    "@id": "https://herschel.com/products/city-backpack-twill?variant=51309249429756#offer",
+    "@type": "Offer",
+    "availability": "https://schema.org/OutOfStock",
+    "price": 80.0,
+    "priceCurrency": "USD",
+    "seller": {
+     "@id": "https://herschel.com#organization"
+    },
+    "url": "https://herschel.com/products/city-backpack-twill?variant=51309249429756"
+   },
+   "sku": "11899-08260-OS",
+   "url": "https://herschel.com/products/city-backpack-twill?variant=51309249429756"
+  }
+ ],
+ "kind": "Accessories",
+ "observed_at": "2026-10-03T23:53:13Z",
+ "og_image": "http://herschel.com/cdn/shop/files/11899-05711-OS_01.jpg?v=1789434617&width=2000",
+ "page_sha256": "675d8b38093f4da8baaa5020c8e22f24505b124a6bc58e6274c0247c1a09aa1f",
+ "rendered_checked": true,
+ "title": "City Backpack Twill \u2013 Herschel Supply Co. USA",
+ "url": "https://herschel.com/products/city-backpack-twill"
+}

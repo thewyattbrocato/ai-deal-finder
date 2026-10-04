@@ -1,0 +1,183 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:06:42Z",
+  "ship": [
+   "FREE SHIPPING",
+   "Free shipping on orders $50+",
+   "Shipping",
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more."
+  ],
+  "size": [
+   "SIZE \u2014 Size chart",
+   "Size Chart"
+  ],
+  "sub": [
+   "But cotton socks do. Subscribe today to learn about Merino Wool, free shipping days, and more.",
+   "SUBSCRIBE"
+  ],
+  "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks",
+ "http_status": 200,
+ "id": "darntough-womens-merino-wool-cable-crew-cushioned-lightweight-lifestyl",
+ "image_file": "darntough-womens-merino-wool-cable-crew-cushioned-lightweight-lifestyl.png",
+ "image_sha256": "d0f74235083e2970f22c1f4223c3039b45acf1dcafb305f7e94d8a9984a95e19",
+ "image_source": "http://darntough.com/cdn/shop/files/6140_Charcoal.png?v=1780667814&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 10,
+    "ratingValue": 4.9
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "category": "",
+   "description": "Not your Grandma\u2019s cable knit. Sure, these socks have the same nostalgic pattern and cozy textured knit. They\u2019re even knit with love and care, just like hers. But that\u2019s where the similarities end. Our Cable sock is knit with Merino Wool, not whatever mystery yarn Grandma picked up on sale. No itch, no bulk, just pure comfort that you\u2019ll actually reach for.",
+   "gtin12": "642249244311",
+   "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "US",
+    "merchantReturnDays": 90,
+    "returnFees": "https://schema.org/FreeReturn",
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "returnPolicyCountry": "US"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "height": 1024,
+    "image": "https://darntough.com/cdn/shop/files/6140_Charcoal_1024x1024.png?v=1780667814",
+    "name": "Women's Cable Crew Lightweight Lifestyle Socks",
+    "url": "https://darntough.com/cdn/shop/files/6140_Charcoal_1024x1024.png?v=1780667814",
+    "width": 1024
+   },
+   "name": "Women's Cable Crew Lightweight Lifestyle Socks",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_CHARCOAL_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559672506"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_CHARCOAL_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559705274"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_CHARCOAL_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559738042"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_DENIM_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559770810"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_DENIM_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559803578"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_DENIM_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559836346"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_BURGUNDY_S_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559869114"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_BURGUNDY_M_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559901882"
+    },
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 25.0,
+     "priceCurrency": "USD",
+     "priceValidUntil": "2026-10-13",
+     "sku": "6140_BURGUNDY_L_DARN",
+     "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559934650"
+    }
+   ],
+   "productId": "642249244311",
+   "sku": "6140_CHARCOAL_S_DARN",
+   "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "10"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Darn Tough Vermont"
+   },
+   "description": "Not your Grandma\u2019s cable knit. Sure, these socks have the same nostalgic pattern and cozy textured knit. They\u2019re even knit with love and care, just like hers. But that\u2019s where the similarities end. Our Cable sock is knit with Merino Wool, not whatever mystery yarn Grandma picked up on sale. No itch, no bulk, just pure comfort that you\u2019ll actually reach for.",
+   "image": [
+    "https://darntough.com/cdn/shop/files/6140_Charcoal.png?v=1780667814&width=480"
+   ],
+   "name": "Women&#39;s Cable Crew Lightweight Lifestyle Socks",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "25.0",
+    "priceCurrency": "USD",
+    "sku": "6140_CHARCOAL_S_DARN",
+    "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks?variant=45954559672506"
+   },
+   "sku": "6140_CHARCOAL_S_DARN"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:52:57Z",
+ "og_image": "http://darntough.com/cdn/shop/files/6140_Charcoal.png?v=1780667814",
+ "page_sha256": "7907350de9d8c54e08b275b18cabd0d62fcea94b83d329ab0fb2369c1179867e",
+ "rendered_checked": true,
+ "title": "Women's Cable Crew Cushioned Lifestyle Socks \u2013 Darn Tough",
+ "url": "https://darntough.com/products/womens-merino-wool-cable-crew-cushioned-lightweight-lifestyle-socks"
+}

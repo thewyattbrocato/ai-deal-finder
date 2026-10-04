@@ -1,0 +1,55 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:03:59Z",
+  "ship": [
+   "\ud83d\udce6 FREE SHIPPING ON ALL U.S. ORDERS $50+",
+   "Easy peasey delivery",
+   "FAQ/Shipping"
+  ],
+  "size": [],
+  "sub": [
+   "SUBSCRIBE AND SAVE"
+  ],
+  "url": "https://burstoralcare.com/products/interdental-floss-picks"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://burstoralcare.com/products/interdental-floss-picks",
+ "http_status": 200,
+ "id": "burstoralcare-interdental-floss-picks",
+ "image_file": "burstoralcare-interdental-floss-picks.png",
+ "image_sha256": "19f4889ed531bcb14f0c2eedf6f0d39b1546996bf8593295a47b8a48d6e6d0dc",
+ "image_source": "http://burstoralcare.com/cdn/shop/files/01-HERO-DESKTOP_0d44ccba-a377-447e-a730-16214569693f.png?v=1775150573&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/interdental-floss-picks#product",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "BURST Oral Care"
+   },
+   "category": "Dental Floss",
+   "description": "\u00a0\n\nFloss Pick 101\n\nMade with input from our community of 40,000+ dental professionals, the BURST Adult Floss Pick is a 2-in-1 tool designed for a deeper, more convenient clean, anytime, anywhere. Featuring uniquely black floss to show what you remove and a soft silicone pick for gentle precision, it\u2019s an easy, on-the-go upgrade to your flossing routine or the perfect companion to your traditional floss.\n\n Benefits\n\nA better way to clean, anywhereA 2-in-1 multi-tool that combines floss and an interdental pick for a complete clean in one simple step\u2014no sink required.\n\n\nSee the clean: Black floss provides instant, satisfying visual proof of plaque and debris removal\u2014so you know it\u2019s working.\n\nGentle, effective precision: Soft silicone pick flexes to remove debris while being gentle on gums\u2014no sharp plastic.\n\nFreshen + protect: Xylitol-coated floss helps support cavity protection while mint eucalyptus leaves your mouth feeling fresh.\n\n\nMade for real life: Ergonomic, angled handle makes it easy to reach back molars at home or on the go.\n\n\n Features\n\nOur dental professionals helped design a smarter interdental tool that works with your routine\u2014not against it.\nWhat makes it special?\n\n\u00a0Dual-action design combines floss + pick in one tool\n\u00a0Black floss for visible results and motivation\nSoft, flexible silicone pick for gentle cleaning\nErgonomic angled handle for easy reach\nXylitol coating helps support cavity protection\n\nMindful ingredients: Mint oil and xylitol\nYou get\nYou get: \n\n90 single-use floss picks\nDual-action clean (floss + pick)\nPortable, grab-and-go convenience\n\nWhat you don\u2019t get: \n\nParabens (yuck)\nPhthalates (double yuck)\nTeflon\nBPA\nMajor allergens \nArtificial sweeteners, flavors or colors\u00a0\n\n How to Dispose Responsibly: \nRemove the floss and soft pick from the handle before disposing of each piece separately.",
+   "gtin": "850057088779",
+   "image": "https://burstoralcare.com/cdn/shop/files/01-HERO-DESKTOP_0d44ccba-a377-447e-a730-16214569693f.png?v=1775150573&width=1920",
+   "name": "Interdental Floss Picks",
+   "offers": {
+    "@id": "/products/interdental-floss-picks?variant=48239635988635#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "6.99",
+    "priceCurrency": "USD",
+    "url": "https://burstoralcare.com/products/interdental-floss-picks?variant=48239635988635"
+   },
+   "sku": "BRST-FLSS-PICK",
+   "url": "https://burstoralcare.com/products/interdental-floss-picks"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:39Z",
+ "og_image": "http://burstoralcare.com/cdn/shop/files/01-HERO-DESKTOP_0d44ccba-a377-447e-a730-16214569693f.png?v=1775150573",
+ "page_sha256": "1d247892bd6a2b528919bcb0de69bdc3e39b2f6d0b997d28b04a8227716d5c8a",
+ "rendered_checked": true,
+ "title": "Interdental Floss Picks - an easy, on-the-go upgrade to your flossing routine \u2013 Burst Oral Care",
+ "url": "https://burstoralcare.com/products/interdental-floss-picks"
+}

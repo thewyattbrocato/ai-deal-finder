@@ -1,0 +1,401 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:11:26Z",
+  "ship": [
+   "Save $80 on Crusher 1080 ANC | Free shipping on orders over $175",
+   "Become a member for FREE SHIPPING and to earn 69 points today.",
+   "Members get free shipping on orders $49+ or $175+"
+  ],
+  "size": [],
+  "sub": [],
+  "url": "https://www.skullcandy.com/products/session-540"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.skullcandy.com/products/session-540",
+ "http_status": 200,
+ "id": "skullcandy-session-540",
+ "image_file": "skullcandy-session-540.png",
+ "image_sha256": "6078781a2cbf16a5ee9bfc34d3b188ddb02b0634ec5a704cb273fc1fa476bac0",
+ "image_source": "http://www.skullcandy.com/cdn/shop/files/Session540_Black_1.png?v=1782254585&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "ProductGroup",
+   "additionalProperty": [
+    {
+     "@type": "PropertyValue",
+     "name": "Returns",
+     "value": "Easy returns"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Warranty",
+     "value": "1-Year Limited Warranty"
+    },
+    {
+     "@type": "PropertyValue",
+     "name": "Shipping",
+     "value": "Members Get Free Shipping on orders of $49+"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "reviewCount": "26"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Session540_Plasma_1.png?v=1782254598&width=2000"
+     ],
+     "name": "Session\u00ae 540 - Plasma",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+     },
+     "sku": "S8SFS-U995"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Session540_Primer_1.png?v=1782254603&width=2000"
+     ],
+     "name": "Session\u00ae 540 - Primer",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952397369"
+     },
+     "sku": "S8SFS-U987"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Session540_Black_1.png?v=1782254585&width=2000"
+     ],
+     "name": "Session\u00ae 540 - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952331833"
+     },
+     "sku": "S8SFS-U740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "image": [
+      "https://www.skullcandy.com/cdn/shop/files/Session540_Cement_1.png?v=1782254593&width=2000"
+     ],
+     "name": "Session\u00ae 540 - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952430137"
+     },
+     "sku": "S8SFS-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Plasma_1.png?v=1782254598&width=2000"
+   ],
+   "name": "Session\u00ae 540",
+   "productGroupID": 8306538676281,
+   "sku": "S8SFS-U995",
+   "url": "https://www.skullcandy.com/products/session-540",
+   "variesBy": "https://schema.org/color"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Plasma_1.png?v=1782254598&width=2000"
+   ],
+   "name": "Session\u00ae 540 - Plasma",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+   },
+   "sku": "S8SFS-U995"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Primer_1.png?v=1782254603&width=2000"
+   ],
+   "name": "Session\u00ae 540 - Primer",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952397369"
+   },
+   "sku": "S8SFS-U987"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Black_1.png?v=1782254585&width=2000"
+   ],
+   "name": "Session\u00ae 540 - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952331833"
+   },
+   "sku": "S8SFS-U740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Cement_1.png?v=1782254593&width=2000"
+   ],
+   "name": "Session\u00ae 540 - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952430137"
+   },
+   "sku": "S8SFS-U993"
+  },
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "reviewCount": "26"
+   },
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "hasVariant": [
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "name": "Session\u00ae 540 - Plasma",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+     },
+     "sku": "S8SFS-U995"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "name": "Session\u00ae 540 - Primer",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952397369"
+     },
+     "sku": "S8SFS-U987"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "name": "Session\u00ae 540 - True Black",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952331833"
+     },
+     "sku": "S8SFS-U740"
+    },
+    {
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "Skullcandy US"
+     },
+     "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+     "name": "Session\u00ae 540 - Cement",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": 69.99,
+      "priceCurrency": "USD",
+      "url": "https://www.skullcandy.com/products/session-540?variant=45973952430137"
+     },
+     "sku": "S8SFS-U993"
+    }
+   ],
+   "image": [
+    "https://www.skullcandy.com/cdn/shop/files/Session540_Plasma_1.png?v=1782254598&width=2000"
+   ],
+   "isVariantOf": {
+    "@type": "ProductGroup",
+    "name": "Session\u00ae 540",
+    "productGroupID": 8306538676281,
+    "url": "https://www.skullcandy.com/products/session-540"
+   },
+   "name": "Session\u00ae 540 - Plasma",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+   },
+   "sku": "S8SFS-U995",
+   "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "name": "Session\u00ae 540 - Plasma",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952364601"
+   },
+   "sku": "S8SFS-U995"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "name": "Session\u00ae 540 - Primer",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952397369"
+   },
+   "sku": "S8SFS-U987"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "name": "Session\u00ae 540 - True Black",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952331833"
+   },
+   "sku": "S8SFS-U740"
+  },
+  {
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Skullcandy US"
+   },
+   "description": " PACK LIGHT, PLAY LOUD\nSession 540 is built for bigger sound without the bulk. Its compact, rugged design packs 8W of power and 17 hours of battery, with a stowable strap and magnetic mount that make it easy to bring along and attach to your gear. Wherever the day takes you, it\u2019s ready to turn things up.",
+   "name": "Session\u00ae 540 - Cement",
+   "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "url": "https://www.skullcandy.com/products/session-540?variant=45973952430137"
+   },
+   "sku": "S8SFS-U993"
+  }
+ ],
+ "kind": "Tech",
+ "observed_at": "2026-10-03T23:53:26Z",
+ "og_image": "http://www.skullcandy.com/cdn/shop/files/Session540_Black_1.png?v=1782254585",
+ "page_sha256": "97d4ffe56b38bef00016364ccd16abf1ebbececca20424622b2da86ab8a724ad",
+ "rendered_checked": true,
+ "title": "Session 540 Portable Bluetooth Speaker | Skullcandy",
+ "url": "https://skullcandy.com/products/session-540"
+}

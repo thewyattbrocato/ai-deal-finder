@@ -1,0 +1,245 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:09:32Z",
+  "ship": [
+   "Free Shipping",
+   "Shipping Details",
+   "Shipping Policy"
+  ],
+  "size": [
+   "SIZE:",
+   "SELECT A SIZE",
+   "Size Chart",
+   "Select a Size"
+  ],
+  "sub": [
+   "Get insider access to new products and promotions when you subscribe to our newsletter.",
+   "Subscribe"
+  ],
+  "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane",
+ "http_status": 200,
+ "id": "kytebaby-pointelle-zippered-footie-in-pointelle-candy-cane",
+ "image_file": "kytebaby-pointelle-zippered-footie-in-pointelle-candy-cane.jpg",
+ "image_sha256": "826f465fee655c6c6f3981f2f2d5b65ceef2294c6727abaf8d622e0b8f99e7ed",
+ "image_source": "http://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Kyte Baby"
+   },
+   "category": "Baby & Children's One-Pieces",
+   "description": "Perfectly cozy for those early days, this cloud-soft footie is made from pointelle knit bamboo for sweet, delicate style. Gentle on newborn skin and supremely soft to the touch, this footie features a dual zipper that makes middle-of-the-night diaper changes quick and easy.  The stretchy fabric makes movement easy, while the breathable nature of bamboo keeps them comfortable for sleep and play.  68% Viscose made from Bamboo, 28% Cotton, 4% Spandex  Dual zipper ",
+   "hasVariant": [
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223#variant",
+     "@type": "Product",
+     "gtin": "197841444718",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / Newborn",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223"
+     },
+     "sku": "2403PTCC0"
+    },
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991#variant",
+     "@type": "Product",
+     "gtin": "197841444725",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 0-3 months",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991"
+     },
+     "sku": "2403PTCC1"
+    },
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759#variant",
+     "@type": "Product",
+     "gtin": "197841444732",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 3-6 months",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759"
+     },
+     "sku": "2403PTCC2"
+    },
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527#variant",
+     "@type": "Product",
+     "gtin": "197841444749",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 6-12 months",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527"
+     },
+     "sku": "2403PTCC3"
+    },
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295#variant",
+     "@type": "Product",
+     "gtin": "197841444756",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 12-18 months",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295"
+     },
+     "sku": "2403PTCC4"
+    },
+    {
+     "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063#variant",
+     "@type": "Product",
+     "gtin": "197841444763",
+     "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+     "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 18-24 months",
+     "offers": {
+      "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "40.00",
+      "priceCurrency": "USD",
+      "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063"
+     },
+     "sku": "2403PTCC5"
+    }
+   ],
+   "name": "Pointelle Zippered Footie in Candy Cane",
+   "productGroupID": "15405332988015",
+   "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223#variant",
+   "@type": "Product",
+   "gtin": "197841444718",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / Newborn",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603738223"
+   },
+   "sku": "2403PTCC0"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991#variant",
+   "@type": "Product",
+   "gtin": "197841444725",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 0-3 months",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603770991"
+   },
+   "sku": "2403PTCC1"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759#variant",
+   "@type": "Product",
+   "gtin": "197841444732",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 3-6 months",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603803759"
+   },
+   "sku": "2403PTCC2"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527#variant",
+   "@type": "Product",
+   "gtin": "197841444749",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 6-12 months",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603836527"
+   },
+   "sku": "2403PTCC3"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295#variant",
+   "@type": "Product",
+   "gtin": "197841444756",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 12-18 months",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603869295"
+   },
+   "sku": "2403PTCC4"
+  },
+  {
+   "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063#variant",
+   "@type": "Product",
+   "gtin": "197841444763",
+   "image": "https://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1920",
+   "name": "Pointelle Zippered Footie in Candy Cane - Candy Cane / 18-24 months",
+   "offers": {
+    "@id": "/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "40.00",
+    "priceCurrency": "USD",
+    "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane?variant=53880603902063"
+   },
+   "sku": "2403PTCC5"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:54:43Z",
+ "og_image": "http://kytebaby.com/cdn/shop/files/Candy_Cane_Pointelle_Zipper_Footie_02.jpg?v=1790717026&width=1024",
+ "page_sha256": "94a1f7a298e13e1f88dd775a4c962d1eb9ab6942c77b279c76da47493dce0829",
+ "rendered_checked": true,
+ "title": "Pointelle Zippered Footie in Candy Cane",
+ "url": "https://kytebaby.com/products/pointelle-zippered-footie-in-pointelle-candy-cane"
+}

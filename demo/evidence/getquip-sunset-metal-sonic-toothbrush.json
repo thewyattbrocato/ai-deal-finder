@@ -1,0 +1,63 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:08:44Z",
+  "ship": [
+   "Free shipping on your first subscription order - shop now!",
+   "Shipping & Returns",
+   "Tax and shipping calculates at checkout"
+  ],
+  "size": [],
+  "sub": [
+   "Free shipping on your first subscription order - shop now!",
+   "Freshen your routine with a $5 Daily Strengthening Toothpaste automatically added when you start your subscription. (Terms & conditions apply)",
+   "Subscribe",
+   "Freshen your routine with a $5 Daily Strengthening Toothpaste automatically added when you start your subscription"
+  ],
+  "url": "https://www.getquip.com/products/sunset-metal-sonic-toothbrush"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.getquip.com/products/sunset-metal-sonic-toothbrush",
+ "http_status": 200,
+ "id": "getquip-sunset-metal-sonic-toothbrush",
+ "image_file": "getquip-sunset-metal-sonic-toothbrush.jpg",
+ "image_sha256": "ea49bd6811dee8cef058f5d79a4f0248007bdf0f1ae1cc68b5b1d278ae6ea148",
+ "image_source": "http://www.getquip.com/cdn/shop/files/2501_DTC_SonicToothbrush_2880x2880_Sunset-1.jpg?v=1738679896&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "https://www.getquip.com/products/sunset-metal-sonic-toothbrush",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "20701"
+   },
+   "brand": {
+    "@type": "Thing",
+    "name": "quip"
+   },
+   "description": "Good habits made simple, with a sleek upgrade from manual brushing.\n\nHelps remove 120% more plaque*\u00a0\nSoft-bristle head + tongue-scraper\nSlim, lightweight, reusable handle\nOne sensitive sonic vibrating mode\n2-min timer, 30-sec pulses, auto shutoff\n\nUp to a 3-month AAA battery life\u2020\n\n\nIs this the right brush for your mouth? Take our quiz.\nThe Sonic Toothbrush has a limited 1-year warranty.",
+   "gtin12": "810033470936",
+   "name": "Sonic Toothbrush",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "price": 35.0,
+     "priceCurrency": "USD",
+     "sku": "900-00350",
+     "url": "https://www.getquip.com/products/sunset-metal-sonic-toothbrush?variant=41269665857610"
+    }
+   ],
+   "sku": "900-00350",
+   "url": "https://www.getquip.com/products/sunset-metal-sonic-toothbrush"
+  }
+ ],
+ "kind": "Personal care",
+ "observed_at": "2026-10-03T23:53:33Z",
+ "og_image": "http://www.getquip.com/cdn/shop/files/2501_DTC_SonicToothbrush_2880x2880_Sunset-1.jpg?v=1738679896",
+ "page_sha256": "7605040f6e9bfc21652331a5d10416891e3d1bb21697b97c1b0e7a99321be0ab",
+ "rendered_checked": true,
+ "title": "Sunset Metal Sonic Toothbrush for Effective Plaque Removal",
+ "url": "https://getquip.com/products/sunset-metal-sonic-toothbrush"
+}

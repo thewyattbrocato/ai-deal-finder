@@ -1,0 +1,288 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:02:56Z",
+  "ship": [
+   "Free & Fast 2-Day Shipping on All U.S. Orders!",
+   "FAST & FREE 2-DAY SHIPPING ON ALL U.S. ORDERS",
+   "Free 2-day shipping on all U.S. orders",
+   "SHIPPING",
+   "Free 2-Day Shipping",
+   "Shipping Info",
+   "Shipping"
+  ],
+  "size": [
+   "SIZE",
+   "SIZE GUIDE",
+   "SELECT SIZE"
+  ],
+  "sub": [],
+  "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn",
+ "http_status": 200,
+ "id": "agjeans-tellis-jean-modern-slim-1783iwd03yfdn",
+ "image_file": "agjeans-tellis-jean-modern-slim-1783iwd03yfdn.jpg",
+ "image_sha256": "af9e72df4f020da318c8042462977935f7eb81ef124dc4471186ea60ea0ac2dd",
+ "image_source": "http://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=420",
+ "json_ld": [
+  {
+   "@context": "https://schema.org",
+   "@id": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "AG Jeans"
+   },
+   "description": "Crafted from Indigo Wax Denim, Tellis is our modern slim jean with a fitted upper block and tapered leg opening for a roomy fit. Designed in our dark grey-tinted indigo wash, 3 Years Foundation, and finished to emulate years of AG-ed\u2122 wear through subtle fading and tonal stitching as well as whiskering on the front and behind the knees.",
+   "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+   "mpn": "1783IWD03YFDN3228",
+   "name": "Tellis Jean",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307064552&quantity=1",
+     "gtin12": "199882125991",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3228",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3228",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307064552"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307097320&quantity=1",
+     "gtin12": "199882126004",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3229",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3229",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307097320"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307130088&quantity=1",
+     "gtin12": "199882126011",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3230",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3230",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307130088"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307162856&quantity=1",
+     "gtin12": "199882126028",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3231",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3231",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307162856"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307195624&quantity=1",
+     "gtin12": "199882126035",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3232",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3232",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307195624"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307228392&quantity=1",
+     "gtin12": "199882126042",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3233",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3233",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307228392"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307261160&quantity=1",
+     "gtin12": "199882126059",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3234",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3234",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307261160"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307293928&quantity=1",
+     "gtin12": "199882126066",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3235",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3235",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307293928"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307326696&quantity=1",
+     "gtin12": "199882126073",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3236",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3236",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307326696"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307359464&quantity=1",
+     "gtin12": "199882126080",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3238",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3238",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307359464"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307392232&quantity=1",
+     "gtin12": "199882126097",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3240",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3240",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307392232"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307425000&quantity=1",
+     "gtin12": "199882126103",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3242",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3242",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307425000"
+    },
+    {
+     "@type": "Offer",
+     "availability": "https://schema.org/OutOfStock",
+     "checkoutPageURLTemplate": "https://www.agjeans.com/cart/add?id=48661307457768&quantity=1",
+     "gtin12": "199882126110",
+     "image": "https://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=1024",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "1783IWD03YFDN3244",
+     "price": "245.00",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-10-03",
+     "seller": {
+      "@type": "Organization",
+      "name": "AG Jeans"
+     },
+     "sku": "1783IWD03YFDN3244",
+     "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn?variant=48661307457768"
+    }
+   ],
+   "sku": "1783IWD03YFDN3228",
+   "url": "https://www.agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn"
+  }
+ ],
+ "kind": "Clothing",
+ "observed_at": "2026-10-03T23:53:08Z",
+ "og_image": "http://www.agjeans.com/cdn/shop/files/1783IWD03YFDN_9.jpg?v=1789491585&width=800",
+ "page_sha256": "8062295f7c51190401c009de1406a958107cb344d1b6c46a6d04daa6dd6d107d",
+ "rendered_checked": true,
+ "title": "Men Tellis Jean 3 Years Foundation at AG Jeans Official Store",
+ "url": "https://agjeans.com/products/tellis-jean-modern-slim-1783iwd03yfdn"
+}

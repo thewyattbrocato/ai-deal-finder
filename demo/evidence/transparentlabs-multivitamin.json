@@ -1,0 +1,568 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:12:30Z",
+  "ship": [
+   "Free USA Shipping Over $99",
+   "Free Shipping",
+   "Shipping & Returns",
+   "Click here for the full shipping and delivery guide \u00bb",
+   "If you are not satisfied with your product, we will offer you a full refund or store credit for the value of the item within 45 days of delivery.",
+   "Shipping, Tracking & Delivery",
+   "Shipping and Returns: 1551 S 400 E #2, American Fork, Utah 84003, United States"
+  ],
+  "size": [
+   "Serving Size:"
+  ],
+  "sub": [
+   "Subscribe and Save $4",
+   "Subscribe & Save"
+  ],
+  "url": "https://www.transparentlabs.com/products/multivitamin"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://www.transparentlabs.com/products/multivitamin",
+ "http_status": 200,
+ "id": "transparentlabs-multivitamin",
+ "image_file": "transparentlabs-multivitamin.png",
+ "image_sha256": "fb7b8acf08ad372637fac31aff2a7649f31cb13fa469bb03b8d1c53ce0b72972",
+ "image_source": "http://www.transparentlabs.com/cdn/shop/files/TL_MultiVitamin_90C_1_12.png?v=1746042231&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@id": "/products/multivitamin#product",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Transparent Labs"
+   },
+   "category": "Vitamins & Supplements",
+   "description": "Overview\u00a0\nTransparent Labs Multivitamin is a premium, all-natural, vegan-friendly formula containing essential vitamins and minerals from organic sources that align with your holistic and active lifestyle. This multivitamin is a foundation of wellness and longevity, serving as a daily staple that mimics the biocompatibility of obtaining these essential nutrients from wholesome food sources. \nIt also includes additional sources of plant-based vitamins K1, K2, and D3, which work synergistically to promote skin health, immune function, bone integrity, cardiovascular function, and more. This formula goes the extra mile with LuteMax 20/20\u00ae, a patented antioxidant complex featuring 20 mg of lutein and 4 mg of zeaxanthin to promote ocular health/vision and overall cellular integrity.\nKey Features\nAll-Natural, Organic Multivitamin Formula for Active Adults: Our whole-food multivitamin features naturally occurring micronutrients from organic sources, such as RGen\u2122 herbal extracts, VegD3\u00ae Plant-Based Vitamin D, and Biogrown\u00ae Vitamin K1 + MenaQ7\u00ae Vitamin K2.\nBiocompatible Micronutrients in a Convenient Once-Daily Dose: Transparent Labs Multivitamin is formulated with biocompatible vitamins and minerals that the body can properly absorb and utilize.\nAdded Ocular/Vision Support Complex: Thanks to LuteMax 20/20\u00ae, this multivitamin formula protects vision and overall ocular health with key antioxidants (lutein and zeaxanthin) that are known for preventing macular degeneration.\n30 Servings Per Bottle: Our multivitamin supplement provides 30 days worth of servings to help you meet your micronutrient needs with the right vitamins and minerals.\nActive Ingredients and Benefits\nVitamin A (from RGen\u2122 Herbal Extracts)| 150 mcg RAE\nBeta-carotene is a \"pre-vitamin\" commonly found in orange-colored vegetables like carrots and sweet potatoes. The body converts beta-carotene into retinol, an active form of vitamin A that supports cell growth and differentiation in the retina, as well as skin and immune health.\nVitamin C (as Liposomal Pureway-C\u00ae (90mg) and RGen\u2122 Herbal Extracts (50mg) | 140 mg\nVitamin C is a ubiquitous antioxidant for collagen synthesis, immune function, and wound healing. It enhances the absorption of non-heme iron from plant-based foods and protects cells from oxidative stress by neutralizing free radicals.\nVeg D3\u00ae Vitamin D3 (as Plant-Based Cholecalciferol) | 25 mcg (1,000 IU)\nThe \"sunshine\" vitamin is a key regulator of calcium and phosphorus absorption in the gut. It supports bone health, endocrine function, immunity, cell growth, and neuromuscular function.\nVitamin E (from RGen\u2122 Herbal Extracts) | 33.5 mg\nVitamin E is a fat-soluble antioxidant that scavenges free radicals, preventing them from damaging cell membranes, DNA, and proteins. This protective effect helps maintain the integrity of cellular and subcellular structures, particularly of the skin, eyes, and immune system.\nVitamin K1 and K2 (as BIOGROWN\u00ae K1 and MenaQ7\u00ae K2) | 300 mcg\nVitamin K is a group of fat-soluble vitamins that regulate blood clotting and bone health. These essential nutrients activate proteins involved in blood coagulation and work with vitamin D to regulate calcium deposition in bones and prevent arterial calcification.\nVitamin B1 (as Thiamine from RGen\u2122 Herbal Extracts) | 12.5 mg\nThiamine (vitamin B1) is a cofactor involved in energy metabolism, particularly in converting carbohydrates into adenosine triphosphate (ATP), the energy currency of cells.\nVitamin B2 (as Riboflavin from RGen\u2122 Herbal Extracts) | 12.5 mg\nRiboflavin is a key component of two coenzymes, flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD), which are involved in various metabolic reactions. These coenzymes are necessary for converting nutrients from food into energy, thereby supporting the growth and repair of body tissues.\nVitamin B3 (as Niacin from RGen\u2122 Herbal Extracts) | 17.5 mg\nNiacin is a precursor of nicotinamide adenine dinucleotide (NAD) and nicotinamide adenine dinucleotide phosphate (NADP), two key coenzymes for energy production, DNA repair, cell signaling, and maintaining healthy cholesterol levels.\nVitamin B6 (from RGen\u2122 Herbal Extracts) | 25 mg\nPyridoxal-5'-phosphate (P5P), the active form of vitamin B6, is involved in over 100 enzymatic reactions, mostly related to protein metabolism. It also plays an important role in neurotransmitter synthesis, red blood cell formation, and homocysteine regulation, thus supporting cardiovascular health.\nFolate (from RGen\u2122 Herbal Extracts) | 200 mcg DFE\nFolate, also known as vitamin B9, is especially important for cell growth and division, DNA synthesis, and red blood cell production. Folate and vitamin B12 are synergistic cofactors in converting homocysteine to methionine. High levels of homocysteine have been linked to an increased risk of heart disease, stroke, and cognitive decline. By working together, folate and B12 help keep homocysteine levels in check, promoting cardiovascular and cognitive health.\nVitamin B12 (as Re-Natured\u00ae Methylcobalamin) | 2.4 mcg\nVitamin B12 is imperative for DNA synthesis, nerve function, and red blood cell formation. It works with folate (vitamin B9) to regulate homocysteine levels and is essential for nervous system health. Nutritional deficits of B12 commonly lead to anemia and neurological issues.\nBiotin (from RGen\u2122 Herbal Extracts) | 50 mcg\nBiotin assists with the metabolism of fats, carbohydrates, and proteins. It is particularly important for healthy hair, skin, and nails and for the enzymatic functions of energy production and fatty acid synthesis.\nMagnesium (as Aquamin\u00ae Marine-Sourced Magnesium) | 100 mg\nMagnesium is an electrolyte mineral and cofactor in over 300 biochemical reactions in the body. It plays an indispensable role in energy production, protein synthesis, muscle and nerve function, and blood glucose control. The marine-sourced citrate form is highly absorbable and supports muscle relaxation and cardiovascular health.\nZinc (from RGen\u2122 Herbal Extracts) | 3.8 mg\nZinc is a crucial trace mineral involved in a multitude of vital biological functions, especially immunity, reproduction, and hormonal balance.\nSelenium (from RGen\u2122 Herbal Extracts) | 35 mcg\nSelenium is an antioxidant that protects cells from oxidative damage and supports thyroid function by converting thyroid hormones (e.g. thyroxine to thyronine). It is also important for immune function and may reduce the risk of certain cancers.\nManganese (from RGen\u2122 Herbal Extracts) | 1.3 mg\nManganese is another trace mineral necessary for bone formation, blood clotting, and reducing inflammation. It is also a cofactor for various metabolic enzymes and connective tissue synthesis.\nChromium (from RGen\u2122 Herbal Extracts) | 60 mcg\nChromium is a trace mineral that enhances insulin action, thereby supporting blood sugar regulation and carbohydrate metabolism.\nLuteMax\u00ae 20/20 Lutein and Zeaxanthin (from Aztec Marigold Flower Extract) | 200 mg\nLutemax 2020 is a patented extract naturally derived from Aztec Marigold flowers containing all three nutritionally relevant macular carotenoids\u2014lutein, RR-zeaxanthin, and RS (meso)-zeaxanthin\u2014in the same 5:1 ratio found in the diet. This unique combination of carotenoids is backed by multiple clinical studies showing it can improve visual acuity, cognitive function, sleep quality, and more.\nHow To Use\nAs a dietary supplement, take one serving (4 capsules) with your first meal of the day. Alternatively, you may take 1/2 serving (2 capsules) with your first and last meals of the day. Do not exceed four capsules per day.\nFAQs\n\nIs it Good to Take Multivitamin Tablets Daily?\u00a0\nMultivitamin tablets can be beneficial for individuals experiencing micronutrient deficiencies. Many people take a daily multivitamin as part of a balanced diet to fill nutritional gaps and \"cover all their bases.\"\n\nHow Do I Choose the Right Multivitamin Product?\u00a0\nDifferent populations have distinct nutritional needs; for example, pregnant women should opt for formulations containing folic acid and iron, while seniors might benefit from multivitamins fortified with vitamin D and calcium. A healthcare professional can provide personalized guidance based on individual health profiles and dietary habits.\u00a0\n\nShould You Take Multivitamins at Night or in The Morning?\u00a0\nThe optimal timing for multivitamin intake can vary based on personal routine and the specific formulation of the multivitamin. Generally, it is recommended to take multivitamins with a meal to enhance nutrient absorption and reduce gastrointestinal discomfort. Taking multivitamins in the morning can align easily with breakfast and establish a routine.\n\nWhat Are the Benefits of Multivitamin Supplements?\u00a0\nMultivitamin supplements offer several potential benefits, particularly for individuals who struggle to meet their nutritional needs through diet alone. They can effectively fill nutritional gaps, ensuring adequate intake of essential vitamins and minerals. For certain populations, such as vegetarians, vegans, lactose-intolerant individuals, pregnant women, and those with specific medical conditions, multivitamins can be indispensable in preventing deficiencies.\n\nWho Might Need to Avoid Taking Multivitamins?\u00a0\nWhile multivitamins can be beneficial for many, some individuals might need to avoid them. Those with certain medical conditions, such as hemochromatosis, should be cautious with multivitamins containing iron. Moreover, specific medications may interact with high doses of certain vitamins. It is imperative to consult a healthcare provider before starting any supplementation regimen to avoid adverse effects and ensure it aligns with one's overall health strategy.\nWhen Will My Order Be Shipped Out?\nAll orders ship out the following business day.\u00a0\nDoes Transparent Labs Ship to My Country?\nTransparent Labs ships Worldwide, except to the following countries, unfortunately, due to increasingly high fraudulent activity; Albania, Algeria, India, Lithuania, Macedonia, Romania, Russia, Tunisia, &amp; Ukraine.\nDoes this Product Contain Nuts?\nWe process products in a facility that works with nuts (coconuts, peanuts). However, we have an allergen control program in place that sanitizes and cleans our equipment between allergen and non-allergen runs!",
+   "hasVariant": [
+    {
+     "@id": "/products/multivitamin?variant=39946021077085#variant",
+     "@type": "Product",
+     "gtin": "874659001585",
+     "image": "https://www.transparentlabs.com/cdn/shop/files/TL_MultiVitamin_90C_1_12.png?v=1746042231&width=1920",
+     "name": "Multivitamin Supplement - 30 Servings",
+     "offers": {
+      "@id": "/products/multivitamin?variant=39946021077085#offer",
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "39.99",
+      "priceCurrency": "USD",
+      "url": "https://www.transparentlabs.com/products/multivitamin?variant=39946021077085"
+     },
+     "sku": "TPL033101"
+    }
+   ],
+   "name": "Multivitamin Supplement",
+   "productGroupID": "4754503467101",
+   "url": "https://www.transparentlabs.com/products/multivitamin"
+  },
+  {
+   "@id": "/products/multivitamin?variant=39946021077085#variant",
+   "@type": "Product",
+   "gtin": "874659001585",
+   "image": "https://www.transparentlabs.com/cdn/shop/files/TL_MultiVitamin_90C_1_12.png?v=1746042231&width=1920",
+   "name": "Multivitamin Supplement - 30 Servings",
+   "offers": {
+    "@id": "/products/multivitamin?variant=39946021077085#offer",
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "39.99",
+    "priceCurrency": "USD",
+    "url": "https://www.transparentlabs.com/products/multivitamin?variant=39946021077085"
+   },
+   "sku": "TPL033101"
+  },
+  {
+   "@context": "https://schema.org/",
+   "@id": "/products/multivitamin#product",
+   "@type": "Product",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": 5,
+    "ratingValue": "4.40",
+    "reviewCount": 256,
+    "worstRating": 1
+   },
+   "image": "https://cdn.shopify.com/s/files/1/0866/7664/files/TL_MultiVitamin_90C_1_12.png?v=1746042231",
+   "name": "Multivitamin Supplement",
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Angela"
+     },
+     "datePublished": "2026-07-07T11:37:40Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1783424261__img_3181__original.jpeg?quality=80&width=1024"
+     ],
+     "reviewBody": "This multivitamin is the only one I\u2019ve found. I feel that makes a difference. I take this and an omega-3 every day and they work perfectly together.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Shane L."
+     },
+     "datePublished": "2026-05-06T17:58:17Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1778090297__image__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "Trustworthy, reliable and works!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Logan"
+     },
+     "datePublished": "2025-01-07T15:38:22Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1736264302__20250107_085415__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "I was subscribed to TL to get a new bottle of multivitamins every month and have enjoyed them until now. This month however, I was sent a bottle of vitamins with completely different ingredients than what I had ordered and was not notified of a formula change. I began taking the new supply today and so cannot yet comment on performance however, they did remove the ashwagandha which will require me to buy an additional supplement from elsewhere. Overall, I am quite annoyed at TL for this change and lack of notification to subscribed customers. I hope that they return to the original formula at some point and are more forth coming with their subscribers in the future.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 1,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Randy"
+     },
+     "datePublished": "2024-12-18T00:02:03Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1734480128__image__original.jpg?quality=80&width=1024",
+      "https://review-images.judgeme.com/transparent-labs/1734480131__image__original.jpg?quality=80&width=1024"
+     ],
+     "reviewBody": "Didn\u2019t like the fact the ingredients\\formula changed",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 1,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Raymond S."
+     },
+     "datePublished": "2024-10-09T00:29:53Z",
+     "image": [
+      "https://review-images.judgeme.com/transparent-labs/1728433793__img_9445__original.jpeg?quality=80&width=1024"
+     ],
+     "reviewBody": "Seems like i have more energy feel better during my workouts good product bought 2 more bottles in fact \ud83d\udc4d",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 4,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Marc R."
+     },
+     "datePublished": "2026-09-24T09:11:56Z",
+     "reviewBody": "Love the fact it covers a lot of different supplements",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Moises"
+     },
+     "datePublished": "2026-09-12T03:02:00Z",
+     "reviewBody": "The Best",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Joseph A."
+     },
+     "datePublished": "2026-09-02T20:24:17Z",
+     "reviewBody": "I love the multi vitamin it's on the cleaner side of ingredients, it packs punch on what you need in a vitamin and been taking them the four months or longer and will keep using these in my daily routine.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "keith j."
+     },
+     "datePublished": "2026-09-01T15:18:46Z",
+     "reviewBody": "take these every morning and on my second bottle! the thing I like about this supplement (as well as all other products from transparent labs) is the optimal dosage, clean ingredients, and the why behind everything they put in the product. taking this along with some other items have greatly increased my sleep quality and has gotten rid of my brain fog. if you\u2019re an active person, I would take these every day. can wait to get into some of the other wellness products!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "James"
+     },
+     "datePublished": "2026-08-22T22:24:49Z",
+     "reviewBody": "I get the same order every month, I'm consistent",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-08-11T14:21:27Z",
+     "reviewBody": "I found something that actually works and this brand delivers \ud83d\udcaf percent success \ud83d\udc4d\ud83c\udfff",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "James K."
+     },
+     "datePublished": "2026-07-07T12:36:42Z",
+     "reviewBody": "Good product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "phil"
+     },
+     "datePublished": "2026-06-09T23:39:05Z",
+     "reviewBody": "As someone who runs and lift weights, i have tried many multivitamins over the years and this one seems the best. I feel more focused and recovered during the day. I also feel like the dosages aren't crazy high like other multivitamins which is great.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Douglas"
+     },
+     "datePublished": "2026-05-27T21:53:32Z",
+     "reviewBody": "Wanted to try these",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-05-16T16:24:10Z",
+     "reviewBody": "This multivitamin doesn't give me bellyaches. It has all the right stuff in a more natural form for better metabolic uptake. I was using a combo of multivitamins but this replaced all of that. It's also less expensive than all the stuff I had been taking.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Nathan"
+     },
+     "datePublished": "2026-05-14T21:47:22Z",
+     "reviewBody": "Great vitamins!!!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Charles"
+     },
+     "datePublished": "2026-05-07T19:13:25Z",
+     "reviewBody": "Excellent product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Gilberto"
+     },
+     "datePublished": "2026-04-30T15:24:02Z",
+     "reviewBody": "Been my go to multi for 2+ years now",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Anonymous"
+     },
+     "datePublished": "2026-04-22T13:31:07Z",
+     "reviewBody": "This multi-vitamin is tailored specifically for men with appropriate ratios of supplments men need, such as selenium, zinc, manganese, magnesium, chromium, and ashwaganda (for stress) in addition to other essential vitamins and minerals. I also like that it is made from bioavailable organic nutrients. without the fillers that the store-bought multivitamins contain. I have noticed a difference in my overall well-being since taking these vitamins daily over 2 months ago. Highly recommend, it is worth the \"premium\" price point.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Shane"
+     },
+     "datePublished": "2026-04-19T05:09:14Z",
+     "reviewBody": "10/10",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Louis"
+     },
+     "datePublished": "2026-04-17T21:22:19Z",
+     "reviewBody": "Great multivitamin",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "orlando r."
+     },
+     "datePublished": "2026-04-07T16:57:45Z",
+     "reviewBody": "Great product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Adam M."
+     },
+     "datePublished": "2026-04-06T16:41:11Z",
+     "reviewBody": "Just started them. Taking four is a lot, but if it is like the other products it is worth it!",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "o.r."
+     },
+     "datePublished": "2026-03-30T19:21:09Z",
+     "reviewBody": "Great product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "o.r."
+     },
+     "datePublished": "2026-03-30T19:20:55Z",
+     "reviewBody": "Great product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Toby"
+     },
+     "datePublished": "2026-01-12T17:08:22Z",
+     "reviewBody": "Great product",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Jasjeet"
+     },
+     "datePublished": "2026-01-09T10:43:07Z",
+     "reviewBody": "Provides an amazing way to start the day and get into my workout.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "o.r."
+     },
+     "datePublished": "2026-01-07T19:15:06Z",
+     "reviewBody": "Excellent",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Leonard"
+     },
+     "datePublished": "2025-11-25T18:46:24Z",
+     "reviewBody": "Product is of good quality and seems to be doing a good job.",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Toby"
+     },
+     "datePublished": "2025-11-20T12:09:04Z",
+     "reviewBody": "Great \ud83d\udc4d",
+     "reviewRating": {
+      "@type": "Rating",
+      "bestRating": 5,
+      "ratingValue": 5,
+      "worstRating": 1
+     }
+    }
+   ]
+  }
+ ],
+ "kind": "Wellness",
+ "observed_at": "2026-10-03T23:54:06Z",
+ "og_image": "http://www.transparentlabs.com/cdn/shop/files/TL_MultiVitamin_90C_1_12.png?v=1746042231",
+ "page_sha256": "aac4373933d4df491e7ecfca47c9389f88f93dc2faf171d1539398830c230792",
+ "rendered_checked": true,
+ "title": "Best Multivitamin Supplement for Daily Wellness \u2013 Transparent Labs",
+ "url": "https://transparentlabs.com/products/multivitamin"
+}

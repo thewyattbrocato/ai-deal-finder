@@ -1,0 +1,656 @@
+{
+ "conditions": {
+  "read_at": "2026-10-04T00:10:30Z",
+  "ship": [
+   "FREE SHIPPING ON ORDERS WITH 2+ BOXES",
+   "*See nutrition information on package for fat and saturated fat content. For full details on discounts, promotions, and shipping policies (free shipping excludes Hawaii & Alaska), reference our Terms & Conditions."
+  ],
+  "size": [
+   "BOX SIZE:"
+  ],
+  "sub": [
+   "SUBSCRIBE & SAVE",
+   "Subscribe & Save",
+   "Subscription Details",
+   "*By completing this form you are signing up to receive our emails and can unsubscribe at any time.",
+   "Subscriptions"
+  ],
+  "url": "https://perfectsnacks.com/products/pumpkin-pie"
+ },
+ "coupon_snippets": [],
+ "final_url": "https://perfectsnacks.com/products/pumpkin-pie",
+ "http_status": 200,
+ "id": "perfectsnacks-pumpkin-pie",
+ "image_file": "perfectsnacks-pumpkin-pie.png",
+ "image_sha256": "1292668d835199b16bd37ac89c3bb86087f38c258b4acdf2f3a5c32c224ffff3",
+ "image_source": "http://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=420",
+ "json_ld": [
+  {
+   "@context": "http://schema.org/",
+   "@type": "Product",
+   "brand": {
+    "@type": "Brand",
+    "name": "Perfect Snacks"
+   },
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": [
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=1920"
+   ],
+   "name": "Pumpkin Pie",
+   "offers": [
+    {
+     "@type": "Offer",
+     "availability": "http://schema.org/InStock",
+     "gtin12": 855569110413,
+     "price": 29.0,
+     "priceCurrency": "USD",
+     "sku": "110413",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199"
+    }
+   ],
+   "sku": "110413",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie"
+  },
+  {
+   "@context": "https://schema.org",
+   "@id": "https://perfectsnacks.com/products/pumpkin-pie#json-ld-for-seo",
+   "@type": "ProductGroup",
+   "brand": {
+    "@type": "Brand",
+    "name": "Perfect Snacks"
+   },
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "hasVariant": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199#json-ld-for-seo-product",
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "gtin": "855569110413",
+     "gtin12": "855569110413",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413",
+     "name": "Pumpkin Pie Box of 8",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "gtin": "855569110413",
+       "gtin12": "855569110413",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413",
+       "name": "Pumpkin Pie Box of 8",
+       "price": "29.0",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598900759",
+     "name": "Pumpkin Pie Box of 8 Delivery every 4 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-598900759",
+       "name": "Pumpkin Pie Box of 8 Delivery every 4 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-598900759",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-598900759",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598933527",
+     "name": "Pumpkin Pie Box of 8 Delivery every 5 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-598933527",
+       "name": "Pumpkin Pie Box of 8 Delivery every 5 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-598933527",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-598933527",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598966295",
+     "name": "Pumpkin Pie Box of 8 Delivery every 6 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-598966295",
+       "name": "Pumpkin Pie Box of 8 Delivery every 6 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-598966295",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-598966295",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598999063",
+     "name": "Pumpkin Pie Box of 8 Delivery every 7 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-598999063",
+       "name": "Pumpkin Pie Box of 8 Delivery every 7 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-598999063",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-598999063",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-599031831",
+     "name": "Pumpkin Pie Box of 8 Delivery every 8 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-599031831",
+       "name": "Pumpkin Pie Box of 8 Delivery every 8 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-599031831",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-599031831",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    },
+    {
+     "@type": "Product",
+     "category": [
+      "Uncategorized"
+     ],
+     "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "inProductGroupWithID": "29579083799",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-11014995991",
+     "name": "Pumpkin Pie Box of 8 Delivery every 12 Weeks",
+     "offers": [
+      {
+       "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991#json-ld-for-seo-variant",
+       "@type": "Offer",
+       "availability": "https://schema.org/InStock",
+       "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+       "itemCondition": "https://schema.org/NewCondition",
+       "mpn": "855569110413-11014995991",
+       "name": "Pumpkin Pie Box of 8 Delivery every 12 Weeks",
+       "price": "26.1",
+       "priceCurrency": "USD",
+       "priceValidUntil": "2027-01-01",
+       "seller": {
+        "@type": "Organization",
+        "name": "Perfect Snacks"
+       },
+       "sku": "110413-11014995991",
+       "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991",
+       "validFrom": "2026-10-02"
+      }
+     ],
+     "sku": "110413-11014995991",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991",
+     "weight": {
+      "@type": "QuantitativeValue",
+      "unitText": "lb",
+      "value": 2.0
+     }
+    }
+   ],
+   "image": [
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarBreak.png?v=1726511691&width=2624",
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselCarton.png?v=1726511691&width=2624",
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselFlatlay.png?v=1726511692&width=2624",
+    "https://perfectsnacks.com/cdn/shop/files/Pumpkin_PerfectBarLifestyle.png?v=1726511691&width=2624",
+    "https://perfectsnacks.com/cdn/shop/files/infographic_e9ec6997-6399-40e8-8005-1a205cec8549.jpg?v=1723056398&width=1313"
+   ],
+   "name": "Pumpkin Pie",
+   "productGroupID": "29579083799",
+   "productID": "110413",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie"
+  },
+  {
+   "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199#json-ld-for-seo-product",
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "gtin": "855569110413",
+   "gtin12": "855569110413",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413",
+   "name": "Pumpkin Pie Box of 8",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "gtin": "855569110413",
+     "gtin12": "855569110413",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413",
+     "name": "Pumpkin Pie Box of 8",
+     "price": "29.0",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-598900759",
+   "name": "Pumpkin Pie Box of 8 Delivery every 4 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598900759",
+     "name": "Pumpkin Pie Box of 8 Delivery every 4 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-598900759",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-598900759",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598900759",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-598933527",
+   "name": "Pumpkin Pie Box of 8 Delivery every 5 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598933527",
+     "name": "Pumpkin Pie Box of 8 Delivery every 5 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-598933527",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-598933527",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598933527",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-598966295",
+   "name": "Pumpkin Pie Box of 8 Delivery every 6 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598966295",
+     "name": "Pumpkin Pie Box of 8 Delivery every 6 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-598966295",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-598966295",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598966295",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-598999063",
+   "name": "Pumpkin Pie Box of 8 Delivery every 7 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-598999063",
+     "name": "Pumpkin Pie Box of 8 Delivery every 7 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-598999063",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-598999063",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=598999063",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-599031831",
+   "name": "Pumpkin Pie Box of 8 Delivery every 8 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-599031831",
+     "name": "Pumpkin Pie Box of 8 Delivery every 8 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-599031831",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-599031831",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=599031831",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  },
+  {
+   "@type": "Product",
+   "category": [
+    "Uncategorized"
+   ],
+   "description": "Bring the taste of fall into your snack routine with the Perfect Bar Pumpkin Pie, a limited-edition seasonal flavor that combines indulgence with nutrition. Each refrigerated protein bar delivers 14g of protein from peanut butter and whole food ingredients, along with a blend of 20+ organic superfoods like dried pumpkin, carrot, spinach, and kale.\nCrafted to be both delicious and nourishing, this bar captures the classic taste of pumpkin pie with warm seasonal spices\u2014without the artificial additives. Perfect Bar Pumpkin Pie is USDA Organic, Non-GMO Project Verified, and gluten-free, making it a better-for-you option for those who want flavor and function in every bite.\nWhether you enjoy it as a midday snack, post-workout fuel, or a festive seasonal treat, this protein bar satisfies cravings while supporting balanced nutrition. Stock up while it lasts\u2014the Perfect Bar Pumpkin Pie is a limited seasonal release and a fall favorite among fans who crave wholesome indulgence.",
+   "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+   "inProductGroupWithID": "29579083799",
+   "itemCondition": "https://schema.org/NewCondition",
+   "mpn": "855569110413-11014995991",
+   "name": "Pumpkin Pie Box of 8 Delivery every 12 Weeks",
+   "offers": [
+    {
+     "@id": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991#json-ld-for-seo-variant",
+     "@type": "Offer",
+     "availability": "https://schema.org/InStock",
+     "image": "https://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478&width=2625",
+     "itemCondition": "https://schema.org/NewCondition",
+     "mpn": "855569110413-11014995991",
+     "name": "Pumpkin Pie Box of 8 Delivery every 12 Weeks",
+     "price": "26.1",
+     "priceCurrency": "USD",
+     "priceValidUntil": "2027-01-01",
+     "seller": {
+      "@type": "Organization",
+      "name": "Perfect Snacks"
+     },
+     "sku": "110413-11014995991",
+     "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991",
+     "validFrom": "2026-10-02"
+    }
+   ],
+   "sku": "110413-11014995991",
+   "url": "https://perfectsnacks.com/products/pumpkin-pie?variant=31687007666199&selling_plan=11014995991",
+   "weight": {
+    "@type": "QuantitativeValue",
+    "unitText": "lb",
+    "value": 2.0
+   }
+  }
+ ],
+ "kind": "Pantry",
+ "observed_at": "2026-10-03T23:54:11Z",
+ "og_image": "http://perfectsnacks.com/cdn/shop/files/Pumpkin_CarouselBarOut2.png?v=1726594478",
+ "page_sha256": "5b5d5f181c38e1f36b5d4d362d80b971d72948e1f12d22a631edaadfed2a6f00",
+ "rendered_checked": true,
+ "title": "Pumpkin Pie Perfect Bar \u2013 Perfect Snacks",
+ "url": "https://perfectsnacks.com/products/pumpkin-pie"
+}
