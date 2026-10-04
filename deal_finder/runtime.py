@@ -826,7 +826,7 @@ def main(argv: list[str] | None = None) -> int:
             _print_toon(authorize_cart_test(_read_json(args.consent), _read_json(args.run)))
         elif args.command == "similar-check":
             answer = _read_json(args.input)
-            problems = similar_contract.validate(answer)
+            problems = similar_contract.validate(answer, now=datetime.now(timezone.utc))
             if problems:
                 _print_toon({"ok": False, "problems": problems, "help": "Fix each problem; SIMILAR_OUTPUT.md has the rules."})
                 return 1

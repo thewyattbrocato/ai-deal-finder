@@ -45,6 +45,31 @@ class ParseFormats(unittest.TestCase):
     def test_multiplier(self): self.check("12 x 2 oz", "2", "oz", 12)
     def test_pack_of_measure(self): self.check("6 pack of 12 fl oz cans", "12", "fl oz", 6)
     def test_thousands_comma(self): self.check("1,000 g", "1000", "g")
+
+    # A printed multipack counts its items (acceptance run d1: a case of 12 cans read as one can).
+    def test_case_of_after_measure(self): self.check("12.5 oz (Case of 12)", "12.5", "oz", 12)
+    def test_case_of_comma(self): self.check("12.5-oz, case of 12", "12.5", "oz", 12)
+    def test_case_of_before_measure(self): self.check("Case of 12, 12.5 oz cans", "12.5", "oz", 12)
+    def test_pack_of_after_measure(self): self.check("12 Ounce (Pack of 6)", "12", "oz", 6)
+    def test_measure_times_count(self): self.check("250 ml x 6", "250", "ml", 6)
+    def test_case_of_alone(self): self.check("(Case of 12)", "12", "ct")
+
+    # Count words a page prints (acceptance run e1: '3 heads', '10 Sachets', '15 each' were refused).
+    def test_count_words(self):
+        for text, quantity in (("3 heads", "3"), ("10 Sachets", "10"), ("15 each", "15"), ("Count: 3 ea", "3"),
+                               ("3 Pack", "3"), ("SIZE: 10 Count", "10"), ("20 tea bags", "20"), ("12 pods", "12"),
+                               ("24 capsules", "24"), ("2 bags", "2"), ("6 cans", "6"), ("4 filters", "4")):
+            with self.subTest(text=text):
+                self.check(text, quantity, "ct")
+
+    def test_count_and_measure_side_by_side_stays_refused(self):
+        # '24 ct, 9.4 oz' (pods) is the total weight, not per pod: never multiplied
+        self.assertIsInstance(parse_size_checked("24 ct, 9.4 oz"), SizeRefusal)
+        self.assertIsInstance(parse_size_checked("2 bags, 12 oz each"), SizeRefusal)
+
+    def test_a_case_unit_price_is_per_item_total(self):
+        self.assertEqual(unit_price(usd("55.88"), parse_size("12.5 oz (Case of 12)"), "oz").display(),
+                         "0.373 USD per oz")
     def test_source_text_kept(self):
         self.assertEqual(parse_size("Net wt 12 oz (340 g)").source_text, "12 oz")
 
