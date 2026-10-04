@@ -163,7 +163,7 @@ class HandTermsTest(unittest.TestCase):
         for key, t in terms.HAND.items():
             url, when = t["src"]
             self.assertTrue(url.startswith("https://"), key)
-            self.assertTrue(when.startswith(("2026-10-02T", "2026-10-03T")), key)
+            self.assertTrue(when.startswith(("2026-10-02T", "2026-10-03T", "2026-10-04T")), key)
 
     def test_hand_cards_carry_the_2026_10_03_observation_and_keep_history(self):
         import json
@@ -181,7 +181,12 @@ class HandTermsTest(unittest.TestCase):
             self.assertEqual(obs[0]["observed_at"], first, slug)
             self.assertEqual(obs[1]["observed_at"][:10], "2026-10-02", slug)
             latest = obs[-1]
-            self.assertEqual(latest["observed_at"][:10], "2026-10-03", slug)
+            # Old Navy was read again 2026-10-04 (unchanged); the 2026-10-03 read stays
+            if slug == "oldnavy":
+                self.assertEqual(obs[2]["observed_at"], "2026-10-03T23:15:26Z")
+                self.assertEqual(latest["observed_at"][:10], "2026-10-04", slug)
+            else:
+                self.assertEqual(latest["observed_at"][:10], "2026-10-03", slug)
             self.assertEqual(latest["shelf_price"], prices[slug], slug)
             self.assertFalse(latest.get("code_tried", False), slug)
             # the card's "Checked" stamp and the terms source are that read
@@ -203,6 +208,58 @@ class HandTermsTest(unittest.TestCase):
         on = terms.handcard_record("oldnavy")["observations"][-1]
         self.assertTrue(any("Code: EXTRA" in x for x in on["offer_texts"]))
         self.assertFalse(on["code_tried"])
+
+    def test_coffee_hand_cards_carry_the_2026_10_04_read_and_keep_history(self):
+        with open(os.path.join(ROOT, "demo", "index.html"), encoding="utf-8") as f:
+            page = f.read()
+        first = {"hcr": "2026-10-02T15:00:17Z", "wel": "2026-10-02T15:01:25Z",
+                 "ccc": "2026-10-02T15:03:57Z"}
+        shelf = {"hcr": 18.0, "wel": 20.5, "ccc": 19.5}
+        for slug, t0 in first.items():
+            rec = terms.handcard_record(slug)
+            obs = rec["observations"]
+            self.assertEqual(len(obs), 3, slug)
+            # the first price read and the 2026-10-02 conditions read stay
+            self.assertEqual(obs[0]["observed_at"], t0, slug)
+            self.assertEqual(obs[1]["observed_at"][:10], "2026-10-02", slug)
+            latest = obs[-1]
+            self.assertEqual(latest["observed_at"][:10], "2026-10-04", slug)
+            self.assertEqual(latest["shelf_price"], shelf[slug], slug)
+            self.assertFalse(latest["code_tried"], slug)
+            # no coupon: the only offer text any read stored is an email-gated
+            # signup (Well), which prints no code
+            for o in obs:
+                for text in o["offer_texts"]:
+                    self.assertNotRegex(text, r"\b(?i:code)\s*:?\s*[A-Z][A-Z0-9]{3,}\b", slug)
+            self.assertEqual(terms.HAND[slug]["src"][1], latest["observed_at"], slug)
+            self.assertIn(rec["page_url"], page, slug)
+            self.assertIn("Checked: " + rec["page_url"].split("/")[2].replace("www.", "")
+                          + " · US · " + latest["observed_at"], page, slug)
+            self.assertNotIn(t0, page, slug)
+            # per-size one-time and subscribe prices on the card are what the read printed
+            self.assertEqual(
+                [(z["k"].replace(" ", ""), z["c"], z["s"]) for z in terms.HAND[slug]["sizes"]],
+                [(k.replace(" ", ""), round(c * 100), round(s * 100)) for k, c, s in latest["size_prices"]], slug)
+            # the card's terms are the earlier read's, unchanged
+            self.assertEqual(latest["size_prices"], obs[1]["size_prices"], slug)
+        self.assertNotIn("ship", terms.HAND["hcr"])  # still no shipping text on the page
+        self.assertEqual(terms.handcard_record("hcr")["observations"][-1]["shipping"], [])
+        self.assertIn("Free Shipping On All Orders $75+",
+                      terms.handcard_record("wel")["observations"][-1]["shipping"])
+        self.assertIn("Free shipping on $30 & up!",
+                      terms.handcard_record("ccc")["observations"][-1]["shipping"])
+
+    def test_lavazza_terms_are_the_2026_10_04_read(self):
+        import glob
+        for fn in glob.glob(os.path.join(ROOT, "demo", "evidence", "lavazza", "*.json")):
+            with open(fn, encoding="utf-8") as f:
+                rec = json.load(f)
+            latest = rec["observations"][-1]
+            self.assertEqual(latest["observed_at"][:10], "2026-10-04", fn)
+            self.assertEqual(latest["code"], "AS20", fn)
+            self.assertEqual(latest["shipping"],
+                             ["Fast delivery on all orders. Free delivery on orders over $50"], fn)
+            self.assertEqual(len(rec["observations"]), 3, fn)
 
     def test_subscribe_prices_are_printed_ones_never_computed(self):
         for key, t in terms.HAND.items():

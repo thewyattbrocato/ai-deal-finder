@@ -443,18 +443,24 @@ def _latest(slug):
     return handcard_record(slug)["observations"][-1]
 
 
+def _lavazza_latest(slug):
+    with open(os.path.join(EVIDENCE_DIR, "lavazza", slug + ".json"),
+              encoding="utf-8") as f:
+        return json.load(f)["observations"][-1]
+
+
 def _size(k, c=None, s=None, sp=None, o=None, ok=None, d=False):
     return {"k": k, "c": c, "s": s, "sp": sp, "o": o, "ok": ok, "d": d}
 
 
-# Re-read 2026-10-02 (UTC) in a read-only browser; nothing added to a cart,
-# no code tried. "src" is the page the terms were read from. Apple, Old Navy,
-# Gap and Nike were read again 2026-10-03 (demo/evidence/handcards/, earlier
-# reads kept there as dated history); their sizes below are that latest read.
+# Read in a read-only browser; nothing added to a cart, no code tried. "src" is
+# the page and the time of the latest read of it. Hand cards were read again
+# 2026-10-03 and 2026-10-04 (demo/evidence/handcards/, demo/evidence/lavazza/;
+# earlier reads kept there as dated history); the sizes below are that latest read.
 HAND = {
     "cof3": {  # Lavazza Dolcevita Classico
         "src": ("https://www.lavazzausa.com/en/whole-bean-coffee/"
-                "dolcevita-classico", "2026-10-02T22:09Z"),
+                "dolcevita-classico", _lavazza_latest("dolcevita-classico")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("12 oz", 1399, None, 25, 12, d=True)],
         "ship": {"k": "threshold", "over": 5000, "members": False,
@@ -464,7 +470,7 @@ HAND = {
     },
     "cof2": {  # Lavazza Qualita Rossa
         "src": ("https://www.lavazzausa.com/en/whole-bean-coffee/"
-                "qualita-rossa", "2026-10-02T22:09Z"),
+                "qualita-rossa", _lavazza_latest("qualita-rossa")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("2.2 lb", 2499, None, 25, 35.2, d=True)],
         "ship": {"k": "threshold", "over": 5000, "members": False,
@@ -474,7 +480,7 @@ HAND = {
     },
     "cof1": {  # Lavazza Super Crema
         "src": ("https://www.lavazzausa.com/en/whole-bean-coffee/"
-                "super-crema.4202", "2026-10-02T22:09:30Z"),
+                "super-crema.4202", _lavazza_latest("super-crema")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("2.2 lb", 2699, None, 25, 35.2, d=True)],
         "ship": {"k": "threshold", "over": 5000, "members": False,
@@ -484,7 +490,7 @@ HAND = {
     },
     "hcr": {  # Honest Coffee Roasters Midnight Axes
         "src": ("https://www.honest.coffee/shop-3Ooj8/p/"
-                "nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr", "2026-10-02T22:10:43Z"),
+                "nguvu-bcntn-ksj2y-dy3ra-jzxhp-9wphr", _latest("hcr")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("12 oz", 1800, 1350, None, 12, d=True),
                   _size("2 lb", 3800, 2850, None, 32),
@@ -494,7 +500,7 @@ HAND = {
     },
     "wel": {  # The Well Coffee Roasters Watershed
         "src": ("https://wellcoffeeroasters.com/products/watershed",
-                "2026-10-02T22:11Z"),
+                _latest("wel")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("12 oz", 2050, 1845, None, 12, d=True),
                   _size("2 lb", 5150, 4635, None, 32),
@@ -507,7 +513,7 @@ HAND = {
     },
     "ccc": {  # Counter Culture Big Trouble
         "src": ("https://counterculturecoffee.com/collections/coffee/"
-                "products/big-trouble", "2026-10-02T22:13:21Z"),
+                "products/big-trouble", _latest("ccc")["observed_at"]),
         "group": "coffee",
         "sizes": [_size("12 oz", 1950, 1750, None, 12, d=True),
                   _size("24 oz", 3750, 3366, None, 24),

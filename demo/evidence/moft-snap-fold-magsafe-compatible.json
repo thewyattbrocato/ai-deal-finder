@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T21:40:14Z",
+  "read_at": "2026-10-04T01:01:07Z",
   "ship": [
    "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
    "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
@@ -76,6 +76,63 @@
    "page_sha256": "08df446ba2583fe0f4b7c219f8565f90b7e11fb7bbec790dcad97843ac88eacf",
    "rendered_checked": true,
    "title": "Snap Fold for iPhone Duo \u2013 MOFT"
+  },
+  {
+   "conditions": {
+    "read_at": "2026-10-03T21:40:14Z",
+    "ship": [
+     "\ud83d\ude9a International shipping off from Sep 30, resumes Oct 7.",
+     "Free shipping over USD$69 (except Stand Power Set/Smart Mat)",
+     "\ud83d\ude9a Shipping: Pre-orders start shipping in Dec.",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [
+     "Subscribe"
+    ],
+    "url": "https://www.moft.com/products/snap-fold-magsafe-compatible"
+   },
+   "coupon_snippets": [
+    "NZD PEN PHP PKR PLN QAR RON RSD SAR SEK SGD THB TWD UAH USD UYU UZS VND Snap Fold for iPhone Duo $49.99 USD No reviews $10 OFF Early Bird Offer: Use code FOLD10 at checkout. Bundle & Save $20: Add Dynamic Folio for iPhone Duo to your order and the discount applies automatically. \ud83d\ude9a Shipping: Pre-orders start s",
+    "nd My-Enabled MagSafe Wallets MagSafe CollectionNEW Collections Shop All 0 Pre order Snap Fold for iPhone Duo $49.99 USD $10 OFF Early Bird Offer: Use code FOLD10 at checkout. Bundle & Save $20: Add Dynamic Folio for iPhone Duo to your order and the discount applies automatically. \ud83d\ude9a Shipping: Pre-orders start "
+   ],
+   "final_url": "https://www.moft.com/products/snap-fold-magsafe-compatible",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@type": "Product",
+     "brand": {
+      "@type": "Brand",
+      "name": "MB004"
+     },
+     "description": " $10 OFF Early Bird Offer: Use code FOLD10 at checkout.Bundle &amp;amp; Save $20: Add Dynamic Folio for iPhone Duo to your order and the discount applies automatically.\ud83d\ude9a Shipping: Pre-orders start shipping in Dec.",
+     "image": [
+      "https://www.moft.com/cdn/shop/files/SnapFoldforiPhoneDuoSlice6.jpg?v=1789678893&width=3000"
+     ],
+     "mpn": "",
+     "name": "Snap Fold for iPhone Duo",
+     "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "mpn": "",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2027-10-03",
+      "sku": "MB004D-1-ME-MCGY",
+      "url": "https://www.moft.com/products/snap-fold-magsafe-compatible"
+     },
+     "productID": "7782566428759",
+     "sku": "MB004D-1-ME-MCGY",
+     "url": "https://www.moft.com/products/snap-fold-magsafe-compatible"
+    }
+   ],
+   "observed_at": "2026-10-03T21:39:59Z",
+   "og_image": "http://www.moft.com/cdn/shop/files/SnapFoldforiPhoneDuoSlice6.jpg?v=1789678893",
+   "page_sha256": "eb0f0d2368e328a2fe1d77e67b85253eb181a3900023310755fb7ae825c0ab78",
+   "rendered_checked": true,
+   "title": "Snap Fold for iPhone Duo \u2013 MOFT"
   }
  ],
  "http_status": 200,
@@ -114,9 +171,9 @@
   }
  ],
  "kind": "Tech",
- "observed_at": "2026-10-03T21:39:59Z",
+ "observed_at": "2026-10-04T01:00:52Z",
  "og_image": "http://www.moft.com/cdn/shop/files/SnapFoldforiPhoneDuoSlice6.jpg?v=1789678893",
- "page_sha256": "eb0f0d2368e328a2fe1d77e67b85253eb181a3900023310755fb7ae825c0ab78",
+ "page_sha256": "d6a27ceb140da698bd27de9624241be15081d81cf75d65a46f2806a350290995",
  "rendered_checked": true,
  "title": "Snap Fold for iPhone Duo \u2013 MOFT",
  "url": "https://moft.us/products/snap-fold-magsafe-compatible"

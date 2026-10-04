@@ -1,6 +1,6 @@
 {
  "conditions": {
-  "read_at": "2026-10-03T22:02:14Z",
+  "read_at": "2026-10-04T01:02:09Z",
   "ship": [
    "FREE shipping",
    "Shipping"
@@ -66,6 +66,59 @@
    "page_sha256": "67c14b859dac109be79d745665e4a078a1d79257ac4c6cf072f4e8756f4bac18",
    "rendered_checked": true,
    "title": "PSL Bundle \u2013 MUD\\WTR"
+  },
+  {
+   "conditions": {
+    "read_at": "2026-10-03T22:02:14Z",
+    "ship": [
+     "FREE shipping",
+     "Shipping"
+    ],
+    "size": [],
+    "sub": [],
+    "url": "https://mudwtr.com/products/psl-bundle"
+   },
+   "coupon_snippets": [
+    "PSL Bundle \u2013 MUD\\WTR Skip to content Submit Close search \ud83d\udc4b Welcome Samantha Jo fans! Get $5 off with code SAMANTHAJO and 100% happiness guaranteed! Featured 43% OFF STARTER KITS Coffee Original PSL Protein Hot Chocolate Matcha Turmeric Rest Shop All Products this.up"
+   ],
+   "final_url": "https://mudwtr.com/products/psl-bundle",
+   "http_status": 200,
+   "json_ld": [
+    {
+     "@context": "http://schema.org/",
+     "@id": "/products/psl-bundle#product",
+     "@type": "Product",
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "10",
+      "ratingValue": "4.2"
+     },
+     "brand": {
+      "@type": "Brand",
+      "name": "MUD\\WTR"
+     },
+     "description": "The only basic thing about this PSL is its ingredients. No syrup. No artificial flavors. No caffeine. Just mushrooms, adaptogens, real pumpkin, spices and a touch of sweetness. 100% organic and designed to keep you grounded this holiday season.",
+     "image": "https://mudwtr.com/cdn/shop/files/PSL_1_450x450.jpg?v=1785358217",
+     "mpn": "8667862007991",
+     "name": "PSL Bundle",
+     "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "price": "40.0",
+      "priceCurrency": "USD",
+      "seller": {
+       "@type": "Organization",
+       "name": "MUD\\WTR"
+      }
+     },
+     "url": "/products/psl-bundle"
+    }
+   ],
+   "observed_at": "2026-10-03T22:01:55Z",
+   "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_1200x1200.jpg?v=1785358217",
+   "page_sha256": "d742b9b84535f136fccd1d4f15a3d4d0d17de37815fdcb6a95a7964c345d2b48",
+   "rendered_checked": true,
+   "title": "PSL Bundle \u2013 MUD\\WTR"
   }
  ],
  "http_status": 200,
@@ -105,9 +158,9 @@
   }
  ],
  "kind": "Drinks",
- "observed_at": "2026-10-03T22:01:55Z",
+ "observed_at": "2026-10-04T01:01:50Z",
  "og_image": "http://mudwtr.com/cdn/shop/files/PSL_1_1200x1200.jpg?v=1785358217",
- "page_sha256": "d742b9b84535f136fccd1d4f15a3d4d0d17de37815fdcb6a95a7964c345d2b48",
+ "page_sha256": "0354edb6e783271c67b53f000c9eda3b85900c908ec12d06e56a1f63e5f96928",
  "rendered_checked": true,
  "title": "PSL Bundle \u2013 MUD\\WTR",
  "url": "https://mudwtr.com/products/psl-bundle"

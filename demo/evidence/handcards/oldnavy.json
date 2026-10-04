@@ -122,6 +122,60 @@
    ],
    "subscribe": [],
    "source": "live page, this re-read (unchanged)"
+  },
+  {
+   "observed_at": "2026-10-04T01:00:22Z",
+   "shelf_price": 25.0,
+   "was_price": 36.99,
+   "offer_texts": [
+    "Extra 30% Off with Code: EXTRA",
+    "Online Exclusive, Limited Time Only | Fall Faves Up To 50% Off + Extra 30% Off Purchase SHOP NOW Code: EXTRA Exclusions apply.",
+    "Don't Have Super Cash? Extra 30% Off Purchase"
+   ],
+   "code_tried": false,
+   "sizes": [
+    [
+     "XS",
+     true
+    ],
+    [
+     "S",
+     true
+    ],
+    [
+     "M",
+     true
+    ],
+    [
+     "L",
+     true
+    ],
+    [
+     "XL",
+     true
+    ],
+    [
+     "XXL",
+     true
+    ],
+    [
+     "2X",
+     true
+    ],
+    [
+     "3X",
+     true
+    ],
+    [
+     "4X",
+     true
+    ]
+   ],
+   "shipping": [
+    "Free fast shipping on $50+ for Rewards Members"
+   ],
+   "subscribe": [],
+   "source": "live page, this re-read (unchanged): code EXTRA still printed, no size marked not selectable"
   }
  ]
 }

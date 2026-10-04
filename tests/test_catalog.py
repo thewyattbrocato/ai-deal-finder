@@ -251,7 +251,7 @@ class RereadHistoryTests(unittest.TestCase):
                 self.assertLess(old["observed_at"], ev["observed_at"], ev["id"])
                 self.assertEqual(old["final_url"].split("/")[2],
                                  ev["final_url"].split("/")[2], ev["id"])
-            self.assertEqual(ev["observed_at"][:10], "2026-10-03", ev["id"])
+            self.assertIn(ev["observed_at"][:10], ("2026-10-03", "2026-10-04"), ev["id"])
 
     def test_the_card_check_age_is_the_latest_observation(self):
         by_id = {o["id"]: o for o in OBS}
@@ -280,7 +280,38 @@ class RereadHistoryTests(unittest.TestCase):
         self.assertGreaterEqual(len(again), 80)
         self.assertGreaterEqual(len({e["final_url"].split("/")[2] for e in again}), 40)
         for ev in again:
-            self.assertEqual(ev["observed_at"][:10], "2026-10-03", ev["id"])
+            self.assertIn(ev["observed_at"][:10], ("2026-10-03", "2026-10-04"), ev["id"])
+
+    COUPON_PAGES = ("moft-dynamic-folio-for-iphone-duo moft-snap-fold-magsafe-compatible "
+                    "mudwtr-coffee-tin-psl-1 mudwtr-psl-bag mudwtr-psl-bundle "
+                    "openfarmpet-calming-supplement-chews-for-dogs "
+                    "openfarmpet-rustic-blend-variety-pack-for-cats "
+                    "openfarmpet-rustic-stew-variety-pack-for-dogs "
+                    "openfarmpet-skin-coat-supplement-chews-for-dogs "
+                    "untuckit-blackwald-hoodie-cream untuckit-newbury-quarter-zip-cream "
+                    "untuckit-normand untuckit-northwell untuckit-quinnell-tan "
+                    "untuckit-valois").split()
+
+    def test_every_page_with_a_stored_coupon_was_read_again_on_2026_10_04(self):
+        by_id = {e["id"]: e for e in self.records()}
+        for ev_id in self.COUPON_PAGES:
+            ev = by_id[ev_id]
+            self.assertEqual(ev["observed_at"][:10], "2026-10-04", ev_id)
+            # the 2026-10-03 observation stays as dated history
+            self.assertEqual(ev["history"][-1]["observed_at"][:10], "2026-10-03", ev_id)
+            self.assertTrue(ev["rendered_checked"], ev_id)
+            self.assertEqual(ev["conditions"]["read_at"][:10], "2026-10-04", ev_id)
+            st, obs = catalog.extract(ev)
+            self.assertEqual(st, "ok", ev_id)
+            self.assertEqual(obs["observed_at"], ev["observed_at"], ev_id)
+
+    def test_a_coupon_the_page_no_longer_prints_is_not_a_card_coupon(self):
+        # a re-read that no longer prints the code leaves no coupon for the card
+        by_id = {e["id"]: e for e in self.records()}
+        ev = copy.deepcopy(by_id["untuckit-normand"])
+        self.assertTrue(catalog.extract(ev)[1]["coupon"])
+        ev["coupon_snippets"] = []
+        self.assertFalse(catalog.extract(ev)[1]["coupon"])
 
     def test_changed_price_is_what_the_page_now_prints_and_the_old_one_is_history(self):
         path = os.path.join(ROOT, "demo", "evidence", "brightland-the-fall-flavor-duo.json")

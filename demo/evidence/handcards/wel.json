@@ -1,0 +1,89 @@
+{
+ "id": "wel",
+ "name": "Watershed light roast",
+ "page_url": "https://wellcoffeeroasters.com/products/watershed",
+ "seller": "The Well Coffee Roasters",
+ "region": "US",
+ "method": "chrome-devtools-axi read-only page text and size controls; nothing added to a cart, no code tried",
+ "observations": [
+  {
+   "observed_at": "2026-10-02T15:01:25Z",
+   "shelf_price": 20.5,
+   "offer_texts": [
+    "10% off signup, email-gated (no code text; no email given)"
+   ],
+   "code_tried": false,
+   "size_prices": [],
+   "shipping": [],
+   "subscribe": [],
+   "source": "LIVE_VERIFICATION.md WEL-1"
+  },
+  {
+   "observed_at": "2026-10-02T22:11:00Z",
+   "shelf_price": 20.5,
+   "offer_texts": [],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12oz",
+     20.5,
+     18.45
+    ],
+    [
+     "2lb",
+     51.5,
+     46.35
+    ],
+    [
+     "5lb",
+     119.0,
+     107.1
+    ]
+   ],
+   "shipping": [
+    "Free Shipping On All Orders $75+",
+    "Shipping calculated at checkout"
+   ],
+   "subscribe": [
+    "Subscribe & Save",
+    "Save up to 10%"
+   ],
+   "source": "LIVE_VERIFICATION.md T-WEL"
+  },
+  {
+   "observed_at": "2026-10-04T00:57:19Z",
+   "shelf_price": 20.5,
+   "offer_texts": [
+    "Save 10% Off Your First Purchase",
+    "Sign up for a discount code towards your first purchase."
+   ],
+   "code_tried": false,
+   "size_prices": [
+    [
+     "12oz",
+     20.5,
+     18.45
+    ],
+    [
+     "2lb",
+     51.5,
+     46.35
+    ],
+    [
+     "5lb",
+     119.0,
+     107.1
+    ]
+   ],
+   "shipping": [
+    "Free Shipping On All Orders $75+",
+    "Shipping calculated at checkout."
+   ],
+   "subscribe": [
+    "Subscribe & Save",
+    "Save up to 10%"
+   ],
+   "source": "live page, this re-read (unchanged): the signup offer (appears after about 9 s) still needs an email address and prints no code, so it is not a coupon"
+  }
+ ]
+}

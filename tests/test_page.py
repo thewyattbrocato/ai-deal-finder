@@ -707,8 +707,10 @@ class SearchFirstTest(unittest.TestCase):
             self.assertRegex(c["age"], AGE_RE)
             for word in ("fresh", "stale", "old", "expired", "recent", "outdated", "valid"):
                 self.assertNotIn(word, c["age"].lower())
-        self.assertIn("Checked 2 days ago, 2026-10-02", seen)
+        # the three coffee hand cards were re-read 2026-10-04: no card reads days old
+        self.assertIn("Checked 38 hours ago, 2026-10-04T00:56:40Z", seen)
         self.assertIn("Checked 39 hours ago, 2026-10-03T23:15:06Z", seen)
+        self.assertFalse([a for a in seen if "days ago" in a], seen)
 
     def test_the_age_line_counts_hours_under_48_and_whole_days_after_from_the_stored_time(self):
         # AirPods Pro 3 was stored at 2026-10-03T23:15:06Z; the clock is pinned for each run
@@ -790,7 +792,7 @@ class SearchFirstTest(unittest.TestCase):
             if "Midnight Axes" in c or "Watershed" in c or "Big Trouble" in c:
                 self.assertIn('data-coupon="no"', c)
 
-    def test_lavazza_records_carry_the_2026_10_03_observation(self):
+    def test_lavazza_records_carry_the_2026_10_04_observation_and_keep_history(self):
         import glob
         files = sorted(glob.glob(os.path.join(ROOT, "demo", "evidence", "lavazza", "*.json")))
         self.assertEqual(len(files), 3)
@@ -801,7 +803,10 @@ class SearchFirstTest(unittest.TestCase):
             first, latest = rec["observations"][0], rec["observations"][-1]
             # the earlier CAFE20 read stays as dated history, never deleted
             self.assertEqual((first["code"], first["observed_at"][:10]), ("CAFE20", "2026-10-01"), fn)
-            self.assertEqual((latest["code"], latest["observed_at"][:10]), ("AS20", "2026-10-03"), fn)
+            # the 2026-10-03 AS20 read stays as history; the card shows 2026-10-04
+            self.assertEqual((rec["observations"][1]["code"], rec["observations"][1]["observed_at"][:10]),
+                             ("AS20", "2026-10-03"), fn)
+            self.assertEqual((latest["code"], latest["observed_at"][:10]), ("AS20", "2026-10-04"), fn)
             self.assertIn("AS20", latest["banner"])
             self.assertFalse(latest["code_tried"])
             self.assertEqual(latest["shelf_price"], first["shelf_price"])
