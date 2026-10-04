@@ -159,10 +159,26 @@ class SearchFirstTest(unittest.TestCase):
         self.assertEqual(load["count"], "")
         self.assertEqual(load["chips"], [])
         # the first control in the page is the search box, with a visible label
-        first = re.search(r"<(input|button|select|a|summary)\b[^>]*>", self.page[self.page.index("<body>"):])
+        # the frozen-examples note is plain text above the box; its one link is not a control to tab to first
+        body = re.sub(r"<aside class=\"frozen\".*?</aside>", "", self.page[self.page.index("<body>"):], flags=re.S)
+        first = re.search(r"<(input|button|select|a|summary)\b[^>]*>", body)
         self.assertEqual(first.group(1), "input")
         self.assertIn('id="q"', first.group(0))
         self.assertIn('<label class="search-label" for="q">', self.page)
+
+    def test_frozen_note_is_above_the_box_with_computed_count_and_dates(self):
+        m = re.search(r'<aside class="frozen".*?</aside>', self.page, re.S)
+        self.assertTrue(m)
+        self.assertLess(m.start(), self.page.index('id="q"'))
+        cat = json.loads(re.search(r'id="catalog">(.*?)</script>', self.page, re.S).group(1))
+        days = sorted(e["c"] for e in cat)
+        text = html_lib.unescape(re.sub(r"<[^>]+>", "", m.group(0)))
+        self.assertIn("%d product pages read between %s and %s" % (len(cat), days[0], days[-1]), text)
+        self.assertIn("no longer updated", text)
+        self.assertIn("how old its check is", text)
+        self.assertIn("/ai-deal-finder#install-and-use", m.group(0))
+        self.assertNotRegex(text, r"(?i)best|hurry|limited|recommend|deal of")
+        self.assertNotIn("dismiss", m.group(0).lower())  # undismissible: no storage
 
     def test_no_focus_stolen_on_a_phone_where_the_keyboard_would_cover_the_page(self):
         self.assertIsNone(self.d["loadPhone"]["focus"])

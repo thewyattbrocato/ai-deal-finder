@@ -26,6 +26,8 @@ button,input,select{font:inherit;color:inherit}
 a{color:var(--accent)}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .wrap{max-width:60rem;margin:0 auto;padding:0 16px 64px;min-width:0}
+.frozen{margin:10px 0 0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--muted);font-size:.85rem;line-height:1.35}
+.frozen p{margin:0}
 header.top{padding:20px 0 4px}
 .brand{font-size:.9rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0}
 .lede{margin:.25rem 0 0;color:var(--muted);font-size:.95rem}
@@ -172,6 +174,7 @@ details.more>summary{cursor:pointer;min-height:44px;display:flex;align-items:cen
 </head>
 <body>
 <div class="wrap">
+<aside class="frozen" id="frozen" aria-label="About this page"><p>A frozen set of examples: 390 product pages read between 2026-10-03 and 2026-10-04, no longer updated. Each card shows how old its check is. To find similar products, their offers and the lowest price across stores on the live web, use the <a href="https://github.com/thewyattbrocato/ai-deal-finder#install-and-use">Deal Finder skill</a>.</p></aside>
 <header class="top">
 <p class="brand">Deal Finder</p>
 <p class="lede">Only products whose store pages were actually read. <span id="range"></span></p>
