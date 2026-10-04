@@ -120,7 +120,8 @@ def _page(url: str) -> str:
 
 
 def _host(url: Any) -> str:
-    return (urlsplit(url).hostname or "").removeprefix("www.") if _text(url) else ""
+    host = (urlsplit(url).hostname or "") if _text(url) else ""
+    return host[4:] if host.startswith("www.") else host
 
 
 def _known_blocked(url: Any) -> bool:
