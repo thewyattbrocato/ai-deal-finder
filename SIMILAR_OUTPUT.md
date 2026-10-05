@@ -18,6 +18,7 @@ Checked <start> to <end> · <N> of <budget> pages read · <N> searches · took <
 Stopped because: <why the search stopped>
 This is one pass: results vary between runs because search results vary.
 
+[**Kind:** <one line: the page is not the kind of thing your words or the link suggest, such as "Your link is a coffee bean, not a syrup.">]
 [**Your product:** <out of stock on its page: "<quote>" | stock not stated on its page | no price could be read on its page | ...>; it is not counted below.]
 [**Similar products:** none qualified; every product found was excluded, each listed below with why.]
 
@@ -118,7 +119,10 @@ three stores were counted. In your own words, name products, not ids.
   `ct`), or `none` when the kind is sold one item at a time (shoes, earbuds):
   then every `size` is `null` and no `unit_price` is written.
 - **Size and unit price.** `size` quotes the page (`quote`), states one size
-  (`text`) and says how it was read, or is `null`; never guess a size. A size is
+  (`text`) and says how it was read, or is `null`; never guess a size. A page that
+  prints one price beside several sizes: click the size and use the size the page
+  shows as selected; if the selected size cannot be read, `size` is `null` and the
+  item is flagged (a compared item has a size). A size is
   written with oz, lb, g, kg, fl oz, ml, l or a count word (ct, count, each, ea,
   pack, heads, sachets, tea bags, tea sachets, bags, pods, capsules, cans,
   cartridges, filters, refills, pieces, pcs); a printed multipack counts its
@@ -128,10 +132,10 @@ three stores were counted. In your own words, name products, not ids.
   count and the size apart ("Contains twelve (12) 12.5 oz cans"), quote a
   printed total (`Weight: 150 oz`) or the words that hold both. When an item's
   size is printed, its `unit_price` is its shelf price ÷ that size in the
-  answer's unit, as `deal_finder/unit_price.py` computes it: 2 decimals, **3
+  answer's unit (write the unit as printed: the checker converts mass, g, kg and lb, to oz, and ml and l to fl oz, so `340 g` gets its per-oz price and is never `not comparable`), as `deal_finder/unit_price.py` computes it: 2 decimals, **3
   decimals when under 1.00** (`0.767`), half up. Otherwise `unit_price` is
   left out or `not comparable: <reason>` (`not comparable: size not stated`,
-  different units, another currency). (The stored catalog's exact-size rule is
+  different units means another family, a count against a weight, not grams against ounces; another currency). (The stored catalog's exact-size rule is
   separate and unchanged.)
 - **Similarity.** `attributes_used` lists the quality attributes, each marked
   must-have or may-vary and sourced (`page` with a quote, `shopper`, or
@@ -163,6 +167,7 @@ three stores were counted. In your own words, name products, not ids.
   `min_spend`, and its terms (or that an asterisk's terms are not printed) in
   `conditions`. Codes from coupon or deal sites are not listed. Your product's
   offers are shown under it: they answer what coupons your product has.
+- **Kind (`reference.kind_note`).** Attributes come from what the reference page prints. When that page is not the kind of thing the shopper's words (or the link's path, such as a "Coffee & Syrups" collection) suggest, `kind_note` says so in one line ("Your link is a coffee bean, not a syrup.") and the answer shows it first; leave it out when they agree.
 - **Your product first.** When your product is not counted (out of stock or
   stock not stated, no price in its page's text, another currency, described
   with no page), the answer says so before the lowest lines; its price is still
@@ -183,7 +188,9 @@ three stores were counted. In your own words, name products, not ids.
   size is printed in the page's text; `null` when only yours has one and nothing
   cheaper per unit was left out. `unit_lower_not_counted` names each item not
   counted with a lower unit price, with why. The 2% rule applies against your
-  unit price.
+  unit price, measured on the unrounded unit prices, so a gap of 0.1% reads the same
+  on this line as on the shelf line (a gap under 0.1% reads "under 0.1%", never
+  "0.0% below yours").
 - **If a printed code applies.** `if_code` is `{"id", "code", "amount",
   "label": "not tried, may not work"}`: one ungated code the store printed on a
   counted item, read in the page's own text, with its discount stated in numbers
@@ -200,7 +207,7 @@ three stores were counted. In your own words, name products, not ids.
   Best Buy may be listed in `blocked` unopened (`"opened": false`; they spend no
   page and count as no store). At least one search; candidates and opened
   blocked pages from at least two stores; start and end times; `took` and
-  `cost` as the runtime reported them, or `not reported`.
+  `cost` as the runtime reported them, or `not reported`: `took` is a duration ("about 5 minutes"), never a timestamp; the times are `started_at` and `finished_at`.
 - **Links.** Plain store links taken from search results or the store's own
   menu, never built or guessed: no `utm_*`, `_gsid`, `gclid`, `fbclid`, `ref`,
   `tag`, `aff…` or other tracking or affiliate parameters.

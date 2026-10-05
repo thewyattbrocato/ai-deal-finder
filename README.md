@@ -223,6 +223,12 @@ Example prompts:
 2. "I buy 12 oz bags of whole-bean, medium-dark specialty coffee. Find similar bags at several roasters, the lowest shelf price, and any code each store prints."
 3. "Find cast iron skillets similar to the Lodge 10.25 inch skillet at other stores, with the offers each store prints and the lowest price."
 
+The agent builds its comparison from what your page prints, not from the words
+you used or the link's path (a "Coffee & Syrups" collection can hold coffee
+beans): when the page is not the kind of thing you described, the answer's first
+line says so ("Your link is a coffee bean, not a syrup."). A size printed in
+grams still gets a per-oz price: the checker converts mass to oz.
+
 What it cannot do:
 
 - **Read stores that block page readers.** Amazon's robots.txt refuses

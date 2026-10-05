@@ -29,6 +29,10 @@ CONTRACT = "similar-v3"
 CODE_LABEL = "not tried, may not work"
 SIZE_NOT_STATED = "not comparable: size not stated"
 NO_UNIT = "none"  # the kind is sold one item at a time (shoes, earbuds): no size, no unit price
+SEVERAL_SIZES = (
+    "a page that prints one price beside several sizes: click the size and use the size the page shows as "
+    "selected; if the selected size cannot be read, size is null and the item is flagged"
+)
 MATERIAL = Decimal("0.02")  # a gap under 2% of the shopper's price is no meaningful saving
 MAX_PAGES = 10
 STATES = {state.value for state in EvidenceState}
@@ -58,6 +62,7 @@ KNOWN_BLOCKED = ("amazon.com", "walmart.com", "bestbuy.com")
 UNITS = set(units.FAMILY) | {NO_UNIT}
 CODED = re.compile(r"\b(?:with|use|using|enter|apply)\s+(?:the\s+)?code\b|\bcode\s+applied\b", re.IGNORECASE)
 FROM_OR_RANGE = re.compile(r"\bfrom\s*:?\s*\$?\s*\d|\d\s*(?:-|–|—|\bto\b)\s*\$\s*\d", re.IGNORECASE)
+STAMP = re.compile(r"\d{4}-\d\d-\d\d|\b\d{1,2}:\d\d\b")  # a date or a clock time: not a duration, not a cost
 TRACKING_PARAM = re.compile(
     r"^(utm_.*|_gsid|gclid|gbraid|wbraid|fbclid|msclkid|mc_[a-z]+|_ga|ref|ref_|tag|aff.*|affiliate.*|irclickid|clickid|srsltid)$",
     re.IGNORECASE,
@@ -162,6 +167,12 @@ def _shelf(item: dict[str, Any]) -> Decimal | None:
     return _money(price.get("amount")) if isinstance(price, dict) else None
 
 
+def _several(refusal: Any) -> str:
+    """The rule for a page that prints several sizes beside one price, when that is why the size was refused."""
+    reason = getattr(refusal, "reason", "")
+    return f"; {SEVERAL_SIZES}" if reason.startswith(("ambiguous size: several sizes", "ambiguous size: conflicting")) else ""
+
+
 def _size(item: dict[str, Any]) -> units.Size | str | None:
     """The item's one printed size; a string saying why it cannot be used; None when no size is given."""
     size = item.get("size")
@@ -172,9 +183,10 @@ def _size(item: dict[str, Any]) -> units.Size | str | None:
     parsed, quoted = units.parse_size_checked(size["text"]), units.parse_size_checked(size["quote"])
     if not isinstance(parsed, units.Size):
         reason = f" ({parsed.reason})" if parsed else ""
-        return f"'{size['text']}' is not one size{reason}; write it with {units.ACCEPTED_UNITS}"
+        return f"'{size['text']}' is not one size{reason}; write it with {units.ACCEPTED_UNITS}{_several(parsed)}"
     if isinstance(quoted, units.SizeRefusal):
-        return f"the page's words '{size['quote']}' give no single size ({quoted.reason}); never guess a size"
+        return f"the page's words '{size['quote']}' give no single size ({quoted.reason}); never guess a size" \
+               f"{_several(quoted)}"
     if quoted is None or abs(quoted.base_total() - parsed.base_total()) > parsed.base_total() * units.CONSISTENT_WITHIN:
         return f"size '{size['text']}' is not the size in the page's words '{size['quote']}'; never guess a size"
     return parsed
@@ -400,6 +412,9 @@ def _check_item(where: str, item: Any, names: list[str], musts: set[str], curren
     if reference:
         if item.get("from") not in ("page", "description"):
             problems.append(f"{where}.from must be 'page' or 'description'")
+        if "kind_note" in item and not _text(item["kind_note"]):
+            problems.append(f"{where}.kind_note must be one line saying what the page is when it is not the kind of "
+                            "thing the shopper's words or the link suggest, or be left out")
         return problems
     if "same_product" in item and not isinstance(item["same_product"], bool):
         problems.append(f"{where}.same_product must be true or false")
@@ -486,6 +501,9 @@ def _check_unit_prices(answer: dict[str, Any], items: list[tuple[str, dict[str, 
                                 f"'{SIZE_NOT_STATED}'")
             elif given is not None and not words:
                 problems.append(f"{label}.unit_price must be left out or 'not comparable: <reason>'")
+            if item.get("status") == "compared":
+                problems.append(f"{label}.size is null (its page prints no size, or the selected size could not be "
+                                "read), so it is flagged, not compared; never guess a size")
             continue
         if units.FAMILY[size.unit] != units.FAMILY[unit]:
             if not words:
@@ -517,9 +535,11 @@ def _check_unit_prices(answer: dict[str, Any], items: list[tuple[str, dict[str, 
                     f"per {unit} (2 decimals, 3 decimals under 1.00, half up; deal_finder/unit_price.py)"
                 )
         elif price.get("currency") == (answer.get("request") or {}).get("currency"):
+            converts = (f" (its size is printed in {size.unit}; the checker converts {size.family} to '{unit}': write "
+                        "the unit as printed)" if size.unit != unit else "")
             problems.append(
                 f"{label}.unit_price must be {{\"amount\": \"{expected}\", \"currency\": \"{price.get('currency')}\", "
-                f"\"per\": \"{unit}\"}}: its size is printed, so its unit price is shown"
+                f"\"per\": \"{unit}\"}}: its size is printed, so its unit price is shown{converts}"
             )
         elif not words:
             problems.append(f"{label}.unit_price must be an object or 'not comparable: <reason>'")
@@ -797,6 +817,10 @@ def validate(answer: Any, now: datetime | None = None) -> list[str]:
     for field in ("took", "cost", "stopped_because"):
         if not _text(run.get(field)):
             problems.append(f"run.{field} is required ('not reported' when the runtime does not say)")
+    for field, what in (("took", "a duration such as 'about 5 minutes'"), ("cost", "an amount")):
+        if _text(run.get(field)) and STAMP.search(run[field]):
+            problems.append(f"run.{field} holds a date or time ({run[field]!r}); write {what} or 'not reported' (the "
+                            "times are run.started_at and run.finished_at)")
     hosts = {_host(u) for u in urls if not _text(reference.get("url")) or u != _page(reference["url"])}
     if len(hosts) < 2:
         problems.append("candidates and blocked pages must span at least two stores; never search one store only")
@@ -895,7 +919,27 @@ def _gap(lower: Decimal, mine: Decimal) -> tuple[Decimal, str, bool]:
     """How far under the shopper's price, as (amount, percent text, meaningful)."""
     gap = mine - lower
     percent = (gap * 100 / mine).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP) if mine else Decimal(0)
-    return gap, f"{percent}%", gap >= mine * MATERIAL
+    text = f"{percent}%" if percent or gap <= 0 else "under 0.1%"  # never '0.0% below' for a real gap
+    return gap, text, gap >= mine * MATERIAL
+
+
+def _below(gap: Decimal, percent: str, amount: str | None, mine: str) -> str:
+    """'$0.01 (0.1%) below yours at $18.00': the one wording the shelf, if-size and per-unit lines use."""
+    if gap <= 0:
+        return f"the same as yours at {mine}" if amount else f"the same as yours ({mine})"
+    return f"{amount} ({percent}) below yours at {mine}" if amount else f"{percent} below yours ({mine})"
+
+
+def _exact_unit(item: dict[str, Any], answer: dict[str, Any]) -> Decimal | None:
+    """The unit price before rounding: the shelf and per-unit lines then measure the same gap."""
+    size, price = _confirmed_size(item), item.get("shelf_price")
+    if size is None or not isinstance(price, dict):
+        return None
+    try:
+        value = units.unit_price(units.Price.of(price["amount"], price["currency"]), size, answer["unit"])
+    except (KeyError, TypeError, ValueError, InvalidOperation):
+        return None
+    return value.value if isinstance(value, units.UnitPrice) else None
 
 
 def _my_price(answer: dict[str, Any]) -> Decimal | None:
@@ -932,8 +976,8 @@ def _if_size_text(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> s
     my_price = _my_price(answer)
     if my_price is not None:
         gap, percent, meaningful = _gap(_shelf(item), my_price)
-        text += (f", {_price(gap, currency)} ({percent}) below yours at {_price(my_price, currency)}" if meaningful
-                 else f"; no meaningful saving against yours at {_price(my_price, currency)}")
+        below = _below(gap, percent, _price(gap, currency), _price(my_price, currency))
+        text += f", {below}" if meaningful else f"; no meaningful saving: it is {below}"
     return text + "."
 
 
@@ -955,8 +999,9 @@ def _shelf_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> lis
                 line = f"{label} {said}. This is the price: {_price(gap, currency)} ({percent}) below yours at " \
                        f"{_price(my_price, currency)}."
             else:
-                line = f"{label} no meaningful saving found. {said}, is {_price(gap, currency)} ({percent}) below " \
-                       f"yours at {_price(my_price, currency)}; a gap under 2% of your price is not counted as a saving."
+                below = _below(gap, percent, _price(gap, currency), _price(my_price, currency))
+                line = f"{label} no meaningful saving found. {said}, is {below}; a gap under 2% of your price is not " \
+                       "counted as a saving."
         else:
             line = f"{label} {said}. This is the price."
     elif unit != NO_UNIT and mine is None:
@@ -985,12 +1030,14 @@ def _unit_line(answer: dict[str, Any], items: dict[str, dict[str, Any]]) -> list
            f"({_price(item['shelf_price']['amount'], currency)})"
     mine = _unit_amount(ref, answer) if _my_price(answer) is not None and _confirmed_size(ref) else None
     if item is not ref and mine is not None:
-        _, percent, meaningful = _gap(_money(line["amount"]), mine)
+        # the gap is measured on the unrounded unit prices, the same numbers the shelf line's gap rests on
+        gap, percent, meaningful = _gap(_exact_unit(item, answer) or _money(line["amount"]), _exact_unit(ref, answer) or mine)
         if meaningful:
             text = f"**Lowest price per {unit}:** {said}; yours is {_price(mine, currency)} per {unit}."
         else:
-            text = (f"**Lowest price per {unit}:** no meaningful saving found. {said}, is {percent} below yours "
-                    f"({_price(mine, currency)} per {unit}); a gap under 2% is not counted as a saving.")
+            below = _below(gap, percent, None, f"{_price(mine, currency)} per {unit}")
+            text = (f"**Lowest price per {unit}:** no meaningful saving found. {said}, is {below}; a gap under 2% is "
+                    "not counted as a saving.")
     else:
         text = f"**Lowest price per {unit}:** {said}."
     lines = [text]
@@ -1032,6 +1079,8 @@ def render(answer: dict[str, Any]) -> str:
         "This is one pass: results vary between runs because search results vary.",
         "",
     ]
+    if _text(ref.get("kind_note")):
+        lines += [f"**Kind:** {_sentence(ref['kind_note'])}", ""]
     why = reference_reason(answer)
     if why:
         lines += [f"**Your product:** {why}; it is not counted below.", ""]

@@ -440,7 +440,11 @@ class ExampleTest(unittest.TestCase):
 
     def test_each_conditional_line_of_the_template_is_rendered_where_it_applies(self):
         conditional = LABEL.findall("\n".join(line for line in TEMPLATE.splitlines() if line.startswith("[")))
-        self.assertEqual(conditional, ["**Your product:", "**Similar products:"])
+        self.assertEqual(conditional, ["**Kind:", "**Your product:", "**Similar products:"])
+        kinded = example()
+        kinded["reference"]["kind_note"] = "Your link is a coffee bean, not a syrup."
+        self.assertIn("**Kind:** Your link is a coffee bean, not a syrup.", render(kinded))
+        self.assertNotIn("**Kind:", render(example()))
         self.assertIn("**Your product:** out of stock on its page", render(allbirds()))
         self.assertIn("**Similar products:** none qualified", render(burst()))
         self.assertNotIn("**Your product:", render(example()))
@@ -485,6 +489,9 @@ class RequiredFailuresTest(unittest.TestCase):
         candidate(answer, "C1")["size"] = None
         self.assertFails(answer, "needs a size printed on its page")
         candidate(answer, "C1")["unit_price"] = SIZE_NOT_STATED
+        self.assertFails(answer, "so it is flagged, not compared")  # round 3, fix 4: no size, no comparison
+        candidate(answer, "C1").update(status="flagged", status_reason="its size could not be read")
+        answer["candidates"].sort(key=lambda c: c["id"] != "C2")  # flagged ranks below compared
         self.assertEqual(validate(answer), [])
 
     def test_a_size_that_is_not_the_page_size_fails(self):
@@ -1245,6 +1252,209 @@ class RunAndWordingTest(unittest.TestCase):
         answer = example()
         answer["contract"] = "similar-v2"
         self.assertEqual(validate(answer), ["contract must be 'similar-v3' (SIMILAR_OUTPUT.md)"])
+
+
+# --- round 3: the captain's live test of Frothy Monkey Eventide and Howler (2026-10-04) ------------
+
+def howler(mine="18.00", theirs="17.99", their_unit="1.50", my_unit="1.50"):
+    """Howler (12 oz, $18.00) against Madrinas Espresso Blend (12 oz, $17.99): a gap of one cent.
+
+    Hosts are fictional (`.example`): the fixture reproduces the run's numbers, not its pages."""
+    reference = item("R", "Howler", "Reference Roaster", "https://reference-roaster.example/products/howler",
+                     "2026-10-04T23:39:16Z", mine, f"${mine}", ("12 oz", "SIZE 12oz Bag"), (my_unit, "oz"),
+                     stock=("in-stock", "ADD TO CART"))
+    other = compared(item("C1", "Espresso Blend", "Other Roaster", "https://other-roaster.example/products/espresso",
+                          "2026-10-04T23:40:10Z", theirs, f"${theirs}", ("12 oz", "12 oz bag"), (their_unit, "oz"),
+                          stock=("in-stock", "Add to cart")),
+                     {"roast level": "same"})
+    return answer(
+        "oz", reference, [attribute("roast level")], [other],
+        {"shelf": {"id": "C1", "amount": theirs, "currency": "USD"},
+         "unit": {"id": "C1", "amount": their_unit, "per": "oz"}},
+        [{"store": "Dead Shop", "url": "https://dead-shop.example/products/howler", "what_happened": "THIS PAGE WANDERED OFF"}],
+        "2026-10-04T23:39:02Z", "2026-10-04T23:42:45Z", 3,
+    )
+
+
+class KindMismatchTest(unittest.TestCase):
+    """Round 3, fix 1: the link sat in 'Coffee & Syrups' but the page sold coffee beans; nobody said so."""
+
+    def test_the_kind_line_is_shown_first_and_must_not_be_empty(self):
+        answer = howler()
+        answer["reference"]["kind_note"] = "your link is a coffee bean, not a syrup"
+        self.assertEqual(validate(answer), [])
+        top = render(answer).split("\n\n")
+        self.assertEqual(top[2], "**Kind:** Your link is a coffee bean, not a syrup.")  # one line, after the header
+        self.assertTrue(top[3].startswith("**Lowest shelf price"))
+        answer["reference"]["kind_note"] = " "
+        self.assertTrue(fails(answer, "R.kind_note must be one line")[0])
+        self.assertNotIn("**Kind:", render(howler()))
+
+    def test_the_skill_builds_attributes_from_the_page_and_asks_once(self):
+        skill = " ".join((ROOT / "SKILL.md").read_text(encoding="utf-8").split())
+        for text in ("Build the attributes from what the page prints, not from the shopper's words or the link's path",
+                     "\"Coffee & Syrups\" collection can hold coffee beans", "`reference.kind_note`",
+                     "Your link is a coffee bean, not a syrup", "If the kind is unclear and an answer would differ, "
+                     "ask the shopper once"):
+            self.assertIn(text, skill)
+        self.assertIn("`reference.kind_note`", DOC)
+        self.assertIn("Coffee & Syrups", " ".join((ROOT / "README.md").read_text(encoding="utf-8").split()))
+
+
+class VariantAttributeTest(unittest.TestCase):
+    """Round 3, fix 2: Eventide is decaf; the coffee attributes had no decaf entry."""
+
+    def test_a_regular_bag_against_a_decaf_reference_is_excluded(self):
+        answer = howler()
+        answer["attributes_used"] = [attribute("roast level"), attribute("decaf"),
+                                     {"name": "decaf method", "value": "sugarcane", "must_have": False, "from": "page",
+                                      "quote": "decaffeinated with sugarcane"}]
+        other = candidate(answer, "C1")
+        other["checks"] = {"roast level": "same", "decaf": "differs", "decaf method": "unknown"}
+        self.assertTrue(fails(answer, "C1 fails a must-have attribute and must be excluded")[0])
+        other.update(status="excluded", status_reason="its page prints no decaf: a regular bag")
+        answer["lowest"].update(shelf={"id": "R", "amount": "18.00", "currency": "USD"}, unit=None,
+                                shelf_lower_not_counted=[{"id": "C1", "why": "a regular bag, yours is decaf"}])
+        self.assertEqual(validate(answer), [])
+
+    def test_the_skill_lists_decaf_and_the_general_variant_rule(self):
+        skill = " ".join((ROOT / "SKILL.md").read_text(encoding="utf-8").split())
+        for text in ("decaf or caffeinated, and the decaf method when printed",
+                     "A variant attribute that changes the product (decaf, caffeinated, sugar-free, organic, flavored) "
+                     "is a must-have whenever the reference page prints it",
+                     "a decaf bag against your regular one) is excluded as a different product"):
+            self.assertIn(text, skill)
+
+
+class GramsAndSeveralSizesTest(unittest.TestCase):
+    """Round 3, fixes 3 and 4: grams convert to oz; one price beside several sizes."""
+
+    def grams(self):
+        answer = example()
+        candidate(answer, "C1")["size"] = {"text": "1000 g", "quote": "Net Wt 1000g", "read": "page-text"}
+        return answer
+
+    def test_a_size_in_grams_takes_a_unit_price_in_oz(self):
+        answer = self.grams()
+        self.assertEqual(validate(answer), [])  # 36.29 / 35.274 oz = 1.03
+        self.assertIn("$1.03 per oz", render(answer))
+        candidate(answer, "C1")["unit_price"] = "not comparable: size printed in g"
+        found, problems = fails(answer, "the checker converts mass to 'oz': write the unit as printed")
+        self.assertTrue(found, problems)
+
+    def test_the_documents_say_grams_convert(self):
+        rules = " ".join(DOC.split())
+        self.assertIn("write the unit as printed: the checker converts mass, g, kg and lb, to oz", rules)
+        self.assertIn("never `not comparable`", rules)
+        self.assertIn("different units means another family", rules)
+        skill = " ".join((ROOT / "SKILL.md").read_text(encoding="utf-8").split())
+        self.assertIn("Write the unit as printed (\"340 g\"); the checker converts mass (g, kg, lb) to the answer's unit",
+                      skill)
+
+    def test_one_price_beside_several_sizes_says_how_to_decide(self):
+        rule = "click the size and use the size the page shows as selected; if the selected size cannot be read, " \
+               "size is null and the item is flagged"
+        answer = example()
+        candidate(answer, "C1")["size"]["quote"] = "12-Ounce / 5-Pound"  # Seattle Coffee Gear's list beside one price
+        found, problems = fails(answer, rule)
+        self.assertTrue(found, problems)
+        answer = example()
+        answer["reference"]["size"]["text"] = "12 oz / 2 lb"
+        found, problems = fails(answer, rule)
+        self.assertTrue(found, problems)
+
+    def test_a_compared_item_has_a_size_and_a_null_size_is_flagged(self):
+        answer = howler()
+        candidate(answer, "C1").update(size=None, unit_price=SIZE_NOT_STATED)
+        answer["lowest"].update(shelf=None, unit=None)
+        self.assertTrue(fails(answer, "so it is flagged, not compared")[0])
+        candidate(answer, "C1").update(status="flagged", status_reason="its price sits beside two sizes; the selected "
+                                                                      "size could not be read")
+        answer["lowest"].update(shelf={"id": "R", "amount": "18.00", "currency": "USD"},
+                                shelf_lower_not_counted=[{"id": "C1", "why": "its size could not be read"}])
+        self.assertEqual(validate(answer), [])
+        self.assertIn("Flagged: its price sits beside two sizes", render(answer))
+
+    def test_the_skill_and_contract_say_what_to_do(self):
+        for text in (" ".join((ROOT / "SKILL.md").read_text(encoding="utf-8").split()), " ".join(DOC.split())):
+            self.assertIn("click the size and use the size the page shows as selected", text)
+            self.assertIn("if the selected size cannot be read, `size` is `null` and the item is flagged", text)
+
+
+class FreeStringTimesTest(unittest.TestCase):
+    """Round 3, fix 5: a bare timestamp in `took` was accepted."""
+
+    def test_a_timestamp_in_took_or_cost_fails(self):
+        for field, value in (("took", "2026-10-04T23:42:37Z"), ("took", "took 2026-10-04T23:42:37Z"),
+                             ("took", "23:42:37"), ("cost", "2026-10-04T23:42:37Z")):
+            answer = example()
+            answer["run"][field] = value
+            with self.subTest(field=field, value=value):
+                self.assertTrue(fails(answer, f"run.{field} holds a date or time")[0])
+
+    def test_durations_amounts_and_not_reported_pass(self):
+        for field, value in (("took", "about 5 minutes"), ("took", "3 min 40 s by date -u"), ("took", "not reported"),
+                             ("cost", "$0.42 as the runtime reported it"), ("cost", "not reported")):
+            answer = example()
+            answer["run"][field] = value
+            with self.subTest(field=field, value=value):
+                self.assertEqual(validate(answer), [])
+
+    def test_the_contract_says_took_is_a_duration(self):
+        self.assertIn("`took` is a duration (\"about 5 minutes\"), never a timestamp", " ".join(DOC.split()))
+
+
+class SmallGapWordingTest(unittest.TestCase):
+    """Round 3, fix 6: 'no meaningful saving found' beside '0.0% below yours'."""
+
+    def lines(self, answer):
+        text = render(answer).split("\n\n")
+        return text[2], text[3]  # shelf line, per-unit line
+
+    def test_a_cent_below_reads_the_same_on_both_lines(self):
+        answer = howler()
+        self.assertEqual(validate(answer), [])
+        shelf, per_unit = self.lines(answer)
+        self.assertIn("no meaningful saving found.", shelf)
+        self.assertIn("is $0.01 (0.1%) below yours at $18.00", shelf)
+        self.assertIn("no meaningful saving found.", per_unit)
+        self.assertIn("is 0.1% below yours ($1.50 per oz)", per_unit)
+        self.assertNotIn("0.0%", render(answer))
+
+    def test_a_gap_under_a_tenth_of_a_percent_never_reads_zero(self):
+        answer = howler("50.00", "49.99", "4.17", "4.17")
+        self.assertEqual(validate(answer), [])
+        shelf, per_unit = self.lines(answer)
+        self.assertIn("is $0.01 (under 0.1%) below yours at $50.00", shelf)
+        self.assertIn("is under 0.1% below yours ($4.17 per oz)", per_unit)
+        self.assertNotIn("0.0%", render(answer))
+
+    def test_the_same_price_is_not_called_below(self):
+        answer = howler(theirs="18.00")
+        self.assertEqual(validate(answer), [])
+        shelf, per_unit = self.lines(answer)
+        self.assertIn("is the same as yours at $18.00", shelf)
+        self.assertIn("is the same as yours ($1.50 per oz)", per_unit)
+        self.assertNotIn("$0.00", shelf)
+
+    def test_a_real_saving_keeps_its_wording(self):
+        shelf, per_unit = self.lines(howler(theirs="16.00", their_unit="1.33"))
+        self.assertIn("This is the price: $2.00 (11.1%) below yours at $18.00.", shelf)
+        self.assertIn("yours is $1.50 per oz.", per_unit)
+        self.assertNotIn("no meaningful saving", per_unit)
+
+
+class DeadLeadsAndResellersTest(unittest.TestCase):
+    """Round 3, fix 7: resellers outside the kind, and a budget spent on dead search leads."""
+
+    def test_the_skill_says_how_to_treat_resellers_and_dead_leads(self):
+        skill = " ".join((ROOT / "SKILL.md").read_text(encoding="utf-8").split())
+        for text in ("A shop outside the kind (a home-goods store selling one coffee) is a store, counted only when "
+                     "its page text confirms every must-have; otherwise it is flagged",
+                     "After two dead leads in a row", "the reference store's own menu or collection pages",
+                     "the stores that compete with it in the shopper's region",
+                     "say in `stopped_because` how many leads were dead"):
+            self.assertIn(text, skill)
 
 
 class CommandTest(unittest.TestCase):
