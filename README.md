@@ -195,7 +195,7 @@ enables skills first). Upload a ZIP whose root is the `deal-finder` folder:
 ```sh
 git clone --depth 1 https://github.com/thewyattbrocato/ai-deal-finder && cd ai-deal-finder
 git archive --format=zip --prefix=deal-finder/ -o ../deal-finder.zip HEAD \
-  SKILL.md SIMILAR_OUTPUT.md DECISION_TABLE.md DISCOVERY.md LANDED_COST.md README.md scripts deal_finder
+  SKILL.md SIMILAR_OUTPUT.md DECISION_TABLE.md DISCOVERY.md LANDED_COST.md README.md LICENSE NOTICE scripts deal_finder
 ```
 
 In Claude, go to Customize > Skills, click "+", then "+ Create skill" and
