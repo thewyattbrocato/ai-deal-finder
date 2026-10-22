@@ -361,3 +361,7 @@ design. The similar-products mode never uses a cart.
 - Key-dependent Jev validation still required: `KEYED_VALIDATION.md`.
 - Build assumptions and captain decision batch: `ASSUMPTIONS.md`.
 - Real-browser check of the engine against live-observed pages: `LIVE_VERIFICATION.md`.
+
+## Licence
+
+The code and original text are under the MIT licence in [LICENSE](LICENSE); retailer photos and captured retailer page material are not, see [NOTICE](NOTICE).
