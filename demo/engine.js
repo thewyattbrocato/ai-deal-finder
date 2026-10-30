@@ -486,5 +486,63 @@ function create(P) {
   };
 }
 
-return { create: create, fold: fold, words: words, stem: stem, tokens: tokens, sizeOrder: sizeOrder };
+/* ---- live search: Shopify's keyless catalog, called from the page; nothing here is stored ----
+ *
+ * request() builds the one call the page makes. parse() keeps only what the
+ * catalog states as plain fields: title, seller name, a USD price, whether the
+ * variant is available, and the variant's link without tracking parameters.
+ * It never reads checkout_url or any field Shopify marks Inferred (description,
+ * options, attributes, condition), and it adds nothing the response lacks.
+ */
+var LIVE_ENDPOINT = "https://catalog.shopify.com/api/ucp/mcp";
+function liveRequest(query, profileUrl) {
+  return {
+    url: LIVE_ENDPOINT,
+    // text/plain keeps this a simple CORS request: the endpoint's preflight refuses application/json
+    init: { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({
+      jsonrpc: "2.0", id: 1, method: "tools/call",
+      params: { name: "search_catalog", arguments: {
+        meta: { "ucp-agent": { profile: profileUrl } },
+        catalog: { query: String(query), context: { address_country: "US", currency: "USD" }, pagination: { limit: 10 } }
+      } }
+    }) }
+  };
+}
+// A product link with Shopify's tracking parameters (_gsid, utm_*) removed; anything that is not http(s) has no link.
+function cleanLink(u) {
+  if (typeof u !== "string" || !/^https?:\/\//i.test(u)) return null;
+  var hash = "", i = u.indexOf("#");
+  if (i >= 0) { hash = u.slice(i); u = u.slice(0, i); }
+  var qi = u.indexOf("?");
+  if (qi < 0) return u + hash;
+  var kept = u.slice(qi + 1).split("&").filter(function (kv) {
+    var k = kv.split("=")[0].toLowerCase();
+    return kv !== "" && k !== "_gsid" && k.indexOf("utm_") !== 0;
+  });
+  return u.slice(0, qi) + (kept.length ? "?" + kept.join("&") : "") + hash;
+}
+// -> { ok:false } when the reply is an error or not a product list; else { ok:true, cards, skipped }.
+function liveParse(resp) {
+  var sc = resp && resp.result && resp.result.structuredContent;
+  if (!sc || !Array.isArray(sc.products)) return { ok: false };
+  var cards = [], skipped = 0;
+  sc.products.forEach(function (p) {
+    var v = p && Array.isArray(p.variants) ? p.variants[0] : null;
+    var cents = v && v.price && v.price.currency === "USD" ? v.price.amount : null;
+    if (!v || typeof p.title !== "string" || !p.title.trim() || typeof cents !== "number" || !isFinite(cents) || cents < 0) { skipped++; return; }
+    var av = v.availability && typeof v.availability.available === "boolean" ? v.availability.available : null;
+    cards.push({
+      title: p.title.trim(),
+      seller: v.seller && typeof v.seller.name === "string" && v.seller.name.trim() ? v.seller.name.trim() : "",
+      cents: cents,
+      stock: av === true ? "in" : av === false ? "out" : "unknown",
+      url: cleanLink(v.url),
+      variants: p.variants.length
+    });
+  });
+  return { ok: true, cards: cards, skipped: skipped };
+}
+
+return { create: create, fold: fold, words: words, stem: stem, tokens: tokens, sizeOrder: sizeOrder,
+  live: { request: liveRequest, parse: liveParse, cleanLink: cleanLink } };
 })();

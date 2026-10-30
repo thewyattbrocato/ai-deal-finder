@@ -192,6 +192,7 @@ function boot(opts) {
     document: document, window: window, location: location, history: history, matchMedia: matchMedia,
     console: console, Date: FixedDate, Intl: Intl,
   });
+  if (opts.fetch) context.fetch = opts.fetch;
   const scripts = [];
   walk(root, el => {
     if (el.tag === "script" && !el.attrs.src && el.attrs.type !== "application/json") scripts.push(el.textContent);
@@ -333,6 +334,60 @@ function snap(page) {
       windowStart: c.querySelectorAll("[data-window-row]")[0].attrs["data-window-start"] || null,
     })),
   };
+}
+
+// Live search: a scripted fetch stands in for Shopify's catalog; the fixture is a real recorded reply.
+if (process.env.LIVE_FIXTURE) {
+  const fx = JSON.parse(fs.readFileSync(process.env.LIVE_FIXTURE, "utf8"));
+  const scenario = JSON.parse(process.env.LIVE_SCENARIOS);
+  const reply = (body, status) => Promise.resolve({ ok: status === undefined || status < 400, status: status || 200, json: () => Promise.resolve(body) });
+  const liveOut = {};
+  (async () => {
+    for (const name of Object.keys(scenario)) {
+      const sc = scenario[name], calls = [];
+      let body = JSON.parse(JSON.stringify(fx.response));
+      if (sc.mutate === "dropAvailability") body.result.structuredContent.products.forEach(p => p.variants.forEach(v => { delete v.availability; }));
+      if (sc.mutate === "injectDiscountFields") body.result.structuredContent.products.forEach(p => p.variants.forEach(v => { v.checkout_url = "https://example.test/checkout"; v.compare_at_price = { amount: 99999, currency: "USD" }; v.discount = "50% off"; v.description = { plain: "SAVE BIG" }; }));
+      if (sc.mutate === "dropPrice") body.result.structuredContent.products[0].variants[0].price = { currency: "USD" };
+      if (sc.mutate === "foreignCurrency") body.result.structuredContent.products[0].variants[0].price.currency = "EUR";
+      const fetchFn = (url, init) => {
+        calls.push({ url, init: { method: init.method, headers: init.headers, body: init.body } });
+        if (sc.fail === "reject") return Promise.reject(new TypeError("Failed to fetch"));
+        if (sc.fail === "status") return reply({}, 500);
+        if (sc.fail === "rpcError") return reply({ jsonrpc: "2.0", id: 1, error: { code: -32001, message: "UCP discovery failed" } });
+        if (sc.empty) return reply({ jsonrpc: "2.0", id: 1, result: { structuredContent: { products: [], messages: [] } } });
+        return reply(body);
+      };
+      const p = boot({ fetch: sc.noFetch ? undefined : fetchFn });
+      const before = {};
+      type(p, sc.query || "waffle knit hoodie men");
+      before.btnShown = $(p, "live").style.display !== "none";
+      before.privacy = collect($(p, "liveprivacy")).trim();
+      before.storedHead = $(p, "stored-head").style.display !== "none";
+      before.stored = snap(p).count;
+      before.calls = calls.length;
+      clickId(p, "livebtn");
+      const during = visibleText($(p, "live")).replace(/\s+/g, " ").trim();
+      await new Promise(r => setImmediate(r));
+      await new Promise(r => setImmediate(r));
+      const cards = Array.from($(p, "livebody").querySelectorAll("[data-live-card]")).map(c => ({
+        title: textOf(c, "data-live-title"), seller: textOf(c, "data-live-seller"), price: textOf(c, "data-live-price"),
+        stock: textOf(c, "data-live-stock"), source: textOf(c, "data-live-source"), scope: textOf(c, "data-live-scope"),
+        coupon: textOf(c, "data-live-coupon"), tax: textOf(c, "data-live-tax"),
+        href: c.querySelectorAll("[data-live-link]")[0] ? c.querySelectorAll("[data-live-link]")[0].attrs.href : null,
+        text: visibleText(c).replace(/\s+/g, " ").trim(),
+      }));
+      const after = snap(p);
+      let afterType = null;
+      if (sc.thenType) { type(p, sc.thenType); afterType = { live: visibleText($(p, "live")).replace(/\s+/g, " ").trim(), liveShown: $(p, "live").style.display !== "none", storedHead: $(p, "stored-head").style.display !== "none" }; }
+      liveOut[name] = { before, during, calls, cards, liveText: visibleText($(p, "live")).replace(/\s+/g, " ").trim(),
+        storedHeadShown: $(p, "stored-head").style.display !== "none", storedHeadText: collect($(p, "stored-head")).trim(),
+        storedCount: after.count, storedCards: after.main.length, btnDisabled: Object.prototype.hasOwnProperty.call($(p, "livebtn").attrs, "disabled"),
+        hash: after.hash, afterType };
+    }
+    process.stdout.write(JSON.stringify(liveOut), () => process.exit(0));
+  })();
+  return;
 }
 
 const out = {};

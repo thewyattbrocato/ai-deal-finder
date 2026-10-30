@@ -1,0 +1,1582 @@
+{
+ "recorded_at": "2026-10-04T02:31:00Z",
+ "recorded_by": "a real POST made with curl while building the live-search slice; not edited",
+ "query": "waffle knit hoodie men",
+ "request": {
+  "url": "https://catalog.shopify.com/api/ucp/mcp",
+  "content_type": "text/plain",
+  "address_country": "US",
+  "currency": "USD",
+  "limit": 10
+ },
+ "profile_used": "https://shopify.dev/ucp/agent-profiles/examples/2026-08-25/valid-with-capabilities.json",
+ "profile_note": "The page's own ucp-agent.json is not published until the branch is merged, so the recording used the example profile from Shopify's own docs.",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+   "structuredContent": {
+    "ucp": {
+     "version": "2026-08-25",
+     "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+       {
+        "version": "2026-08-25",
+        "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+        "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
+       }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+       {
+        "version": "2026-08-25",
+        "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+        "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_lookup.json"
+       }
+      ],
+      "dev.shopify.catalog.global": [
+       {
+        "version": "2026-08-25",
+        "spec": "https://shopify.dev/docs/agents/catalog/global-catalog",
+        "schema": "https://shopify.dev/ucp/schemas/2026-08-25/shopify_catalog_global.json",
+        "extends": [
+         "dev.ucp.shopping.catalog.search",
+         "dev.ucp.shopping.catalog.lookup"
+        ],
+        "requires": {
+         "protocol": {
+          "min": "2026-08-25"
+         }
+        }
+       }
+      ]
+     },
+     "status": "success"
+    },
+    "products": [
+     {
+      "id": "gid://shopify/p/2IaqjqKvYOeV4dBTCQ6ZuX",
+      "title": "MENS MAXTON WAFFLE FULL ZIP HOODIE - MT0500170",
+      "description": {
+       "plain": "Ultra-soft 100% cotton waffle knit hoodie with full zip and embroidered patch for premium comfort and style."
+      },
+      "rating": {
+       "value": 4.9,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 30
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "250 Pristine"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Features a two-tone waffle knit texture and embroidered patch for a premium, stylish look."
+       ],
+       "top_features": [
+        "100% cotton waffle knit construction provides exceptional softness and warmth",
+        "Full zip hood offers adjustable coverage and easy ventilation",
+        "Embroidered patch adds a distinctive, stylish accent",
+        "Tonal filled-in bunny logo delivers subtle branding detail"
+       ],
+       "tech_specs": [
+        "Material: 100% cotton",
+        "Texture: Waffle knit",
+        "Closure: Full zip",
+        "Fit: Regular",
+        "Care: Machine wash cold, tumble dry low"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/2304/1219/files/MT0500170-PRISTINE_1.webp",
+        "alt_text": "Mens Maxton Waffle Full Zip Hoodie in beige and white micro-check waffle knit, featuring a classic fit, brown trim, drawstrings, and a small embroidered Psycho Bunny skull logo on the left chest."
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/43538356961303",
+        "title": "MENS MAXTON WAFFLE FULL ZIP HOODIE - MT0500170",
+        "description": {
+         "plain": "The Men's Maxton Two Tone Waffle Full Zip Hoodie is knit from 100% cotton for an ultra soft feel while also adding dimension with its waffle-knit texture. It features a full zip hood and is finished with an embroidered patch and a tonal filled-in Bunny logo. Features: - Full zip hood - Embroidered patch - Tonal filled-in Bunny logo Fit: - Regular fit Composition & Care: - 100% Cotton - Machine wash cold, inside out. Tumble dry low."
+        },
+        "url": "https://www.psychobunny.com/products/mens-maxton-waffle-full-zip-hoodie-mt0500170-250-pristine?variant=43538356961303&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 10500,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": false
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "250 Pristine"
+         },
+         {
+          "name": "Size",
+          "label": "XXS"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/2304/1219/files/MT0500170-PRISTINE_1.webp",
+          "alt_text": "Mens Maxton Waffle Full Zip Hoodie in beige and white micro-check waffle knit, featuring a classic fit, brown trim, drawstrings, and a small embroidered Psycho Bunny skull logo on the left chest."
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/23041219",
+         "name": "Psycho Bunny",
+         "url": "https://www.psychobunny.com",
+         "domain": "psychobunny-com.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/23041219/policies/639893527.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/23041219/policies/639926295.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/23041219/policies/639860759.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/23041219/policies/23318790167.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.psychobunny.com/cart/43538356961303:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 5.0,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 16
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 10500,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 10500,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/6am0RUdV1tZ3JkhOWbCnrF",
+      "title": "Greyson Men's Traverse Waffle Hoodie",
+      "description": {
+       "plain": "A lightweight, stretchable waffle knit hoodie offering breathable comfort and a modern relaxed fit."
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Falcon"
+         },
+         {
+          "label": "Pacific Fog"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Soft waffle knit fabric with 4-way stretch for flexible, breathable comfort."
+       ],
+       "top_features": [
+        "4-way stretch waffle knit fabric: Ensures flexibility and ease of movement for all-day comfort",
+        "Lightweight construction: Keeps you cool and comfortable in any season",
+        "Attached hood: Provides added coverage and a modern look",
+        "Moisture wicking and quick drying: Keeps you dry during active or casual wear",
+        "Classic fit: Offers a relaxed, versatile silhouette suitable for everyday use"
+       ],
+       "tech_specs": [
+        "Material: 83% recycled polyester, 13% lyocell, 4% spandex",
+        "Fabrication: Waffle knit with 4-way stretch",
+        "Fit: Classic",
+        "Neckline: Hooded",
+        "Pattern: Textured",
+        "Available sizes: S, M, L, XL, XXL"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/1038/6190/files/MSP26K49xFALCONxPrimary_188329983.jpg",
+        "alt_text": "Greyson Men's Traverse Waffle Hoodie - Saint Bernard"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/44755051806774",
+        "title": "Greyson Men's Traverse Waffle Hoodie",
+        "description": {
+         "plain": "DESCRIPTION: This lightweight hoodie is made from soft waffle knit fabric with added stretch, delivering breathable comfort and an easy, flexible fit. Designed with a clean, contemporary look, it layers effortlessly while maintaining a relaxed, modern feel. Versatile and comfortable, it’s an everyday essential you’ll reach for on the go or at rest. FEATURES: Double Layer Hood 4-Way Stretch Waffle Knit Fabrication 83% Recycled Polyester, 13% Lyocell, 4% Spandex Classic Fit Model is wearing size Medium hoodie. Falcon: Model's Measurements: Height: 6'2\" | Waist: 32\" | Inseam: 34\" | Collar: 15.5\" | Sleeve: 34\" | Suit: 40L Pacific Fog: Model's Measurements: Height: 6'0\" | Waist: 32\" | Inseam: 32\" | Collar: 15\" | Sleeve: 34.5\" | Suit: 40R"
+        },
+        "url": "https://www.saintbernard.com/products/greyson-mens-traverse-waffle-hoodie-2?variant=44755051806774&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 11000,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": false
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Falcon"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/1038/6190/files/MSP26K49xFALCONxPrimary_188329983.jpg",
+          "alt_text": "Greyson Men's Traverse Waffle Hoodie - Saint Bernard"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/10386190",
+         "name": "Saint Bernard",
+         "url": "https://www.saintbernard.com",
+         "domain": "saintbernard-com.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038823478.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/10386190/policies/9038856246.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038790710.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038889014.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.saintbernard.com/cart/44755051806774:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 5.0,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 1
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 11000,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 11000,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/4K0M0WjBKpCFX4oKccNtf0",
+      "title": "CORE™ Waffle Knit Hoodie",
+      "description": {
+       "plain": "A heritage-inspired waffle knit hoodie blending classic American durability with modern comfort and odor control."
+      },
+      "rating": {
+       "value": 4.8,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 45
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Admiral"
+         },
+         {
+          "label": "Battleship"
+         },
+         {
+          "label": "Bone"
+         },
+         {
+          "label": "Carbon"
+         },
+         {
+          "label": "Oxblood"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "Small (S)"
+         },
+         {
+          "label": "Medium (M)"
+         },
+         {
+          "label": "Large (L)"
+         },
+         {
+          "label": "Extra large (XL)"
+         },
+         {
+          "label": "Double extra large (XXL)"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Features proprietary Core Waffle Knit fabric with odor control technology for lasting freshness and shape retention."
+       ],
+       "top_features": [
+        "Proprietary Core Waffle Knit fabric: Delivers three-season warmth and natural breathability for all-day comfort",
+        "Odor control technology: Neutralizes scent without heavy metals or antimicrobials, keeping the hoodie fresh longer",
+        "Double knit construction: Resists sagging and maintains shape through repeated wear and washing",
+        "Minimalist, heritage-inspired texture: Offers a soft yet structured feel for versatile layering",
+        "Ribbed cuffs and hem: Lock in comfort and ensure a secure fit"
+       ],
+       "tech_specs": [
+        "Fabric: 66% polyester, 34% cotton",
+        "Care instructions: Machine washable",
+        "Sleeve length: Long",
+        "Neckline: Hooded",
+        "Pattern: Textured",
+        "Available sizes: S, M, L, XL, XXL"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0769/2622/2614/files/WEB-WAFFLEBONEHDFRONT.webp",
+        "alt_text": "Color:Bone"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/50241056276758",
+        "title": "CORE™ Waffle Knit Hoodie",
+        "description": {
+         "plain": "Long before “performance” became a buzzword, America lived in waffle knits. From soldiers layering up in the field to factory workers and farmers braving dawn shifts, the waffle weave became a staple of American life. Built for warmth, breathability, and hard use. It was simple, honest, and dependable. We took that heritage and reimagined it for today. The Core Waffle Collection brings back the texture that defined generations, built with a modern three-season fabric engineered for comfort and versatility. Our proprietary CORE Waffle knit is a blend of 66% polyester and 34% cotton. It traps just enough heat when you need it and breathes when you don’t. Super soft against the skin, structured enough to hold its shape, this is the hoodie you’ll reach for from the first cool mornings of fall to the thaw of spring. Layer it under a jacket, throw it over a tee, or wear it solo. However you roll, it’s built to keep up. HeiQ Fresh odor-control technology keeps this waffle knit smelling clean longer, neutralizing odor without heavy metals or antimicrobials. Built to stay fresh through hard wear and repeated washes. Thermal Waffle Fabric – Three-season warmth with natural breathability Heritage-Inspired Texture – A nod to the classic American thermal Soft Yet Structured Feel – Double-knit construction resists sag and maintains shape Ribbed Cuffs & Hem – Lock in comfort and hold their fit Minimalist Design – Built for versatility from workdays to weekends"
+        },
+        "url": "https://originusa.com/products/core-waffle-hoodie?variant=50241056276758&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 8900,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Bone"
+         },
+         {
+          "name": "Size",
+          "label": "Small (S)"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0769/2622/2614/files/WEB-WAFFLEBONEHDFRONT.webp",
+          "alt_text": "Color:Bone"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/76926222614",
+         "name": "ORIGIN",
+         "url": "https://originusa.com",
+         "domain": "17a175-4.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/76926222614/policies/35965862166.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/76926222614/policies/35965894934.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/76926222614/policies/35965829398.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/76926222614/policies/35965927702.html"
+          }
+         ]
+        },
+        "checkout_url": "https://originusa.com/cart/50241056276758:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 4.9,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 78
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 8900,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 8900,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/2lP6cveXRag2ladWYoCnUB",
+      "title": "Atajo Long-Sleeve Waffle Hoodie - Men's",
+      "description": {
+       "plain": "A breathable, lightweight waffle knit hoodie made from 100% Better Cotton Initiative cotton for all-day comfort and style."
+      },
+      "rating": {
+       "value": 4.4,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 32
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Charcoal"
+         },
+         {
+          "label": "Chimayo"
+         },
+         {
+          "label": "Juniper"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Made with 100% Better Cotton Initiative cotton for sustainable comfort and a distinctive crossover hood for easy layering."
+       ],
+       "top_features": [
+        "Waffle knit cotton construction: Enhances breathability and comfort for all-day wear",
+        "Crossover neck design: Adds a relaxed, casual look and easy layering",
+        "Three-piece crossover hood: Provides versatile coverage without bulk",
+        "Regular fit: Offers classic style and easy layering over base layers",
+        "Sustainable sourcing: Made with 100% Better Cotton Initiative cotton supporting responsible farming"
+       ],
+       "tech_specs": [
+        "Material: 100% Better Cotton Initiative cotton",
+        "Fabric Weight: 300 gsm",
+        "Fit: Regular",
+        "Sleeve Length: Long",
+        "Care: Machine wash cold, tumble dry low, do not bleach, iron on medium if needed, dry clean, do not dry clean",
+        "Available Sizes: S, M, L, XL"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0281/7544/files/f26-m-atajo-long-sleeve-waffle-hoodie-charcoal-01-r.png",
+        "alt_text": "Atajo Long-Sleeve Waffle Hoodie - Men's, Charcoal, Model Pedro"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/42524476309565",
+        "title": "Atajo Long-Sleeve Waffle Hoodie - Men's",
+        "description": {
+         "plain": "Experience the perfect blend of style and functionality with the Atajo Long-Sleeve Waffle Hoodie. It's made with fabric from the Better Cotton Initiative, and the hooded cross-over neck adds the casual touch you’re looking for. Stay comfortable and classic anywhere with this versatile long-sleeve waffle hoodie."
+        },
+        "url": "https://www.cotopaxi.com/products/atajo-long-sleeve-waffle-hoodie-mens?variant=42524476309565&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 8500,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Charcoal"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0281/7544/files/f26-m-atajo-long-sleeve-waffle-hoodie-charcoal-01-r.png",
+          "alt_text": "Atajo Long-Sleeve Waffle Hoodie - Men's, Charcoal, Model Pedro"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/2817544",
+         "name": "Cotopaxi",
+         "url": "https://www.cotopaxi.com",
+         "domain": "cotopaxi.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://www.cotopaxi.com/2817544/policies/1593153.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://www.cotopaxi.com/2817544/policies/1593157.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://www.cotopaxi.com/2817544/policies/1593149.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://www.cotopaxi.com/2817544/policies/13066010685.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.cotopaxi.com/cart/42524476309565:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 4.5,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 25
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 8500,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 8500,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/TZZ0DVMWSJh3nuVOD5Wjf",
+      "title": "Men's Casual Patchwork Waffle Knit Hoodie",
+      "description": {
+       "plain": "A stylish men's hoodie featuring a patchwork waffle knit design for casual comfort and modern flair."
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Black"
+         },
+         {
+          "label": "Green"
+         },
+         {
+          "label": "Navy Blue"
+         },
+         {
+          "label": "Sky Blue"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "2XL"
+         },
+         {
+          "label": "3XL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Distinctive patchwork waffle knit texture adds a trendy, textured look to a casual hoodie."
+       ],
+       "top_features": [
+        "Patchwork waffle knit design: Delivers a unique, textured appearance for standout style",
+        "Soft waffle knit fabric: Provides warmth and comfort for everyday wear",
+        "Available in multiple sizes: Ensures a tailored fit for a range of body types",
+        "Long sleeves: Offers full arm coverage for added coziness"
+       ],
+       "tech_specs": [
+        "Color: Black, Gray",
+        "Pattern: Textured patchwork",
+        "Sleeve Length: Long",
+        "Available Sizes: S, M, L, XL, XXL, XXXL",
+        "Target Gender: Male"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0792/4449/3078/files/spp_shopify20260902100419_257b48abf386bea7488606c3e42606f1_a0c91cad-f0ee-43e7-b12a-0122cb6e96b7.jpg",
+        "alt_text": "Men's Casual Patchwork Waffle Knit Hoodie"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/51856998334742",
+        "title": "Men's Casual Patchwork Waffle Knit Hoodie",
+        "description": {
+         "plain": "A stylish men's hoodie featuring a patchwork waffle knit design for casual comfort and modern flair."
+        },
+        "url": "https://lonbor.vip/products/men-s-casual-patchwork-waffle-knit-hoodie?variant=51856998334742&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 3400,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Black"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0792/4449/3078/files/spp_shopify20260902100419_257b48abf386bea7488606c3e42606f1_a0c91cad-f0ee-43e7-b12a-0122cb6e96b7.jpg",
+          "alt_text": "Men's Casual Patchwork Waffle Knit Hoodie"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/79244493078",
+         "name": "Lonbor-vip",
+         "url": "https://lonbor.vip",
+         "domain": "lonbor-vip.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/79244493078/policies/36396597526.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/79244493078/policies/36396630294.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/79244493078/policies/36396564758.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/79244493078/policies/36396663062.html"
+          }
+         ]
+        },
+        "checkout_url": "https://lonbor.vip/cart/51856998334742:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 3400,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 3400,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/21xx6yX60NIwRj6p7VaLPW",
+      "title": "Traverse Waffle Hoodie",
+      "description": {
+       "plain": "A lightweight, breathable waffle knit hoodie offering flexible comfort and modern style for everyday wear or layering."
+      },
+      "rating": {
+       "value": 4.8,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 89
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Camp"
+         },
+         {
+          "label": "Falcon"
+         },
+         {
+          "label": "Grove"
+         },
+         {
+          "label": "Maltese Blue"
+         },
+         {
+          "label": "Pacific Fog"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Double-layer hood and silicone wolf head detail combine warmth, structure, and distinctive style in a flexible waffle knit design."
+       ],
+       "top_features": [
+        "Waffle knit construction: Provides breathable warmth and flexibility for all-day comfort",
+        "Double-layer hood: Adds extra warmth and structure for versatile layering",
+        "Silicone wolf head detail: Offers a unique, modern accent on the right hip",
+        "Open hems and cuffs: Enhance breathability and laid-back style",
+        "Lightweight design: Ideal for layering or standalone wear in changing conditions"
+       ],
+       "tech_specs": [
+        "Fabric: Polyester, Lyocell, Lycra",
+        "Hood: Attached, no drawstring",
+        "Sleeve: Long",
+        "Pattern: Textured",
+        "Available sizes: S, M, L, XL, XXL",
+        "Color options: Navy, Gray"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0041/1018/8642/files/MFA25K49_417_1.png",
+        "alt_text": "Maltese Blue Traverse Waffle Hoodie - Front View, Men's Lightweight Midlayer | Greyson Clothiers"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/52206005879147",
+        "title": "Traverse Waffle Hoodie",
+        "description": {
+         "plain": "The Traverse Waffle Hoodie blends comfort with a contemporary design. Made from a breathable polyester blend, it offers stretch for a flexible, easy fit. The double-layer hood provides extra warmth and structure, while open hems and cuffs ensure a laid-back style. Finished with a silicone wolf head detail on the right hip, it’s a versatile hoodie for effortless everyday wear."
+        },
+        "url": "https://greysonclothiers.com/products/traverse-waffle-hoodie?variant=52206005879147&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 13000,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Maltese Blue"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0041/1018/8642/files/MFA25K49_417_1.png",
+          "alt_text": "Maltese Blue Traverse Waffle Hoodie - Front View, Men's Lightweight Midlayer | Greyson Clothiers"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/4110188642",
+         "name": "Greyson Clothiers",
+         "url": "https://greysonclothiers.com",
+         "domain": "greyson-shop.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/4110188642/policies/8528199778.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/4110188642/policies/8528232546.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/4110188642/policies/8528167010.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/4110188642/policies/8671952994.html"
+          }
+         ]
+        },
+        "checkout_url": "https://greysonclothiers.com/cart/52206005879147:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 4.8,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 93
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 13000,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 13000,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/6WcKcIKxERxESgg52Jb5iY",
+      "title": "Men’s Waffle Knit Half Zip Hoodie – Textured Pullover Sweatshirt with Kangaroo Pocket",
+      "description": {
+       "plain": ""
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Beige"
+         },
+         {
+          "label": "Black"
+         },
+         {
+          "label": "Green"
+         },
+         {
+          "label": "Grey"
+         },
+         {
+          "label": "Light Blue"
+         },
+         {
+          "label": "Light Green"
+         },
+         {
+          "label": "Navy Blue"
+         },
+         {
+          "label": "Purple"
+         },
+         {
+          "label": "White"
+         }
+        ]
+       }
+      ],
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0659/6870/1539/files/O1CN01kE1FEB1YRF8RNEfup__2219017923055-0-cib.jpg",
+        "alt_text": "Men’s Waffle Knit Half Zip Hoodie – Textured Pullover Sweatshirt with Kangaroo Pocket"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/44537257230435",
+        "title": "Men’s Waffle Knit Half Zip Hoodie – Textured Pullover Sweatshirt with Kangaroo Pocket",
+        "description": {
+         "plain": ""
+        },
+        "url": "https://picustom.com/products/men-s-waffle-knit-half-zip-hoodie-textured-pullover-sweatshirt-with-kangaroo-pocket?variant=44537257230435&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 3998,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "White"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0659/6870/1539/files/O1CN01kE1FEB1YRF8RNEfup__2219017923055-0-cib.jpg",
+          "alt_text": "Men’s Waffle Knit Half Zip Hoodie – Textured Pullover Sweatshirt with Kangaroo Pocket"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/65968701539",
+         "name": "Picustom",
+         "url": "https://picustom.com",
+         "domain": "picllc.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/65968701539/policies/34318778467.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/65968701539/policies/34319302755.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/65968701539/policies/34319269987.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/65968701539/policies/34319335523.html"
+          }
+         ]
+        },
+        "checkout_url": "https://picustom.com/cart/44537257230435:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 3998,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 3998,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/6rCqx1VMEwoxTbgFzThILh",
+      "title": "Canyon Waffle Hoodie | Cedar Heather",
+      "description": {
+       "plain": "A premium waffle knit hoodie offering warmth, breathability, and odor resistance for all-day comfort."
+      },
+      "rating": {
+       "value": 4.9,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 370
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Army Heather"
+         },
+         {
+          "label": "Ash Heather"
+         },
+         {
+          "label": "Black Heather"
+         },
+         {
+          "label": "Cedar Heather"
+         },
+         {
+          "label": "Steel Blue Heather"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         },
+         {
+          "label": "3XL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Raised waffle knit construction traps heat while ionic botanical antimicrobial treatment resists odor."
+       ],
+       "top_features": [
+        "Raised waffle knit fabric: Traps heat and provides superior warmth",
+        "Soft, breathable knit: Allows moisture wicking and keeps you comfortable",
+        "Ionic botanical antimicrobial treatment: Resists odor for extended wear",
+        "Versatile design: Suitable for layering or worn alone in any setting"
+       ],
+       "tech_specs": [
+        "Material: Waffle knit fabric",
+        "Treatment: Ionic botanical antimicrobial",
+        "Fit: Designed for everyday wear",
+        "Layers: Suitable for layering or standalone use"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/0558/1914/1278/files/15043-CD-FrontMannequin-CanyonWaffleHoodie-2026.png",
+        "alt_text": "Front of Canyon Waffle Hoodie in Cedar Heather"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/45282136162462",
+        "title": "Canyon Waffle Hoodie | Cedar Heather",
+        "description": {
+         "plain": "Best For: Everyday Designed for everyday versatility, the Canyon Waffle Hoodie blends comfort and warmth in a premium top. Its raised waffle knit traps heat next to your skin, while the soft, breathable knit wicks moisture and features an Ionic+ Botanical antimicrobial treatment for odor resistance. Wear it alone or layered for all-day comfort in any setting."
+        },
+        "url": "https://www.kuiu.com/products/canyon-waffle-hoodie-cedar-heather?variant=45282136162462&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 9900,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Cedar Heather"
+         },
+         {
+          "name": "Size",
+          "label": "M"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0558/1914/1278/files/15043-CD-FrontMannequin-CanyonWaffleHoodie-2026.png",
+          "alt_text": "Front of Canyon Waffle Hoodie in Cedar Heather"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/55819141278",
+         "name": "KUIU",
+         "url": "https://www.kuiu.com",
+         "domain": "kuiu-shop.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/55819141278/policies/36842504350.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/55819141278/policies/36842537118.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/55819141278/policies/36842471582.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/55819141278/policies/36842569886.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.kuiu.com/cart/45282136162462:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 5.0,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 17
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 9900,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 9900,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/2f12CRnrQezc3XkWD2LYhI",
+      "title": "Greyson Men's Traverse Waffle Hoodie",
+      "description": {
+       "plain": "A lightweight, stretch-infused waffle knit hoodie designed for all-day comfort and versatile everyday wear."
+      },
+      "rating": {
+       "value": 5.0,
+       "scale_min": 1,
+       "scale_max": 5,
+       "count": 1
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Camp"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "XXL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Combines 4-way stretch waffle knit fabric with a classic fit for superior comfort and mobility."
+       ],
+       "top_features": [
+        "4-way stretch waffle knit fabric: Ensures unrestricted movement and all-day comfort",
+        "Lightweight construction: Ideal for layering in various weather conditions",
+        "Attached hood: Provides added coverage and a modern look",
+        "Classic fit: Offers a relaxed, easy-to-wear silhouette",
+        "Made with recycled materials: Supports sustainability and eco-conscious choices"
+       ],
+       "tech_specs": [
+        "Material: 83% recycled polyester, 13% lyocell, 4% spandex",
+        "Fabric weight: Not specified",
+        "Sleeve length: 36 inches (long)",
+        "Available sizes: S, M, L, XL, XXL",
+        "Color: Gray",
+        "Pattern: Textured"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/1038/6190/files/MFA26K49xCAMPxPrimary_203879296.jpg",
+        "alt_text": "Greyson Men's Traverse Waffle Hoodie - Saint Bernard"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/47298063958070",
+        "title": "Greyson Men's Traverse Waffle Hoodie",
+        "description": {
+         "plain": "DESCRIPTION: An effortless layer for everyday wear, this lightweight hoodie is crafted from soft, stretch-infused waffle knit fabric for breathable comfort and easy movement. Its clean, modern silhouette makes it ideal for layering, while the easy fit keeps things casual and comfortable. A versatile staple for wherever the day takes you. FEATURES: Double Layer Hood 4-Way Stretch Waffle Knit Fabrication 83% Recycled Polyester, 13% Lyocell, 4% Spandex Classic Fit Model is wearing size Medium hoodie. Model's Measurements: Height: 6'2\" | Waist: 32\" | Inseam: 32\" | Collar: 16.5\" | Sleeve: 36\" | Suit: 42L"
+        },
+        "url": "https://www.saintbernard.com/products/greyson-mens-traverse-waffle-hoodie-3?variant=47298063958070&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 11000,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Camp"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/1038/6190/files/MFA26K49xCAMPxPrimary_203879296.jpg",
+          "alt_text": "Greyson Men's Traverse Waffle Hoodie - Saint Bernard"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/10386190",
+         "name": "Saint Bernard",
+         "url": "https://www.saintbernard.com",
+         "domain": "saintbernard-com.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038823478.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/10386190/policies/9038856246.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038790710.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/10386190/policies/9038889014.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.saintbernard.com/cart/47298063958070:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 5.0,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 1
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 11000,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 11000,
+        "currency": "USD"
+       }
+      }
+     },
+     {
+      "id": "gid://shopify/p/4faVTrsOKJMXlo1pZtfOZj",
+      "title": "Waffle Lounge Hoodie - Bone",
+      "description": {
+       "plain": "A structured, textured hoodie with ribbed cuffs and a spacious hood for year-round comfort."
+      },
+      "options": [
+       {
+        "name": "Color",
+        "values": [
+         {
+          "label": "Black"
+         },
+         {
+          "label": "Bone"
+         },
+         {
+          "label": "Clover Green"
+         },
+         {
+          "label": "Espresso"
+         },
+         {
+          "label": "Navy"
+         }
+        ]
+       },
+       {
+        "name": "Size",
+        "values": [
+         {
+          "label": "S"
+         },
+         {
+          "label": "M"
+         },
+         {
+          "label": "L"
+         },
+         {
+          "label": "XL"
+         },
+         {
+          "label": "2XL"
+         }
+        ]
+       }
+      ],
+      "metadata": {
+       "unique_selling_points": [
+        "Subtle waffle texture and structured fit combine for a stylish, comfortable loungewear-inspired hoodie."
+       ],
+       "top_features": [
+        "Structured waffle knit fabric adds subtle texture for a modern look",
+        "Spacious hood provides extra coverage and comfort",
+        "Ribbed cuffs ensure a secure fit and prevent slipping",
+        "Balanced weight offers all-day wearability in any season",
+        "Versatile styling pairs easily with joggers or shorts"
+       ],
+       "tech_specs": [
+        "Material: Waffle knit fabric",
+        "Cuffs: Ribbed",
+        "Hood: Spacious, hooded",
+        "Sleeve Length: Long",
+        "Pattern: Textured",
+        "Available Sizes: S, M, L, XL, XXL"
+       ]
+      },
+      "media": [
+       {
+        "type": "image",
+        "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3311R_03040_b2_s1_a1_m208.jpg",
+        "alt_text": "Waffle Lounge Hoodie - Bone"
+       }
+      ],
+      "variants": [
+       {
+        "id": "gid://shopify/ProductVariant/50661734842727",
+        "title": "Waffle Lounge Hoodie - Bone",
+        "description": {
+         "plain": "Laid-back with a structured finish. The Waffle Lounge Hoodie adds subtle texture to a clean silhouette, with ribbed cuffs, a spacious hood, and just enough weight to wear year-round. Pair it with the matching jogger or your favorite pair of shorts for a cool, comfortable look."
+        },
+        "url": "https://www.aloyoga.com/products/m3311r-waffle-lounge-hoodie-bone?variant=50661734842727&_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "price": {
+         "amount": 14800,
+         "currency": "USD"
+        },
+        "availability": {
+         "available": true
+        },
+        "options": [
+         {
+          "name": "Color",
+          "label": "Bone"
+         },
+         {
+          "name": "Size",
+          "label": "S"
+         }
+        ],
+        "media": [
+         {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3311R_03040_b2_s1_a1_m208.jpg",
+          "alt_text": "Waffle Lounge Hoodie - Bone"
+         }
+        ],
+        "seller": {
+         "id": "gid://shopify/Shop/21852813",
+         "name": "Alo Yoga",
+         "url": "https://www.aloyoga.com",
+         "domain": "alo-yoga.myshopify.com",
+         "links": [
+          {
+           "type": "privacy_policy",
+           "url": "https://checkout.shopify.com/21852813/policies/34245570.html"
+          },
+          {
+           "type": "terms_of_service",
+           "url": "https://checkout.shopify.com/21852813/policies/34245634.html"
+          },
+          {
+           "type": "refund_policy",
+           "url": "https://checkout.shopify.com/21852813/policies/34245506.html"
+          },
+          {
+           "type": "shipping_policy",
+           "url": "https://checkout.shopify.com/21852813/policies/25273958580.html"
+          }
+         ]
+        },
+        "checkout_url": "https://www.aloyoga.com/cart/50661734842727:1?_gsid=ih4e3BMojoXm&utm_source=shopify&utm_medium=catalog",
+        "rating": {
+         "value": 5.0,
+         "scale_min": 1,
+         "scale_max": 5,
+         "count": 47
+        },
+        "condition": [
+         "new"
+        ],
+        "eligible": {
+         "native_checkout": false
+        }
+       }
+      ],
+      "price_range": {
+       "min": {
+        "amount": 14800,
+        "currency": "USD"
+       },
+       "max": {
+        "amount": 14800,
+        "currency": "USD"
+       }
+      }
+     }
+    ],
+    "messages": [],
+    "pagination": {
+     "has_next_page": true,
+     "total_count": 382,
+     "cursor": "eyJvZmZzZXQiOjEwLCJ0b3RhbF9jb3VudCI6MzgyLCJyZXR1cm5lZCI6MTB9"
+    }
+   }
+  }
+ }
+}
